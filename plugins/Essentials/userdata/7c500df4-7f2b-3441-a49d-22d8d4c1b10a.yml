@@ -1,0 +1,22 @@
+lastAccountName: renzosy
+timestamps:
+  login: 1564060968218
+  logout: 1564072662476
+  lastteleport: 1564072578224
+ipAddress: 0:0:0:0:0:0:0:1
+lastlocation:
+  world: world
+  x: 436.69999998807907
+  y: 63.03584062504456
+  z: 335.9348885246019
+  yaw: 200.18999
+  pitch: 17.86701
+logoutlocation:
+  world: world
+  x: 437.3530889778903
+  y: 61.0
+  z: 327.19353979265316
+  yaw: 87.971664
+  pitch: -3.4756823
+money: '5212.03'
+afk: false

@@ -1,0 +1,362 @@
+bad-command-list:
+- '?'
+- help
+- ver
+- version
+- bukkit
+- me
+- about
+logcommands:
+- '?'
+- op
+- about
+- wand
+- ban
+- replacenear
+- replace
+- stop
+- tempban
+- mute
+swear-words:
+- fuck
+- shit
+- cunt
+- dick
+- kike
+- nigger
+- faggot
+- bastard
+- asshole
+- buttfuck
+- dicksucker
+inventory:
+  e287ca4c-ccb5-3d46-8ab0-8f5098f10577:
+    contents:
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: IRON_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        Damage: 96
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: TORCH
+      amount: 12
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: DIAMOND_PICKAXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        Damage: 244
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: DIAMOND_PICKAXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        Damage: 9
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: COBBLESTONE
+      amount: 37
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: IRON_PICKAXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        Damage: 247
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: IRON_AXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        Damage: 83
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: IRON_SHOVEL
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        Damage: 3
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: CARROT
+      amount: 58
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: CARROT
+      amount: 64
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: CARROT
+      amount: 38
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: COAL
+      amount: 64
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: STRIPPED_OAK_LOG
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: CRAFTING_TABLE
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: OAK_SAPLING
+      amount: 12
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: OAK_LOG
+      amount: 39
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: COBBLESTONE
+      amount: 64
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: TORCH
+      amount: 5
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: FLINT
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: STICK
+      amount: 38
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: IRON_BLOCK
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: LAPIS_LAZULI
+      amount: 10
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: IRON_ORE
+      amount: 8
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: REDSTONE
+      amount: 64
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: COAL
+      amount: 4
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: DIORITE
+      amount: 2
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: GRANITE
+      amount: 5
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: REDSTONE
+      amount: 64
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: ANDESITE
+      amount: 32
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: COBBLESTONE
+      amount: 25
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: REDSTONE
+      amount: 20
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: GOLD_ORE
+      amount: 15
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: ARROW
+    armor: []
+  a9e52362-e903-3089-8f30-1e5a3b7d754a:
+    contents:
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: FILLED_MAP
+      meta:
+        ==: ItemMeta
+        meta-type: MAP
+        display-name: Buried Treasure Map
+        internal: H4sIAAAAAAAAAONiYOBk4HZJTc4vSizJzM8r5mJgYGBkY2Auyi9xSGtgAAE2BsYKh8oJMHaVQ6YCmM3BwJSZwsCozcjAUlJZkCrFwAAAQfAe6E4AAAA=
+        map-id: 3
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: STONE_AXE
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: COAL
+      amount: 11
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: STONE_HOE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        Damage: 17
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: FILLED_MAP
+      meta:
+        ==: ItemMeta
+        meta-type: MAP
+        display-name: Buried Treasure Map
+        internal: H4sIAAAAAAAAAONiYOBk4HZJTc4vSizJzM8r5mJgYGBkY2Auyi9xSGtgAAE2BsaKA7EHYOwqh3QFMJuDgSkzhYFRm5GBpaSyIFWKgQEAlI+Dek4AAAA=
+        map-id: 14
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: FILLED_MAP
+      meta:
+        ==: ItemMeta
+        meta-type: MAP
+        map-id: 11
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: FISHING_ROD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          LUCK: 1
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: BUCKET
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: STONE_PICKAXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        Damage: 2
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: WHEAT
+      amount: 4
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: STONE_AXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        Damage: 41
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: PRISMARINE_CRYSTALS
+      amount: 3
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: STICK
+      amount: 15
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: DIAMOND_PICKAXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          DIG_SPEED: 2
+        Damage: 793
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: WHITE_BANNER
+      meta:
+        ==: ItemMeta
+        meta-type: BANNER
+        display-name: §6Ominous Banner
+        patterns:
+        - ==: Pattern
+          color: CYAN
+          pattern: mr
+        - ==: Pattern
+          color: LIGHT_GRAY
+          pattern: bs
+        - ==: Pattern
+          color: GRAY
+          pattern: cs
+        - ==: Pattern
+          color: LIGHT_GRAY
+          pattern: bo
+        - ==: Pattern
+          color: BLACK
+          pattern: ms
+        - ==: Pattern
+          color: LIGHT_GRAY
+          pattern: hh
+        - ==: Pattern
+          color: LIGHT_GRAY
+          pattern: mc
+        - ==: Pattern
+          color: BLACK
+          pattern: bo
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: TORCH
+      amount: 27
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: BIRCH_PLANKS
+      amount: 40
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: BREAD
+      amount: 64
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: ROTTEN_FLESH
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: COBBLESTONE
+      amount: 22
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: STONE_SHOVEL
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        Damage: 22
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: BREAD
+      amount: 15
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: IRON_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        Damage: 23
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: TURTLE_HELMET
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_PROJECTILE: 2
+        Damage: 59
+    armor:
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: IRON_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        Damage: 23
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: TURTLE_HELMET
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_PROJECTILE: 2
+        Damage: 59

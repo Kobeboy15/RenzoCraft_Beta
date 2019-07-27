@@ -1,0 +1,145 @@
+groups:
+  user:
+    build: true
+    options:
+      rank: '1000'
+      prefix: '&e[User] '
+      default: true
+    permissions:
+    - essentials.balance
+    - essentials.help
+    - essentials.rules
+    - essentials.tpa
+    - essentials.motd
+    - essentials.tpaccept
+    - essentials.tpdeny
+    - essentials.warp
+    - essentials.warp.list
+    - essentials.tphere
+  trusted:
+    build: true
+    permissions:
+    - essentials.kit.tools
+    - essentials.warp.list
+    - essentials.tp
+    - essentials.balance
+    inheritance:
+    - user
+    options:
+      rank: '80'
+      prefix: '&2[Trusted] '
+      default: false
+  moderator:
+    build: true
+    options:
+      rank: '800'
+      prefix: '&5[Moderator] '
+      default: false
+    permissions:
+    - essentials.feed
+    - essentials.heal
+    - essentials.broadcast
+    - essentials.spawner
+    - essentials.kick
+    - essentials.tempban
+    - essentials.weather
+    - essentials.tp
+    - essentials.tphere
+    - essentials.ban
+    - essentials.afk
+    - essentials.back
+    - essentials.back.ondeath
+    - essentials.clearinventory
+    - essentials.compass
+    - essentials.depth
+    - essentials.gamemode
+    - essentials.getpos
+    - essentials.heal
+    - essentials.help
+    - essentials.home
+    - essentials.item
+    - essentials.itemspawn.item-all
+    - essentials.jump
+    - essentials.kit
+    - essentials.kit.*
+    - essentials.list
+    - essentials.motd
+    - essentials.rules
+    - essentials.sethome
+    - essentials.sethome.multiple
+    - essentials.setwarp
+    - essentials.spawn
+    - essentials.top
+    - essentials.tp
+    - essentials.tpa
+    - essentials.warp
+    - essentials.setwarp
+    - essentials.warp.*
+    - essentials.warp.list
+    - essentials.gm
+    - coreprotect.*
+    - modifyworld.*
+  admin:
+    build: true
+    options:
+      rank: '100'
+      prefix: '&3[Admin] '
+      default: false
+    permissions:
+    - '*'
+  TheBestSpiderman:
+    build: true
+    options:
+      rank: '0'
+      prefix: '&c[TheBestSpiderman] '
+      default: false
+    permissions:
+    - essentials.balance
+    - essentials.help
+    - essentials.rules
+    - essentials.tpa
+    - essentials.motd
+    - essentials.tpaccept
+    - essentials.tpdeny
+    - essentials.warp
+    - essentials.warp.list
+    - essentials.tphere
+users:
+  dc70f05a-14b3-350c-91b3-ecddbe830761:
+    group: []
+    options:
+      name: Kobeboy15
+  a9e52362-e903-3089-8f30-1e5a3b7d754a:
+    options:
+      name: arcosanti
+    group: []
+  419c6fc8-50de-3a84-a6c2-b6e34c10baf1:
+    options:
+      name: Mangaboy5398
+    group: []
+  646085da-be96-308b-8634-fb8b260022a5:
+    group: []
+    options:
+      name: lolo_lola_69
+  a7f6e7c7-b490-3fc3-87b0-e2f9a1ed2e6a:
+    options:
+      name: bigpeen69
+  195970b1-2c78-31e9-b8b0-486b804db161:
+    options:
+      name: Lads
+  7c500df4-7f2b-3441-a49d-22d8d4c1b10a:
+    group:
+    - TheBestSpiderman
+    options:
+      name: renzosy
+  19a71d19-5f35-36be-9bd0-06e9a0c0895b:
+    options:
+      name: boredchinese
+    group: []
+  f160dbef-552f-3b70-af9a-129d0ff0c675:
+    options:
+      name: Johann
+  72e8fd46-1c55-361b-bd3c-0da47c70bb81:
+    options:
+      name: imololakanding
+schema-version: 1

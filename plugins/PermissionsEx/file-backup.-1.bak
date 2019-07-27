@@ -1,0 +1,122 @@
+groups:
+  user:
+    build: true
+    default: true
+    prefix: '&e[User] '
+    options:
+      rank: '1000'
+    permissions:
+    - essentials.afk
+    - essentials.balance
+    - essentials.getpos
+    - essentials.help
+    - essentials.helpop
+    - essentials.ignore
+    - essentials.list
+    - essentials.me
+    - essentials.motd
+    - essentials.msg
+    - essentials.near
+    - essentials.rules
+    - essentials.suicide
+    - essentials.clearinventory
+    - essentials.spawn
+    - essentials.home
+    - essentials.sethome
+    - essentials.delhome
+    - essentials.tpa
+    - essentials.tpaall
+    - essentials.tpaccept
+    - essentials.tpahere
+    - essentials.tpdeny
+    - essentials.warp
+    - essentials.warp.list
+    - essentials.warp.build
+  trusted:
+    build: true
+    default: false
+    prefix: '&2[Trusted] '
+    permissions:
+    - essentials.kit.tools
+    - essentials.warp.list
+    - essentials.tp
+    - essentials.balance
+    inheritance:
+    - user
+    options:
+      rank: '80'
+  moderator:
+    build: true
+    default: false
+    prefix: '&5[Moderator] '
+    options:
+      rank: '800'
+    permissions:
+    - essentials.feed
+    - essentials.heal
+    - essentials.broadcast
+    - essentials.spawner
+    - essentials.kick
+    - essentials.tempban
+    - essentials.weather
+    - essentials.tp
+    - essentials.tphere
+    - essentials.ban
+    - essentials.afk
+    - essentials.back
+    - essentials.back.ondeath
+    - essentials.clearinventory
+    - essentials.compass
+    - essentials.depth
+    - essentials.gamemode
+    - essentials.getpos
+    - essentials.heal
+    - essentials.help
+    - essentials.home
+    - essentials.item
+    - essentials.itemspawn.item-all
+    - essentials.jump
+    - essentials.kit
+    - essentials.kit.*
+    - essentials.list
+    - essentials.motd
+    - essentials.rules
+    - essentials.sethome
+    - essentials.sethome.multiple
+    - essentials.setwarp
+    - essentials.spawn
+    - essentials.top
+    - essentials.tp
+    - essentials.warp
+    - essentials.setwarp
+    - essentials.warp.*
+    - essentials.warp.list
+    - essentials.gm
+    - coreprotect.*
+    - modifyworld.*
+  admin:
+    build: true
+    default: false
+    prefix: '&4[Admin] '
+    options:
+      rank: '100'
+    permissions:
+    - essentials.*
+    - modifyworld.*
+    - worldedit.*
+    - worldguard.*
+  owner:
+    build: true
+    default: false
+    prefix: '&3[Owner] '
+    options:
+      rank: '0'
+    permissions:
+    - '*'
+users:
+  arcosanti:
+    group:
+    - user
+  kobeboy15:
+    group:
+    - owner
