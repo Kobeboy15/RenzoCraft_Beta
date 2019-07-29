@@ -1,20 +1,21 @@
 lastAccountName: Lads
 timestamps:
-  login: 1564233015937
-  logout: 1564148859818
-  lastteleport: 1564146763657
+  login: 1564386632619
+  logout: 1564386682620
+  lastteleport: 1564322798875
 ipAddress: 0:0:0:0:0:0:0:1
 lastlocation:
   world: world
-  x: 485.30000001192093
-  y: 66.0
-  z: 279.42909996620324
-  yaw: 203.41382
-  pitch: 9.47595
+  x: 496.71976223242723
+  y: 55.0
+  z: 278.84512978339643
+  yaw: -265.65332
+  pitch: 4.6994944
 logoutlocation:
   world: world
-  x: 478.8627791617687
-  y: 62.0
-  z: 270.80343848202335
-  yaw: 12.266236
-  pitch: 6.828429
+  x: 514.6999999880791
+  y: 35.53584062504456
+  z: 273.61668332982515
+  yaw: -58.54715
+  pitch: 52.82681
+money: '393.91'

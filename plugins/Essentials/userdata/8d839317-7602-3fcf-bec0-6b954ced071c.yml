@@ -1,20 +1,20 @@
 lastAccountName: Slaying_Mobs09
 timestamps:
-  login: 1564066102621
-  lastteleport: 1564069734184
-  logout: 1564070067117
+  login: 1564237094356
+  lastteleport: 1564237377096
+  logout: 1564238114205
 ipAddress: 0:0:0:0:0:0:0:1
 lastlocation:
   world: world
-  x: 661.5130301906775
-  y: 9.0
-  z: 13.346420582809683
-  yaw: 304.34174
-  pitch: 23.2198
+  x: 692.5373002605397
+  y: 10.0
+  z: -25.69999998807907
+  yaw: -167.10318
+  pitch: -2.730143
 logoutlocation:
   world: world
-  x: 516.5919931496373
-  y: 11.0
-  z: 296.30000001192093
-  yaw: 272.36737
-  pitch: 7.349685
+  x: 661.2926102567687
+  y: 9.0
+  z: 13.250475799291053
+  yaw: 11.571045
+  pitch: 17.070248

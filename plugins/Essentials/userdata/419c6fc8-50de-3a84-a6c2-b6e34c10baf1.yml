@@ -1,21 +1,21 @@
 lastAccountName: Mangaboy5398
 timestamps:
-  login: 1564140419732
-  lastteleport: 1564079713134
-  logout: 1564146988315
+  login: 1564347096517
+  lastteleport: 1564337033286
+  logout: 1564353071999
 ipAddress: 0:0:0:0:0:0:0:1
 lastlocation:
   world: world
-  x: 931.0044114505646
-  y: 38.0
-  z: -1245.4987088925734
-  yaw: 41.876648
-  pitch: 8.999589
+  x: 913.8962905558101
+  y: 9.0
+  z: -1094.6281532946873
+  yaw: 334.7019
+  pitch: 17.549725
 logoutlocation:
   world: world
-  x: 916.317491268713
-  y: 11.0
-  z: -1206.3331029188573
-  yaw: 3.8024902
-  pitch: 22.649372
+  x: 529.3079690574522
+  y: 79.0
+  z: 252.69999998807907
+  yaw: 348.39502
+  pitch: 11.849542
 money: '2.00'

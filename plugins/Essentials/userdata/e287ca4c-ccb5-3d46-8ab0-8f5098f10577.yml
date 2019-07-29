@@ -1,21 +1,21 @@
 lastAccountName: jonnski
 timestamps:
-  login: 1564147017625
-  logout: 1564148859876
-  lastteleport: 1564143329561
+  login: 1564362804572
+  logout: 1564365856128
+  lastteleport: 1564296960830
 ipAddress: 0:0:0:0:0:0:0:1
 lastlocation:
   world: world
-  x: 1051.6641590370873
-  y: 81.0
-  z: -265.5085365147847
-  yaw: -31.649874
-  pitch: 29.399529
+  x: -6.108197647427911
+  y: 69.0
+  z: 215.86035183833445
+  yaw: -9.303966
+  pitch: 4.3739896
 money: '0.41'
 logoutlocation:
   world: world
-  x: 936.7891766128445
-  y: 24.166109260938214
-  z: -223.57078424104412
-  yaw: 197.90527
-  pitch: -20.700146
+  x: 1051.343263365325
+  y: 81.0
+  z: -266.0391958100954
+  yaw: -87.14977
+  pitch: 32.549538

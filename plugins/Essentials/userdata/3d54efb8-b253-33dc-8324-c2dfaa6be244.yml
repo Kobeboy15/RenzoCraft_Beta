@@ -1,20 +1,20 @@
 lastAccountName: JezT
 timestamps:
-  login: 1563977146723
-  lastteleport: 1563977430528
-  logout: 1563978069260
+  login: 1564281899426
+  lastteleport: 1564282167945
+  logout: 1564283503553
 ipAddress: 0:0:0:0:0:0:0:1
 lastlocation:
-  world: world
-  x: -2.8133296507659455
-  y: 70.00133597911214
-  z: 209.7996021409943
-  yaw: 71.1958
-  pitch: 6.367011
-logoutlocation:
   world: world
   x: -92.3065169314786
   y: 62.0732652521753
   z: 351.3481060372834
-  yaw: 186.34033
-  pitch: 16.32317
+  yaw: 276.5625
+  pitch: 26.639757
+logoutlocation:
+  world: world
+  x: 1009.2210160312278
+  y: 58.0
+  z: -126.3000000119209
+  yaw: -265.87976
+  pitch: 1.3254045
