@@ -364,9 +364,9 @@ Skills:
                 Rank_3: 30.0
                 Rank_4: 40.0
                 Rank_5: 50.0
-                Rank_6: 50.0
-                Rank_7: 60.0
-                Rank_8: 60.0
+                Rank_6: 70.0
+                Rank_7: 85.0
+                Rank_8: 100.0
             Downgrades_Enabled: true
             Downgrades_Chance:
                 Rank_1: 75.0
@@ -375,8 +375,8 @@ Skills:
                 Rank_4: 30.0
                 Rank_5: 25.0
                 Rank_6: 20.0
-                Rank_7: 15.0
-                Rank_8: 10.0
+                Rank_7: 5.0
+                Rank_8: 0.0
     #
     #  Settings for Salvage
     ###
@@ -396,7 +396,7 @@ Skills:
                 Rank_5: 12.5
                 Rank_6: 17.5
                 Rank_7: 25.0
-                Rank_8: 32.5
+                Rank_8: 100.0
 
             # ExtractPartialEnchant: Chance to extract the partial enchant at each ArcaneSalvage rank
             ExtractPartialEnchant:
@@ -407,7 +407,7 @@ Skills:
                 Rank_5: 10.0
                 Rank_6: 12.5
                 Rank_7: 15.0
-                Rank_8: 17.5
+                Rank_8: 0.0
     #
     #  Settings for Smelting
     ###

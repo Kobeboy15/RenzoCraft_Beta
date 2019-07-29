@@ -523,9 +523,9 @@ Commands:
     inspect:
         Max_Distance: 30.0
     ptp:
-        Cooldown: 120
+        Cooldown: 0
         Warmup: 0
-        RecentlyHurt_Cooldown: 60
+        RecentlyHurt_Cooldown: 10
         Accept_Required: true
         Request_Timeout: 300
         # If true, require players to have a mcmmo.commands.ptp.world.[WorldName] permission
