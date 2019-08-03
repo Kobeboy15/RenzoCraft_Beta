@@ -470,6 +470,12 @@
     },
     "done": true
   },
+  "minecraft:story/lava_bucket": {
+    "criteria": {
+      "lava_bucket": "2019-08-01 18:44:24 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/cobblestone_slab_from_cobblestone_stonecutting": {
     "criteria": {
       "has_cobblestone": "2019-07-20 23:42:07 +0800"
@@ -579,6 +585,7 @@
       "minecraft:zombie_pigman": "2019-07-21 19:45:57 +0800",
       "minecraft:spider": "2019-07-21 15:05:37 +0800",
       "minecraft:creeper": "2019-07-20 23:27:21 +0800",
+      "minecraft:phantom": "2019-08-01 20:40:04 +0800",
       "minecraft:witch": "2019-07-23 21:14:16 +0800",
       "minecraft:cave_spider": "2019-07-21 18:45:24 +0800",
       "minecraft:zombie": "2019-07-20 23:46:27 +0800",
@@ -1073,6 +1080,7 @@
       "minecraft:taiga_hills": "2019-07-26 20:21:48 +0800",
       "minecraft:desert": "2019-07-20 22:35:14 +0800",
       "minecraft:jungle": "2019-07-20 22:32:27 +0800",
+      "minecraft:jungle_hills": "2019-08-01 20:43:11 +0800",
       "minecraft:bamboo_jungle": "2019-07-20 22:34:31 +0800",
       "minecraft:beach": "2019-07-20 22:44:44 +0800",
       "minecraft:river": "2019-07-20 22:34:29 +0800",

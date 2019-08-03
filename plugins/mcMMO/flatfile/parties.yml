@@ -2,7 +2,7 @@ ChillHouse:
   Leader: 419c6fc8-50de-3a84-a6c2-b6e34c10baf1|Mangaboy5398
   Locked: true
   Level: 10
-  Xp: 6688
+  Xp: 40165
   Ally: ''
   ExpShareMode: NONE
   ItemShareMode: NONE
@@ -30,3 +30,42 @@ ChillHouse:
   - e287ca4c-ccb5-3d46-8ab0-8f5098f10577|jonnski
   - edb16021-4303-3474-b9d7-6032ec9edef2|Haowix
   - 8ab37728-5dc4-3d56-b222-9dee547c605d|Arrchiiee
+GiniFritz:
+  Leader: 47a4aaeb-feae-366a-bb50-3db390c239cb|Giniguy
+  Password: bibi
+  Locked: true
+  Level: 5
+  Xp: 32681
+  Ally: ''
+  ExpShareMode: NONE
+  ItemShareMode: NONE
+  ItemShareType:
+    LOOT: true
+    MINING: true
+    HERBALISM: true
+    WOODCUTTING: true
+    MISC: true
+  Members:
+  - 47a4aaeb-feae-366a-bb50-3db390c239cb|Giniguy
+  - 76f1a2ac-693e-3061-aa4f-5b80da853173|FKritz
+Ass:
+  Leader: 89261801-6091-318c-87e2-eccb6020106e|AviationCaptain
+  Password: ass
+  Locked: true
+  Level: 1
+  Xp: 8165
+  Ally: ''
+  ExpShareMode: NONE
+  ItemShareMode: NONE
+  ItemShareType:
+    LOOT: true
+    MINING: true
+    HERBALISM: true
+    WOODCUTTING: true
+    MISC: true
+  Members:
+  - 89261801-6091-318c-87e2-eccb6020106e|AviationCaptain
+  - 38bc8697-e9f9-3f18-8336-b3f48d04ddbd|Ronai
+  - e34f1202-9af7-31dc-be07-62a64aba4033|B03AMBA60S
+  - 1a52e85a-f5ed-3b0f-9f6b-6af568be7c1e|ItsNine
+  - ed896488-438c-3fae-9803-52e7995633c4|ItsHmood02

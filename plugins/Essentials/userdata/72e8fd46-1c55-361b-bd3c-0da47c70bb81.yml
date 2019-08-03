@@ -1,8 +1,8 @@
 lastAccountName: imololakanding
 timestamps:
-  login: 1564410788614
+  login: 1564641900804
   lastteleport: 1564312282647
-  logout: 1564410812228
+  logout: 1564644053406
 ipAddress: 0:0:0:0:0:0:0:1
 lastlocation:
   world: world
@@ -13,9 +13,9 @@ lastlocation:
   pitch: 29.099678
 logoutlocation:
   world: world
-  x: 1112.300000011921
-  y: 82.0
-  z: -232.35584316855463
-  yaw: -211.60236
-  pitch: 25.498999
+  x: -6.504584817638886
+  y: 69.0
+  z: 235.05742690117881
+  yaw: -0.3050511
+  pitch: 20.273964
 money: '229.42'

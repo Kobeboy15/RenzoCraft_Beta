@@ -1,0 +1,19 @@
+lastAccountName: AviationCaptain
+timestamps:
+  login: 1564771238704
+  logout: 1564772419653
+ipAddress: 0:0:0:0:0:0:0:1
+lastlocation:
+  world: world
+  x: -12.5
+  y: 67.0
+  z: 226.5
+  yaw: 6.018671
+  pitch: 0.0
+logoutlocation:
+  world: world
+  x: -8.150549112229083
+  y: 69.0
+  z: 232.69447174148488
+  yaw: 258.1868
+  pitch: 14.299695
