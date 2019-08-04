@@ -83,6 +83,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/mossy_cobblestone": {
+    "criteria": {
+      "has_vine": "2019-08-03 11:04:40 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/yellow_stained_glass_pane_from_glass_pane": {
     "criteria": {
       "has_yellow_dye": "2019-07-20 22:52:45 +0800"
@@ -281,6 +287,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_slab_from_mossy_cobblestone_stonecutting": {
+    "criteria": {
+      "has_mossy_cobblestone": "2019-08-03 21:53:32 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/iron_ingot_from_blasting": {
     "criteria": {
       "has_iron_ore": "2019-07-21 01:39:44 +0800"
@@ -398,6 +410,12 @@
   "minecraft:recipes/building_blocks/coarse_dirt": {
     "criteria": {
       "has_gravel": "2019-07-25 20:58:38 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_stairs_from_mossy_cobblestone_stonecutting": {
+    "criteria": {
+      "has_mossy_cobblestone": "2019-08-03 21:53:32 +0800"
     },
     "done": true
   },
@@ -1198,6 +1216,12 @@
   "minecraft:recipes/building_blocks/green_stained_glass": {
     "criteria": {
       "has_glass": "2019-07-21 00:21:37 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/lime_dye_from_smelting": {
+    "criteria": {
+      "has_sea_pickle": "2019-08-03 10:52:15 +0800"
     },
     "done": true
   },
@@ -2177,6 +2201,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/terracotta": {
+    "criteria": {
+      "has_clay_block": "2019-08-03 10:55:19 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/flint_and_steel": {
     "criteria": {
       "has_flint": "2019-07-25 20:58:45 +0800"
@@ -2353,6 +2383,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/mossy_cobblestone_wall": {
+    "criteria": {
+      "has_mossy_cobblestone": "2019-08-03 21:53:32 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/hay_block": {
     "criteria": {
       "has_at_least_9_wheat": "2019-07-20 23:33:53 +0800"
@@ -2392,6 +2428,12 @@
   "minecraft:recipes/combat/bow": {
     "criteria": {
       "has_string": "2019-07-21 01:56:35 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mossy_cobblestone_wall_from_mossy_cobblestone_stonecutting": {
+    "criteria": {
+      "has_mossy_cobblestone": "2019-08-03 21:53:32 +0800"
     },
     "done": true
   },
@@ -2461,6 +2503,7 @@
       "minecraft:turtle": "2019-07-21 16:50:23 +0800",
       "minecraft:sheep": "2019-07-26 17:40:47 +0800",
       "minecraft:cow": "2019-07-22 22:43:21 +0800",
+      "minecraft:panda": "2019-08-03 22:05:30 +0800",
       "minecraft:horse": "2019-07-26 16:04:04 +0800"
     },
     "done": false
@@ -2969,6 +3012,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/mossy_stone_bricks": {
+    "criteria": {
+      "has_mossy_cobblestone": "2019-08-03 21:53:32 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/paper": {
     "criteria": {
       "has_reeds": "2019-07-21 20:18:55 +0800"
@@ -3107,6 +3156,12 @@
     },
     "done": true
   },
+  "minecraft:story/cure_zombie_villager": {
+    "criteria": {
+      "cured_zombie": "2019-08-03 22:36:19 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/light_weighted_pressure_plate": {
     "criteria": {
       "has_gold_ingot": "2019-07-21 02:02:30 +0800"
@@ -3134,6 +3189,12 @@
   "minecraft:recipes/building_blocks/blue_concrete_powder": {
     "criteria": {
       "has_sand": "2019-07-20 23:36:59 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_slab": {
+    "criteria": {
+      "has_mossy_cobblestone": "2019-08-03 21:53:32 +0800"
     },
     "done": true
   },
@@ -3614,6 +3675,12 @@
   "minecraft:recipes/building_blocks/melon": {
     "criteria": {
       "has_melon": "2019-07-20 23:27:17 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_stairs": {
+    "criteria": {
+      "has_mossy_cobblestone": "2019-08-03 21:53:32 +0800"
     },
     "done": true
   },

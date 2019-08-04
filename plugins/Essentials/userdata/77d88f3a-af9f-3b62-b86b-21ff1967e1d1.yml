@@ -1,20 +1,20 @@
 lastAccountName: jicoboy
 timestamps:
-  login: 1564757434118
-  lastteleport: 1564758739095
-  logout: 1564759367308
+  login: 1564830196723
+  lastteleport: 1564834925122
+  logout: 1564835505433
 ipAddress: 0:0:0:0:0:0:0:1
 lastlocation:
   world: world
-  x: 1078.169327251424
+  x: 1077.7556726501548
   y: 64.0
-  z: -517.4050944482817
-  yaw: 247.92642
-  pitch: 32.85013
+  z: -517.6449547021946
+  yaw: -69.31958
+  pitch: 22.650146
 logoutlocation:
   world: world
-  x: 1078.9373464536552
-  y: 63.9375
-  z: -518.2018915856694
-  yaw: 339.7052
-  pitch: 33.599472
+  x: 1080.6091479925028
+  y: 58.0
+  z: -508.69999998807907
+  yaw: 179.81061
+  pitch: -29.549334
