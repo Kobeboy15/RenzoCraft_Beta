@@ -1,234 +1,204 @@
-[21:59:54] [Server thread/INFO]: Starting minecraft server version 1.14.4
-[21:59:54] [Server thread/INFO]: Loading properties
-[21:59:54] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-1981d55-7f33c6a (MC: 1.14.4) (Implementing API version 1.14.4-R0.1-SNAPSHOT)
-[21:59:54] [Server thread/INFO]: Debug logging is disabled
-[21:59:54] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[21:59:54] [Server thread/INFO]: Using 4 threads for Netty based IO
-[21:59:54] [Server thread/INFO]: Default game type: SURVIVAL
-[21:59:54] [Server thread/INFO]: Generating keypair
-[21:59:55] [Server thread/INFO]: Starting Minecraft server on *:25565
-[21:59:55] [Server thread/INFO]: Using default channel type
-[21:59:59] [Server thread/WARN]: Plugin PermissionsEx v1.23.4 does not specify an api-version.
-[21:59:59] [Server thread/WARN]: Plugin Stargate v0.8.2 does not specify an api-version.
-[21:59:59] [Server thread/INFO]: [PermissionsEx] Loading PermissionsEx v1.23.4
-[21:59:59] [Server thread/WARN]: [PermissionsEx] This server is in offline mode. Unless this server is configured to integrate with a supported proxy (see http://dft.ba/-8ous), UUIDs *may not be stable*!
-[21:59:59] [Server thread/INFO]: [HomeSpawn] Loading HomeSpawn v3.1.4
-[21:59:59] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v13.7.1
-[21:59:59] [Server thread/INFO]: [mcMMO] Loading mcMMO v2.1.100-SNAPSHOT
-[21:59:59] [Server thread/INFO]: [AutoRestart] Loading AutoRestart v3.3.3
-[21:59:59] [Server thread/INFO]: [Vault] Loading Vault v1.7.2-b107
-[21:59:59] [Server thread/INFO]: [Stargate] Loading Stargate v0.8.2
-[21:59:59] [Server thread/INFO]: [GriefPrevention] Loading GriefPrevention v16.11.6
-[21:59:59] [Server thread/INFO]: [ChestShop] Loading ChestShop v3.10-SNAPSHOT (build 137)
-[21:59:59] [Server thread/INFO]: [Essentials] Loading Essentials v2.17.0.0
-[21:59:59] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn v2.17.0.0
-[21:59:59] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat v2.17.0.0
-[21:59:59] [Server thread/INFO]: [mcMMO] Enabling mcMMO v2.1.100-SNAPSHOT
-[22:00:00] [Server thread/INFO]: [mcMMO] enabling Acrobatics Skills
-[22:00:00] [Server thread/INFO]: [mcMMO] registered subskill: Roll
-[22:00:00] [Server thread/INFO]: [mcMMO] 0 entries in mcMMO World Blacklist
-[22:00:00] [Server thread/INFO]: [Vault] Enabling Vault v1.7.2-b107
-[22:00:00] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
-[22:00:00] [Server thread/INFO]: [Vault] [Permission] PermissionsEx found: Waiting
-[22:00:00] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[22:00:00] [Server thread/INFO]: [Vault] [Chat] PermissionsEx found: Waiting
-[22:00:00] [Server thread/INFO]: [Vault] Enabled Version 1.7.2-b107
-[22:00:00] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[22:00:00] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[22:00:00] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[22:00:00] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[22:00:00] [Server thread/INFO]: Preparing level "world"
-[22:00:00] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
-[22:00:00] [Server thread/INFO]: Loaded 6 recipes
-[22:00:00] [Server thread/INFO]: -------- World Settings For [world] --------
-[22:00:00] [Server thread/INFO]: View Distance: 8
-[22:00:00] [Server thread/INFO]: Item Despawn Rate: 6000
-[22:00:00] [Server thread/INFO]: Item Merge Radius: 2.5
-[22:00:00] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[22:00:00] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[22:00:00] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[22:00:00] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[22:00:00] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
-[22:00:00] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[22:00:00] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[22:00:00] [Server thread/INFO]: Cane Growth Modifier: 100%
-[22:00:00] [Server thread/INFO]: Melon Growth Modifier: 100%
-[22:00:00] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[22:00:00] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[22:00:00] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[22:00:00] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[22:00:00] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[22:00:00] [Server thread/INFO]: Potato Growth Modifier: 100%
-[22:00:00] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[22:00:00] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[22:00:00] [Server thread/INFO]: Vine Growth Modifier: 100%
-[22:00:00] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[22:00:00] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[22:00:00] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[22:00:00] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[22:00:00] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[22:00:00] [Server thread/INFO]: Mob Spawn Range: 6
-[22:00:00] [Server thread/INFO]: Experience Merge Radius: 3.0
-[22:00:00] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[22:00:00] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[22:00:00] [Server thread/INFO]: Max TNT Explosions: 100
-[22:00:00] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[22:00:00] [Server thread/INFO]: View Distance: 8
-[22:00:00] [Server thread/INFO]: Item Despawn Rate: 6000
-[22:00:00] [Server thread/INFO]: Item Merge Radius: 2.5
-[22:00:00] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[22:00:00] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[22:00:00] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[22:00:00] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[22:00:00] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
-[22:00:00] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[22:00:00] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[22:00:00] [Server thread/INFO]: Cane Growth Modifier: 100%
-[22:00:00] [Server thread/INFO]: Melon Growth Modifier: 100%
-[22:00:00] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[22:00:00] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[22:00:00] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[22:00:00] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[22:00:00] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[22:00:00] [Server thread/INFO]: Potato Growth Modifier: 100%
-[22:00:00] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[22:00:00] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[22:00:00] [Server thread/INFO]: Vine Growth Modifier: 100%
-[22:00:00] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[22:00:00] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[22:00:00] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[22:00:00] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[22:00:00] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[22:00:00] [Server thread/INFO]: Mob Spawn Range: 6
-[22:00:00] [Server thread/INFO]: Experience Merge Radius: 3.0
-[22:00:00] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[22:00:00] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[22:00:00] [Server thread/INFO]: Max TNT Explosions: 100
-[22:00:00] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[22:00:00] [Server thread/INFO]: View Distance: 8
-[22:00:00] [Server thread/INFO]: Item Despawn Rate: 6000
-[22:00:00] [Server thread/INFO]: Item Merge Radius: 2.5
-[22:00:00] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[22:00:00] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[22:00:00] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[22:00:00] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[22:00:00] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
-[22:00:00] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[22:00:00] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[22:00:00] [Server thread/INFO]: Cane Growth Modifier: 100%
-[22:00:00] [Server thread/INFO]: Melon Growth Modifier: 100%
-[22:00:00] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[22:00:00] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[22:00:00] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[22:00:00] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[22:00:00] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[22:00:00] [Server thread/INFO]: Potato Growth Modifier: 100%
-[22:00:00] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[22:00:00] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[22:00:00] [Server thread/INFO]: Vine Growth Modifier: 100%
-[22:00:00] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[22:00:00] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[22:00:00] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[22:00:00] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[22:00:00] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[22:00:00] [Server thread/INFO]: Mob Spawn Range: 6
-[22:00:00] [Server thread/INFO]: Experience Merge Radius: 3.0
-[22:00:00] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[22:00:00] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[22:00:00] [Server thread/INFO]: Max TNT Explosions: 100
-[22:00:00] [Server thread/INFO]: Preparing start region for dimension 'world'/minecraft:overworld
-[22:00:01] [Server thread/INFO]: Preparing spawn area: 0%
-[22:00:01] [Server thread/INFO]: Preparing spawn area: 0%
-[22:00:01] [Server thread/INFO]: Time elapsed: 849 ms
-[22:00:01] [Server thread/INFO]: Preparing start region for dimension 'world_nether'/minecraft:the_nether
-[22:00:02] [Server thread/INFO]: Preparing spawn area: 0%
-[22:00:02] [Server thread/INFO]: Time elapsed: 517 ms
-[22:00:02] [Server thread/INFO]: Preparing start region for dimension 'world_the_end'/minecraft:the_end
-[22:00:02] [Server thread/INFO]: Preparing spawn area: 0%
-[22:00:02] [Server-Worker-5/INFO]: Preparing spawn area: 93%
-[22:00:02] [Server thread/INFO]: Time elapsed: 545 ms
-[22:00:02] [Server thread/INFO]: [PermissionsEx] Enabling PermissionsEx v1.23.4
-[22:00:02] [Server thread/INFO]: [PermissionsEx] Initializing file backend
-[22:00:02] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
-[22:00:02] [Server thread/INFO]: [Vault][Permission] PermissionsEx hooked.
-[22:00:02] [Server thread/INFO]: [Vault] [Vault][Chat] PermissionsEx_Chat hooked.
-[22:00:02] [Server thread/INFO]: [HomeSpawn] Enabling HomeSpawn v3.1.4
-[22:00:03] [Server thread/INFO]: [HomeSpawn] HomeSpawn v3.1.4 has been enabled
-[22:00:03] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v13.7.1
-[22:00:03] [Server thread/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1mDetected Minecraft [0;33;1mv1_14_R1[0;32;1m, using [0;33;1mUniversalSkinFactory[0;32;1m.[m
-[22:00:03] [Server thread/INFO]: [AutoRestart] Enabling AutoRestart v3.3.3
-[22:00:03] [Server thread/INFO]: [0;32;1m[AutoRestart] Loaded![m
-[22:00:03] [Server thread/INFO]: [Stargate] Enabling Stargate v0.8.2
-[22:00:03] [Server thread/INFO]: Stargate v.0.8.2 is enabled.
-[22:00:03] [Server thread/INFO]: [Stargate] Loaded 1 gate layouts
-[22:00:03] [Server thread/INFO]: [Stargate] {world} No stargates for world 
-[22:00:03] [Server thread/INFO]: [Stargate] {world_nether} No stargates for world 
-[22:00:03] [Server thread/INFO]: [Stargate] {world_the_end} No stargates for world 
-[22:00:03] [Server thread/INFO]: [GriefPrevention] Enabling GriefPrevention v16.11.6
-[22:00:03] [Server thread/INFO]: [GriefPrevention] Finished loading configuration.
-[22:00:03] [Server thread/INFO]: [GriefPrevention] 57 total claims loaded.
-[22:00:04] [Server thread/INFO]: [GriefPrevention] Customizable messages loaded.
-[22:00:04] [Server thread/INFO]: [GriefPrevention] Finished loading data (File Mode).
-[22:00:04] [Server thread/INFO]: [GriefPrevention] Boot finished.
-[22:00:04] [Server thread/INFO]: [ChestShop] Enabling ChestShop v3.10-SNAPSHOT (build 137)
-[22:00:04] [Server thread/INFO]: [ChestShop] Using Essentials Economy as the Economy provider now.
-[22:00:04] [Server thread/INFO]: [ChestShop] Vault loaded!
-[22:00:04] [Server thread/INFO]: [Essentials] Enabling Essentials v2.17.0.0
-[22:00:04] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
-[22:00:04] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
-[22:00:04] [Server thread/INFO]: No kits found to migrate.
-[22:00:04] [Server thread/INFO]: [Essentials] Using 1.8.3+ BlockStateMeta provider as mob spawner provider.
-[22:00:04] [Server thread/INFO]: [Essentials] Using 1.13+ flat spawn egg provider as spawn egg provider.
-[22:00:04] [Server thread/INFO]: [Essentials] Using 1.9+ BasePotionData provider as potion meta provider.
-[22:00:04] [Server thread/INFO]: Loaded 20977 items from items.json.
-[22:00:04] [Server thread/INFO]: Using locale en_US
-[22:00:04] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[22:00:04] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[22:00:04] [Server thread/INFO]: [Vault] [Vault][Economy] Essentials Economy hooked.
-[22:00:04] [Server thread/INFO]: [Essentials] Using Vault based permissions (PermissionsEx)
-[22:00:04] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.17.0.0
-[22:00:04] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.17.0.0
-[22:00:04] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[22:00:05] [Server thread/INFO]: Done (4.690s)! For help, type "help"
-[22:00:05] [Craft Scheduler Thread - 0/INFO]: [mcMMO] Cleaned backup files. Deleted 2 of 17 files.
-[22:00:05] [Craft Scheduler Thread - 2/INFO]: [HomeSpawn] HomeSpawn file watcher started!
-[22:00:05] [Craft Scheduler Thread - 4/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m----------------------------------------------[m
-[22:00:05] [Craft Scheduler Thread - 4/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    +===============+[m
-[22:00:05] [Craft Scheduler Thread - 4/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    | SkinsRestorer |[m
-[22:00:05] [Craft Scheduler Thread - 4/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    +===============+[m
-[22:00:05] [Craft Scheduler Thread - 4/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m----------------------------------------------[m
-[22:00:05] [Craft Scheduler Thread - 4/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;36;1m    Current version: [0;32;1m13.7.1[m
-[22:00:05] [Craft Scheduler Thread - 4/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    This is the latest version![m
-[22:00:05] [Craft Scheduler Thread - 4/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m----------------------------------------------[m
-[22:00:06] [Server thread/INFO]: [0;32;1m[AutoRestart] Up to date![m
-[22:00:06] [Craft Scheduler Thread - 5/INFO]: [Vault] Checking for Updates ... 
-[22:00:06] [Craft Scheduler Thread - 5/INFO]: [Vault] No new version available
-[22:00:38] [Server thread/INFO]: Stopping the server
-[22:00:38] [Server thread/INFO]: Stopping server
-[22:00:38] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.17.0.0
-[22:00:38] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.17.0.0
-[22:00:38] [Server thread/INFO]: [Essentials] Disabling Essentials v2.17.0.0
-[22:00:38] [Server thread/INFO]: [Vault] [Vault][Economy] Essentials Economy unhooked.
-[22:00:38] [Server thread/INFO]: [ChestShop] Disabling ChestShop v3.10-SNAPSHOT (build 137)
-[22:00:38] [Server thread/INFO]: [GriefPrevention] Disabling GriefPrevention v16.11.6
-[22:00:38] [Server thread/INFO]: [GriefPrevention] GriefPrevention disabled.
-[22:00:38] [Server thread/INFO]: [Stargate] Disabling Stargate v0.8.2
-[22:00:38] [Server thread/INFO]: Closing all stargates.
-[22:00:38] [Server thread/INFO]: [Vault] Disabling Vault v1.7.2-b107
-[22:00:38] [Server thread/INFO]: [AutoRestart] Disabling AutoRestart v3.3.3
-[22:00:38] [Server thread/INFO]: [mcMMO] Disabling mcMMO v2.1.100-SNAPSHOT
-[22:00:38] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v13.7.1
-[22:00:38] [Server thread/INFO]: [HomeSpawn] Disabling HomeSpawn v3.1.4
-[22:00:38] [Server thread/INFO]: [HomeSpawn] HomeSpawn has been disabled
-[22:00:38] [Server thread/INFO]: [PermissionsEx] Disabling PermissionsEx v1.23.4
-[22:00:38] [Server thread/INFO]: Saving players
-[22:00:38] [Server thread/INFO]: Saving worlds
-[22:00:38] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
-[22:00:39] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[22:00:39] [Server thread/INFO]: Saving chunks for level 'world_nether'/minecraft:the_nether
-[22:00:39] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[22:00:39] [Server thread/INFO]: Saving chunks for level 'world_the_end'/minecraft:the_end
-[22:00:39] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[22:00:39] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[22:00:39] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[22:00:39] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[00:21:25] [Server thread/INFO]: [GriefPrevention] lolo_lola_69 placed a sign @ world: x474, z199;Can i ask for sum;granite ty;<3<3 xoxo :3
+[00:21:57] [Server thread/INFO]: [GriefPrevention] lolo_lola_69 placed a sign @ world: x474, z199;in need of sum;granite;*weeb emoticons*
+[00:22:05] [Server thread/WARN]: Demon moved wrongly!
+[00:22:05] [Server thread/WARN]: Demon moved wrongly!
+[00:22:05] [Server thread/WARN]: Demon moved wrongly!
+[00:22:06] [Server thread/WARN]: Demon moved wrongly!
+[00:22:06] [Server thread/WARN]: Demon moved wrongly!
+[00:22:06] [Server thread/WARN]: Demon moved wrongly!
+[00:23:13] [User Authenticator #9/INFO]: UUID of player big_tasty is bcea9435-1386-3cb2-a2cd-2ea98eae3322
+[00:23:14] [Server thread/INFO]: big_tasty[/0:0:0:0:0:0:0:1:62240] logged in with entity id 18071 at ([world]497.86439257375247, 72.0, 162.89656234157243)
+[00:23:14] [Server thread/INFO]: [0;33;1mbig_tasty has joined the game.[m
+[00:24:14] [Server thread/INFO]: big_tasty issued server command: /home zomboid
+[00:25:33] [Server thread/INFO]: big_tasty issued server command: /home skelly
+[00:26:45] [Server thread/INFO]: lolo_lola_69 was shot by Pillager
+[00:26:48] [Async Chat Thread - #5/INFO]: [m[0;33;1m[User] Giniguy [0;36;1m> yikes[m
+[00:26:49] [Server thread/INFO]: lolo_lola_69 issued server command: /home
+[00:26:51] [Async Chat Thread - #5/INFO]: [m[0;33;1m[User] Giniguy [0;36;1m> ga raid ka?[m
+[00:26:52] [Async Chat Thread - #5/INFO]: [m[0;33;1m[User] big_tasty [0;36;1m> damb[m
+[00:26:56] [Async Chat Thread - #5/INFO]: [m[0;33;1m[User] lolo_lola_69 [0;36;1m> wla[m
+[00:27:01] [Async Chat Thread - #5/INFO]: [m[0;33;1m[User] lolo_lola_69 [0;36;1m> akong gisud sa prison[m
+[00:27:04] [Async Chat Thread - #5/INFO]: [m[0;33;1m[User] Giniguy [0;36;1m> aah[m
+[00:27:09] [Async Chat Thread - #5/INFO]: [m[0;33;1m[User] lolo_lola_69 [0;36;1m> pero kalimot ko change ug floor[m
+[00:27:12] [Async Chat Thread - #5/INFO]: [m[0;33;1m[User] lolo_lola_69 [0;36;1m> dirt pa[m
+[00:27:17] [Async Chat Thread - #5/INFO]: [m[0;33;1m[User] lolo_lola_69 [0;36;1m> so nisud kos prison[m
+[00:27:27] [Async Chat Thread - #5/INFO]: [GriefPrevention] Muted repeat message.
+[00:27:27] [Async Chat Thread - #5/INFO]: [m[0;33;1m[User] Giniguy [0;36;1m> aah[m
+[00:27:54] [Server thread/INFO]: big_tasty issued server command: /home zomboid
+[00:28:51] [Server thread/INFO]: big_tasty issued server command: /delhome zomboid
+[00:28:57] [Server thread/INFO]: big_tasty issued server command: /sethome zomboid
+[00:33:06] [Server thread/INFO]: FKritz issued server command: /home
+[00:33:14] [Server thread/INFO]: big_tasty lost connection: Timed out
+[00:33:14] [Server thread/INFO]: big_tasty has left the game.
+[00:33:21] [User Authenticator #10/INFO]: UUID of player big_tasty is bcea9435-1386-3cb2-a2cd-2ea98eae3322
+[00:33:21] [Server thread/INFO]: big_tasty[/0:0:0:0:0:0:0:1:63015] logged in with entity id 21509 at ([world]-650.3409767533908, 16.0, -486.52086254259274)
+[00:33:21] [Server thread/INFO]: [0;33;1mbig_tasty has joined the game.[m
+[00:33:22] [Server thread/INFO]: FKritz issued server command: /tpa
+[00:33:25] [Server thread/INFO]: FKritz issued server command: /tpa Giniguy
+[00:33:31] [Server thread/INFO]: Giniguy issued server command: /tpaccept
+[00:35:37] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] Giniguy [0;36;1m> vladi[m
+[00:35:43] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] lolo_lola_69 [0;36;1m> oi[m
+[00:35:43] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] Giniguy [0;36;1m> wanna come to our sex dungeon?[m
+[00:35:50] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] lolo_lola_69 [0;36;1m> tara[m
+[00:35:52] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] Giniguy [0;36;1m> ataya na hack ang system hahahaha[m
+[00:35:59] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] Giniguy [0;36;1m> so apparently[m
+[00:36:07] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] Giniguy [0;36;1m> 1 book = 1 emerald[m
+[00:36:12] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] Giniguy [0;36;1m> then ang isa ka librarian[m
+[00:36:18] [Server thread/WARN]: Demon moved wrongly!
+[00:36:18] [Server thread/WARN]: Demon moved wrongly!
+[00:36:18] [Server thread/WARN]: Demon moved wrongly!
+[00:36:19] [Server thread/WARN]: Demon moved wrongly!
+[00:36:19] [Server thread/WARN]: Demon moved wrongly!
+[00:36:19] [Server thread/WARN]: Demon moved wrongly!
+[00:36:19] [Server thread/WARN]: Demon moved wrongly!
+[00:36:19] [Server thread/WARN]: Demon moved wrongly!
+[00:36:20] [Server thread/WARN]: Demon moved wrongly!
+[00:36:20] [Server thread/WARN]: Demon moved wrongly!
+[00:36:20] [Server thread/WARN]: Demon moved wrongly!
+[00:36:20] [Server thread/WARN]: Demon moved wrongly!
+[00:36:20] [Server thread/WARN]: Demon moved wrongly!
+[00:36:20] [Server thread/WARN]: Demon moved wrongly!
+[00:36:21] [Server thread/WARN]: Demon moved wrongly!
+[00:36:24] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] Giniguy [0;36;1m> 6 emeralds for 3 bookshelfs = 9 books[m
+[00:36:25] [Server thread/WARN]: Demon moved wrongly!
+[00:36:25] [Server thread/WARN]: Demon moved wrongly!
+[00:36:25] [Server thread/WARN]: Demon moved wrongly!
+[00:36:33] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] Giniguy [0;36;1m> then mag cge ra kog trade nila, +3 emeralds all the time hahaha[m
+[00:36:37] [Server thread/WARN]: Demon moved wrongly!
+[00:36:37] [Server thread/WARN]: Demon moved wrongly!
+[00:36:37] [Server thread/WARN]: Demon moved wrongly!
+[00:36:39] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] lolo_lola_69 [0;36;1m> yee[m
+[00:36:52] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] Giniguy [0;36;1m> im still looking for a max enchant though[m
+[00:37:15] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] lolo_lola_69 [0;36;1m> hahaha[m
+[00:37:20] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] lolo_lola_69 [0;36;1m> pina poods[m
+[00:37:21] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] Giniguy [0;36;1m> wait sud mi discord[m
+[00:37:36] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] lolo_lola_69 [0;36;1m> hello evryone[m
+[00:37:40] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] lolo_lola_69 [0;36;1m> im gloria boger[m
+[00:40:52] [Server thread/INFO]: big_tasty lost connection: Timed out
+[00:40:52] [Server thread/INFO]: big_tasty has left the game.
+[00:40:58] [User Authenticator #11/INFO]: UUID of player big_tasty is bcea9435-1386-3cb2-a2cd-2ea98eae3322
+[00:40:58] [Server thread/INFO]: big_tasty[/0:0:0:0:0:0:0:1:63771] logged in with entity id 22902 at ([world]-649.4313924360379, 10.0, -500.35069397325867)
+[00:40:58] [Server thread/INFO]: [0;33;1mbig_tasty has joined the game.[m
+[00:41:02] [Server thread/INFO]: FKritz issued server command: /home turlte
+[00:41:07] [Server thread/INFO]: FKritz issued server command: /home turtle
+[00:41:23] [Server thread/INFO]: FKritz issued server command: /home
+[00:49:01] [Server thread/WARN]: Demon moved wrongly!
+[00:49:01] [Server thread/WARN]: Demon moved wrongly!
+[00:49:03] [Server thread/WARN]: Demon moved wrongly!
+[00:49:03] [Server thread/WARN]: Demon moved wrongly!
+[00:49:03] [Server thread/WARN]: Demon moved wrongly!
+[00:49:27] [Server thread/INFO]: lolo_lola_69 lost connection: Disconnected
+[00:49:27] [Server thread/INFO]: lolo_lola_69 has left the game.
+[00:49:27] [User Authenticator #12/INFO]: UUID of player lolo_lola_69 is 646085da-be96-308b-8634-fb8b260022a5
+[00:49:27] [Server thread/INFO]: lolo_lola_69[/0:0:0:0:0:0:0:1:64875] logged in with entity id 24579 at ([world]709.1213582541446, 66.0, -65.09103205125061)
+[00:49:28] [Server thread/INFO]: [0;33;1mlolo_lola_69 has joined the game.[m
+[00:49:58] [Server thread/INFO]: Giniguy issued server command: /herbalism
+[00:50:11] [Server thread/INFO]: Giniguy issued server command: /herbalism ? 2
+[00:50:13] [Server thread/INFO]: Giniguy issued server command: /herbalism ? 3
+[00:51:07] [Server thread/INFO]: lolo_lola_69 issued server command: /herbalism
+[00:53:54] [Server thread/INFO]: big_tasty lost connection: Timed out
+[00:53:54] [Server thread/INFO]: big_tasty has left the game.
+[00:54:07] [User Authenticator #13/INFO]: UUID of player big_tasty is bcea9435-1386-3cb2-a2cd-2ea98eae3322
+[00:54:07] [Server thread/INFO]: big_tasty[/0:0:0:0:0:0:0:1:65266] logged in with entity id 25968 at ([world]-647.6395961875703, 10.0, -501.66615335841095)
+[00:54:07] [Server thread/INFO]: [0;33;1mbig_tasty has joined the game.[m
+[00:56:37] [Server thread/INFO]: big_tasty lost connection: Timed out
+[00:56:37] [Server thread/INFO]: big_tasty has left the game.
+[00:56:45] [User Authenticator #14/INFO]: UUID of player big_tasty is bcea9435-1386-3cb2-a2cd-2ea98eae3322
+[00:56:45] [Server thread/INFO]: big_tasty[/0:0:0:0:0:0:0:1:65468] logged in with entity id 26971 at ([world]-648.6999999880791, 10.0, -502.0195744746149)
+[00:56:45] [Server thread/INFO]: [0;33;1mbig_tasty has joined the game.[m
+[00:58:00] [Server thread/INFO]: big_tasty lost connection: Timed out
+[00:58:00] [Server thread/INFO]: big_tasty has left the game.
+[00:58:20] [User Authenticator #15/INFO]: UUID of player big_tasty is bcea9435-1386-3cb2-a2cd-2ea98eae3322
+[00:58:21] [Server thread/INFO]: big_tasty[/0:0:0:0:0:0:0:1:49283] logged in with entity id 27637 at ([world]-646.1674857700857, 10.0, -499.01356762584015)
+[00:58:21] [Server thread/INFO]: [0;33;1mbig_tasty has joined the game.[m
+[00:59:01] [Server thread/INFO]: lolo_lola_69 lost connection: Disconnected
+[00:59:01] [Server thread/INFO]: lolo_lola_69 has left the game.
+[00:59:04] [User Authenticator #16/INFO]: UUID of player lolo_lola_69 is 646085da-be96-308b-8634-fb8b260022a5
+[00:59:04] [Server thread/INFO]: lolo_lola_69[/0:0:0:0:0:0:0:1:49347] logged in with entity id 28065 at ([world]655.918077737961, 68.0, 8.960321134260244)
+[00:59:04] [Server thread/INFO]: [0;33;1mlolo_lola_69 has joined the game.[m
+[01:00:01] [Server thread/INFO]: big_tasty lost connection: Timed out
+[01:00:01] [Server thread/INFO]: big_tasty has left the game.
+[01:00:13] [User Authenticator #17/INFO]: UUID of player big_tasty is bcea9435-1386-3cb2-a2cd-2ea98eae3322
+[01:00:13] [Server thread/INFO]: big_tasty[/0:0:0:0:0:0:0:1:49421] logged in with entity id 28525 at ([world]-648.2219339809832, 10.0, -500.96525257036103)
+[01:00:13] [Server thread/INFO]: [0;33;1mbig_tasty has joined the game.[m
+[01:01:36] [Server thread/INFO]: FKritz has made the advancement [What a Deal!]
+[01:02:42] [Server thread/INFO]: [GriefPrevention] Giniguy placed a sign @ world: x757, z-486;===============;Super Discount;Merchant;===============
+[01:03:04] [Server thread/INFO]: [GriefPrevention] Giniguy placed a sign @ world: x757, z-490;===============;Mending;Merchant;===============
+[01:03:21] [Server thread/INFO]: [GriefPrevention] Giniguy placed a sign @ world: x757, z-492;===============;Bookshelf;Merchant;===============
+[01:06:07] [Server thread/INFO]: lolo_lola_69 issued server command: /home
+[01:08:27] [Server thread/INFO]: lolo_lola_69 issued server command: /home
+[01:09:48] [Server thread/INFO]: big_tasty lost connection: Timed out
+[01:09:48] [Server thread/INFO]: big_tasty has left the game.
+[01:10:26] [User Authenticator #18/INFO]: UUID of player big_tasty is bcea9435-1386-3cb2-a2cd-2ea98eae3322
+[01:10:26] [Server thread/INFO]: big_tasty[/0:0:0:0:0:0:0:1:50288] logged in with entity id 31472 at ([world]-648.3111761576715, 10.0, -501.7618777706944)
+[01:10:26] [Server thread/INFO]: [0;33;1mbig_tasty has joined the game.[m
+[01:10:38] [Server thread/INFO]: [GriefPrevention] Giniguy placed a sign @ world: x771, z-505;===============;Automatic;Berry Farm;===============
+[01:10:49] [Server thread/INFO]: [GriefPrevention] Giniguy placed a sign @ world: x773, z-501;===============;Automatic;Sugar Cane Farm;===============
+[01:11:00] [Server thread/INFO]: [GriefPrevention] Giniguy placed a sign @ world: x757, z-494;===============;Pending;===============
+[01:11:09] [Server thread/INFO]: [GriefPrevention] Giniguy placed a sign @ world: x757, z-488;===============;Pending;===============
+[01:11:20] [Server thread/INFO]: [GriefPrevention] Giniguy placed a sign @ world: x757, z-484;===============;Pending;===============
+[01:11:28] [Server thread/INFO]: [GriefPrevention] Giniguy placed a sign @ world: x757, z-482;===============;Pending;===============
+[01:12:03] [Server thread/INFO]: big_tasty issued server command: /home
+[01:13:27] [Server thread/INFO]: [GriefPrevention] Giniguy placed a sign @ world: x757, z-488;===============;Quick Charge;Merchant;===============
+[01:14:55] [Server thread/INFO]: FKritz lost connection: Disconnected
+[01:14:55] [Server thread/INFO]: FKritz has left the game.
+[01:15:25] [Server thread/INFO]: Giniguy lost connection: Disconnected
+[01:15:25] [Server thread/INFO]: Giniguy has left the game.
+[01:16:11] [Server thread/INFO]: big_tasty lost connection: Disconnected
+[01:16:11] [Server thread/INFO]: big_tasty has left the game.
+[01:16:19] [User Authenticator #19/INFO]: UUID of player big_tasty is bcea9435-1386-3cb2-a2cd-2ea98eae3322
+[01:16:19] [Server thread/INFO]: big_tasty[/0:0:0:0:0:0:0:1:50809] logged in with entity id 33578 at ([world]496.9854995433199, 60.0, 164.07389170593206)
+[01:16:19] [Server thread/INFO]: [0;33;1mbig_tasty has joined the game.[m
+[01:16:57] [Server thread/INFO]: lolo_lola_69 issued server command: /home village
+[01:17:09] [Server thread/INFO]: big_tasty lost connection: Timed out
+[01:17:09] [Server thread/INFO]: big_tasty has left the game.
+[01:17:13] [User Authenticator #20/INFO]: UUID of player big_tasty is bcea9435-1386-3cb2-a2cd-2ea98eae3322
+[01:17:13] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@584602aa[id=bcea9435-1386-3cb2-a2cd-2ea98eae3322,name=big_tasty,properties={},legacy=false] (/0:0:0:0:0:0:0:1:50881): You must wait 7 seconds before logging-in again.
+[01:17:13] [Server thread/INFO]: com.mojang.authlib.GameProfile@584602aa[id=bcea9435-1386-3cb2-a2cd-2ea98eae3322,name=big_tasty,properties={},legacy=false] (/0:0:0:0:0:0:0:1:50881) lost connection: You must wait 7 seconds before logging-in again.
+[01:17:15] [Server thread/INFO]: lolo_lola_69 issued server command: /home
+[01:17:24] [User Authenticator #21/INFO]: UUID of player big_tasty is bcea9435-1386-3cb2-a2cd-2ea98eae3322
+[01:17:25] [Server thread/INFO]: big_tasty[/0:0:0:0:0:0:0:1:50899] logged in with entity id 34470 at ([world]497.42223138138684, 60.0, 162.57363950040974)
+[01:17:25] [Server thread/INFO]: [0;33;1mbig_tasty has joined the game.[m
+[01:18:26] [Async Chat Thread - #7/INFO]: [m[0;33;1m[User] lolo_lola_69 [0;36;1m> good night[m
+[01:18:28] [Server thread/INFO]: lolo_lola_69 lost connection: Disconnected
+[01:18:28] [Server thread/INFO]: lolo_lola_69 has left the game.
+[01:20:45] [Server thread/INFO]: big_tasty lost connection: Timed out
+[01:20:45] [Server thread/INFO]: big_tasty has left the game.
+[01:20:49] [User Authenticator #22/INFO]: UUID of player big_tasty is bcea9435-1386-3cb2-a2cd-2ea98eae3322
+[01:20:50] [Server thread/INFO]: big_tasty[/0:0:0:0:0:0:0:1:51190] logged in with entity id 35106 at ([world]495.96400462209493, 66.5625, 165.27076668308462)
+[01:20:50] [Server thread/INFO]: [0;33;1mbig_tasty has joined the game.[m
+[01:21:40] [Server thread/INFO]: big_tasty lost connection: Timed out
+[01:21:40] [Server thread/INFO]: big_tasty has left the game.
+[01:22:19] [User Authenticator #23/INFO]: UUID of player big_tasty is bcea9435-1386-3cb2-a2cd-2ea98eae3322
+[01:22:19] [Server thread/INFO]: big_tasty[/0:0:0:0:0:0:0:1:51293] logged in with entity id 35496 at ([world]500.37763502172965, 66.0, 164.9082724379696)
+[01:22:19] [Server thread/INFO]: [0;33;1mbig_tasty has joined the game.[m
+[01:23:09] [Server thread/INFO]: big_tasty lost connection: Timed out
+[01:23:09] [Server thread/INFO]: big_tasty has left the game.
+[01:23:35] [User Authenticator #24/INFO]: UUID of player big_tasty is bcea9435-1386-3cb2-a2cd-2ea98eae3322
+[01:23:35] [Server thread/INFO]: big_tasty[/0:0:0:0:0:0:0:1:51471] logged in with entity id 35875 at ([world]500.37763502172965, 66.0, 164.9082724379696)
+[01:23:35] [Server thread/INFO]: [0;33;1mbig_tasty has joined the game.[m
+[01:24:25] [Server thread/INFO]: big_tasty lost connection: Timed out
+[01:24:25] [Server thread/INFO]: big_tasty has left the game.
+[01:24:57] [User Authenticator #25/INFO]: UUID of player big_tasty is bcea9435-1386-3cb2-a2cd-2ea98eae3322
+[01:24:58] [Server thread/INFO]: big_tasty[/0:0:0:0:0:0:0:1:51583] logged in with entity id 36280 at ([world]495.55134524450364, 66.0, 159.39628227648856)
+[01:24:58] [Server thread/INFO]: [0;33;1mbig_tasty has joined the game.[m
+[01:25:48] [Server thread/INFO]: big_tasty lost connection: Timed out
+[01:25:48] [Server thread/INFO]: big_tasty has left the game.
+[01:25:55] [User Authenticator #26/INFO]: UUID of player big_tasty is bcea9435-1386-3cb2-a2cd-2ea98eae3322
+[01:25:55] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@102c7a7f[id=bcea9435-1386-3cb2-a2cd-2ea98eae3322,name=big_tasty,properties={},legacy=false] (/0:0:0:0:0:0:0:1:51675): You must wait 3 seconds before logging-in again.
+[01:25:55] [Server thread/INFO]: com.mojang.authlib.GameProfile@102c7a7f[id=bcea9435-1386-3cb2-a2cd-2ea98eae3322,name=big_tasty,properties={},legacy=false] (/0:0:0:0:0:0:0:1:51675) lost connection: You must wait 3 seconds before logging-in again.
+[01:26:04] [User Authenticator #27/INFO]: UUID of player big_tasty is bcea9435-1386-3cb2-a2cd-2ea98eae3322
+[01:26:04] [Server thread/INFO]: big_tasty[/0:0:0:0:0:0:0:1:51693] logged in with entity id 36677 at ([world]495.55134524450364, 66.0, 159.39628227648856)
+[01:26:04] [Server thread/INFO]: [0;33;1mbig_tasty has joined the game.[m
+[01:26:54] [Server thread/INFO]: big_tasty lost connection: Timed out
+[01:26:54] [Server thread/INFO]: big_tasty has left the game.
+[01:27:26] [User Authenticator #28/INFO]: UUID of player big_tasty is bcea9435-1386-3cb2-a2cd-2ea98eae3322
+[01:27:26] [Server thread/INFO]: big_tasty[/0:0:0:0:0:0:0:1:51836] logged in with entity id 37077 at ([world]501.51249998807907, 69.23760006666205, 163.01492687665515)
+[01:27:26] [Server thread/INFO]: [0;33;1mbig_tasty has joined the game.[m
+[01:28:16] [Server thread/INFO]: big_tasty lost connection: Timed out
+[01:28:16] [Server thread/INFO]: big_tasty has left the game.
+[01:30:19] [User Authenticator #29/INFO]: UUID of player big_tasty is bcea9435-1386-3cb2-a2cd-2ea98eae3322
+[01:30:19] [Server thread/INFO]: big_tasty[/0:0:0:0:0:0:0:1:52039] logged in with entity id 37468 at ([world]487.98750001192093, 72.0, 163.0215622602831)
+[01:30:19] [Server thread/INFO]: [0;33;1mbig_tasty has joined the game.[m
+[01:31:02] [Server thread/INFO]: big_tasty lost connection: Disconnected
+[01:31:02] [Server thread/INFO]: big_tasty has left the game.
