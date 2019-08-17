@@ -2,7 +2,7 @@ ChillHouse:
   Leader: 419c6fc8-50de-3a84-a6c2-b6e34c10baf1|Mangaboy5398
   Locked: true
   Level: 10
-  Xp: 52487
+  Xp: 37084
   Ally: ''
   ExpShareMode: NONE
   ItemShareMode: NONE
@@ -15,8 +15,6 @@ ChillHouse:
   Members:
   - 419c6fc8-50de-3a84-a6c2-b6e34c10baf1|Mangaboy5398
   - a9e52362-e903-3089-8f30-1e5a3b7d754a|arcosanti
-  - dc70f05a-14b3-350c-91b3-ecddbe830761|Kobeboy15
-  - 646085da-be96-308b-8634-fb8b260022a5|lolo_lola_69
   - a7f6e7c7-b490-3fc3-87b0-e2f9a1ed2e6a|bigpeen69
   - 82f182b3-716a-3898-ae1d-76f70444a8a2|Jhor
   - bc53bfe8-8ae5-3993-88d7-f685d730f2ef|Miknuget
@@ -29,25 +27,6 @@ ChillHouse:
   - 19a71d19-5f35-36be-9bd0-06e9a0c0895b|boredchinese
   - e287ca4c-ccb5-3d46-8ab0-8f5098f10577|jonnski
   - edb16021-4303-3474-b9d7-6032ec9edef2|Haowix
-  - 8ab37728-5dc4-3d56-b222-9dee547c605d|Arrchiiee
-GiniFritz:
-  Leader: 47a4aaeb-feae-366a-bb50-3db390c239cb|Giniguy
-  Password: bibi
-  Locked: true
-  Level: 10
-  Xp: 64966
-  Ally: ''
-  ExpShareMode: NONE
-  ItemShareMode: NONE
-  ItemShareType:
-    LOOT: true
-    MINING: true
-    HERBALISM: true
-    WOODCUTTING: true
-    MISC: true
-  Members:
-  - 47a4aaeb-feae-366a-bb50-3db390c239cb|Giniguy
-  - 76f1a2ac-693e-3061-aa4f-5b80da853173|FKritz
 Ass:
   Leader: 89261801-6091-318c-87e2-eccb6020106e|AviationCaptain
   Password: ass
@@ -69,3 +48,23 @@ Ass:
   - e34f1202-9af7-31dc-be07-62a64aba4033|B03AMBA60S
   - 1a52e85a-f5ed-3b0f-9f6b-6af568be7c1e|ItsNine
   - ed896488-438c-3fae-9803-52e7995633c4|ItsHmood02
+Artificer:
+  Leader: 47a4aaeb-feae-366a-bb50-3db390c239cb|Giniguy
+  Password: bibi
+  Locked: true
+  Level: 10
+  Xp: 116720
+  Ally: ''
+  ExpShareMode: NONE
+  ItemShareMode: NONE
+  ItemShareType:
+    LOOT: true
+    MINING: true
+    HERBALISM: true
+    WOODCUTTING: true
+    MISC: true
+  Members:
+  - 47a4aaeb-feae-366a-bb50-3db390c239cb|Giniguy
+  - 76f1a2ac-693e-3061-aa4f-5b80da853173|FKritz
+  - f160dbef-552f-3b70-af9a-129d0ff0c675|Johann
+  - 646085da-be96-308b-8634-fb8b260022a5|lolo_lola_69
