@@ -425,6 +425,12 @@
     },
     "done": true
   },
+  "minecraft:adventure/summon_iron_golem": {
+    "criteria": {
+      "summoned_golem": "2019-08-19 02:35:16 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/light_gray_concrete_powder": {
     "criteria": {
       "has_gravel": "2019-07-30 16:56:38 +0800"
@@ -1776,6 +1782,12 @@
   "minecraft:recipes/misc/wheat": {
     "criteria": {
       "has_at_least_9_wheat": "2019-08-01 14:55:55 +0800"
+    },
+    "done": true
+  },
+  "minecraft:adventure/sniper_duel": {
+    "criteria": {
+      "killed_skeleton": "2019-08-19 02:50:13 +0800"
     },
     "done": true
   },
