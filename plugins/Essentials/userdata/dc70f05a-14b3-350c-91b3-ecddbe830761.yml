@@ -1,22 +1,22 @@
 lastAccountName: Kobeboy15
 timestamps:
-  login: 1566104158521
-  logout: 1566109602114
-  lastteleport: 1566108290256
+  login: 1566116435258
+  logout: 1566124073036
+  lastteleport: 1566123245144
 ipAddress: 0:0:0:0:0:0:0:1
 lastlocation:
   world: world
-  x: 762.0953743859211
-  y: 54.0
-  z: -491.3710901823534
-  yaw: 6.504881
-  pitch: 3.221881
+  x: 772.6603998447256
+  y: 37.0
+  z: -434.38773524018507
+  yaw: 196.46672
+  pitch: 19.269182
 logoutlocation:
   world: world
-  x: 494.8211382567385
-  y: 76.0
-  z: 203.6832533010527
-  yaw: 142.08643
-  pitch: 56.610165
+  x: 698.2116722995695
+  y: 69.0
+  z: -879.9641942304585
+  yaw: -236.66162
+  pitch: 34.3561
 money: '175.86'
 afk: false
