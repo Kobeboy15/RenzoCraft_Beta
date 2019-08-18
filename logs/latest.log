@@ -1,206 +1,297 @@
-[06:25:40] [Server thread/INFO]: Starting minecraft server version 1.14.4
-[06:25:40] [Server thread/INFO]: Loading properties
-[06:25:40] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-1981d55-7f33c6a (MC: 1.14.4) (Implementing API version 1.14.4-R0.1-SNAPSHOT)
-[06:25:40] [Server thread/INFO]: Debug logging is disabled
-[06:25:40] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[06:25:40] [Server thread/INFO]: Using 4 threads for Netty based IO
-[06:25:40] [Server thread/INFO]: Default game type: SURVIVAL
-[06:25:40] [Server thread/INFO]: Generating keypair
-[06:25:41] [Server thread/INFO]: Starting Minecraft server on *:25565
-[06:25:41] [Server thread/INFO]: Using default channel type
-[06:25:44] [Server thread/WARN]: Plugin PermissionsEx v1.23.4 does not specify an api-version.
-[06:25:45] [Server thread/WARN]: Plugin Stargate v0.8.2 does not specify an api-version.
-[06:25:45] [Server thread/INFO]: [PermissionsEx] Loading PermissionsEx v1.23.4
-[06:25:45] [Server thread/WARN]: [PermissionsEx] This server is in offline mode. Unless this server is configured to integrate with a supported proxy (see http://dft.ba/-8ous), UUIDs *may not be stable*!
-[06:25:45] [Server thread/INFO]: [HomeSpawn] Loading HomeSpawn v3.1.4
-[06:25:45] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v13.7.1
-[06:25:45] [Server thread/INFO]: [mcMMO] Loading mcMMO v2.1.100-SNAPSHOT
-[06:25:45] [Server thread/INFO]: [AutoRestart] Loading AutoRestart v3.3.3
-[06:25:45] [Server thread/INFO]: [Vault] Loading Vault v1.7.2-b107
-[06:25:45] [Server thread/INFO]: [Stargate] Loading Stargate v0.8.2
-[06:25:45] [Server thread/INFO]: [GriefPrevention] Loading GriefPrevention v16.11.6
-[06:25:45] [Server thread/INFO]: [ChestShop] Loading ChestShop v3.10-SNAPSHOT (build 137)
-[06:25:45] [Server thread/INFO]: [Essentials] Loading Essentials v2.17.0.0
-[06:25:45] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn v2.17.0.0
-[06:25:45] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat v2.17.0.0
-[06:25:45] [Server thread/INFO]: [mcMMO] Enabling mcMMO v2.1.100-SNAPSHOT
-[06:25:45] [Server thread/INFO]: [mcMMO] enabling Acrobatics Skills
-[06:25:45] [Server thread/INFO]: [mcMMO] registered subskill: Roll
-[06:25:45] [Server thread/INFO]: [mcMMO] 0 entries in mcMMO World Blacklist
-[06:25:45] [Server thread/INFO]: [Vault] Enabling Vault v1.7.2-b107
-[06:25:46] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
-[06:25:46] [Server thread/INFO]: [Vault] [Permission] PermissionsEx found: Waiting
-[06:25:46] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[06:25:46] [Server thread/INFO]: [Vault] [Chat] PermissionsEx found: Waiting
-[06:25:46] [Server thread/INFO]: [Vault] Enabled Version 1.7.2-b107
-[06:25:46] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[06:25:46] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[06:25:46] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[06:25:46] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[06:25:46] [Server thread/INFO]: Preparing level "world"
-[06:25:46] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
-[06:25:46] [Server thread/INFO]: Loaded 6 recipes
-[06:25:46] [Server thread/INFO]: -------- World Settings For [world] --------
-[06:25:46] [Server thread/INFO]: View Distance: 8
-[06:25:46] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
-[06:25:46] [Server thread/INFO]: Item Merge Radius: 2.5
-[06:25:46] [Server thread/INFO]: Item Despawn Rate: 6000
-[06:25:46] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[06:25:46] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[06:25:46] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[06:25:46] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[06:25:46] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[06:25:46] [Server thread/INFO]: Experience Merge Radius: 3.0
-[06:25:46] [Server thread/INFO]: Mob Spawn Range: 6
-[06:25:46] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[06:25:46] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[06:25:46] [Server thread/INFO]: Cane Growth Modifier: 100%
-[06:25:46] [Server thread/INFO]: Melon Growth Modifier: 100%
-[06:25:46] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[06:25:46] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[06:25:46] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[06:25:46] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[06:25:46] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[06:25:46] [Server thread/INFO]: Potato Growth Modifier: 100%
-[06:25:46] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[06:25:46] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[06:25:46] [Server thread/INFO]: Vine Growth Modifier: 100%
-[06:25:46] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[06:25:46] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[06:25:46] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[06:25:46] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[06:25:46] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[06:25:46] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[06:25:46] [Server thread/INFO]: Max TNT Explosions: 100
-[06:25:46] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[06:25:46] [Server thread/INFO]: View Distance: 8
-[06:25:46] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
-[06:25:46] [Server thread/INFO]: Item Merge Radius: 2.5
-[06:25:46] [Server thread/INFO]: Item Despawn Rate: 6000
-[06:25:46] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[06:25:46] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[06:25:46] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[06:25:46] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[06:25:46] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[06:25:46] [Server thread/INFO]: Experience Merge Radius: 3.0
-[06:25:46] [Server thread/INFO]: Mob Spawn Range: 6
-[06:25:46] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[06:25:46] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[06:25:46] [Server thread/INFO]: Cane Growth Modifier: 100%
-[06:25:46] [Server thread/INFO]: Melon Growth Modifier: 100%
-[06:25:46] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[06:25:46] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[06:25:46] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[06:25:46] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[06:25:46] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[06:25:46] [Server thread/INFO]: Potato Growth Modifier: 100%
-[06:25:46] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[06:25:46] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[06:25:46] [Server thread/INFO]: Vine Growth Modifier: 100%
-[06:25:46] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[06:25:46] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[06:25:46] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[06:25:46] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[06:25:46] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[06:25:46] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[06:25:46] [Server thread/INFO]: Max TNT Explosions: 100
-[06:25:46] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[06:25:46] [Server thread/INFO]: View Distance: 8
-[06:25:46] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
-[06:25:46] [Server thread/INFO]: Item Merge Radius: 2.5
-[06:25:46] [Server thread/INFO]: Item Despawn Rate: 6000
-[06:25:46] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[06:25:46] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[06:25:46] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[06:25:46] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[06:25:46] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[06:25:46] [Server thread/INFO]: Experience Merge Radius: 3.0
-[06:25:46] [Server thread/INFO]: Mob Spawn Range: 6
-[06:25:46] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[06:25:46] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[06:25:46] [Server thread/INFO]: Cane Growth Modifier: 100%
-[06:25:46] [Server thread/INFO]: Melon Growth Modifier: 100%
-[06:25:46] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[06:25:46] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[06:25:46] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[06:25:46] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[06:25:46] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[06:25:46] [Server thread/INFO]: Potato Growth Modifier: 100%
-[06:25:46] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[06:25:46] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[06:25:46] [Server thread/INFO]: Vine Growth Modifier: 100%
-[06:25:46] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[06:25:46] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[06:25:46] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[06:25:46] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[06:25:46] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[06:25:46] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[06:25:46] [Server thread/INFO]: Max TNT Explosions: 100
-[06:25:46] [Server thread/INFO]: Preparing start region for dimension 'world'/minecraft:overworld
-[06:25:47] [Server thread/INFO]: Preparing spawn area: 0%
-[06:25:47] [Server thread/INFO]: Preparing spawn area: 0%
-[06:25:47] [Server thread/INFO]: Time elapsed: 776 ms
-[06:25:47] [Server thread/INFO]: Preparing start region for dimension 'world_nether'/minecraft:the_nether
-[06:25:47] [Server thread/INFO]: Preparing spawn area: 0%
-[06:25:47] [Server-Worker-2/INFO]: Preparing spawn area: 83%
-[06:25:47] [Server thread/INFO]: Time elapsed: 537 ms
-[06:25:47] [Server thread/INFO]: Preparing start region for dimension 'world_the_end'/minecraft:the_end
-[06:25:48] [Server thread/INFO]: Preparing spawn area: 0%
-[06:25:48] [Server-Worker-2/INFO]: Preparing spawn area: 94%
-[06:25:48] [Server thread/INFO]: Time elapsed: 540 ms
-[06:25:48] [Server thread/INFO]: [PermissionsEx] Enabling PermissionsEx v1.23.4
-[06:25:48] [Server thread/INFO]: [PermissionsEx] Initializing file backend
-[06:25:48] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
-[06:25:48] [Server thread/INFO]: [Vault][Permission] PermissionsEx hooked.
-[06:25:48] [Server thread/INFO]: [Vault] [Vault][Chat] PermissionsEx_Chat hooked.
-[06:25:48] [Server thread/INFO]: [HomeSpawn] Enabling HomeSpawn v3.1.4
-[06:25:48] [Server thread/INFO]: [HomeSpawn] HomeSpawn v3.1.4 has been enabled
-[06:25:48] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v13.7.1
-[06:25:48] [Server thread/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1mDetected Minecraft [0;33;1mv1_14_R1[0;32;1m, using [0;33;1mUniversalSkinFactory[0;32;1m.[m
-[06:25:48] [Server thread/INFO]: [AutoRestart] Enabling AutoRestart v3.3.3
-[06:25:48] [Server thread/INFO]: [0;32;1m[AutoRestart] Loaded![m
-[06:25:48] [Server thread/INFO]: [Stargate] Enabling Stargate v0.8.2
-[06:25:48] [Server thread/INFO]: Stargate v.0.8.2 is enabled.
-[06:25:48] [Server thread/INFO]: [Stargate] Loaded 1 gate layouts
-[06:25:48] [Server thread/INFO]: [Stargate] {world} No stargates for world 
-[06:25:48] [Server thread/INFO]: [Stargate] {world_nether} No stargates for world 
-[06:25:48] [Server thread/INFO]: [Stargate] {world_the_end} No stargates for world 
-[06:25:48] [Server thread/INFO]: [GriefPrevention] Enabling GriefPrevention v16.11.6
-[06:25:48] [Server thread/INFO]: [GriefPrevention] Finished loading configuration.
-[06:25:48] [Server thread/INFO]: [GriefPrevention] 57 total claims loaded.
-[06:25:49] [Server thread/INFO]: [GriefPrevention] Customizable messages loaded.
-[06:25:49] [Server thread/INFO]: [GriefPrevention] Finished loading data (File Mode).
-[06:25:49] [Server thread/INFO]: [GriefPrevention] Boot finished.
-[06:25:49] [Server thread/INFO]: [ChestShop] Enabling ChestShop v3.10-SNAPSHOT (build 137)
-[06:25:50] [Server thread/INFO]: [ChestShop] Using Essentials Economy as the Economy provider now.
-[06:25:50] [Server thread/INFO]: [ChestShop] Vault loaded!
-[06:25:50] [Server thread/INFO]: [Essentials] Enabling Essentials v2.17.0.0
-[06:25:50] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
-[06:25:50] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
-[06:25:50] [Server thread/INFO]: No kits found to migrate.
-[06:25:50] [Server thread/INFO]: [Essentials] Using 1.8.3+ BlockStateMeta provider as mob spawner provider.
-[06:25:50] [Server thread/INFO]: [Essentials] Using 1.13+ flat spawn egg provider as spawn egg provider.
-[06:25:50] [Server thread/INFO]: [Essentials] Using 1.9+ BasePotionData provider as potion meta provider.
-[06:25:50] [Server thread/INFO]: Loaded 20977 items from items.json.
-[06:25:50] [Server thread/INFO]: Using locale en_US
-[06:25:50] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[06:25:50] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[06:25:50] [Server thread/INFO]: [Vault] [Vault][Economy] Essentials Economy hooked.
-[06:25:50] [Server thread/INFO]: [Essentials] Using Vault based permissions (PermissionsEx)
-[06:25:50] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.17.0.0
-[06:25:50] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.17.0.0
-[06:25:50] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[06:25:50] [Server thread/INFO]: Done (4.558s)! For help, type "help"
-[06:25:50] [Craft Scheduler Thread - 0/INFO]: [mcMMO] Cleaned backup files. Deleted 2 of 18 files.
-[06:25:50] [Craft Scheduler Thread - 2/INFO]: [HomeSpawn] HomeSpawn file watcher started!
-[06:25:51] [Craft Scheduler Thread - 4/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m----------------------------------------------[m
-[06:25:51] [Craft Scheduler Thread - 4/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    +===============+[m
-[06:25:51] [Craft Scheduler Thread - 4/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    | SkinsRestorer |[m
-[06:25:51] [Craft Scheduler Thread - 4/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    +===============+[m
-[06:25:51] [Craft Scheduler Thread - 4/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m----------------------------------------------[m
-[06:25:51] [Craft Scheduler Thread - 4/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;36;1m    Current version: [0;32;1m13.7.1[m
-[06:25:51] [Craft Scheduler Thread - 4/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    This is the latest version![m
-[06:25:51] [Craft Scheduler Thread - 4/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m----------------------------------------------[m
-[06:25:51] [Server thread/INFO]: [0;32;1m[AutoRestart] Up to date![m
-[06:25:51] [Craft Scheduler Thread - 6/INFO]: [Vault] Checking for Updates ... 
-[06:25:51] [Craft Scheduler Thread - 6/INFO]: [Vault] No new version available
+[10:26:32] [Server thread/INFO]: Starting minecraft server version 1.14.4
+[10:26:32] [Server thread/INFO]: Loading properties
+[10:26:33] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-1981d55-7f33c6a (MC: 1.14.4) (Implementing API version 1.14.4-R0.1-SNAPSHOT)
+[10:26:33] [Server thread/INFO]: Debug logging is disabled
+[10:26:33] [Server thread/INFO]: Using 4 threads for Netty based IO
+[10:26:33] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[10:26:33] [Server thread/INFO]: Default game type: SURVIVAL
+[10:26:33] [Server thread/INFO]: Generating keypair
+[10:26:33] [Server thread/INFO]: Starting Minecraft server on *:25565
+[10:26:33] [Server thread/INFO]: Using default channel type
+[10:26:37] [Server thread/WARN]: Plugin PermissionsEx v1.23.4 does not specify an api-version.
+[10:26:37] [Server thread/WARN]: Plugin Stargate v0.8.2 does not specify an api-version.
+[10:26:37] [Server thread/INFO]: [PermissionsEx] Loading PermissionsEx v1.23.4
+[10:26:37] [Server thread/WARN]: [PermissionsEx] This server is in offline mode. Unless this server is configured to integrate with a supported proxy (see http://dft.ba/-8ous), UUIDs *may not be stable*!
+[10:26:37] [Server thread/INFO]: [HomeSpawn] Loading HomeSpawn v3.1.4
+[10:26:37] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v13.7.1
+[10:26:37] [Server thread/INFO]: [mcMMO] Loading mcMMO v2.1.100-SNAPSHOT
+[10:26:37] [Server thread/INFO]: [AutoRestart] Loading AutoRestart v3.3.3
+[10:26:37] [Server thread/INFO]: [Vault] Loading Vault v1.7.2-b107
+[10:26:37] [Server thread/INFO]: [Stargate] Loading Stargate v0.8.2
+[10:26:37] [Server thread/INFO]: [GriefPrevention] Loading GriefPrevention v16.11.6
+[10:26:37] [Server thread/INFO]: [ChestShop] Loading ChestShop v3.10-SNAPSHOT (build 137)
+[10:26:37] [Server thread/INFO]: [Essentials] Loading Essentials v2.17.0.0
+[10:26:37] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn v2.17.0.0
+[10:26:37] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat v2.17.0.0
+[10:26:37] [Server thread/INFO]: [mcMMO] Enabling mcMMO v2.1.100-SNAPSHOT
+[10:26:38] [Server thread/INFO]: [mcMMO] enabling Acrobatics Skills
+[10:26:38] [Server thread/INFO]: [mcMMO] registered subskill: Roll
+[10:26:38] [Server thread/INFO]: [mcMMO] 0 entries in mcMMO World Blacklist
+[10:26:38] [Server thread/INFO]: [Vault] Enabling Vault v1.7.2-b107
+[10:26:38] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[10:26:38] [Server thread/INFO]: [Vault] [Permission] PermissionsEx found: Waiting
+[10:26:38] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[10:26:38] [Server thread/INFO]: [Vault] [Chat] PermissionsEx found: Waiting
+[10:26:38] [Server thread/INFO]: [Vault] Enabled Version 1.7.2-b107
+[10:26:38] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[10:26:38] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[10:26:38] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[10:26:38] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[10:26:38] [Server thread/INFO]: Preparing level "world"
+[10:26:38] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
+[10:26:38] [Server thread/INFO]: Loaded 6 recipes
+[10:26:38] [Server thread/INFO]: -------- World Settings For [world] --------
+[10:26:38] [Server thread/INFO]: View Distance: 8
+[10:26:38] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[10:26:38] [Server thread/INFO]: Item Despawn Rate: 6000
+[10:26:38] [Server thread/INFO]: Item Merge Radius: 2.5
+[10:26:38] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[10:26:38] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[10:26:38] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[10:26:38] [Server thread/INFO]: Mob Spawn Range: 6
+[10:26:38] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[10:26:38] [Server thread/INFO]: Cane Growth Modifier: 100%
+[10:26:38] [Server thread/INFO]: Melon Growth Modifier: 100%
+[10:26:38] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[10:26:38] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[10:26:38] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[10:26:38] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[10:26:38] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[10:26:38] [Server thread/INFO]: Potato Growth Modifier: 100%
+[10:26:38] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[10:26:38] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[10:26:38] [Server thread/INFO]: Vine Growth Modifier: 100%
+[10:26:38] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[10:26:38] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[10:26:38] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[10:26:38] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[10:26:38] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[10:26:38] [Server thread/INFO]: Experience Merge Radius: 3.0
+[10:26:38] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[10:26:38] [Server thread/INFO]: Max TNT Explosions: 100
+[10:26:38] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[10:26:38] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[10:26:38] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[10:26:39] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[10:26:39] [Server thread/INFO]: View Distance: 8
+[10:26:39] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[10:26:39] [Server thread/INFO]: Item Despawn Rate: 6000
+[10:26:39] [Server thread/INFO]: Item Merge Radius: 2.5
+[10:26:39] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[10:26:39] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[10:26:39] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[10:26:39] [Server thread/INFO]: Mob Spawn Range: 6
+[10:26:39] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[10:26:39] [Server thread/INFO]: Cane Growth Modifier: 100%
+[10:26:39] [Server thread/INFO]: Melon Growth Modifier: 100%
+[10:26:39] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[10:26:39] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[10:26:39] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[10:26:39] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[10:26:39] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[10:26:39] [Server thread/INFO]: Potato Growth Modifier: 100%
+[10:26:39] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[10:26:39] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[10:26:39] [Server thread/INFO]: Vine Growth Modifier: 100%
+[10:26:39] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[10:26:39] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[10:26:39] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[10:26:39] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[10:26:39] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[10:26:39] [Server thread/INFO]: Experience Merge Radius: 3.0
+[10:26:39] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[10:26:39] [Server thread/INFO]: Max TNT Explosions: 100
+[10:26:39] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[10:26:39] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[10:26:39] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[10:26:39] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[10:26:39] [Server thread/INFO]: View Distance: 8
+[10:26:39] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[10:26:39] [Server thread/INFO]: Item Despawn Rate: 6000
+[10:26:39] [Server thread/INFO]: Item Merge Radius: 2.5
+[10:26:39] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[10:26:39] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[10:26:39] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[10:26:39] [Server thread/INFO]: Mob Spawn Range: 6
+[10:26:39] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[10:26:39] [Server thread/INFO]: Cane Growth Modifier: 100%
+[10:26:39] [Server thread/INFO]: Melon Growth Modifier: 100%
+[10:26:39] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[10:26:39] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[10:26:39] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[10:26:39] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[10:26:39] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[10:26:39] [Server thread/INFO]: Potato Growth Modifier: 100%
+[10:26:39] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[10:26:39] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[10:26:39] [Server thread/INFO]: Vine Growth Modifier: 100%
+[10:26:39] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[10:26:39] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[10:26:39] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[10:26:39] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[10:26:39] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[10:26:39] [Server thread/INFO]: Experience Merge Radius: 3.0
+[10:26:39] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[10:26:39] [Server thread/INFO]: Max TNT Explosions: 100
+[10:26:39] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[10:26:39] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[10:26:39] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[10:26:39] [Server thread/INFO]: Preparing start region for dimension 'world'/minecraft:overworld
+[10:26:39] [Server thread/INFO]: Preparing spawn area: 0%
+[10:26:39] [Server thread/INFO]: Preparing spawn area: 0%
+[10:26:39] [Server thread/INFO]: Time elapsed: 679 ms
+[10:26:39] [Server thread/INFO]: Preparing start region for dimension 'world_nether'/minecraft:the_nether
+[10:26:40] [Server thread/INFO]: Preparing spawn area: 0%
+[10:26:40] [Server thread/INFO]: Time elapsed: 523 ms
+[10:26:40] [Server thread/INFO]: Preparing start region for dimension 'world_the_end'/minecraft:the_end
+[10:26:40] [Server thread/INFO]: Preparing spawn area: 0%
+[10:26:40] [Server thread/INFO]: Time elapsed: 492 ms
+[10:26:40] [Server thread/INFO]: [PermissionsEx] Enabling PermissionsEx v1.23.4
+[10:26:40] [Server thread/INFO]: [PermissionsEx] Initializing file backend
+[10:26:40] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
+[10:26:40] [Server thread/INFO]: [Vault][Permission] PermissionsEx hooked.
+[10:26:40] [Server thread/INFO]: [Vault] [Vault][Chat] PermissionsEx_Chat hooked.
+[10:26:40] [Server thread/INFO]: [HomeSpawn] Enabling HomeSpawn v3.1.4
+[10:26:40] [Server thread/INFO]: [HomeSpawn] HomeSpawn v3.1.4 has been enabled
+[10:26:40] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v13.7.1
+[10:26:41] [Server thread/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1mDetected Minecraft [0;33;1mv1_14_R1[0;32;1m, using [0;33;1mUniversalSkinFactory[0;32;1m.[m
+[10:26:41] [Server thread/INFO]: [AutoRestart] Enabling AutoRestart v3.3.3
+[10:26:41] [Server thread/INFO]: [0;32;1m[AutoRestart] Loaded![m
+[10:26:41] [Server thread/INFO]: [Stargate] Enabling Stargate v0.8.2
+[10:26:41] [Server thread/INFO]: Stargate v.0.8.2 is enabled.
+[10:26:41] [Server thread/INFO]: [Stargate] Loaded 1 gate layouts
+[10:26:41] [Server thread/INFO]: [Stargate] {world} No stargates for world 
+[10:26:41] [Server thread/INFO]: [Stargate] {world_nether} No stargates for world 
+[10:26:41] [Server thread/INFO]: [Stargate] {world_the_end} No stargates for world 
+[10:26:41] [Server thread/INFO]: [GriefPrevention] Enabling GriefPrevention v16.11.6
+[10:26:41] [Server thread/INFO]: [GriefPrevention] Finished loading configuration.
+[10:26:41] [Server thread/INFO]: [GriefPrevention] 57 total claims loaded.
+[10:26:42] [Server thread/INFO]: [GriefPrevention] Customizable messages loaded.
+[10:26:42] [Server thread/INFO]: [GriefPrevention] Finished loading data (File Mode).
+[10:26:42] [Server thread/INFO]: [GriefPrevention] Boot finished.
+[10:26:42] [Server thread/INFO]: [ChestShop] Enabling ChestShop v3.10-SNAPSHOT (build 137)
+[10:26:42] [Server thread/INFO]: [ChestShop] Using Essentials Economy as the Economy provider now.
+[10:26:42] [Server thread/INFO]: [ChestShop] Vault loaded!
+[10:26:42] [Server thread/INFO]: [Essentials] Enabling Essentials v2.17.0.0
+[10:26:42] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[10:26:42] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
+[10:26:42] [Server thread/INFO]: No kits found to migrate.
+[10:26:42] [Server thread/INFO]: [Essentials] Using 1.8.3+ BlockStateMeta provider as mob spawner provider.
+[10:26:42] [Server thread/INFO]: [Essentials] Using 1.13+ flat spawn egg provider as spawn egg provider.
+[10:26:42] [Server thread/INFO]: [Essentials] Using 1.9+ BasePotionData provider as potion meta provider.
+[10:26:42] [Server thread/INFO]: Loaded 20977 items from items.json.
+[10:26:42] [Server thread/INFO]: Using locale en_US
+[10:26:42] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[10:26:42] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[10:26:42] [Server thread/INFO]: [Vault] [Vault][Economy] Essentials Economy hooked.
+[10:26:42] [Server thread/INFO]: [Essentials] Using Vault based permissions (PermissionsEx)
+[10:26:42] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.17.0.0
+[10:26:42] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.17.0.0
+[10:26:42] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[10:26:43] [Server thread/INFO]: Done (4.538s)! For help, type "help"
+[10:26:43] [Craft Scheduler Thread - 0/INFO]: [mcMMO] Cleaned backup files. Deleted 1 of 17 files.
+[10:26:43] [Craft Scheduler Thread - 2/INFO]: [HomeSpawn] HomeSpawn file watcher started!
+[10:26:43] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m----------------------------------------------[m
+[10:26:43] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    +===============+[m
+[10:26:43] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    | SkinsRestorer |[m
+[10:26:43] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    +===============+[m
+[10:26:43] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m----------------------------------------------[m
+[10:26:43] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;36;1m    Current version: [0;32;1m13.7.1[m
+[10:26:43] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    This is the latest version![m
+[10:26:43] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m----------------------------------------------[m
+[10:26:44] [Server thread/INFO]: [0;32;1m[AutoRestart] Up to date![m
+[10:26:44] [Craft Scheduler Thread - 4/INFO]: [Vault] Checking for Updates ... 
+[10:26:44] [Craft Scheduler Thread - 4/INFO]: [Vault] No new version available
+[10:43:12] [User Authenticator #1/INFO]: UUID of player Giniguy is 47a4aaeb-feae-366a-bb50-3db390c239cb
+[10:43:12] [Server thread/INFO]: Giniguy[/0:0:0:0:0:0:0:1:57191] logged in with entity id 129 at ([world]765.9207254254055, 54.0, -491.4146916821364)
+[10:43:13] [Server thread/INFO]: [0;33;1mGiniguy has joined the game.[m
+[10:43:34] [Server thread/INFO]: [mcMMO] WorldGuard was not detected.
+[10:55:50] [Server thread/WARN]: Giniguy moved too quickly! 8.070064387657794,-1.024424088213685,6.171989384248718
+[11:18:41] [Server thread/INFO]: [GriefPrevention] Giniguy placed a sign @ world: x757, z-480;===============;Pending;===============
+[11:26:08] [Server thread/INFO]: Giniguy lost connection: Disconnected
+[11:26:08] [Server thread/INFO]: Giniguy has left the game.
+[11:27:11] [User Authenticator #2/INFO]: UUID of player Giniguy is 47a4aaeb-feae-366a-bb50-3db390c239cb
+[11:27:12] [Server thread/INFO]: Giniguy[/0:0:0:0:0:0:0:1:61115] logged in with entity id 1535 at ([world]759.451901596589, 56.54496950023547, -504.5438174460957)
+[11:27:12] [Server thread/INFO]: [0;33;1mGiniguy has joined the game.[m
+[11:41:07] [Server thread/INFO]: [GriefPrevention] Giniguy placed a sign @ world: x757, z-482;===============;Aqua Affinity;Merchant;===============
+[11:43:09] [Server thread/INFO]: [GriefPrevention] Giniguy placed a sign @ world: x757, z-480;===============;Silk Touch;Merchant;===============
+[11:46:21] [Server thread/INFO]: Giniguy issued server command: /trustlist
+[11:46:24] [Server thread/INFO]: Giniguy issued server command: /trustlist
+[11:46:27] [Server thread/INFO]: Giniguy issued server command: /trustlist
+[11:46:48] [Server thread/INFO]: Giniguy issued server command: /accesstrust
+[11:47:02] [Server thread/INFO]: Giniguy issued server command: /accesstrust FKritz
+[11:47:12] [Server thread/INFO]: Giniguy issued server command: /trust help
+[11:47:19] [Server thread/INFO]: Giniguy issued server command: /help trust
+[11:47:39] [Server thread/INFO]: Giniguy issued server command: /permissiontrust FKritz
+[11:47:42] [Server thread/INFO]: Giniguy issued server command: /trustlist
+[11:47:57] [Server thread/INFO]: Giniguy issued server command: /containertrust FKritz
+[11:47:59] [Server thread/INFO]: Giniguy issued server command: /trustlist
+[11:48:17] [Server thread/INFO]: Giniguy issued server command: /permissionsex
+[11:48:21] [Server thread/INFO]: Giniguy issued server command: /permissionsex:
+[11:48:28] [Server thread/INFO]: Giniguy issued server command: /permissionsex:pex
+[11:56:46] [Server thread/INFO]: Giniguy lost connection: Disconnected
+[11:56:46] [Server thread/INFO]: Giniguy has left the game.
+[11:58:14] [User Authenticator #3/INFO]: UUID of player Giniguy is 47a4aaeb-feae-366a-bb50-3db390c239cb
+[11:58:14] [Server thread/INFO]: Giniguy[/0:0:0:0:0:0:0:1:63646] logged in with entity id 2705 at ([world]887.8828236617475, 8.043200044631837, -442.46568085749675)
+[11:58:14] [Server thread/INFO]: [0;33;1mGiniguy has joined the game.[m
+[12:14:37] [Server thread/INFO]: [GriefPrevention] Giniguy placed a sign @ world: x781, z-499;===============;Cooked Chicken;Generator;===============
+[12:23:34] [Server thread/INFO]: [GriefPrevention] Giniguy placed a sign @ world: x784, z-499;===============;Egg;Collector;===============
+[12:25:38] [Async Chat Thread - #0/INFO]: [m[0;33;1m[User] Giniguy [0;36;1m> test[m
+[12:29:55] [Server thread/INFO]: Giniguy lost connection: Disconnected
+[12:29:55] [Server thread/INFO]: Giniguy has left the game.
+[12:55:57] [User Authenticator #4/INFO]: UUID of player Kobeboy15 is dc70f05a-14b3-350c-91b3-ecddbe830761
+[12:55:58] [Server thread/INFO]: Kobeboy15[/0:0:0:0:0:0:0:1:52181] logged in with entity id 4268 at ([world]562.8789726405481, 79.0, 71.69554225858738)
+[12:55:58] [Server thread/INFO]: [0;33;1mKobeboy15 has joined the game.[m
+[12:56:06] [Server thread/INFO]: Kobeboy15 issued server command: /home
+[13:05:27] [Server thread/INFO]: Kobeboy15 issued server command: /home
+[13:25:26] [User Authenticator #5/INFO]: UUID of player kdremeds is ce9932c4-dd5f-35bf-89f5-2e72b97a1bb2
+[13:25:26] [Server thread/INFO]: kdremeds[/0:0:0:0:0:0:0:1:55596] logged in with entity id 8137 at ([world]-650.2352882461284, 16.0, -486.3024276239711)
+[13:25:26] [Server thread/INFO]: [0;33;1mkdremeds has joined the game.[m
+[13:40:04] [Async Chat Thread - #1/INFO]: [m[0;33;1m[User] kdremeds [0;36;1m> kobe[m
+[13:40:07] [Async Chat Thread - #1/INFO]: [m[0;33;1m[User] Kobeboy15 [0;36;1m> yo[m
+[13:40:18] [Async Chat Thread - #1/INFO]: [m[0;33;1m[User] kdremeds [0;36;1m> discord?[m
+[13:40:58] [Server thread/INFO]: Kobeboy15 issued server command: /tpa
+[13:41:00] [Server thread/INFO]: Kobeboy15 issued server command: /tpa kdremeds
+[13:41:04] [Server thread/INFO]: kdremeds issued server command: /tpace
+[13:41:05] [Server thread/INFO]: kdremeds issued server command: /tpaccept
+[13:43:36] [Server thread/INFO]: Kobeboy15 was slain by Zombie
+[13:43:43] [Server thread/INFO]: Kobeboy15 issued server command: /home
+[13:45:24] [User Authenticator #6/INFO]: UUID of player Giniguy is 47a4aaeb-feae-366a-bb50-3db390c239cb
+[13:45:24] [Server thread/INFO]: Giniguy[/0:0:0:0:0:0:0:1:60844] logged in with entity id 11100 at ([world]787.2213328572236, 54.0, -495.3992155486481)
+[13:45:24] [Server thread/INFO]: [0;33;1mGiniguy has joined the game.[m
+[13:47:10] [Server thread/INFO]: Giniguy issued server command: /tpa kdremeds
+[13:47:43] [Server thread/INFO]: kdremeds issued server command: /tpaccept
+[13:48:28] [Server thread/INFO]: [@: Applied effect Jump Boost to Kobeboy15]
+[13:48:41] [Server thread/INFO]: [@: Applied effect Jump Boost to Kobeboy15]
+[13:48:58] [Server thread/INFO]: Kobeboy15 issued server command: /home
+[13:52:26] [Server thread/INFO]: Giniguy issued server command: /home
+[13:52:53] [Server thread/INFO]: kdremeds issued server command: /tpa gini
+[13:52:57] [Server thread/INFO]: Giniguy issued server command: /tpaccept
+[13:55:19] [Server thread/INFO]: Giniguy issued server command: /trust kdremeds
+[13:56:55] [Server thread/INFO]: Giniguy issued server command: /permissiontrust
+[13:57:01] [Server thread/INFO]: Giniguy issued server command: /trustlist
+[14:01:24] [Server thread/INFO]: Kobeboy15 issued server command: /ignoreclaims
+[14:02:03] [Server thread/INFO]: kdremeds issued server command: /home kdremeds
+[14:03:09] [Server thread/INFO]: Kobeboy15 issued server command: /fireball snowball
+[14:03:21] [Server thread/INFO]: Kobeboy15 issued server command: /fireball splashpotion
+[14:03:33] [Server thread/INFO]: Kobeboy15 issued server command: /fireball egg
+[14:03:38] [Server thread/INFO]: kdremeds issued server command: /tpa gini
+[14:03:39] [Server thread/INFO]: Kobeboy15 issued server command: /fireball egg
+[14:03:41] [Server thread/INFO]: Giniguy issued server command: /tpaccept
+[14:04:24] [Server thread/INFO]: Kobeboy15 issued server command: /give Kobeboy15 torch 1
+[14:04:39] [Server thread/INFO]: Kobeboy15 issued server command: /spectator Kobeboy15
+[14:04:42] [Server thread/INFO]: Kobeboy15 issued server command: /tp Giniguy
+[14:04:50] [Server thread/INFO]: Kobeboy15 issued server command: /back
+[14:04:54] [Server thread/INFO]: Kobeboy15 issued server command: /time set night
+[14:04:55] [Server thread/INFO]: kdremeds issued server command: /tpa kdremeds
+[14:05:02] [Server thread/INFO]: kdremeds issued server command: /home kdre
+[14:05:06] [Server thread/INFO]: Kobeboy15 issued server command: /gamemode survival
+[14:05:07] [Server thread/INFO]: kdremeds issued server command: /home kdremeds
+[14:05:28] [Server thread/INFO]: [@: Applied effect Jump Boost to Kobeboy15]
+[14:05:32] [Server thread/INFO]: Giniguy issued server command: /
+[14:06:20] [Server thread/INFO]: Kobeboy15 issued server command: /home
+[14:08:49] [Server thread/INFO]: [GriefPrevention] Giniguy placed a sign @ world: x757, z-492;===============;Bookshelf;Merchant;===============
+[14:10:34] [Server thread/INFO]: kdremeds issued server command: /home spawner
+[14:10:49] [Server thread/INFO]: Kobeboy15 issued server command: /give Kobeboy15 rails 64
+[14:11:44] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mYOU KNOW WHAT TIME IT IS :3 In 15 Minutes![m
+[14:12:16] [Server thread/INFO]: Kobeboy15 issued server command: /give Kobeboy15 powered_rail 2
