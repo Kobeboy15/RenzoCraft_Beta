@@ -1,605 +1,936 @@
-[14:39:10] [Server thread/INFO]: Starting minecraft server version 1.14.4
-[14:39:10] [Server thread/INFO]: Loading properties
-[14:39:10] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-1981d55-7f33c6a (MC: 1.14.4) (Implementing API version 1.14.4-R0.1-SNAPSHOT)
-[14:39:10] [Server thread/INFO]: Debug logging is disabled
-[14:39:10] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[14:39:10] [Server thread/INFO]: Using 4 threads for Netty based IO
-[14:39:10] [Server thread/INFO]: Default game type: SURVIVAL
-[14:39:10] [Server thread/INFO]: Generating keypair
-[14:39:10] [Server thread/INFO]: Starting Minecraft server on *:25565
-[14:39:10] [Server thread/INFO]: Using default channel type
-[14:39:14] [Server thread/WARN]: Plugin PermissionsEx v1.23.4 does not specify an api-version.
-[14:39:14] [Server thread/WARN]: Plugin Stargate v0.8.2 does not specify an api-version.
-[14:39:14] [Server thread/INFO]: [PermissionsEx] Loading PermissionsEx v1.23.4
-[14:39:14] [Server thread/WARN]: [PermissionsEx] This server is in offline mode. Unless this server is configured to integrate with a supported proxy (see http://dft.ba/-8ous), UUIDs *may not be stable*!
-[14:39:14] [Server thread/INFO]: [HomeSpawn] Loading HomeSpawn v3.1.4
-[14:39:14] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v13.7.1
-[14:39:14] [Server thread/INFO]: [mcMMO] Loading mcMMO v2.1.100-SNAPSHOT
-[14:39:14] [Server thread/INFO]: [AutoRestart] Loading AutoRestart v3.3.3
-[14:39:14] [Server thread/INFO]: [Vault] Loading Vault v1.7.2-b107
-[14:39:14] [Server thread/INFO]: [Stargate] Loading Stargate v0.8.2
-[14:39:14] [Server thread/INFO]: [GriefPrevention] Loading GriefPrevention v16.11.6
-[14:39:14] [Server thread/INFO]: [ChestShop] Loading ChestShop v3.10-SNAPSHOT (build 137)
-[14:39:14] [Server thread/INFO]: [Essentials] Loading Essentials v2.17.0.0
-[14:39:14] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn v2.17.0.0
-[14:39:14] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat v2.17.0.0
-[14:39:15] [Server thread/INFO]: [mcMMO] Enabling mcMMO v2.1.100-SNAPSHOT
-[14:39:15] [Server thread/INFO]: [mcMMO] enabling Acrobatics Skills
-[14:39:15] [Server thread/INFO]: [mcMMO] registered subskill: Roll
-[14:39:15] [Server thread/INFO]: [mcMMO] 0 entries in mcMMO World Blacklist
-[14:39:15] [Server thread/INFO]: [Vault] Enabling Vault v1.7.2-b107
-[14:39:15] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
-[14:39:15] [Server thread/INFO]: [Vault] [Permission] PermissionsEx found: Waiting
-[14:39:15] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[14:39:15] [Server thread/INFO]: [Vault] [Chat] PermissionsEx found: Waiting
-[14:39:15] [Server thread/INFO]: [Vault] Enabled Version 1.7.2-b107
-[14:39:15] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[14:39:15] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[14:39:15] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[14:39:15] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[14:39:15] [Server thread/INFO]: Preparing level "world"
-[14:39:16] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
-[14:39:16] [Server thread/INFO]: Loaded 6 recipes
-[14:39:16] [Server thread/INFO]: -------- World Settings For [world] --------
-[14:39:16] [Server thread/INFO]: View Distance: 8
-[14:39:16] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[14:39:16] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[14:39:16] [Server thread/INFO]: Item Merge Radius: 2.5
-[14:39:16] [Server thread/INFO]: Item Despawn Rate: 6000
-[14:39:16] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[14:39:16] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[14:39:16] [Server thread/INFO]: Experience Merge Radius: 3.0
-[14:39:16] [Server thread/INFO]: Mob Spawn Range: 6
-[14:39:16] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[14:39:16] [Server thread/INFO]: Cane Growth Modifier: 100%
-[14:39:16] [Server thread/INFO]: Melon Growth Modifier: 100%
-[14:39:16] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[14:39:16] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[14:39:16] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[14:39:16] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[14:39:16] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[14:39:16] [Server thread/INFO]: Potato Growth Modifier: 100%
-[14:39:16] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[14:39:16] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[14:39:16] [Server thread/INFO]: Vine Growth Modifier: 100%
-[14:39:16] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[14:39:16] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[14:39:16] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[14:39:16] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[14:39:16] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[14:39:16] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[14:39:16] [Server thread/INFO]: Max TNT Explosions: 100
-[14:39:16] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[14:39:16] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[14:39:16] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
-[14:39:16] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[14:39:16] [Server thread/INFO]: View Distance: 8
-[14:39:16] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[14:39:16] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[14:39:16] [Server thread/INFO]: Item Merge Radius: 2.5
-[14:39:16] [Server thread/INFO]: Item Despawn Rate: 6000
-[14:39:16] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[14:39:16] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[14:39:16] [Server thread/INFO]: Experience Merge Radius: 3.0
-[14:39:16] [Server thread/INFO]: Mob Spawn Range: 6
-[14:39:16] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[14:39:16] [Server thread/INFO]: Cane Growth Modifier: 100%
-[14:39:16] [Server thread/INFO]: Melon Growth Modifier: 100%
-[14:39:16] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[14:39:16] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[14:39:16] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[14:39:16] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[14:39:16] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[14:39:16] [Server thread/INFO]: Potato Growth Modifier: 100%
-[14:39:16] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[14:39:16] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[14:39:16] [Server thread/INFO]: Vine Growth Modifier: 100%
-[14:39:16] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[14:39:16] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[14:39:16] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[14:39:16] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[14:39:16] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[14:39:16] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[14:39:16] [Server thread/INFO]: Max TNT Explosions: 100
-[14:39:16] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[14:39:16] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[14:39:16] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
-[14:39:16] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[14:39:16] [Server thread/INFO]: View Distance: 8
-[14:39:16] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[14:39:16] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[14:39:16] [Server thread/INFO]: Item Merge Radius: 2.5
-[14:39:16] [Server thread/INFO]: Item Despawn Rate: 6000
-[14:39:16] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[14:39:16] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[14:39:16] [Server thread/INFO]: Experience Merge Radius: 3.0
-[14:39:16] [Server thread/INFO]: Mob Spawn Range: 6
-[14:39:16] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[14:39:16] [Server thread/INFO]: Cane Growth Modifier: 100%
-[14:39:16] [Server thread/INFO]: Melon Growth Modifier: 100%
-[14:39:16] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[14:39:16] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[14:39:16] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[14:39:16] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[14:39:16] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[14:39:16] [Server thread/INFO]: Potato Growth Modifier: 100%
-[14:39:16] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[14:39:16] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[14:39:16] [Server thread/INFO]: Vine Growth Modifier: 100%
-[14:39:16] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[14:39:16] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[14:39:16] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[14:39:16] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[14:39:16] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[14:39:16] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[14:39:16] [Server thread/INFO]: Max TNT Explosions: 100
-[14:39:16] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[14:39:16] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[14:39:16] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
-[14:39:16] [Server thread/INFO]: Preparing start region for dimension 'world'/minecraft:overworld
-[14:39:16] [Server thread/INFO]: Preparing spawn area: 0%
-[14:39:16] [Server-Worker-7/INFO]: Preparing spawn area: 0%
-[14:39:17] [Server thread/INFO]: Time elapsed: 723 ms
-[14:39:17] [Server thread/INFO]: Preparing start region for dimension 'world_nether'/minecraft:the_nether
-[14:39:17] [Server thread/INFO]: Preparing spawn area: 0%
-[14:39:17] [Server thread/INFO]: Time elapsed: 517 ms
-[14:39:17] [Server thread/INFO]: Preparing start region for dimension 'world_the_end'/minecraft:the_end
-[14:39:17] [Server thread/INFO]: Preparing spawn area: 0%
-[14:39:18] [Server thread/INFO]: Time elapsed: 486 ms
-[14:39:18] [Server thread/INFO]: [PermissionsEx] Enabling PermissionsEx v1.23.4
-[14:39:18] [Server thread/INFO]: [PermissionsEx] Initializing file backend
-[14:39:18] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
-[14:39:18] [Server thread/INFO]: [Vault][Permission] PermissionsEx hooked.
-[14:39:18] [Server thread/INFO]: [Vault] [Vault][Chat] PermissionsEx_Chat hooked.
-[14:39:18] [Server thread/INFO]: [HomeSpawn] Enabling HomeSpawn v3.1.4
-[14:39:18] [Server thread/INFO]: [HomeSpawn] HomeSpawn v3.1.4 has been enabled
-[14:39:18] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v13.7.1
-[14:39:18] [Server thread/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1mDetected Minecraft [0;33;1mv1_14_R1[0;32;1m, using [0;33;1mUniversalSkinFactory[0;32;1m.[m
-[14:39:18] [Server thread/INFO]: [AutoRestart] Enabling AutoRestart v3.3.3
-[14:39:18] [Server thread/INFO]: [0;32;1m[AutoRestart] Loaded![m
-[14:39:18] [Server thread/INFO]: [Stargate] Enabling Stargate v0.8.2
-[14:39:18] [Server thread/INFO]: Stargate v.0.8.2 is enabled.
-[14:39:18] [Server thread/INFO]: [Stargate] Loaded 1 gate layouts
-[14:39:18] [Server thread/INFO]: [Stargate] {world} No stargates for world 
-[14:39:18] [Server thread/INFO]: [Stargate] {world_nether} No stargates for world 
-[14:39:18] [Server thread/INFO]: [Stargate] {world_the_end} No stargates for world 
-[14:39:18] [Server thread/INFO]: [GriefPrevention] Enabling GriefPrevention v16.11.6
-[14:39:18] [Server thread/INFO]: [GriefPrevention] Finished loading configuration.
-[14:39:18] [Server thread/INFO]: [GriefPrevention] 58 total claims loaded.
-[14:39:19] [Server thread/INFO]: [GriefPrevention] Customizable messages loaded.
-[14:39:19] [Server thread/INFO]: [GriefPrevention] Finished loading data (File Mode).
-[14:39:19] [Server thread/INFO]: [GriefPrevention] Boot finished.
-[14:39:19] [Server thread/INFO]: [ChestShop] Enabling ChestShop v3.10-SNAPSHOT (build 137)
-[14:39:19] [Server thread/INFO]: [ChestShop] Using Essentials Economy as the Economy provider now.
-[14:39:19] [Server thread/INFO]: [ChestShop] Vault loaded!
-[14:39:19] [Server thread/INFO]: [Essentials] Enabling Essentials v2.17.0.0
-[14:39:19] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
-[14:39:19] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
-[14:39:19] [Server thread/INFO]: No kits found to migrate.
-[14:39:20] [Server thread/INFO]: [Essentials] Using 1.8.3+ BlockStateMeta provider as mob spawner provider.
-[14:39:20] [Server thread/INFO]: [Essentials] Using 1.13+ flat spawn egg provider as spawn egg provider.
-[14:39:20] [Server thread/INFO]: [Essentials] Using 1.9+ BasePotionData provider as potion meta provider.
-[14:39:20] [Server thread/INFO]: Loaded 20977 items from items.json.
-[14:39:20] [Server thread/INFO]: Using locale en_US
-[14:39:20] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[14:39:20] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[14:39:20] [Server thread/INFO]: [Vault] [Vault][Economy] Essentials Economy hooked.
-[14:39:20] [Server thread/INFO]: [Essentials] Using Vault based permissions (PermissionsEx)
-[14:39:20] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.17.0.0
-[14:39:20] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.17.0.0
-[14:39:20] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[14:39:20] [Server thread/INFO]: Done (4.502s)! For help, type "help"
-[14:39:20] [Craft Scheduler Thread - 0/INFO]: [mcMMO] Cleaned backup files. Deleted 1 of 19 files.
-[14:39:20] [Craft Scheduler Thread - 2/INFO]: [HomeSpawn] HomeSpawn file watcher started!
-[14:39:20] [Craft Scheduler Thread - 4/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m----------------------------------------------[m
-[14:39:20] [Craft Scheduler Thread - 4/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    +===============+[m
-[14:39:20] [Craft Scheduler Thread - 4/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    | SkinsRestorer |[m
-[14:39:20] [Craft Scheduler Thread - 4/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    +===============+[m
-[14:39:20] [Craft Scheduler Thread - 4/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m----------------------------------------------[m
-[14:39:20] [Craft Scheduler Thread - 4/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;36;1m    Current version: [0;32;1m13.7.1[m
-[14:39:20] [Craft Scheduler Thread - 4/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    This is the latest version![m
-[14:39:20] [Craft Scheduler Thread - 4/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m----------------------------------------------[m
-[14:39:21] [Server thread/INFO]: [0;32;1m[AutoRestart] Up to date![m
-[14:39:21] [Craft Scheduler Thread - 6/INFO]: [Vault] Checking for Updates ... 
-[14:39:21] [Craft Scheduler Thread - 6/INFO]: [Vault] No new version available
-[14:46:04] [User Authenticator #1/INFO]: UUID of player arcosanti is a9e52362-e903-3089-8f30-1e5a3b7d754a
-[14:46:05] [Server thread/INFO]: arcosanti[/0:0:0:0:0:0:0:1:53704] logged in with entity id 131 at ([world]499.33777928713664, 66.0, 161.54853987098602)
-[14:46:05] [Server thread/INFO]: [0;33;1marcosanti has joined the game.[m
-[14:46:12] [Server thread/INFO]: arcosanti issued server command: /home spawner
-[14:46:15] [Server thread/INFO]: [mcMMO] WorldGuard was not detected.
-[14:47:13] [User Authenticator #2/INFO]: UUID of player Johann is f160dbef-552f-3b70-af9a-129d0ff0c675
-[14:47:13] [Server thread/INFO]: Johann[/0:0:0:0:0:0:0:1:53792] logged in with entity id 720 at ([world]726.1503339003474, 85.0, -179.63846615919167)
-[14:47:14] [Server thread/INFO]: [0;33;1mJohann has joined the game.[m
-[14:49:09] [Async Chat Thread - #0/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> hey wax[m
-[14:49:11] [Async Chat Thread - #0/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> so like[m
-[14:49:14] [Async Chat Thread - #0/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> with enrollment[m
-[14:49:18] [Async Chat Thread - #0/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> what is ur sched[m
-[14:49:23] [Async Chat Thread - #0/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> oh really free[m
-[14:49:31] [Async Chat Thread - #0/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> other than sat class[m
-[14:49:35] [Async Chat Thread - #0/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> its just tth for me[m
-[14:49:49] [Async Chat Thread - #0/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> hot damn ahahahha[m
-[14:50:15] [Server thread/INFO]: arcosanti issued server command: /home
-[14:50:37] [Server thread/INFO]: arcosanti issued server command: /home spawner
-[14:51:45] [Server thread/INFO]: arcosanti issued server command: /home
-[14:51:58] [Server thread/INFO]: arcosanti issued server command: /home spawner
-[15:04:59] [Server thread/INFO]: arcosanti issued server command: /repair
-[15:05:04] [Server thread/INFO]: arcosanti issued server command: /mctop Repair
-[15:05:22] [Server thread/INFO]: arcosanti issued server command: /mctop Fishing
-[15:08:57] [Server thread/INFO]: Johann issued server command: /sethome:temple
-[15:09:00] [Server thread/INFO]: Johann issued server command: /help
-[15:09:04] [Server thread/INFO]: Johann issued server command: /help 2
-[15:09:11] [Server thread/INFO]: Johann issued server command: /help 3
-[15:09:14] [Server thread/INFO]: Johann issued server command: /help 4
-[15:09:23] [Server thread/INFO]: Johann issued server command: /help 5
-[15:09:28] [Server thread/INFO]: Johann issued server command: /help 6
-[15:09:32] [Server thread/INFO]: Johann issued server command: /help 7
-[15:09:37] [Server thread/INFO]: Johann issued server command: /help 8
-[15:09:42] [Server thread/INFO]: Johann issued server command: /warp
-[15:09:57] [Server thread/INFO]: Johann issued server command: /sethome:wart
-[15:10:02] [Server thread/INFO]: Johann issued server command: /sethome: battle
-[15:10:20] [Server thread/INFO]: Johann was impaled by Drowned
-[15:10:36] [Server thread/INFO]: Johann issued server command: /home
-[15:11:19] [User Authenticator #3/INFO]: UUID of player lolo_lola_69 is 646085da-be96-308b-8634-fb8b260022a5
-[15:11:20] [Server thread/INFO]: lolo_lola_69[/0:0:0:0:0:0:0:1:56054] logged in with entity id 9196 at ([world]584.6701228328136, 79.0, 109.61232797240127)
-[15:11:20] [Server thread/INFO]: [0;33;1mlolo_lola_69 has joined the game.[m
-[15:11:27] [Async Chat Thread - #1/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> vlad[m
-[15:11:31] [Async Chat Thread - #1/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> wanna come with me[m
-[15:11:35] [Async Chat Thread - #1/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> sea adventure[m
-[15:11:35] [Async Chat Thread - #1/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~vLadeeVlads[m [0;36;1m> asa[m
-[15:11:39] [Async Chat Thread - #1/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> i have to go get my stuff back too[m
-[15:11:43] [Async Chat Thread - #1/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> but layooo kaayo[m
-[15:11:49] [Server thread/INFO]: lolo_lola_69 issued server command: /tpa Johann
-[15:11:51] [Async Chat Thread - #1/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> i lost my diamond pickaxe[m
-[15:11:53] [Server thread/INFO]: Johann issued server command: /tpaccept
-[15:12:08] [Async Chat Thread - #1/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> discord[m
-[15:12:09] [Async Chat Thread - #1/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~vLadeeVlads[m [0;36;1m> oh wered u die?[m
-[15:12:14] [Async Chat Thread - #1/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> oh vlad diba u have a mending trader?[m
-[15:12:16] [Async Chat Thread - #1/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> faaar awaauu[m
-[15:12:29] [Async Chat Thread - #1/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~vLadeeVlads[m [0;36;1m> ye[m
-[15:12:36] [Async Chat Thread - #1/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~vLadeeVlads[m [0;36;1m> u can follow the road wax[m
-[15:12:52] [Async Chat Thread - #1/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> oooh the one near your nether portal?[m
-[15:13:05] [Server thread/INFO]: arcosanti issued server command: /fishing
-[15:13:13] [Async Chat Thread - #1/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~vLadeeVlads[m [0;36;1m> just continue till gio's then it branches to the lleft[m
-[15:14:07] [Async Chat Thread - #1/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> aaah[m
-[15:14:09] [Async Chat Thread - #1/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> tyty[m
-[15:14:55] [Server thread/INFO]: Johann issued server command: /tpa lolo_lola_69
-[15:14:56] [Server thread/INFO]: lolo_lola_69 issued server command: /tpaccept
-[15:22:03] [Server thread/WARN]: Boat moved wrongly!
-[15:22:05] [Server thread/INFO]: arcosanti lost connection: Timed out
-[15:22:05] [Server thread/INFO]: arcosanti has left the game.
-[15:23:49] [Server thread/INFO]: Johann issued server command: /tpa lolo_lola_69
-[15:23:52] [Server thread/INFO]: lolo_lola_69 issued server command: /tpaccept
-[15:23:58] [Server thread/INFO]: Johann issued server command: /tpa lolo_lola_69
-[15:23:59] [Server thread/INFO]: lolo_lola_69 issued server command: /tpaccept
-[15:25:29] [Server thread/INFO]: lolo_lola_69 drowned
-[15:25:33] [Server thread/INFO]: lolo_lola_69 issued server command: /tpa Johann
-[15:25:36] [Server thread/INFO]: Johann issued server command: /tpaccept
-[15:27:12] [Server thread/INFO]: Johann drowned
-[15:27:20] [Server thread/INFO]: Johann issued server command: /tpa lolo_lola_69
-[15:27:21] [Server thread/INFO]: lolo_lola_69 issued server command: /tpaccept
-[15:28:40] [Server thread/INFO]: Johann has made the advancement [Fishy Business]
-[15:29:17] [Server thread/INFO]: Johann issued server command: /home
-[15:29:17] [Server thread/INFO]: lolo_lola_69 issued server command: /home
-[15:29:53] [Server thread/INFO]: Johann lost connection: Disconnected
-[15:29:53] [Server thread/INFO]: Johann has left the game.
-[15:32:36] [Server thread/INFO]: lolo_lola_69 lost connection: Disconnected
-[15:32:36] [Server thread/INFO]: lolo_lola_69 has left the game.
-[16:02:56] [User Authenticator #4/INFO]: UUID of player arcosanti is a9e52362-e903-3089-8f30-1e5a3b7d754a
-[16:02:56] [Server thread/INFO]: arcosanti[/0:0:0:0:0:0:0:1:60882] logged in with entity id 14527 at ([world]-649.3000000119209, 16.0, -487.525051771702)
-[16:02:56] [Server thread/INFO]: [0;33;1marcosanti has joined the game.[m
-[16:03:10] [Server thread/INFO]: arcosanti issued server command: /home
-[16:05:59] [Server thread/INFO]: arcosanti issued server command: /home
-[16:06:58] [Server thread/WARN]: Skeleton Horse moved wrongly!
-[16:06:59] [Server thread/WARN]: Skeleton Horse moved wrongly!
-[16:07:00] [Server thread/WARN]: Skeleton Horse moved wrongly!
-[16:07:00] [Server thread/WARN]: Skeleton Horse moved wrongly!
-[16:07:00] [Server thread/WARN]: Skeleton Horse moved wrongly!
-[16:07:06] [Server thread/WARN]: Skeleton Horse moved wrongly!
-[16:07:06] [Server thread/WARN]: Skeleton Horse moved wrongly!
-[16:07:06] [Server thread/WARN]: Skeleton Horse moved wrongly!
-[16:08:12] [Server thread/WARN]: Skeleton Horse moved wrongly!
-[16:08:12] [Server thread/WARN]: Skeleton Horse moved wrongly!
-[16:08:12] [Server thread/WARN]: Skeleton Horse moved wrongly!
-[16:08:16] [Server thread/WARN]: Skeleton Horse moved wrongly!
-[16:08:17] [Server thread/WARN]: Skeleton Horse moved wrongly!
-[16:08:17] [Server thread/WARN]: Skeleton Horse moved wrongly!
-[16:08:17] [Server thread/WARN]: Skeleton Horse moved wrongly!
-[16:10:30] [Server thread/WARN]: Skeleton Horse moved wrongly!
-[16:10:30] [Server thread/WARN]: Skeleton Horse moved wrongly!
-[16:10:31] [Server thread/WARN]: Skeleton Horse moved wrongly!
-[16:10:32] [Server thread/WARN]: Skeleton Horse moved wrongly!
-[16:10:57] [Server thread/WARN]: Skeleton Horse moved wrongly!
-[16:11:43] [Server thread/WARN]: Skeleton Horse moved wrongly!
-[16:11:43] [Server thread/WARN]: Skeleton Horse moved wrongly!
-[16:15:03] [Server thread/WARN]: Skeleton Horse moved wrongly!
-[16:15:03] [Server thread/WARN]: Skeleton Horse moved wrongly!
-[16:15:03] [Server thread/WARN]: Skeleton Horse moved wrongly!
-[16:15:05] [Server thread/WARN]: Skeleton Horse moved wrongly!
-[16:15:05] [Server thread/WARN]: Skeleton Horse moved wrongly!
-[16:16:28] [Server thread/WARN]: Skeleton Horse moved wrongly!
-[16:16:29] [Server thread/WARN]: Skeleton Horse moved wrongly!
-[16:16:30] [Server thread/WARN]: Skeleton Horse moved wrongly!
-[16:17:27] [User Authenticator #5/INFO]: UUID of player big_tasty is bcea9435-1386-3cb2-a2cd-2ea98eae3322
-[16:17:27] [Server thread/INFO]: big_tasty[/0:0:0:0:0:0:0:1:62217] logged in with entity id 16827 at ([world]225.44438511501988, 68.0, -764.6672535404792)
-[16:17:27] [Server thread/INFO]: [0;33;1mbig_tasty has joined the game.[m
-[16:17:45] [Async Chat Thread - #2/INFO]: [m[0;33;1m[User] [0;33;1m[User] big_tasty[m [0;36;1m> oh fuck i forgot i have No more stuff[m
-[16:17:47] [Async Chat Thread - #2/INFO]: [m[0;33;1m[User] [0;33;1m[User] big_tasty[m [0;36;1m> wru[m
-[16:17:55] [Async Chat Thread - #2/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> outside the house[m
-[16:18:08] [Async Chat Thread - #2/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> man my horse disapeared as soon as i got off of him[m
-[16:18:22] [Async Chat Thread - #2/INFO]: [m[0;33;1m[User] [0;33;1m[User] big_tasty[m [0;36;1m> what are there.. pumpkin snowmen?[m
-[16:19:37] [Server thread/INFO]: arcosanti issued server command: /home village
-[16:23:19] [Server thread/INFO]: arcosanti issued server command: /home
-[16:25:10] [Server thread/INFO]: arcosanti issued server command: /home spawner
-[16:26:07] [Server thread/INFO]: arcosanti issued server command: /home village
-[16:29:44] [Server thread/INFO]: big_tasty issued server command: /home
-[16:30:51] [Server thread/INFO]: arcosanti issued server command: /home
-[16:32:38] [Server thread/INFO]: arcosanti issued server command: /mccooldowns
-[16:33:08] [Server thread/INFO]: arcosanti issued server command: /mccooldowns
-[16:33:35] [Server thread/INFO]: arcosanti issued server command: /mccooldowns
-[16:33:57] [Server thread/INFO]: big_tasty issued server command: /home zomboid
-[16:38:29] [Server thread/INFO]: arcosanti issued server command: /mccooldowns
-[16:40:49] [Server thread/INFO]: arcosanti issued server command: /home village
-[16:41:44] [User Authenticator #6/INFO]: UUID of player Arrchiiee is 8ab37728-5dc4-3d56-b222-9dee547c605d
-[16:41:44] [Server thread/INFO]: Arrchiiee[/0:0:0:0:0:0:0:1:64460] logged in with entity id 21180 at ([world]456.46334807241726, 63.5, 353.901254424498)
-[16:41:45] [Server thread/INFO]: [0;33;1mArrchiiee has joined the game.[m
-[16:42:54] [Server thread/INFO]: arcosanti issued server command: /home
-[16:43:08] [Server thread/INFO]: arcosanti issued server command: /home village
-[16:45:00] [Server thread/INFO]: arcosanti issued server command: /home
-[16:45:14] [Server thread/INFO]: arcosanti issued server command: /home village
-[16:46:25] [Server thread/INFO]: arcosanti issued server command: /home
-[16:46:55] [User Authenticator #7/INFO]: UUID of player Johann is f160dbef-552f-3b70-af9a-129d0ff0c675
-[16:46:55] [Server thread/INFO]: Johann[/0:0:0:0:0:0:0:1:64912] logged in with entity id 22799 at ([world]727.6873923819777, 78.0, -183.91552614457447)
-[16:46:56] [Server thread/INFO]: [0;33;1mJohann has joined the game.[m
-[16:52:35] [Server thread/INFO]: arcosanti issued server command: /home
-[16:57:08] [Server thread/INFO]: arcosanti issued server command: /home village
-[16:58:02] [Server thread/INFO]: arcosanti issued server command: /home
-[17:04:49] [Server thread/INFO]: arcosanti issued server command: /home village
-[17:09:49] [Server thread/INFO]: arcosanti issued server command: /home
-[17:10:08] [Server thread/INFO]: arcosanti issued server command: /home village
-[17:11:03] [Server thread/INFO]: Arrchiiee issued server command: /home
-[17:11:48] [Server thread/INFO]: arcosanti issued server command: /home
-[17:13:30] [Server thread/INFO]: arcosanti issued server command: /home village
-[17:13:52] [Server thread/INFO]: arcosanti issued server command: /home
-[17:14:15] [Server thread/INFO]: big_tasty issued server command: /home
-[17:14:54] [Async Chat Thread - #3/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> yo arch[m
-[17:14:55] [Async Chat Thread - #3/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> sleep?[m
-[17:15:03] [Server thread/INFO]: Johann was blown up by Creeper
-[17:15:09] [Async Chat Thread - #3/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> in a bit[m
-[17:15:11] [Server thread/INFO]: Johann issued server command: /home
-[17:15:17] [Async Chat Thread - #3/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> oh damn i didnt see ur name joh hahaha[m
-[17:15:26] [Async Chat Thread - #3/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> :D[m
-[17:15:57] [Server thread/WARN]: Horse moved wrongly!
-[17:15:57] [Server thread/WARN]: Horse moved wrongly!
-[17:15:57] [Server thread/WARN]: Horse moved wrongly!
-[17:15:57] [Server thread/WARN]: Horse moved wrongly!
-[17:15:57] [Server thread/WARN]: Horse moved wrongly!
-[17:15:57] [Server thread/WARN]: Horse moved wrongly!
-[17:15:57] [Server thread/WARN]: Horse moved wrongly!
-[17:16:04] [Server thread/WARN]: Horse moved wrongly!
-[17:16:04] [Server thread/WARN]: Horse moved wrongly!
-[17:16:04] [Server thread/WARN]: Horse moved wrongly!
-[17:16:04] [Server thread/WARN]: Horse moved wrongly!
-[17:16:05] [Server thread/WARN]: Horse moved wrongly!
-[17:16:05] [Server thread/WARN]: Horse moved wrongly!
-[17:16:05] [Server thread/WARN]: Horse moved wrongly!
-[17:16:05] [Server thread/WARN]: Horse moved wrongly!
-[17:16:05] [Server thread/WARN]: Horse moved wrongly!
-[17:16:05] [Server thread/WARN]: Horse moved wrongly!
-[17:16:05] [Server thread/WARN]: Horse moved wrongly!
-[17:16:05] [Server thread/WARN]: Horse moved wrongly!
-[17:16:05] [Server thread/WARN]: Horse moved wrongly!
-[17:16:05] [Server thread/WARN]: Horse moved wrongly!
-[17:16:05] [Server thread/WARN]: Horse moved wrongly!
-[17:16:05] [Server thread/WARN]: Horse moved wrongly!
-[17:16:05] [Server thread/WARN]: Horse moved wrongly!
-[17:16:05] [Server thread/WARN]: Horse moved wrongly!
-[17:16:05] [Server thread/WARN]: Horse moved wrongly!
-[17:16:05] [Server thread/WARN]: Horse moved wrongly!
-[17:16:58] [Server thread/WARN]: Horse moved wrongly!
-[17:16:58] [Server thread/WARN]: Horse moved wrongly!
-[17:16:58] [Server thread/WARN]: Horse moved wrongly!
-[17:16:59] [Server thread/WARN]: Horse moved wrongly!
-[17:16:59] [Server thread/WARN]: Horse moved wrongly!
-[17:16:59] [Server thread/WARN]: Horse moved wrongly!
-[17:16:59] [Server thread/WARN]: Horse moved wrongly!
-[17:17:10] [Async Chat Thread - #4/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> ts;ee[ to,e[m
-[17:17:13] [Async Chat Thread - #4/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> sleep time[m
-[17:17:18] [Async Chat Thread - #4/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> ey[m
-[17:17:22] [Async Chat Thread - #4/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> is archi afk?[m
-[17:17:23] [Async Chat Thread - #4/INFO]: [m[0;33;1m[User] [0;33;1m[User] Arrchiiee[m [0;36;1m> tping home[m
-[17:17:27] [Server thread/INFO]: Arrchiiee issued server command: /home
-[17:17:27] [Async Chat Thread - #4/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> ah nice[m
-[17:17:34] [Async Chat Thread - #4/INFO]: [m[0;33;1m[User] [0;33;1m[User] Arrchiiee[m [0;36;1m> in bed[m
-[17:17:37] [Server thread/INFO]: [Server] i love you archie
-[17:17:39] [Async Chat Thread - #4/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> yty[m
-[17:17:41] [Async Chat Thread - #4/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> tyty[m
-[17:17:41] [Async Chat Thread - #4/INFO]: [m[0;33;1m[User] [0;33;1m[User] Arrchiiee[m [0;36;1m> wanna join me?[m
-[17:17:45] [Async Chat Thread - #4/INFO]: [m[0;33;1m[User] [0;33;1m[User] Arrchiiee[m [0;36;1m> oh nevermind[m
-[17:17:48] [Server thread/INFO]: [Server] im uploading the song rn so if it lags im sorry
-[17:17:48] [Async Chat Thread - #4/INFO]: [m[0;33;1m[User] [0;33;1m[User] big_tasty[m [0;36;1m> ohy my[m
-[17:17:50] [Async Chat Thread - #4/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> oh god wants to smash archie[m
-[17:17:50] [Async Chat Thread - #4/INFO]: [m[0;33;1m[User] [0;33;1m[User] Arrchiiee[m [0;36;1m> its morning now :([m
-[17:18:00] [Async Chat Thread - #4/INFO]: [m[0;33;1m[User] [0;33;1m[User] Arrchiiee[m [0;36;1m> hehehehe salig naay album cover[m
-[17:18:08] [Server thread/INFO]: arcosanti issued server command: /home village
-[17:19:22] [Server thread/WARN]: arcosanti moved too quickly! 2.669981437785623,0.3739040364667261,11.284788805035987
-[17:21:55] [Server thread/INFO]: arcosanti issued server command: /home
-[17:24:54] [User Authenticator #8/INFO]: UUID of player lolo_lola_69 is 646085da-be96-308b-8634-fb8b260022a5
-[17:24:54] [Server thread/INFO]: lolo_lola_69[/0:0:0:0:0:0:0:1:52185] logged in with entity id 32148 at ([world]583.9672806537953, 79.0, 108.25397468969977)
-[17:24:54] [Server thread/INFO]: [0;33;1mlolo_lola_69 has joined the game.[m
-[17:25:06] [User Authenticator #9/INFO]: UUID of player Jhor is 82f182b3-716a-3898-ae1d-76f70444a8a2
-[17:25:06] [Server thread/INFO]: Jhor[/0:0:0:0:0:0:0:1:52201] logged in with entity id 32208 at ([world]429.3300563288085, 126.0, 94.45789063660607)
-[17:25:06] [Server thread/INFO]: [0;33;1mJhor has joined the game.[m
-[17:25:13] [Server thread/INFO]: Jhor issued server command: /mctop
-[17:25:31] [Async Chat Thread - #5/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~vLadeeVlads[m [0;36;1m> joh ill be in the discords afk[m
-[17:25:32] [Server thread/INFO]: lolo_lola_69 issued server command: /home
-[17:25:39] [Async Chat Thread - #5/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> oks manoks[m
-[17:26:05] [Server thread/INFO]: Jhor issued server command: /home mine
-[17:32:17] [Server thread/INFO]: arcosanti issued server command: /home spawner
-[17:32:27] [Server thread/INFO]: arcosanti issued server command: /home
-[17:32:34] [Server thread/INFO]: arcosanti issued server command: /home village
-[17:33:09] [Server thread/INFO]: arcosanti lost connection: Timed out
-[17:33:09] [Server thread/INFO]: arcosanti has left the game.
-[17:36:57] [Server thread/INFO]: Johann issued server command: /home
-[17:38:06] [Server thread/INFO]: Johann lost connection: Disconnected
-[17:38:06] [Server thread/INFO]: Johann has left the game.
-[17:38:35] [Server thread/INFO]: Jhor issued server command: /home
-[17:40:11] [Server thread/INFO]: [@: Applied effect Jump Boost to big_tasty]
-[17:40:11] [Server thread/INFO]: [@: Applied effect Slow Falling to big_tasty]
-[17:40:50] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] big_tasty[m [0;36;1m> oh shiiit this button is epic haha[m
-[17:40:52] [Server thread/INFO]: lolo_lola_69 issued server command: /home
-[17:41:00] [Server thread/INFO]: [@: Applied effect Jump Boost to big_tasty]
-[17:41:00] [Server thread/INFO]: [@: Applied effect Slow Falling to big_tasty]
-[17:41:07] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~vLadeeVlads[m [0;36;1m> are u floating down[m
-[17:41:10] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~vLadeeVlads[m [0;36;1m> haha[m
-[17:41:12] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] big_tasty[m [0;36;1m> yeh[m
-[17:41:21] [Server thread/INFO]: Jhor issued server command: /home mine
-[17:41:34] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] big_tasty[m [0;36;1m> lit[m
-[17:41:43] [Server thread/INFO]: Jhor issued server command: /home
-[17:41:48] [Server thread/INFO]: lolo_lola_69 issued server command: /tpa big_tasty
-[17:41:55] [Server thread/INFO]: big_tasty issued server command: /tpaccept
-[17:41:56] [Server thread/INFO]: Jhor issued server command: /home mine
-[17:42:04] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~vLadeeVlads[m [0;36;1m> this used to kill[m
-[17:42:09] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~vLadeeVlads[m [0;36;1m> there was no feather falling[m
-[17:42:18] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~vLadeeVlads[m [0;36;1m> fly again hanah[m
-[17:42:21] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] big_tasty[m [0;36;1m> scawy[m
-[17:42:32] [Server thread/INFO]: [@: Applied effect Jump Boost to big_tasty]
-[17:42:32] [Server thread/INFO]: [@: Applied effect Slow Falling to big_tasty]
-[17:42:34] [Server thread/INFO]: [@: Applied effect Jump Boost to lolo_lola_69]
-[17:42:34] [Server thread/INFO]: [@: Applied effect Slow Falling to lolo_lola_69]
-[17:42:42] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~vLadeeVlads[m [0;36;1m> hahaha[m
-[17:42:44] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] big_tasty[m [0;36;1m> HOY[m
-[17:42:50] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~vLadeeVlads[m [0;36;1m> dog fight[m
-[17:42:52] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~vLadeeVlads[m [0;36;1m> hahaha[m
-[17:42:55] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] Arrchiiee[m [0;36;1m> tf us happening?[m
-[17:43:02] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~vLadeeVlads[m [0;36;1m> ali arch[m
-[17:43:07] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~vLadeeVlads[m [0;36;1m> tpa[m
-[17:43:36] [Server thread/INFO]: [@: Applied effect Jump Boost to lolo_lola_69]
-[17:43:36] [Server thread/INFO]: [@: Applied effect Slow Falling to lolo_lola_69]
-[17:43:55] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~vLadeeVlads[m [0;36;1m> the view is nice raba[m
-[17:43:59] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~vLadeeVlads[m [0;36;1m> at night[m
-[17:44:01] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] big_tasty[m [0;36;1m> yeah its cool[m
-[17:44:19] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] big_tasty[m [0;36;1m> how many potions are there inside[m
-[17:44:24] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~vLadeeVlads[m [0;36;1m> no potions[m
-[17:44:30] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] big_tasty[m [0;36;1m> :o[m
-[17:44:32] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~vLadeeVlads[m [0;36;1m> command blocks were used[m
-[17:44:36] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] big_tasty[m [0;36;1m> ah nice[m
-[17:45:32] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] big_tasty[m [0;36;1m> the great wall looks nice from the sky[m
-[17:45:39] [Server thread/INFO]: Arrchiiee issued server command: /home
-[17:45:49] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~vLadeeVlads[m [0;36;1m> try at night hannah[m
-[17:46:00] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] big_tasty[m [0;36;1m> g[m
-[17:46:04] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~vLadeeVlads[m [0;36;1m> u can see the path light up[m
-[17:46:09] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~vLadeeVlads[m [0;36;1m> from ur base to ours[m
-[17:46:20] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] big_tasty[m [0;36;1m> romantic[m
-[17:46:27] [User Authenticator #10/INFO]: UUID of player arcosanti is a9e52362-e903-3089-8f30-1e5a3b7d754a
-[17:46:27] [Server thread/INFO]: arcosanti[/0:0:0:0:0:0:0:1:54189] logged in with entity id 40826 at ([world]223.39113789295445, 67.0, -766.648670818223)
-[17:46:27] [Server thread/INFO]: [0;33;1marcosanti has joined the game.[m
-[17:46:29] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~vLadeeVlads[m [0;36;1m> <3 haha[m
-[17:46:49] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> do you guys still need cobble, I'm loaded as hell[m
-[17:48:00] [Async Chat Thread - #7/INFO]: [m[0;33;1m[User] [0;33;1m[User] Arrchiiee[m [0;36;1m> accidentally broke stairs leading into my mine[m
-[17:48:04] [Async Chat Thread - #7/INFO]: [m[0;33;1m[User] [0;33;1m[User] Arrchiiee[m [0;36;1m> found diamond hahaha[m
-[17:48:06] [Server thread/INFO]: arcosanti issued server command: /tpa big_tasty
-[17:48:11] [Async Chat Thread - #7/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> hahahaha[m
-[17:48:11] [Async Chat Thread - #7/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~vLadeeVlads[m [0;36;1m> u can drop it in the PO box at the gate[m
-[17:48:13] [Server thread/INFO]: big_tasty issued server command: /tpaccept
-[17:48:13] [Async Chat Thread - #7/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~vLadeeVlads[m [0;36;1m> ty[m
-[17:48:28] [Server thread/INFO]: [@: Applied effect Jump Boost to arcosanti]
-[17:48:28] [Server thread/INFO]: [@: Applied effect Slow Falling to arcosanti]
-[17:48:31] [Server thread/INFO]: [@: Applied effect Jump Boost to big_tasty]
-[17:48:31] [Server thread/INFO]: [@: Applied effect Slow Falling to big_tasty]
-[17:48:38] [Async Chat Thread - #7/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> the cobble?[m
-[17:48:40] [Async Chat Thread - #7/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~vLadeeVlads[m [0;36;1m> joe, if u want some exp, u can cook the cobble daan[m
-[17:48:45] [Async Chat Thread - #7/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~vLadeeVlads[m [0;36;1m> yea[m
-[17:48:51] [Async Chat Thread - #7/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> you need smooth stone?[m
-[17:48:55] [Async Chat Thread - #7/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> fuck[m
-[17:49:00] [Async Chat Thread - #7/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~vLadeeVlads[m [0;36;1m> cook it 1 lang[m
-[17:49:02] [Async Chat Thread - #7/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> that jump scared me[m
-[17:49:07] [Async Chat Thread - #7/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~vLadeeVlads[m [0;36;1m> so taht i acn bricks[m
-[17:49:39] [Async Chat Thread - #7/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~vLadeeVlads[m [0;36;1m> imagine a siege[m
-[17:49:56] [Async Chat Thread - #7/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> hey joe i can help you move some cobble[m
-[17:50:00] [Server thread/INFO]: Arrchiiee issued server command: /home
-[17:50:04] [Async Chat Thread - #7/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> cool[m
-[17:50:10] [Async Chat Thread - #7/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> vlad[m
-[17:50:11] [Async Chat Thread - #7/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> just head to my mine haha[m
-[17:50:18] [Async Chat Thread - #7/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> omfg thanks vlad[m
-[17:50:23] [Async Chat Thread - #7/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~vLadeeVlads[m [0;36;1m> hehe[m
-[17:50:28] [Async Chat Thread - #7/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~vLadeeVlads[m [0;36;1m> brb[m
-[17:50:30] [Server thread/INFO]: lolo_lola_69 issued server command: /home
-[17:51:02] [Server thread/INFO]: big_tasty issued server command: /tpa arcosanti
-[17:51:05] [Server thread/INFO]: arcosanti issued server command: /tpaccept
-[17:52:03] [Async Chat Thread - #8/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> hey joe wheres the entrance to ur mine[m
-[17:52:11] [Async Chat Thread - #8/INFO]: [m[0;33;1m[User] [0;33;1m[User] big_tasty[m [0;36;1m> wheres your hole[m
-[17:52:15] [Async Chat Thread - #8/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> no[m
-[17:52:17] [Async Chat Thread - #8/INFO]: [m[0;33;1m[User] [0;33;1m[User] Arrchiiee[m [0;36;1m> yes[m
-[17:52:22] [Async Chat Thread - #8/INFO]: [m[0;33;1m[User] [0;33;1m[User] Arrchiiee[m [0;36;1m> were all wondering[m
-[17:52:45] [Async Chat Thread - #8/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> wait just tp, it's a little harder to find the central mine area from the hole[m
-[17:52:55] [Async Chat Thread - #8/INFO]: [m[0;33;1m[User] [0;33;1m[User] Arrchiiee[m [0;36;1m> mmmm central hole[m
-[17:52:57] [Async Chat Thread - #8/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~vLadeeVlads[m [0;36;1m> ye it is hahah[m
-[17:53:01] [Async Chat Thread - #8/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> mmhmm[m
-[17:53:02] [Async Chat Thread - #8/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~vLadeeVlads[m [0;36;1m> i went in joe's hole[m
-[17:53:06] [Async Chat Thread - #8/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> oh my[m
-[17:53:11] [Async Chat Thread - #8/INFO]: [m[0;33;1m[User] [0;33;1m[User] big_tasty[m [0;36;1m> damn thats hot[m
-[17:53:17] [Async Chat Thread - #8/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~vLadeeVlads[m [0;36;1m> pretty tight[m
-[17:53:21] [Async Chat Thread - #8/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~vLadeeVlads[m [0;36;1m> a lot of caves[m
-[17:53:36] [Server thread/INFO]: arcosanti issued server command: /tpa Jhor
-[17:53:38] [Server thread/INFO]: big_tasty issued server command: /tpaccept
-[17:53:41] [Server thread/INFO]: Jhor issued server command: /tpaccept
-[17:53:44] [Server thread/INFO]: big_tasty issued server command: /tpa arcosanti
-[17:53:47] [Server thread/INFO]: arcosanti issued server command: /tpaccept
-[17:53:50] [Async Chat Thread - #8/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> go down the path[m
-[17:53:51] [Async Chat Thread - #8/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> eyo[m
-[17:53:52] [Async Chat Thread - #8/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> tyty[m
-[17:53:54] [Async Chat Thread - #8/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> hey[m
-[17:53:57] [Async Chat Thread - #8/INFO]: [m[0;33;1m[User] [0;33;1m[User] big_tasty[m [0;36;1m> we are your pack mules[m
-[17:54:03] [Async Chat Thread - #8/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> you can use the minecart[m
-[17:54:08] [Async Chat Thread - #8/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> only 1 tho[m
-[17:55:32] [Server thread/INFO]: Jhor issued server command: /home mine
-[17:55:33] [Async Chat Thread - #9/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> what about ur granit joe[m
-[17:55:43] [Async Chat Thread - #9/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> you can take whatever from here haha[m
-[17:56:42] [Server thread/INFO]: Jhor issued server command: /home
-[17:56:59] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] big_tasty[m [0;36;1m> shit i lost[m
-[17:57:12] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] Arrchiiee[m [0;36;1m> thats one big hole[m
-[17:57:23] [Server thread/INFO]: Jhor issued server command: /home mine
-[17:57:29] [Server thread/INFO]: Jhor issued server command: /home
-[17:57:41] [Server thread/INFO]: Jhor issued server command: /home mine
-[17:57:48] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> can you send the minecart back haha[m
-[17:57:48] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] big_tasty[m [0;36;1m> its so deep[m
-[17:57:54] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> hahahaha yeah[m
-[17:58:10] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> the railway needs improving[m
-[17:58:27] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> hello[m
-[17:58:28] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> sup[m
-[17:58:36] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> bon voyage[m
-[17:58:42] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> adios amigo[m
-[17:59:42] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] big_tasty[m [0;36;1m> joe look at this[m
-[17:59:43] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> hey[m
-[17:59:47] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] big_tasty[m [0;36;1m> stand still for a sec[m
-[17:59:59] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> woah woah woah[m
-[18:00:05] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> hannnaaaah[m
-[18:00:05] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] big_tasty[m [0;36;1m> ;)[m
-[18:00:06] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> stop[m
-[18:00:08] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> what's happening here haha[m
-[18:00:14] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> ;)[m
-[18:00:20] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] big_tasty[m [0;36;1m> its your initiation[m
-[18:00:23] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] Arrchiiee[m [0;36;1m> whoah[m
-[18:00:28] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] Arrchiiee[m [0;36;1m> new nether portal?[m
-[18:00:37] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> nice, Im in the club now[m
-[18:01:36] [Server thread/INFO]: Arrchiiee issued server command: /home
-[18:03:40] [Server thread/INFO]: arcosanti issued server command: /home
-[18:03:42] [Server thread/INFO]: Arrchiiee issued server command: /home
-[18:04:05] [Server thread/INFO]: big_tasty issued server command: /home
-[18:07:17] [Server thread/INFO]: Arrchiiee issued server command: /home
-[18:07:36] [Server thread/INFO]: [@: Applied effect Jump Boost to arcosanti]
-[18:07:36] [Server thread/INFO]: [@: Applied effect Slow Falling to arcosanti]
-[18:07:37] [Server thread/INFO]: [@: Applied effect Jump Boost to big_tasty]
-[18:07:37] [Server thread/INFO]: [@: Applied effect Slow Falling to big_tasty]
-[18:07:45] [Server thread/INFO]: [@: Applied effect Jump Boost to arcosanti]
-[18:07:45] [Server thread/INFO]: [@: Applied effect Slow Falling to arcosanti]
-[18:07:47] [Server thread/INFO]: [@: Applied effect Jump Boost to arcosanti]
-[18:07:47] [Server thread/INFO]: [@: Applied effect Slow Falling to arcosanti]
-[18:07:52] [Server thread/INFO]: [@: Applied effect Jump Boost to big_tasty]
-[18:07:52] [Server thread/INFO]: [@: Applied effect Slow Falling to big_tasty]
-[18:09:30] [Server thread/INFO]: Jhor issued server command: /home
-[18:10:13] [Server thread/INFO]: lolo_lola_69 issued server command: /home
-[18:10:22] [Server thread/INFO]: [@: Applied effect Jump Boost to arcosanti]
-[18:10:22] [Server thread/INFO]: [@: Applied effect Slow Falling to arcosanti]
-[18:10:29] [Server thread/INFO]: Arrchiiee issued server command: /home
-[18:11:06] [Server thread/INFO]: arcosanti issued server command: /mctop Acrobatics
+[18:40:39] [Server thread/INFO]: Starting minecraft server version 1.14.4
+[18:40:39] [Server thread/INFO]: Loading properties
+[18:40:39] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-1981d55-7f33c6a (MC: 1.14.4) (Implementing API version 1.14.4-R0.1-SNAPSHOT)
+[18:40:39] [Server thread/INFO]: Debug logging is disabled
+[18:40:39] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[18:40:39] [Server thread/INFO]: Using 4 threads for Netty based IO
+[18:40:39] [Server thread/INFO]: Default game type: SURVIVAL
+[18:40:39] [Server thread/INFO]: Generating keypair
+[18:40:40] [Server thread/INFO]: Starting Minecraft server on *:25565
+[18:40:40] [Server thread/INFO]: Using default channel type
+[18:40:41] [User Authenticator #1/INFO]: UUID of player Arrchiiee is 8ab37728-5dc4-3d56-b222-9dee547c605d
+[18:40:43] [Server thread/WARN]: Plugin PermissionsEx v1.23.4 does not specify an api-version.
+[18:40:44] [Server thread/WARN]: Plugin Stargate v0.8.2 does not specify an api-version.
+[18:40:44] [Server thread/INFO]: [PermissionsEx] Loading PermissionsEx v1.23.4
+[18:40:44] [Server thread/WARN]: [PermissionsEx] This server is in offline mode. Unless this server is configured to integrate with a supported proxy (see http://dft.ba/-8ous), UUIDs *may not be stable*!
+[18:40:44] [Server thread/INFO]: [HomeSpawn] Loading HomeSpawn v3.1.4
+[18:40:44] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v13.7.1
+[18:40:44] [Server thread/INFO]: [mcMMO] Loading mcMMO v2.1.100-SNAPSHOT
+[18:40:44] [Server thread/INFO]: [AutoRestart] Loading AutoRestart v3.3.3
+[18:40:44] [Server thread/INFO]: [Vault] Loading Vault v1.7.2-b107
+[18:40:44] [Server thread/INFO]: [Stargate] Loading Stargate v0.8.2
+[18:40:44] [Server thread/INFO]: [GriefPrevention] Loading GriefPrevention v16.11.6
+[18:40:44] [Server thread/INFO]: [ChestShop] Loading ChestShop v3.10-SNAPSHOT (build 137)
+[18:40:45] [Server thread/INFO]: [Essentials] Loading Essentials v2.17.0.0
+[18:40:45] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn v2.17.0.0
+[18:40:45] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat v2.17.0.0
+[18:40:45] [Server thread/INFO]: [mcMMO] Enabling mcMMO v2.1.100-SNAPSHOT
+[18:40:45] [Server thread/INFO]: [mcMMO] enabling Acrobatics Skills
+[18:40:45] [Server thread/INFO]: [mcMMO] registered subskill: Roll
+[18:40:45] [Server thread/INFO]: [mcMMO] 0 entries in mcMMO World Blacklist
+[18:40:45] [Server thread/INFO]: [Vault] Enabling Vault v1.7.2-b107
+[18:40:45] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[18:40:45] [Server thread/INFO]: [Vault] [Permission] PermissionsEx found: Waiting
+[18:40:45] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[18:40:45] [Server thread/INFO]: [Vault] [Chat] PermissionsEx found: Waiting
+[18:40:45] [Server thread/INFO]: [Vault] Enabled Version 1.7.2-b107
+[18:40:45] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[18:40:45] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[18:40:45] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[18:40:45] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[18:40:45] [Server thread/INFO]: Preparing level "world"
+[18:40:45] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
+[18:40:45] [Server thread/INFO]: Loaded 6 recipes
+[18:40:45] [Server thread/INFO]: -------- World Settings For [world] --------
+[18:40:45] [Server thread/INFO]: View Distance: 8
+[18:40:45] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[18:40:45] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[18:40:45] [Server thread/INFO]: Max TNT Explosions: 100
+[18:40:45] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[18:40:45] [Server thread/INFO]: Cane Growth Modifier: 100%
+[18:40:45] [Server thread/INFO]: Melon Growth Modifier: 100%
+[18:40:45] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[18:40:45] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[18:40:45] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[18:40:45] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[18:40:45] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[18:40:45] [Server thread/INFO]: Potato Growth Modifier: 100%
+[18:40:45] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[18:40:45] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[18:40:45] [Server thread/INFO]: Vine Growth Modifier: 100%
+[18:40:45] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[18:40:45] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[18:40:45] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[18:40:45] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[18:40:45] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[18:40:45] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[18:40:45] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[18:40:45] [Server thread/INFO]: Experience Merge Radius: 3.0
+[18:40:45] [Server thread/INFO]: Mob Spawn Range: 6
+[18:40:45] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[18:40:45] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[18:40:45] [Server thread/INFO]: Item Despawn Rate: 6000
+[18:40:45] [Server thread/INFO]: Item Merge Radius: 2.5
+[18:40:45] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[18:40:45] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[18:40:46] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[18:40:46] [Server thread/INFO]: View Distance: 8
+[18:40:46] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[18:40:46] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[18:40:46] [Server thread/INFO]: Max TNT Explosions: 100
+[18:40:46] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[18:40:46] [Server thread/INFO]: Cane Growth Modifier: 100%
+[18:40:46] [Server thread/INFO]: Melon Growth Modifier: 100%
+[18:40:46] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[18:40:46] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[18:40:46] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[18:40:46] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[18:40:46] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[18:40:46] [Server thread/INFO]: Potato Growth Modifier: 100%
+[18:40:46] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[18:40:46] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[18:40:46] [Server thread/INFO]: Vine Growth Modifier: 100%
+[18:40:46] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[18:40:46] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[18:40:46] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[18:40:46] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[18:40:46] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[18:40:46] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[18:40:46] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[18:40:46] [Server thread/INFO]: Experience Merge Radius: 3.0
+[18:40:46] [Server thread/INFO]: Mob Spawn Range: 6
+[18:40:46] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[18:40:46] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[18:40:46] [Server thread/INFO]: Item Despawn Rate: 6000
+[18:40:46] [Server thread/INFO]: Item Merge Radius: 2.5
+[18:40:46] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[18:40:46] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[18:40:46] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[18:40:46] [Server thread/INFO]: View Distance: 8
+[18:40:46] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[18:40:46] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[18:40:46] [Server thread/INFO]: Max TNT Explosions: 100
+[18:40:46] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[18:40:46] [Server thread/INFO]: Cane Growth Modifier: 100%
+[18:40:46] [Server thread/INFO]: Melon Growth Modifier: 100%
+[18:40:46] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[18:40:46] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[18:40:46] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[18:40:46] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[18:40:46] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[18:40:46] [Server thread/INFO]: Potato Growth Modifier: 100%
+[18:40:46] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[18:40:46] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[18:40:46] [Server thread/INFO]: Vine Growth Modifier: 100%
+[18:40:46] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[18:40:46] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[18:40:46] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[18:40:46] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[18:40:46] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[18:40:46] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[18:40:46] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[18:40:46] [Server thread/INFO]: Experience Merge Radius: 3.0
+[18:40:46] [Server thread/INFO]: Mob Spawn Range: 6
+[18:40:46] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[18:40:46] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[18:40:46] [Server thread/INFO]: Item Despawn Rate: 6000
+[18:40:46] [Server thread/INFO]: Item Merge Radius: 2.5
+[18:40:46] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[18:40:46] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[18:40:46] [Server thread/INFO]: Preparing start region for dimension 'world'/minecraft:overworld
+[18:40:46] [Server thread/INFO]: Preparing spawn area: 0%
+[18:40:46] [Server thread/INFO]: Preparing spawn area: 0%
+[18:40:46] [Server thread/INFO]: Time elapsed: 703 ms
+[18:40:46] [Server thread/INFO]: Preparing start region for dimension 'world_nether'/minecraft:the_nether
+[18:40:47] [Server thread/INFO]: Preparing spawn area: 0%
+[18:40:47] [Server thread/INFO]: Time elapsed: 528 ms
+[18:40:47] [Server thread/INFO]: Preparing start region for dimension 'world_the_end'/minecraft:the_end
+[18:40:47] [Server thread/INFO]: Preparing spawn area: 0%
+[18:40:47] [Server-Worker-5/INFO]: Preparing spawn area: 96%
+[18:40:47] [Server thread/INFO]: Time elapsed: 523 ms
+[18:40:47] [Server thread/INFO]: [PermissionsEx] Enabling PermissionsEx v1.23.4
+[18:40:47] [Server thread/INFO]: [PermissionsEx] Initializing file backend
+[18:40:47] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
+[18:40:47] [Server thread/INFO]: [Vault][Permission] PermissionsEx hooked.
+[18:40:47] [Server thread/INFO]: [Vault] [Vault][Chat] PermissionsEx_Chat hooked.
+[18:40:47] [Server thread/INFO]: [HomeSpawn] Enabling HomeSpawn v3.1.4
+[18:40:47] [Server thread/INFO]: [HomeSpawn] HomeSpawn v3.1.4 has been enabled
+[18:40:47] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v13.7.1
+[18:40:48] [Server thread/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1mDetected Minecraft [0;33;1mv1_14_R1[0;32;1m, using [0;33;1mUniversalSkinFactory[0;32;1m.[m
+[18:40:48] [Server thread/INFO]: [AutoRestart] Enabling AutoRestart v3.3.3
+[18:40:48] [Server thread/INFO]: [0;32;1m[AutoRestart] Loaded![m
+[18:40:48] [Server thread/INFO]: [Stargate] Enabling Stargate v0.8.2
+[18:40:48] [Server thread/INFO]: Stargate v.0.8.2 is enabled.
+[18:40:48] [Server thread/INFO]: [Stargate] Loaded 1 gate layouts
+[18:40:48] [Server thread/INFO]: [Stargate] {world} No stargates for world 
+[18:40:48] [Server thread/INFO]: [Stargate] {world_nether} No stargates for world 
+[18:40:48] [Server thread/INFO]: [Stargate] {world_the_end} No stargates for world 
+[18:40:48] [Server thread/INFO]: [GriefPrevention] Enabling GriefPrevention v16.11.6
+[18:40:48] [Server thread/INFO]: [GriefPrevention] Finished loading configuration.
+[18:40:48] [Server thread/INFO]: [GriefPrevention] 58 total claims loaded.
+[18:40:49] [Server thread/INFO]: [GriefPrevention] Customizable messages loaded.
+[18:40:49] [Server thread/INFO]: [GriefPrevention] Finished loading data (File Mode).
+[18:40:49] [Server thread/INFO]: [GriefPrevention] Boot finished.
+[18:40:49] [Server thread/INFO]: [ChestShop] Enabling ChestShop v3.10-SNAPSHOT (build 137)
+[18:40:49] [Server thread/INFO]: [ChestShop] Using Essentials Economy as the Economy provider now.
+[18:40:49] [Server thread/INFO]: [ChestShop] Vault loaded!
+[18:40:49] [Server thread/INFO]: [Essentials] Enabling Essentials v2.17.0.0
+[18:40:49] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[18:40:49] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
+[18:40:49] [Server thread/INFO]: No kits found to migrate.
+[18:40:49] [Server thread/INFO]: [Essentials] Using 1.8.3+ BlockStateMeta provider as mob spawner provider.
+[18:40:49] [Server thread/INFO]: [Essentials] Using 1.13+ flat spawn egg provider as spawn egg provider.
+[18:40:49] [Server thread/INFO]: [Essentials] Using 1.9+ BasePotionData provider as potion meta provider.
+[18:40:49] [Server thread/INFO]: Loaded 20977 items from items.json.
+[18:40:49] [Server thread/INFO]: Using locale en_US
+[18:40:49] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[18:40:49] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[18:40:49] [Server thread/INFO]: [Vault] [Vault][Economy] Essentials Economy hooked.
+[18:40:49] [Server thread/INFO]: [Essentials] Using Vault based permissions (PermissionsEx)
+[18:40:49] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.17.0.0
+[18:40:49] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.17.0.0
+[18:40:49] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[18:40:50] [Server thread/INFO]: Done (4.485s)! For help, type "help"
+[18:40:50] [Craft Scheduler Thread - 0/INFO]: [mcMMO] Cleaned backup files. Deleted 1 of 19 files.
+[18:40:50] [Craft Scheduler Thread - 2/INFO]: [HomeSpawn] HomeSpawn file watcher started!
+[18:40:50] [Craft Scheduler Thread - 4/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m----------------------------------------------[m
+[18:40:50] [Craft Scheduler Thread - 4/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    +===============+[m
+[18:40:50] [Craft Scheduler Thread - 4/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    | SkinsRestorer |[m
+[18:40:50] [Craft Scheduler Thread - 4/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    +===============+[m
+[18:40:50] [Craft Scheduler Thread - 4/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m----------------------------------------------[m
+[18:40:50] [Craft Scheduler Thread - 4/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;36;1m    Current version: [0;32;1m13.7.1[m
+[18:40:50] [Craft Scheduler Thread - 4/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    This is the latest version![m
+[18:40:50] [Craft Scheduler Thread - 4/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m----------------------------------------------[m
+[18:40:51] [Server thread/INFO]: [0;32;1m[AutoRestart] Up to date![m
+[18:40:51] [Craft Scheduler Thread - 6/INFO]: [Vault] Checking for Updates ... 
+[18:40:51] [Craft Scheduler Thread - 6/INFO]: [Vault] No new version available
+[18:40:51] [Server thread/INFO]: Arrchiiee[/127.0.0.1:59519] logged in with entity id 183 at ([world]801.9247022236013, 68.92159999847412, -690.493942405056)
+[18:40:52] [Server thread/INFO]: [0;33;1mArrchiiee has joined the game.[m
+[18:40:53] [Server thread/INFO]: [mcMMO] WorldGuard was not detected.
+[18:41:06] [User Authenticator #2/INFO]: UUID of player arcosanti is a9e52362-e903-3089-8f30-1e5a3b7d754a
+[18:41:06] [Server thread/INFO]: arcosanti[/0:0:0:0:0:0:0:1:59602] logged in with entity id 366 at ([world]222.92519137746754, 67.0, -766.2032987756518)
+[18:41:06] [Server thread/INFO]: [0;33;1marcosanti has joined the game.[m
+[18:41:23] [User Authenticator #3/INFO]: UUID of player Jhor is 82f182b3-716a-3898-ae1d-76f70444a8a2
+[18:41:23] [Server thread/INFO]: Jhor[/0:0:0:0:0:0:0:1:59661] logged in with entity id 650 at ([world]511.4144216808812, 11.0, -56.573100047143065)
+[18:41:24] [Server thread/INFO]: [0;33;1mJhor has joined the game.[m
+[18:41:25] [Server thread/INFO]: Arrchiiee lost connection: Disconnected
+[18:41:25] [Server thread/INFO]: Arrchiiee has left the game.
+[18:41:33] [User Authenticator #4/INFO]: UUID of player Arrchiiee is 8ab37728-5dc4-3d56-b222-9dee547c605d
+[18:41:33] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@64ffa08[id=8ab37728-5dc4-3d56-b222-9dee547c605d,name=Arrchiiee,properties={},legacy=false] (/0:0:0:0:0:0:0:1:59668): You must wait 19 seconds before logging-in again.
+[18:41:33] [Server thread/INFO]: com.mojang.authlib.GameProfile@64ffa08[id=8ab37728-5dc4-3d56-b222-9dee547c605d,name=Arrchiiee,properties={},legacy=false] (/0:0:0:0:0:0:0:1:59668) lost connection: You must wait 19 seconds before logging-in again.
+[18:41:53] [User Authenticator #5/INFO]: UUID of player Arrchiiee is 8ab37728-5dc4-3d56-b222-9dee547c605d
+[18:41:54] [Server thread/INFO]: Arrchiiee[/0:0:0:0:0:0:0:1:59685] logged in with entity id 858 at ([world]801.8925395613253, 69.8500000178814, -690.5145517377464)
+[18:41:54] [Server thread/INFO]: [0;33;1mArrchiiee has joined the game.[m
+[18:42:02] [Server thread/WARN]: Horse moved wrongly!
+[18:42:02] [Server thread/WARN]: Horse moved wrongly!
+[18:42:02] [Server thread/WARN]: Horse moved wrongly!
+[18:43:16] [Server thread/INFO]: Arrchiiee lost connection: Disconnected
+[18:43:16] [Server thread/INFO]: Arrchiiee has left the game.
+[18:43:17] [User Authenticator #6/INFO]: UUID of player Arrchiiee is 8ab37728-5dc4-3d56-b222-9dee547c605d
+[18:43:17] [Server thread/INFO]: Arrchiiee[/0:0:0:0:0:0:0:1:59804] logged in with entity id 1781 at ([world]546.3522601325881, 67.0, -740.2875163291518)
+[18:43:17] [Server thread/INFO]: [0;33;1mArrchiiee has joined the game.[m
+[18:43:49] [Server thread/INFO]: Jhor issued server command: /mining
+[18:44:14] [Server thread/INFO]: Jhor issued server command: /home
+[18:44:26] [Server thread/INFO]: Jhor issued server command: /home
+[18:44:29] [Server thread/INFO]: Jhor issued server command: /home mine
+[18:44:57] [Server thread/WARN]: Horse moved wrongly!
+[18:44:57] [Server thread/WARN]: Horse moved wrongly!
+[18:44:57] [Server thread/WARN]: Horse moved wrongly!
+[18:45:53] [Server thread/WARN]: Horse (vehicle of Arrchiiee) moved too quickly! 4.445648042673611,1.0,19.521273829904032
+[18:45:53] [Server thread/WARN]: Horse (vehicle of Arrchiiee) moved too quickly! 4.449176007756478,1.0,20.134818449687884
+[18:45:53] [Server thread/WARN]: Horse (vehicle of Arrchiiee) moved too quickly! 4.455711909907336,1.0,20.748301596839724
+[18:45:53] [Server thread/WARN]: Horse (vehicle of Arrchiiee) moved too quickly! 4.467248759398558,1.0,21.361713271383053
+[18:45:53] [Server thread/WARN]: Horse (vehicle of Arrchiiee) moved too quickly! 4.481762233987411,1.0,21.97507804782674
+[18:45:53] [Server thread/WARN]: Horse (vehicle of Arrchiiee) moved too quickly! 4.495462467111793,1.0,22.58847817573138
+[18:45:53] [Server thread/WARN]: Horse (vehicle of Arrchiiee) moved too quickly! 4.492238783049629,1.0,23.201764204954088
+[18:45:53] [Server thread/WARN]: Horse (vehicle of Arrchiiee) moved too quickly! 4.458052519252874,1.0,23.813128627924584
+[18:45:53] [Server thread/WARN]: Horse (vehicle of Arrchiiee) moved too quickly! 4.377178565015811,1.0,24.418571422556568
+[18:45:53] [Server thread/WARN]: Horse (vehicle of Arrchiiee) moved too quickly! 4.253324312174755,1.0,25.016177376630253
+[18:45:53] [Server thread/WARN]: Horse (vehicle of Arrchiiee) moved too quickly! 4.098142035534693,1.0,25.60699795277378
+[18:45:53] [Server thread/WARN]: Horse (vehicle of Arrchiiee) moved too quickly! 3.9222304659303973,0.9231679985046384,26.19285450047414
+[18:45:53] [Server thread/WARN]: Horse (vehicle of Arrchiiee) moved too quickly! 3.818673934715548,0.7725465413369932,26.53325733225944
+[18:45:53] [Server thread/WARN]: Horse (vehicle of Arrchiiee) moved too quickly! 3.716835695351847,0.5510576895623984,26.86373131059372
+[18:45:53] [Server thread/WARN]: Horse (vehicle of Arrchiiee) moved too quickly! 3.616529828705211,0.26150779068264285,27.185350737165265
+[18:45:53] [Server thread/WARN]: Horse (vehicle of Arrchiiee) moved too quickly! 3.5175905320870697,0.0,27.4990736742472
+[18:45:53] [Server thread/WARN]: Horse (vehicle of Arrchiiee) moved too quickly! 3.334491241959199,-0.07683200149536162,28.047879043036403
+[18:45:53] [Server thread/WARN]: Horse (vehicle of Arrchiiee) moved too quickly! 3.2270319402531413,-0.2274534586630068,28.368436578076228
+[18:45:53] [Server thread/WARN]: Horse (vehicle of Arrchiiee) moved too quickly! 3.1217132100650815,-0.4489423104376016,28.681212520262875
+[18:45:53] [Server thread/WARN]: Horse (vehicle of Arrchiiee) moved too quickly! 3.018303441611806,-0.7384922093173572,28.98704883774309
+[18:45:53] [Server thread/WARN]: Horse (vehicle of Arrchiiee) moved too quickly! 2.9165960852827766,-1.0,29.28669639773176
+[18:45:53] [Server thread/WARN]: Horse (vehicle of Arrchiiee) moved too quickly! 2.7310282394336127,-1.0,29.822949344867368
+[18:45:53] [Server thread/WARN]: Horse (vehicle of Arrchiiee) moved too quickly! 2.5368693620824843,-1.0,30.37891485058566
+[18:45:53] [Server thread/WARN]: Horse (vehicle of Arrchiiee) moved too quickly! 2.3381135950613725,-1.0,30.94542815337553
+[18:45:53] [Server thread/WARN]: Horse (vehicle of Arrchiiee) moved too quickly! 2.1371818957582036,-1.0,31.517685281762283
+[18:45:53] [Server thread/WARN]: Horse (vehicle of Arrchiiee) moved too quickly! 1.9353697722206107,-1.0,32.0931154033334
+[18:45:53] [Server thread/WARN]: Horse (vehicle of Arrchiiee) moved too quickly! 1.7330865512288938,-1.0,32.67024333029485
+[18:45:53] [Server thread/WARN]: Horse (vehicle of Arrchiiee) moved too quickly! 1.5305512553821927,-1.0,33.24827971907007
+[18:45:53] [Server thread/WARN]: Horse (vehicle of Arrchiiee) moved too quickly! 1.327881079306394,-1.0,33.82680220764905
+[18:45:53] [Server thread/WARN]: Horse (vehicle of Arrchiiee) moved too quickly! 1.125138731509196,-1.0,34.40558479854127
+[18:45:53] [Server thread/WARN]: Horse (vehicle of Arrchiiee) moved too quickly! 0.9223577660628735,-1.0,34.9845065649954
+[18:45:53] [Server thread/WARN]: Horse (vehicle of Arrchiiee) moved too quickly! 0.7052443553644707,-1.0,35.55805452716089
+[18:45:53] [Server thread/WARN]: Horse (vehicle of Arrchiiee) moved too quickly! 0.4344972611169169,-1.0,36.10470251839246
+[18:45:53] [Server thread/WARN]: Horse (vehicle of Arrchiiee) moved too quickly! 0.08901968934458182,-1.0,36.60001376949151
+[18:45:53] [Server thread/WARN]: Horse (vehicle of Arrchiiee) moved too quickly! -0.31626310689455295,-1.0,37.046119668152926
+[18:45:53] [Server thread/WARN]: Horse (vehicle of Arrchiiee) moved too quickly! -0.7690101114553727,-1.0,37.445233380307855
+[18:45:53] [Server thread/WARN]: Horse (vehicle of Arrchiiee) moved too quickly! -1.258329376574693,-1.0,37.80139116923823
+[18:45:53] [Server thread/WARN]: Horse (vehicle of Arrchiiee) moved too quickly! -6.217079242989257,-1.0,19.217127594624912
+[18:45:53] [Server thread/WARN]: Horse (vehicle of Arrchiiee) moved too quickly! -6.746591835041272,-1.0,19.519360106011447
+[18:46:06] [Server thread/WARN]: Horse moved wrongly!
+[18:46:06] [Server thread/WARN]: Horse moved wrongly!
+[18:46:06] [Server thread/WARN]: Horse moved wrongly!
+[18:46:15] [Server thread/INFO]: Jhor issued server command: /home mine
+[18:46:55] [Server thread/WARN]: Horse moved wrongly!
+[18:46:55] [Server thread/WARN]: Horse moved wrongly!
+[18:46:55] [Server thread/WARN]: Horse moved wrongly!
+[18:46:56] [Server thread/WARN]: Horse moved wrongly!
+[18:46:56] [Server thread/WARN]: Horse moved wrongly!
+[18:46:56] [Server thread/WARN]: Horse moved wrongly!
+[18:46:57] [Server thread/WARN]: Horse moved wrongly!
+[18:46:57] [Server thread/WARN]: Horse moved wrongly!
+[18:46:57] [Server thread/WARN]: Horse moved wrongly!
+[18:46:57] [Server thread/WARN]: Horse moved wrongly!
+[18:46:57] [Server thread/WARN]: Horse moved wrongly!
+[18:46:57] [Server thread/WARN]: Horse moved wrongly!
+[18:46:58] [Server thread/WARN]: Horse moved wrongly!
+[18:46:58] [Server thread/WARN]: Horse moved wrongly!
+[18:46:58] [Server thread/WARN]: Horse moved wrongly!
+[18:46:58] [Server thread/WARN]: Horse moved wrongly!
+[18:46:58] [Server thread/WARN]: Horse moved wrongly!
+[18:46:58] [Server thread/WARN]: Horse moved wrongly!
+[18:46:58] [Server thread/WARN]: Horse moved wrongly!
+[18:46:58] [Server thread/WARN]: Horse moved wrongly!
+[18:46:58] [Server thread/WARN]: Horse moved wrongly!
+[18:46:58] [Server thread/WARN]: Horse moved wrongly!
+[18:46:58] [Server thread/WARN]: Horse moved wrongly!
+[18:46:58] [Server thread/WARN]: Horse moved wrongly!
+[18:46:58] [Server thread/WARN]: Horse moved wrongly!
+[18:46:58] [Server thread/WARN]: Horse moved wrongly!
+[18:46:58] [Server thread/WARN]: Horse moved wrongly!
+[18:46:58] [Server thread/WARN]: Horse moved wrongly!
+[18:46:58] [Server thread/WARN]: Horse moved wrongly!
+[18:46:58] [Server thread/WARN]: Horse moved wrongly!
+[18:46:58] [Server thread/WARN]: Horse moved wrongly!
+[18:46:59] [Server thread/WARN]: Horse moved wrongly!
+[18:46:59] [Server thread/WARN]: Horse moved wrongly!
+[18:46:59] [Server thread/WARN]: Horse moved wrongly!
+[18:46:59] [Server thread/WARN]: Horse moved wrongly!
+[18:46:59] [Server thread/WARN]: Horse moved wrongly!
+[18:46:59] [Server thread/WARN]: Horse moved wrongly!
+[18:46:59] [Server thread/WARN]: Horse moved wrongly!
+[18:46:59] [Server thread/WARN]: Horse moved wrongly!
+[18:46:59] [Server thread/WARN]: Horse moved wrongly!
+[18:47:19] [Server thread/WARN]: Horse moved wrongly!
+[18:47:19] [Server thread/WARN]: Horse moved wrongly!
+[18:47:19] [Server thread/WARN]: Horse moved wrongly!
+[18:47:38] [Server thread/WARN]: Horse moved wrongly!
+[18:47:38] [Server thread/WARN]: Horse moved wrongly!
+[18:47:45] [Server thread/INFO]: arcosanti issued server command: /home
+[18:48:50] [Server thread/INFO]: Jhor issued server command: /home mine
+[18:48:56] [Server thread/INFO]: Jhor issued server command: /home
+[18:49:08] [Server thread/INFO]: Jhor issued server command: /home mine
+[18:51:26] [Server thread/INFO]: arcosanti issued server command: /home
+[18:51:38] [Server thread/INFO]: arcosanti issued server command: /home village
+[18:54:53] [Server thread/INFO]: arcosanti issued server command: /home
+[18:55:16] [Server thread/INFO]: arcosanti issued server command: /home village
+[19:00:22] [Server thread/INFO]: arcosanti issued server command: /homelist
+[19:00:46] [Server thread/INFO]: Jhor issued server command: /home mine
+[19:01:56] [Server thread/INFO]: Jhor issued server command: /home
+[19:03:06] [Server thread/INFO]: Jhor issued server command: /home mine
+[19:04:28] [User Authenticator #7/INFO]: UUID of player lolo_lola_69 is 646085da-be96-308b-8634-fb8b260022a5
+[19:04:29] [Server thread/INFO]: lolo_lola_69[/0:0:0:0:0:0:0:1:62042] logged in with entity id 8309 at ([world]743.498726967808, 72.0625, -56.49649489780416)
+[19:04:29] [Server thread/INFO]: [0;33;1mlolo_lola_69 has joined the game.[m
+[19:05:04] [Server thread/INFO]: Arrchiiee issued server command: /home
+[19:07:47] [Server thread/INFO]: lolo_lola_69 lost connection: Disconnected
+[19:07:47] [Server thread/INFO]: lolo_lola_69 has left the game.
+[19:12:38] [Server thread/INFO]: Jhor issued server command: /home mine
+[19:13:09] [Server thread/INFO]: Jhor issued server command: /home
+[19:13:18] [Server thread/INFO]: Jhor lost connection: Disconnected
+[19:13:18] [Server thread/INFO]: Jhor has left the game.
+[19:13:58] [Server thread/INFO]: arcosanti issued server command: /home
+[19:20:09] [User Authenticator #8/INFO]: UUID of player lolo_lola_69 is 646085da-be96-308b-8634-fb8b260022a5
+[19:20:09] [Server thread/INFO]: lolo_lola_69[/0:0:0:0:0:0:0:1:63577] logged in with entity id 10486 at ([world]743.498726967808, 72.0625, -56.49649489780416)
+[19:20:09] [Server thread/INFO]: [0;33;1mlolo_lola_69 has joined the game.[m
+[19:21:59] [Server thread/INFO]: arcosanti issued server command: /home village
+[19:22:46] [Server thread/INFO]: arcosanti issued server command: /home
+[19:25:06] [Async Chat Thread - #0/INFO]: [m[0;33;1m[User] [0;33;1m[User] Arrchiiee[m [0;36;1m> WAX[m
+[19:25:08] [Async Chat Thread - #0/INFO]: [m[0;33;1m[User] [0;33;1m[User] Arrchiiee[m [0;36;1m> gonna raid[m
+[19:25:10] [Async Chat Thread - #0/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> ye?[m
+[19:25:11] [Async Chat Thread - #0/INFO]: [m[0;33;1m[User] [0;33;1m[User] Arrchiiee[m [0;36;1m> wanna come?[m
+[19:25:15] [Async Chat Thread - #0/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> eyooo gimme a sec[m
+[19:25:53] [Server thread/INFO]: arcosanti issued server command: /home village
+[19:26:04] [Server thread/INFO]: arcosanti issued server command: /home
+[19:26:08] [Async Chat Thread - #0/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> just enchanting diamond armor[m
+[19:26:59] [Server thread/INFO]: arcosanti issued server command: /tpa Arrchiiee
+[19:27:07] [Async Chat Thread - #0/INFO]: [m[0;33;1m[User] [0;33;1m[User] Arrchiiee[m [0;36;1m> ill accept you in a bit[m
+[19:27:11] [Async Chat Thread - #0/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> ayt[m
+[19:27:34] [Server thread/INFO]: Arrchiiee issued server command: /home village
+[19:27:46] [Server thread/INFO]: Arrchiiee issued server command: /tpaccept
+[19:28:05] [Server thread/INFO]: lolo_lola_69 issued server command: /home
+[19:28:09] [Server thread/INFO]: lolo_lola_69 issued server command: /tpa Arrchiiee
+[19:28:15] [Server thread/INFO]: Arrchiiee issued server command: /tpaccept
+[19:28:39] [Async Chat Thread - #1/INFO]: [m[0;33;1m[User] [0;33;1m[User] Arrchiiee[m [0;36;1m> yall can get saddles and shit[m
+[19:28:44] [Async Chat Thread - #1/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~vLadeeVlads[m [0;36;1m> noice[m
+[19:28:44] [Async Chat Thread - #1/INFO]: [m[0;33;1m[User] [0;33;1m[User] Arrchiiee[m [0;36;1m> im just after hero of the village[m
+[19:31:46] [Server thread/INFO]: lolo_lola_69 issued server command: /home
+[19:32:17] [Server thread/INFO]: arcosanti was slain by Vex
+[19:32:23] [Server thread/INFO]: arcosanti issued server command: /tpa Arrchiiee
+[19:32:23] [Async Chat Thread - #2/INFO]: [m[0;33;1m[User] [0;33;1m[User] Arrchiiee[m [0;36;1m> tp to me[m
+[19:32:26] [Async Chat Thread - #2/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> ye[m
+[19:32:28] [Server thread/INFO]: Arrchiiee issued server command: /tpaccept
+[19:32:31] [Async Chat Thread - #2/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> i died in a house[m
+[19:34:14] [Server thread/INFO]: lolo_lola_69 issued server command: /tpa Arrchiiee
+[19:34:20] [Server thread/INFO]: Arrchiiee issued server command: /tpaccept
+[19:34:54] [Server thread/INFO]: arcosanti was slain by Vex
+[19:34:58] [Server thread/INFO]: arcosanti issued server command: /home
+[19:35:04] [Server thread/INFO]: arcosanti issued server command: /tpa Arrchiiee
+[19:35:10] [Server thread/INFO]: Arrchiiee was slain by Vex
+[19:35:16] [Server thread/INFO]: Arrchiiee issued server command: /home village
+[19:35:27] [Server thread/INFO]: Arrchiiee issued server command: /tpaccept
+[19:36:36] [Async Chat Thread - #3/INFO]: [m[0;33;1m[User] [0;33;1m[User] Arrchiiee[m [0;36;1m> NICE[m
+[19:36:39] [Async Chat Thread - #3/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> fuck im gonna have an anneruism[m
+[19:36:51] [Server thread/INFO]: lolo_lola_69 issued server command: /home
+[19:36:57] [Async Chat Thread - #3/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> ty guys[m
+[19:37:46] [Server thread/INFO]: Arrchiiee issued server command: /home
+[19:38:43] [Server thread/INFO]: Arrchiiee issued server command: /home village 2
+[19:38:53] [Server thread/INFO]: Arrchiiee issued server command: /home village 2
+[19:39:02] [Server thread/INFO]: Arrchiiee issued server command: /home village 2
+[19:39:09] [Server thread/INFO]: Arrchiiee issued server command: /homelist
+[19:39:23] [Server thread/INFO]: [GriefPrevention] Arrchiiee placed suspicious WATER_BUCKET @ world: x134, z-2680
+[19:40:08] [Server thread/INFO]: arcosanti issued server command: /home
+[19:40:51] [Server thread/INFO]: Arrchiiee issued server command: /home
+[19:41:05] [Server thread/INFO]: Arrchiiee issued server command: /home village2
+[19:42:31] [Server thread/INFO]: Arrchiiee issued server command: /home
+[19:43:11] [User Authenticator #9/INFO]: UUID of player Johann is f160dbef-552f-3b70-af9a-129d0ff0c675
+[19:43:11] [Server thread/INFO]: Johann[/0:0:0:0:0:0:0:1:49400] logged in with entity id 16692 at ([world]724.2253477572049, 78.0, -182.16801262737104)
+[19:43:11] [Server thread/INFO]: [0;33;1mJohann has joined the game.[m
+[19:43:13] [Server thread/INFO]: arcosanti issued server command: /home spawner
+[19:43:29] [Server thread/INFO]: arcosanti issued server command: /home village
+[19:45:04] [Server thread/INFO]: arcosanti issued server command: /home
+[19:45:49] [Async Chat Thread - #4/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> i will give 11 rotten flesh[m
+[19:45:55] [Async Chat Thread - #4/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> 4 1 dark oak sapling[m
+[19:45:56] [Async Chat Thread - #4/INFO]: [m[0;33;1m[User] [0;33;1m[User] Arrchiiee[m [0;36;1m> for?[m
+[19:46:02] [Async Chat Thread - #4/INFO]: [m[0;33;1m[User] [0;33;1m[User] Arrchiiee[m [0;36;1m> just tp to me[m
+[19:46:06] [Async Chat Thread - #4/INFO]: [m[0;33;1m[User] [0;33;1m[User] Arrchiiee[m [0;36;1m> ill give it free[m
+[19:46:06] [Async Chat Thread - #4/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> <3[m
+[19:46:09] [Server thread/INFO]: Johann issued server command: /tpa Arrchiiee
+[19:46:15] [Server thread/INFO]: Arrchiiee issued server command: /tpaccept
+[19:46:31] [Async Chat Thread - #4/INFO]: [m[0;33;1m[User] [0;33;1m[User] Arrchiiee[m [0;36;1m> come[m
+[19:46:47] [Async Chat Thread - #4/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> <3[m
+[19:46:51] [Async Chat Thread - #4/INFO]: [m[0;33;1m[User] [0;33;1m[User] Arrchiiee[m [0;36;1m> plant 3[m
+[19:46:53] [Async Chat Thread - #4/INFO]: [m[0;33;1m[User] [0;33;1m[User] Arrchiiee[m [0;36;1m> i mean 4[m
+[19:46:55] [Async Chat Thread - #4/INFO]: [m[0;33;1m[User] [0;33;1m[User] Arrchiiee[m [0;36;1m> like this[m
+[19:46:59] [Async Chat Thread - #4/INFO]: [m[0;33;1m[User] [0;33;1m[User] Arrchiiee[m [0;36;1m> yeah[m
+[19:47:02] [Async Chat Thread - #4/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> xie xie[m
+[19:47:05] [Async Chat Thread - #4/INFO]: [m[0;33;1m[User] [0;33;1m[User] Arrchiiee[m [0;36;1m> there more in the chest[m
+[19:47:07] [Async Chat Thread - #4/INFO]: [m[0;33;1m[User] [0;33;1m[User] Arrchiiee[m [0;36;1m> if u need[m
+[19:47:07] [Async Chat Thread - #4/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> blue skidood[m
+[19:47:10] [Async Chat Thread - #4/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> we can too[m
+[19:47:16] [Server thread/INFO]: Johann issued server command: /home
+[19:48:09] [Async Chat Thread - #4/INFO]: [m[0;33;1m[User] [0;33;1m[User] Arrchiiee[m [0;36;1m> need logs?[m
+[19:48:18] [Async Chat Thread - #4/INFO]: [m[0;33;1m[User] [0;33;1m[User] Arrchiiee[m [0;36;1m> i have almost a stack of dark oak[m
+[19:48:36] [Server thread/INFO]: arcosanti issued server command: /home village
+[19:48:36] [Async Chat Thread - #4/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> its cool arch[m
+[19:48:40] [Async Chat Thread - #4/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> i will grow this one[m
+[19:48:44] [Async Chat Thread - #4/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> then call it Jobonga[m
+[19:48:47] [Async Chat Thread - #4/INFO]: [m[0;33;1m[User] [0;33;1m[User] Arrchiiee[m [0;36;1m> gotcha[m
+[19:48:49] [Async Chat Thread - #4/INFO]: [m[0;33;1m[User] [0;33;1m[User] Arrchiiee[m [0;36;1m> nice hahahaha[m
+[19:51:40] [Server thread/INFO]: arcosanti issued server command: /home
+[19:52:55] [Async Chat Thread - #5/INFO]: [m[0;33;1m[User] [0;33;1m[User] Arrchiiee[m [0;36;1m> yall got any spruce?[m
+[19:55:51] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] Arrchiiee[m [0;36;1m> wax[m
+[19:55:56] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> oh[m
+[19:55:57] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> wait[m
+[19:56:00] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] Arrchiiee[m [0;36;1m> can i get some spruce sapligs?[m
+[19:56:01] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> sorry i forgot to reply[m
+[19:56:05] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> hell ye i do[m
+[19:56:15] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] Arrchiiee[m [0;36;1m> ty hehehe[m
+[19:56:20] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> hahaha np[m
+[19:56:21] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] Arrchiiee[m [0;36;1m> Love u sir[m
+[19:56:22] [Server thread/INFO]: Arrchiiee issued server command: /home
+[19:56:29] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> <3 anytime[m
+[19:59:51] [Server thread/INFO]: arcosanti issued server command: /home village
+[20:01:08] [Server thread/INFO]: Arrchiiee issued server command: /home
+[20:01:09] [Server thread/INFO]: Johann lost connection: Disconnected
+[20:01:09] [Server thread/INFO]: Johann has left the game.
+[20:01:43] [Server thread/INFO]: arcosanti issued server command: /home
+[20:03:02] [User Authenticator #10/INFO]: UUID of player Johann is f160dbef-552f-3b70-af9a-129d0ff0c675
+[20:03:02] [Server thread/INFO]: Johann[/0:0:0:0:0:0:0:1:51512] logged in with entity id 20626 at ([world]726.1449330714498, 78.0, -182.41119963620892)
+[20:03:02] [Server thread/INFO]: [0;33;1mJohann has joined the game.[m
+[20:05:18] [Server thread/INFO]: arcosanti issued server command: /home
+[20:05:23] [Server thread/INFO]: arcosanti issued server command: /home village
+[20:06:11] [Server thread/INFO]: arcosanti issued server command: /home
+[20:07:25] [Server thread/INFO]: lolo_lola_69 issued server command: /home village
+[20:07:27] [Async Chat Thread - #7/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~vLadeeVlads[m [0;36;1m> oi[m
+[20:08:23] [Server thread/INFO]: Johann lost connection: Disconnected
+[20:08:23] [Server thread/INFO]: Johann has left the game.
+[20:08:46] [Server thread/INFO]: arcosanti issued server command: /home village
+[20:09:21] [Async Chat Thread - #8/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~vLadeeVlads[m [0;36;1m> arch, usa sa akong librarian namaligya nametag[m
+[20:09:28] [Async Chat Thread - #8/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~vLadeeVlads[m [0;36;1m> 14[m
+[20:09:28] [Async Chat Thread - #8/INFO]: [m[0;33;1m[User] [0;33;1m[User] Arrchiiee[m [0;36;1m> pila?[m
+[20:09:30] [Server thread/INFO]: lolo_lola_69 issued server command: /home
+[20:09:51] [Async Chat Thread - #8/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~vLadeeVlads[m [0;36;1m> with[m
+[20:09:52] [Async Chat Thread - #8/INFO]: [m[0;33;1m[User] [0;33;1m[User] Arrchiiee[m [0;36;1m> with hero of village?[m
+[20:09:58] [Server thread/WARN]: Horse moved wrongly!
+[20:09:58] [Server thread/WARN]: Horse moved wrongly!
+[20:09:58] [Server thread/WARN]: Horse moved wrongly!
+[20:09:59] [Server thread/WARN]: Horse moved wrongly!
+[20:09:59] [Server thread/WARN]: Horse moved wrongly!
+[20:10:00] [Server thread/INFO]: arcosanti issued server command: /home
+[20:10:06] [Server thread/WARN]: Horse moved wrongly!
+[20:10:06] [Server thread/WARN]: Horse moved wrongly!
+[20:10:08] [Server thread/WARN]: Horse moved wrongly!
+[20:10:08] [Server thread/WARN]: Horse moved wrongly!
+[20:10:08] [Server thread/WARN]: Horse moved wrongly!
+[20:10:09] [Server thread/WARN]: Horse moved wrongly!
+[20:10:09] [Server thread/WARN]: Horse moved wrongly!
+[20:10:09] [Server thread/WARN]: Horse moved wrongly!
+[20:10:09] [Server thread/WARN]: Horse moved wrongly!
+[20:10:09] [Server thread/WARN]: Horse moved wrongly!
+[20:10:10] [Server thread/WARN]: Horse moved wrongly!
+[20:10:10] [Server thread/WARN]: Horse moved wrongly!
+[20:10:10] [Server thread/WARN]: Horse moved wrongly!
+[20:10:10] [Server thread/WARN]: Horse moved wrongly!
+[20:10:10] [Server thread/WARN]: Horse moved wrongly!
+[20:10:10] [Server thread/WARN]: Horse moved wrongly!
+[20:10:11] [Server thread/WARN]: Horse moved wrongly!
+[20:10:12] [Server thread/WARN]: Horse moved wrongly!
+[20:10:12] [Server thread/WARN]: Horse moved wrongly!
+[20:10:12] [Server thread/WARN]: Horse moved wrongly!
+[20:10:12] [Server thread/WARN]: Horse moved wrongly!
+[20:10:12] [Server thread/WARN]: Horse moved wrongly!
+[20:10:12] [Server thread/WARN]: Horse moved wrongly!
+[20:10:12] [Server thread/WARN]: Horse moved wrongly!
+[20:10:15] [Server thread/WARN]: Horse moved wrongly!
+[20:10:15] [Server thread/WARN]: Horse moved wrongly!
+[20:10:16] [Server thread/WARN]: Horse moved wrongly!
+[20:10:38] [User Authenticator #11/INFO]: UUID of player Johann is f160dbef-552f-3b70-af9a-129d0ff0c675
+[20:10:39] [Server thread/INFO]: Johann[/0:0:0:0:0:0:0:1:52301] logged in with entity id 23386 at ([world]728.9038397194558, 78.0, -183.76852077175542)
+[20:10:39] [Server thread/INFO]: [0;33;1mJohann has joined the game.[m
+[20:10:39] [Server thread/WARN]: Horse moved wrongly!
+[20:10:39] [Server thread/WARN]: Horse moved wrongly!
+[20:10:39] [Server thread/WARN]: Horse moved wrongly!
+[20:10:39] [Server thread/WARN]: Horse moved wrongly!
+[20:10:39] [Server thread/WARN]: Horse moved wrongly!
+[20:10:44] [Async Chat Thread - #8/INFO]: [m[0;33;1m[User] [0;33;1m[User] Arrchiiee[m [0;36;1m> johann[m
+[20:10:46] [Async Chat Thread - #8/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~vLadeeVlads[m [0;36;1m> oi joh[m
+[20:10:48] [Async Chat Thread - #8/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> yo[m
+[20:10:50] [Async Chat Thread - #8/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~vLadeeVlads[m [0;36;1m> ga raid mi nih[m
+[20:10:57] [Async Chat Thread - #8/INFO]: [m[0;33;1m[User] [0;33;1m[User] Arrchiiee[m [0;36;1m> gave 9 stacks of bricks, and 12 stacks of stones[m
+[20:11:08] [Async Chat Thread - #8/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> hol up[m
+[20:11:10] [Async Chat Thread - #8/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> conitne[m
+[20:11:14] [Async Chat Thread - #8/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> continue[m
+[20:11:14] [Server thread/WARN]: Horse moved wrongly!
+[20:11:14] [Server thread/WARN]: Horse moved wrongly!
+[20:11:14] [Server thread/WARN]: Horse moved wrongly!
+[20:11:16] [Server thread/INFO]: arcosanti issued server command: /home village
+[20:11:16] [Async Chat Thread - #8/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> but I must[m
+[20:11:19] [Async Chat Thread - #8/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> arrange my shit lol[m
+[20:11:33] [Async Chat Thread - #8/INFO]: [m[0;33;1m[User] [0;33;1m[User] Arrchiiee[m [0;36;1m> okay, i filled the other chests up already[m
+[20:11:40] [Async Chat Thread - #8/INFO]: [m[0;33;1m[User] [0;33;1m[User] Arrchiiee[m [0;36;1m> so placed new small chest at gate[m
+[20:11:52] [Async Chat Thread - #8/INFO]: [m[0;33;1m[User] [0;33;1m[User] Arrchiiee[m [0;36;1m> with the bricks and stone[m
+[20:12:20] [Async Chat Thread - #8/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> yall wanna sleep?[m
+[20:12:27] [Async Chat Thread - #8/INFO]: [m[0;33;1m[User] [0;33;1m[User] Arrchiiee[m [0;36;1m> sure[m
+[20:12:31] [Async Chat Thread - #8/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> i wont joine in raid lng sah doh[m
+[20:12:41] [Async Chat Thread - #8/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> another raid?[m
+[20:13:03] [Async Chat Thread - #8/INFO]: [m[0;33;1m[User] [0;33;1m[User] Arrchiiee[m [0;36;1m> tin bed[m
+[20:13:07] [Async Chat Thread - #8/INFO]: [m[0;33;1m[User] [0;33;1m[User] Arrchiiee[m [0;36;1m> in bed[m
+[20:13:58] [Async Chat Thread - #8/INFO]: [m[0;33;1m[User] [0;33;1m[User] Arrchiiee[m [0;36;1m> i think vlads afk[m
+[20:14:10] [Async Chat Thread - #8/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~vLadeeVlads[m [0;36;1m> im n bae[m
+[20:14:10] [Async Chat Thread - #8/INFO]: [m[0;33;1m[User] [0;33;1m[User] Arrchiiee[m [0;36;1m> in bed again[m
+[20:14:18] [Async Chat Thread - #8/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> in bed[m
+[20:14:23] [Async Chat Thread - #8/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> Johann[m
+[20:14:31] [Async Chat Thread - #8/INFO]: [m[0;33;1m[User] [0;33;1m[User] Arrchiiee[m [0;36;1m> wax?[m
+[20:14:35] [Async Chat Thread - #8/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> in bed[m
+[20:14:41] [Async Chat Thread - #8/INFO]: [m[0;33;1m[User] [0;33;1m[User] Arrchiiee[m [0;36;1m> wtf, who isnt in bed?[m
+[20:15:03] [Async Chat Thread - #8/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> that was weird[m
+[20:15:33] [Server thread/INFO]: arcosanti issued server command: /home
+[20:16:53] [Server thread/INFO]: Arrchiiee issued server command: /home
+[20:17:31] [Server thread/INFO]: Johann issued server command: /home
+[20:19:34] [Server thread/INFO]: Arrchiiee lost connection: Disconnected
+[20:19:34] [Server thread/INFO]: Arrchiiee has left the game.
+[20:27:37] [Server thread/INFO]: Johann issued server command: /home
+[20:28:10] [Server thread/INFO]: Johann issued server command: /home
+[20:28:28] [Server thread/WARN]: Horse moved wrongly!
+[20:28:28] [Server thread/WARN]: Horse moved wrongly!
+[20:29:00] [Server thread/WARN]: Horse moved wrongly!
+[20:29:00] [Server thread/WARN]: Horse moved wrongly!
+[20:29:00] [Server thread/WARN]: Horse moved wrongly!
+[20:29:00] [Server thread/WARN]: Horse moved wrongly!
+[20:29:01] [Server thread/WARN]: Horse moved wrongly!
+[20:29:01] [Server thread/WARN]: Horse moved wrongly!
+[20:29:01] [Server thread/WARN]: Horse moved wrongly!
+[20:29:01] [Server thread/WARN]: Horse moved wrongly!
+[20:29:01] [Server thread/WARN]: Horse moved wrongly!
+[20:29:01] [Server thread/WARN]: Horse moved wrongly!
+[20:29:02] [Server thread/WARN]: Horse moved wrongly!
+[20:29:02] [Server thread/WARN]: Horse moved wrongly!
+[20:29:29] [Async Chat Thread - #9/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~vLadeeVlads[m [0;36;1m> oh no[m
+[20:31:38] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~vLadeeVlads[m [0;36;1m> jo[m
+[20:31:44] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~vLadeeVlads[m [0;36;1m> i killed my bird[m
+[20:31:49] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~vLadeeVlads[m [0;36;1m> ill look for a new one[m
+[20:31:49] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> :([m
+[20:32:00] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~vLadeeVlads[m [0;36;1m> kuyog mo? hehe[m
+[20:32:13] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> in a bit[m
+[20:33:08] [Server thread/INFO]: arcosanti issued server command: /mctop Acrobatics
+[20:33:54] [Server thread/INFO]: Johann fell from a high place
+[20:33:56] [Async Chat Thread - #11/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~vLadeeVlads[m [0;36;1m> why are there 2 of u in the base joh[m
+[20:34:01] [Server thread/INFO]: Johann issued server command: /ooof
+[20:34:02] [Async Chat Thread - #11/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~vLadeeVlads[m [0;36;1m> in ur house[m
+[20:34:03] [Server thread/INFO]: Johann issued server command: /home
+[20:34:07] [Async Chat Thread - #11/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> lol idk hahahha[m
+[20:38:48] [User Authenticator #12/INFO]: UUID of player Jhor is 82f182b3-716a-3898-ae1d-76f70444a8a2
+[20:38:48] [Server thread/INFO]: Jhor[/0:0:0:0:0:0:0:1:55213] logged in with entity id 27549 at ([world]430.23833621309404, 130.0, 94.48986765640329)
+[20:38:48] [Server thread/INFO]: [0;33;1mJhor has joined the game.[m
+[20:38:59] [Server thread/INFO]: Jhor issued server command: /home mine
+[20:39:03] [Server thread/INFO]: Jhor issued server command: /home
+[20:39:48] [Server thread/INFO]: Jhor issued server command: /home mine
+[20:42:17] [Server thread/INFO]: Johann issued server command: /home
+[20:44:21] [Server thread/INFO]: lolo_lola_69 issued server command: /home
+[20:44:23] [Server thread/INFO]: lolo_lola_69 issued server command: /home
+[20:45:03] [User Authenticator #13/INFO]: UUID of player big_tasty is bcea9435-1386-3cb2-a2cd-2ea98eae3322
+[20:45:04] [Server thread/INFO]: big_tasty[/0:0:0:0:0:0:0:1:55843] logged in with entity id 29475 at ([world]496.72042359782466, 66.0, 162.76775438020488)
+[20:45:04] [Server thread/INFO]: [0;33;1mbig_tasty has joined the game.[m
+[20:45:51] [Server thread/WARN]: Johann moved too quickly! 7.287159515087751,0.0,-6.93794623690286
+[20:45:54] [Server thread/INFO]: Johann lost connection: Disconnected
+[20:45:54] [Server thread/INFO]: Johann has left the game.
+[20:49:36] [Server thread/INFO]: lolo_lola_69 issued server command: /mcrank
+[20:50:07] [Server thread/INFO]: lolo_lola_69 issued server command: /mctop
+[20:50:21] [User Authenticator #14/INFO]: UUID of player Johann is f160dbef-552f-3b70-af9a-129d0ff0c675
+[20:50:21] [Server thread/INFO]: Johann[/0:0:0:0:0:0:0:1:56336] logged in with entity id 30270 at ([world]722.853342267916, 77.5, -182.03343879316415)
+[20:50:21] [Server thread/INFO]: [0;33;1mJohann has joined the game.[m
+[20:53:40] [Server thread/INFO]: lolo_lola_69 issued server command: /home
+[20:54:12] [Server thread/INFO]: Jhor issued server command: /home
+[20:56:34] [Server thread/INFO]: Jhor issued server command: /home mine
+[20:57:22] [Server thread/INFO]: lolo_lola_69 lost connection: Disconnected
+[20:57:22] [Server thread/INFO]: lolo_lola_69 has left the game.
+[20:57:25] [User Authenticator #15/INFO]: UUID of player lolo_lola_69 is 646085da-be96-308b-8634-fb8b260022a5
+[20:57:25] [Server thread/INFO]: lolo_lola_69[/0:0:0:0:0:0:0:1:57019] logged in with entity id 32600 at ([world]830.736207853694, 9.0, -52.52290952246015)
+[20:57:25] [Server thread/INFO]: [0;33;1mlolo_lola_69 has joined the game.[m
+[20:57:52] [Server thread/INFO]: Jhor issued server command: /mctop Mining
+[21:00:08] [Server thread/INFO]: Johann lost connection: Disconnected
+[21:00:08] [Server thread/INFO]: Johann has left the game.
+[21:00:39] [Server thread/INFO]: lolo_lola_69 issued server command: /mcrank
+[21:03:34] [Server thread/INFO]: arcosanti issued server command: /home mine
+[21:03:43] [Server thread/INFO]: big_tasty issued server command: /tpa arcosanti
+[21:03:47] [Server thread/INFO]: arcosanti issued server command: /tpaccept
+[21:06:11] [User Authenticator #16/INFO]: UUID of player Johann is f160dbef-552f-3b70-af9a-129d0ff0c675
+[21:06:12] [Server thread/INFO]: Johann[/0:0:0:0:0:0:0:1:57923] logged in with entity id 36494 at ([world]629.5788731835823, 11.0, -313.56582202481434)
+[21:06:12] [Server thread/INFO]: [0;33;1mJohann has joined the game.[m
+[21:07:46] [Server thread/INFO]: lolo_lola_69 lost connection: Disconnected
+[21:07:46] [Server thread/INFO]: lolo_lola_69 has left the game.
+[21:07:47] [User Authenticator #17/INFO]: UUID of player lolo_lola_69 is 646085da-be96-308b-8634-fb8b260022a5
+[21:07:47] [Server thread/INFO]: lolo_lola_69[/0:0:0:0:0:0:0:1:58071] logged in with entity id 37366 at ([world]1043.5027758399171, 20.0, -61.455493958017705)
+[21:07:47] [Server thread/INFO]: [0;33;1mlolo_lola_69 has joined the game.[m
+[21:08:40] [Server thread/INFO]: Jhor issued server command: /home
+[21:08:43] [Server thread/INFO]: lolo_lola_69 issued server command: /sethome mine
+[21:08:46] [Server thread/INFO]: lolo_lola_69 issued server command: /home
+[21:11:08] [Server thread/INFO]: lolo_lola_69 issued server command: /home mne
+[21:11:12] [Server thread/INFO]: lolo_lola_69 issued server command: /home mine
+[21:11:46] [Server thread/INFO]: Jhor issued server command: /home
+[21:11:49] [Server thread/INFO]: Jhor issued server command: /home mine
+[21:12:48] [Server thread/INFO]: Jhor issued server command: /home
+[21:13:00] [Server thread/INFO]: Jhor issued server command: /home mine
+[21:14:25] [Server thread/INFO]: Johann issued server command: /home
+[21:22:10] [Server thread/INFO]: lolo_lola_69 was blown up by Creeper
+[21:22:13] [Async Chat Thread - #12/INFO]: [m[0;33;1m[User] [0;33;1m[User] big_tasty[m [0;36;1m> F[m
+[21:22:16] [Async Chat Thread - #12/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~vLadeeVlads[m [0;36;1m> fuuuuuck[m
+[21:22:18] [Server thread/INFO]: lolo_lola_69 issued server command: /home
+[21:22:22] [Server thread/INFO]: lolo_lola_69 issued server command: /home mine
+[21:23:22] [User Authenticator #18/INFO]: UUID of player kdremeds is ce9932c4-dd5f-35bf-89f5-2e72b97a1bb2
+[21:23:22] [Server thread/INFO]: kdremeds[/0:0:0:0:0:0:0:1:61112] logged in with entity id 43993 at ([world]601.4473490215385, 70.0, -871.596837067235)
+[21:23:22] [Server thread/INFO]: [0;33;1mkdremeds has joined the game.[m
+[21:25:58] [Server thread/INFO]: Jhor issued server command: /home
+[21:26:06] [Server thread/INFO]: Johann issued server command: /home
+[21:27:00] [Server thread/INFO]: Jhor issued server command: /home mine
+[21:27:22] [Server thread/INFO]: Johann lost connection: Disconnected
+[21:27:22] [Server thread/INFO]: Johann has left the game.
+[21:34:11] [Server thread/INFO]: lolo_lola_69 issued server command: /sethome mine
+[21:34:19] [Server thread/INFO]: lolo_lola_69 issued server command: /home
+[21:35:51] [Async Chat Thread - #13/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> any chance you guys have rails?[m
+[21:36:25] [Async Chat Thread - #13/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~vLadeeVlads[m [0;36;1m> naa ko[m
+[21:36:26] [Async Chat Thread - #13/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~vLadeeVlads[m [0;36;1m> assorted[m
+[21:36:33] [Async Chat Thread - #13/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> unsay assorted[m
+[21:36:34] [Async Chat Thread - #13/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> hahaha[m
+[21:36:39] [Async Chat Thread - #13/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~vLadeeVlads[m [0;36;1m> lain2[m
+[21:36:56] [Async Chat Thread - #13/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> gai ko bi hahah[m
+[21:36:59] [Async Chat Thread - #13/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> if okay ra[m
+[21:37:15] [Async Chat Thread - #13/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~vLadeeVlads[m [0;36;1m> tp lang[m
+[21:37:49] [User Authenticator #19/INFO]: UUID of player Johann is f160dbef-552f-3b70-af9a-129d0ff0c675
+[21:37:49] [Server thread/INFO]: Johann[/0:0:0:0:0:0:0:1:63876] logged in with entity id 51252 at ([world]734.6541589711437, 85.0, -186.30000001192093)
+[21:37:49] [Server thread/INFO]: [0;33;1mJohann has joined the game.[m
+[21:37:55] [Server thread/INFO]: kdremeds issued server command: /tpa lolo_lola_69
+[21:37:58] [Server thread/INFO]: lolo_lola_69 issued server command: /tpaccept
+[21:38:22] [Async Chat Thread - #14/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> hala lamat[m
+[21:38:51] [Server thread/INFO]: kdremeds issued server command: /hala
+[21:38:55] [Async Chat Thread - #14/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> gi unsa nimo[m
+[21:39:08] [Async Chat Thread - #14/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> ikaw nag grow ani mga mushrooms?[m
+[21:39:22] [Server thread/INFO]: Jhor issued server command: /home
+[21:39:26] [Async Chat Thread - #14/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> diba dapat dark?[m
+[21:39:26] [Async Chat Thread - #14/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~vLadeeVlads[m [0;36;1m> idk if ni grow sila pero ako nagbutang[m
+[21:39:33] [Async Chat Thread - #14/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> lol[m
+[21:39:33] [Async Chat Thread - #14/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~vLadeeVlads[m [0;36;1m> aw[m
+[21:39:35] [Async Chat Thread - #14/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> anyways lamat[m
+[21:39:37] [Server thread/INFO]: kdremeds issued server command: /home kdremeds
+[21:40:13] [Server thread/INFO]: Jhor issued server command: /home mine
+[21:40:29] [Server thread/INFO]: lolo_lola_69 issued server command: /home
+[21:40:35] [Server thread/INFO]: lolo_lola_69 issued server command: /home mine
+[21:41:25] [Server thread/INFO]: Jhor issued server command: /home
+[21:41:45] [Server thread/WARN]: Horse moved wrongly!
+[21:41:45] [Server thread/WARN]: Horse moved wrongly!
+[21:41:45] [Server thread/WARN]: Horse moved wrongly!
+[21:41:45] [Server thread/WARN]: Horse moved wrongly!
+[21:41:46] [Server thread/WARN]: Horse moved wrongly!
+[21:43:51] [Server thread/INFO]: Johann issued server command: /home
+[21:44:18] [Server thread/INFO]: lolo_lola_69 issued server command: /home
+[21:44:26] [Server thread/INFO]: lolo_lola_69 issued server command: /delhome mine
+[21:45:49] [Server thread/INFO]: Jhor lost connection: Disconnected
+[21:45:49] [Server thread/INFO]: Jhor has left the game.
+[21:45:52] [Server thread/WARN]: Johann moved too quickly! -10.318507829344185,0.0,0.18867553412798088
+[21:46:49] [Server thread/INFO]: arcosanti issued server command: /home
+[21:46:54] [Server thread/INFO]: big_tasty issued server command: /home
+[21:47:04] [Server thread/INFO]: Johann issued server command: /home
+[21:47:07] [Server thread/INFO]: arcosanti issued server command: /home mine
+[21:47:30] [Server thread/INFO]: arcosanti issued server command: /home
+[21:48:16] [Server thread/INFO]: Johann lost connection: Disconnected
+[21:48:16] [Server thread/INFO]: Johann has left the game.
+[21:50:27] [Server thread/INFO]: big_tasty issued server command: /mcstats
+[21:51:05] [Server thread/INFO]: arcosanti lost connection: Disconnected
+[21:51:05] [Server thread/INFO]: arcosanti has left the game.
+[21:52:52] [Server thread/INFO]: kdremeds issued server command: /home kdremeds
+[21:54:18] [Server thread/INFO]: kdremeds issued server command: /home kdremeds
+[21:58:17] [Server thread/WARN]: Demon moved wrongly!
+[21:58:17] [Server thread/WARN]: Demon moved wrongly!
+[21:58:17] [Server thread/WARN]: Demon moved wrongly!
+[21:58:25] [User Authenticator #20/INFO]: UUID of player arcosanti is a9e52362-e903-3089-8f30-1e5a3b7d754a
+[21:58:26] [Server thread/INFO]: arcosanti[/0:0:0:0:0:0:0:1:50430] logged in with entity id 57700 at ([world]498.5678166984422, 66.0, 164.83397803571472)
+[21:58:26] [Server thread/INFO]: [0;33;1marcosanti has joined the game.[m
+[21:58:53] [Server thread/WARN]: Demon moved wrongly!
+[21:58:53] [Server thread/WARN]: Demon moved wrongly!
+[21:58:53] [Server thread/WARN]: Demon moved wrongly!
+[21:58:53] [Server thread/WARN]: Demon moved wrongly!
+[21:58:54] [Server thread/WARN]: Demon moved wrongly!
+[21:58:54] [Server thread/WARN]: Demon moved wrongly!
+[21:58:55] [Server thread/WARN]: Demon moved wrongly!
+[21:58:55] [Server thread/WARN]: Demon moved wrongly!
+[21:58:55] [Server thread/WARN]: Demon moved wrongly!
+[21:59:10] [Server thread/INFO]: lolo_lola_69 lost connection: Disconnected
+[21:59:10] [Server thread/INFO]: lolo_lola_69 has left the game.
+[21:59:11] [User Authenticator #21/INFO]: UUID of player lolo_lola_69 is 646085da-be96-308b-8634-fb8b260022a5
+[21:59:12] [Server thread/INFO]: lolo_lola_69[/0:0:0:0:0:0:0:1:50493] logged in with entity id 57933 at ([world]751.571162764527, 74.0, -255.07204467520987)
+[21:59:12] [Server thread/INFO]: [0;33;1mlolo_lola_69 has joined the game.[m
+[21:59:17] [Server thread/INFO]: [GriefPrevention] kdremeds placed suspicious WATER_BUCKET @ world: x607, z-899
+[21:59:21] [Server thread/WARN]: Demon moved wrongly!
+[21:59:21] [Server thread/WARN]: Demon moved wrongly!
+[21:59:21] [Server thread/WARN]: Demon moved wrongly!
+[21:59:21] [Server thread/WARN]: Demon moved wrongly!
+[21:59:21] [Server thread/WARN]: Demon moved wrongly!
+[21:59:21] [Server thread/WARN]: Demon moved wrongly!
+[22:03:58] [Server thread/INFO]: lolo_lola_69 lost connection: Disconnected
+[22:03:58] [Server thread/INFO]: lolo_lola_69 has left the game.
+[22:04:15] [Server thread/INFO]: kdremeds issued server command: /home kdremeds
+[22:06:07] [Server thread/INFO]: arcosanti issued server command: /
+[22:07:14] [Server thread/INFO]: arcosanti issued server command: /HOME mine
+[22:07:24] [Server thread/INFO]: arcosanti issued server command: /home badland
+[22:07:26] [Server thread/INFO]: arcosanti issued server command: /home badlands
+[22:07:35] [Server thread/INFO]: big_tasty issued server command: /tpa arcosanti
+[22:07:49] [Server thread/INFO]: arcosanti issued server command: /tpaccept
+[22:13:35] [User Authenticator #22/INFO]: UUID of player Johann is f160dbef-552f-3b70-af9a-129d0ff0c675
+[22:13:35] [Server thread/INFO]: Johann[/0:0:0:0:0:0:0:1:51858] logged in with entity id 59624 at ([world]724.7709523235268, 78.875, -178.04576712170626)
+[22:13:35] [Server thread/INFO]: [0;33;1mJohann has joined the game.[m
+[22:14:20] [User Authenticator #23/INFO]: UUID of player FKritz is 76f1a2ac-693e-3061-aa4f-5b80da853173
+[22:14:21] [Server thread/INFO]: FKritz[/0:0:0:0:0:0:0:1:51914] logged in with entity id 60000 at ([world]778.1686895349002, 54.0, -471.4767158194824)
+[22:14:21] [Server thread/INFO]: [0;33;1mFKritz has joined the game.[m
+[22:17:38] [User Authenticator #24/INFO]: UUID of player Giniguy is 47a4aaeb-feae-366a-bb50-3db390c239cb
+[22:17:38] [Server thread/INFO]: Giniguy[/0:0:0:0:0:0:0:1:52273] logged in with entity id 61005 at ([world]779.6336469449982, 54.0, -472.98385037208567)
+[22:17:38] [Server thread/INFO]: [0;33;1mGiniguy has joined the game.[m
+[22:25:31] [Server thread/INFO]: Johann fell from a high place
+[22:25:34] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> yikes[m
+[22:25:37] [Server thread/INFO]: Johann issued server command: /home
+[22:25:37] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] big_tasty[m [0;36;1m> oof[m
+[22:25:38] [Async Chat Thread - #15/INFO]: [GriefPrevention] Muted repeat message.
+[22:25:38] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> oof[m
+[22:25:42] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> whoops[m
+[22:25:51] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mYOU KNOW WHAT TIME IT IS :3 In 15 Minutes![m
+[22:25:51] [Server thread/INFO]: arcosanti lost connection: Disconnected
+[22:25:51] [Server thread/INFO]: arcosanti has left the game.
+[22:25:59] [Server thread/WARN]: Horse moved wrongly!
+[22:25:59] [Server thread/WARN]: Horse moved wrongly!
+[22:26:02] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> gio ?[m
+[22:26:04] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> yo[m
+[22:26:06] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> i need your help[m
+[22:26:09] [Server thread/WARN]: Horse moved wrongly!
+[22:26:09] [Server thread/WARN]: Horse moved wrongly!
+[22:26:09] [Server thread/WARN]: Horse moved wrongly!
+[22:26:09] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> sure[m
+[22:26:11] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> what is it[m
+[22:26:18] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> can you tp to me[m
+[22:26:19] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> ?[m
+[22:26:21] [Server thread/WARN]: Horse moved wrongly!
+[22:26:21] [Server thread/WARN]: Horse moved wrongly!
+[22:26:22] [Server thread/WARN]: Horse moved wrongly!
+[22:26:22] [Server thread/WARN]: Horse moved wrongly!
+[22:26:22] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> pwede[m
+[22:26:24] [Server thread/INFO]: Giniguy issued server command: /tpa kdremeds
+[22:26:26] [Server thread/INFO]: kdremeds issued server command: /tpaccept
+[22:26:33] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> how to make villagers breed again?[m
+[22:26:39] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> 12 carrots[m
+[22:26:43] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] big_tasty[m [0;36;1m> bread makes them horny[m
+[22:26:43] [Server thread/INFO]: FKritz issued server command: /tpa Giniguy
+[22:26:45] [Server thread/INFO]: Giniguy issued server command: /tpaccept
+[22:26:46] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> oi[m
+[22:26:48] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> ur door[m
+[22:26:50] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> dont do dat[m
+[22:26:51] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> oh lol[m
+[22:26:53] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> why[m
+[22:26:58] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> just put a hole sa ubos[m
+[22:27:01] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> then put boat[m
+[22:27:06] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> the baby will go there eventually[m
+[22:27:17] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> nice[m
+[22:27:21] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> then[m
+[22:27:25] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> ho to trap them[m
+[22:27:28] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> to the bed here[m
+[22:27:32] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> how[m
+[22:27:38] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> let's discord[m
+[22:27:47] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> im using laptop hahaha[m
+[22:27:54] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> no discord?[m
+[22:28:01] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> idk how to explain well haha[m
+[22:28:02] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> uhmm speakers is guba sa laptop[m
+[22:28:07] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> ah wait[m
+[22:28:21] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> imagine there's a baby in the boat[m
+[22:28:25] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> yes yes[m
+[22:28:42] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> wtf[m
+[22:28:44] [Server thread/INFO]: kdremeds issued server command: /wtf
+[22:28:44] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> im gone[m
+[22:28:45] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> wtf[m
+[22:28:48] [Server thread/INFO]: Giniguy issued server command: /tpa kdremeds
+[22:28:51] [Server thread/INFO]: kdremeds issued server command: /tpaccept
+[22:28:53] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> bug[m
+[22:28:59] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> are these[m
+[22:29:01] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> slabs[m
+[22:29:05] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> no oy[m
+[22:29:17] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> im confused[m
+[22:29:22] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> as to how i got there[m
+[22:29:32] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> wdym[m
+[22:29:35] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> underground[m
+[22:29:36] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> go in the boat[m
+[22:29:40] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> remember my old village[m
+[22:29:41] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> then get off of it[m
+[22:30:05] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> hahaha[m
+[22:30:11] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> aaaaaaaaaaaah[m
+[22:30:12] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> i get it[m
+[22:30:19] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> there's a red stone torch there?[m
+[22:30:23] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> ye[m
+[22:30:24] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> below the rail?[m
+[22:30:25] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> aaah[m
+[22:30:26] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> i went there[m
+[22:30:29] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> by accident[m
+[22:30:40] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> ok, so imagine there's a baby in the boat[m
+[22:30:48] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> then?[m
+[22:30:51] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mYOU KNOW WHAT TIME IT IS :3 In 10 Minutes![m
+[22:30:57] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> it's so hard hahaha[m
+[22:31:22] [Server thread/INFO]: kdremeds issued server command: /lol
+[22:31:24] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> lol[m
+[22:31:26] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> hahahah[m
+[22:31:30] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> then imagine it's still there[m
+[22:31:37] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> conitnuee[m
+[22:32:10] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> come in[m
+[22:32:18] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> then put a cart in[m
+[22:32:24] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> on the rail[m
+[22:32:36] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> then make sure the baby is stepping on the rail[m
+[22:32:57] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> break the boat[m
+[22:33:11] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> then that's when you place the cart[m
+[22:33:23] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> then the baby will automatically be in the cart[m
+[22:33:27] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> then you can break the blocks after[m
+[22:33:32] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> oh nice hahaha[m
+[22:33:35] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> thanks[m
+[22:34:15] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> get a lectern[m
+[22:34:19] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> instead of the fence[m
+[22:34:29] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> it will secure their jobs as librarians[m
+[22:34:42] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> they might get out[m
+[22:34:43] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> make sure to put a slab on top so the villager wont escape[m
+[22:34:57] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> top of?[m
+[22:35:04] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> then lectern[m
+[22:35:14] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> get a lectern[m
+[22:35:16] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> no d[m
+[22:35:17] [Async Chat Thread - #15/INFO]: [GriefPrevention] Muted too-frequent text.
+[22:35:17] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> dont[m
+[22:35:18] [Async Chat Thread - #15/INFO]: [GriefPrevention] Muted too-frequent text.
+[22:35:18] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> hahaha[m
+[22:35:25] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> ok na na[m
+[22:35:32] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> i'll trade him[m
+[22:35:33] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> he has a job naman daan[m
+[22:35:36] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> i mean, trade first[m
+[22:35:41] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> so he wont run away[m
+[22:35:49] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> wait[m
+[22:35:51] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mYOU KNOW WHAT TIME IT IS :3 In 5 Minutes![m
+[22:35:53] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> prepare the lectern[m
+[22:36:02] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> if i stop talking in 5 secs[m
+[22:36:08] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> plcae the lectern[m
+[22:36:12] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> 321 go[m
+[22:36:59] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> ok na na oi[m
+[22:37:07] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> he cant[m
+[22:37:12] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> give me a slab[m
+[22:37:15] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> climb over the lectern?[m
+[22:37:35] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> they're 2 blocks high[m
+[22:37:48] [Server thread/INFO]: kdremeds issued server command: /why
+[22:37:52] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> whats wrong[m
+[22:37:53] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> wait[m
+[22:39:09] [Async Chat Thread - #16/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> here oi[m
+[22:39:25] [Async Chat Thread - #16/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> u can leave though[m
+[22:39:40] [Async Chat Thread - #16/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> oi[m
+[22:39:41] [Async Chat Thread - #16/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> u[m
+[22:39:44] [Async Chat Thread - #16/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> placed the cart too early[m
+[22:39:45] [Server thread/INFO]: kdremeds issued server command: /why
+[22:39:48] [Async Chat Thread - #16/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> shit[m
+[22:39:50] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mYOU KNOW WHAT TIME IT IS :3 In 1 Minutes![m
+[22:40:06] [Async Chat Thread - #16/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> can you fix it[m
+[22:40:09] [Async Chat Thread - #16/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> hahaha[m
+[22:40:45] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mGOODBYE in 5 Seconds![m
+[22:40:46] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mGOODBYE in 4 Seconds![m
+[22:40:47] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mGOODBYE in 3 Seconds![m
+[22:40:48] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mGOODBYE in 2 Seconds![m
+[22:40:48] [Async Chat Thread - #16/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> damn[m
+[22:40:49] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mGOODBYE in 1 Seconds![m
+[22:40:49] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1m[0;31;1mServer Restarting![m
+[22:40:49] [Server thread/INFO]: CONSOLE issued server command: /kickall §cServer Restarting! We will be back up any minute!
+[22:40:49] [Server thread/INFO]: big_tasty lost connection: §cServer Restarting! We will be back up any minute!
+[22:40:49] [Server thread/INFO]: big_tasty has left the game.
+[22:40:49] [Server thread/INFO]: kdremeds lost connection: §cServer Restarting! We will be back up any minute!
+[22:40:49] [Server thread/INFO]: kdremeds has left the game.
+[22:40:49] [Server thread/INFO]: FKritz lost connection: §cServer Restarting! We will be back up any minute!
+[22:40:49] [Server thread/INFO]: FKritz has left the game.
+[22:40:49] [Server thread/INFO]: Giniguy lost connection: §cServer Restarting! We will be back up any minute!
+[22:40:49] [Server thread/INFO]: Giniguy has left the game.
+[22:40:49] [Server thread/INFO]: Johann lost connection: §cServer Restarting! We will be back up any minute!
+[22:40:49] [Server thread/INFO]: Johann has left the game.
+[22:40:49] [Server thread/INFO]: [0;31;22mKicked all players from server.[m
+[22:40:49] [Server thread/INFO]: Attempting to restart with run.bat
+[22:40:49] [Server thread/INFO]: Stopping server
+[22:40:49] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.17.0.0
+[22:40:49] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.17.0.0
+[22:40:49] [Server thread/INFO]: [Essentials] Disabling Essentials v2.17.0.0
+[22:40:49] [Server thread/INFO]: [Vault] [Vault][Economy] Essentials Economy unhooked.
+[22:40:49] [Server thread/INFO]: [ChestShop] Disabling ChestShop v3.10-SNAPSHOT (build 137)
+[22:40:49] [Server thread/INFO]: [GriefPrevention] Disabling GriefPrevention v16.11.6
+[22:40:49] [Server thread/INFO]: [GriefPrevention] GriefPrevention disabled.
+[22:40:49] [Server thread/INFO]: [Stargate] Disabling Stargate v0.8.2
+[22:40:49] [Server thread/INFO]: Closing all stargates.
+[22:40:49] [Server thread/INFO]: [Vault] Disabling Vault v1.7.2-b107
+[22:40:49] [Server thread/INFO]: [AutoRestart] Disabling AutoRestart v3.3.3
+[22:40:49] [Server thread/INFO]: [mcMMO] Disabling mcMMO v2.1.100-SNAPSHOT
+[22:40:49] [Server thread/INFO]: [mcMMO] Saving mcMMOPlayers... (0)
+[22:40:49] [Server thread/INFO]: [mcMMO] Finished save operation for 0 players!
+[22:40:49] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v13.7.1
+[22:40:49] [Server thread/INFO]: [HomeSpawn] Disabling HomeSpawn v3.1.4
+[22:40:49] [Server thread/INFO]: [HomeSpawn] HomeSpawn has been disabled
+[22:40:49] [Server thread/INFO]: [PermissionsEx] Disabling PermissionsEx v1.23.4
+[22:40:49] [Server thread/INFO]: Saving players
+[22:40:49] [Server thread/INFO]: Saving worlds
+[22:40:49] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
+[22:40:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[22:40:51] [Server thread/INFO]: Saving chunks for level 'world_nether'/minecraft:the_nether
+[22:40:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22:40:51] [Server thread/INFO]: Saving chunks for level 'world_the_end'/minecraft:the_end
+[22:40:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22:40:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[22:40:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22:40:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved

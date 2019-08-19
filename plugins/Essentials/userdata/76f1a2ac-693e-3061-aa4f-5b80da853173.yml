@@ -1,20 +1,20 @@
 lastAccountName: FKritz
 timestamps:
-  login: 1566139488816
-  logout: 1566142615312
-  lastteleport: 1566141156838
+  login: 1566224061179
+  logout: 1566225649089
+  lastteleport: 1566224810702
 ipAddress: 0:0:0:0:0:0:0:1
 lastlocation:
   world: world
-  x: 784.0174625075034
-  y: 54.0
-  z: -476.276862285767
-  yaw: 34.401123
-  pitch: 3.900109
+  x: 777.8569072832256
+  y: 56.5
+  z: -479.5386644918008
+  yaw: 88.68282
+  pitch: -7.650245
 logoutlocation:
   world: world
-  x: 778.1686895349002
-  y: 54.0
-  z: -471.4767158194824
-  yaw: 222.02563
-  pitch: 15.900639
+  x: 668.198712430598
+  y: 67.0
+  z: -931.44350309173
+  yaw: 352.14996
+  pitch: 16.04991

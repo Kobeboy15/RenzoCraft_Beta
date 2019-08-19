@@ -821,6 +821,7 @@
       "minecraft:pillager": "2019-07-25 02:55:19 +0800",
       "minecraft:skeleton": "2019-07-21 00:27:41 +0800",
       "minecraft:zombie_pigman": "2019-08-07 02:43:02 +0800",
+      "minecraft:ravager": "2019-08-19 19:31:30 +0800",
       "minecraft:ghast": "2019-07-21 19:42:01 +0800",
       "minecraft:vindicator": "2019-08-10 01:43:18 +0800",
       "minecraft:magma_cube": "2019-07-21 19:42:50 +0800",
@@ -838,6 +839,12 @@
       "minecraft:zombie_villager": "2019-07-25 01:28:19 +0800"
     },
     "done": false
+  },
+  "minecraft:recipes/decorations/brown_glazed_terracotta": {
+    "criteria": {
+      "has_brown_terracotta": "2019-08-19 22:08:24 +0800"
+    },
+    "done": true
   },
   "minecraft:recipes/building_blocks/chiseled_quartz_block_from_quartz_block_stonecutting": {
     "criteria": {
@@ -2829,6 +2836,12 @@
   "minecraft:recipes/decorations/green_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2019-07-21 02:40:39 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_glazed_terracotta": {
+    "criteria": {
+      "has_red_terracotta": "2019-08-19 22:08:29 +0800"
     },
     "done": true
   },

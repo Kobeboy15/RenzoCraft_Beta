@@ -1,7 +1,7 @@
 lastAccountName: Jhor
 timestamps:
-  login: 1566206706563
-  logout: 1566211137063
+  login: 1566218328717
+  logout: 1566222349626
   lastteleport: 1565804128115
 ipAddress: 0:0:0:0:0:0:0:1
 lastlocation:
@@ -13,8 +13,8 @@ lastlocation:
   pitch: 20.76852
 logoutlocation:
   world: world
-  x: 511.4144216808812
-  y: 11.0
-  z: -56.573100047143065
-  yaw: 180.86981
-  pitch: 4.551225
+  x: 428.9872188522402
+  y: 126.0
+  z: 94.33364962096245
+  yaw: 263.51324
+  pitch: 23.958372
