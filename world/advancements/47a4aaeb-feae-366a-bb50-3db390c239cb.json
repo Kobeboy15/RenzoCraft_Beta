@@ -323,6 +323,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_rabbit_from_smoking": {
+    "criteria": {
+      "has_rabbit": "2019-08-21 11:28:09 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/iron_leggings": {
     "criteria": {
       "has_iron_ingot": "2019-08-02 22:27:02 +0800"
@@ -581,6 +587,12 @@
   "minecraft:story/lava_bucket": {
     "criteria": {
       "lava_bucket": "2019-08-02 22:38:21 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_rabbit_from_campfire_cooking": {
+    "criteria": {
+      "has_rabbit": "2019-08-21 11:28:09 +0800"
     },
     "done": true
   },
@@ -1007,6 +1019,12 @@
   "minecraft:recipes/decorations/light_blue_stained_glass_pane": {
     "criteria": {
       "has_glass": "2019-08-06 08:45:46 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/leather": {
+    "criteria": {
+      "has_rabbit_hide": "2019-08-21 11:28:08 +0800"
     },
     "done": true
   },
@@ -2244,6 +2262,7 @@
   "minecraft:husbandry/bred_all_animals": {
     "criteria": {
       "minecraft:fox": "2019-08-10 22:11:09 +0800",
+      "minecraft:pig": "2019-08-21 11:29:53 +0800",
       "minecraft:turtle": "2019-08-10 00:10:03 +0800",
       "minecraft:sheep": "2019-08-04 19:45:29 +0800",
       "minecraft:cow": "2019-08-04 22:14:59 +0800",
@@ -3056,6 +3075,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_rabbit": {
+    "criteria": {
+      "has_rabbit": "2019-08-21 11:28:09 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/jungle_slab": {
     "criteria": {
       "has_planks": "2019-08-01 22:56:01 +0800"
@@ -3330,6 +3355,8 @@
     "criteria": {
       "textures/entity/cat/white.png": "2019-08-07 23:26:48 +0800",
       "textures/entity/cat/jellie.png": "2019-08-16 22:48:19 +0800",
+      "textures/entity/cat/black.png": "2019-08-21 11:28:23 +0800",
+      "textures/entity/cat/all_black.png": "2019-08-21 11:23:43 +0800",
       "textures/entity/cat/red.png": "2019-08-07 23:33:34 +0800"
     },
     "done": false
