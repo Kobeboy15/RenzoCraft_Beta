@@ -1,23 +1,23 @@
 lastAccountName: Kobeboy15
 timestamps:
-  login: 1566130457435
-  logout: 1566135436304
-  lastteleport: 1566134564813
+  login: 1566390375023
+  logout: 1566393050518
+  lastteleport: 1566389728196
 ipAddress: 0:0:0:0:0:0:0:1
 lastlocation:
   world: world
-  x: 496.005701339087
+  x: 495.69373292572004
   y: 70.0
-  z: 233.91947106570964
-  yaw: 227.13078
-  pitch: 13.503167
+  z: 233.73994472330412
+  yaw: 197.06133
+  pitch: 27.174536
 logoutlocation:
   world: world
-  x: 601.5500867767345
-  y: 89.0
-  z: -67.9081307009379
-  yaw: -357.69458
-  pitch: 69.21492
+  x: 700.102815849216
+  y: 67.0
+  z: 92.26950854451337
+  yaw: -224.26093
+  pitch: 15.82122
 money: '175.86'
 afk: false
 nickname: Belle_Delphine
