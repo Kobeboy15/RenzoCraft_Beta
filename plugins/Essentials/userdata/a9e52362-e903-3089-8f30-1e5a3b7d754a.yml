@@ -1,22 +1,22 @@
 lastAccountName: arcosanti
 timestamps:
-  login: 1566570781207
-  logout: 1566573782304
-  lastteleport: 1566571059624
+  login: 1566573878569
+  logout: 1566579894638
+  lastteleport: 1566579330648
 ipAddress: 0:0:0:0:0:0:0:1
 lastlocation:
   world: world
-  x: 500.1885579593357
-  y: 66.0
-  z: 164.4884909863542
-  yaw: 118.443726
-  pitch: 29.592072
+  x: 444.4586024368714
+  y: 63.5
+  z: 259.12820979035826
+  yaw: 193.85632
+  pitch: 15.854971
 logoutlocation:
   world: world
-  x: 538.204109707729
-  y: 65.0
-  z: 205.4382540183293
-  yaw: 359.81592
-  pitch: 22.63557
+  x: 499.1351598628887
+  y: 66.0
+  z: 163.4086624765208
+  yaw: 146.34912
+  pitch: 14.00738
 money: '90.6'
 nickname: Belle_Delphine
