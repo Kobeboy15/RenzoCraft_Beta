@@ -1672,6 +1672,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/light_blue_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_light_blue_dye": "2019-08-23 21:59:48 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/andesite_slab": {
     "criteria": {
       "has_andesite": "2019-07-22 20:20:33 +0800"
