@@ -1,7 +1,7 @@
 lastAccountName: lolo_lola_69
 timestamps:
-  login: 1566656916938
-  logout: 1566660613740
+  login: 1566664137376
+  logout: 1566664410799
   lastteleport: 1566660236873
 ipAddress: 0:0:0:0:0:0:0:1
 lastlocation:
@@ -13,10 +13,10 @@ lastlocation:
   pitch: 19.049803
 logoutlocation:
   world: world
-  x: 504.8389316862624
-  y: 66.0
-  z: 170.8460529835009
-  yaw: 146.40796
-  pitch: 22.500145
+  x: 743.8787275639223
+  y: 72.0625
+  z: -56.44396044918431
+  yaw: 143.41504
+  pitch: 40.649757
 money: '250.55'
 nickname: vLadeeVlads

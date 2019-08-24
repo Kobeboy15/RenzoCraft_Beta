@@ -586,6 +586,12 @@
     },
     "done": true
   },
+  "minecraft:story/enchant_item": {
+    "criteria": {
+      "enchanted_item": "2019-08-25 01:10:25 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/redstone_block": {
     "criteria": {
       "has_at_least_9_redstone": "2019-08-02 22:32:12 +0800"
@@ -1685,6 +1691,7 @@
       "rotten_flesh": "2019-08-02 23:10:34 +0800",
       "dried_kelp": "2019-08-17 00:07:59 +0800",
       "melon_slice": "2019-08-04 20:59:59 +0800",
+      "cooked_chicken": "2019-08-25 02:15:52 +0800",
       "cod": "2019-08-07 22:08:55 +0800",
       "cooked_salmon": "2019-08-04 19:18:44 +0800",
       "carrot": "2019-08-04 01:02:19 +0800"
