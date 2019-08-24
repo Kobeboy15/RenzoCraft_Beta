@@ -1,7 +1,7 @@
 lastAccountName: Giniguy
 timestamps:
-  login: 1566617414325
-  logout: 1566617975807
+  login: 1566638425462
+  logout: 1566642893898
   lastteleport: 1566617478692
 ipAddress: 0:0:0:0:0:0:0:1
 lastlocation:
@@ -13,10 +13,10 @@ lastlocation:
   pitch: 33.359806
 logoutlocation:
   world: world
-  x: 777.3000000119209
-  y: 56.0
-  z: -485.49094194036405
-  yaw: -346.67682
-  pitch: 2.6825924
+  x: 768.4785663848369
+  y: 54.0
+  z: -467.02620121458637
+  yaw: -8.659485
+  pitch: 20.816412
 afk: false
 nickname: Belle_Delphine
