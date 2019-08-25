@@ -1,22 +1,22 @@
 lastAccountName: arcosanti
 timestamps:
-  login: 1566727824772
-  logout: 1566736831109
-  lastteleport: 1566735340102
+  login: 1566760496975
+  logout: 1566763781918
+  lastteleport: 1566760809161
 ipAddress: 0:0:0:0:0:0:0:1
 lastlocation:
   world: world
-  x: 497.23597633251825
-  y: 60.0
-  z: 163.21090457390378
-  yaw: 194.23999
-  pitch: 21.813368
+  x: 498.3102397354377
+  y: 66.0
+  z: 162.64042794705824
+  yaw: 88.63965
+  pitch: 1.4133269
 logoutlocation:
   world: world
-  x: 505.1005795212997
-  y: 58.0
-  z: 162.6106245476328
-  yaw: 168.12805
-  pitch: -66.74981
+  x: 498.64515190986015
+  y: 66.0
+  z: 163.31892678583125
+  yaw: 98.72119
+  pitch: 2.9999487
 money: '90.6'
 nickname: arcosanti
