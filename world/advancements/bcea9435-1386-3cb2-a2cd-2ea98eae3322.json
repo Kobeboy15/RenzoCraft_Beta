@@ -191,6 +191,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/dark_prismarine_stairs_from_dark_prismarine_stonecutting": {
+    "criteria": {
+      "has_dark_prismarine": "2019-08-25 23:49:17 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/chest": {
     "criteria": {
       "has_lots_of_items": "2019-07-30 15:52:42 +0800"
@@ -365,6 +371,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/prismarine_stairs": {
+    "criteria": {
+      "has_prismarine": "2019-08-25 23:47:46 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/brewing/golden_carrot": {
     "criteria": {
       "has_gold_nugget": "2019-08-07 22:38:37 +0800"
@@ -473,6 +485,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/sponge": {
+    "criteria": {
+      "has_wet_sponge": "2019-08-25 23:28:23 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/sandstone_slab": {
     "criteria": {
       "has_sandstone": "2019-08-04 01:46:34 +0800"
@@ -488,6 +506,18 @@
   "minecraft:recipes/misc/emerald": {
     "criteria": {
       "has_at_least_9_emerald": "2019-08-07 23:33:56 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_brick_stairs": {
+    "criteria": {
+      "has_prismarine_bricks": "2019-08-25 23:36:41 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/prismarine_wall": {
+    "criteria": {
+      "has_prismarine": "2019-08-25 23:47:46 +0800"
     },
     "done": true
   },
@@ -692,6 +722,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/prismarine_slab_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2019-08-25 23:47:46 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/birch_sign": {
     "criteria": {
       "has_birch_planks": "2019-08-01 14:51:47 +0800"
@@ -741,6 +777,7 @@
       "minecraft:skeleton": "2019-07-30 16:31:24 +0800",
       "minecraft:ravager": "2019-08-23 22:58:47 +0800",
       "minecraft:ghast": "2019-08-15 00:04:46 +0800",
+      "minecraft:guardian": "2019-08-25 23:26:56 +0800",
       "minecraft:vindicator": "2019-08-10 01:54:11 +0800",
       "minecraft:spider": "2019-07-30 16:43:43 +0800",
       "minecraft:creeper": "2019-08-03 23:12:35 +0800",
@@ -868,6 +905,12 @@
   "minecraft:recipes/misc/iron_nugget_from_smelting": {
     "criteria": {
       "has_iron_axe": "2019-07-30 15:57:47 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/prismarine_wall_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2019-08-25 23:47:46 +0800"
     },
     "done": true
   },
@@ -1231,6 +1274,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/sea_lantern": {
+    "criteria": {
+      "has_prismarine_crystals": "2019-08-25 23:33:25 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/gray_carpet": {
     "criteria": {
       "has_gray_wool": "2019-08-01 15:24:41 +0800"
@@ -1291,6 +1340,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/prismarine_brick_slab_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine_brick": "2019-08-25 23:36:41 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/sandstone_stairs_from_sandstone_stonecutting": {
     "criteria": {
       "has_sandstone": "2019-08-04 01:46:34 +0800"
@@ -1324,6 +1379,12 @@
   "minecraft:recipes/combat/crossbow": {
     "criteria": {
       "has_iron_ingot": "2019-07-30 16:09:53 +0800"
+    },
+    "done": true
+  },
+  "minecraft:adventure/totem_of_undying": {
+    "criteria": {
+      "used_totem": "2019-08-26 00:01:30 +0800"
     },
     "done": true
   },
@@ -1372,6 +1433,18 @@
   "minecraft:recipes/building_blocks/polished_diorite_from_diorite_stonecutting": {
     "criteria": {
       "has_diorite": "2019-07-30 16:42:45 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_bricks": {
+    "criteria": {
+      "has_prismarine_shard": "2019-08-25 23:31:41 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_brick_stairs_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine_brick": "2019-08-25 23:36:41 +0800"
     },
     "done": true
   },
@@ -1474,6 +1547,7 @@
       "minecraft:jungle_hills": "2019-08-01 20:43:07 +0800",
       "minecraft:bamboo_jungle": "2019-08-12 02:06:08 +0800",
       "minecraft:badlands": "2019-08-10 00:16:25 +0800",
+      "minecraft:savanna_plateau": "2019-08-25 22:53:54 +0800",
       "minecraft:beach": "2019-07-30 17:15:24 +0800",
       "minecraft:dark_forest": "2019-08-01 16:39:02 +0800",
       "minecraft:river": "2019-07-30 15:49:00 +0800",
@@ -1704,6 +1778,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/prismarine": {
+    "criteria": {
+      "has_prismarine_shard": "2019-08-25 23:31:41 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/diamond": {
     "criteria": {
       "has_at_least_9_diamond": "2019-08-23 15:59:08 +0800"
@@ -1866,6 +1946,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/dark_prismarine_slab_from_dark_prismarine_stonecutting": {
+    "criteria": {
+      "has_dark_prismarine": "2019-08-25 23:49:17 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_andesite_stairs_from_andesite_stonecutting": {
     "criteria": {
       "has_andesite": "2019-07-30 16:34:55 +0800"
@@ -1911,6 +1997,12 @@
   "minecraft:recipes/redstone/birch_pressure_plate": {
     "criteria": {
       "has_planks": "2019-08-01 14:51:47 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_prismarine": {
+    "criteria": {
+      "has_prismarine_shard": "2019-08-25 23:31:41 +0800"
     },
     "done": true
   },
@@ -2269,6 +2361,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/prismarine_brick_slab": {
+    "criteria": {
+      "has_prismarine_bricks": "2019-08-25 23:36:41 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/leather_horse_armor": {
     "criteria": {
       "has_leather": "2019-07-30 16:02:03 +0800"
@@ -2401,6 +2499,12 @@
   "minecraft:recipes/combat/diamond_chestplate": {
     "criteria": {
       "has_diamond": "2019-08-08 22:07:20 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_slab": {
+    "criteria": {
+      "has_prismarine": "2019-08-25 23:47:46 +0800"
     },
     "done": true
   },
@@ -2731,6 +2835,12 @@
   "minecraft:recipes/building_blocks/spruce_stairs": {
     "criteria": {
       "has_planks": "2019-08-13 18:12:03 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_prismarine_slab": {
+    "criteria": {
+      "has_dark_prismarine": "2019-08-25 23:49:17 +0800"
     },
     "done": true
   },
@@ -3118,6 +3228,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/prismarine_stairs_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2019-08-25 23:47:46 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/brown_terracotta": {
     "criteria": {
       "has_terracotta": "2019-08-04 02:10:53 +0800"
@@ -3415,6 +3531,12 @@
   "minecraft:recipes/redstone/daylight_detector": {
     "criteria": {
       "has_quartz": "2019-08-04 00:01:34 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_prismarine_stairs": {
+    "criteria": {
+      "has_dark_prismarine": "2019-08-25 23:49:17 +0800"
     },
     "done": true
   },
