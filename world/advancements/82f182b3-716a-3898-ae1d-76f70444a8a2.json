@@ -1214,16 +1214,19 @@
       "minecraft:jungle_edge": "2019-07-26 15:01:51 +0800",
       "minecraft:mountains": "2019-07-21 17:53:18 +0800",
       "minecraft:forest": "2019-07-21 17:42:44 +0800",
+      "minecraft:badlands_plateau": "2019-08-25 16:53:39 +0800",
       "minecraft:taiga": "2019-07-25 22:26:03 +0800",
       "minecraft:desert_hills": "2019-08-10 02:39:42 +0800",
       "minecraft:deep_cold_ocean": "2019-07-21 17:41:10 +0800",
       "minecraft:desert": "2019-08-10 00:10:04 +0800",
       "minecraft:jungle": "2019-07-26 15:01:55 +0800",
       "minecraft:jungle_hills": "2019-08-04 14:06:52 +0800",
+      "minecraft:deep_lukewarm_ocean": "2019-08-25 16:50:25 +0800",
       "minecraft:badlands": "2019-08-10 00:04:55 +0800",
       "minecraft:beach": "2019-07-21 17:39:04 +0800",
       "minecraft:dark_forest": "2019-08-23 17:13:18 +0800",
       "minecraft:river": "2019-07-21 17:43:55 +0800",
+      "minecraft:lukewarm_ocean": "2019-08-25 16:53:02 +0800",
       "minecraft:wooded_mountains": "2019-07-21 17:52:34 +0800",
       "minecraft:wooded_hills": "2019-08-23 16:40:02 +0800",
       "minecraft:stone_shore": "2019-07-21 17:53:16 +0800",
@@ -1750,6 +1753,12 @@
     },
     "done": true
   },
+  "minecraft:nether/summon_wither": {
+    "criteria": {
+      "summoned": "2019-08-25 17:06:23 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/mushroom_stew": {
     "criteria": {
       "has_brown_mushroom": "2019-08-10 15:49:41 +0800"
@@ -1778,6 +1787,7 @@
     "criteria": {
       "sweet_berries": "2019-07-25 22:20:48 +0800",
       "cooked_beef": "2019-07-21 17:59:24 +0800",
+      "baked_potato": "2019-08-25 17:32:52 +0800",
       "potato": "2019-08-20 20:28:02 +0800",
       "cooked_cod": "2019-08-21 23:32:49 +0800",
       "bread": "2019-08-24 01:41:43 +0800",
@@ -1802,6 +1812,12 @@
   "minecraft:recipes/misc/bucket": {
     "criteria": {
       "has_iron_ingot": "2019-07-21 18:03:11 +0800"
+    },
+    "done": true
+  },
+  "minecraft:nether/fast_travel": {
+    "criteria": {
+      "travelled": "2019-08-25 16:56:21 +0800"
     },
     "done": true
   },

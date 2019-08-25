@@ -1,21 +1,21 @@
 lastAccountName: kdremeds
 timestamps:
-  login: 1566715330644
-  lastteleport: 1566722202776
-  logout: 1566722251830
+  login: 1566736782604
+  lastteleport: 1566733276051
+  logout: 1566736831137
 ipAddress: 0:0:0:0:0:0:0:1
 lastlocation:
-  world: world_nether
-  x: -81.30000001192093
-  y: 68.0
-  z: 1764.200426629039
-  yaw: 259.06964
-  pitch: 22.308096
+  world: world
+  x: 760.4632756539447
+  y: 47.0
+  z: -501.69999998807907
+  yaw: 170.7666
+  pitch: -6.157763
 logoutlocation:
-  world: world_nether
-  x: -3.9028488945081072
-  y: 75.0
-  z: 1869.2234409329574
-  yaw: -321.14536
-  pitch: 22.304207
+  world: world
+  x: 515.3843245095804
+  y: 66.0
+  z: -701.6823828421168
+  yaw: 273.9934
+  pitch: 20.084362
 money: '2880.0'
