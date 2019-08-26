@@ -341,6 +341,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/smooth_quartz_slab_from_smooth_quartz_stonecutting": {
+    "criteria": {
+      "has_smooth_quartz": "2019-08-26 21:51:07 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/emerald_block": {
     "criteria": {
       "has_at_least_9_emerald": "2019-07-28 14:15:01 +0800"
@@ -776,6 +782,12 @@
   "minecraft:recipes/decorations/birch_sign": {
     "criteria": {
       "has_birch_planks": "2019-07-22 20:19:31 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_quartz_slab": {
+    "criteria": {
+      "has_smooth_quartz": "2019-08-26 21:51:07 +0800"
     },
     "done": true
   },
@@ -2705,6 +2717,7 @@
       "minecraft:sheep": "2019-07-26 17:40:47 +0800",
       "minecraft:cow": "2019-07-22 22:43:21 +0800",
       "minecraft:chicken": "2019-08-16 22:48:56 +0800",
+      "minecraft:wolf": "2019-08-26 22:44:23 +0800",
       "minecraft:panda": "2019-08-03 22:05:30 +0800",
       "minecraft:horse": "2019-07-26 16:04:04 +0800"
     },
@@ -3604,6 +3617,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/smooth_quartz_stairs": {
+    "criteria": {
+      "has_smooth_quartz": "2019-08-26 21:51:07 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/dropper": {
     "criteria": {
       "has_redstone": "2019-07-21 18:43:19 +0800"
@@ -3733,6 +3752,12 @@
   "minecraft:recipes/food/cooked_beef": {
     "criteria": {
       "has_beef": "2019-07-21 01:04:20 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_quartz_stairs_from_smooth_quartz_stonecutting": {
+    "criteria": {
+      "has_smooth_quartz": "2019-08-26 21:51:07 +0800"
     },
     "done": true
   },
