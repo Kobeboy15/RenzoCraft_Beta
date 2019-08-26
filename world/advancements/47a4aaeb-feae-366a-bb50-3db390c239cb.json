@@ -1634,6 +1634,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/dried_kelp_block": {
+    "criteria": {
+      "has_at_least_9_dried_kelp": "2019-08-26 14:29:48 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/red_stained_glass_pane": {
     "criteria": {
       "has_glass": "2019-08-06 08:45:46 +0800"
@@ -2641,6 +2647,12 @@
   "minecraft:recipes/tools/diamond_hoe": {
     "criteria": {
       "has_diamond": "2019-08-04 14:46:04 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp": {
+    "criteria": {
+      "has_at_least_9_dried_kelp": "2019-08-26 14:29:48 +0800"
     },
     "done": true
   },
