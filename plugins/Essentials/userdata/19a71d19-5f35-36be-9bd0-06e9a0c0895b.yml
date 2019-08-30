@@ -1,7 +1,7 @@
 lastAccountName: boredchinese
 timestamps:
-  login: 1564147051755
-  logout: 1564148859849
+  login: 1567167933870
+  logout: 1567168786314
   lastteleport: 1564067144844
 ipAddress: 0:0:0:0:0:0:0:1
 lastlocation:
@@ -13,9 +13,9 @@ lastlocation:
   pitch: 37.5
 logoutlocation:
   world: world
-  x: 377.9772473993185
-  y: 70.0
-  z: 211.75936676511745
-  yaw: -345.0086
-  pitch: 25.199957
+  x: 373.53271736518775
+  y: 66.0
+  z: 213.86195682710286
+  yaw: -187.05858
+  pitch: 8.849989
 money: '4026.0'
