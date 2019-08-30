@@ -1,424 +1,75 @@
-[18:12:21] [Server thread/INFO]: Starting minecraft server version 1.14.4
-[18:12:21] [Server thread/INFO]: Loading properties
-[18:12:22] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-1981d55-7f33c6a (MC: 1.14.4) (Implementing API version 1.14.4-R0.1-SNAPSHOT)
-[18:12:22] [Server thread/INFO]: Debug logging is disabled
-[18:12:22] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[18:12:22] [Server thread/INFO]: Using 4 threads for Netty based IO
-[18:12:22] [Server thread/INFO]: Default game type: SURVIVAL
-[18:12:22] [Server thread/INFO]: Generating keypair
-[18:12:22] [Server thread/INFO]: Starting Minecraft server on *:25565
-[18:12:22] [Server thread/INFO]: Using default channel type
-[18:12:26] [Server thread/WARN]: Plugin PermissionsEx v1.23.4 does not specify an api-version.
-[18:12:26] [Server thread/WARN]: Plugin Stargate v0.8.2 does not specify an api-version.
-[18:12:27] [Server thread/INFO]: [PermissionsEx] Loading PermissionsEx v1.23.4
-[18:12:27] [Server thread/WARN]: [PermissionsEx] This server is in offline mode. Unless this server is configured to integrate with a supported proxy (see http://dft.ba/-8ous), UUIDs *may not be stable*!
-[18:12:27] [Server thread/INFO]: [HomeSpawn] Loading HomeSpawn v3.1.4
-[18:12:27] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v13.7.2
-[18:12:27] [Server thread/INFO]: [mcMMO] Loading mcMMO v2.1.100-SNAPSHOT
-[18:12:27] [Server thread/INFO]: [AutoRestart] Loading AutoRestart v3.3.3
-[18:12:27] [Server thread/INFO]: [Vault] Loading Vault v1.7.2-b107
-[18:12:27] [Server thread/INFO]: [Stargate] Loading Stargate v0.8.2
-[18:12:27] [Server thread/INFO]: [GriefPrevention] Loading GriefPrevention v16.11.6
-[18:12:27] [Server thread/INFO]: [ChestShop] Loading ChestShop v3.10-SNAPSHOT (build 137)
-[18:12:27] [Server thread/INFO]: [Essentials] Loading Essentials v2.17.0.0
-[18:12:27] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn v2.17.0.0
-[18:12:27] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat v2.17.0.0
-[18:12:27] [Server thread/INFO]: [mcMMO] Enabling mcMMO v2.1.100-SNAPSHOT
-[18:12:28] [Server thread/INFO]: [mcMMO] enabling Acrobatics Skills
-[18:12:28] [Server thread/INFO]: [mcMMO] registered subskill: Roll
-[18:12:28] [Server thread/INFO]: [mcMMO] 0 entries in mcMMO World Blacklist
-[18:12:28] [Server thread/INFO]: [Vault] Enabling Vault v1.7.2-b107
-[18:12:28] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
-[18:12:28] [Server thread/INFO]: [Vault] [Permission] PermissionsEx found: Waiting
-[18:12:28] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[18:12:28] [Server thread/INFO]: [Vault] [Chat] PermissionsEx found: Waiting
-[18:12:28] [Server thread/INFO]: [Vault] Enabled Version 1.7.2-b107
-[18:12:28] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[18:12:28] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[18:12:28] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[18:12:28] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[18:12:28] [Server thread/INFO]: Preparing level "world"
-[18:12:28] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
-[18:12:28] [Server thread/INFO]: Loaded 6 recipes
-[18:12:28] [Server thread/INFO]: -------- World Settings For [world] --------
-[18:12:28] [Server thread/INFO]: View Distance: 8
-[18:12:28] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[18:12:28] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[18:12:28] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[18:12:28] [Server thread/INFO]: Mob Spawn Range: 6
-[18:12:28] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[18:12:28] [Server thread/INFO]: Experience Merge Radius: 3.0
-[18:12:28] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[18:12:28] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[18:12:28] [Server thread/INFO]: Cane Growth Modifier: 100%
-[18:12:28] [Server thread/INFO]: Melon Growth Modifier: 100%
-[18:12:28] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[18:12:28] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[18:12:28] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[18:12:28] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[18:12:28] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[18:12:28] [Server thread/INFO]: Potato Growth Modifier: 100%
-[18:12:28] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[18:12:28] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[18:12:28] [Server thread/INFO]: Vine Growth Modifier: 100%
-[18:12:28] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[18:12:28] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[18:12:28] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[18:12:28] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[18:12:28] [Server thread/INFO]: Max TNT Explosions: 100
-[18:12:28] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[18:12:28] [Server thread/INFO]: Item Despawn Rate: 6000
-[18:12:28] [Server thread/INFO]: Item Merge Radius: 2.5
-[18:12:28] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[18:12:28] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[18:12:28] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
-[18:12:28] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[18:12:28] [Server thread/INFO]: View Distance: 8
-[18:12:28] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[18:12:28] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[18:12:28] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[18:12:28] [Server thread/INFO]: Mob Spawn Range: 6
-[18:12:28] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[18:12:28] [Server thread/INFO]: Experience Merge Radius: 3.0
-[18:12:28] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[18:12:28] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[18:12:28] [Server thread/INFO]: Cane Growth Modifier: 100%
-[18:12:28] [Server thread/INFO]: Melon Growth Modifier: 100%
-[18:12:28] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[18:12:28] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[18:12:28] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[18:12:28] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[18:12:28] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[18:12:28] [Server thread/INFO]: Potato Growth Modifier: 100%
-[18:12:28] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[18:12:28] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[18:12:28] [Server thread/INFO]: Vine Growth Modifier: 100%
-[18:12:28] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[18:12:28] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[18:12:28] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[18:12:28] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[18:12:28] [Server thread/INFO]: Max TNT Explosions: 100
-[18:12:28] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[18:12:28] [Server thread/INFO]: Item Despawn Rate: 6000
-[18:12:28] [Server thread/INFO]: Item Merge Radius: 2.5
-[18:12:28] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[18:12:28] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[18:12:28] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
-[18:12:28] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[18:12:28] [Server thread/INFO]: View Distance: 8
-[18:12:28] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[18:12:28] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[18:12:28] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[18:12:28] [Server thread/INFO]: Mob Spawn Range: 6
-[18:12:28] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[18:12:28] [Server thread/INFO]: Experience Merge Radius: 3.0
-[18:12:28] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[18:12:28] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[18:12:28] [Server thread/INFO]: Cane Growth Modifier: 100%
-[18:12:28] [Server thread/INFO]: Melon Growth Modifier: 100%
-[18:12:28] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[18:12:28] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[18:12:28] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[18:12:28] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[18:12:28] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[18:12:28] [Server thread/INFO]: Potato Growth Modifier: 100%
-[18:12:28] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[18:12:28] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[18:12:28] [Server thread/INFO]: Vine Growth Modifier: 100%
-[18:12:28] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[18:12:28] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[18:12:28] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[18:12:28] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[18:12:28] [Server thread/INFO]: Max TNT Explosions: 100
-[18:12:28] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[18:12:28] [Server thread/INFO]: Item Despawn Rate: 6000
-[18:12:28] [Server thread/INFO]: Item Merge Radius: 2.5
-[18:12:28] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[18:12:28] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[18:12:28] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
-[18:12:28] [Server thread/INFO]: Preparing start region for dimension 'world'/minecraft:overworld
-[18:12:29] [Server thread/INFO]: Preparing spawn area: 0%
-[18:12:29] [Server thread/INFO]: Preparing spawn area: 0%
-[18:12:29] [Server thread/INFO]: Time elapsed: 813 ms
-[18:12:29] [Server thread/INFO]: Preparing start region for dimension 'world_nether'/minecraft:the_nether
-[18:12:29] [Server thread/INFO]: Preparing spawn area: 0%
-[18:12:30] [Server thread/INFO]: Preparing spawn area: 0%
-[18:12:30] [Server thread/INFO]: Time elapsed: 560 ms
-[18:12:30] [Server thread/INFO]: Preparing start region for dimension 'world_the_end'/minecraft:the_end
-[18:12:30] [Server thread/INFO]: Preparing spawn area: 0%
-[18:12:30] [Server-Worker-7/INFO]: Preparing spawn area: 89%
-[18:12:30] [Server thread/INFO]: Time elapsed: 568 ms
-[18:12:30] [Server thread/INFO]: [PermissionsEx] Enabling PermissionsEx v1.23.4
-[18:12:30] [Server thread/INFO]: [PermissionsEx] Initializing file backend
-[18:12:30] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
-[18:12:30] [Server thread/INFO]: [Vault][Permission] PermissionsEx hooked.
-[18:12:30] [Server thread/INFO]: [Vault] [Vault][Chat] PermissionsEx_Chat hooked.
-[18:12:30] [Server thread/INFO]: [HomeSpawn] Enabling HomeSpawn v3.1.4
-[18:12:30] [Server thread/INFO]: [HomeSpawn] HomeSpawn v3.1.4 has been enabled
-[18:12:30] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v13.7.2
-[18:12:30] [Server thread/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1mDetected Minecraft [0;33;1mv1_14_R1[0;32;1m, using [0;33;1mUniversalSkinFactory[0;32;1m.[m
-[18:12:30] [Server thread/INFO]: [SkinsRestorer] Verbose is missing in config.yml! Using default value.
-[18:12:31] [Server thread/INFO]: [AutoRestart] Enabling AutoRestart v3.3.3
-[18:12:31] [Server thread/INFO]: [0;32;1m[AutoRestart] Loaded![m
-[18:12:31] [Server thread/INFO]: [Stargate] Enabling Stargate v0.8.2
-[18:12:31] [Server thread/INFO]: Stargate v.0.8.2 is enabled.
-[18:12:31] [Server thread/INFO]: [Stargate] Loaded 1 gate layouts
-[18:12:31] [Server thread/INFO]: [Stargate] {world} No stargates for world 
-[18:12:31] [Server thread/INFO]: [Stargate] {world_nether} No stargates for world 
-[18:12:31] [Server thread/INFO]: [Stargate] {world_the_end} No stargates for world 
-[18:12:31] [Server thread/INFO]: [GriefPrevention] Enabling GriefPrevention v16.11.6
-[18:12:31] [Server thread/INFO]: [GriefPrevention] Finished loading configuration.
-[18:12:31] [Server thread/INFO]: [GriefPrevention] 58 total claims loaded.
-[18:12:32] [Server thread/INFO]: [GriefPrevention] Customizable messages loaded.
-[18:12:32] [Server thread/INFO]: [GriefPrevention] Finished loading data (File Mode).
-[18:12:32] [Server thread/INFO]: [GriefPrevention] Boot finished.
-[18:12:32] [Server thread/INFO]: [ChestShop] Enabling ChestShop v3.10-SNAPSHOT (build 137)
-[18:12:32] [Server thread/INFO]: [ChestShop] Using Essentials Economy as the Economy provider now.
-[18:12:32] [Server thread/INFO]: [ChestShop] Vault loaded!
-[18:12:32] [Server thread/INFO]: [Essentials] Enabling Essentials v2.17.0.0
-[18:12:32] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
-[18:12:32] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
-[18:12:32] [Server thread/INFO]: No kits found to migrate.
-[18:12:32] [Server thread/INFO]: [Essentials] Using 1.8.3+ BlockStateMeta provider as mob spawner provider.
-[18:12:32] [Server thread/INFO]: [Essentials] Using 1.13+ flat spawn egg provider as spawn egg provider.
-[18:12:32] [Server thread/INFO]: [Essentials] Using 1.9+ BasePotionData provider as potion meta provider.
-[18:12:32] [Server thread/INFO]: Loaded 20977 items from items.json.
-[18:12:32] [Server thread/INFO]: Using locale en_US
-[18:12:32] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[18:12:32] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[18:12:32] [Server thread/INFO]: [Vault] [Vault][Economy] Essentials Economy hooked.
-[18:12:32] [Server thread/INFO]: [Essentials] Using Vault based permissions (PermissionsEx)
-[18:12:32] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.17.0.0
-[18:12:32] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.17.0.0
-[18:12:32] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[18:12:32] [Server thread/INFO]: Done (4.828s)! For help, type "help"
-[18:12:33] [Craft Scheduler Thread - 0/INFO]: [mcMMO] Cleaned backup files. Deleted 1 of 19 files.
-[18:12:33] [Craft Scheduler Thread - 2/INFO]: [HomeSpawn] HomeSpawn file watcher started!
-[18:12:33] [Craft Scheduler Thread - 3/INFO]: [HomeSpawn] §fAn update for HomeSpawn is available and can be downloaded and installed by running /homespawn update
-[18:12:33] [Craft Scheduler Thread - 4/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m----------------------------------------------[m
-[18:12:33] [Craft Scheduler Thread - 4/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    +===============+[m
-[18:12:33] [Craft Scheduler Thread - 4/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    | SkinsRestorer |[m
-[18:12:33] [Craft Scheduler Thread - 4/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    +===============+[m
-[18:12:33] [Craft Scheduler Thread - 4/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m----------------------------------------------[m
-[18:12:33] [Craft Scheduler Thread - 4/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;36;1m    Current version: [0;32;1m13.7.2[m
-[18:12:33] [Craft Scheduler Thread - 4/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    This is the latest version![m
-[18:12:33] [Craft Scheduler Thread - 4/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m----------------------------------------------[m
-[18:12:33] [Server thread/INFO]: [0;32;1m[AutoRestart] Up to date![m
-[18:12:33] [Craft Scheduler Thread - 6/INFO]: [Vault] Checking for Updates ... 
-[18:12:34] [Craft Scheduler Thread - 6/INFO]: [Vault] No new version available
-[18:13:06] [User Authenticator #1/INFO]: UUID of player Jhor is 82f182b3-716a-3898-ae1d-76f70444a8a2
-[18:13:06] [Server thread/INFO]: Jhor[/0:0:0:0:0:0:0:1:56730] logged in with entity id 178 at ([world_nether]69.45150091627502, 60.0, -152.4312541856773)
-[18:13:07] [Server thread/INFO]: [0;33;1mJhor has joined the game.[m
-[18:14:23] [Server thread/INFO]: [mcMMO] WorldGuard was not detected.
-[18:26:58] [User Authenticator #2/INFO]: UUID of player boredchinese is 19a71d19-5f35-36be-9bd0-06e9a0c0895b
-[18:26:59] [Server thread/INFO]: boredchinese[/0:0:0:0:0:0:0:1:57973] logged in with entity id 801 at ([world]377.9772473993185, 70.0, 211.75936676511745)
-[18:26:59] [Server thread/INFO]: [0;33;1mboredchinese has joined the game.[m
-[18:27:05] [Async Chat Thread - #0/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> wow[m
-[18:27:06] [Async Chat Thread - #0/INFO]: [m[0;33;1m[User] [0;33;1m[User] boredchinese[m [0;36;1m> lomao[m
-[18:27:19] [Async Chat Thread - #0/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> gaddem[m
-[18:27:23] [Async Chat Thread - #0/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> you're alive[m
-[18:28:05] [Async Chat Thread - #0/INFO]: [m[0;33;1m[User] [0;33;1m[User] boredchinese[m [0;36;1m> hell ye[m
-[18:28:39] [Async Chat Thread - #0/INFO]: [m[0;33;1m[User] [0;33;1m[User] boredchinese[m [0;36;1m> where u at jhor[m
-[18:28:52] [Async Chat Thread - #0/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> in yo mama[m
-[18:28:55] [Async Chat Thread - #0/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> jk in the nether[m
-[18:28:59] [Async Chat Thread - #0/INFO]: [m[0;33;1m[User] [0;33;1m[User] boredchinese[m [0;36;1m> hey man... :'([m
-[18:29:03] [Async Chat Thread - #0/INFO]: [m[0;33;1m[User] [0;33;1m[User] boredchinese[m [0;36;1m> i'm telling my mom![m
-[18:29:11] [Async Chat Thread - #0/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> :'([m
-[18:30:40] [Async Chat Thread - #1/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> got a new kb already?[m
-[18:31:21] [Async Chat Thread - #1/INFO]: [m[0;33;1m[User] [0;33;1m[User] boredchinese[m [0;36;1m> ya[m
-[18:31:27] [Async Chat Thread - #1/INFO]: [m[0;33;1m[User] [0;33;1m[User] boredchinese[m [0;36;1m> a month ago but i just forgot[m
-[18:31:38] [Server thread/INFO]: boredchinese issued server command: /home house
-[18:31:41] [Server thread/INFO]: boredchinese issued server command: /home list
-[18:31:47] [Server thread/INFO]: boredchinese issued server command: /homelist
-[18:31:54] [Server thread/INFO]: boredchinese issued server command: /home
-[18:32:12] [Async Chat Thread - #1/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> damn, you forgot about your kb?[m
-[18:32:27] [Async Chat Thread - #1/INFO]: [m[0;33;1m[User] [0;33;1m[User] boredchinese[m [0;36;1m> no HAHAHH minecraft[m
-[18:32:42] [Async Chat Thread - #1/INFO]: [m[0;33;1m[User] [0;33;1m[User] boredchinese[m [0;36;1m> there's so much shit now[m
-[18:32:50] [Async Chat Thread - #1/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> oh HAHAHHA[m
-[18:32:52] [Async Chat Thread - #1/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> work?[m
-[18:32:59] [Async Chat Thread - #1/INFO]: [m[0;33;1m[User] [0;33;1m[User] boredchinese[m [0;36;1m> ya and study[m
-[18:33:13] [Async Chat Thread - #1/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> what lang you studying now?[m
-[18:33:21] [Async Chat Thread - #1/INFO]: [m[0;33;1m[User] [0;33;1m[User] boredchinese[m [0;36;1m> elixir[m
-[18:33:32] [Async Chat Thread - #1/INFO]: [m[0;33;1m[User] [0;33;1m[User] boredchinese[m [0;36;1m> hipster stuff HAHAHAH[m
-[18:33:50] [Async Chat Thread - #1/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> the company required you or just studying for yourself?[m
-[18:35:17] [Async Chat Thread - #2/INFO]: [m[0;33;1m[User] [0;33;1m[User] boredchinese[m [0;36;1m> just studying[m
-[18:35:26] [Async Chat Thread - #2/INFO]: [m[0;33;1m[User] [0;33;1m[User] boredchinese[m [0;36;1m> i was studying kotlin android hahahahahha[m
-[18:35:40] [Async Chat Thread - #2/INFO]: [m[0;33;1m[User] [0;33;1m[User] boredchinese[m [0;36;1m> cause i agreed to be moved to the android team[m
-[18:35:57] [Async Chat Thread - #2/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> yeah I heard you an android boi now haha[m
-[18:36:02] [Async Chat Thread - #2/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> so no more front end?[m
-[18:36:29] [Async Chat Thread - #2/INFO]: [m[0;33;1m[User] [0;33;1m[User] boredchinese[m [0;36;1m> for the time being ya[m
-[18:36:33] [Server thread/INFO]: boredchinese issued server command: /home temple
-[18:37:00] [Server thread/INFO]: boredchinese issued server command: /home
-[18:37:23] [Server thread/INFO]: Jhor lost connection: Timed out
-[18:37:23] [Server thread/INFO]: Jhor has left the game.
-[18:38:12] [User Authenticator #3/INFO]: UUID of player Jhor is 82f182b3-716a-3898-ae1d-76f70444a8a2
-[18:38:12] [Server thread/INFO]: Jhor[/0:0:0:0:0:0:0:1:59063] logged in with entity id 2314 at ([world_nether]134.58176883111898, 53.0, -196.18524390782693)
-[18:38:12] [Server thread/INFO]: [0;33;1mJhor has joined the game.[m
-[18:38:19] [Server thread/INFO]: boredchinese issued server command: /home turtle
-[18:38:23] [Async Chat Thread - #3/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> lmao game crashed trying to change resource packs[m
-[18:39:11] [Async Chat Thread - #3/INFO]: [m[0;33;1m[User] [0;33;1m[User] boredchinese[m [0;36;1m> fak[m
-[18:39:31] [Async Chat Thread - #3/INFO]: [m[0;33;1m[User] [0;33;1m[User] boredchinese[m [0;36;1m> i thought you had school na :o[m
-[18:40:02] [Async Chat Thread - #3/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> Today was my last day haha[m
-[18:40:10] [Async Chat Thread - #3/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> Had 3 exams[m
-[18:40:23] [Async Chat Thread - #3/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> next week I'll just have a few retakes then I'll start flying[m
-[18:41:51] [Async Chat Thread - #4/INFO]: [m[0;33;1m[User] [0;33;1m[User] boredchinese[m [0;36;1m> ah man the village i explored got looted na fak[m
-[18:41:56] [Async Chat Thread - #4/INFO]: [m[0;33;1m[User] [0;33;1m[User] boredchinese[m [0;36;1m> noice[m
-[18:42:01] [Async Chat Thread - #4/INFO]: [m[0;33;1m[User] [0;33;1m[User] boredchinese[m [0;36;1m> so fast[m
-[18:42:07] [Async Chat Thread - #4/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> much has changed in your absence Gao haha[m
-[18:42:15] [Async Chat Thread - #4/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> yeah ground school only 5 weeks[m
-[18:43:03] [Server thread/INFO]: boredchinese issued server command: /home
-[18:43:19] [Async Chat Thread - #5/INFO]: [m[0;33;1m[User] [0;33;1m[User] boredchinese[m [0;36;1m> maaan[m
-[18:43:25] [Async Chat Thread - #5/INFO]: [m[0;33;1m[User] [0;33;1m[User] boredchinese[m [0;36;1m> u excited to fly sir[m
-[18:43:57] [Async Chat Thread - #5/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> yes I am sir, but also scared, cuz I dont wanna be roasted :'([m
-[18:44:30] [Async Chat Thread - #5/INFO]: [m[0;33;1m[User] [0;33;1m[User] boredchinese[m [0;36;1m> HAHAHAH it's fine[m
-[18:44:49] [Async Chat Thread - #5/INFO]: [m[0;33;1m[User] [0;33;1m[User] boredchinese[m [0;36;1m> get roasted at the beginning then do the roasting at the end[m
-[18:45:07] [Async Chat Thread - #5/INFO]: [m[0;33;1m[User] [0;33;1m[User] boredchinese[m [0;36;1m> my turtle empire has failed[m
-[18:45:45] [Async Chat Thread - #5/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> haha true, I am planning to teach I guess, would be the best way for me to enter the field[m
-[18:45:53] [Async Chat Thread - #5/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> what happened to your turtles/[m
-[18:45:56] [Async Chat Thread - #5/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> ?*[m
-[18:47:54] [Server thread/INFO]: boredchinese issued server command: /balance
-[18:48:04] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] boredchinese[m [0;36;1m> nothing hahahaha i stopped breeding them[m
-[18:48:17] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] boredchinese[m [0;36;1m> also admin shop got removed i think for scutes[m
-[18:48:19] [Server thread/INFO]: boredchinese issued server command: /spawn
-[18:48:22] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] boredchinese[m [0;36;1m> lemme check[m
-[18:48:29] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> we tried to kill your turtles once[m
-[18:48:35] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> but they were immune[m
-[18:48:37] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> hahah[m
-[18:48:40] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] boredchinese[m [0;36;1m> hahahha wtf[m
-[18:48:44] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] boredchinese[m [0;36;1m> nani[m
-[18:48:52] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] boredchinese[m [0;36;1m> that's treason[m
-[18:49:02] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] boredchinese[m [0;36;1m> y u kill them tho[m
-[18:49:06] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] boredchinese[m [0;36;1m> i mean attempt[m
-[18:49:25] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> we were fighting phantoms over Hannah's place[m
-[18:49:43] [Server thread/INFO]: boredchinese issued server command: /home
-[18:49:52] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> some of our arrows missed and hit your turtles, then Wax went over and tried to axe them hahaha[m
-[18:50:00] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> but they didn't die so yeah haha[m
-[18:50:29] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] boredchinese[m [0;36;1m> hell yeah[m
-[18:50:34] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] boredchinese[m [0;36;1m> they will remember this[m
-[18:50:36] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] boredchinese[m [0;36;1m> i'll feed them[m
-[18:50:42] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] boredchinese[m [0;36;1m> and they'll invade the town[m
-[18:50:52] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> yay, then we can kill them[m
-[18:50:55] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> XP[m
-[18:50:58] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] boredchinese[m [0;36;1m> >:(*[m
-[18:51:01] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] boredchinese[m [0;36;1m> they're durable as fuck[m
-[18:51:13] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] boredchinese[m [0;36;1m> i have a hard tiem killing them[m
-[18:51:14] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> boi you don't know how much gear we on right now haha[m
-[18:51:19] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] boredchinese[m [0;36;1m> o right[m
-[18:51:25] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] boredchinese[m [0;36;1m> i only have iron sword[m
-[18:51:52] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> did you notice the beacon>[m
-[18:51:57] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] boredchinese[m [0;36;1m> nope[m
-[18:52:09] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> well there is a beacon now haha[m
-[18:52:15] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] boredchinese[m [0;36;1m> wuddat for[m
-[18:52:17] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> am looking for materials to make another[m
-[18:52:27] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> gives bonuses when you near it[m
-[18:52:39] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] boredchinese[m [0;36;1m> ohhhh[m
-[19:06:05] [Server thread/INFO]: Jhor issued server command: /mctop
-[19:08:06] [Server thread/INFO]: Jhor issued server command: /home
-[19:08:13] [Async Chat Thread - #7/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> brb[m
-[19:08:14] [Server thread/INFO]: Jhor lost connection: Disconnected
-[19:08:14] [Server thread/INFO]: Jhor has left the game.
-[19:25:23] [User Authenticator #4/INFO]: UUID of player Jhor is 82f182b3-716a-3898-ae1d-76f70444a8a2
-[19:25:23] [Server thread/INFO]: Jhor[/0:0:0:0:0:0:0:1:65082] logged in with entity id 5933 at ([world]430.23833621309404, 130.0, 94.48986765640329)
-[19:25:23] [Server thread/INFO]: [0;33;1mJhor has joined the game.[m
-[19:27:13] [Server thread/INFO]: Unknown command
-[19:27:13] [Server thread/INFO]: /say<--[HERE]
-[19:27:18] [Server thread/INFO]: [Server] im pirating anime
-[19:27:22] [Server thread/INFO]: [Server] it might be lag
-[19:27:24] [Async Chat Thread - #8/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> damn[m
-[19:27:31] [Async Chat Thread - #8/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> weeb[m
-[19:27:33] [Async Chat Thread - #8/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> jk[m
-[19:27:33] [Server thread/INFO]: [Server] god can do as he pleases
-[19:27:35] [Async Chat Thread - #8/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> hahaha[m
-[19:56:36] [Async Chat Thread - #9/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> watchu doin Gao[m
-[20:04:32] [Server thread/INFO]: Jhor issued server command: /home
-[20:06:39] [Server thread/INFO]: Jhor issued server command: /home
-[20:22:59] [Server thread/INFO]: Jhor issued server command: /home exp
-[20:23:18] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] boredchinese[m [0;36;1m> slr[m
-[20:23:29] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] boredchinese[m [0;36;1m> i actually fell asleep[m
-[20:23:31] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] boredchinese[m [0;36;1m> hahhahahahah[m
-[20:23:33] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] boredchinese[m [0;36;1m> jesus[m
-[20:23:46] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> lmao you should get some rest mah dude haha[m
-[20:24:03] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] boredchinese[m [0;36;1m> ya but i'm not home yet[m
-[20:24:06] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] boredchinese[m [0;36;1m> still in the office[m
-[20:24:10] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] boredchinese[m [0;36;1m> driver is late dunno y[m
-[20:24:15] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> hahaha gaddem playing in the office?[m
-[20:24:20] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] boredchinese[m [0;36;1m> ye[m
-[20:24:23] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> noice[m
-[20:24:31] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] boredchinese[m [0;36;1m> i was reading a book in the break room then fell asleep[m
-[20:24:32] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> Rob still there and sht?[m
-[20:24:38] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] boredchinese[m [0;36;1m> rob left early today[m
-[20:24:42] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> woah[m
-[20:24:44] [Server thread/INFO]: boredchinese lost connection: Disconnected
-[20:24:44] [Server thread/INFO]: boredchinese has left the game.
-[20:24:49] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> oh yeah lmao, how's your kindle thing[m
-[20:25:33] [User Authenticator #5/INFO]: UUID of player boredchinese is 19a71d19-5f35-36be-9bd0-06e9a0c0895b
-[20:25:33] [Server thread/INFO]: boredchinese[/0:0:0:0:0:0:0:1:52946] logged in with entity id 8703 at ([world]368.1448953783908, 66.0, 214.73173475018842)
-[20:25:33] [Server thread/INFO]: [0;33;1mboredchinese has joined the game.[m
-[20:25:39] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] boredchinese[m [0;36;1m> woops[m
-[20:25:56] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] boredchinese[m [0;36;1m> actually dunno what to do in this game[m
-[20:26:22] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> well yeah, it's vanilla so we can't really do much[m
-[20:26:46] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> rn I'm just grinding end game stuff[m
-[20:26:58] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> then I think I've done all I could till we go ender dragon[m
-[20:27:00] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] boredchinese[m [0;36;1m> kobe stil lhasn't refunded my minecart fak[m
-[20:27:21] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> you want some bows?[m
-[20:27:23] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] boredchinese[m [0;36;1m> o i'd be useless tho don't have the gear[m
-[20:27:35] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] boredchinese[m [0;36;1m> when is this gonna be[m
-[20:27:49] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> idk, whenever a lot of us are online I guess[m
-[20:28:09] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> I can help set you up with some enchantments[m
-[20:28:29] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] boredchinese[m [0;36;1m> hmmm[m
-[20:28:38] [Server thread/INFO]: boredchinese issued server command: /home
-[20:28:51] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> we all pretty much have xp grinders now[m
-[20:29:27] [Server thread/INFO]: Jhor issued server command: /mctop
-[20:31:43] [Server thread/INFO]: Jhor issued server command: /home
-[20:39:05] [Async Chat Thread - #11/INFO]: [m[0;33;1m[User] [0;33;1m[User] boredchinese[m [0;36;1m> wait i gotta leave driver is here[m
-[20:39:15] [Async Chat Thread - #11/INFO]: [m[0;33;1m[User] [0;33;1m[User] boredchinese[m [0;36;1m> see ya joe gl with flying dood[m
-[20:39:46] [Server thread/INFO]: boredchinese lost connection: Disconnected
-[20:39:46] [Server thread/INFO]: boredchinese has left the game.
-[21:33:50] [Server thread/INFO]: Jhor issued server command: /archery
-[21:48:58] [Server thread/INFO]: Jhor issued server command: /home
-[21:57:33] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mYOU KNOW WHAT TIME IT IS :3 In 15 Minutes![m
-[22:02:33] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mYOU KNOW WHAT TIME IT IS :3 In 10 Minutes![m
-[22:07:33] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mYOU KNOW WHAT TIME IT IS :3 In 5 Minutes![m
-[22:11:32] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mYOU KNOW WHAT TIME IT IS :3 In 1 Minutes![m
-[22:12:18] [Server thread/INFO]: Jhor issued server command: /home
-[22:12:27] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mGOODBYE in 5 Seconds![m
-[22:12:28] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mGOODBYE in 4 Seconds![m
-[22:12:29] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mGOODBYE in 3 Seconds![m
-[22:12:30] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mGOODBYE in 2 Seconds![m
-[22:12:31] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mGOODBYE in 1 Seconds![m
-[22:12:31] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1m[0;31;1mServer Restarting![m
-[22:12:31] [Server thread/INFO]: CONSOLE issued server command: /kickall §cServer Restarting! We will be back up any minute!
-[22:12:32] [Server thread/INFO]: Jhor lost connection: §cServer Restarting! We will be back up any minute!
-[22:12:32] [Server thread/INFO]: Jhor has left the game.
-[22:12:32] [Server thread/INFO]: [0;31;22mKicked all players from server.[m
-[22:12:32] [Server thread/INFO]: Attempting to restart with run.bat
-[22:12:32] [Server thread/INFO]: Stopping server
-[22:12:32] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.17.0.0
-[22:12:32] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.17.0.0
-[22:12:32] [Server thread/INFO]: [Essentials] Disabling Essentials v2.17.0.0
-[22:12:32] [Server thread/INFO]: [Vault] [Vault][Economy] Essentials Economy unhooked.
-[22:12:32] [Server thread/INFO]: [ChestShop] Disabling ChestShop v3.10-SNAPSHOT (build 137)
-[22:12:32] [Server thread/INFO]: [GriefPrevention] Disabling GriefPrevention v16.11.6
-[22:12:32] [Server thread/INFO]: [GriefPrevention] GriefPrevention disabled.
-[22:12:32] [Server thread/INFO]: [Stargate] Disabling Stargate v0.8.2
-[22:12:32] [Server thread/INFO]: Closing all stargates.
-[22:12:32] [Server thread/INFO]: [Vault] Disabling Vault v1.7.2-b107
-[22:12:32] [Server thread/INFO]: [AutoRestart] Disabling AutoRestart v3.3.3
-[22:12:32] [Server thread/INFO]: [mcMMO] Disabling mcMMO v2.1.100-SNAPSHOT
-[22:12:32] [Server thread/INFO]: [mcMMO] Saving mcMMOPlayers... (0)
-[22:12:32] [Server thread/INFO]: [mcMMO] Finished save operation for 0 players!
-[22:12:32] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v13.7.2
-[22:12:32] [Server thread/INFO]: [HomeSpawn] Disabling HomeSpawn v3.1.4
-[22:12:32] [Server thread/INFO]: [HomeSpawn] HomeSpawn has been disabled
-[22:12:32] [Server thread/INFO]: [PermissionsEx] Disabling PermissionsEx v1.23.4
-[22:12:32] [Server thread/INFO]: Saving players
-[22:12:32] [Server thread/INFO]: Saving worlds
-[22:12:32] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
-[22:12:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[22:12:33] [Server thread/INFO]: Saving chunks for level 'world_nether'/minecraft:the_nether
-[22:12:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[22:12:33] [Server thread/INFO]: Saving chunks for level 'world_the_end'/minecraft:the_end
-[22:12:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[22:12:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[22:12:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[22:12:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[00:10:48] [Server thread/INFO]: FKritz issued server command: /tpa Giniguy
+[00:17:15] [Server thread/INFO]: lolo_lola_69 issued server command: /home
+[00:17:56] [Server thread/WARN]: lolo_lola_69 moved too quickly! -15.727593946519278,-0.7967356006687112,13.62814266454292
+[00:18:56] [Server thread/WARN]: Giniguy moved wrongly!
+[00:20:09] [Server thread/WARN]: lolo_lola_69 moved too quickly! 5.683043988934287,0.0,8.233879207101229
+[00:20:13] [Server thread/INFO]: lolo_lola_69 lost connection: Disconnected
+[00:20:13] [Server thread/INFO]: lolo_lola_69 has left the game.
+[00:20:17] [User Authenticator #7/INFO]: UUID of player lolo_lola_69 is 646085da-be96-308b-8634-fb8b260022a5
+[00:20:17] [Server thread/INFO]: lolo_lola_69[/0:0:0:0:0:0:0:1:59720] logged in with entity id 26682 at ([world]632.9031176039073, 65.5, -11.89039499932019)
+[00:20:17] [Server thread/INFO]: [0;33;1mlolo_lola_69 has joined the game.[m
+[00:23:36] [Server thread/INFO]: big_tasty issued server command: /home
+[00:31:18] [Async Chat Thread - #3/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> gio[m
+[00:31:23] [Async Chat Thread - #3/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> naay tao sa inyo base[m
+[00:31:27] [Server thread/INFO]: lolo_lola_69 issued server command: /home
+[00:32:11] [Server thread/INFO]: lolo_lola_69 lost connection: Timed out
+[00:32:11] [Server thread/INFO]: lolo_lola_69 has left the game.
+[00:36:52] [Server thread/INFO]: big_tasty lost connection: Disconnected
+[00:36:53] [Server thread/INFO]: big_tasty has left the game.
+[00:44:35] [Server thread/INFO]: Giniguy issued server command: /home
+[00:47:14] [Server thread/INFO]: Giniguy was slain by Vindicator
+[00:47:20] [Server thread/INFO]: Giniguy issued server command: /home
+[00:49:30] [Server thread/INFO]: FKritz issued server command: /tpa Giniguy
+[00:49:33] [Server thread/INFO]: Giniguy issued server command: /tpaccept
+[00:53:08] [Server thread/INFO]: FKritz issued server command: /tpa Giniguy
+[00:53:18] [Server thread/INFO]: Giniguy issued server command: /tpaccept
+[01:08:44] [Server thread/INFO]: Giniguy issued server command: /home
+[01:08:46] [Server thread/INFO]: FKritz issued server command: /tpa Giniguy
+[01:08:51] [Server thread/INFO]: Giniguy issued server command: /tpaccept
+[01:14:26] [Server thread/INFO]: FKritz lost connection: Disconnected
+[01:14:26] [Server thread/INFO]: FKritz has left the game.
+[01:14:29] [Server thread/INFO]: Giniguy lost connection: Disconnected
+[01:14:29] [Server thread/INFO]: Giniguy has left the game.
+[01:58:59] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mYOU KNOW WHAT TIME IT IS :3 In 15 Minutes![m
+[02:03:59] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mYOU KNOW WHAT TIME IT IS :3 In 10 Minutes![m
+[02:08:59] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mYOU KNOW WHAT TIME IT IS :3 In 5 Minutes![m
+[02:12:59] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mYOU KNOW WHAT TIME IT IS :3 In 1 Minutes![m
+[02:13:54] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mGOODBYE in 5 Seconds![m
+[02:13:55] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mGOODBYE in 4 Seconds![m
+[02:13:56] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mGOODBYE in 3 Seconds![m
+[02:13:57] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mGOODBYE in 2 Seconds![m
+[02:13:58] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mGOODBYE in 1 Seconds![m
+[02:13:58] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1m[0;31;1mServer Restarting![m
+[02:13:58] [Server thread/INFO]: CONSOLE issued server command: /kickall §cServer Restarting! We will be back up any minute!
+[02:13:58] [Server thread/INFO]: [0;31;22mKicked all players from server.[m
+[02:13:58] [Server thread/INFO]: Attempting to restart with run.bat
+[02:13:58] [Server thread/INFO]: Stopping server
+[02:13:58] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.17.0.0
+[02:13:58] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.17.0.0
+[02:13:58] [Server thread/INFO]: [Essentials] Disabling Essentials v2.17.0.0
+[02:13:58] [Server thread/INFO]: [Vault] [Vault][Economy] Essentials Economy unhooked.
+[02:13:58] [Server thread/INFO]: [ChestShop] Disabling ChestShop v3.10-SNAPSHOT (build 137)
+[02:13:58] [Server thread/INFO]: [GriefPrevention] Disabling GriefPrevention v16.11.6
+[02:13:58] [Server thread/INFO]: [GriefPrevention] GriefPrevention disabled.
+[02:13:58] [Server thread/INFO]: [Stargate] Disabling Stargate v0.8.2
+[02:13:58] [Server thread/INFO]: Closing all stargates.
+[02:13:58] [Server thread/INFO]: [Vault] Disabling Vault v1.7.2-b107
+[02:13:58] [Server thread/INFO]: [AutoRestart] Disabling AutoRestart v3.3.3
+[02:13:58] [Server thread/INFO]: [mcMMO] Disabling mcMMO v2.1.100-SNAPSHOT
+[02:13:58] [Server thread/INFO]: [mcMMO] Saving mcMMOPlayers... (0)
+[02:13:58] [Server thread/INFO]: [mcMMO] Finished save operation for 0 players!
+[02:13:58] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v13.7.2
+[02:13:58] [Server thread/INFO]: [HomeSpawn] Disabling HomeSpawn v3.1.4
+[02:13:58] [Server thread/INFO]: [HomeSpawn] HomeSpawn has been disabled
+[02:13:58] [Server thread/INFO]: [PermissionsEx] Disabling PermissionsEx v1.23.4
+[02:13:58] [Server thread/INFO]: Saving players
+[02:13:58] [Server thread/INFO]: Saving worlds
+[02:13:58] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
+[02:13:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[02:13:58] [Server thread/INFO]: Saving chunks for level 'world_nether'/minecraft:the_nether
+[02:13:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[02:13:58] [Server thread/INFO]: Saving chunks for level 'world_the_end'/minecraft:the_end
+[02:13:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[02:13:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[02:13:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[02:13:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved

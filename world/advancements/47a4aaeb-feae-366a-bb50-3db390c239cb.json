@@ -2789,6 +2789,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/slime_block": {
+    "criteria": {
+      "has_at_least_9_slime_ball": "2019-08-31 01:08:25 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/glass_pane": {
     "criteria": {
       "has_glass": "2019-08-06 08:45:46 +0800"
@@ -3218,6 +3224,12 @@
   "minecraft:story/root": {
     "criteria": {
       "crafting_table": "2019-08-01 22:56:01 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/slime_ball": {
+    "criteria": {
+      "has_at_least_9_slime_ball": "2019-08-31 01:08:25 +0800"
     },
     "done": true
   },
