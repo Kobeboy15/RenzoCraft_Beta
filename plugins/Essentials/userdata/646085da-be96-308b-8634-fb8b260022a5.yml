@@ -1,7 +1,7 @@
 lastAccountName: lolo_lola_69
 timestamps:
-  login: 1567232027045
-  logout: 1567232260541
+  login: 1567242455478
+  logout: 1567242890939
   lastteleport: 1567230175319
 ipAddress: 0:0:0:0:0:0:0:1
 lastlocation:
@@ -13,10 +13,10 @@ lastlocation:
   pitch: 14.699932
 logoutlocation:
   world: world
-  x: 737.7037303521339
-  y: 69.0
-  z: -52.94272875170234
-  yaw: 346.6682
-  pitch: 43.05007
+  x: 745.5533208079836
+  y: 72.0625
+  z: -59.26245527908546
+  yaw: 183.76007
+  pitch: 29.999979
 money: '7902.55'
 nickname: aBSOlUte_mADLad
