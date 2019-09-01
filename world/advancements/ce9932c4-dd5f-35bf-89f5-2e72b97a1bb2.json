@@ -2619,7 +2619,8 @@
     "criteria": {
       "minecraft:turtle": "2019-08-05 02:00:34 +0800",
       "minecraft:mooshroom": "2019-08-05 01:33:28 +0800",
-      "minecraft:cow": "2019-08-04 20:25:07 +0800"
+      "minecraft:cow": "2019-08-04 20:25:07 +0800",
+      "minecraft:chicken": "2019-09-01 17:19:20 +0800"
     },
     "done": false
   },

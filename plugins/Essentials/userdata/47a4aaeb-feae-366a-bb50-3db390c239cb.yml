@@ -1,7 +1,7 @@
 lastAccountName: Giniguy
 timestamps:
-  login: 1567312603074
-  logout: 1567312653122
+  login: 1567324801722
+  logout: 1567333717275
   lastteleport: 1567264844692
 ipAddress: 0:0:0:0:0:0:0:1
 lastlocation:
@@ -13,10 +13,10 @@ lastlocation:
   pitch: 5.593118
 logoutlocation:
   world: world
-  x: 774.3000000119209
-  y: 61.231523797587016
-  z: -477.61793551836263
-  yaw: 172.7319
-  pitch: 49.03109
+  x: 980.8538412975367
+  y: 6.0
+  z: -493.15127055159223
+  yaw: 49.365234
+  pitch: -0.7813884
 afk: false
 nickname: Giniguy
