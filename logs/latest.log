@@ -1,1182 +1,271 @@
-[18:30:59] [Server thread/INFO]: Starting minecraft server version 1.14.4
-[18:30:59] [Server thread/INFO]: Loading properties
-[18:31:00] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-1981d55-7f33c6a (MC: 1.14.4) (Implementing API version 1.14.4-R0.1-SNAPSHOT)
-[18:31:00] [Server thread/INFO]: Debug logging is disabled
-[18:31:00] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[18:31:00] [Server thread/INFO]: Using 4 threads for Netty based IO
-[18:31:00] [Server thread/INFO]: Default game type: SURVIVAL
-[18:31:00] [Server thread/INFO]: Generating keypair
-[18:31:00] [Server thread/INFO]: Starting Minecraft server on *:25565
-[18:31:00] [Server thread/INFO]: Using default channel type
-[18:31:04] [Server thread/WARN]: Plugin PermissionsEx v1.23.4 does not specify an api-version.
-[18:31:05] [Server thread/WARN]: Plugin Stargate v0.8.2 does not specify an api-version.
-[18:31:05] [Server thread/INFO]: [PermissionsEx] Loading PermissionsEx v1.23.4
-[18:31:05] [Server thread/WARN]: [PermissionsEx] This server is in offline mode. Unless this server is configured to integrate with a supported proxy (see http://dft.ba/-8ous), UUIDs *may not be stable*!
-[18:31:05] [Server thread/INFO]: [HomeSpawn] Loading HomeSpawn v3.1.4
-[18:31:05] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v13.7.2
-[18:31:05] [Server thread/INFO]: [mcMMO] Loading mcMMO v2.1.100-SNAPSHOT
-[18:31:05] [Server thread/INFO]: [AutoRestart] Loading AutoRestart v3.3.3
-[18:31:05] [Server thread/INFO]: [Vault] Loading Vault v1.7.2-b107
-[18:31:05] [Server thread/INFO]: [Stargate] Loading Stargate v0.8.2
-[18:31:05] [Server thread/INFO]: [GriefPrevention] Loading GriefPrevention v16.11.6
-[18:31:05] [Server thread/INFO]: [ChestShop] Loading ChestShop v3.10-SNAPSHOT (build 137)
-[18:31:05] [Server thread/INFO]: [Essentials] Loading Essentials v2.17.0.0
-[18:31:05] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn v2.17.0.0
-[18:31:05] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat v2.17.0.0
-[18:31:05] [Server thread/INFO]: [mcMMO] Enabling mcMMO v2.1.100-SNAPSHOT
-[18:31:05] [User Authenticator #1/INFO]: UUID of player Jhor is 82f182b3-716a-3898-ae1d-76f70444a8a2
-[18:31:05] [Server thread/INFO]: [mcMMO] enabling Acrobatics Skills
-[18:31:05] [Server thread/INFO]: [mcMMO] registered subskill: Roll
-[18:31:05] [Server thread/INFO]: [mcMMO] 0 entries in mcMMO World Blacklist
-[18:31:05] [Server thread/INFO]: [Vault] Enabling Vault v1.7.2-b107
-[18:31:05] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
-[18:31:05] [Server thread/INFO]: [Vault] [Permission] PermissionsEx found: Waiting
-[18:31:05] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[18:31:05] [Server thread/INFO]: [Vault] [Chat] PermissionsEx found: Waiting
-[18:31:05] [Server thread/INFO]: [Vault] Enabled Version 1.7.2-b107
-[18:31:05] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[18:31:05] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[18:31:05] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[18:31:05] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[18:31:05] [Server thread/INFO]: Preparing level "world"
-[18:31:05] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
-[18:31:05] [Server thread/INFO]: Loaded 6 recipes
-[18:31:06] [Server thread/INFO]: -------- World Settings For [world] --------
-[18:31:06] [Server thread/INFO]: View Distance: 8
-[18:31:06] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[18:31:06] [Server thread/INFO]: Item Merge Radius: 2.5
-[18:31:06] [Server thread/INFO]: Item Despawn Rate: 6000
-[18:31:06] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[18:31:06] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[18:31:06] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[18:31:06] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[18:31:06] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[18:31:06] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[18:31:06] [Server thread/INFO]: Cane Growth Modifier: 100%
-[18:31:06] [Server thread/INFO]: Melon Growth Modifier: 100%
-[18:31:06] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[18:31:06] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[18:31:06] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[18:31:06] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[18:31:06] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[18:31:06] [Server thread/INFO]: Potato Growth Modifier: 100%
-[18:31:06] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[18:31:06] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[18:31:06] [Server thread/INFO]: Vine Growth Modifier: 100%
-[18:31:06] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[18:31:06] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[18:31:06] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[18:31:06] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[18:31:06] [Server thread/INFO]: Experience Merge Radius: 3.0
-[18:31:06] [Server thread/INFO]: Mob Spawn Range: 6
-[18:31:06] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[18:31:06] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[18:31:06] [Server thread/INFO]: Max TNT Explosions: 100
-[18:31:06] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
-[18:31:06] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[18:31:06] [Server thread/INFO]: View Distance: 8
-[18:31:06] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[18:31:06] [Server thread/INFO]: Item Merge Radius: 2.5
-[18:31:06] [Server thread/INFO]: Item Despawn Rate: 6000
-[18:31:06] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[18:31:06] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[18:31:06] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[18:31:06] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[18:31:06] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[18:31:06] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[18:31:06] [Server thread/INFO]: Cane Growth Modifier: 100%
-[18:31:06] [Server thread/INFO]: Melon Growth Modifier: 100%
-[18:31:06] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[18:31:06] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[18:31:06] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[18:31:06] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[18:31:06] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[18:31:06] [Server thread/INFO]: Potato Growth Modifier: 100%
-[18:31:06] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[18:31:06] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[18:31:06] [Server thread/INFO]: Vine Growth Modifier: 100%
-[18:31:06] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[18:31:06] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[18:31:06] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[18:31:06] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[18:31:06] [Server thread/INFO]: Experience Merge Radius: 3.0
-[18:31:06] [Server thread/INFO]: Mob Spawn Range: 6
-[18:31:06] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[18:31:06] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[18:31:06] [Server thread/INFO]: Max TNT Explosions: 100
-[18:31:06] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
-[18:31:06] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[18:31:06] [Server thread/INFO]: View Distance: 8
-[18:31:06] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[18:31:06] [Server thread/INFO]: Item Merge Radius: 2.5
-[18:31:06] [Server thread/INFO]: Item Despawn Rate: 6000
-[18:31:06] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[18:31:06] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[18:31:06] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[18:31:06] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[18:31:06] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[18:31:06] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[18:31:06] [Server thread/INFO]: Cane Growth Modifier: 100%
-[18:31:06] [Server thread/INFO]: Melon Growth Modifier: 100%
-[18:31:06] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[18:31:06] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[18:31:06] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[18:31:06] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[18:31:06] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[18:31:06] [Server thread/INFO]: Potato Growth Modifier: 100%
-[18:31:06] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[18:31:06] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[18:31:06] [Server thread/INFO]: Vine Growth Modifier: 100%
-[18:31:06] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[18:31:06] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[18:31:06] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[18:31:06] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[18:31:06] [Server thread/INFO]: Experience Merge Radius: 3.0
-[18:31:06] [Server thread/INFO]: Mob Spawn Range: 6
-[18:31:06] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[18:31:06] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[18:31:06] [Server thread/INFO]: Max TNT Explosions: 100
-[18:31:06] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
-[18:31:06] [Server thread/INFO]: Preparing start region for dimension 'world'/minecraft:overworld
-[18:31:06] [Server thread/INFO]: Preparing spawn area: 0%
-[18:31:06] [Server thread/INFO]: Preparing spawn area: 0%
-[18:31:06] [Server thread/INFO]: Time elapsed: 730 ms
-[18:31:06] [Server thread/INFO]: Preparing start region for dimension 'world_nether'/minecraft:the_nether
-[18:31:07] [Server thread/INFO]: Preparing spawn area: 0%
-[18:31:07] [Server thread/INFO]: Time elapsed: 518 ms
-[18:31:07] [Server thread/INFO]: Preparing start region for dimension 'world_the_end'/minecraft:the_end
-[18:31:07] [Server thread/INFO]: Preparing spawn area: 0%
-[18:31:07] [Server-Worker-2/INFO]: Preparing spawn area: 94%
-[18:31:08] [Server thread/INFO]: Time elapsed: 533 ms
-[18:31:08] [Server thread/INFO]: [PermissionsEx] Enabling PermissionsEx v1.23.4
-[18:31:08] [Server thread/INFO]: [PermissionsEx] Initializing file backend
-[18:31:08] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
-[18:31:08] [Server thread/INFO]: [Vault][Permission] PermissionsEx hooked.
-[18:31:08] [Server thread/INFO]: [Vault] [Vault][Chat] PermissionsEx_Chat hooked.
-[18:31:08] [Server thread/INFO]: [HomeSpawn] Enabling HomeSpawn v3.1.4
-[18:31:08] [Server thread/INFO]: [HomeSpawn] HomeSpawn v3.1.4 has been enabled
-[18:31:08] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v13.7.2
-[18:31:08] [Server thread/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1mDetected Minecraft [0;33;1mv1_14_R1[0;32;1m, using [0;33;1mUniversalSkinFactory[0;32;1m.[m
-[18:31:08] [Server thread/INFO]: [SkinsRestorer] Verbose is missing in config.yml! Using default value.
-[18:31:08] [Server thread/INFO]: [AutoRestart] Enabling AutoRestart v3.3.3
-[18:31:08] [Server thread/INFO]: [0;32;1m[AutoRestart] Loaded![m
-[18:31:08] [Server thread/INFO]: [Stargate] Enabling Stargate v0.8.2
-[18:31:08] [Server thread/INFO]: Stargate v.0.8.2 is enabled.
-[18:31:08] [Server thread/INFO]: [Stargate] Loaded 1 gate layouts
-[18:31:08] [Server thread/INFO]: [Stargate] {world} No stargates for world 
-[18:31:08] [Server thread/INFO]: [Stargate] {world_nether} No stargates for world 
-[18:31:08] [Server thread/INFO]: [Stargate] {world_the_end} No stargates for world 
-[18:31:08] [Server thread/INFO]: [GriefPrevention] Enabling GriefPrevention v16.11.6
-[18:31:08] [Server thread/INFO]: [GriefPrevention] Finished loading configuration.
-[18:31:08] [Server thread/INFO]: [GriefPrevention] 59 total claims loaded.
-[18:31:09] [Server thread/INFO]: [GriefPrevention] Customizable messages loaded.
-[18:31:09] [Server thread/INFO]: [GriefPrevention] Finished loading data (File Mode).
-[18:31:09] [Server thread/INFO]: [GriefPrevention] Boot finished.
-[18:31:09] [Server thread/INFO]: [ChestShop] Enabling ChestShop v3.10-SNAPSHOT (build 137)
-[18:31:09] [Server thread/INFO]: [ChestShop] Using Essentials Economy as the Economy provider now.
-[18:31:09] [Server thread/INFO]: [ChestShop] Vault loaded!
-[18:31:09] [Server thread/INFO]: [Essentials] Enabling Essentials v2.17.0.0
-[18:31:09] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
-[18:31:09] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
-[18:31:09] [Server thread/INFO]: No kits found to migrate.
-[18:31:09] [Server thread/INFO]: [Essentials] Using 1.8.3+ BlockStateMeta provider as mob spawner provider.
-[18:31:09] [Server thread/INFO]: [Essentials] Using 1.13+ flat spawn egg provider as spawn egg provider.
-[18:31:09] [Server thread/INFO]: [Essentials] Using 1.9+ BasePotionData provider as potion meta provider.
-[18:31:09] [Server thread/INFO]: Loaded 20977 items from items.json.
-[18:31:09] [Server thread/INFO]: Using locale en_US
-[18:31:09] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[18:31:09] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[18:31:09] [Server thread/INFO]: [Vault] [Vault][Economy] Essentials Economy hooked.
-[18:31:09] [Server thread/INFO]: [Essentials] Using Vault based permissions (PermissionsEx)
-[18:31:09] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.17.0.0
-[18:31:09] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.17.0.0
-[18:31:10] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[18:31:10] [Server thread/INFO]: Done (4.520s)! For help, type "help"
-[18:31:10] [Craft Scheduler Thread - 0/INFO]: [mcMMO] Cleaned backup files. Deleted 1 of 20 files.
-[18:31:10] [Craft Scheduler Thread - 2/INFO]: [HomeSpawn] HomeSpawn file watcher started!
-[18:31:10] [Craft Scheduler Thread - 3/INFO]: [HomeSpawn] §fAn update for HomeSpawn is available and can be downloaded and installed by running /homespawn update
-[18:31:10] [Craft Scheduler Thread - 4/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m----------------------------------------------[m
-[18:31:10] [Craft Scheduler Thread - 4/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    +===============+[m
-[18:31:10] [Craft Scheduler Thread - 4/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    | SkinsRestorer |[m
-[18:31:10] [Craft Scheduler Thread - 4/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    +===============+[m
-[18:31:10] [Craft Scheduler Thread - 4/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m----------------------------------------------[m
-[18:31:10] [Craft Scheduler Thread - 4/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;36;1m    Current version: [0;32;1m13.7.2[m
-[18:31:10] [Craft Scheduler Thread - 4/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    This is the latest version![m
-[18:31:10] [Craft Scheduler Thread - 4/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m----------------------------------------------[m
-[18:31:11] [Server thread/INFO]: [0;32;1m[AutoRestart] Up to date![m
-[18:31:11] [Craft Scheduler Thread - 1/INFO]: [Vault] Checking for Updates ... 
-[18:31:11] [Craft Scheduler Thread - 1/INFO]: [Vault] No new version available
-[18:31:11] [Server thread/INFO]: Jhor[/0:0:0:0:0:0:0:1:52643] logged in with entity id 158 at ([world]428.9818085980113, 126.0, 94.13064699106332)
-[18:31:12] [Server thread/INFO]: [0;33;1mJhor has joined the game.[m
-[18:31:14] [Server thread/INFO]: [mcMMO] WorldGuard was not detected.
-[18:31:46] [User Authenticator #2/INFO]: UUID of player Giniguy is 47a4aaeb-feae-366a-bb50-3db390c239cb
-[18:31:47] [Server thread/INFO]: Giniguy[/0:0:0:0:0:0:0:1:52702] logged in with entity id 673 at ([world]980.8538412975367, 6.0, -493.15127055159223)
-[18:31:47] [Server thread/INFO]: [0;33;1mGiniguy has joined the game.[m
-[18:32:49] [Server thread/INFO]: Giniguy issued server command: /home
-[18:34:30] [Server thread/INFO]: Giniguy lost connection: Timed out
-[18:34:30] [Server thread/INFO]: Giniguy has left the game.
-[18:37:06] [User Authenticator #3/INFO]: UUID of player Giniguy is 47a4aaeb-feae-366a-bb50-3db390c239cb
-[18:37:07] [Server thread/INFO]: Giniguy[/0:0:0:0:0:0:0:1:53166] logged in with entity id 1824 at ([world]783.7804903548295, 55.0, -478.91641522871424)
-[18:37:07] [Server thread/INFO]: [0;33;1mGiniguy has joined the game.[m
-[18:40:21] [User Authenticator #4/INFO]: UUID of player lolo_lola_69 is 646085da-be96-308b-8634-fb8b260022a5
-[18:40:21] [Server thread/INFO]: lolo_lola_69[/0:0:0:0:0:0:0:1:53391] logged in with entity id 2474 at ([world]630.7663192172903, 78.0, -10.58032016619536)
-[18:40:21] [Server thread/INFO]: [0;33;1mlolo_lola_69 has joined the game.[m
-[18:41:02] [Server thread/INFO]: lolo_lola_69 lost connection: Disconnected
-[18:41:02] [Server thread/INFO]: lolo_lola_69 has left the game.
-[18:43:00] [Server thread/INFO]: Jhor issued server command: /home
-[18:45:51] [Server thread/INFO]: Jhor issued server command: /mctop
-[18:45:57] [Server thread/INFO]: Jhor issued server command: /mcrank
-[18:47:54] [Server thread/INFO]: Jhor lost connection: Disconnected
-[18:47:54] [Server thread/INFO]: Jhor has left the game.
-[18:47:57] [User Authenticator #5/INFO]: UUID of player Jhor is 82f182b3-716a-3898-ae1d-76f70444a8a2
-[18:47:57] [Server thread/INFO]: Jhor[/0:0:0:0:0:0:0:1:53996] logged in with entity id 3896 at ([world]601.6234645424709, 79.0, 108.84426141394184)
-[18:47:57] [Server thread/INFO]: [0;33;1mJhor has joined the game.[m
-[18:47:59] [Server thread/INFO]: Jhor issued server command: /home
-[18:48:04] [Server thread/INFO]: Jhor lost connection: Disconnected
-[18:48:04] [Server thread/INFO]: Jhor has left the game.
-[19:00:01] [Async Chat Thread - #0/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> home[m
-[19:00:09] [Server thread/INFO]: Giniguy issued server command: /home
-[19:09:17] [User Authenticator #6/INFO]: UUID of player RimuroTempest is 7d77d651-9257-3898-84d6-c829d96d184f
-[19:09:17] [Server thread/INFO]: RimuroTempest[/0:0:0:0:0:0:0:1:55611] logged in with entity id 6210 at ([world]-16.5, 69.0, 208.5)
-[19:09:17] [Server thread/INFO]: [0;33;1mRimuroTempest has joined the game.[m
-[19:09:17] [pool-10-thread-1/INFO]: Creating empty config: C:\Users\Renzo Sy\Desktop\minecraft server\RenzoCraft_Beta\plugins\Essentials\userdata\7d77d651-9257-3898-84d6-c829d96d184f.yml
-[19:09:17] [Server thread/INFO]: RimuroTempest has made the advancement [Getting an Upgrade]
-[19:09:22] [Async Chat Thread - #1/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> yo[m
-[19:09:32] [Server thread/INFO]: Giniguy issued server command: /spawn
-[19:09:39] [Server thread/INFO]: RimuroTempest has made the advancement [Monster Hunter]
-[19:09:47] [Async Chat Thread - #1/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> hi[m
-[19:10:26] [Async Chat Thread - #1/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> what's up :)[m
-[19:10:42] [Async Chat Thread - #1/INFO]: [m[0;33;1m[User] [0;33;1m[User] RimuroTempest[m [0;36;1m> hii hehe[m
-[19:10:56] [Async Chat Thread - #1/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> welcome :)[m
-[19:11:03] [Async Chat Thread - #1/INFO]: [m[0;33;1m[User] [0;33;1m[User] RimuroTempest[m [0;36;1m> manghud ko sa bayu ni kuya chan heheh[m
-[19:11:05] [Async Chat Thread - #1/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> idk if naa mi rules diri[m
-[19:11:15] [Async Chat Thread - #1/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> aah kaila ka nako??[m
-[19:11:26] [Async Chat Thread - #1/INFO]: [m[0;33;1m[User] [0;33;1m[User] RimuroTempest[m [0;36;1m> land claim ra gihapun ni sa[m
-[19:11:30] [Async Chat Thread - #1/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> yep2[m
-[19:11:37] [Async Chat Thread - #1/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> but naay exceptions[m
-[19:11:46] [Async Chat Thread - #1/INFO]: [m[0;33;1m[User] [0;33;1m[User] RimuroTempest[m [0;36;1m> lagiii[m
-[19:11:48] [Async Chat Thread - #1/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> kailangan constant kag lihok para maka land claim[m
-[19:11:59] [Async Chat Thread - #1/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> max of 2000 blocks[m
-[19:12:06] [Async Chat Thread - #1/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> di mani public server[m
-[19:12:15] [Async Chat Thread - #1/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> mga kaila ra nako naa diri[m
-[19:12:24] [Async Chat Thread - #1/INFO]: [m[0;33;1m[User] [0;33;1m[User] RimuroTempest[m [0;36;1m> ahh hehehe[m
-[19:12:50] [Async Chat Thread - #1/INFO]: [m[0;33;1m[User] [0;33;1m[User] RimuroTempest[m [0;36;1m> noob paman ko ani hahaha[m
-[19:12:54] [Async Chat Thread - #1/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> oks ra oi haha[m
-[19:13:47] [Async Chat Thread - #1/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> lahi ra mani na server[m
-[19:13:51] [Async Chat Thread - #1/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> basta rules kay ayaw lang grief[m
-[19:13:59] [Async Chat Thread - #1/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> pwede ra ka mag bisag unsa :)[m
-[19:14:18] [Async Chat Thread - #1/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> kuyog nako[m
-[19:14:28] [Server thread/INFO]: RimuroTempest was slain by Spider
-[19:14:30] [User Authenticator #7/INFO]: UUID of player FKritz is 76f1a2ac-693e-3061-aa4f-5b80da853173
-[19:14:30] [Server thread/INFO]: FKritz[/0:0:0:0:0:0:0:1:56009] logged in with entity id 6773 at ([world]790.5055130544064, 54.875, -464.03460825048)
-[19:14:31] [Server thread/INFO]: [0;33;1mFKritz has joined the game.[m
-[19:14:37] [Async Chat Thread - #1/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> diri[m
-[19:14:45] [Async Chat Thread - #1/INFO]: [m[0;33;1m[User] [0;33;1m[User] FKritz[m [0;36;1m> hi[m
-[19:14:59] [Server thread/INFO]: FKritz issued server command: /tpa Giniguy
-[19:15:02] [Async Chat Thread - #1/INFO]: [m[0;33;1m[User] [0;33;1m[User] RimuroTempest[m [0;36;1m> hehehe daghanag mobs oyy[m
-[19:15:02] [Server thread/INFO]: Giniguy issued server command: /tpaccept
-[19:15:07] [Async Chat Thread - #1/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> diri lang ta[m
-[19:16:44] [Async Chat Thread - #2/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> diri ta[m
-[19:16:47] [Async Chat Thread - #2/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> samok kaau mobs haha[m
-[19:16:53] [Async Chat Thread - #2/INFO]: [m[0;33;1m[User] [0;33;1m[User] RimuroTempest[m [0;36;1m> lagi[m
-[19:18:19] [Async Chat Thread - #3/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> friendly tanan tao diri[m
-[19:18:34] [Async Chat Thread - #3/INFO]: [m[0;33;1m[User] [0;33;1m[User] RimuroTempest[m [0;36;1m> pila ka tao naa dti[m
-[19:18:47] [Async Chat Thread - #3/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> usually di mi mag dungan online man[m
-[19:18:52] [Async Chat Thread - #3/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> usually 6 ang mag online[m
-[19:18:56] [Async Chat Thread - #3/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> but 10+ mi[m
-[19:19:07] [Async Chat Thread - #3/INFO]: [m[0;33;1m[User] [0;33;1m[User] RimuroTempest[m [0;36;1m> ahh ako weekends rako kay sa loptap ni ate heheh[m
-[19:19:29] [Async Chat Thread - #3/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> oks ra hahaha[m
-[19:19:47] [Async Chat Thread - #3/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> barko ta na[m
-[19:20:00] [Async Chat Thread - #3/INFO]: [m[0;33;1m[User] [0;33;1m[User] RimuroTempest[m [0;36;1m> asa mo[m
-[19:20:31] [Async Chat Thread - #3/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> diri ta[m
-[19:21:04] [Async Chat Thread - #3/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> f3[m
-[19:21:08] [Async Chat Thread - #3/INFO]: [m[0;33;1m[User] [0;33;1m[User] RimuroTempest[m [0;36;1m> sana oil[m
-[19:21:10] [Async Chat Thread - #3/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> nya adto tas mga 2000 nga coordinates[m
-[19:21:31] [Server thread/WARN]: Boat moved wrongly!
-[19:21:59] [Async Chat Thread - #3/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> 2k kapin ta para way disturbo hahaha[m
-[19:22:35] [Async Chat Thread - #3/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> owha[m
-[19:22:43] [Async Chat Thread - #3/INFO]: [m[0;33;1m[User] [0;33;1m[User] RimuroTempest[m [0;36;1m> chuya[m
-[19:22:51] [Async Chat Thread - #3/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> ghahaha[m
-[19:22:58] [Async Chat Thread - #3/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> reroute ta[m
-[19:23:01] [Async Chat Thread - #3/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> inhabited ni nga area[m
-[19:23:05] [Server thread/WARN]: Boat moved wrongly!
-[19:23:12] [Async Chat Thread - #3/INFO]: [m[0;33;1m[User] [0;33;1m[User] RimuroTempest[m [0;36;1m> gege[m
-[19:23:54] [Async Chat Thread - #3/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> ship wreck oh[m
-[19:24:30] [Async Chat Thread - #3/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> way sud[m
-[19:24:39] [Async Chat Thread - #3/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> looted na na[m
-[19:24:49] [Async Chat Thread - #3/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> ctrl para maka langoy kag pas2[m
-[19:25:06] [Async Chat Thread - #3/INFO]: [m[0;33;1m[User] [0;33;1m[User] RimuroTempest[m [0;36;1m> aah[m
-[19:25:13] [Async Chat Thread - #3/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> larga nata hahaha[m
-[19:25:41] [Async Chat Thread - #3/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> lakaw nalang ta[m
-[19:25:48] [Server thread/WARN]: Boat moved wrongly!
-[19:25:48] [Server thread/WARN]: Boat moved wrongly!
-[19:25:48] [Server thread/WARN]: Boat moved wrongly!
-[19:26:23] [Async Chat Thread - #3/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> naa diay teleport diri[m
-[19:26:30] [Async Chat Thread - #3/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> do /tpa [name of player][m
-[19:26:40] [Server thread/INFO]: RimuroTempest issued server command: /tpa
-[19:26:49] [Async Chat Thread - #3/INFO]: [m[0;33;1m[User] [0;33;1m[User] RimuroTempest[m [0;36;1m> aahh[m
-[19:26:57] [Server thread/INFO]: FKritz issued server command: /tpa G
-[19:26:59] [Server thread/INFO]: Giniguy issued server command: /tpaccept
-[19:27:01] [Async Chat Thread - #3/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> tp nako[m
-[19:27:04] [Async Chat Thread - #3/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> para di ka masaag[m
-[19:27:13] [Server thread/INFO]: RimuroTempest issued server command: /tpa
-[19:27:17] [Async Chat Thread - #3/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> and naa say sethome[m
-[19:27:31] [Server thread/INFO]: RimuroTempest issued server command: /tpa <Giniguy>
-[19:27:36] [Async Chat Thread - #3/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> padung na gabii[m
-[19:27:56] [Server thread/INFO]: RimuroTempest issued server command: /tpa giniguy
-[19:27:59] [Server thread/INFO]: Giniguy issued server command: /tpaccept
-[19:28:37] [User Authenticator #8/INFO]: UUID of player Jhor is 82f182b3-716a-3898-ae1d-76f70444a8a2
-[19:28:37] [Server thread/INFO]: Jhor[/0:0:0:0:0:0:0:1:57140] logged in with entity id 10725 at ([world]430.4001600669433, 130.0625, 94.47111453853066)
-[19:28:37] [Server thread/INFO]: [0;33;1mJhor has joined the game.[m
-[19:28:49] [Server thread/INFO]: FKritz issued server command: /home
-[19:28:58] [Server thread/INFO]: RimuroTempest issued server command: /tpa giniguy
-[19:29:01] [Server thread/INFO]: Giniguy issued server command: /tpaccept
-[19:29:21] [Server thread/INFO]: RimuroTempest was shot by Skeleton
-[19:29:24] [Async Chat Thread - #4/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> oh no[m
-[19:29:46] [Server thread/INFO]: RimuroTempest issued server command: /tpa giniguy
-[19:29:48] [Server thread/INFO]: Giniguy issued server command: /tpaccept
-[19:30:25] [Async Chat Thread - #5/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> wait[m
-[19:30:27] [Async Chat Thread - #5/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> himuan tika sword[m
-[19:30:40] [Async Chat Thread - #5/INFO]: [m[0;33;1m[User] [0;33;1m[User] RimuroTempest[m [0;36;1m> hehehehe ty[m
-[19:31:12] [Server thread/WARN]: Jhor moved too quickly! -4.123471674813345,-0.001335979112141672,13.609104850721096
-[19:31:37] [Async Chat Thread - #5/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> nahan ka diri puyo?[m
-[19:31:44] [Async Chat Thread - #5/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> ay ayaw lang[m
-[19:31:46] [Async Chat Thread - #5/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> duol sa dark forest[m
-[19:31:51] [Async Chat Thread - #5/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> daghan mobs dira[m
-[19:31:55] [Async Chat Thread - #5/INFO]: [m[0;33;1m[User] [0;33;1m[User] RimuroTempest[m [0;36;1m> gege asa man[m
-[19:32:11] [Server thread/INFO]: [@: Applied effect Jump Boost to Jhor]
-[19:32:11] [Server thread/INFO]: [@: Applied effect Slow Falling to Jhor]
-[19:32:15] [Server thread/INFO]: FKritz issued server command: /tpa G
-[19:32:22] [Server thread/INFO]: Giniguy issued server command: /tpaccep
-[19:32:25] [Server thread/INFO]: Giniguy issued server command: /tpaccept
-[19:32:33] [Server thread/INFO]: [@: Applied effect Jump Boost to Jhor]
-[19:32:33] [Server thread/INFO]: [@: Applied effect Slow Falling to Jhor]
-[19:33:00] [Server thread/INFO]: [@: Applied effect Jump Boost to Jhor]
-[19:33:00] [Server thread/INFO]: [@: Applied effect Slow Falling to Jhor]
-[19:33:22] [Server thread/INFO]: [@: Applied effect Jump Boost to Jhor]
-[19:33:22] [Server thread/INFO]: [@: Applied effect Slow Falling to Jhor]
-[19:33:35] [Server thread/INFO]: FKritz issued server command: /tpa Giniguy
-[19:33:38] [Server thread/INFO]: Giniguy issued server command: /tpaccept
-[19:34:39] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> ah wait[m
-[19:34:43] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> nahan ka puyo ug village?[m
-[19:34:44] [Server thread/INFO]: RimuroTempest issued server command: /tpa giniguy
-[19:34:47] [Server thread/INFO]: Giniguy issued server command: /tpaccept
-[19:34:59] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> desert village[m
-[19:35:01] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] RimuroTempest[m [0;36;1m> pede rapud[m
-[19:35:06] [Server thread/INFO]: Giniguy issued server command: /homelist
-[19:35:22] [Server thread/INFO]: RimuroTempest was shot by Skeleton
-[19:35:38] [Server thread/INFO]: RimuroTempest issued server command: /tpa giniguy
-[19:35:40] [Server thread/INFO]: Giniguy issued server command: /tpaccept
-[19:35:47] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> teleport lang tas desert village[m
-[19:36:01] [Server thread/INFO]: FKritz issued server command: /tpa Giniguy
-[19:36:02] [Server thread/INFO]: Giniguy issued server command: /homelist
-[19:36:08] [Server thread/INFO]: Giniguy issued server command: /tpaccept
-[19:36:21] [Server thread/INFO]: RimuroTempest issued server command: /tpa giniguy
-[19:36:24] [Server thread/INFO]: Giniguy issued server command: /tpaccept
-[19:36:36] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> ako gi butangan ug cobble stone walls[m
-[19:36:43] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> kay basin naa nyay raid[m
-[19:36:45] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> protected ra[m
-[19:37:10] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] RimuroTempest[m [0;36;1m> lagi syang kaayu kong mamatay tanan[m
-[19:37:34] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> set home lang diri[m
-[19:37:37] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> imo na ni na temple[m
-[19:37:48] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> i mean village[m
-[19:37:50] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] RimuroTempest[m [0;36;1m> unsa on[m
-[19:37:56] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> do /sethome[m
-[19:37:58] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> i mean[m
-[19:38:04] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> do /sethome [name of home][m
-[19:38:05] [Server thread/INFO]: RimuroTempest issued server command: /sethome
-[19:38:11] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] RimuroTempest[m [0;36;1m> done[m
-[19:38:37] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] RimuroTempest[m [0;36;1m> thank youu kuya[m
-[19:38:41] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> no probs :)[m
-[19:38:55] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] RimuroTempest[m [0;36;1m> heheheh :>[m
-[19:39:04] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> dara sad diay[m
-[19:39:09] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] RimuroTempest[m [0;36;1m> ako nay tarung ani hahaha[m
-[19:39:21] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> trade2 lang ana nila[m
-[19:39:27] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] RimuroTempest[m [0;36;1m> hehehe thank youu kaayu[m
-[19:39:35] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> nya breed2 lang para naa kay pagkaon[m
-[19:39:49] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> ay oh diay[m
-[19:39:54] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> kabaw ra ka unsaon pag start ug raid?[m
-[19:39:57] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] RimuroTempest[m [0;36;1m> lagii mga baboy ako ng padaghanun[m
-[19:40:08] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] RimuroTempest[m [0;36;1m> raid?[m
-[19:40:14] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> naay invasion ang village[m
-[19:40:23] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> basta naay mga grey nga villager, ayaw patya ang naay flag[m
-[19:40:36] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> kay if mo sud kag village, mo sugod ang raid, nya patyon imung villagers[m
-[19:40:55] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> tawga lang ko if naay mga grey nga villagers[m
-[19:41:00] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> tabangan ka namo[m
-[19:41:14] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] RimuroTempest[m [0;36;1m> gege kanang mga bangait bana?[m
-[19:41:21] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> bangait?[m
-[19:41:35] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> oh yea, btw, if nahan ka mo breed ug villagers, hatagi silag 12 ka carrot or potato[m
-[19:41:47] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] RimuroTempest[m [0;36;1m> mga kawatan sa na naay crossbow?[m
-[19:41:52] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> ooh hahah[m
-[19:42:04] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] RimuroTempest[m [0;36;1m> kana lagi hahaha[m
-[19:42:10] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> yes2[m
-[19:42:10] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> good luck[m
-[19:42:17] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] RimuroTempest[m [0;36;1m> thank youuuu[m
-[19:42:19] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> np[m
-[19:42:21] [Server thread/INFO]: Giniguy issued server command: /home
-[19:42:25] [Server thread/INFO]: FKritz issued server command: /home
-[19:42:27] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] RimuroTempest[m [0;36;1m> :>[m
-[19:42:29] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> naa sad diay MCMMO na plug in[m
-[19:42:43] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] RimuroTempest[m [0;36;1m> unsa na>?[m
-[19:43:53] [Async Chat Thread - #7/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> level up[m
-[19:44:00] [Async Chat Thread - #7/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> if mag mine ka, mo level imung mining level[m
-[19:44:08] [Async Chat Thread - #7/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> nya naa kay ma unlock nga skill[m
-[19:44:17] [Async Chat Thread - #7/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> do /mcmmo[m
-[19:44:23] [Server thread/INFO]: RimuroTempest issued server command: /mcmmo
-[19:44:48] [Async Chat Thread - #7/INFO]: [m[0;33;1m[User] [0;33;1m[User] RimuroTempest[m [0;36;1m> ang skill makatabang na siya sa mining pud[m
-[19:45:20] [Async Chat Thread - #7/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> if mag pick axe ka, then mo right click, nya hapak ug stone, mo 1 hit kag stone for pila ka seconds[m
-[19:45:23] [Server thread/INFO]: RimuroTempest issued server command: /tpa home
-[19:45:44] [Async Chat Thread - #7/INFO]: [m[0;33;1m[User] [0;33;1m[User] RimuroTempest[m [0;36;1m> ahh mao na ang skill[m
-[19:45:47] [Async Chat Thread - #7/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> mhm[m
-[19:48:33] [Server thread/INFO]: RimuroTempest issued server command: /abandonallclaims
-[19:49:02] [Server thread/INFO]: RimuroTempest has made the advancement [Sweet Dreams]
-[19:49:27] [Async Chat Thread - #8/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> kailangan ta matug tanan para mo buntag haha[m
-[19:49:46] [Async Chat Thread - #8/INFO]: [m[0;33;1m[User] [0;33;1m[User] RimuroTempest[m [0;36;1m> ahhh[m
-[19:50:01] [Async Chat Thread - #8/INFO]: [m[0;33;1m[User] [0;33;1m[User] RimuroTempest[m [0;36;1m> karun pako naka duwa na naay kauban[m
-[19:52:05] [User Authenticator #9/INFO]: UUID of player kdremeds is ce9932c4-dd5f-35bf-89f5-2e72b97a1bb2
-[19:52:05] [Server thread/INFO]: kdremeds[/0:0:0:0:0:0:0:1:58928] logged in with entity id 18035 at ([world]-649.8224220818889, 10.0, -499.30000001192093)
-[19:52:05] [Server thread/INFO]: [0;33;1mkdremeds has joined the game.[m
-[19:52:24] [Async Chat Thread - #9/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> gio?[m
-[19:52:31] [Async Chat Thread - #9/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> yo[m
-[19:52:35] [Async Chat Thread - #9/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> by any chance naa kay loyalty3?[m
-[19:52:35] [Async Chat Thread - #9/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> shit, 18 xp[m
-[19:52:39] [Async Chat Thread - #9/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> i do[m
-[19:52:46] [Async Chat Thread - #9/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> 1 emerald and 1 book[m
-[19:53:46] [Server thread/INFO]: [GriefPrevention] Giniguy placed a sign @ world: x759, z-472;===============;Bane of Arth IV;Merchant;===============
-[19:53:58] [Server thread/INFO]: [GriefPrevention] Giniguy placed a sign @ world: x759, z-474;===============;Lure III;Merchant;===============
-[19:54:02] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> wanna come here sa sex dungeon?[m
-[19:54:23] [Server thread/INFO]: RimuroTempest was slain by Zombie
-[19:54:29] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> whos rimuro[m
-[19:54:33] [Server thread/INFO]: [GriefPrevention] Giniguy placed a sign @ world: x756, z-484;===============;Channeling;Merchant;===============
-[19:54:39] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> manghud sa uyab sa kuya sa akung uyab[m
-[19:54:41] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> :)[m
-[19:54:50] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> oh okay[m
-[19:54:57] [Server thread/INFO]: kdremeds issued server command: /tpa Giniguy
-[19:55:00] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> im surprised you didnt say "what"[m
-[19:55:01] [Server thread/INFO]: Giniguy issued server command: /tpaccept
-[19:55:05] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] RimuroTempest[m [0;36;1m> unsa an pag balik sa gi set na home?[m
-[19:55:11] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> wa koy libog[m
-[19:55:16] [Server thread/INFO]: [GriefPrevention] Giniguy placed a sign @ world: x756, z-482;===============;Luck of Sea III;Merchant;===============
-[19:55:17] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> wait ill get emerald and book[m
-[19:55:28] [Server thread/INFO]: kdremeds issued server command: /home kdremeds
-[19:55:34] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] FKritz[m [0;36;1m> do /home[m
-[19:55:40] [Server thread/INFO]: RimuroTempest issued server command: /home
-[19:55:43] [Server thread/INFO]: [GriefPrevention] Giniguy placed a sign @ world: x756, z-480;===============;Silk Touch;Merchant;===============
-[19:55:50] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] RimuroTempest[m [0;36;1m> thank youuuu[m
-[19:56:04] [Server thread/INFO]: [GriefPrevention] Giniguy placed a sign @ world: x756, z-478;===============;Riptide III;Merchant;===============
-[19:56:08] [Server thread/INFO]: kdremeds issued server command: /tpa gini
-[19:56:12] [Server thread/INFO]: Giniguy issued server command: /tpaccept
-[19:56:23] [Server thread/INFO]: [GriefPrevention] Giniguy placed a sign @ world: x756, z-476;===============;Infinity;Merchant;===============
-[19:56:26] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> here gio[m
-[19:56:34] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> check how much[m
-[19:56:39] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> iya base cost[m
-[19:56:41] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> here[m
-[19:57:02] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> 12 lol[m
-[19:57:06] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> give to me[m
-[19:57:09] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> whoops[m
-[19:57:11] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> mana[m
-[19:57:12] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> the emerald[m
-[19:57:12] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> hahaah[m
-[19:57:13] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> ay[m
-[19:57:14] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> lmao[m
-[19:57:17] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> ULOL[m
-[19:57:19] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> i could've traded for you hahaha[m
-[19:57:21] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> FUCK[m
-[19:57:30] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> anyways ty hahahaha[m
-[19:57:32] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> anyway, ur rich af man sad hahaha[m
-[19:57:36] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> no oy[m
-[19:57:39] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> ikaw muy rich[m
-[19:57:43] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> u have stacks of emeralds[m
-[19:57:43] [Server thread/INFO]: RimuroTempest issued server command: /abandonclaim
-[19:57:48] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> come here[m
-[19:57:50] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> im just the guy who makes them do my bidding[m
-[19:57:51] [Server thread/INFO]: kdremeds issued server command: /home kdremeds
-[19:57:56] [Server thread/INFO]: kdremeds issued server command: /home kdremeds
-[19:57:59] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> tp to mw[m
-[19:58:03] [Server thread/INFO]: Giniguy issued server command: /tpa kdremeds
-[19:58:04] [Server thread/INFO]: RimuroTempest issued server command: /abandonallclaims
-[19:58:23] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> i tp na[m
-[19:59:06] [Server thread/INFO]: kdremeds issued server command: /tpaccept
-[19:59:11] [Server thread/INFO]: kdremeds issued server command: /trustlist
-[19:59:12] [Server thread/INFO]: [GriefPrevention] Giniguy placed a sign @ world: x756, z-474;===============;Aqua Affinity;Merchant;===============
-[19:59:21] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> i cant use[m
-[19:59:23] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> nothing compared to yours[m
-[19:59:26] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> how gani[m
-[19:59:27] [Server thread/INFO]: RimuroTempest issued server command: /spawn
-[19:59:31] [Server thread/INFO]: kdremeds issued server command: /trust Giniguy
-[19:59:33] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> do /trust Giniguy[m
-[19:59:34] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> aw here[m
-[19:59:35] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> hahah[m
-[20:00:10] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> you should wait for them to give you ur fav enchant[m
-[20:00:20] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> im contented naman[m
-[20:00:23] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> mahala 48 emeralds[m
-[20:00:25] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> hahaha[m
-[20:00:25] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> ahhaha[m
-[20:00:32] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> super[m
-[20:00:36] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> negosyanti kaayu[m
-[20:00:51] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> open[m
-[20:00:54] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> zombifie that nigguh[m
-[20:01:01] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> LMAO[m
-[20:01:04] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> yeah[m
-[20:01:07] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> hahaha[m
-[20:01:09] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> 10+ stacks of emeralds[m
-[20:01:12] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> see what i told you[m
-[20:01:14] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> i think[m
-[20:01:18] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> you can use it to trade[m
-[20:01:21] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> and use the mending[m
-[20:01:27] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> i did na[m
-[20:01:30] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> idk what to do[m
-[20:01:31] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> hahaha[m
-[20:01:33] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> aah this is your mending farm?[m
-[20:01:52] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> oh yea[m
-[20:01:54] [Server thread/INFO]: RimuroTempest has made the advancement [Stone Age]
-[20:01:57] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> with your help[m
-[20:02:00] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> ty dude hahaha[m
-[20:02:03] [Server thread/INFO]: FKritz issued server command: /tpa G
-[20:02:06] [Server thread/INFO]: Giniguy issued server command: /tpaccept
-[20:02:17] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> i improved my villager breeder[m
-[20:02:19] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> wanna see?[m
-[20:02:26] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> sure[m
-[20:02:27] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> villager breeder 4.0[m
-[20:02:41] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> wanna come[m
-[20:02:48] [Server thread/INFO]: kdremeds issued server command: /tpa Giniguy
-[20:02:51] [Server thread/INFO]: Giniguy issued server command: /home
-[20:02:53] [Server thread/INFO]: Giniguy issued server command: /tpaccept
-[20:03:02] [Server thread/INFO]: FKritz issued server command: /home
-[20:03:06] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> i had to block the carrot guy[m
-[20:03:11] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> cuz he's making them breed too mcuh[m
-[20:03:17] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> i'll go discord[m
-[20:03:46] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> i see[m
-[20:03:51] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> basta naay kd[m
-[20:03:52] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> come discord[m
-[20:03:54] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> mu lusut?[m
-[20:03:56] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> im in laptop[m
-[20:03:58] [Server thread/INFO]: FKritz issued server command: /tpa G
-[20:03:59] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> :([m
-[20:04:00] [Server thread/INFO]: Giniguy issued server command: /tpaccept
-[20:04:02] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> awweeee[m
-[20:04:09] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> if the kid grows, he goes to the water[m
-[20:04:15] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> down to the waiting chamber[m
-[20:04:26] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> there's so many hahaha[m
-[20:04:31] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> ho[m
-[20:04:32] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> hoi[m
-[20:04:40] [Server thread/INFO]: RimuroTempest issued server command: /home
-[20:04:50] [Server thread/INFO]: kdremeds issued server command: /tpa Giniguy
-[20:04:51] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> wtf[m
-[20:04:53] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> so much[m
-[20:04:53] [Server thread/INFO]: Giniguy issued server command: /tpaccept
-[20:04:56] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> so effecient sd[m
-[20:05:11] [Server thread/INFO]: RimuroTempest has made the advancement [The Parrots and the Bats]
-[20:05:23] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> di lag?[m
-[20:05:43] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> need help[m
-[20:05:46] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> \in making finishing touches?[m
-[20:05:47] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> coming[m
-[20:05:53] [Server thread/INFO]: Giniguy issued server command: /tpa kdremeds
-[20:05:59] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> wht[m
-[20:06:00] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> whut[m
-[20:06:02] [Async Chat Thread - #10/INFO]: [GriefPrevention] Muted too-frequent text.
-[20:06:02] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> why[m
-[20:06:27] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> wait huh[m
-[20:06:29] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> wachu[m
-[20:06:36] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> mean[m
-[20:06:49] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> do you need help[m
-[20:06:53] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> oh wala na hehe[m
-[20:06:55] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> in making the dloor better or unsa[m
-[20:07:07] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> dloor?[m
-[20:07:09] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> oh no na hahaha[m
-[20:07:21] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> unsa ni[m
-[20:07:25] [Server thread/INFO]: FKritz issued server command: /home
-[20:07:26] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> no use[m
-[20:07:27] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> ahaha[m
-[20:07:58] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> i wanna go temple[m
-[20:08:11] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> gio[m
-[20:08:16] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> yo[m
-[20:08:19] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> lets fight under water temple[m
-[20:09:14] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> somuch chests[m
-[20:09:16] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> hahaha[m
-[20:09:18] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> yea[m
-[20:09:19] [User Authenticator #10/INFO]: UUID of player Kobeboy15 is dc70f05a-14b3-350c-91b3-ecddbe830761
-[20:09:20] [Server thread/INFO]: Kobeboy15[/0:0:0:0:0:0:0:1:60281] logged in with entity id 27236 at ([world]562.5627487885249, 255.0, 72.21610435456525)
-[20:09:20] [Server thread/INFO]: [0;33;1mKobeboy15 has joined the game.[m
-[20:09:22] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> cuz we keep moving[m
-[20:09:26] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> how to you not get confused[m
-[20:09:37] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> we do[m
-[20:09:44] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> and sometimes have petty fights on where we placed what[m
-[20:09:50] [Server thread/INFO]: Kobeboy15 issued server command: /vanish
-[20:09:53] [Server thread/INFO]: Kobeboy15 issued server command: /tp RimuroTempest
-[20:10:01] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> lamao[m
-[20:10:09] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> lets make a project[m
-[20:10:12] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> im bored[m
-[20:10:59] [Server thread/INFO]: Kobeboy15 issued server command: /skin set RimuroTempest Belle_Delphine
-[20:11:11] [Server thread/INFO]: Kobeboy15 issued server command: /home
-[20:11:23] [Async Chat Thread - #11/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> oh[m
-[20:11:24] [Async Chat Thread - #11/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> kuan[m
-[20:11:27] [Async Chat Thread - #11/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> i need help with something diay[m
-[20:11:51] [Async Chat Thread - #11/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> we need to uncover the slime chunk[m
-[20:12:01] [Server thread/INFO]: kdremeds issued server command: /WHY
-[20:12:03] [Async Chat Thread - #11/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> WHY[m
-[20:12:10] [Async Chat Thread - #11/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> doh[m
-[20:12:10] [Async Chat Thread - #11/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> so we can make a slime generator[m
-[20:12:13] [Async Chat Thread - #11/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> almost died[m
-[20:12:16] [Async Chat Thread - #11/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> wat[m
-[20:12:26] [Async Chat Thread - #11/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> skelly with power 4 punch and flame bow[m
-[20:12:28] [Async Chat Thread - #11/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> wtf[m
-[20:13:18] [Server thread/INFO]: Jhor issued server command: /home
-[20:13:38] [Async Chat Thread - #12/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> i need help[m
-[20:13:44] [Async Chat Thread - #12/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> what do you need[m
-[20:13:46] [Server thread/INFO]: kdremeds issued server command: /home kdremeds
-[20:13:49] [Async Chat Thread - #12/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> dig the chunk hahaha[m
-[20:13:53] [Async Chat Thread - #12/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> sure hahah[m
-[20:13:55] [Server thread/INFO]: FKritz issued server command: /tpa G
-[20:13:58] [Server thread/INFO]: Giniguy issued server command: /tpaccept
-[20:14:39] [Async Chat Thread - #12/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> come pweese[m
-[20:14:42] [Server thread/INFO]: Kobeboy15 issued server command: /spawn
-[20:14:43] [Server thread/INFO]: kdremeds issued server command: /tpa gini
-[20:14:46] [Server thread/INFO]: Giniguy issued server command: /tpaccept
-[20:14:54] [Async Chat Thread - #12/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> we have to clear it up to level 40[m
-[20:15:00] [Async Chat Thread - #12/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> we're at level 6[m
-[20:15:08] [Async Chat Thread - #12/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> i have so much sea weed wtf[m
-[20:15:10] [Server thread/INFO]: Giniguy issued server command: /home
-[20:15:22] [Server thread/INFO]: Kobeboy15 issued server command: /home
-[20:15:44] [Async Chat Thread - #12/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> how far up[m
-[20:15:51] [Async Chat Thread - #12/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> level 40[m
-[20:16:00] [Async Chat Thread - #12/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> the f[m
-[20:16:02] [Async Chat Thread - #12/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> so far up[m
-[20:16:03] [Async Chat Thread - #12/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> hahaha[m
-[20:16:10] [Async Chat Thread - #12/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> we makin mega slime generator[m
-[20:16:14] [Async Chat Thread - #12/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> i'm getting scafolding[m
-[20:16:31] [Server thread/INFO]: [@: Applied effect Jump Boost to Kobeboy15]
-[20:16:31] [Server thread/INFO]: [@: Applied effect Slow Falling to Kobeboy15]
-[20:17:23] [Server thread/INFO]: Kobeboy15 issued server command: /tp Giniguy
-[20:18:05] [Server thread/INFO]: [@: Applied effect Jump Boost to Jhor]
-[20:18:05] [Server thread/INFO]: [@: Applied effect Slow Falling to Jhor]
-[20:18:53] [Server thread/INFO]: FKritz issued server command: /home
-[20:20:01] [Async Chat Thread - #13/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> kim[m
-[20:20:06] [Async Chat Thread - #13/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> hi[m
-[20:20:08] [Async Chat Thread - #13/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> i have removed the top part na[m
-[20:20:19] [Async Chat Thread - #13/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> wdym[m
-[20:20:26] [Async Chat Thread - #13/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> come down tehre[m
-[20:20:35] [Async Chat Thread - #13/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> shift to go down[m
-[20:20:39] [Async Chat Thread - #13/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> space to go up[m
-[20:20:46] [Server thread/WARN]: kdremeds moved too quickly! 0.051422817010120525,-10.0,0.7481831050650953
-[20:20:54] [Async Chat Thread - #13/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> com[m
-[20:20:58] [Server thread/INFO]: [@: Applied effect Jump Boost to Kobeboy15]
-[20:20:58] [Server thread/INFO]: [@: Applied effect Slow Falling to Kobeboy15]
-[20:21:00] [Async Chat Thread - #13/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> test[m
-[20:21:12] [Server thread/WARN]: Jhor moved too quickly! -10.842503420958337,5.249187078744683,-2.0040005755163435
-[20:21:12] [Server thread/WARN]: RimuroTempest moved too quickly! 0.10339398440328296,1.1661092609382138,-9.998452418148872
-[20:21:24] [Async Chat Thread - #13/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> this is the top part[m
-[20:21:27] [Async Chat Thread - #13/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> so dig down nalang[m
-[20:21:28] [Async Chat Thread - #13/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> we can start here then going down[m
-[20:21:33] [Async Chat Thread - #13/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> yep2[m
-[20:21:35] [Server thread/INFO]: Giniguy issued server command: /home
-[20:22:07] [Async Chat Thread - #13/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> diamonds[m
-[20:22:09] [Async Chat Thread - #13/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> lol[m
-[20:22:12] [Server thread/INFO]: Giniguy issued server command: /tpa kdremeds
-[20:22:17] [Server thread/INFO]: kdremeds issued server command: /tpaccept
-[20:22:22] [Async Chat Thread - #13/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> got 26[m
-[20:22:24] [Async Chat Thread - #13/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> HAHA[m
-[20:22:29] [Async Chat Thread - #13/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> where?[m
-[20:22:43] [Async Chat Thread - #13/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> YEAH there[m
-[20:22:45] [Async Chat Thread - #13/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> gio[m
-[20:22:46] [Async Chat Thread - #13/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> ooh[m
-[20:22:49] [Async Chat Thread - #13/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> yea?[m
-[20:22:49] [Server thread/INFO]: FKritz issued server command: /tpa Giniguy
-[20:22:50] [Server thread/INFO]: Jhor lost connection: Disconnected
-[20:22:50] [Server thread/INFO]: Jhor has left the game.
-[20:22:51] [Async Chat Thread - #13/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> pwede soul sand e puli[m
-[20:22:53] [Async Chat Thread - #13/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> and water?[m
-[20:22:57] [Async Chat Thread - #13/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> going up??[m
-[20:22:58] [Async Chat Thread - #13/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> para diritsy saka?[m
-[20:23:00] [Async Chat Thread - #13/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> hmm[m
-[20:23:00] [Async Chat Thread - #13/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> or its hassle[m
-[20:23:07] [Async Chat Thread - #13/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> i'll provide[m
-[20:23:19] [Server thread/INFO]: Giniguy issued server command: /home
-[20:26:46] [Server thread/INFO]: Giniguy issued server command: /home
-[20:27:47] [Server thread/INFO]: Giniguy issued server command: /home
-[20:28:35] [Server thread/INFO]: FKritz issued server command: /home
-[20:28:56] [Server thread/INFO]: kdremeds issued server command: /tpa FKritz
-[20:29:06] [Server thread/INFO]: FKritz issued server command: /tpaccept
-[20:29:15] [Async Chat Thread - #14/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> shit[m
-[20:29:18] [Server thread/INFO]: kdremeds issued server command: /tpa Giniguy
-[20:29:20] [Server thread/INFO]: Giniguy issued server command: /tpaccept
-[20:29:21] [Async Chat Thread - #14/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> abi ko naa kas taasa[m
-[20:29:23] [Async Chat Thread - #14/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> hahah[m
-[20:29:27] [Async Chat Thread - #14/INFO]: [m[0;33;1m[User] [0;33;1m[User] FKritz[m [0;36;1m> hahahah[m
-[20:29:28] [Async Chat Thread - #14/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> the water isnt done yet[m
-[20:29:33] [Server thread/INFO]: Kobeboy15 issued server command: /spawn
-[20:30:18] [Server thread/INFO]: Kobeboy15 issued server command: /home
-[20:30:40] [Server thread/INFO]: Giniguy issued server command: /home
-[20:31:11] [Server thread/WARN]: Kobeboy15 moved too quickly! -5.2739316583778475,-43.523267967348275,-2.83984462926702
-[20:31:15] [Server thread/INFO]: Giniguy drowned
-[20:31:18] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> LOL[m
-[20:31:21] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> i[m
-[20:31:24] [Server thread/INFO]: Giniguy issued server command: /tpa FKritz
-[20:31:27] [Server thread/INFO]: FKritz issued server command: /tpaccept
-[20:31:30] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> SAD[m
-[20:32:53] [Server thread/INFO]: RimuroTempest lost connection: Disconnected
-[20:32:53] [Server thread/INFO]: RimuroTempest has left the game.
-[20:32:58] [Async Chat Thread - #16/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> wat[m
-[20:33:03] [Async Chat Thread - #16/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> LOL[m
-[20:33:37] [Async Chat Thread - #16/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> sakit ang trident?[m
-[20:33:42] [Async Chat Thread - #16/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> not really[m
-[20:33:44] [Async Chat Thread - #16/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> lol[m
-[20:33:47] [Async Chat Thread - #16/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> scam diay ni[m
-[20:33:49] [Async Chat Thread - #16/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> hahaha[m
-[20:34:01] [Async Chat Thread - #16/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> yikes[m
-[20:34:20] [Async Chat Thread - #16/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> for the elevator to work[m
-[20:34:26] [Async Chat Thread - #16/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> dapat all kay water block[m
-[20:34:37] [User Authenticator #11/INFO]: UUID of player RimuroTempest is 7d77d651-9257-3898-84d6-c829d96d184f
-[20:34:37] [Server thread/INFO]: RimuroTempest[/0:0:0:0:0:0:0:1:62158] logged in with entity id 39789 at ([world]-928.3589216325164, 70.0, -929.983478283151)
-[20:34:37] [Server thread/INFO]: [0;33;1mRimuroTempest has joined the game.[m
-[20:34:44] [Async Chat Thread - #16/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> who placed that there[m
-[20:34:44] [User Authenticator #12/INFO]: UUID of player arcosanti is a9e52362-e903-3089-8f30-1e5a3b7d754a
-[20:34:44] [Server thread/INFO]: arcosanti[/0:0:0:0:0:0:0:1:62168] logged in with entity id 40237 at ([world]499.9143963214968, 58.0, 146.0449342917102)
-[20:34:44] [Server thread/INFO]: [0;33;1marcosanti has joined the game.[m
-[20:34:47] [Async Chat Thread - #16/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> me[m
-[20:34:49] [Async Chat Thread - #16/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> hahah[m
-[20:34:51] [Async Chat Thread - #16/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> jesus[m
-[20:35:37] [Server thread/INFO]: kdremeds issued server command: /TPA GINI
-[20:35:40] [Async Chat Thread - #16/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> omg[m
-[20:35:41] [Async Chat Thread - #16/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> lamao[m
-[20:35:49] [Async Chat Thread - #16/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> heart attack[m
-[20:35:53] [Server thread/INFO]: Giniguy issued server command: /home
-[20:35:56] [Server thread/INFO]: kdremeds issued server command: /tpa FKritz
-[20:36:04] [Server thread/INFO]: FKritz issued server command: /tpaccept
-[20:36:22] [Server thread/INFO]: Giniguy issued server command: /tpa FKritz
-[20:36:24] [Server thread/INFO]: FKritz issued server command: /tpaccept
-[20:36:29] [Server thread/INFO]: Giniguy issued server command: /tpaccept
-[20:36:37] [Server thread/INFO]: arcosanti issued server command: /homelist
-[20:37:11] [Server thread/INFO]: RimuroTempest issued server command: /home
-[20:37:28] [Server thread/INFO]: Giniguy fell from a high place
-[20:37:32] [Async Chat Thread - #17/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> wat[m
-[20:37:32] [Async Chat Thread - #17/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> WAT[m
-[20:37:34] [Server thread/INFO]: Giniguy issued server command: /tpa FKritz
-[20:37:36] [Async Chat Thread - #17/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> so many holes[m
-[20:37:37] [Server thread/INFO]: FKritz issued server command: //tpa
-[20:37:41] [Server thread/INFO]: FKritz issued server command: /tpaccept
-[20:37:53] [Async Chat Thread - #17/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> you should be more careful[m
-[20:39:38] [Server thread/INFO]: Kobeboy15 issued server command: /home
-[20:39:55] [Async Chat Thread - #18/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> hi[m
-[20:39:56] [Server thread/INFO]: FKritz issued server command: /home
-[20:40:08] [Async Chat Thread - #18/INFO]: [m[0;33;1m[User] [0;33;1m[User] FKritz[m [0;36;1m> hello hahah[m
-[20:41:12] [Server thread/WARN]: Kobeboy15 moved too quickly! -29.33711888579799,2.268587646557208,-19.006843430618773
-[20:41:31] [Async Chat Thread - #19/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> yo[m
-[20:41:36] [Async Chat Thread - #19/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> haha[m
-[20:41:48] [Server thread/INFO]: Kobeboy15 issued server command: /home
-[20:41:51] [Async Chat Thread - #19/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> you dont like risks huh[m
-[20:41:52] [Async Chat Thread - #19/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> haha[m
-[20:41:56] [Async Chat Thread - #19/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> jk[m
-[20:42:03] [Async Chat Thread - #19/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> i do not[m
-[20:42:30] [Async Chat Thread - #19/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> does anyone have 6 slimeballs[m
-[20:43:09] [Server thread/INFO]: kdremeds issued server command: /lol
-[20:43:11] [Async Chat Thread - #19/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> lol[m
-[20:43:20] [Server thread/INFO]: kdremeds issued server command: /tpa gini
-[20:43:23] [Server thread/INFO]: Giniguy issued server command: /tpaccept
-[20:44:49] [Server thread/INFO]: RimuroTempest was slain by Iron Golem
-[20:44:54] [Async Chat Thread - #20/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> oh no[m
-[20:44:55] [Server thread/INFO]: RimuroTempest issued server command: /home
-[20:44:55] [Async Chat Thread - #20/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> hahaha[m
-[20:44:57] [Server thread/INFO]: arcosanti issued server command: /tpa Giniguy
-[20:45:00] [Server thread/INFO]: Giniguy issued server command: /tpaccept
-[20:51:54] [Async Chat Thread - #21/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> brb[m
-[20:51:56] [Server thread/INFO]: kdremeds issued server command: /home kd
-[20:51:58] [Server thread/INFO]: kdremeds issued server command: /home kdremeds
-[20:52:03] [Async Chat Thread - #21/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> ill get a new pic[m
-[20:53:33] [Server thread/INFO]: kdremeds issued server command: /home kdremeds
-[20:54:34] [Server thread/INFO]: kdremeds issued server command: /tpa Giniguy
-[20:54:38] [Server thread/INFO]: Giniguy issued server command: /tpaccept
-[20:55:03] [Server thread/INFO]: FKritz issued server command: /home
-[20:55:15] [Server thread/WARN]: kdremeds moved wrongly!
-[20:57:57] [Server thread/INFO]: Kobeboy15 issued server command: /home
-[21:00:27] [Server thread/INFO]: Kobeboy15 issued server command: /give Kobeboy15 diamondarmor {ench:[{id:16,lvl:1000}]
-[21:00:46] [Server thread/INFO]: Kobeboy15 issued server command: /give Kobeboy15 diamondsword {ench:[{id:16,lvl:1000}] 1
-[21:01:33] [Server thread/INFO]: Kobeboy15 issued server command: /give Kobeboy15 diamondsword 1 0{ench:[{id:16,lvl:1000}]
-[21:01:39] [Server thread/INFO]: Kobeboy15 issued server command: /give Kobeboy15 diamondsword 1 0 {ench:[{id:16,lvl:1000}]
-[21:01:39] [Server thread/ERROR]: null
-com.mojang.brigadier.exceptions.CommandSyntaxException: Expected '}' at position 24: ...lvl:1000}]<--[HERE]
-[21:01:50] [Server thread/INFO]: Kobeboy15 issued server command: /give Kobeboy15 diamondsword 1 0 {ench:[{id:16,lvl:1000}]
-[21:01:50] [Server thread/ERROR]: null
-com.mojang.brigadier.exceptions.CommandSyntaxException: Expected '}' at position 24: ...lvl:1000}]<--[HERE]
-[21:03:53] [Server thread/INFO]: Kobeboy15 issued server command: /give Kobeboy15 minecraft:diamond_sword{Enchantments:[{id:"minecraft:knockback",lvl:100}]} 1
-[21:04:06] [Server thread/INFO]: Kobeboy15 issued server command: /give Kobeboy15 minecraft:diamond_sword {Enchantments:[{id:"minecraft:knockback",lvl:100}]} 1
-[21:04:09] [Server thread/INFO]: Kobeboy15 issued server command: /give Kobeboy15 minecraft:diamond_sword {Enchantments:[{id:"minecraft:knockback",lvl:100}]} 1
-[21:04:15] [Server thread/INFO]: Kobeboy15 issued server command: /give @p minecraft:diamond_sword{Enchantments:[{id:"minecraft:knockback",lvl:100}]} 1
-[21:04:17] [Server thread/INFO]: RimuroTempest was blown up by Creeper
-[21:04:25] [Server thread/INFO]: RimuroTempest issued server command: /home
-[21:04:25] [Async Chat Thread - #22/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> ad[m
-[21:04:27] [Async Chat Thread - #22/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> sad[m
-[21:05:15] [Async Chat Thread - #22/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> ok na?>[m
-[21:05:18] [Async Chat Thread - #22/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> yea[m
-[21:05:22] [Async Chat Thread - #22/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> we're gonna make platforms na[m
-[21:05:26] [Async Chat Thread - #22/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> to make them spawn in this area[m
-[21:05:39] [Server thread/INFO]: RimuroTempest issued server command: /home
-[21:05:42] [Async Chat Thread - #22/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> but to make them die, we'll have to make iron golems[m
-[21:05:48] [Async Chat Thread - #22/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> ako lang bahala ana[m
-[21:05:54] [Async Chat Thread - #22/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> cuz kinda complex to explain[m
-[21:06:14] [Server thread/INFO]: Kobeboy15 issued server command: /give @p diamond_sword{Enchantments:[{id:"bane_of_arthropods",lvl:100},{id:"fire_aspect",lvl:100},{id:knockback,lvl:100},{id:looting,lvl:10},{id:sharpness,lvl:100},{id:"silk_touch",lvl:1},{id:smite,lvl:100},{id:sweeping,lvl:100}]} 1
-[21:06:39] [Server thread/INFO]: Kobeboy15 issued server command: /give Kobeboy15 minecraft:diamond_sword{Enchantments:[{id:"bane_of_arthropods",lvl:100},{id:"fire_aspect",lvl:100},{id:knockback,lvl:100},{id:looting,lvl:10},{id:sharpness,lvl:100},{id:"silk_touch",lvl:1},{id:smite,lvl:100},{id:sweeping,lvl:100}]} 1
-[21:06:46] [Server thread/INFO]: Giniguy issued server command: /home
-[21:06:49] [Server thread/INFO]: RimuroTempest issued server command: /home
-[21:07:26] [Server thread/INFO]: Kobeboy15 issued server command: /give @p diamond_sword{Enchantments:[{id:looting,lvl:100}]} 1
-[21:07:38] [Server thread/INFO]: Kobeboy15 issued server command: /give @p diamondsword{Enchantments:[{id:looting,lvl:100}]} 1
-[21:07:40] [Async Chat Thread - #23/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> that sound was very sexy kim[m
-[21:07:54] [Async Chat Thread - #23/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> thanks[m
-[21:07:58] [Async Chat Thread - #23/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> but deep down[m
-[21:07:58] [Async Chat Thread - #23/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> hahahahaha[m
-[21:08:01] [Async Chat Thread - #23/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> im lonely[m
-[21:08:05] [Async Chat Thread - #23/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> :((([m
-[21:08:14] [Async Chat Thread - #23/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> :([m
-[21:08:28] [Server thread/INFO]: RimuroTempest issued server command: /home
-[21:08:42] [Async Chat Thread - #23/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> what now[m
-[21:08:43] [Async Chat Thread - #23/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> haha[m
-[21:08:49] [Async Chat Thread - #23/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> wait[m
-[21:08:58] [Server thread/INFO]: arcosanti issued server command: /home
-[21:09:01] [Async Chat Thread - #23/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> sorry boss[m
-[21:09:13] [Async Chat Thread - #23/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> lmao chillax[m
-[21:09:19] [Async Chat Thread - #23/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> we need to make iron golems though[m
-[21:09:26] [Async Chat Thread - #23/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> for[m
-[21:09:28] [Server thread/INFO]: kdremeds issued server command: /?
-[21:09:29] [Async Chat Thread - #23/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> ?[m
-[21:09:35] [Async Chat Thread - #23/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> so the slimes will redirect their pathing[m
-[21:09:39] [Async Chat Thread - #23/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> to the iron golem[m
-[21:09:43] [Async Chat Thread - #23/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> then they'll fall at the bottom[m
-[21:09:55] [Async Chat Thread - #23/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> you need a lot?[m
-[21:10:14] [Server thread/INFO]: Kobeboy15 issued server command: /give Kobeboy15 command_block
-[21:10:19] [Server thread/INFO]: RimuroTempest issued server command: /home
-[21:11:06] [Server thread/INFO]: CommandBlock at 688,107,127 issued server command: /give @p diamond_sword{Enchantments:[{id:looting,lvl:100}]} 1
-[21:11:15] [Server thread/INFO]: CommandBlock at 688,107,127 issued server command: /give @p diamond_sword{Enchantments:[{id:looting,lvl:100}]} 1
-[21:11:18] [Server thread/INFO]: CommandBlock at 688,107,127 issued server command: /give @p diamond_sword{Enchantments:[{id:looting,lvl:100}]} 1
-[21:11:25] [Async Chat Thread - #24/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> wheres everyone[m
-[21:11:45] [Server thread/INFO]: RimuroTempest issued server command: /home
-[21:11:47] [Server thread/INFO]: CommandBlock at 688,107,127 issued server command: /give @p diamond_sword{Unbreakable:1,Enchantments:[{id:sharpness,lvl:1000},{id:looting,lvl1000:0}]}
-[21:12:23] [Server thread/INFO]: CommandBlock at 688,107,127 issued server command: /give @p diamond_sword{Unbreakable:1,Enchantments:[{id:sharpness,lvl:1000},{id:looting,lvl1000:0}]}
-[21:12:27] [Server thread/INFO]: kdremeds issued server command: /home kd
-[21:12:37] [Server thread/INFO]: CommandBlock at 688,107,127 issued server command: /give @p diamond_sword{Unbreakable:1,Enchantments:[{id:sharpness,lvl:1000},{id:looting,lvl1000:0}]} 1
-[21:13:06] [Server thread/INFO]: CommandBlock at 688,107,127 issued server command: /give Kobeboy15 minecraft:diamond_sword{Unbreakable:1,Enchantments:[{id:sharpness,lvl:1000},{id:looting,lvl1000:0}]} 1
-[21:13:10] [Server thread/INFO]: kdremeds issued server command: /home kdremeds
-[21:13:11] [Server thread/INFO]: CommandBlock at 688,107,127 issued server command: /give Kobeboy15 minecraft:diamond_sword{Unbreakable:1,Enchantments:[{id:sharpness,lvl:1000},{id:looting,lvl1000:0}]} 1
-[21:13:26] [Server thread/INFO]: CommandBlock at 688,107,127 issued server command: /give Kobeboy15 minecraft:diamond_sword{Unbreakable:1,Enchantments:[{id:sharpness,lvl:1000},{id:looting,lvl1000:0}]} 1
-[21:13:39] [Server thread/INFO]: CommandBlock at 688,107,127 issued server command: /give Kobeboy15 minecraft:diamond_sword{Unbreakable:1,Enchantments:[{id:sharpness,lvl:1000},{id:looting,lvl1000:0}]} 1
-[21:13:50] [Server thread/INFO]: CommandBlock at 688,107,127 issued server command: /give Kobeboy15 minecraft:diamond_sword 1
-[21:13:55] [Server thread/INFO]: CommandBlock at 688,107,127 issued server command: /give Kobeboy15 minecraft:diamond_sword 1
-[21:14:01] [Server thread/INFO]: CommandBlock at 688,107,127 issued server command: /give Kobeboy15 minecraft:diamond_sword 1
-[21:15:25] [Server thread/INFO]: CommandBlock at 670,84,143 issued server command: /give @p diamond_sword{Unbreakable:1,Enchantments:[{id:sharpness,lvl:1000},{id:looting,lvl1000:0}]}
-[21:15:36] [Server thread/INFO]: CommandBlock at 670,84,143 issued server command: /give @p diamond_sword{Unbreakable:1,Enchantments:[{id:sharpness,lvl:1000},{id:looting,lvl1000:0}]}
-[21:15:53] [Server thread/INFO]: CommandBlock at 670,84,143 issued server command: /give @p diamond_sword{Unbreakable:1,Enchantments:[{id:sharpness,lvl:1000},{id:looting,lvl:1000}]}
-[21:16:10] [Server thread/INFO]: CommandBlock at 670,84,143 issued server command: /give @p diamond_sword{Unbreakable:1,Enchantments:[{id:sharpness,lvl:1000},{id:looting,lvl:1000}]} 1
-[21:16:20] [Server thread/INFO]: CommandBlock at 670,84,143 issued server command: /give @p diamond_sword{Unbreakable:1,Enchantments:[{id:sharpness,lvl:1000},{id:looting,lvl:1000}]} 1
-[21:16:25] [Server thread/INFO]: Kobeboy15 issued server command: /vanish
-[21:16:27] [Server thread/INFO]: CommandBlock at 670,84,143 issued server command: /give @p diamond_sword{Unbreakable:1,Enchantments:[{id:sharpness,lvl:1000},{id:looting,lvl:1000}]} 1
-[21:16:31] [Server thread/INFO]: Kobeboy15 issued server command: /vanish
-[21:17:42] [Server thread/INFO]: Kobeboy15 lost connection: Disconnected
-[21:17:42] [Server thread/INFO]: Kobeboy15 has left the game.
-[21:17:57] [Server thread/INFO]: RimuroTempest was shot by Skeleton
-[21:18:25] [Server thread/INFO]: RimuroTempest issued server command: /home
-[21:18:50] [User Authenticator #13/INFO]: UUID of player Kobeboy15 is dc70f05a-14b3-350c-91b3-ecddbe830761
-[21:18:50] [Server thread/INFO]: Kobeboy15[/0:0:0:0:0:0:0:1:65478] logged in with entity id 65884 at ([world]672.5352332423187, 84.0, 143.21669308699126)
-[21:18:50] [Server thread/INFO]: [0;33;1mKobeboy15 has joined the game.[m
-[21:19:35] [Server thread/INFO]: CommandBlock at 670,84,143 issued server command: /give @p diamond_sword{Unbreakable:1,Enchantments:[{id:sharpness,lvl:1000}]} 1
-[21:19:36] [Server thread/INFO]: CommandBlock at 670,84,143 issued server command: /give @p diamond_sword{Unbreakable:1,Enchantments:[{id:sharpness,lvl:1000}]} 1
-[21:20:27] [Server thread/INFO]: CommandBlock at 670,84,143 issued server command: /give @p diamond_sword{Unbreakable:1,Enchantments:[{id:sharpness,lvl:1000}]} 1
-[21:20:49] [Server thread/INFO]: CommandBlock at 670,84,143 issued server command: /give @p diamond_sword{Enchantments:[{id:sharpness,lvl:1000}]} 1
-[21:22:29] [Server thread/INFO]: RimuroTempest issued server command: /home
-[21:24:26] [Server thread/INFO]: RimuroTempest has made the advancement [Acquire Hardware]
-[21:25:11] [Server thread/INFO]: CommandBlock at 670,84,143 issued server command: /give Kobeboy15 diamond_sword{Enchantments[{id:minecraft:knockback,lvl:1000}]} 1}
-[21:25:31] [Server thread/INFO]: Kobeboy15 issued server command: /enchantment knockback 100
-[21:25:40] [Server thread/INFO]: Kobeboy15 issued server command: /enchantment knockback 1
-[21:25:49] [Server thread/INFO]: Kobeboy15 issued server command: /enchantment knockback 10
-[21:25:58] [Server thread/INFO]: Kobeboy15 issued server command: /enchantment fireaspect 20
-[21:26:37] [Server thread/INFO]: arcosanti issued server command: /home
-[21:27:20] [Async Chat Thread - #25/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> guys anyone see pillagers?[m
-[21:27:27] [Async Chat Thread - #25/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> wanna have sum raid[m
-[21:27:28] [Async Chat Thread - #25/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> none here[m
-[21:27:34] [Async Chat Thread - #25/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> let's invite RimuroTempest[m
-[21:27:35] [Server thread/INFO]: Kobeboy15 issued server command: /give Kobeboy15 diamondsword 1 0 {ench:[{id:16,lvl:100}]}
-[21:27:37] [Async Chat Thread - #25/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> if naay raid[m
-[21:28:07] [Server thread/INFO]: kdremeds issued server command: /home village
-[21:28:07] [Server thread/INFO]: FKritz issued server command: /home
-[21:29:04] [Server thread/INFO]: kdremeds issued server command: /home mushroom
-[21:29:23] [Server thread/INFO]: kdremeds issued server command: /home kdremeds
-[21:29:30] [Server thread/INFO]: Kobeboy15 issued server command: /give Kobeboy15 diamondsword 1 0
-[21:29:31] [Async Chat Thread - #26/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> sure[m
-[21:29:35] [Server thread/INFO]: Kobeboy15 issued server command: /give Kobeboy15 diamondsword 1 1
-[21:29:42] [Server thread/INFO]: Kobeboy15 issued server command: /give Kobeboy15 diamondsword 1 100
-[21:30:17] [Server thread/INFO]: Kobeboy15 issued server command: /give Kobeboy15 diamondsword{ench:[{id:16,lvl:100}] 1 0
-[21:30:22] [Server thread/INFO]: Kobeboy15 issued server command: /give Kobeboy15 diamondsword {ench:[{id:16,lvl:100}] 1 0
-[21:30:34] [Server thread/INFO]: RimuroTempest has made the advancement [Isn't It Iron Pick]
-[21:31:20] [Server thread/INFO]: kdremeds issued server command: /home kdremeds
-[21:32:51] [Server thread/INFO]: Giniguy issued server command: /home
-[21:33:05] [Server thread/INFO]: Kobeboy15 issued server command: /give Kobeboy15 diamond_sword{Unbreakable} 1
-[21:33:09] [Server thread/INFO]: Kobeboy15 issued server command: /give Kobeboy15 diamond_sword {Unbreakable} 1
-[21:33:38] [Server thread/INFO]: kdremeds issued server command: /home kdremeds
-[21:34:51] [Server thread/INFO]: Kobeboy15 issued server command: /give Kobeboy15 minecraft:diamond_sword{Unbreakble:1} 1
-[21:34:56] [Server thread/INFO]: Kobeboy15 issued server command: /give Kobeboy15 minecraft:diamond_sword {Unbreakble:1} 1
-[21:35:08] [Server thread/INFO]: Kobeboy15 issued server command: /give Kobeboy15 minecraft:diamond_sword {Unbreakble:1} 1
-[21:35:14] [Server thread/INFO]: Kobeboy15 issued server command: /give Kobeboy15 diamond_sword {Unbreakble:1} 1
-[21:35:18] [Server thread/INFO]: Kobeboy15 issued server command: /give Kobeboy15 diamond_sword {Unbreakble} 1
-[21:35:24] [Server thread/INFO]: Kobeboy15 issued server command: /give Kobeboy15 diamond_sword{Unbreakble} 1
-[21:36:00] [Server thread/INFO]: arcosanti issued server command: /home
-[21:36:13] [Server thread/WARN]: Giniguy moved wrongly!
-[21:36:39] [Server thread/INFO]: FKritz has made the advancement [Ol' Betsy]
-[21:36:56] [Server thread/INFO]: Kobeboy15 issued server command: /give @p minecraft:diamond_sword{Unbreakable:1,Enchantments:[{id:"minecraft:sharpness",lvl:2147483647}]} 1
-[21:37:06] [Server thread/INFO]: CommandBlock at 606,91,147 issued server command: /give @p minecraft:diamond_sword{Unbreakable:1,Enchantments:[{id:"minecraft:sharpness",lvl:2147483647}]} 1
-[21:37:07] [Server thread/INFO]: CommandBlock at 606,91,147 issued server command: /give @p minecraft:diamond_sword{Unbreakable:1,Enchantments:[{id:"minecraft:sharpness",lvl:2147483647}]} 1
-[21:37:08] [Server thread/INFO]: CommandBlock at 606,91,147 issued server command: /give @p minecraft:diamond_sword{Unbreakable:1,Enchantments:[{id:"minecraft:sharpness",lvl:2147483647}]} 1
-[21:37:20] [Server thread/INFO]: arcosanti lost connection: Disconnected
-[21:37:20] [Server thread/INFO]: arcosanti has left the game.
-[21:37:45] [Server thread/INFO]: FKritz was slain by Zombie
-[21:37:55] [Server thread/INFO]: FKritz issued server command: /home
-[21:38:07] [Server thread/INFO]: Giniguy issued server command: /home
-[21:39:09] [Server thread/INFO]: [GriefPrevention] RimuroTempest placed suspicious WATER_BUCKET @ world: x-930, z-937
-[21:39:11] [Server thread/INFO]: [GriefPrevention] RimuroTempest placed suspicious WATER_BUCKET @ world: x-930, z-936
-[21:40:05] [Server thread/INFO]: Kobeboy15 lost connection: Disconnected
-[21:40:05] [Server thread/INFO]: Kobeboy15 has left the game.
-[21:40:09] [Server thread/INFO]: RimuroTempest has made the advancement [A Seedy Place]
-[21:40:45] [Server thread/INFO]: Giniguy issued server command: /tpa FKritz
-[21:40:48] [Server thread/INFO]: FKritz issued server command: /tpaccept
-[21:42:32] [User Authenticator #14/INFO]: UUID of player Kobeboy15 is dc70f05a-14b3-350c-91b3-ecddbe830761
-[21:42:33] [Server thread/INFO]: Kobeboy15[/0:0:0:0:0:0:0:1:50905] logged in with entity id 74891 at ([world]606.9976498364796, 91.0, 147.44545719488187)
-[21:42:33] [Server thread/INFO]: [0;33;1mKobeboy15 has joined the game.[m
-[21:42:53] [Server thread/INFO]: CommandBlock at 610,91,147 issued server command: /give Kobeboy15 minecraft:diamond_sword{Enchantments:[{id:sharpness,lvl:1000}]} 1
-[21:43:11] [Server thread/INFO]: CommandBlock at 610,91,147 issued server command: /give @p minecraft:diamond_sword{Enchantments:[{id:sharpness,lvl:1000}]} 1
-[21:43:12] [Server thread/INFO]: CommandBlock at 610,91,147 issued server command: /give @p minecraft:diamond_sword{Enchantments:[{id:sharpness,lvl:1000}]} 1
-[21:43:13] [Server thread/INFO]: CommandBlock at 610,91,147 issued server command: /give @p minecraft:diamond_sword{Enchantments:[{id:sharpness,lvl:1000}]} 1
-[21:43:23] [Server thread/INFO]: Kobeboy15 lost connection: Disconnected
-[21:43:23] [Server thread/INFO]: Kobeboy15 has left the game.
-[21:45:25] [Server thread/INFO]: FKritz issued server command: /tpa Giniguy
-[21:45:36] [Server thread/INFO]: Giniguy issued server command: /tpaccept
-[21:47:45] [Server thread/INFO]: Giniguy issued server command: /home
-[21:48:13] [Server thread/INFO]: RimuroTempest issued server command: /HOME
-[21:50:13] [Server thread/INFO]: FKritz issued server command: /tpa
-[21:50:16] [Server thread/INFO]: FKritz issued server command: /tpa Giniguy
-[21:50:20] [Server thread/INFO]: Giniguy issued server command: /tpaccept
-[21:50:43] [Server thread/INFO]: FKritz issued server command: /home
-[21:53:22] [Server thread/INFO]: FKritz issued server command: /tpa Giniguy
-[21:53:24] [Server thread/INFO]: Giniguy issued server command: /tpaccept
-[21:55:11] [Server thread/INFO]: Giniguy issued server command: /home
-[22:01:38] [Server thread/INFO]: [GriefPrevention] Giniguy placed a sign @ world: x756, z-472;===============;Multishot;Merchant;===============
-[22:01:47] [Server thread/INFO]: kdremeds issued server command: /home kdremeds
-[22:01:51] [Server thread/INFO]: [GriefPrevention] Giniguy placed a sign @ world: x756, z-470;===============;Depth Strider;Merchant;===============
-[22:02:02] [Server thread/INFO]: [GriefPrevention] Giniguy placed a sign @ world: x756, z-468;===============;Flame;Merchant;===============
-[22:02:13] [Server thread/INFO]: [GriefPrevention] Giniguy placed a sign @ world: x756, z-466;===============;Power V;Merchant;===============
-[22:02:25] [Server thread/INFO]: [GriefPrevention] Giniguy placed a sign @ world: x756, z-464;===============;Efficiency V;Merchant;===============
-[22:03:34] [Async Chat Thread - #27/INFO]: [m[0;33;1m[User] [0;33;1m[User] RimuroTempest[m [0;36;1m> kuyaa[m
-[22:03:41] [Async Chat Thread - #27/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> yo[m
-[22:03:53] [Server thread/INFO]: [GriefPrevention] Giniguy placed a sign @ world: x756, z-462;===============;Protection IV;Merchant;===============
-[22:03:53] [Async Chat Thread - #27/INFO]: [m[0;33;1m[User] [0;33;1m[User] RimuroTempest[m [0;36;1m> naa mga tao na naay crossbow[m
-[22:03:56] [Async Chat Thread - #27/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> oh my[m
-[22:03:57] [Async Chat Thread - #27/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> cge2[m
-[22:03:58] [Async Chat Thread - #27/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> coming[m
-[22:04:08] [Server thread/INFO]: kdremeds issued server command: /tpa gini
-[22:04:33] [Server thread/INFO]: Giniguy issued server command: /homelist
-[22:04:40] [Server thread/INFO]: Giniguy issued server command: /tpaccept
-[22:04:43] [Async Chat Thread - #27/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> asa[m
-[22:04:58] [Async Chat Thread - #27/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> unsa mani[m
-[22:05:01] [Async Chat Thread - #27/INFO]: [m[0;33;1m[User] [0;33;1m[User] RimuroTempest[m [0;36;1m> naa dri nako[m
-[22:05:06] [Async Chat Thread - #27/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> RimuroTempest's village[m
-[22:05:12] [Async Chat Thread - #27/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> we fortified it incase of raid[m
-[22:05:14] [Async Chat Thread - #27/INFO]: [m[0;33;1m[User] [0;33;1m[User] RimuroTempest[m [0;36;1m> tp nako[m
-[22:05:18] [Server thread/INFO]: Giniguy issued server command: /tpa RimuroTempest
-[22:05:28] [Async Chat Thread - #27/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> do /tpaccept[m
-[22:05:28] [Server thread/INFO]: RimuroTempest issued server command: /taccept
-[22:05:29] [Server thread/INFO]: kdremeds issued server command: /home kdremeds
-[22:05:35] [Async Chat Thread - #27/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> get sa ko helmet[m
-[22:05:37] [Server thread/INFO]: RimuroTempest issued server command: /tpaccept
-[22:05:39] [Async Chat Thread - #27/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> go go[m
-[22:06:12] [Async Chat Thread - #27/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> lag[m
-[22:06:12] [Server thread/INFO]: kdremeds issued server command: /tpa Giniguy
-[22:06:16] [Server thread/INFO]: Giniguy issued server command: /tpaccept
-[22:06:21] [Async Chat Thread - #27/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> i dont see their leader[m
-[22:06:31] [Async Chat Thread - #27/INFO]: [m[0;33;1m[User] [0;33;1m[User] RimuroTempest[m [0;36;1m> w8 sa ha\[m
-[22:06:34] [Async Chat Thread - #27/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> ge2[m
-[22:06:51] [Async Chat Thread - #27/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> oh wtf[m
-[22:06:52] [Async Chat Thread - #27/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> naa ra[m
-[22:06:52] [Async Chat Thread - #27/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> daghana[m
-[22:07:05] [Async Chat Thread - #27/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> so many wtf[m
-[22:07:16] [Async Chat Thread - #27/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> raid time[m
-[22:07:25] [Async Chat Thread - #27/INFO]: [m[0;33;1m[User] [0;33;1m[User] RimuroTempest[m [0;36;1m> lagii hahah[m
-[22:07:27] [Async Chat Thread - #27/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> im bad omen status na[m
-[22:07:33] [Async Chat Thread - #27/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> we can start a raid[m
-[22:07:46] [Async Chat Thread - #27/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> position na sa village[m
-[22:07:53] [Async Chat Thread - #27/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> go to the village[m
-[22:08:13] [Async Chat Thread - #27/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> wtf[m
-[22:08:15] [Async Chat Thread - #27/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> naa paw[m
-[22:08:45] [Async Chat Thread - #27/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> is there a nearby pillager post?[m
-[22:08:46] [Server thread/INFO]: RimuroTempest has made the advancement [Not Today, Thank You]
-[22:09:26] [Async Chat Thread - #27/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> let's start a raid?[m
-[22:09:29] [Server thread/INFO]: RimuroTempest issued server command: //home
-[22:09:29] [Async Chat Thread - #27/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> wait[m
-[22:09:29] [Async Chat Thread - #27/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> ready naka RimuroTempest?[m
-[22:09:31] [Server thread/INFO]: RimuroTempest issued server command: /home
-[22:09:33] [Async Chat Thread - #27/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> murag naa pilager post[m
-[22:09:37] [Async Chat Thread - #27/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> coming[m
-[22:09:45] [Server thread/INFO]: [GriefPrevention] kdremeds placed suspicious WATER_BUCKET @ world: x-677, z-418
-[22:09:48] [Server thread/INFO]: [GriefPrevention] kdremeds placed suspicious WATER_BUCKET @ world: x-678, z-418
-[22:10:11] [Async Chat Thread - #27/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> wa diay[m
-[22:10:11] [Async Chat Thread - #27/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> where[m
-[22:10:14] [Async Chat Thread - #27/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> lmao[m
-[22:10:31] [User Authenticator #15/INFO]: UUID of player lolo_lola_69 is 646085da-be96-308b-8634-fb8b260022a5
-[22:10:31] [Server thread/INFO]: lolo_lola_69[/0:0:0:0:0:0:0:1:53250] logged in with entity id 82622 at ([world]623.6300311560469, 79.0, -13.67163176163818)
-[22:10:31] [Server thread/INFO]: [0;33;1mlolo_lola_69 has joined the game.[m
-[22:10:34] [Async Chat Thread - #27/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> vlad[m
-[22:10:35] [Async Chat Thread - #27/INFO]: [m[0;33;1m[User] [0;33;1m[User] RimuroTempest[m [0;36;1m> wala may daptdri[m
-[22:10:35] [Async Chat Thread - #27/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> discord?[m
-[22:10:49] [Async Chat Thread - #27/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> ok[m
-[22:11:06] [Async Chat Thread - #27/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> RimuroTempest[m
-[22:11:11] [Async Chat Thread - #27/INFO]: [m[0;33;1m[User] [0;33;1m[User] RimuroTempest[m [0;36;1m> kuyaa[m
-[22:11:12] [Server thread/WARN]: kdremeds moved too quickly! 0.21900416955372748,-0.2468000194787976,10.220034481849552
-[22:11:22] [Async Chat Thread - #27/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> ready naka?[m
-[22:11:22] [Async Chat Thread - #27/INFO]: [m[0;33;1m[User] [0;33;1m[User] RimuroTempest[m [0;36;1m> balik ko sa village[m
-[22:11:25] [Async Chat Thread - #27/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> ge2[m
-[22:11:26] [Async Chat Thread - #27/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> im ready[m
-[22:11:27] [Async Chat Thread - #27/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> mag raid ta[m
-[22:11:34] [Async Chat Thread - #27/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> naa ra kay bow ug arrow?[m
-[22:11:37] [Async Chat Thread - #27/INFO]: [m[0;33;1m[User] [0;33;1m[User] RimuroTempest[m [0;36;1m> asa na ready kuya?[m
-[22:11:46] [Async Chat Thread - #27/INFO]: [m[0;33;1m[User] [0;33;1m[User] RimuroTempest[m [0;36;1m> wa paa wala koy manok[m
-[22:11:46] [Async Chat Thread - #27/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> ready, naay weapon[m
-[22:12:01] [Async Chat Thread - #27/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> wtf this biome[m
-[22:12:19] [Async Chat Thread - #27/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> bad omen 2[m
-[22:12:20] [Async Chat Thread - #27/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> wtf[m
-[22:12:22] [Async Chat Thread - #27/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> is bad omen 2[m
-[22:12:25] [Server thread/INFO]: RimuroTempest has made the advancement [Suit Up]
-[22:12:31] [Async Chat Thread - #27/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> mine is five[m
-[22:12:44] [Async Chat Thread - #27/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> wtf[m
-[22:12:50] [Async Chat Thread - #27/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> raid[m
-[22:12:59] [Async Chat Thread - #27/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> i think 2 waves ra ako[m
-[22:13:04] [Async Chat Thread - #27/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> cuz bad omen 2 ra man[m
-[22:13:08] [Async Chat Thread - #27/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> g?[m
-[22:13:09] [Async Chat Thread - #27/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> raid[m
-[22:13:12] [Async Chat Thread - #27/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> you tp to RimuroTempest[m
-[22:13:16] [Server thread/INFO]: kdremeds issued server command: /tpa RimuroTempest
-[22:13:16] [Async Chat Thread - #27/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> para 5 waevs[m
-[22:13:25] [Server thread/INFO]: RimuroTempest issued server command: /tapccept
-[22:13:32] [Server thread/INFO]: RimuroTempest issued server command: /tpaccept
-[22:13:49] [Async Chat Thread - #27/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> ingna lang mi if ready naka RimuroTempest[m
-[22:14:26] [Async Chat Thread - #27/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> did you tp na kim?[m
-[22:14:36] [Async Chat Thread - #27/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> i cant tp home cuz i have artificial village there[m
-[22:15:03] [Server thread/INFO]: kdremeds issued server command: /this one
-[22:15:04] [Async Chat Thread - #27/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> this one[m
-[22:15:11] [Async Chat Thread - #27/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> huh?[m
-[22:15:41] [Async Chat Thread - #27/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> tp to me io[m
-[22:15:44] [Async Chat Thread - #27/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> why[m
-[22:15:51] [Async Chat Thread - #27/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> you guys tarting na?[m
-[22:16:11] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mYOU KNOW WHAT TIME IT IS :3 In 15 Minutes![m
-[22:16:16] [Async Chat Thread - #27/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> jesus[m
-[22:16:31] [Async Chat Thread - #27/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> tp to me[m
-[22:16:31] [Async Chat Thread - #27/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> ready na?[m
-[22:16:34] [Async Chat Thread - #27/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> yeah[m
-[22:16:36] [Server thread/INFO]: Giniguy issued server command: /tpa kdremeds
-[22:16:38] [Server thread/INFO]: kdremeds issued server command: /tpaccept
-[22:17:30] [Server thread/INFO]: FKritz issued server command: /tpa Giniguy
-[22:17:33] [Server thread/INFO]: Giniguy issued server command: /tpaccept
-[22:19:08] [Server thread/INFO]: kdremeds issued server command: /wtf
-[22:19:10] [Async Chat Thread - #28/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> wtf[m
-[22:19:13] [Async Chat Thread - #28/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> my bad[m
-[22:20:02] [Async Chat Thread - #28/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> wat[m
-[22:20:11] [Async Chat Thread - #28/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> whops[m
-[22:20:43] [Server thread/INFO]: [GriefPrevention] kdremeds placed suspicious WATER_BUCKET @ world: x-922, z-936
-[22:21:07] [Async Chat Thread - #28/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> asa evoker[m
-[22:21:11] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mYOU KNOW WHAT TIME IT IS :3 In 10 Minutes![m
-[22:21:16] [Server thread/INFO]: RimuroTempest was slain by Vex
-[22:21:22] [Server thread/INFO]: RimuroTempest issued server command: /home
-[22:21:23] [Server thread/INFO]: FKritz was slain by Vex
-[22:21:31] [Server thread/INFO]: FKritz issued server command: /tpa Giniguy
-[22:21:33] [Server thread/INFO]: Giniguy issued server command: /tpaccept
-[22:21:41] [Server thread/INFO]: RimuroTempest issued server command: /home
-[22:22:27] [Async Chat Thread - #29/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> as aka R[m
-[22:22:34] [Async Chat Thread - #29/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> RimuroTempest[m
-[22:22:39] [Server thread/INFO]: RimuroTempest issued server command: /home
-[22:23:02] [Server thread/INFO]: kdremeds was slain by Vex
-[22:23:03] [Async Chat Thread - #29/INFO]: [m[0;33;1m[User] [0;33;1m[User] RimuroTempest[m [0;36;1m> matay ko kuya[m
-[22:23:05] [Server thread/INFO]: kdremeds issued server command: /tpa Giniguy
-[22:23:12] [Server thread/INFO]: Giniguy issued server command: /tpaccewpt
-[22:23:13] [Async Chat Thread - #29/INFO]: [m[0;33;1m[User] [0;33;1m[User] RimuroTempest[m [0;36;1m> dli ko ka home[m
-[22:23:14] [Server thread/INFO]: FKritz issued server command: /tpa Giniguy
-[22:23:15] [Server thread/INFO]: Giniguy issued server command: /tpaccept
-[22:23:19] [Server thread/INFO]: kdremeds issued server command: /tpa Giniguy
-[22:23:21] [Async Chat Thread - #29/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> balik kim[m
-[22:23:23] [Server thread/INFO]: Giniguy issued server command: /tpaccept
-[22:23:25] [Async Chat Thread - #29/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> tpa nako[m
-[22:23:47] [Server thread/INFO]: RimuroTempest issued server command: /tpa giniguy
-[22:23:49] [Async Chat Thread - #29/INFO]: [GriefPrevention] Muted repeat message.
-[22:23:49] [Async Chat Thread - #29/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> tpa nako[m
-[22:23:51] [Server thread/INFO]: Giniguy issued server command: /tpaccept
-[22:23:55] [Server thread/INFO]: kdremeds has made the advancement [Who's the Pillager Now?]
-[22:24:05] [Server thread/INFO]: FKritz issued server command: /tpa G
-[22:24:10] [Server thread/INFO]: Giniguy issued server command: /tpaccept
-[22:24:20] [Server thread/INFO]: RimuroTempest issued server command: /home
-[22:24:43] [Server thread/INFO]: RimuroTempest issued server command: /tpa giniguy
-[22:24:48] [Server thread/INFO]: Giniguy issued server command: /tppace
-[22:25:34] [Server thread/INFO]: RimuroTempest issued server command: /tpa fkrits
-[22:25:47] [Server thread/INFO]: RimuroTempest issued server command: /tpa fkritz
-[22:25:56] [Server thread/INFO]: FKritz issued server command: /tpaccept
-[22:25:57] [Async Chat Thread - #30/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> wtf[m
-[22:26:11] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mYOU KNOW WHAT TIME IT IS :3 In 5 Minutes![m
-[22:27:11] [Server thread/INFO]: RimuroTempest was shot by Giniguy
-[22:27:13] [Async Chat Thread - #31/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> oh shit[m
-[22:27:15] [Async Chat Thread - #31/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> sorry[m
-[22:27:25] [Async Chat Thread - #31/INFO]: [m[0;33;1m[User] [0;33;1m[User] RimuroTempest[m [0;36;1m> ok ra ya hahahaha[m
-[22:27:36] [Server thread/INFO]: RimuroTempest issued server command: /tpa fkritz
-[22:27:41] [Server thread/INFO]: FKritz issued server command: /tpaccept
-[22:28:46] [Server thread/INFO]: FKritz was slain by Vindicator
-[22:28:54] [Server thread/INFO]: FKritz issued server command: /tpa Giniguy
-[22:28:59] [Server thread/INFO]: Giniguy issued server command: /tpaccept
-[22:29:30] [Server thread/INFO]: lolo_lola_69 issued server command: /tpa Giniguy
-[22:29:36] [Server thread/INFO]: Giniguy issued server command: /tpaccept
-[22:30:06] [Server thread/INFO]: RimuroTempest was shot by lolo_lola_69 using [Farming Bow v2]
-[22:30:10] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mYOU KNOW WHAT TIME IT IS :3 In 1 Minutes![m
-[22:30:12] [Async Chat Thread - #32/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> hala[m
-[22:30:12] [Async Chat Thread - #32/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> oh shit[m
-[22:30:29] [Server thread/INFO]: RimuroTempest issued server command: /tpa giniguy
-[22:30:45] [Server thread/INFO]: FKritz issued server command: /tpa Giniguy
-[22:30:50] [Server thread/INFO]: Giniguy issued server command: /tpaccept
-[22:31:05] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mGOODBYE in 5 Seconds![m
-[22:31:06] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mGOODBYE in 4 Seconds![m
-[22:31:07] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mGOODBYE in 3 Seconds![m
-[22:31:08] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mGOODBYE in 2 Seconds![m
-[22:31:09] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mGOODBYE in 1 Seconds![m
-[22:31:09] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1m[0;31;1mServer Restarting![m
-[22:31:09] [Server thread/INFO]: CONSOLE issued server command: /kickall §cServer Restarting! We will be back up any minute!
-[22:31:09] [Server thread/INFO]: Giniguy lost connection: §cServer Restarting! We will be back up any minute!
-[22:31:09] [Server thread/INFO]: Giniguy has left the game.
-[22:31:09] [Server thread/INFO]: lolo_lola_69 lost connection: §cServer Restarting! We will be back up any minute!
-[22:31:09] [Server thread/INFO]: lolo_lola_69 has left the game.
-[22:31:09] [Server thread/INFO]: kdremeds lost connection: §cServer Restarting! We will be back up any minute!
-[22:31:09] [Server thread/INFO]: kdremeds has left the game.
-[22:31:09] [Server thread/INFO]: RimuroTempest lost connection: §cServer Restarting! We will be back up any minute!
-[22:31:09] [Server thread/INFO]: RimuroTempest has left the game.
-[22:31:09] [Server thread/INFO]: FKritz lost connection: §cServer Restarting! We will be back up any minute!
-[22:31:09] [Server thread/INFO]: FKritz has left the game.
-[22:31:09] [Server thread/INFO]: [0;31;22mKicked all players from server.[m
-[22:31:09] [Server thread/INFO]: Attempting to restart with run.bat
-[22:31:09] [Server thread/INFO]: Stopping server
-[22:31:09] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.17.0.0
-[22:31:09] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.17.0.0
-[22:31:09] [Server thread/INFO]: [Essentials] Disabling Essentials v2.17.0.0
-[22:31:09] [Server thread/INFO]: [Vault] [Vault][Economy] Essentials Economy unhooked.
-[22:31:09] [Server thread/INFO]: [ChestShop] Disabling ChestShop v3.10-SNAPSHOT (build 137)
-[22:31:09] [Server thread/INFO]: [GriefPrevention] Disabling GriefPrevention v16.11.6
-[22:31:09] [Server thread/INFO]: [GriefPrevention] GriefPrevention disabled.
-[22:31:09] [Server thread/INFO]: [Stargate] Disabling Stargate v0.8.2
-[22:31:09] [Server thread/INFO]: Closing all stargates.
-[22:31:09] [Server thread/INFO]: [Vault] Disabling Vault v1.7.2-b107
-[22:31:09] [Server thread/INFO]: [AutoRestart] Disabling AutoRestart v3.3.3
-[22:31:09] [Server thread/INFO]: [mcMMO] Disabling mcMMO v2.1.100-SNAPSHOT
-[22:31:09] [Server thread/INFO]: [mcMMO] Saving mcMMOPlayers... (0)
-[22:31:09] [Server thread/INFO]: [mcMMO] Finished save operation for 0 players!
-[22:31:09] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v13.7.2
-[22:31:09] [Server thread/INFO]: [HomeSpawn] Disabling HomeSpawn v3.1.4
-[22:31:09] [Server thread/INFO]: [HomeSpawn] HomeSpawn has been disabled
-[22:31:09] [Server thread/INFO]: [PermissionsEx] Disabling PermissionsEx v1.23.4
-[22:31:09] [Server thread/INFO]: Saving players
-[22:31:09] [Server thread/INFO]: Saving worlds
-[22:31:09] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
-[22:31:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[22:31:10] [Server thread/INFO]: Saving chunks for level 'world_nether'/minecraft:the_nether
-[22:31:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[22:31:10] [Server thread/INFO]: Saving chunks for level 'world_the_end'/minecraft:the_end
-[22:31:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[22:31:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[22:31:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[22:31:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[00:00:10] [Server thread/INFO]: FKritz lost connection: Disconnected
+[00:00:10] [Server thread/INFO]: FKritz has left the game.
+[00:00:13] [Server thread/INFO]: Giniguy lost connection: Disconnected
+[00:00:13] [Server thread/INFO]: Giniguy has left the game.
+[00:00:13] [Async Chat Thread - #8/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> just go to my house and there are double chests below the campfire[m
+[00:00:15] [Async Chat Thread - #8/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> check there[m
+[00:00:30] [Server thread/INFO]: lolo_lola_69 issued server command: /home
+[00:00:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5005ms or 100 ticks behind
+[00:01:29] [Server thread/INFO]: lolo_lola_69 issued server command: /home
+[00:02:24] [Async Chat Thread - #9/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> dont have permission[m
+[00:02:34] [Async Chat Thread - #9/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> oh okay wait[m
+[00:02:36] [Server thread/INFO]: Jhor issued server command: /home
+[00:02:58] [Async Chat Thread - #9/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> here[m
+[00:03:13] [Async Chat Thread - #9/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> whatup[m
+[00:03:17] [Async Chat Thread - #9/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> ooooh[m
+[00:03:21] [Async Chat Thread - #9/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> tytyty[m
+[00:03:31] [Async Chat Thread - #9/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> your soul is mine now[m
+[00:03:46] [Async Chat Thread - #9/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> oh shit[m
+[00:04:28] [Async Chat Thread - #9/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> lol wax[m
+[00:04:34] [Async Chat Thread - #9/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> hahaha sup[m
+[00:04:36] [Server thread/INFO]: Jhor issued server command: /home exp
+[00:04:42] [Async Chat Thread - #9/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> u came from my port?[m
+[00:04:55] [Async Chat Thread - #9/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> kinda hahaha[m
+[00:05:09] [Async Chat Thread - #9/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> wax for the slimeballs, can you trade me paper?[m
+[00:05:16] [Async Chat Thread - #9/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> i think the portal you put in the nether got deactivated[m
+[00:05:39] [Async Chat Thread - #9/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> since when me and hannah made a portal it spawned right next to the frame of one[m
+[00:05:41] [Async Chat Thread - #9/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> oh sure @joe[m
+[00:05:59] [Async Chat Thread - #9/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> so yeah everyones protal connects to the same nether portal[m
+[00:06:01] [Async Chat Thread - #9/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> did u make this pig pen?[m
+[00:06:11] [Async Chat Thread - #9/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> where[m
+[00:06:17] [Async Chat Thread - #9/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> in nether[m
+[00:06:23] [Async Chat Thread - #9/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> rob's portal goes different[m
+[00:06:28] [Async Chat Thread - #9/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> ah[m
+[00:06:32] [Async Chat Thread - #9/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> mine connected to rob's at first[m
+[00:06:39] [Async Chat Thread - #9/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> then i had to do soem stuff[m
+[00:06:43] [Async Chat Thread - #9/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> i made the pig pen[m
+[00:07:00] [Async Chat Thread - #9/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> just drop the paper in my trading hub wax, the snow hut[m
+[00:07:05] [Server thread/INFO]: arcosanti issued server command: /home
+[00:07:08] [Async Chat Thread - #9/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> sure sure[m
+[00:08:47] [Server thread/WARN]: lolo_lola_69 moved too quickly! 8.714202149586527,-1.1212968405392019,5.78621022701131
+[00:10:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5005ms or 100 ticks behind
+[00:11:01] [Server thread/WARN]: Skeletor moved wrongly!
+[00:11:01] [Server thread/WARN]: Skeletor moved wrongly!
+[00:11:01] [Server thread/WARN]: Skeletor moved wrongly!
+[00:11:13] [Server thread/INFO]: lolo_lola_69 issued server command: /home
+[00:12:22] [Server thread/INFO]: [GriefPrevention] lolo_lola_69 placed a sign @ world: x629, z-21;Children of;Son Chapel;fin ;09/01/19
+[00:12:58] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> good night bois[m
+[00:13:00] [Server thread/INFO]: lolo_lola_69 lost connection: Disconnected
+[00:13:00] [Server thread/INFO]: lolo_lola_69 has left the game.
+[00:13:05] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> night mdude[m
+[00:20:10] [Server thread/INFO]: Jhor issued server command: /home
+[00:20:12] [Server thread/INFO]: big_tasty issued server command: /home farvillage
+[00:20:22] [Server thread/INFO]: arcosanti issued server command: /tpa big_tasty
+[00:20:23] [Server thread/INFO]: big_tasty issued server command: /tpaccept
+[00:41:48] [Async Chat Thread - #11/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> test[m
+[00:44:34] [Server thread/INFO]: Jhor issued server command: /home
+[00:47:21] [Server thread/INFO]: Jhor issued server command: /home
+[00:49:53] [Async Chat Thread - #12/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> test[m
+[00:52:38] [Server thread/INFO]: big_tasty issued server command: /home
+[00:52:39] [Server thread/INFO]: arcosanti issued server command: /home
+[00:54:49] [Server thread/INFO]: arcosanti lost connection: Disconnected
+[00:54:49] [Server thread/INFO]: arcosanti has left the game.
+[01:03:01] [Server thread/INFO]: Jhor issued server command: /home
+[01:06:30] [Async Chat Thread - #13/INFO]: [m[0;33;1m[User] [0;33;1m[User] big_tasty[m [0;36;1m> omg[m
+[01:06:36] [Async Chat Thread - #13/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> what[m
+[01:06:39] [Async Chat Thread - #13/INFO]: [m[0;33;1m[User] [0;33;1m[User] big_tasty[m [0;36;1m> theres a raid[m
+[01:06:44] [Async Chat Thread - #13/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> yeah my fault haha[m
+[01:06:50] [Async Chat Thread - #13/INFO]: [m[0;33;1m[User] [0;33;1m[User] big_tasty[m [0;36;1m> oh shit haha[m
+[01:08:11] [Server thread/INFO]: RimuroTempest issued server command: /home
+[01:08:28] [Async Chat Thread - #14/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> there in the water hannah[m
+[01:08:32] [Async Chat Thread - #14/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> in front of your place[m
+[01:08:35] [Async Chat Thread - #14/INFO]: [m[0;33;1m[User] [0;33;1m[User] big_tasty[m [0;36;1m> hahaha damn[m
+[01:09:33] [Server thread/INFO]: RimuroTempest has made the advancement [What a Deal!]
+[01:10:02] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] big_tasty[m [0;36;1m> this is some difficult landscape[m
+[01:10:10] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> it's an alpine raid haha[m
+[01:10:32] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> why is there an anvil here?[m
+[01:10:54] [Server thread/INFO]: Jhor issued server command: /home
+[01:10:59] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] big_tasty[m [0;36;1m> gift from thor[m
+[01:11:09] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> back to the raid haha[m
+[01:12:34] [Async Chat Thread - #16/INFO]: [m[0;33;1m[User] [0;33;1m[User] big_tasty[m [0;36;1m> fuckin phantoms[m
+[01:12:46] [Async Chat Thread - #16/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> you have any ranged weapons?[m
+[01:12:49] [Async Chat Thread - #16/INFO]: [m[0;33;1m[User] [0;33;1m[User] big_tasty[m [0;36;1m> yeah[m
+[01:12:52] [Async Chat Thread - #16/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> down here[m
+[01:13:45] [Async Chat Thread - #16/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> your house[m
+[01:14:10] [Async Chat Thread - #16/INFO]: [m[0;33;1m[User] [0;33;1m[User] big_tasty[m [0;36;1m> SHIT sorry[m
+[01:15:44] [Server thread/INFO]: [GriefPrevention] RimuroTempest placed suspicious WATER_BUCKET @ world: x-922, z-953
+[01:17:02] [Async Chat Thread - #17/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> I have like 10 iron golems here and they arent doing anything hah[m
+[01:17:17] [Async Chat Thread - #17/INFO]: [m[0;33;1m[User] [0;33;1m[User] big_tasty[m [0;36;1m> fools[m
+[01:17:26] [Async Chat Thread - #17/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> stay near my cat so the phantoms wont attack youy[m
+[01:17:53] [Async Chat Thread - #17/INFO]: [m[0;33;1m[User] [0;33;1m[User] big_tasty[m [0;36;1m> where is this last guy[m
+[01:18:10] [Server thread/INFO]: big_tasty was slain by Iron Golem
+[01:18:14] [Server thread/INFO]: Jhor issued server command: /home
+[01:18:17] [Async Chat Thread - #17/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> omg what happened[m
+[01:18:17] [Async Chat Thread - #17/INFO]: [m[0;33;1m[User] [0;33;1m[User] big_tasty[m [0;36;1m> damn HAHA[m
+[01:18:32] [Async Chat Thread - #17/INFO]: [m[0;33;1m[User] [0;33;1m[User] big_tasty[m [0;36;1m> he got in front of me when i tried to shoot a phantom[m
+[01:18:34] [Server thread/INFO]: big_tasty issued server command: /home
+[01:18:55] [Async Chat Thread - #17/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> you can tp to me[m
+[01:19:17] [Server thread/INFO]: big_tasty issued server command: /tpa Jhor
+[01:19:20] [Server thread/INFO]: Jhor issued server command: /tpaccept
+[01:20:21] [Async Chat Thread - #18/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> this last guy tho[m
+[01:20:40] [Async Chat Thread - #18/INFO]: [m[0;33;1m[User] [0;33;1m[User] big_tasty[m [0;36;1m> epic hide and seek[m
+[01:20:56] [Async Chat Thread - #18/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> damn iron golems haha[m
+[01:21:59] [Server thread/INFO]: Jhor issued server command: /home
+[01:22:16] [Server thread/INFO]: RimuroTempest issued server command: /spawn
+[01:22:33] [Server thread/INFO]: RimuroTempest issued server command: /home
+[01:23:47] [Async Chat Thread - #19/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> can you ring the bell?[m
+[01:23:53] [Async Chat Thread - #19/INFO]: [m[0;33;1m[User] [0;33;1m[User] big_tasty[m [0;36;1m> yeh[m
+[01:24:24] [Async Chat Thread - #19/INFO]: [m[0;33;1m[User] [0;33;1m[User] big_tasty[m [0;36;1m> i dont see anything[m
+[01:26:01] [Async Chat Thread - #20/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> where could he be? the spawn was near your house right?[m
+[01:26:31] [Async Chat Thread - #20/INFO]: [m[0;33;1m[User] [0;33;1m[User] big_tasty[m [0;36;1m> yeah[m
+[01:27:49] [Server thread/INFO]: Jhor issued server command: /home
+[01:28:39] [Async Chat Thread - #21/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> found him[m
+[01:28:50] [Async Chat Thread - #21/INFO]: [m[0;33;1m[User] [0;33;1m[User] big_tasty[m [0;36;1m> where was he[m
+[01:28:50] [Server thread/INFO]: Jhor issued server command: /home
+[01:28:59] [Async Chat Thread - #21/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> in the ocean[m
+[01:29:01] [Server thread/INFO]: Jhor issued server command: /home
+[01:29:08] [Async Chat Thread - #21/INFO]: [m[0;33;1m[User] [0;33;1m[User] big_tasty[m [0;36;1m> god damn it haha[m
+[01:29:38] [Async Chat Thread - #21/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> tp to me[m
+[01:29:42] [Server thread/INFO]: big_tasty issued server command: /tpa Jhor
+[01:29:44] [Server thread/INFO]: Jhor issued server command: /tpa
+[01:29:46] [Server thread/INFO]: Jhor issued server command: /tpaccept
+[01:29:52] [Async Chat Thread - #21/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> look above[m
+[01:29:55] [Server thread/INFO]: RimuroTempest issued server command: /home
+[01:32:30] [Server thread/INFO]: Jhor issued server command: /home
+[01:33:50] [Craft Scheduler Thread - 90/INFO]: [SkinsRestorer] [GitHubUpdate] Downloading update...
+[01:33:50] [Craft Scheduler Thread - 90/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m----------------------------------------------[m
+[01:33:50] [Craft Scheduler Thread - 90/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    +===============+[m
+[01:33:50] [Craft Scheduler Thread - 90/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    | SkinsRestorer |[m
+[01:33:50] [Craft Scheduler Thread - 90/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    +===============+[m
+[01:33:50] [Craft Scheduler Thread - 90/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m----------------------------------------------[m
+[01:33:50] [Craft Scheduler Thread - 90/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;36;1m    Current version: [0;31;1m13.7.2[m
+[01:33:50] [Craft Scheduler Thread - 90/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m]     A new version is available! Downloading it now...[m
+[01:33:50] [Craft Scheduler Thread - 90/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m]     Update downloaded successfully, it will be applied on the next restart.[m
+[01:33:50] [Craft Scheduler Thread - 90/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m----------------------------------------------[m
+[01:34:19] [Craft Scheduler Thread - 90/INFO]: [SkinsRestorer] [GitHubUpdate] Update saved as plugins\update\SkinsRestorer.jar
+[01:36:15] [Async Chat Thread - #22/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> not this again haha[m
+[01:38:15] [Async Chat Thread - #23/INFO]: [m[0;33;1m[User] [0;33;1m[User] big_tasty[m [0;36;1m> god damn[m
+[01:38:27] [Async Chat Thread - #23/INFO]: [m[0;33;1m[User] [0;33;1m[User] big_tasty[m [0;36;1m> cant he just jump off a cliff[m
+[01:39:11] [Async Chat Thread - #23/INFO]: [m[0;33;1m[User] [0;33;1m[User] big_tasty[m [0;36;1m> found him[m
+[01:39:14] [Async Chat Thread - #23/INFO]: [m[0;33;1m[User] [0;33;1m[User] big_tasty[m [0;36;1m> hes on a tree[m
+[01:39:15] [Async Chat Thread - #23/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> nice[m
+[01:39:20] [Server thread/INFO]: Jhor issued server command: /home
+[01:41:28] [Async Chat Thread - #24/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> over here[m
+[01:41:54] [Server thread/INFO]: big_tasty was slain by Vex
+[01:42:01] [Server thread/INFO]: big_tasty issued server command: /home
+[01:42:06] [Server thread/INFO]: big_tasty issued server command: /home
+[01:42:39] [Async Chat Thread - #25/INFO]: [m[0;33;1m[User] [0;33;1m[User] big_tasty[m [0;36;1m> it. got in my house[m
+[01:42:52] [Server thread/INFO]: big_tasty issued server command: /home
+[01:47:03] [Async Chat Thread - #26/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> fuck, raid is over but I didn't get the bonus haha[m
+[01:47:08] [Async Chat Thread - #26/INFO]: [m[0;33;1m[User] [0;33;1m[User] big_tasty[m [0;36;1m> damn[m
+[01:47:16] [Async Chat Thread - #26/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> did you get it?[m
+[01:47:20] [Async Chat Thread - #26/INFO]: [m[0;33;1m[User] [0;33;1m[User] big_tasty[m [0;36;1m> nope[m
+[01:47:23] [Async Chat Thread - #26/INFO]: [m[0;33;1m[User] [0;33;1m[User] big_tasty[m [0;36;1m> i call hacks[m
+[01:47:32] [Async Chat Thread - #26/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> I think we were too far when I ended it[m
+[01:47:46] [Async Chat Thread - #26/INFO]: [m[0;33;1m[User] [0;33;1m[User] big_tasty[m [0;36;1m> oh well[m
+[01:47:55] [Async Chat Thread - #26/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> wanna fight the wither? ahha[m
+[01:47:59] [Server thread/INFO]: kdremeds lost connection: Timed out
+[01:47:59] [Server thread/INFO]: kdremeds has left the game.
+[01:48:06] [Async Chat Thread - #26/INFO]: [m[0;33;1m[User] [0;33;1m[User] big_tasty[m [0;36;1m> i noticed your sould sand t pose[m
+[01:48:14] [Server thread/INFO]: RimuroTempest issued server command: /home
+[01:48:27] [Async Chat Thread - #26/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> fuck I think my cat died[m
+[01:48:30] [Async Chat Thread - #26/INFO]: [m[0;33;1m[User] [0;33;1m[User] big_tasty[m [0;36;1m> WHAT[m
+[01:48:39] [Async Chat Thread - #26/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> yeah, I had 3[m
+[01:48:44] [Async Chat Thread - #26/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> cant find 1 anymore[m
+[01:49:39] [Async Chat Thread - #26/INFO]: [m[0;33;1m[User] [0;33;1m[User] big_tasty[m [0;36;1m> you have to build a shrine now[m
+[01:49:54] [Async Chat Thread - #26/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> I shall construct a beacon in his honor[m
+[01:50:00] [Async Chat Thread - #26/INFO]: [m[0;33;1m[User] [0;33;1m[User] big_tasty[m [0;36;1m> he was a hero[m
+[01:50:59] [Server thread/INFO]: [GriefPrevention] RimuroTempest placed suspicious WATER_BUCKET @ world: x-920, z-959
+[01:51:19] [Server thread/INFO]: big_tasty issued server command: /mcrank
+[01:51:41] [Server thread/INFO]: big_tasty issued server command: /mctop Acrobatics
+[01:54:09] [Server thread/INFO]: Jhor issued server command: /home
+[01:54:56] [Async Chat Thread - #27/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> lets wither hannah, real quick[m
+[01:55:02] [Async Chat Thread - #27/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> I want a beacon hah[m
+[01:55:10] [Async Chat Thread - #27/INFO]: [m[0;33;1m[User] [0;33;1m[User] big_tasty[m [0;36;1m> hahaha okay[m
+[01:55:12] [Async Chat Thread - #27/INFO]: [m[0;33;1m[User] [0;33;1m[User] big_tasty[m [0;36;1m> where[m
+[01:55:18] [Async Chat Thread - #27/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> where the tpose is[m
+[01:55:33] [Async Chat Thread - #27/INFO]: [m[0;33;1m[User] [0;33;1m[User] big_tasty[m [0;36;1m> omw[m
+[01:56:15] [Async Chat Thread - #27/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> here, have an achievement[m
+[01:56:20] [Server thread/INFO]: big_tasty has made the advancement [Spooky Scary Skeleton]
+[01:56:25] [Async Chat Thread - #27/INFO]: [m[0;33;1m[User] [0;33;1m[User] big_tasty[m [0;36;1m> hahaha thanks[m
+[01:56:34] [Server thread/INFO]: [GriefPrevention] RimuroTempest placed suspicious WATER_BUCKET @ world: x-920, z-942
+[01:57:20] [Server thread/INFO]: [GriefPrevention] RimuroTempest placed suspicious WATER_BUCKET @ world: x-919, z-941
+[01:57:27] [Server thread/INFO]: [GriefPrevention] RimuroTempest placed suspicious WATER_BUCKET @ world: x-920, z-941
+[01:57:37] [Server thread/INFO]: [GriefPrevention] RimuroTempest placed suspicious WATER_BUCKET @ world: x-920, z-941
+[01:58:01] [Server thread/INFO]: [GriefPrevention] RimuroTempest placed suspicious WATER_BUCKET @ world: x-920, z-942
+[01:58:20] [Async Chat Thread - #28/INFO]: [m[0;33;1m[User] [0;33;1m[User] big_tasty[m [0;36;1m> oh i got it[m
+[01:58:25] [Server thread/INFO]: [GriefPrevention] RimuroTempest placed suspicious WATER_BUCKET @ world: x-928, z-951
+[01:58:30] [Async Chat Thread - #28/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> thank you very much haha[m
+[01:58:41] [Async Chat Thread - #28/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> I actually died haha[m
+[01:58:45] [Async Chat Thread - #28/INFO]: [m[0;33;1m[User] [0;33;1m[User] big_tasty[m [0;36;1m> oh damn[m
+[01:58:47] [Server thread/INFO]: big_tasty withered away
+[01:58:51] [Async Chat Thread - #28/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> oh fuck[m
+[01:58:54] [Async Chat Thread - #28/INFO]: [m[0;33;1m[User] [0;33;1m[User] big_tasty[m [0;36;1m> oh[m
+[01:58:58] [Async Chat Thread - #28/INFO]: [m[0;33;1m[User] [0;33;1m[User] big_tasty[m [0;36;1m> fuck haha[m
+[01:59:01] [Async Chat Thread - #28/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> tp?[m
+[01:59:02] [Server thread/INFO]: big_tasty issued server command: /home
+[01:59:24] [Server thread/INFO]: big_tasty issued server command: /tpa jhor
+[01:59:27] [Server thread/INFO]: Jhor issued server command: /tpaccept
+[01:59:37] [Async Chat Thread - #28/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> you should pack a totem of undying next time haha[m
+[01:59:41] [Async Chat Thread - #28/INFO]: [m[0;33;1m[User] [0;33;1m[User] big_tasty[m [0;36;1m> yeah[m
+[01:59:47] [Async Chat Thread - #28/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> that's the only reason I lived just now haha[m
+[01:59:52] [Server thread/INFO]: [GriefPrevention] RimuroTempest placed suspicious WATER_BUCKET @ world: x-911, z-950
+[02:00:45] [Async Chat Thread - #28/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> do you have some glass?[m
+[02:00:51] [Server thread/INFO]: Jhor issued server command: /home mine
+[02:00:56] [Async Chat Thread - #28/INFO]: [m[0;33;1m[User] [0;33;1m[User] big_tasty[m [0;36;1m> our villager sells glass[m
+[02:01:04] [Async Chat Thread - #28/INFO]: [m[0;33;1m[User] [0;33;1m[User] big_tasty[m [0;36;1m> but i think we have some extra[m
+[02:01:37] [Async Chat Thread - #28/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> oh it's ayt hannah, my villagers sell[m
+[02:01:49] [Async Chat Thread - #28/INFO]: [m[0;33;1m[User] [0;33;1m[User] big_tasty[m [0;36;1m> ah yeah i got a stack for ye[m
+[02:01:58] [Server thread/INFO]: Jhor issued server command: /home mine
+[02:02:16] [Server thread/INFO]: big_tasty issued server command: /tpa jhor
+[02:02:27] [Server thread/INFO]: Jhor issued server command: /tpaccept
+[02:02:39] [Async Chat Thread - #28/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> careful haha[m
+[02:03:01] [Async Chat Thread - #28/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> thanks hannah[m
+[02:03:04] [Server thread/INFO]: Jhor issued server command: /home
+[02:03:05] [Async Chat Thread - #28/INFO]: [m[0;33;1m[User] [0;33;1m[User] big_tasty[m [0;36;1m> np[m
+[02:03:07] [Server thread/INFO]: big_tasty issued server command: /home
+[02:03:25] [Server thread/INFO]: big_tasty issued server command: /home
+[02:11:37] [Server thread/INFO]: RimuroTempest issued server command: /home
+[02:12:41] [Server thread/INFO]: RimuroTempest issued server command: /home
+[02:15:08] [Server thread/INFO]: Jhor lost connection: Disconnected
+[02:15:08] [Server thread/INFO]: Jhor has left the game.
+[02:15:40] [Server thread/INFO]: big_tasty issued server command: /MCtop acrobatics
+[02:15:59] [Server thread/INFO]: big_tasty issued server command: /mcrank
+[02:16:43] [Server thread/INFO]: big_tasty lost connection: Disconnected
+[02:16:43] [Server thread/INFO]: big_tasty has left the game.
+[02:18:50] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mYOU KNOW WHAT TIME IT IS :3 In 15 Minutes![m
+[02:22:27] [Server thread/INFO]: RimuroTempest issued server command: /home
+[02:23:05] [Server thread/INFO]: RimuroTempest lost connection: Disconnected
+[02:23:05] [Server thread/INFO]: RimuroTempest has left the game.
+[02:23:49] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mYOU KNOW WHAT TIME IT IS :3 In 10 Minutes![m
+[02:28:49] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mYOU KNOW WHAT TIME IT IS :3 In 5 Minutes![m
+[02:32:49] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mYOU KNOW WHAT TIME IT IS :3 In 1 Minutes![m
+[02:33:44] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mGOODBYE in 5 Seconds![m
+[02:33:45] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mGOODBYE in 4 Seconds![m
+[02:33:46] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mGOODBYE in 3 Seconds![m
+[02:33:47] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mGOODBYE in 2 Seconds![m
+[02:33:48] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mGOODBYE in 1 Seconds![m
+[02:33:48] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1m[0;31;1mServer Restarting![m
+[02:33:48] [Server thread/INFO]: CONSOLE issued server command: /kickall §cServer Restarting! We will be back up any minute!
+[02:33:48] [Server thread/INFO]: [0;31;22mKicked all players from server.[m
+[02:33:48] [Server thread/INFO]: Attempting to restart with run.bat
+[02:33:48] [Server thread/INFO]: Stopping server
+[02:33:48] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.17.0.0
+[02:33:48] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.17.0.0
+[02:33:48] [Server thread/INFO]: [Essentials] Disabling Essentials v2.17.0.0
+[02:33:48] [Server thread/INFO]: [Vault] [Vault][Economy] Essentials Economy unhooked.
+[02:33:48] [Server thread/INFO]: [ChestShop] Disabling ChestShop v3.10-SNAPSHOT (build 137)
+[02:33:48] [Server thread/INFO]: [GriefPrevention] Disabling GriefPrevention v16.11.6
+[02:33:48] [Server thread/INFO]: [GriefPrevention] GriefPrevention disabled.
+[02:33:48] [Server thread/INFO]: [Stargate] Disabling Stargate v0.8.2
+[02:33:48] [Server thread/INFO]: Closing all stargates.
+[02:33:48] [Server thread/INFO]: [Vault] Disabling Vault v1.7.2-b107
+[02:33:48] [Server thread/INFO]: [AutoRestart] Disabling AutoRestart v3.3.3
+[02:33:48] [Server thread/INFO]: [mcMMO] Disabling mcMMO v2.1.100-SNAPSHOT
+[02:33:48] [Server thread/INFO]: [mcMMO] Saving mcMMOPlayers... (0)
+[02:33:48] [Server thread/INFO]: [mcMMO] Finished save operation for 0 players!
+[02:33:49] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v13.7.2
+[02:33:49] [Server thread/INFO]: [HomeSpawn] Disabling HomeSpawn v3.1.4
+[02:33:49] [Server thread/INFO]: [HomeSpawn] HomeSpawn has been disabled
+[02:33:49] [Server thread/INFO]: [PermissionsEx] Disabling PermissionsEx v1.23.4
+[02:33:49] [Server thread/INFO]: Saving players
+[02:33:49] [Server thread/INFO]: Saving worlds
+[02:33:49] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
+[02:33:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[02:33:49] [Server thread/INFO]: Saving chunks for level 'world_nether'/minecraft:the_nether
+[02:33:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[02:33:49] [Server thread/INFO]: Saving chunks for level 'world_the_end'/minecraft:the_end
+[02:33:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[02:33:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[02:33:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[02:33:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
