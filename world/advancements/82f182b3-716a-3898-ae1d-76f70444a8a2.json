@@ -1329,6 +1329,7 @@
       "minecraft:deep_cold_ocean": "2019-07-21 17:41:10 +0800",
       "minecraft:taiga_hills": "2019-09-01 19:49:32 +0800",
       "minecraft:desert": "2019-08-10 00:10:04 +0800",
+      "minecraft:deep_frozen_ocean": "2019-09-02 14:42:39 +0800",
       "minecraft:jungle": "2019-07-26 15:01:55 +0800",
       "minecraft:jungle_hills": "2019-08-04 14:06:52 +0800",
       "minecraft:deep_lukewarm_ocean": "2019-08-25 16:50:25 +0800",
@@ -1952,6 +1953,7 @@
       "sweet_berries": "2019-07-25 22:20:48 +0800",
       "cooked_beef": "2019-07-21 17:59:24 +0800",
       "baked_potato": "2019-08-25 17:32:52 +0800",
+      "spider_eye": "2019-09-02 15:31:22 +0800",
       "potato": "2019-08-20 20:28:02 +0800",
       "cooked_cod": "2019-08-21 23:32:49 +0800",
       "bread": "2019-08-24 01:41:43 +0800",
@@ -2843,6 +2845,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/conduit": {
+    "criteria": {
+      "has_nautilus_core": "2019-09-02 14:58:15 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/spruce_slab": {
     "criteria": {
       "has_planks": "2019-07-21 18:15:19 +0800"
@@ -3211,6 +3219,7 @@
   },
   "minecraft:husbandry/complete_catalogue": {
     "criteria": {
+      "textures/entity/cat/tabby.png": "2019-09-02 15:16:17 +0800",
       "textures/entity/cat/british_shorthair.png": "2019-09-02 00:40:23 +0800",
       "textures/entity/cat/persian.png": "2019-08-23 18:48:10 +0800"
     },
