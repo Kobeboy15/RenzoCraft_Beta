@@ -1956,6 +1956,7 @@
       "sweet_berries": "2019-07-25 22:20:48 +0800",
       "cooked_beef": "2019-07-21 17:59:24 +0800",
       "baked_potato": "2019-08-25 17:32:52 +0800",
+      "apple": "2019-09-03 01:01:41 +0800",
       "spider_eye": "2019-09-02 15:31:22 +0800",
       "potato": "2019-08-20 20:28:02 +0800",
       "cooked_cod": "2019-08-21 23:32:49 +0800",
@@ -3245,7 +3246,8 @@
       "textures/entity/cat/jellie.png": "2019-09-02 22:03:47 +0800",
       "textures/entity/cat/ragdoll.png": "2019-09-02 20:36:48 +0800",
       "textures/entity/cat/british_shorthair.png": "2019-09-02 00:40:23 +0800",
-      "textures/entity/cat/persian.png": "2019-08-23 18:48:10 +0800"
+      "textures/entity/cat/persian.png": "2019-08-23 18:48:10 +0800",
+      "textures/entity/cat/calico.png": "2019-09-03 00:55:50 +0800"
     },
     "done": false
   },

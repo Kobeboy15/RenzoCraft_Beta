@@ -1,1402 +1,172 @@
-[18:41:40] [Server thread/INFO]: Starting minecraft server version 1.14.4
-[18:41:40] [Server thread/INFO]: Loading properties
-[18:41:40] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-1981d55-7f33c6a (MC: 1.14.4) (Implementing API version 1.14.4-R0.1-SNAPSHOT)
-[18:41:40] [Server thread/INFO]: Debug logging is disabled
-[18:41:40] [Server thread/INFO]: Using 4 threads for Netty based IO
-[18:41:40] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[18:41:40] [Server thread/INFO]: Default game type: SURVIVAL
-[18:41:40] [Server thread/INFO]: Generating keypair
-[18:41:41] [Server thread/INFO]: Starting Minecraft server on *:25565
-[18:41:41] [Server thread/INFO]: Using default channel type
-[18:41:43] [User Authenticator #1/INFO]: UUID of player Jhor is 82f182b3-716a-3898-ae1d-76f70444a8a2
-[18:41:45] [Server thread/WARN]: Plugin PermissionsEx v1.23.4 does not specify an api-version.
-[18:41:45] [Server thread/WARN]: Plugin Stargate v0.8.2 does not specify an api-version.
-[18:41:45] [Server thread/INFO]: [PermissionsEx] Loading PermissionsEx v1.23.4
-[18:41:45] [Server thread/WARN]: [PermissionsEx] This server is in offline mode. Unless this server is configured to integrate with a supported proxy (see http://dft.ba/-8ous), UUIDs *may not be stable*!
-[18:41:46] [Server thread/INFO]: [HomeSpawn] Loading HomeSpawn v3.1.4
-[18:41:46] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v13.7.3
-[18:41:46] [Server thread/INFO]: [mcMMO] Loading mcMMO v2.1.100-SNAPSHOT
-[18:41:46] [Server thread/INFO]: [AutoRestart] Loading AutoRestart v3.3.3
-[18:41:46] [Server thread/INFO]: [Vault] Loading Vault v1.7.2-b107
-[18:41:46] [Server thread/INFO]: [Stargate] Loading Stargate v0.8.2
-[18:41:46] [Server thread/INFO]: [GriefPrevention] Loading GriefPrevention v16.11.6
-[18:41:46] [Server thread/INFO]: [ChestShop] Loading ChestShop v3.10-SNAPSHOT (build 137)
-[18:41:46] [Server thread/INFO]: [Essentials] Loading Essentials v2.17.0.0
-[18:41:46] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn v2.17.0.0
-[18:41:46] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat v2.17.0.0
-[18:41:46] [Server thread/INFO]: [mcMMO] Enabling mcMMO v2.1.100-SNAPSHOT
-[18:41:46] [Server thread/INFO]: [mcMMO] enabling Acrobatics Skills
-[18:41:46] [Server thread/INFO]: [mcMMO] registered subskill: Roll
-[18:41:46] [Server thread/INFO]: [mcMMO] 0 entries in mcMMO World Blacklist
-[18:41:46] [Server thread/INFO]: [Vault] Enabling Vault v1.7.2-b107
-[18:41:46] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
-[18:41:46] [Server thread/INFO]: [Vault] [Permission] PermissionsEx found: Waiting
-[18:41:46] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[18:41:46] [Server thread/INFO]: [Vault] [Chat] PermissionsEx found: Waiting
-[18:41:46] [Server thread/INFO]: [Vault] Enabled Version 1.7.2-b107
-[18:41:46] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[18:41:46] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[18:41:46] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[18:41:46] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[18:41:46] [Server thread/INFO]: Preparing level "world"
-[18:41:46] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
-[18:41:46] [Server thread/INFO]: Loaded 6 recipes
-[18:41:46] [Server thread/INFO]: -------- World Settings For [world] --------
-[18:41:46] [Server thread/INFO]: View Distance: 8
-[18:41:46] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[18:41:46] [Server thread/INFO]: Item Despawn Rate: 6000
-[18:41:46] [Server thread/INFO]: Item Merge Radius: 2.5
-[18:41:46] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[18:41:46] [Server thread/INFO]: Experience Merge Radius: 3.0
-[18:41:46] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[18:41:46] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[18:41:46] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
-[18:41:46] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[18:41:46] [Server thread/INFO]: Cane Growth Modifier: 100%
-[18:41:46] [Server thread/INFO]: Melon Growth Modifier: 100%
-[18:41:46] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[18:41:46] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[18:41:46] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[18:41:46] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[18:41:46] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[18:41:46] [Server thread/INFO]: Potato Growth Modifier: 100%
-[18:41:46] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[18:41:46] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[18:41:46] [Server thread/INFO]: Vine Growth Modifier: 100%
-[18:41:46] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[18:41:46] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[18:41:46] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[18:41:46] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[18:41:46] [Server thread/INFO]: Mob Spawn Range: 6
-[18:41:46] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[18:41:46] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[18:41:46] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[18:41:46] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[18:41:46] [Server thread/INFO]: Max TNT Explosions: 100
-[18:41:46] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[18:41:46] [Server thread/INFO]: View Distance: 8
-[18:41:46] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[18:41:46] [Server thread/INFO]: Item Despawn Rate: 6000
-[18:41:46] [Server thread/INFO]: Item Merge Radius: 2.5
-[18:41:46] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[18:41:46] [Server thread/INFO]: Experience Merge Radius: 3.0
-[18:41:46] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[18:41:46] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[18:41:46] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
-[18:41:46] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[18:41:46] [Server thread/INFO]: Cane Growth Modifier: 100%
-[18:41:46] [Server thread/INFO]: Melon Growth Modifier: 100%
-[18:41:46] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[18:41:46] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[18:41:46] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[18:41:46] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[18:41:46] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[18:41:46] [Server thread/INFO]: Potato Growth Modifier: 100%
-[18:41:46] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[18:41:46] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[18:41:46] [Server thread/INFO]: Vine Growth Modifier: 100%
-[18:41:46] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[18:41:46] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[18:41:46] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[18:41:46] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[18:41:46] [Server thread/INFO]: Mob Spawn Range: 6
-[18:41:46] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[18:41:46] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[18:41:46] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[18:41:46] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[18:41:46] [Server thread/INFO]: Max TNT Explosions: 100
-[18:41:46] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[18:41:46] [Server thread/INFO]: View Distance: 8
-[18:41:46] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[18:41:46] [Server thread/INFO]: Item Despawn Rate: 6000
-[18:41:46] [Server thread/INFO]: Item Merge Radius: 2.5
-[18:41:46] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[18:41:46] [Server thread/INFO]: Experience Merge Radius: 3.0
-[18:41:46] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[18:41:46] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[18:41:46] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
-[18:41:46] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[18:41:46] [Server thread/INFO]: Cane Growth Modifier: 100%
-[18:41:46] [Server thread/INFO]: Melon Growth Modifier: 100%
-[18:41:46] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[18:41:46] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[18:41:46] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[18:41:46] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[18:41:46] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[18:41:46] [Server thread/INFO]: Potato Growth Modifier: 100%
-[18:41:46] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[18:41:46] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[18:41:46] [Server thread/INFO]: Vine Growth Modifier: 100%
-[18:41:46] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[18:41:46] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[18:41:46] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[18:41:46] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[18:41:46] [Server thread/INFO]: Mob Spawn Range: 6
-[18:41:46] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[18:41:46] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[18:41:46] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[18:41:46] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[18:41:46] [Server thread/INFO]: Max TNT Explosions: 100
-[18:41:46] [Server thread/INFO]: Preparing start region for dimension 'world'/minecraft:overworld
-[18:41:47] [Server thread/INFO]: Preparing spawn area: 0%
-[18:41:47] [Server thread/INFO]: Preparing spawn area: 0%
-[18:41:47] [Server thread/INFO]: Time elapsed: 741 ms
-[18:41:47] [Server thread/INFO]: Preparing start region for dimension 'world_nether'/minecraft:the_nether
-[18:41:48] [Server thread/INFO]: Preparing spawn area: 0%
-[18:41:48] [Server thread/INFO]: Time elapsed: 531 ms
-[18:41:48] [Server thread/INFO]: Preparing start region for dimension 'world_the_end'/minecraft:the_end
-[18:41:48] [Server thread/INFO]: Preparing spawn area: 0%
-[18:41:48] [Server-Worker-4/INFO]: Preparing spawn area: 87%
-[18:41:48] [Server thread/INFO]: Time elapsed: 575 ms
-[18:41:48] [Server thread/INFO]: [PermissionsEx] Enabling PermissionsEx v1.23.4
-[18:41:48] [Server thread/INFO]: [PermissionsEx] Initializing file backend
-[18:41:48] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
-[18:41:48] [Server thread/INFO]: [Vault][Permission] PermissionsEx hooked.
-[18:41:48] [Server thread/INFO]: [Vault] [Vault][Chat] PermissionsEx_Chat hooked.
-[18:41:48] [Server thread/INFO]: [HomeSpawn] Enabling HomeSpawn v3.1.4
-[18:41:48] [Server thread/INFO]: [HomeSpawn] HomeSpawn v3.1.4 has been enabled
-[18:41:48] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v13.7.3
-[18:41:49] [Server thread/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1mDetected Minecraft [0;33;1mv1_14_R1[0;32;1m, using [0;33;1mUniversalSkinFactory[0;32;1m.[m
-[18:41:49] [Server thread/INFO]: [SkinsRestorer] Verbose is missing in config.yml! Using default value.
-[18:41:49] [Server thread/INFO]: [AutoRestart] Enabling AutoRestart v3.3.3
-[18:41:49] [Server thread/INFO]: [0;32;1m[AutoRestart] Loaded![m
-[18:41:49] [Server thread/INFO]: [Stargate] Enabling Stargate v0.8.2
-[18:41:49] [Server thread/INFO]: Stargate v.0.8.2 is enabled.
-[18:41:49] [Server thread/INFO]: [Stargate] Loaded 1 gate layouts
-[18:41:49] [Server thread/INFO]: [Stargate] {world} No stargates for world 
-[18:41:49] [Server thread/INFO]: [Stargate] {world_nether} No stargates for world 
-[18:41:49] [Server thread/INFO]: [Stargate] {world_the_end} No stargates for world 
-[18:41:49] [Server thread/INFO]: [GriefPrevention] Enabling GriefPrevention v16.11.6
-[18:41:49] [Server thread/INFO]: [GriefPrevention] Finished loading configuration.
-[18:41:49] [Server thread/INFO]: [GriefPrevention] 63 total claims loaded.
-[18:41:50] [Server thread/INFO]: [GriefPrevention] Customizable messages loaded.
-[18:41:50] [Server thread/INFO]: [GriefPrevention] Finished loading data (File Mode).
-[18:41:50] [Server thread/INFO]: [GriefPrevention] Boot finished.
-[18:41:50] [Server thread/INFO]: [ChestShop] Enabling ChestShop v3.10-SNAPSHOT (build 137)
-[18:41:50] [Server thread/INFO]: [ChestShop] Using Essentials Economy as the Economy provider now.
-[18:41:50] [Server thread/INFO]: [ChestShop] Vault loaded!
-[18:41:50] [Server thread/INFO]: [Essentials] Enabling Essentials v2.17.0.0
-[18:41:50] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
-[18:41:50] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
-[18:41:50] [Server thread/INFO]: No kits found to migrate.
-[18:41:50] [Server thread/INFO]: [Essentials] Using 1.8.3+ BlockStateMeta provider as mob spawner provider.
-[18:41:50] [Server thread/INFO]: [Essentials] Using 1.13+ flat spawn egg provider as spawn egg provider.
-[18:41:50] [Server thread/INFO]: [Essentials] Using 1.9+ BasePotionData provider as potion meta provider.
-[18:41:50] [Server thread/INFO]: Loaded 20977 items from items.json.
-[18:41:50] [Server thread/INFO]: Using locale en_US
-[18:41:50] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[18:41:50] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[18:41:50] [Server thread/INFO]: [Vault] [Vault][Economy] Essentials Economy hooked.
-[18:41:50] [Server thread/INFO]: [Essentials] Using Vault based permissions (PermissionsEx)
-[18:41:50] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.17.0.0
-[18:41:50] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.17.0.0
-[18:41:50] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[18:41:51] [Server thread/INFO]: Done (4.648s)! For help, type "help"
-[18:41:51] [Craft Scheduler Thread - 0/INFO]: [mcMMO] Cleaned backup files. Deleted 1 of 21 files.
-[18:41:51] [Craft Scheduler Thread - 2/INFO]: [HomeSpawn] HomeSpawn file watcher started!
-[18:41:51] [Craft Scheduler Thread - 3/INFO]: [HomeSpawn] §fAn update for HomeSpawn is available and can be downloaded and installed by running /homespawn update
-[18:41:51] [Craft Scheduler Thread - 4/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m----------------------------------------------[m
-[18:41:51] [Craft Scheduler Thread - 4/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    +===============+[m
-[18:41:51] [Craft Scheduler Thread - 4/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    | SkinsRestorer |[m
-[18:41:51] [Craft Scheduler Thread - 4/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    +===============+[m
-[18:41:51] [Craft Scheduler Thread - 4/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m----------------------------------------------[m
-[18:41:51] [Craft Scheduler Thread - 4/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;36;1m    Current version: [0;32;1m13.7.3[m
-[18:41:51] [Craft Scheduler Thread - 4/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    This is the latest version![m
-[18:41:51] [Craft Scheduler Thread - 4/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m----------------------------------------------[m
-[18:41:51] [User Authenticator #2/INFO]: UUID of player big_tasty is bcea9435-1386-3cb2-a2cd-2ea98eae3322
-[18:41:52] [Server thread/INFO]: [0;32;1m[AutoRestart] Up to date![m
-[18:41:52] [Craft Scheduler Thread - 1/INFO]: [Vault] Checking for Updates ... 
-[18:41:52] [Craft Scheduler Thread - 1/INFO]: [Vault] No new version available
-[18:41:52] [Server thread/INFO]: Jhor[/0:0:0:0:0:0:0:1:53345] logged in with entity id 171 at ([world]436.3916963350953, 128.0, 94.33649004985165)
-[18:41:53] [Server thread/INFO]: big_tasty[/0:0:0:0:0:0:0:1:53361] logged in with entity id 207 at ([world]459.65680544129367, 11.0, 141.02557426592486)
-[18:41:53] [Server thread/INFO]: [0;33;1mJhor has joined the game.[m
-[18:41:53] [Server thread/INFO]: [0;33;1mbig_tasty has joined the game.[m
-[18:42:04] [Server thread/INFO]: [mcMMO] WorldGuard was not detected.
-[18:48:21] [User Authenticator #3/INFO]: UUID of player lolo_lola_69 is 646085da-be96-308b-8634-fb8b260022a5
-[18:48:21] [Server thread/INFO]: lolo_lola_69[/0:0:0:0:0:0:0:1:53921] logged in with entity id 1984 at ([world]744.728264579574, 72.0625, -61.808907815000765)
-[18:48:21] [Server thread/INFO]: [0;33;1mlolo_lola_69 has joined the game.[m
-[18:52:15] [Server thread/INFO]: Jhor issued server command: /home
-[18:58:25] [Server thread/INFO]: Jhor issued server command: /home
-[19:00:26] [Server thread/INFO]: lolo_lola_69 issued server command: /home
-[19:01:00] [Server thread/INFO]: Jhor issued server command: /taming
-[19:01:27] [Server thread/INFO]: [GriefPrevention] lolo_lola_69 placed a sign @ world: x739, z-56;Casa de Son;Welcomes you!
-[19:05:37] [Server thread/INFO]: Jhor issued server command: /home
-[19:07:12] [Server thread/INFO]: big_tasty issued server command: /home
-[19:07:44] [Server thread/INFO]: Jhor issued server command: /home
-[19:07:48] [Async Chat Thread - #0/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> guys if naa mo bone meals, pwede mangayo[m
-[19:07:54] [Server thread/INFO]: Jhor issued server command: /home
-[19:07:56] [Async Chat Thread - #0/INFO]: [m[0;33;1m[User] [0;33;1m[User] big_tasty[m [0;36;1m> naa sa farm[m
-[19:08:07] [Async Chat Thread - #0/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> ok tyty[m
-[19:08:12] [Server thread/INFO]: Jhor issued server command: /home
-[19:08:22] [Server thread/INFO]: Jhor lost connection: Disconnected
-[19:08:22] [Server thread/INFO]: Jhor has left the game.
-[19:24:34] [Async Chat Thread - #1/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> hannah[m
-[19:24:39] [Async Chat Thread - #1/INFO]: [m[0;33;1m[User] [0;33;1m[User] big_tasty[m [0;36;1m> yeh[m
-[19:24:45] [Async Chat Thread - #1/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> i dont like CS anymore[m
-[19:24:56] [Async Chat Thread - #1/INFO]: [m[0;33;1m[User] [0;33;1m[User] big_tasty[m [0;36;1m> tru[m
-[19:25:08] [Async Chat Thread - #1/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> i think[m
-[19:25:16] [Async Chat Thread - #1/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> i just enjoy the people in it[m
-[19:25:28] [Server thread/INFO]: lolo_lola_69 lost connection: Disconnected
-[19:25:28] [Server thread/INFO]: lolo_lola_69 has left the game.
-[19:25:30] [User Authenticator #4/INFO]: UUID of player Jhor is 82f182b3-716a-3898-ae1d-76f70444a8a2
-[19:25:30] [Server thread/INFO]: Jhor[/0:0:0:0:0:0:0:1:57005] logged in with entity id 16165 at ([world]430.4001600669433, 130.0625, 94.47111453853066)
-[19:25:30] [Server thread/INFO]: [0;33;1mJhor has joined the game.[m
-[19:26:23] [User Authenticator #5/INFO]: UUID of player lolo_lola_69 is 646085da-be96-308b-8634-fb8b260022a5
-[19:26:23] [Server thread/INFO]: lolo_lola_69[/0:0:0:0:0:0:0:1:57056] logged in with entity id 16729 at ([world]626.8654425913074, 67.5, -19.263067974715575)
-[19:26:23] [Server thread/INFO]: [0;33;1mlolo_lola_69 has joined the game.[m
-[19:26:42] [Async Chat Thread - #2/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> oi[m
-[19:26:48] [Async Chat Thread - #2/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> kasuway mo narrator[m
-[19:27:04] [Async Chat Thread - #2/INFO]: [m[0;33;1m[User] [0;33;1m[User] big_tasty[m [0;36;1m> whats that[m
-[19:27:20] [Async Chat Thread - #2/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> at the main menu, u see a smol person icon[m
-[19:27:26] [Async Chat Thread - #2/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> turn on narrator[m
-[19:28:52] [Server thread/INFO]: lolo_lola_69 lost connection: Disconnected
-[19:28:52] [Server thread/INFO]: lolo_lola_69 has left the game.
-[19:29:07] [User Authenticator #6/INFO]: UUID of player lolo_lola_69 is 646085da-be96-308b-8634-fb8b260022a5
-[19:29:07] [Server thread/INFO]: lolo_lola_69[/0:0:0:0:0:0:0:1:57275] logged in with entity id 18195 at ([world]746.299999974668, 75.0625002, -65.70000002533197)
-[19:29:07] [Server thread/INFO]: [0;33;1mlolo_lola_69 has joined the game.[m
-[19:29:17] [Async Chat Thread - #3/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> excalated quickly[m
-[19:29:21] [Async Chat Thread - #3/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> es[m
-[19:29:31] [Server thread/INFO]: lolo_lola_69 issued server command: /tpa big_tasty
-[19:29:38] [Server thread/INFO]: big_tasty issued server command: /tpaccept
-[19:29:40] [Async Chat Thread - #3/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> wheres the bones[m
-[19:30:20] [Server thread/INFO]: big_tasty issued server command: /home
-[19:30:32] [Async Chat Thread - #3/INFO]: [m[0;33;1m[User] [0;33;1m[User] big_tasty[m [0;36;1m> u can tp again i went home[m
-[19:30:36] [Server thread/INFO]: lolo_lola_69 issued server command: /tpa big_tasty
-[19:30:38] [Async Chat Thread - #3/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> ty[m
-[19:30:42] [Server thread/INFO]: big_tasty issued server command: /tpaccept
-[19:30:59] [Async Chat Thread - #3/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> were u looking for diams[m
-[19:31:06] [Async Chat Thread - #3/INFO]: [m[0;33;1m[User] [0;33;1m[User] big_tasty[m [0;36;1m> yeah haha[m
-[19:31:54] [User Authenticator #7/INFO]: UUID of player kdremeds is ce9932c4-dd5f-35bf-89f5-2e72b97a1bb2
-[19:31:55] [Server thread/INFO]: kdremeds[/0:0:0:0:0:0:0:1:57506] logged in with entity id 19854 at ([world]-655.6677960381596, 8.0, -508.69999998807907)
-[19:31:55] [Server thread/INFO]: [0;33;1mkdremeds has joined the game.[m
-[19:31:57] [Craft Scheduler Thread - 32/INFO]: [SkinsRestorer] Unsupported player format.. removing (heed04).
-[19:32:40] [Async Chat Thread - #4/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> do u have extra sign[m
-[19:32:44] [Async Chat Thread - #4/INFO]: [m[0;33;1m[User] [0;33;1m[User] big_tasty[m [0;36;1m> yeh[m
-[19:33:03] [Async Chat Thread - #4/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> ty[m
-[19:33:07] [Async Chat Thread - #4/INFO]: [m[0;33;1m[User] [0;33;1m[User] big_tasty[m [0;36;1m> np[m
-[19:34:18] [Server thread/INFO]: [GriefPrevention] lolo_lola_69 placed a sign @ world: x479, z224;<<<------<<;Semi-primordial;Arrow;do not touch
-[19:34:26] [Server thread/INFO]: lolo_lola_69 issued server command: /home
-[19:36:24] [Server thread/INFO]: big_tasty lost connection: Disconnected
-[19:36:24] [Server thread/INFO]: big_tasty has left the game.
-[19:41:04] [Server thread/INFO]: Jhor lost connection: Disconnected
-[19:41:04] [Server thread/INFO]: Jhor has left the game.
-[19:42:33] [Server thread/INFO]: kdremeds lost connection: Timed out
-[19:42:33] [Server thread/INFO]: kdremeds has left the game.
-[19:47:18] [Server thread/INFO]: lolo_lola_69 lost connection: Disconnected
-[19:47:18] [Server thread/INFO]: lolo_lola_69 has left the game.
-[19:55:46] [User Authenticator #8/INFO]: UUID of player lolo_lola_69 is 646085da-be96-308b-8634-fb8b260022a5
-[19:55:46] [Server thread/INFO]: lolo_lola_69[/0:0:0:0:0:0:0:1:59516] logged in with entity id 24917 at ([world]741.0271716122095, 70.5, -56.62511480328095)
-[19:55:46] [Server thread/INFO]: [0;33;1mlolo_lola_69 has joined the game.[m
-[20:10:25] [User Authenticator #9/INFO]: UUID of player Kobeboy15 is dc70f05a-14b3-350c-91b3-ecddbe830761
-[20:10:26] [Server thread/INFO]: Kobeboy15[/0:0:0:0:0:0:0:1:60767] logged in with entity id 27986 at ([world]635.4027348954684, 92.5, 151.70073963026744)
-[20:10:26] [Server thread/INFO]: [0;33;1mKobeboy15 has joined the game.[m
-[20:11:34] [Server thread/INFO]: Kobeboy15 issued server command: /give Kobeboy15 diamondsword 1
-[20:11:38] [Server thread/INFO]: Kobeboy15 issued server command: /give Kobeboy15 diamond_sword 1
-[20:13:15] [Server thread/INFO]: Kobeboy15 issued server command: /give Kobeboy15 diamond_chestplate{Enchantments:[{id:13,lvl:1000}]} 1
-[20:13:45] [Server thread/INFO]: Kobeboy15 issued server command: /give Kobeboy15 minecraft:diamond_chestplate{Enchantments:[{id:13,lvl:1000}]} 1
-[20:15:15] [Server thread/INFO]: Kobeboy15 issued server command: /give Kobeboy15 minecraft:potion{Potion:"minecraft:slowness"} 1 (the potion)
-[20:16:28] [Server thread/INFO]: Kobeboy15 issued server command: /give Kobeboy15 diamond_sword{display:{Lore:["text here"]}}
-[20:16:38] [Server thread/INFO]: Kobeboy15 issued server command: /give Kobeboy15 diamond_sword{display:{Lore:["text here"]}} 1 0
-[20:16:40] [Server thread/INFO]: Kobeboy15 issued server command: /give Kobeboy15 diamond_sword{display:{Lore:["text here"]}} 1
-[20:16:48] [Server thread/INFO]: Kobeboy15 issued server command: /give Kobeboy15 diamond_sword 1{display:{Lore:["text here"]}} 1
-[20:19:13] [Server thread/INFO]: Kobeboy15 issued server command: /endersee
-[20:19:30] [Server thread/INFO]: Kobeboy15 issued server command: /enchant unbreaking 40
-[20:19:58] [Server thread/INFO]: Kobeboy15 issued server command: /enchant unbreaking 3
-[20:20:04] [Server thread/INFO]: Kobeboy15 issued server command: /enchant unbreakable
-[20:20:14] [Server thread/INFO]: Kobeboy15 lost connection: Disconnected
-[20:20:14] [Server thread/INFO]: Kobeboy15 has left the game.
-[20:20:53] [User Authenticator #10/INFO]: UUID of player Kobeboy15 is dc70f05a-14b3-350c-91b3-ecddbe830761
-[20:20:53] [Server thread/INFO]: Kobeboy15[/0:0:0:0:0:0:0:1:61708] logged in with entity id 30580 at ([world]755.3000000119209, 75.0, 28.514005602542923)
-[20:20:53] [Server thread/INFO]: [0;33;1mKobeboy15 has joined the game.[m
-[20:21:03] [Server thread/INFO]: CommandBlock at 747,70,19 issued server command: /give @p diamond_sword{Unbreakable:1,Enchantments:[{id:sharpness,lvl:1000}]} 1
-[20:21:05] [Server thread/INFO]: CommandBlock at 747,70,19 issued server command: /give @p diamond_sword{Unbreakable:1,Enchantments:[{id:sharpness,lvl:1000}]} 1
-[20:21:06] [Server thread/INFO]: CommandBlock at 747,70,19 issued server command: /give @p diamond_sword{Unbreakable:1,Enchantments:[{id:sharpness,lvl:1000}]} 1
-[20:21:20] [Server thread/INFO]: CommandBlock at 747,70,19 issued server command: /give @p diamond_sword{Unbreakable:1,Enchantments:[{id:sharpness,lvl:1000}]} 1
-[20:21:42] [Server thread/INFO]: Kobeboy15 issued server command: /fly lolo_lola_69
-[20:23:06] [Server thread/INFO]: Kobeboy15 issued server command: /give @p diamond_sword 1 0 {Unbreakable:1}
-[20:23:12] [Server thread/INFO]: Kobeboy15 issued server command: /give Kobeboy15 diamond_sword 1 0 {Unbreakable:1}
-[20:23:23] [Server thread/INFO]: Kobeboy15 issued server command: /fly lolo_lola_69
-[20:24:58] [Server thread/INFO]: Kobeboy15 issued server command: /fly lolo_lola_69
-[20:26:09] [Server thread/INFO]: Kobeboy15 issued server command: /give Kobeboy15 diamond_sword 1 0 {Unbreakable:1,ench:[{id:16,lvl:5}]}
-[20:26:25] [Server thread/INFO]: Kobeboy15 issued server command: /give Kobeboy15 diamond_sword 1 0 {Unbreakable:1,ench:[{id:16,lvl:4}]}
-[20:26:48] [Server thread/INFO]: Kobeboy15 issued server command: /give Kobeboy15 diamond_sword 1 0 {Unbreakable:1,Enchantments:[{id:16,lvl:4}]}
-[20:27:02] [User Authenticator #11/INFO]: UUID of player Jhor is 82f182b3-716a-3898-ae1d-76f70444a8a2
-[20:27:02] [Server thread/INFO]: Jhor[/0:0:0:0:0:0:0:1:62216] logged in with entity id 31833 at ([world]-386.4740223949542, 64.0, -1597.634064177546)
-[20:27:02] [Server thread/INFO]: [0;33;1mJhor has joined the game.[m
-[20:27:07] [Server thread/INFO]: Kobeboy15 issued server command: /give Kobeboy15 diamond_sword 1 0 {Enchantments:[{id:16,lvl:4}]}
-[20:27:41] [Server thread/INFO]: Kobeboy15 issued server command: /give Kobeboy15 diamond_axe 1 0 {Unbreakable:1,ench:[{id:16,lvl:5},{id:17,lvl:6},{id:21,lvl:3},{id:32,lvl:5,display:{Name:"Axe",Lore:["A very big axe"]}}
-[20:27:41] [Server thread/ERROR]: null
-com.mojang.brigadier.exceptions.CommandSyntaxException: Expected ']' at position 121: ...ig axe"]}}<--[HERE]
-[20:29:34] [Server thread/INFO]: Kobeboy15 issued server command: /give Kobeboy15 diamond_sword{freeze:2,display:{Lore:["Freeze II"]}}
-[20:29:45] [Server thread/INFO]: Kobeboy15 issued server command: /give Kobeboy15 diamond_sword 1 0 {freeze:2,display:{Lore:["Freeze II"]}}
-[20:32:29] [Server thread/INFO]: Kobeboy15 issued server command: /give Kobeboy15 minecraft:diamond_sword{Unbreakable:1b,Enchantments:[{id:"minecraft:knockback",lvl:20s}]} 1
-[20:32:38] [Server thread/INFO]: Kobeboy15 lost connection: Disconnected
-[20:32:38] [Server thread/INFO]: Kobeboy15 has left the game.
-[20:33:09] [User Authenticator #12/INFO]: UUID of player Kobeboy15 is dc70f05a-14b3-350c-91b3-ecddbe830761
-[20:33:10] [Server thread/INFO]: Kobeboy15[/0:0:0:0:0:0:0:1:62719] logged in with entity id 34433 at ([world]680.3685711965084, 66.0, -44.04285195752426)
-[20:33:10] [Server thread/INFO]: [0;33;1mKobeboy15 has joined the game.[m
-[20:33:26] [Server thread/INFO]: Kobeboy15 issued server command: /give Kobeboy15 minecraft:diamond_sword 1 0 {Unbreakable:1b,Enchantments:[{id:"minecraft:knockback",lvl:20s}]}
-[20:33:38] [Server thread/INFO]: Kobeboy15 issued server command: /give Kobeboy15 diamond_sword 1 0 {Unbreakable:1b,Enchantments:[{id:"minecraft:knockback",lvl:20s}]}
-[20:36:52] [Server thread/INFO]: Kobeboy15 issued server command: /whisper lolo_lola_69 "give Kobeboy15 diamond_sword 1 0 {Unbreakable:1b,Enchantments:[{id:"minecraft:knockback",lvl:20s}]}"
-[20:38:23] [Server thread/INFO]: Kobeboy15 issued server command: /whisper lolo_lola_69 "give Kobeboy15 diamond_sword 1 0 {Unbreakable:1b,Enchantments:[{id:"minecraft:knockback",lvl:20s},{id:"minecraft:sharpness",lvl:30s}]}"
-[20:38:40] [Server thread/INFO]: Kobeboy15 issued server command: /give Kobeboy15 diamond_sword 1 0 {Unbreakable:1b,Enchantments:[{id:"minecraft:knockback",lvl:20s},{id:"minecraft:sharpness",lvl:30s}]}"
-[20:38:40] [Server thread/ERROR]: null
-com.mojang.brigadier.exceptions.CommandSyntaxException: Unexpected trailing data at position 101: ...lvl:30s}]}<--[HERE]
-[20:39:27] [Server thread/INFO]: Kobeboy15 issued server command: /give Kobeboy15 diamond_sword 1 0 {Unbreakable:1b,Enchantments:[{id:"minecraft:knockback",lvl:20s}]}"
-[20:39:27] [Server thread/ERROR]: null
-com.mojang.brigadier.exceptions.CommandSyntaxException: Unexpected trailing data at position 66: ...lvl:20s}]}<--[HERE]
-[20:39:34] [Server thread/INFO]: Kobeboy15 issued server command: /give Kobeboy15 diamond_sword 1 0 {Unbreakable:1b,Enchantments:[{id:"minecraft:knockback",lvl:20s}]}
-[20:39:39] [Server thread/INFO]: Kobeboy15 issued server command: /give Kobeboy15 diamond_sword 1 0 {Unbreakable:1b,Enchantments:[{id:"minecraft:knockback",lvl:20}]}
-[20:39:45] [User Authenticator #13/INFO]: UUID of player Johann is f160dbef-552f-3b70-af9a-129d0ff0c675
-[20:39:45] [Server thread/INFO]: Johann[/0:0:0:0:0:0:0:1:63288] logged in with entity id 36385 at ([world]600.0376647834588, 87.0, -94.832887582496)
-[20:39:45] [Server thread/INFO]: [0;33;1mJohann has joined the game.[m
-[20:39:47] [Server thread/INFO]: Kobeboy15 issued server command: /give Kobeboy15 diamond_sword 1 0 {Unbreakable:1,Enchantments:[{id:"minecraft:knockback",lvl:20}]}
-[20:39:47] [Craft Scheduler Thread - 61/INFO]: [SkinsRestorer] Unsupported player format.. removing (rodrigue_).
-[20:39:51] [Async Chat Thread - #5/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> hi joh[m
-[20:39:54] [Async Chat Thread - #5/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> ga discord mi[m
-[20:40:04] [Async Chat Thread - #5/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> kobe is looking into making relic weapons[m
-[20:40:05] [Async Chat Thread - #5/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> ni hao[m
-[20:40:06] [User Authenticator #14/INFO]: UUID of player Garbaganoosh is 9fad2bc3-c881-315d-90bf-71abae00e489
-[20:40:07] [Server thread/INFO]: Garbaganoosh[/0:0:0:0:0:0:0:1:63307] logged in with entity id 36498 at ([world]-10.5, 69.0, 211.5)
-[20:40:07] [Server thread/INFO]: [0;33;1mGarbaganoosh has joined the game.[m
-[20:40:07] [pool-10-thread-1/INFO]: Creating empty config: C:\Users\Renzo Sy\Desktop\minecraft server\RenzoCraft_Beta\plugins\Essentials\userdata\9fad2bc3-c881-315d-90bf-71abae00e489.yml
-[20:40:07] [Server thread/INFO]: Garbaganoosh has made the advancement [Getting an Upgrade]
-[20:40:07] [Async Chat Thread - #5/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> i have given[m
-[20:40:10] [Async Chat Thread - #5/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> thomas[m
-[20:40:12] [Async Chat Thread - #5/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> he IP[m
-[20:40:13] [Async Chat Thread - #5/INFO]: [m[0;33;1m[User] [0;33;1m[User] Garbaganoosh[m [0;36;1m> ohhhhh[m
-[20:40:18] [Async Chat Thread - #5/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> oooh[m
-[20:40:21] [Async Chat Thread - #5/INFO]: [m[0;33;1m[User] [0;33;1m[User] Garbaganoosh[m [0;36;1m> aw man my skin is gone[m
-[20:40:22] [Async Chat Thread - #5/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> hi thom[m
-[20:40:22] [Async Chat Thread - #5/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> oh god[m
-[20:40:22] [Async Chat Thread - #5/INFO]: [m[0;33;1m[User] [0;33;1m[User] Garbaganoosh[m [0;36;1m> oh well[m
-[20:40:23] [Async Chat Thread - #5/INFO]: [m[0;33;1m[User] [0;33;1m[User] Kobeboy15[m [0;36;1m> give him the discroddd[m
-[20:40:25] [Async Chat Thread - #5/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> is that him[m
-[20:40:25] [Async Chat Thread - #5/INFO]: [m[0;33;1m[User] [0;33;1m[User] Garbaganoosh[m [0;36;1m> hi[m
-[20:40:30] [Async Chat Thread - #5/INFO]: [m[0;33;1m[User] [0;33;1m[User] Garbaganoosh[m [0;36;1m> I cant discord[m
-[20:40:33] [Async Chat Thread - #5/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> im vlad[m
-[20:40:33] [Async Chat Thread - #5/INFO]: [m[0;33;1m[User] [0;33;1m[User] Garbaganoosh[m [0;36;1m> im on data here[m
-[20:40:34] [Async Chat Thread - #5/INFO]: [m[0;33;1m[User] [0;33;1m[User] Garbaganoosh[m [0;36;1m> sorry[m
-[20:40:38] [Async Chat Thread - #5/INFO]: [m[0;33;1m[User] [0;33;1m[User] Garbaganoosh[m [0;36;1m> hi vlad[m
-[20:40:40] [Server thread/INFO]: Kobeboy15 issued server command: /tp Garbaganoosh
-[20:41:00] [Async Chat Thread - #5/INFO]: [m[0;33;1m[User] [0;33;1m[User] Garbaganoosh[m [0;36;1m> oooo[m
-[20:41:01] [Async Chat Thread - #5/INFO]: [m[0;33;1m[User] [0;33;1m[User] Garbaganoosh[m [0;36;1m> a girl[m
-[20:41:03] [Async Chat Thread - #5/INFO]: [m[0;33;1m[User] [0;33;1m[User] Kobeboy15[m [0;36;1m> hahahahaha[m
-[20:41:04] [Async Chat Thread - #5/INFO]: [m[0;33;1m[User] [0;33;1m[User] Garbaganoosh[m [0;36;1m> hello[m
-[20:41:06] [Async Chat Thread - #5/INFO]: [m[0;33;1m[User] [0;33;1m[User] Garbaganoosh[m [0;36;1m> ;)[m
-[20:41:20] [Server thread/INFO]: Kobeboy15 issued server command: /spawn thunder Kobeboy15
-[20:41:37] [Server thread/INFO]: Kobeboy15 issued server command: /home
-[20:41:50] [Async Chat Thread - #5/INFO]: [m[0;33;1m[User] [0;33;1m[User] Kobeboy15[m [0;36;1m> welcome to the server thom :3[m
-[20:41:53] [Server thread/WARN]: Kobeboy15 moved too quickly! -8.980754411026965,-3.909682881818185,-10.455570022563833
-[20:41:55] [Async Chat Thread - #5/INFO]: [m[0;33;1m[User] [0;33;1m[User] Garbaganoosh[m [0;36;1m> ty uwu[m
-[20:41:59] [Async Chat Thread - #5/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> tom[m
-[20:42:02] [Async Chat Thread - #5/INFO]: [m[0;33;1m[User] [0;33;1m[User] Garbaganoosh[m [0;36;1m> joh[m
-[20:42:05] [Async Chat Thread - #5/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> live[m
-[20:42:06] [Async Chat Thread - #5/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> across[m
-[20:42:08] [Async Chat Thread - #5/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> the wall[m
-[20:42:08] [Async Chat Thread - #5/INFO]: [m[0;33;1m[User] [0;33;1m[User] Garbaganoosh[m [0;36;1m> username johann[m
-[20:42:11] [Async Chat Thread - #5/INFO]: [m[0;33;1m[User] [0;33;1m[User] Garbaganoosh[m [0;36;1m> who could this be[m
-[20:42:15] [Async Chat Thread - #5/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> hahahaha[m
-[20:42:24] [Async Chat Thread - #5/INFO]: [m[0;33;1m[User] [0;33;1m[User] Garbaganoosh[m [0;36;1m> what wall[m
-[20:42:26] [Async Chat Thread - #5/INFO]: [m[0;33;1m[User] [0;33;1m[User] Garbaganoosh[m [0;36;1m> I dont see no wall[m
-[20:42:31] [Server thread/INFO]: Kobeboy15 issued server command: /give Kobeboy15 diamond_sword 1 0 {Unbreakable:1b,Enchantments:[{id:Knockback,lvl:20}]}
-[20:42:55] [Server thread/INFO]: Kobeboy15 issued server command: /give Kobeboy15 diamond_sword 1 0 {Unbreakable:1b,Enchantments:[{id:"Knockback",lvl:20}]}
-[20:43:44] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] Garbaganoosh[m [0;36;1m> joh[m
-[20:43:45] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] Garbaganoosh[m [0;36;1m> u said pass the walkway right[m
-[20:43:45] [Server thread/INFO]: Garbaganoosh lost connection: Disconnected
-[20:43:45] [Server thread/INFO]: Garbaganoosh has left the game.
-[20:43:52] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> hahahahhaha[m
-[20:43:53] [Server thread/INFO]: Kobeboy15 issued server command: /give Kobeboy15 diamond_sword 1 0 {Unbreakable:1b,Enchantments:[{id:"minecraft:knockback",lvl:20}]}
-[20:43:55] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> low ping boi[m
-[20:43:59] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> i mean high ping[m
-[20:44:27] [User Authenticator #15/INFO]: UUID of player Garbaganoosh is 9fad2bc3-c881-315d-90bf-71abae00e489
-[20:44:27] [Server thread/INFO]: Garbaganoosh[/0:0:0:0:0:0:0:1:63658] logged in with entity id 38481 at ([world]170.55098634921714, 67.0, 261.1646780048902)
-[20:44:27] [Server thread/INFO]: [0;33;1mGarbaganoosh has joined the game.[m
-[20:44:28] [Server thread/INFO]: Kobeboy15 issued server command: /give Kobeboy15 diamond_sword 1 0 {Unbreakable:1,Enchantments:[{id:"minecraft:knockback",lvl:20},{id:"minecraft:looting",lvl20}]}
-[20:44:28] [Server thread/ERROR]: null
-com.mojang.brigadier.exceptions.CommandSyntaxException: Expected ':' at position 92: ...ing",lvl20<--[HERE]
-[20:44:31] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] Garbaganoosh[m [0;36;1m> agh god[m
-[20:44:36] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] Garbaganoosh[m [0;36;1m> so shit the data here[m
-[20:44:41] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] Garbaganoosh[m [0;36;1m> joh u said pass the walkway right[m
-[20:44:42] [Server thread/INFO]: lolo_lola_69 lost connection: Timed out
-[20:44:42] [Server thread/INFO]: lolo_lola_69 has left the game.
-[20:44:42] [Server thread/INFO]: Johann issued server command: /tpa Garbaganoosh
-[20:44:47] [Server thread/INFO]: Garbaganoosh issued server command: /tpaccept
-[20:45:04] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> hol up[m
-[20:45:06] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> zombie hit me[m
-[20:45:10] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] Garbaganoosh[m [0;36;1m> :([m
-[20:45:14] [Server thread/INFO]: Johann issued server command: /tpa Garbaganoosh
-[20:45:18] [Server thread/INFO]: Garbaganoosh issued server command: /tpaccept
-[20:45:33] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> follow me[m
-[20:45:43] [Server thread/INFO]: Kobeboy15 issued server command: /give Kobeboy15 diamond_sword 1 0 {Unbreakable:1,Enchantments:[{id:"minecraft:knockback",lvl:20},{id:"minecraft:looting",lvl20s}]}
-[20:45:43] [Server thread/ERROR]: null
-com.mojang.brigadier.exceptions.CommandSyntaxException: Expected ':' at position 93: ...ng",lvl20s<--[HERE]
-[20:45:48] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> pls also use that discord i sent u[m
-[20:45:51] [Server thread/INFO]: Jhor issued server command: /home
-[20:45:53] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] Garbaganoosh[m [0;36;1m> i cant lge[m
-[20:45:58] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> aw[m
-[20:45:58] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] Garbaganoosh[m [0;36;1m> my phone is tethered to my laptop[m
-[20:46:00] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] Garbaganoosh[m [0;36;1m> cause no net[m
-[20:46:01] [Server thread/INFO]: Jhor issued server command: /home
-[20:46:01] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> ooof[m
-[20:46:22] [Server thread/INFO]: Kobeboy15 issued server command: /give Kobeboy15 diamond_sword 1 0 {Unbreakable:1,Enchantments:[{id:"minecraft:knockback",lvl:20}]}
-[20:46:28] [Server thread/WARN]: Garbaganoosh was kicked for floating too long!
-[20:46:28] [Server thread/INFO]: Garbaganoosh lost connection: Flying is not enabled on this server
-[20:46:28] [Server thread/INFO]: Garbaganoosh has left the game.
-[20:46:29] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> dont mind these sea people[m
-[20:46:34] [User Authenticator #16/INFO]: UUID of player Garbaganoosh is 9fad2bc3-c881-315d-90bf-71abae00e489
-[20:46:34] [Server thread/INFO]: Garbaganoosh[/0:0:0:0:0:0:0:1:63822] logged in with entity id 39614 at ([world]447.4971026343974, 64.01865970983172, 277.06415597036414)
-[20:46:34] [Server thread/INFO]: [0;33;1mGarbaganoosh has joined the game.[m
-[20:46:40] [Async Chat Thread - #6/INFO]: [GriefPrevention] Muted pre-movement chat.
-[20:46:40] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] Garbaganoosh[m [0;36;1m> o sht lol[m
-[20:46:43] [Async Chat Thread - #6/INFO]: [GriefPrevention] Muted repeat message.
-[20:46:43] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> dont mind these sea people[m
-[20:46:49] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> we are off[m
-[20:46:49] [Async Chat Thread - #6/INFO]: [GriefPrevention] Muted pre-movement chat.
-[20:46:49] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] Garbaganoosh[m [0;36;1m> server thought i was flying[m
-[20:46:51] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> to[m
-[20:46:52] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> the[m
-[20:46:54] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> frontier[m
-[20:47:24] [Server thread/INFO]: Garbaganoosh lost connection: Timed out
-[20:47:24] [Server thread/INFO]: Garbaganoosh has left the game.
-[20:47:35] [User Authenticator #17/INFO]: UUID of player Garbaganoosh is 9fad2bc3-c881-315d-90bf-71abae00e489
-[20:47:35] [Server thread/INFO]: Garbaganoosh[/0:0:0:0:0:0:0:1:63947] logged in with entity id 39833 at ([world]462.5339453186527, 63.5, 277.52064450288077)
-[20:47:35] [Server thread/INFO]: [0;33;1mGarbaganoosh has joined the game.[m
-[20:47:46] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> i will eat ur net[m
-[20:48:25] [Server thread/INFO]: Garbaganoosh lost connection: Timed out
-[20:48:25] [Server thread/INFO]: Garbaganoosh has left the game.
-[20:48:28] [Server thread/INFO]: Kobeboy15 issued server command: /give Kobeboy15 minecraft:diamond_sword 1 0 {display:{Lore:['{"text":"An Evil Blade"}']},Unbreakable:1b,Enchantments:[{id:"minecraft:smite",lvl:20s},{id:"minecraft:knockback",lvl:20s}]}
-[20:48:30] [User Authenticator #18/INFO]: UUID of player Garbaganoosh is 9fad2bc3-c881-315d-90bf-71abae00e489
-[20:48:30] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@12b4c441[id=9fad2bc3-c881-315d-90bf-71abae00e489,name=Garbaganoosh,properties={},legacy=false] (/0:0:0:0:0:0:0:1:64025): You must wait 5 seconds before logging-in again.
-[20:48:30] [Server thread/INFO]: com.mojang.authlib.GameProfile@12b4c441[id=9fad2bc3-c881-315d-90bf-71abae00e489,name=Garbaganoosh,properties={},legacy=false] (/0:0:0:0:0:0:0:1:64025) lost connection: You must wait 5 seconds before logging-in again.
-[20:48:37] [User Authenticator #19/INFO]: UUID of player Garbaganoosh is 9fad2bc3-c881-315d-90bf-71abae00e489
-[20:48:37] [Server thread/INFO]: Garbaganoosh[/0:0:0:0:0:0:0:1:64036] logged in with entity id 40059 at ([world]469.9482013683816, 63.5, 269.76959229521674)
-[20:48:37] [Server thread/INFO]: [0;33;1mGarbaganoosh has joined the game.[m
-[20:48:38] [Server thread/INFO]: Kobeboy15 issued server command: /give Kobeboy15 diamond_sword 1 0 {display:{Lore:['{"text":"An Evil Blade"}']},Unbreakable:1b,Enchantments:[{id:"minecraft:smite",lvl:20s},{id:"minecraft:knockback",lvl:20s}]}
-[20:48:53] [Server thread/INFO]: Kobeboy15 issued server command: /tp Johann
-[20:49:18] [Server thread/INFO]: Kobeboy15 issued server command: /home
-[20:49:25] [Server thread/INFO]: Garbaganoosh lost connection: Timed out
-[20:49:25] [Server thread/INFO]: Garbaganoosh has left the game.
-[20:49:43] [User Authenticator #20/INFO]: UUID of player Garbaganoosh is 9fad2bc3-c881-315d-90bf-71abae00e489
-[20:49:43] [Server thread/INFO]: Garbaganoosh[/0:0:0:0:0:0:0:1:64149] logged in with entity id 40293 at ([world]468.2093454712592, 63.5, 271.8936458937324)
-[20:49:43] [Server thread/INFO]: [0;33;1mGarbaganoosh has joined the game.[m
-[20:50:08] [Server thread/INFO]: Garbaganoosh lost connection: Timed out
-[20:50:08] [Server thread/INFO]: Garbaganoosh was slain by Johann
-[20:50:08] [Server thread/INFO]: Garbaganoosh has left the game.
-[20:50:11] [Async Chat Thread - #7/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> WTH[m
-[20:50:15] [Server thread/INFO]: Jhor lost connection: Disconnected
-[20:50:15] [Server thread/INFO]: Jhor has left the game.
-[20:50:16] [User Authenticator #21/INFO]: UUID of player Jhor is 82f182b3-716a-3898-ae1d-76f70444a8a2
-[20:50:17] [Server thread/INFO]: Jhor[/0:0:0:0:0:0:0:1:64195] logged in with entity id 40413 at ([world]439.22187783160894, 126.0, 84.79217159661009)
-[20:50:17] [Server thread/INFO]: [0;33;1mJhor has joined the game.[m
-[20:50:18] [Async Chat Thread - #7/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> OMG[m
-[20:50:36] [Server thread/INFO]: Kobeboy15 issued server command: /give Kobeboy15 diamond_sword 1 0 {display:{Lore:['{"text":"An Evil Blade"}']},Unbreakable:1b,Enchantments:[{id:"minecraft:smite",lvl:20s},{id:"minecraft:knockback",lvl:20s},{id:"minecraft:fire_aspect",lvl:20s}]}
-[20:50:59] [Server thread/INFO]: Kobeboy15 issued server command: /tp Johann
-[20:51:53] [User Authenticator #22/INFO]: UUID of player Garbaganoosh is 9fad2bc3-c881-315d-90bf-71abae00e489
-[20:51:53] [Server thread/INFO]: Garbaganoosh[/0:0:0:0:0:0:0:1:64334] logged in with entity id 40741 at ([world]469.32492998501783, 63.5, 270.35613064358176)
-[20:51:53] [Server thread/INFO]: [0;33;1mGarbaganoosh has joined the game.[m
-[20:52:05] [Async Chat Thread - #8/INFO]: [m[0;33;1m[User] [0;33;1m[User] Garbaganoosh[m [0;36;1m> holy sht[m
-[20:52:06] [Async Chat Thread - #8/INFO]: [m[0;33;1m[User] [0;33;1m[User] Garbaganoosh[m [0;36;1m> my items[m
-[20:52:12] [Async Chat Thread - #8/INFO]: [m[0;33;1m[User] [0;33;1m[User] Garbaganoosh[m [0;36;1m> joh[m
-[20:52:13] [Async Chat Thread - #8/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> i got em tom[m
-[20:52:15] [Async Chat Thread - #8/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> hahahh[m
-[20:52:16] [Async Chat Thread - #8/INFO]: [m[0;33;1m[User] [0;33;1m[User] Garbaganoosh[m [0;36;1m> give me back my items reeeeeeeeee[m
-[20:52:25] [Async Chat Thread - #8/INFO]: [m[0;33;1m[User] [0;33;1m[User] Garbaganoosh[m [0;36;1m> I think i improved the net[m
-[20:52:25] [Server thread/INFO]: Kobeboy15 issued server command: /home
-[20:52:26] [Server thread/INFO]: Johann issued server command: /tpa Garbaganoosh
-[20:52:28] [Async Chat Thread - #8/INFO]: [m[0;33;1m[User] [0;33;1m[User] Garbaganoosh[m [0;36;1m> we'll see[m
-[20:52:32] [Server thread/INFO]: Garbaganoosh issued server command: /tpaccept
-[20:52:39] [Server thread/INFO]: Jhor issued server command: /homelist
-[20:52:48] [Async Chat Thread - #8/INFO]: [m[0;33;1m[User] [0;33;1m[User] Garbaganoosh[m [0;36;1m> ty[m
-[20:52:50] [Server thread/INFO]: Jhor issued server command: /home badlands
-[20:53:03] [Async Chat Thread - #8/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> follow me bb[m
-[20:53:08] [Async Chat Thread - #8/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> we going for a boat ride[m
-[20:53:20] [Async Chat Thread - #8/INFO]: [m[0;33;1m[User] [0;33;1m[User] Garbaganoosh[m [0;36;1m> i am[m
-[20:53:58] [Server thread/INFO]: Garbaganoosh lost connection: Timed out
-[20:53:58] [Server thread/INFO]: Garbaganoosh has left the game.
-[20:54:05] [User Authenticator #23/INFO]: UUID of player Garbaganoosh is 9fad2bc3-c881-315d-90bf-71abae00e489
-[20:54:05] [Server thread/INFO]: Garbaganoosh[/0:0:0:0:0:0:0:1:64549] logged in with entity id 41879 at ([world]51.79863738925228, 63.0, 207.18861093169585)
-[20:54:05] [Server thread/INFO]: [0;33;1mGarbaganoosh has joined the game.[m
-[20:54:14] [Async Chat Thread - #8/INFO]: [m[0;33;1m[User] [0;33;1m[User] Garbaganoosh[m [0;36;1m> why god[m
-[20:54:22] [Server thread/INFO]: Jhor issued server command: /home
-[20:54:36] [Server thread/WARN]: Boat moved wrongly!
-[20:54:36] [Server thread/WARN]: Boat moved wrongly!
-[20:54:36] [Server thread/WARN]: Boat moved wrongly!
-[20:54:36] [Server thread/WARN]: Boat moved wrongly!
-[20:54:36] [Server thread/WARN]: Boat moved wrongly!
-[20:54:36] [Server thread/WARN]: Boat moved wrongly!
-[20:54:36] [Server thread/WARN]: Boat moved wrongly!
-[20:54:36] [Server thread/WARN]: Boat moved wrongly!
-[20:54:36] [Server thread/WARN]: Boat moved wrongly!
-[20:54:36] [Server thread/WARN]: Boat moved wrongly!
-[20:54:36] [Server thread/WARN]: Boat moved wrongly!
-[20:54:36] [Server thread/WARN]: Boat moved wrongly!
-[20:54:36] [Server thread/WARN]: Boat moved wrongly!
-[20:54:36] [Server thread/WARN]: Boat moved wrongly!
-[20:54:36] [Server thread/WARN]: Boat moved wrongly!
-[20:54:36] [Server thread/WARN]: Boat moved wrongly!
-[20:54:36] [Server thread/WARN]: Boat moved wrongly!
-[20:54:36] [Server thread/WARN]: Boat moved wrongly!
-[20:54:36] [Server thread/WARN]: Boat moved wrongly!
-[20:54:36] [Server thread/WARN]: Boat moved wrongly!
-[20:54:36] [Server thread/WARN]: Boat moved wrongly!
-[20:54:36] [Server thread/WARN]: Boat moved wrongly!
-[20:54:36] [Server thread/WARN]: Boat moved wrongly!
-[20:54:36] [Server thread/WARN]: Boat moved wrongly!
-[20:54:36] [Async Chat Thread - #8/INFO]: [m[0;33;1m[User] [0;33;1m[User] Garbaganoosh[m [0;36;1m> fml[m
-[20:54:37] [Server thread/INFO]: Garbaganoosh lost connection: Disconnected
-[20:54:37] [Server thread/INFO]: Garbaganoosh has left the game.
-[20:54:46] [User Authenticator #24/INFO]: UUID of player Garbaganoosh is 9fad2bc3-c881-315d-90bf-71abae00e489
-[20:54:46] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@68fe9a26[id=9fad2bc3-c881-315d-90bf-71abae00e489,name=Garbaganoosh,properties={},legacy=false] (/0:0:0:0:0:0:0:1:64596): You must wait 20 seconds before logging-in again.
-[20:54:46] [Server thread/INFO]: com.mojang.authlib.GameProfile@68fe9a26[id=9fad2bc3-c881-315d-90bf-71abae00e489,name=Garbaganoosh,properties={},legacy=false] (/0:0:0:0:0:0:0:1:64596) lost connection: You must wait 20 seconds before logging-in again.
-[20:54:55] [User Authenticator #25/INFO]: UUID of player Garbaganoosh is 9fad2bc3-c881-315d-90bf-71abae00e489
-[20:54:55] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@705372e0[id=9fad2bc3-c881-315d-90bf-71abae00e489,name=Garbaganoosh,properties={},legacy=false] (/0:0:0:0:0:0:0:1:64613): You must wait 11 seconds before logging-in again.
-[20:54:55] [Server thread/INFO]: com.mojang.authlib.GameProfile@705372e0[id=9fad2bc3-c881-315d-90bf-71abae00e489,name=Garbaganoosh,properties={},legacy=false] (/0:0:0:0:0:0:0:1:64613) lost connection: You must wait 11 seconds before logging-in again.
-[20:55:06] [User Authenticator #26/INFO]: UUID of player Garbaganoosh is 9fad2bc3-c881-315d-90bf-71abae00e489
-[20:55:06] [Server thread/INFO]: Garbaganoosh[/0:0:0:0:0:0:0:1:64632] logged in with entity id 42268 at ([world]40.470948685214, 62.07326389245248, 199.8828789242499)
-[20:55:06] [Server thread/INFO]: [0;33;1mGarbaganoosh has joined the game.[m
-[20:55:16] [Server thread/INFO]: Garbaganoosh lost connection: Disconnected
-[20:55:16] [Server thread/INFO]: Garbaganoosh has left the game.
-[20:55:23] [User Authenticator #27/INFO]: UUID of player big_tasty is bcea9435-1386-3cb2-a2cd-2ea98eae3322
-[20:55:23] [Server thread/INFO]: big_tasty[/0:0:0:0:0:0:0:1:64671] logged in with entity id 42392 at ([world]503.2671682419373, 58.0, 154.67480543455332)
-[20:55:23] [Server thread/INFO]: [0;33;1mbig_tasty has joined the game.[m
-[20:55:41] [Server thread/INFO]: Johann lost connection: Disconnected
-[20:55:41] [Server thread/INFO]: Johann has left the game.
-[20:56:53] [Server thread/WARN]: Jhor moved too quickly! 0.3152490373398109,-0.2247629905309907,-13.786429278808896
-[20:58:02] [Server thread/INFO]: Jhor issued server command: /home
-[21:00:02] [Server thread/INFO]: Kobeboy15 issued server command: /give Kobeboy15 minecraft:diamond_pickaxe 1 0 {display:{Name:'{"text":"Gold Digger"}'},Enchantments:[{id:"minecraft:fortune",lvl:1000s}]}
-[21:00:08] [Server thread/INFO]: Kobeboy15 issued server command: /give Kobeboy15 diamond_pickaxe 1 0 {display:{Name:'{"text":"Gold Digger"}'},Enchantments:[{id:"minecraft:fortune",lvl:1000s}]}
-[21:00:19] [Server thread/INFO]: Kobeboy15 issued server command: /gamemode survival
-[21:01:22] [Server thread/INFO]: Kobeboy15 issued server command: /gamemode creative
-[21:02:55] [Server thread/INFO]: Kobeboy15 issued server command: /give Kobeboy15 diamond_pickaxe{display:{Name:'{"text":"Gold Digger","color":"gold"}'},Enchantments:[{id:"minecraft:fortune",lvl:1000s}]}
-[21:03:06] [Server thread/INFO]: Kobeboy15 issued server command: /give Kobeboy15 diamond_pickaxe 1 0 {display:{Name:'{"text":"Gold Digger","color":"gold"}'},Enchantments:[{id:"minecraft:fortune",lvl:1000s}]}
-[21:15:37] [Server thread/INFO]: Kobeboy15 issued server command: /give Kobeboy15 command_block 1
-[21:16:13] [Server thread/INFO]: CommandBlock at 707,98,115 issued server command: /give @p diamond_pickaxe 1 0 {display:{Name:'{"text":"Gold Digger","color":"gold"}'},Enchantments:[{id:"minecraft:fortune",lvl:1000s}]}
-[21:16:15] [Server thread/INFO]: CommandBlock at 707,98,115 issued server command: /give @p diamond_pickaxe 1 0 {display:{Name:'{"text":"Gold Digger","color":"gold"}'},Enchantments:[{id:"minecraft:fortune",lvl:1000s}]}
-[21:16:39] [Server thread/INFO]: CommandBlock at 707,98,115 issued server command: /give @p diamond_pickaxe 1 0 {display:{Name:'{"text":"Gold Digger","color":"gold"}'},Enchantments:[{id:"minecraft:fortune",lvl:1000s}]}
-[21:16:59] [Async Chat Thread - #9/INFO]: [m[0;33;1m[User] [0;33;1m[User] big_tasty[m [0;36;1m> afk[m
-[21:17:12] [Server thread/INFO]: CommandBlock at 707,98,115 issued server command: /give Kobeboy15 diamond_pickaxe 1 0 {display:{Name:'{"text":"Gold Digger","color":"gold"}'},Enchantments:[{id:"minecraft:fortune",lvl:1000s}]}
-[21:17:37] [Server thread/INFO]: CommandBlock at 707,98,115 issued server command: /give Kobeboy15 diamond_pickaxe 1 0 {display:{Name:'{"text":"Gold Digger","color":"gold"}'},Enchantments:[{id:"minecraft:fortune",lvl:1000s}]}
-[21:17:41] [Server thread/INFO]: Kobeboy15 lost connection: Disconnected
-[21:17:41] [Server thread/INFO]: Kobeboy15 has left the game.
-[21:18:48] [Server thread/WARN]: Horse moved wrongly!
-[21:18:48] [Server thread/WARN]: Horse moved wrongly!
-[21:18:48] [Server thread/WARN]: Horse moved wrongly!
-[21:18:49] [Server thread/WARN]: Horse moved wrongly!
-[21:18:50] [Server thread/WARN]: Horse moved wrongly!
-[21:18:50] [Server thread/WARN]: Horse moved wrongly!
-[21:18:50] [Server thread/WARN]: Horse moved wrongly!
-[21:18:50] [Server thread/WARN]: Horse moved wrongly!
-[21:18:50] [Server thread/WARN]: Horse moved wrongly!
-[21:18:50] [Server thread/WARN]: Horse moved wrongly!
-[21:18:51] [Server thread/WARN]: Horse moved wrongly!
-[21:18:51] [Server thread/WARN]: Horse moved wrongly!
-[21:18:51] [Server thread/WARN]: Horse moved wrongly!
-[21:18:52] [Server thread/WARN]: Horse moved wrongly!
-[21:18:52] [Server thread/WARN]: Horse moved wrongly!
-[21:18:52] [Server thread/WARN]: Horse moved wrongly!
-[21:18:52] [Server thread/WARN]: Horse moved wrongly!
-[21:18:52] [Server thread/WARN]: Horse moved wrongly!
-[21:18:52] [Server thread/WARN]: Horse moved wrongly!
-[21:18:52] [Server thread/WARN]: Horse moved wrongly!
-[21:18:52] [Server thread/WARN]: Horse moved wrongly!
-[21:18:52] [Server thread/WARN]: Horse moved wrongly!
-[21:18:53] [Server thread/WARN]: Horse moved wrongly!
-[21:18:53] [Server thread/WARN]: Horse moved wrongly!
-[21:18:53] [Server thread/WARN]: Horse moved wrongly!
-[21:18:53] [Server thread/WARN]: Horse moved wrongly!
-[21:18:53] [Server thread/WARN]: Horse moved wrongly!
-[21:18:53] [Server thread/WARN]: Horse moved wrongly!
-[21:18:55] [Server thread/WARN]: Horse moved wrongly!
-[21:18:55] [Server thread/WARN]: Horse moved wrongly!
-[21:18:55] [Server thread/WARN]: Horse moved wrongly!
-[21:18:56] [Server thread/WARN]: Horse moved wrongly!
-[21:18:56] [Server thread/WARN]: Horse moved wrongly!
-[21:18:56] [Server thread/WARN]: Horse moved wrongly!
-[21:18:57] [Server thread/WARN]: Horse moved wrongly!
-[21:18:57] [Server thread/WARN]: Horse moved wrongly!
-[21:18:57] [Server thread/WARN]: Horse moved wrongly!
-[21:18:57] [Server thread/WARN]: Horse moved wrongly!
-[21:18:57] [Server thread/WARN]: Horse moved wrongly!
-[21:18:57] [Server thread/WARN]: Horse moved wrongly!
-[21:18:57] [Server thread/WARN]: Horse moved wrongly!
-[21:18:57] [Server thread/WARN]: Horse moved wrongly!
-[21:18:58] [Server thread/WARN]: Horse moved wrongly!
-[21:18:58] [Server thread/WARN]: Horse moved wrongly!
-[21:18:58] [Server thread/WARN]: Horse moved wrongly!
-[21:18:58] [Server thread/WARN]: Horse moved wrongly!
-[21:18:58] [Server thread/WARN]: Horse moved wrongly!
-[21:18:58] [Server thread/WARN]: Horse moved wrongly!
-[21:18:58] [Server thread/WARN]: Horse moved wrongly!
-[21:18:58] [Server thread/WARN]: Horse moved wrongly!
-[21:18:58] [Server thread/WARN]: Horse moved wrongly!
-[21:18:59] [Server thread/WARN]: Horse moved wrongly!
-[21:19:00] [Server thread/WARN]: Horse moved wrongly!
-[21:19:00] [Server thread/WARN]: Horse moved wrongly!
-[21:19:00] [Server thread/WARN]: Horse moved wrongly!
-[21:19:00] [Server thread/WARN]: Horse moved wrongly!
-[21:19:00] [Server thread/WARN]: Horse moved wrongly!
-[21:19:01] [Server thread/WARN]: Horse moved wrongly!
-[21:19:01] [Server thread/WARN]: Horse moved wrongly!
-[21:19:01] [Server thread/WARN]: Horse moved wrongly!
-[21:19:18] [Server thread/INFO]: Jhor lost connection: Disconnected
-[21:19:18] [Server thread/INFO]: Jhor has left the game.
-[21:19:20] [User Authenticator #28/INFO]: UUID of player Jhor is 82f182b3-716a-3898-ae1d-76f70444a8a2
-[21:19:20] [Server thread/INFO]: Jhor[/0:0:0:0:0:0:0:1:51281] logged in with entity id 54861 at ([world]439.0707682162732, 125.9375, 98.40900619776477)
-[21:19:20] [Server thread/INFO]: [0;33;1mJhor has joined the game.[m
-[21:20:19] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] big_tasty[m [0;36;1m> wee wee time over[m
-[21:23:25] [Async Chat Thread - #11/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> maaaan I tamed a cat but it didn't teleport to me, and now it's gone[m
-[21:23:41] [Async Chat Thread - #11/INFO]: [m[0;33;1m[User] [0;33;1m[User] big_tasty[m [0;36;1m> that almost happened with my birds[m
-[21:23:52] [Async Chat Thread - #11/INFO]: [m[0;33;1m[User] [0;33;1m[User] big_tasty[m [0;36;1m> i had to go back for them 4 times[m
-[21:23:53] [Async Chat Thread - #11/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> it happened to 2 of my birds too[m
-[21:24:25] [Async Chat Thread - #11/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> maan it was a new breed too[m
-[21:24:35] [Async Chat Thread - #11/INFO]: [m[0;33;1m[User] [0;33;1m[User] big_tasty[m [0;36;1m> u tryin to get the achievment?[m
-[21:24:44] [Async Chat Thread - #11/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> yeah haha[m
-[21:24:51] [Async Chat Thread - #11/INFO]: [m[0;33;1m[User] [0;33;1m[User] big_tasty[m [0;36;1m> nice[m
-[21:25:21] [Async Chat Thread - #11/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> I mean it still counted to the achievement, I just don't have the cat[m
-[21:25:55] [User Authenticator #29/INFO]: UUID of player arcosanti is a9e52362-e903-3089-8f30-1e5a3b7d754a
-[21:25:55] [Server thread/INFO]: arcosanti[/0:0:0:0:0:0:0:1:51841] logged in with entity id 55642 at ([world]498.9952704134845, 66.0, 163.79647994667812)
-[21:25:55] [Server thread/INFO]: [0;33;1marcosanti has joined the game.[m
-[21:27:41] [Server thread/INFO]: Jhor issued server command: /home
-[21:28:16] [Async Chat Thread - #12/INFO]: [m[0;33;1m[User] [0;33;1m[User] big_tasty[m [0;36;1m> fortune is so sexy[m
-[21:28:22] [User Authenticator #30/INFO]: UUID of player Kobeboy15 is dc70f05a-14b3-350c-91b3-ecddbe830761
-[21:28:22] [Server thread/INFO]: Kobeboy15[/0:0:0:0:0:0:0:1:52035] logged in with entity id 56249 at ([world]707.7285286649246, 102.49117415605669, 114.85442060979929)
-[21:28:22] [Server thread/INFO]: [0;33;1mKobeboy15 has joined the game.[m
-[21:28:25] [Async Chat Thread - #12/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> hell yeah[m
-[21:28:31] [User Authenticator #31/INFO]: UUID of player Garbaganoosh is 9fad2bc3-c881-315d-90bf-71abae00e489
-[21:28:31] [Server thread/INFO]: Garbaganoosh[/0:0:0:0:0:0:0:1:52042] logged in with entity id 56313 at ([world]36.575848149435416, 62.07326389245248, 196.19845310375152)
-[21:28:31] [Server thread/INFO]: [0;33;1mGarbaganoosh has joined the game.[m
-[21:29:00] [Server thread/INFO]: Garbaganoosh lost connection: Disconnected
-[21:29:00] [Server thread/INFO]: Garbaganoosh has left the game.
-[21:30:14] [Server thread/INFO]: Kobeboy15 issued server command: /tp arcosanti
-[21:31:01] [Async Chat Thread - #13/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> kobe, why don't animal teleports work consistenly man haha[m
-[21:31:13] [Async Chat Thread - #13/INFO]: [m[0;33;1m[User] [0;33;1m[User] Kobeboy15[m [0;36;1m> thats not me man, thats the minecraft :([m
-[21:31:29] [Server thread/INFO]: Kobeboy15 issued server command: /home
-[21:32:50] [Async Chat Thread - #14/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> yo is it cool if a friend of my joins the server or nah?[m
-[21:32:58] [Async Chat Thread - #14/INFO]: [m[0;33;1m[User] [0;33;1m[User] Kobeboy15[m [0;36;1m> I dont see why not :D[m
-[21:33:19] [Server thread/INFO]: Kobeboy15 issued server command: /tp arcosanti
-[21:34:27] [Server thread/INFO]: Kobeboy15 issued server command: /home
-[21:34:36] [Server thread/INFO]: arcosanti issued server command: /tpa big_tasty
-[21:35:08] [Server thread/INFO]: big_tasty issued server command: /tpaccept
-[21:35:17] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] big_tasty[m [0;36;1m> omg sorry i didnt see the request[m
-[21:35:28] [Server thread/INFO]: arcosanti issued server command: /home
-[21:35:43] [User Authenticator #32/INFO]: UUID of player kdremeds is ce9932c4-dd5f-35bf-89f5-2e72b97a1bb2
-[21:35:43] [Server thread/INFO]: kdremeds[/0:0:0:0:0:0:0:1:52731] logged in with entity id 59128 at ([world]-652.3000000119209, 10.0, -504.63333291358197)
-[21:35:43] [Server thread/INFO]: [0;33;1mkdremeds has joined the game.[m
-[21:36:17] [Server thread/INFO]: arcosanti issued server command: /tpa big_tasty
-[21:36:20] [Server thread/INFO]: big_tasty issued server command: /tpaccept
-[21:36:36] [Async Chat Thread - #16/INFO]: [m[0;33;1m[User] [0;33;1m[User] big_tasty[m [0;36;1m> thank u[m
-[21:36:39] [Async Chat Thread - #16/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> np[m
-[21:36:42] [Async Chat Thread - #16/INFO]: [m[0;33;1m[User] [0;33;1m[User] big_tasty[m [0;36;1m> why arent u wearing pants[m
-[21:36:58] [Server thread/INFO]: CommandBlock at 707,98,115 issued server command: /give Kobeboy15 diamond_pickaxe 1 0 {display:{Name:'{"text":"Gold Digger","color":"gold"}'},Enchantments:[{id:"minecraft:fortune",lvl:1000s}]}
-[21:37:40] [Server thread/INFO]: CommandBlock at 707,98,115 issued server command: /give Kobeboy15 diamond_pickaxe 1 100 {display:{Name:'{"text":"Ye O'l Gold Digger","color":"gold"}'},Enchantments:[{id:"minecraft:fortune",lvl:1000s}]}
-[21:37:40] [Server thread/ERROR]: null
-com.mojang.brigadier.exceptions.CommandSyntaxException: Expected '}' at position 30: ...xt":"Ye O'<--[HERE]
-[21:37:53] [Server thread/INFO]: arcosanti issued server command: /home
-[21:37:57] [Server thread/WARN]: arcosanti moved too quickly! 152.91606073588355,-55.0,-54.18773404143009
-[21:37:57] [Server thread/INFO]: CommandBlock at 707,98,115 issued server command: /give Kobeboy15 diamond_pickaxe 1 10000 {display:{Name:'{"text":"Ye O'l Gold Digger","color":"gold"}'},Enchantments:[{id:"minecraft:fortune",lvl:1000s}]}
-[21:37:57] [Server thread/ERROR]: null
-com.mojang.brigadier.exceptions.CommandSyntaxException: Expected '}' at position 30: ...xt":"Ye O'<--[HERE]
-[21:38:05] [Server thread/INFO]: Kobeboy15 issued server command: /gamemode survival
-[21:38:21] [Server thread/INFO]: Kobeboy15 issued server command: /gamemode creative
-[21:38:36] [Server thread/INFO]: CommandBlock at 707,98,115 issued server command: /give Kobeboy15 diamond_pickaxe 1 9999 {display:{Name:'{"text":"Ye O'l Gold Digger","color":"gold"}'},Enchantments:[{id:"minecraft:fortune",lvl:1000s}]}
-[21:38:36] [Server thread/ERROR]: null
-com.mojang.brigadier.exceptions.CommandSyntaxException: Expected '}' at position 30: ...xt":"Ye O'<--[HERE]
-[21:38:40] [Server thread/INFO]: Kobeboy15 issued server command: /gamemode survival
-[21:39:03] [User Authenticator #33/INFO]: UUID of player Boulderballs is c5c05e4f-d28e-3be0-9222-fffe440eb955
-[21:39:04] [Server thread/INFO]: Boulderballs[/0:0:0:0:0:0:0:1:53005] logged in with entity id 60159 at ([world]-11.5, 68.0, 224.5)
-[21:39:04] [Server thread/INFO]: [0;33;1mBoulderballs has joined the game.[m
-[21:39:04] [pool-10-thread-1/INFO]: Creating empty config: C:\Users\Renzo Sy\Desktop\minecraft server\RenzoCraft_Beta\plugins\Essentials\userdata\c5c05e4f-d28e-3be0-9222-fffe440eb955.yml
-[21:39:04] [Server thread/INFO]: Boulderballs has made the advancement [Getting an Upgrade]
-[21:39:06] [Server thread/INFO]: Kobeboy15 issued server command: /gamemode creative
-[21:39:11] [Server thread/INFO]: Boulderballs issued server command: /help
-[21:39:22] [Server thread/INFO]: CommandBlock at 707,98,115 issued server command: /give Kobeboy15 diamond_pickaxe 1 9999 {display:{Name:'{"text":"Ye O'l Gold Digger","color":"gold"}'},Enchantments:[{id:"minecraft:fortune",lvl:1000s}]}
-[21:39:22] [Server thread/ERROR]: null
-com.mojang.brigadier.exceptions.CommandSyntaxException: Expected '}' at position 30: ...xt":"Ye O'<--[HERE]
-[21:40:11] [Server thread/INFO]: CommandBlock at 707,98,115 issued server command: /give Kobeboy15 diamond_pickaxe 1 9999 {display:{Name:'{"text":"Ye O'l Gold Digger","color":"gold"}'},Enchantments:[{id:"minecraft:fortune",lvl:1000s}]}
-[21:40:11] [Server thread/ERROR]: null
-com.mojang.brigadier.exceptions.CommandSyntaxException: Expected '}' at position 30: ...xt":"Ye O'<--[HERE]
-[21:40:15] [Server thread/INFO]: Boulderballs issued server command: /TPA JHOR
-[21:40:18] [Server thread/INFO]: Jhor issued server command: /tpaccept
-[21:40:21] [Server thread/INFO]: CommandBlock at 707,98,115 issued server command: /give Kobeboy15 diamond_pickaxe 1 9999 {display:{Name:'{"text":"Ye Ol Gold Digger","color":"gold"}'},Enchantments:[{id:"minecraft:fortune",lvl:1000s}]}
-[21:40:31] [Server thread/INFO]: Kobeboy15 issued server command: /gamemode survival
-[21:40:40] [Server thread/INFO]: Kobeboy15 issued server command: /gamemode creative
-[21:40:51] [Server thread/INFO]: CommandBlock at 707,98,115 issued server command: /give Kobeboy15 diamond_pickaxe 1 10000 {display:{Name:'{"text":"Ye Ol Gold Digger","color":"gold"}'},Enchantments:[{id:"minecraft:fortune",lvl:1000s}]}
-[21:41:40] [Server thread/INFO]: CommandBlock at 707,98,115 issued server command: /give Kobeboy15 diamond_pickaxe 1 {Damage:10000,display:{Name:'{"text":"Ye Ol Gold Digger","color":"gold"}'},Enchantments:[{id:"minecraft:fortune",lvl:1000s}]}
-[21:41:47] [Server thread/INFO]: Kobeboy15 issued server command: /gamemode survival
-[21:41:52] [Server thread/INFO]: CommandBlock at 707,98,115 issued server command: /give Kobeboy15 diamond_pickaxe 1 {Damage:10000,display:{Name:'{"text":"Ye Ol Gold Digger","color":"gold"}'},Enchantments:[{id:"minecraft:fortune",lvl:1000s}]}
-[21:42:44] [Server thread/INFO]: Kobeboy15 issued server command: /give Kobeboy15 diamond 3
-[21:43:06] [Server thread/INFO]: Kobeboy15 issued server command: /give Kobeboy15 diamond 64
-[21:43:09] [Server thread/INFO]: CommandBlock at 707,98,115 issued server command: /give Kobeboy15 diamond_pickaxe 1 {Damage:10000,display:{Name:'{"text":"Ye Ol Gold Digger","color":"gold"}'},Enchantments:[{id:"minecraft:fortune",lvl:1000s}]}
-[21:43:13] [Server thread/INFO]: Boulderballs issued server command: /mctop
-[21:43:16] [Server thread/INFO]: Jhor issued server command: /mctop
-[21:43:20] [Server thread/INFO]: Boulderballs issued server command: /mcrank
-[21:43:26] [Server thread/INFO]: Jhor issued server command: /mcrank
-[21:43:39] [Server thread/INFO]: Boulderballs issued server command: /mining
-[21:43:52] [Server thread/INFO]: Kobeboy15 issued server command: /gamemode creative
-[21:44:07] [Server thread/INFO]: CommandBlock at 707,98,115 issued server command: /give Kobeboy15 diamond_pickaxe 1 {RepairCost:100000, Damage:10000,display:{Name:'{"text":"Ye Ol Gold Digger","color":"gold"}'},Enchantments:[{id:"minecraft:fortune",lvl:1000s}]}
-[21:44:24] [Server thread/INFO]: CommandBlock at 707,98,115 issued server command: /give Kobeboy15 diamond_pickaxe 1 {RepairCost:100000, Damage:10000,display:{Name:'{"text":"Ye Ol Gold Digger","color":"gold"}'},Enchantments:[{id:"minecraft:fortune",lvl:1000s}]}
-[21:44:44] [Server thread/INFO]: CommandBlock at 707,98,115 issued server command: /give Kobeboy15 diamond_pickaxe 1 {RepairCost:9999999, Damage:10000,display:{Name:'{"text":"Ye Ol Gold Digger","color":"gold"}'},Enchantments:[{id:"minecraft:fortune",lvl:1000s}]}
-[21:45:05] [Server thread/INFO]: big_tasty issued server command: /home
-[21:45:17] [Server thread/INFO]: CommandBlock at 707,98,115 issued server command: /give Kobeboy15 diamond_pickaxe 1 {RepairCost:999999, Damage:10000,display:{Name:'{"text":"Ye Ol Gold Digger","color":"gold"}'},Enchantments:[{id:"minecraft:fortune",lvl:1000s}]}
-[21:45:41] [Server thread/INFO]: Kobeboy15 issued server command: /gamemode survival
-[21:45:44] [Async Chat Thread - #17/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> do you guys know where to find tropical fish?[m
-[21:45:56] [Async Chat Thread - #17/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> i know a place[m
-[21:45:58] [Async Chat Thread - #17/INFO]: [m[0;33;1m[User] [0;33;1m[User] big_tasty[m [0;36;1m> they spawn pretty randomly[m
-[21:45:59] [Server thread/INFO]: Kobeboy15 was slain by Phantom
-[21:46:04] [Async Chat Thread - #17/INFO]: [m[0;33;1m[User] [0;33;1m[User] big_tasty[m [0;36;1m> oh my[m
-[21:46:06] [Server thread/INFO]: Kobeboy15 issued server command: /home
-[21:46:13] [Async Chat Thread - #17/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> belle delphine died[m
-[21:46:14] [Async Chat Thread - #17/INFO]: [m[0;33;1m[User] [0;33;1m[User] big_tasty[m [0;36;1m> joaquin ur gonna take joe on a trip?[m
-[21:46:14] [Server thread/INFO]: Kobeboy15 issued server command: /fly
-[21:46:25] [Server thread/INFO]: CommandBlock at 707,98,115 issued server command: /give Kobeboy15 diamond_pickaxe 1 {RepairCost:999999, Damage:10000,display:{Name:'{"text":"Ye Ol Gold Digger","color":"gold"}'},Enchantments:[{id:"minecraft:fortune",lvl:1000s}]}
-[21:46:30] [Server thread/INFO]: Kobeboy15 issued server command: /fly
-[21:46:34] [Server thread/INFO]: Kobeboy15 issued server command: /fly
-[21:46:39] [Server thread/INFO]: Kobeboy15 issued server command: /fly
-[21:46:53] [Server thread/INFO]: Kobeboy15 issued server command: /gamemode creative
-[21:47:09] [Server thread/INFO]: CommandBlock at 707,98,115 issued server command: /give Kobeboy15 diamond_pickaxe 1 {RepairCost:999999, Damage:5000,display:{Name:'{"text":"Ye Ol Gold Digger","color":"gold"}'},Enchantments:[{id:"minecraft:fortune",lvl:1000s}]}
-[21:47:21] [Server thread/INFO]: CommandBlock at 707,98,115 issued server command: /give Kobeboy15 diamond_pickaxe 1 {RepairCost:999999, Damage:2000,display:{Name:'{"text":"Ye Ol Gold Digger","color":"gold"}'},Enchantments:[{id:"minecraft:fortune",lvl:1000s}]}
-[21:47:31] [Server thread/INFO]: CommandBlock at 707,98,115 issued server command: /give Kobeboy15 diamond_pickaxe 1 {RepairCost:999999, Damage:1000,display:{Name:'{"text":"Ye Ol Gold Digger","color":"gold"}'},Enchantments:[{id:"minecraft:fortune",lvl:1000s}]}
-[21:47:32] [Async Chat Thread - #18/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> anyone selling impaling too?[m
-[21:48:00] [Server thread/INFO]: CommandBlock at 707,98,115 issued server command: /give Kobeboy15 diamond_pickaxe 1 {RepairCost:999999, Damage:1500,display:{Name:'{"text":"Ye Ol Gold Digger","color":"gold"}'},Enchantments:[{id:"minecraft:fortune",lvl:1000s}]}
-[21:48:13] [Server thread/INFO]: CommandBlock at 707,98,115 issued server command: /give Kobeboy15 diamond_pickaxe 1 {RepairCost:999999, Damage:1600,display:{Name:'{"text":"Ye Ol Gold Digger","color":"gold"}'},Enchantments:[{id:"minecraft:fortune",lvl:1000s}]}
-[21:48:23] [Server thread/INFO]: Kobeboy15 issued server command: /gamemode survival
-[21:48:30] [Server thread/INFO]: Kobeboy15 issued server command: /FLY
-[21:48:53] [Server thread/INFO]: Kobeboy15 issued server command: /gamemode creative
-[21:49:07] [Server thread/INFO]: CommandBlock at 707,98,115 issued server command: /give Kobeboy15 diamond_pickaxe 1 {RepairCost:999999, Damage:1520,display:{Name:'{"text":"Ye Ol Gold Digger","color":"gold"}'},Enchantments:[{id:"minecraft:fortune",lvl:1000s}]}
-[21:49:11] [Server thread/INFO]: Kobeboy15 issued server command: /gamemode survival
-[21:49:25] [Server thread/INFO]: Kobeboy15 issued server command: /gamemode creative
-[21:49:37] [Server thread/INFO]: CommandBlock at 707,98,115 issued server command: /give Kobeboy15 diamond_pickaxe 1 {RepairCost:999999, Damage:1540,display:{Name:'{"text":"Ye Ol Gold Digger","color":"gold"}'},Enchantments:[{id:"minecraft:fortune",lvl:1000s}]}
-[21:49:39] [Server thread/INFO]: Kobeboy15 issued server command: /gamemode survival
-[21:49:49] [Server thread/INFO]: Kobeboy15 issued server command: /gamemode creative
-[21:49:55] [Server thread/INFO]: Kobeboy15 issued server command: /gamemode survival
-[21:50:00] [Server thread/INFO]: CommandBlock at 707,98,115 issued server command: /give Kobeboy15 diamond_pickaxe 1 {RepairCost:999999, Damage:1550,display:{Name:'{"text":"Ye Ol Gold Digger","color":"gold"}'},Enchantments:[{id:"minecraft:fortune",lvl:1000s}]}
-[21:50:11] [Server thread/INFO]: Kobeboy15 issued server command: /gamemode creative
-[21:50:23] [Server thread/INFO]: Kobeboy15 issued server command: /gamemode survival
-[21:50:26] [Server thread/INFO]: CommandBlock at 707,98,115 issued server command: /give Kobeboy15 diamond_pickaxe 1 {RepairCost:999999, Damage:1570,display:{Name:'{"text":"Ye Ol Gold Digger","color":"gold"}'},Enchantments:[{id:"minecraft:fortune",lvl:1000s}]}
-[21:50:31] [Server thread/INFO]: Kobeboy15 issued server command: /gamemode creative
-[21:50:39] [Server thread/INFO]: Kobeboy15 issued server command: /gamemode survival
-[21:50:46] [Server thread/INFO]: Kobeboy15 issued server command: /gamemode creative
-[21:50:47] [User Authenticator #34/INFO]: UUID of player FKritz is 76f1a2ac-693e-3061-aa4f-5b80da853173
-[21:50:47] [Server thread/INFO]: FKritz[/0:0:0:0:0:0:0:1:54108] logged in with entity id 64351 at ([world]893.7105648865513, 6.0, -468.848690496265)
-[21:50:47] [Server thread/INFO]: [0;33;1mFKritz has joined the game.[m
-[21:50:49] [Server thread/INFO]: CommandBlock at 707,98,115 issued server command: /give Kobeboy15 diamond_pickaxe 1 {RepairCost:999999, Damage:1565,display:{Name:'{"text":"Ye Ol Gold Digger","color":"gold"}'},Enchantments:[{id:"minecraft:fortune",lvl:1000s}]}
-[21:50:50] [Craft Scheduler Thread - 119/INFO]: [SkinsRestorer] Unsupported player format.. removing (mrs_keralis).
-[21:50:51] [Server thread/INFO]: Kobeboy15 issued server command: /gamemode survival
-[21:50:55] [Server thread/INFO]: Kobeboy15 issued server command: /gamemode creative
-[21:51:08] [Server thread/INFO]: Kobeboy15 issued server command: /gamemode survival
-[21:51:09] [Server thread/INFO]: CommandBlock at 707,98,115 issued server command: /give Kobeboy15 diamond_pickaxe 1 {RepairCost:999999, Damage:1563,display:{Name:'{"text":"Ye Ol Gold Digger","color":"gold"}'},Enchantments:[{id:"minecraft:fortune",lvl:1000s}]}
-[21:51:10] [Server thread/INFO]: [@: Applied effect Jump Boost to Jhor]
-[21:51:10] [Server thread/INFO]: [@: Applied effect Slow Falling to Jhor]
-[21:51:13] [Server thread/INFO]: Kobeboy15 issued server command: /gamemode creative
-[21:51:20] [Server thread/INFO]: Kobeboy15 issued server command: /gamemode survival
-[21:51:21] [Server thread/INFO]: CommandBlock at 707,98,115 issued server command: /give Kobeboy15 diamond_pickaxe 1 {RepairCost:999999, Damage:1560,display:{Name:'{"text":"Ye Ol Gold Digger","color":"gold"}'},Enchantments:[{id:"minecraft:fortune",lvl:1000s}]}
-[21:51:25] [Server thread/INFO]: Kobeboy15 issued server command: /gamemode survival
-[21:51:27] [Server thread/INFO]: Kobeboy15 issued server command: /gamemode creative
-[21:51:34] [Server thread/INFO]: CommandBlock at 707,98,115 issued server command: /give Kobeboy15 diamond_pickaxe 1 {RepairCost:999999, Damage:1555,display:{Name:'{"text":"Ye Ol Gold Digger","color":"gold"}'},Enchantments:[{id:"minecraft:fortune",lvl:1000s}]}
-[21:51:35] [Server thread/INFO]: Kobeboy15 issued server command: /gamemode survival
-[21:51:38] [Server thread/INFO]: [@: Applied effect Jump Boost to Jhor]
-[21:51:38] [Server thread/INFO]: [@: Applied effect Slow Falling to Jhor]
-[21:51:44] [Server thread/INFO]: Kobeboy15 issued server command: /gamemode creative
-[21:51:53] [Server thread/WARN]: Jhor moved too quickly! 0.0,-16.463089477559095,0.0
-[21:51:53] [Server thread/INFO]: CommandBlock at 707,98,115 issued server command: /give Kobeboy15 diamond_pickaxe 1 {RepairCost:999999, Damage:1558,display:{Name:'{"text":"Ye Ol Gold Digger","color":"gold"}'},Enchantments:[{id:"minecraft:fortune",lvl:1000s}]}
-[21:51:56] [Server thread/INFO]: Kobeboy15 issued server command: /gamemode survival
-[21:52:03] [Server thread/INFO]: Kobeboy15 issued server command: /gamemode creative
-[21:52:50] [Server thread/INFO]: CommandBlock at 707,98,115 issued server command: /give Kobeboy15 diamond_pickaxe 1 {RepairCost:999999, Damage:1559,display:{Name:'{"text":"Ye Ol Gold Digger","color":"gold"}'},Enchantments:[{id:"minecraft:fortune",lvl:1000s}]}
-[21:54:43] [Server thread/INFO]: Boulderballs has made the advancement [Stone Age]
-[21:55:10] [Server thread/INFO]: Boulderballs has made the advancement [Acquire Hardware]
-[21:55:10] [Server thread/INFO]: Boulderballs has made the advancement [Suit Up]
-[21:55:37] [Server thread/INFO]: Kobeboy15 issued server command: /vanish Kobeboy15
-[21:55:39] [Server thread/INFO]: Kobeboy15 issued server command: /tp arcosanti
-[21:55:44] [Async Chat Thread - #19/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> joe tp[m
-[21:55:51] [Server thread/INFO]: Jhor issued server command: /tpa arcosanti
-[21:55:57] [Server thread/INFO]: arcosanti issued server command: /tpaccept
-[21:56:09] [Async Chat Thread - #19/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> oh damn a reef[m
-[21:56:13] [Async Chat Thread - #19/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> up there[m
-[21:56:42] [Async Chat Thread - #19/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> need buckets haha[m
-[21:56:46] [Async Chat Thread - #19/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> hahahha[m
-[21:56:50] [Async Chat Thread - #19/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> i can wait[m
-[21:56:58] [Async Chat Thread - #19/INFO]: [m[0;33;1m[User] [0;33;1m[User] big_tasty[m [0;36;1m> i can bring some[m
-[21:57:03] [Async Chat Thread - #19/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> do you still have the badlands as a home?[m
-[21:57:22] [Server thread/INFO]: big_tasty issued server command: /tpa ar
-[21:57:29] [Server thread/INFO]: arcosanti issued server command: /tpaccept
-[21:57:33] [Async Chat Thread - #19/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> yep[m
-[21:57:34] [Async Chat Thread - #19/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> i do[m
-[21:57:41] [Server thread/INFO]: Kobeboy15 issued server command: /home
-[21:58:02] [Async Chat Thread - #19/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> I'll sethome here[m
-[21:58:08] [Server thread/INFO]: [@: Applied effect Jump Boost to Boulderballs]
-[21:58:08] [Server thread/INFO]: [@: Applied effect Slow Falling to Boulderballs]
-[21:58:10] [Server thread/INFO]: Jhor issued server command: /delhome badlands
-[21:58:15] [Server thread/INFO]: Jhor issued server command: /sethome reef
-[21:58:16] [Async Chat Thread - #19/INFO]: [m[0;33;1m[User] [0;33;1m[User] big_tasty[m [0;36;1m> oh that reef is so pretty[m
-[21:58:18] [User Authenticator #35/INFO]: UUID of player Giniguy is 47a4aaeb-feae-366a-bb50-3db390c239cb
-[21:58:18] [Server thread/INFO]: Giniguy[/0:0:0:0:0:0:0:1:54801] logged in with entity id 67340 at ([world]893.4056396767854, 6.0, -470.5796933029844)
-[21:58:19] [Server thread/INFO]: [0;33;1mGiniguy has joined the game.[m
-[21:58:21] [Server thread/INFO]: Jhor issued server command: /tpa Boulderballs
-[21:58:30] [Async Chat Thread - #19/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> OMG[m
-[21:58:33] [Async Chat Thread - #19/INFO]: [m[0;33;1m[User] [0;33;1m[User] big_tasty[m [0;36;1m> u want these buckets joe[m
-[21:58:33] [Async Chat Thread - #19/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> thomas[m
-[21:58:35] [Server thread/INFO]: Boulderballs issued server command: /tpaccept
-[21:58:36] [Async Chat Thread - #19/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> is that you[m
-[21:58:44] [Async Chat Thread - #19/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> isnt that joes friend?[m
-[21:58:48] [Async Chat Thread - #19/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> I'll do it myself lang, still gonna tour my friend[m
-[21:58:53] [Async Chat Thread - #19/INFO]: [m[0;33;1m[User] [0;33;1m[User] big_tasty[m [0;36;1m> aight[m
-[21:58:54] [Async Chat Thread - #19/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> oh what[m
-[21:58:57] [Async Chat Thread - #19/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> who's thomas[m
-[21:59:07] [Async Chat Thread - #19/INFO]: [m[0;33;1m[User] [0;33;1m[User] big_tasty[m [0;36;1m> i think ill grab some fish while im here[m
-[21:59:57] [Server thread/INFO]: CommandBlock at 707,98,115 issued server command: /give Kobeboy15 golden_pickaxe 1 {RepairCost:999999, Damage:1559,display:{Name:'{"text":"Ye Ol Gold Digger","color":"gold"}'},Enchantments:[{id:"minecraft:fortune",lvl:1000s}]}
-[21:59:59] [User Authenticator #36/INFO]: UUID of player lolo_lola_69 is 646085da-be96-308b-8634-fb8b260022a5
-[22:00:00] [Server thread/INFO]: lolo_lola_69[/0:0:0:0:0:0:0:1:54937] logged in with entity id 67766 at ([world]695.0743304538454, 66.0, -73.54953595963542)
-[22:00:00] [Server thread/INFO]: [0;33;1mlolo_lola_69 has joined the game.[m
-[22:00:05] [Server thread/INFO]: FKritz issued server command: /skin set mrs_keralis
-[22:00:09] [Server thread/INFO]: Kobeboy15 issued server command: /gamemode survival
-[22:00:29] [Async Chat Thread - #20/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> world tour?[m
-[22:00:29] [Server thread/INFO]: Kobeboy15 issued server command: /gamemode creative
-[22:00:31] [Async Chat Thread - #20/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> yes sir[m
-[22:00:40] [Async Chat Thread - #20/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> good luck[m
-[22:00:41] [Server thread/INFO]: CommandBlock at 707,98,115 issued server command: /give Kobeboy15 golden_pickaxe 1 {RepairCost:999999, Damage:500,display:{Name:'{"text":"Ye Ol Gold Digger","color":"gold"}'},Enchantments:[{id:"minecraft:fortune",lvl:1000s}]}
-[22:00:48] [Server thread/INFO]: Kobeboy15 issued server command: /gamemode survival
-[22:00:58] [Server thread/INFO]: FKritz issued server command: /skin set Mrs_Keralis
-[22:01:00] [Async Chat Thread - #20/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> test[m
-[22:01:24] [Server thread/INFO]: Kobeboy15 issued server command: /gamemode creative
-[22:01:32] [Server thread/INFO]: FKritz issued server command: /skin set Mrs_Keralis
-[22:01:42] [Server thread/INFO]: CommandBlock at 707,98,115 issued server command: /give Kobeboy15 golden_pickaxe 1 {RepairCost:999999, Damage:100,display:{Name:'{"text":"Ye Ol Gold Digger","color":"gold"}'},Enchantments:[{id:"minecraft:fortune",lvl:1000s}]}
-[22:01:50] [Server thread/INFO]: CommandBlock at 707,98,115 issued server command: /give Kobeboy15 golden_pickaxe 1 {RepairCost:999999, Damage:50,display:{Name:'{"text":"Ye Ol Gold Digger","color":"gold"}'},Enchantments:[{id:"minecraft:fortune",lvl:1000s}]}
-[22:01:53] [Server thread/WARN]: Jhor moved too quickly! 8.734388809531424,-1.0,-6.379608634859267
-[22:01:57] [Server thread/INFO]: CommandBlock at 707,98,115 issued server command: /give Kobeboy15 golden_pickaxe 1 {RepairCost:999999, Damage20,display:{Name:'{"text":"Ye Ol Gold Digger","color":"gold"}'},Enchantments:[{id:"minecraft:fortune",lvl:1000s}]}
-[22:01:57] [Server thread/ERROR]: null
-com.mojang.brigadier.exceptions.CommandSyntaxException: Expected ':' at position 28: ..., Damage20<--[HERE]
-[22:02:07] [Server thread/INFO]: CommandBlock at 707,98,115 issued server command: /give Kobeboy15 golden_pickaxe 1 {RepairCost:999999, Damage:20,display:{Name:'{"text":"Ye Ol Gold Digger","color":"gold"}'},Enchantments:[{id:"minecraft:fortune",lvl:1000s}]}
-[22:02:17] [Server thread/INFO]: CommandBlock at 707,98,115 issued server command: /give Kobeboy15 golden_pickaxe 1 {RepairCost:999999, Damage:30,display:{Name:'{"text":"Ye Ol Gold Digger","color":"gold"}'},Enchantments:[{id:"minecraft:fortune",lvl:1000s}]}
-[22:02:21] [Server thread/INFO]: Kobeboy15 issued server command: /gamemode survival
-[22:02:25] [Server thread/INFO]: FKritz issued server command: /home
-[22:02:42] [Server thread/INFO]: Kobeboy15 issued server command: /gamemode creative
-[22:02:46] [Server thread/INFO]: CommandBlock at 707,98,115 issued server command: /give Kobeboy15 golden_pickaxe 1 {RepairCost:999999, Damage:30,display:{Name:'{"text":"Ye Ol Gold Digger","color":"gold"}'},Enchantments:[{id:"minecraft:fortune",lvl:1000s}]}
-[22:03:14] [Server thread/INFO]: Jhor issued server command: /home
-[22:03:29] [Server thread/INFO]: Jhor issued server command: /tpa Boulderballs
-[22:03:35] [Server thread/INFO]: Boulderballs issued server command: /tpaccept
-[22:04:00] [Server thread/INFO]: Jhor issued server command: /home
-[22:04:46] [Server thread/INFO]: Kobeboy15 issued server command: /helpop
-[22:04:57] [Server thread/INFO]: arcosanti issued server command: /home
-[22:04:59] [Server thread/INFO]: Jhor issued server command: /home
-[22:05:03] [Server thread/INFO]: Kobeboy15 issued server command: /help
-[22:05:06] [Server thread/INFO]: Kobeboy15 issued server command: /help 2
-[22:05:14] [Server thread/INFO]: Kobeboy15 issued server command: /help 3
-[22:05:17] [Server thread/INFO]: Kobeboy15 issued server command: /help 4
-[22:05:19] [Server thread/INFO]: Kobeboy15 issued server command: /help 5
-[22:05:21] [Server thread/INFO]: Kobeboy15 issued server command: /help 5
-[22:05:23] [Server thread/INFO]: Kobeboy15 issued server command: /help 6
-[22:05:25] [Server thread/INFO]: Kobeboy15 issued server command: /help 7
-[22:05:27] [Server thread/INFO]: Kobeboy15 issued server command: /help 8
-[22:05:29] [Server thread/INFO]: Kobeboy15 issued server command: /help 9
-[22:05:31] [Server thread/INFO]: Kobeboy15 issued server command: /help 10
-[22:05:33] [Server thread/INFO]: Kobeboy15 issued server command: /help 11
-[22:05:47] [Server thread/INFO]: big_tasty issued server command: /home
-[22:05:52] [Server thread/INFO]: Giniguy issued server command: /home
-[22:06:07] [Async Chat Thread - #21/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> hey[m
-[22:06:13] [Async Chat Thread - #21/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> who's boulderballs[m
-[22:06:17] [Async Chat Thread - #21/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> my friend[m
-[22:06:19] [Async Chat Thread - #21/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> oooh[m
-[22:06:25] [Async Chat Thread - #21/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> from CE[m
-[22:06:29] [Async Chat Thread - #21/INFO]: [m[0;33;1m[User] [0;33;1m[User] Boulderballs[m [0;36;1m> have an apple[m
-[22:06:36] [Async Chat Thread - #21/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> ty[m
-[22:06:42] [Server thread/INFO]: Jhor issued server command: /tpa Boulderballs
-[22:06:46] [Server thread/INFO]: Boulderballs issued server command: /tpaccept
-[22:06:46] [Async Chat Thread - #21/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> fair trade[m
-[22:06:51] [Async Chat Thread - #21/INFO]: [m[0;33;1m[User] [0;33;1m[User] Boulderballs[m [0;36;1m> XD[m
-[22:07:05] [Async Chat Thread - #21/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> he cant pick it up?[m
-[22:07:14] [Async Chat Thread - #21/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> I think his inventory is full[m
-[22:07:16] [Async Chat Thread - #21/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> oh[m
-[22:07:28] [Async Chat Thread - #21/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> have fun sir[m
-[22:07:29] [Async Chat Thread - #21/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> well be on our way haha[m
-[22:07:31] [Async Chat Thread - #21/INFO]: [m[0;33;1m[User] [0;33;1m[User] Boulderballs[m [0;36;1m> ayts[m
-[22:07:35] [Async Chat Thread - #21/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> see ya[m
-[22:07:51] [Server thread/INFO]: Kobeboy15 issued server command: /vanish
-[22:07:56] [Server thread/INFO]: Kobeboy15 issued server command: /vanish
-[22:08:14] [Async Chat Thread - #21/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> joe join discord[m
-[22:08:33] [Server thread/INFO]: FKritz issued server command: /skin set SnakeTea_
-[22:08:34] [Server thread/INFO]: Boulderballs has made the advancement [Monster Hunter]
-[22:08:35] [Async Chat Thread - #21/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> am on disc with my friend, unless you cool with him coming too haha[m
-[22:09:05] [Async Chat Thread - #21/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> oh whichever you guys would prefer[m
-[22:09:30] [Server thread/INFO]: [GriefPrevention] Kobeboy15 placed a sign @ world: x469, z201;CLUE #1
-[22:09:52] [Server thread/INFO]: [GriefPrevention] Kobeboy15 placed a sign @ world: x469, z201;RIDDLE ME THIS;RIDDLE ME THAT
-[22:10:10] [Server thread/INFO]: Giniguy issued server command: /skin set BigChonkster69
-[22:10:16] [Server thread/INFO]: [GriefPrevention] Kobeboy15 placed a sign @ world: x469, z200;EXPLOSIONS;EVERYWHERE!
-[22:10:29] [Server thread/WARN]: Berith moved wrongly!
-[22:10:29] [Server thread/WARN]: Berith moved wrongly!
-[22:10:29] [Server thread/WARN]: Berith moved wrongly!
-[22:10:33] [Server thread/INFO]: [GriefPrevention] Kobeboy15 placed a sign @ world: x469, z202;RIDDLE ME THIS;RIDDLE ME THAT
-[22:10:42] [Server thread/INFO]: [GriefPrevention] Kobeboy15 placed a sign @ world: x469, z201;EXPLOSIONS;EVERYWHERE!
-[22:10:50] [Server thread/INFO]: [GriefPrevention] Kobeboy15 placed a sign @ world: x469, z200;JUST LIKE;A GHAST!
-[22:11:02] [Async Chat Thread - #22/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> so I'll invite him to disc?[m
-[22:11:24] [Server thread/INFO]: [GriefPrevention] Kobeboy15 placed a sign @ world: x469, z199;THE TOWNFOLK;GATHER TOGETHER;TO FIGHT!
-[22:11:50] [Server thread/INFO]: FKritz issued server command: /skin set Canadian_Mapping
-[22:11:53] [Server thread/WARN]: Jhor moved too quickly! -6.601848199151505,0.0,-12.133711199541949
-[22:11:53] [Server thread/WARN]: lolo_lola_69 moved too quickly! 10.133754367867482,0.0,-0.12226399187116499
-[22:11:56] [Server thread/INFO]: [GriefPrevention] Kobeboy15 placed a sign @ world: x469, z201;WHERE THE DEMON;SPAWNS, MAY BE;A LITTLE TIGHT :3
-[22:12:01] [Server thread/INFO]: FKritz issued server command: /skin set CanadianMapping
-[22:12:04] [Server thread/INFO]: [GriefPrevention] Kobeboy15 placed a sign @ world: x469, z200;.... good luck
-[22:12:25] [Server thread/INFO]: [GriefPrevention] Kobeboy15 placed a sign @ world: x469, z201;CLUE #1
-[22:12:44] [Server thread/INFO]: [GriefPrevention] Kobeboy15 placed a sign @ world: x469, z201;CLUE #1;Read;Left to Right
-[22:13:38] [Server thread/INFO]: Kobeboy15 issued server command: /say Do people know where the notifications board area is?
-[22:13:38] [Server thread/INFO]: [Kobeboy15] Do people know where the notifications board area is?
-[22:14:05] [Server thread/INFO]: FKritz issued server command: /skin set CanadianMapping
-[22:14:33] [Server thread/INFO]: FKritz issued server command: /skin set CanadianMapping
-[22:15:08] [Server thread/INFO]: Kobeboy15 issued server command: /autore time
-[22:15:18] [Server thread/INFO]: FKritz issued server command: /skin set WanTedStreaFe_
-[22:16:05] [Server thread/INFO]: Boulderballs issued server command: /tpa jhor
-[22:16:07] [Server thread/INFO]: Jhor issued server command: /tpaccept
-[22:16:24] [Server thread/INFO]: Jhor issued server command: /home
-[22:16:38] [Server thread/INFO]: Jhor issued server command: /sethome
-[22:16:41] [Async Chat Thread - #23/INFO]: [m[0;33;1m[User] [0;33;1m[User] Kobeboy15[m [0;36;1m> Are all of you guys busy?[m
-[22:16:45] [Server thread/INFO]: Jhor issued server command: /tpa Boulderballs
-[22:16:48] [Async Chat Thread - #23/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> kinda[m
-[22:16:51] [Server thread/INFO]: Boulderballs issued server command: /tpaccept
-[22:17:06] [Async Chat Thread - #23/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> mag sugod na ang treasuer hunt[m
-[22:17:09] [Server thread/INFO]: Jhor issued server command: /home
-[22:17:17] [Async Chat Thread - #23/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> sud mi discord[m
-[22:17:21] [Server thread/INFO]: Jhor issued server command: /tpa Boulderballs
-[22:17:25] [Server thread/INFO]: Boulderballs issued server command: /tpaccept
-[22:17:54] [Server thread/INFO]: kdremeds issued server command: /home kdremeds
-[22:20:16] [Server thread/INFO]: lolo_lola_69 issued server command: /home
-[22:20:50] [Server thread/INFO]: Giniguy issued server command: /home
-[22:21:11] [Server thread/INFO]: Jhor issued server command: /home
-[22:21:59] [Server thread/INFO]: lolo_lola_69 issued server command: /home
-[22:23:04] [Async Chat Thread - #24/INFO]: [m[0;33;1m[User] [0;33;1m[User] Kobeboy15[m [0;36;1m> Are you guys near the Notifications Board area those joining?[m
-[22:23:13] [Async Chat Thread - #24/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> i suppose so[m
-[22:23:15] [Async Chat Thread - #24/INFO]: [m[0;33;1m[User] [0;33;1m[User] big_tasty[m [0;36;1m> im at gaos turtle farm[m
-[22:23:26] [Async Chat Thread - #24/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> wat[m
-[22:23:27] [Async Chat Thread - #24/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> no one else is joining?[m
-[22:23:56] [Async Chat Thread - #24/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> going to message board now[m
-[22:23:58] [Async Chat Thread - #24/INFO]: [m[0;33;1m[User] [0;33;1m[User] big_tasty[m [0;36;1m> whoevers far can tp to me[m
-[22:24:03] [Server thread/INFO]: lolo_lola_69 issued server command: /tpa big_tasty
-[22:24:07] [Server thread/INFO]: big_tasty issued server command: /tpaccept
-[22:24:20] [Server thread/INFO]: Kobeboy15 issued server command: /tphere Giniguy
-[22:24:24] [Server thread/INFO]: FKritz issued server command: /tpa Giniguy
-[22:24:26] [Server thread/INFO]: Giniguy issued server command: /tpaccept
-[22:24:32] [Server thread/INFO]: Kobeboy15 issued server command: /vanish
-[22:24:46] [Server thread/INFO]: Kobeboy15 issued server command: /vanish
-[22:25:47] [Async Chat Thread - #25/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> who are the contestants?[m
-[22:26:17] [Async Chat Thread - #25/INFO]: [m[0;33;1m[User] [0;33;1m[User] big_tasty[m [0;36;1m> everyone thats here i guess[m
-[22:26:25] [Async Chat Thread - #25/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> all individual?[m
-[22:26:37] [Async Chat Thread - #25/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> dementors[m
-[22:26:39] [Async Chat Thread - #25/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> team sila waxnnah, gioritz[m
-[22:26:52] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mYOU KNOW WHAT TIME IT IS :3 In 15 Minutes![m
-[22:26:53] [Async Chat Thread - #25/INFO]: [m[0;33;1m[User] [0;33;1m[User] Kobeboy15[m [0;36;1m> are you guys ready? Team leads or teamless people say I?[m
-[22:26:56] [Async Chat Thread - #25/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> are you serious[m
-[22:26:58] [Async Chat Thread - #25/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> HAHAHAHAHA 15 mins[m
-[22:27:02] [Server thread/INFO]: Kobeboy15 issued server command: /autore help
-[22:27:11] [Async Chat Thread - #25/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> should we wait?[m
-[22:27:13] [Server thread/INFO]: Kobeboy15 issued server command: /autore in 1:h
-[22:27:13] [Server thread/INFO]: [0;31;1mServer now is restarting in [0;37;1m1[0;31;1mH [0;37;1m0[0;31;1mM [0;37;1m0[0;31;1mS![m
-[22:27:16] [Async Chat Thread - #25/INFO]: [m[0;33;1m[User] [0;33;1m[User] Kobeboy15[m [0;36;1m> nah[m
-[22:27:17] [Async Chat Thread - #25/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> niceee[m
-[22:27:20] [Async Chat Thread - #25/INFO]: [m[0;33;1m[User] [0;33;1m[User] big_tasty[m [0;36;1m> lol nice[m
-[22:27:21] [Async Chat Thread - #25/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> whats happening?[m
-[22:27:23] [Async Chat Thread - #25/INFO]: [m[0;33;1m[User] [0;33;1m[User] big_tasty[m [0;36;1m> cheatinf[m
-[22:27:25] [Async Chat Thread - #25/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> oh no kim[m
-[22:27:28] [Async Chat Thread - #25/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> pair up with vladi[m
-[22:27:37] [Async Chat Thread - #25/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> wait i cant stay long but[m
-[22:27:39] [Async Chat Thread - #25/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> solo man ko :([m
-[22:27:41] [Async Chat Thread - #25/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> oh no[m
-[22:27:41] [Async Chat Thread - #25/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> i wanna know lang[m
-[22:27:45] [Async Chat Thread - #25/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> amazing race[m
-[22:27:48] [Async Chat Thread - #25/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> server wide race[m
-[22:27:53] [Async Chat Thread - #25/INFO]: [m[0;33;1m[User] [0;33;1m[User] big_tasty[m [0;36;1m> epic loot prixe[m
-[22:27:54] [Async Chat Thread - #25/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> team ta vlad haha[m
-[22:27:56] [Async Chat Thread - #25/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> amazing rice[m
-[22:28:01] [Async Chat Thread - #25/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> sige[m
-[22:28:09] [Async Chat Thread - #25/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> should we record?[m
-[22:28:12] [Async Chat Thread - #25/INFO]: [m[0;33;1m[User] [0;33;1m[User] kdremeds[m [0;36;1m> hahahah good luck dude i have duty with my gf[m
-[22:28:14] [Server thread/INFO]: kdremeds lost connection: Disconnected
-[22:28:14] [Server thread/INFO]: kdremeds has left the game.
-[22:28:27] [Server thread/INFO]: Kobeboy15 issued server command: /say are you guys ready????
-[22:28:27] [Server thread/INFO]: [Kobeboy15] are you guys ready????
-[22:28:29] [Async Chat Thread - #25/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> yeee[m
-[22:28:30] [Async Chat Thread - #25/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> hai[m
-[22:28:34] [Async Chat Thread - #25/INFO]: [m[0;33;1m[User] [0;33;1m[User] big_tasty[m [0;36;1m> wait can i weewee[m
-[22:28:40] [Async Chat Thread - #25/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> X[m
-[22:28:41] [Async Chat Thread - #25/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> XD[m
-[22:28:46] [Async Chat Thread - #25/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> weewee break everyone[m
-[22:28:47] [Async Chat Thread - #25/INFO]: [m[0;33;1m[User] [0;33;1m[User] big_tasty[m [0;36;1m> bathroom break sa[m
-[22:28:49] [Server thread/INFO]: Kobeboy15 issued server command: /say rememer to look for the first clue, and dont take the books from the chests you find, put them back
-[22:28:49] [Server thread/INFO]: [Kobeboy15] rememer to look for the first clue, and dont take the books from the chests you find, put them back
-[22:28:51] [Async Chat Thread - #25/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> hahahaha[m
-[22:29:02] [Async Chat Thread - #25/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> brb[m
-[22:29:03] [Async Chat Thread - #25/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> team trident[m
-[22:29:13] [Async Chat Thread - #25/INFO]: [m[0;33;1m[User] [0;33;1m[User] big_tasty[m [0;36;1m> ill afk ha[m
-[22:29:19] [Async Chat Thread - #25/INFO]: [m[0;33;1m[User] [0;33;1m[User] big_tasty[m [0;36;1m> dont kill me ill cry[m
-[22:29:28] [Server thread/INFO]: Kobeboy15 issued server command: /say Im counting down from 2 minutes......
-[22:29:28] [Server thread/INFO]: [Kobeboy15] Im counting down from 2 minutes......
-[22:29:38] [Server thread/INFO]: Kobeboy15 issued server command: /say you guys better ready up
-[22:29:38] [Server thread/INFO]: [Kobeboy15] you guys better ready up
-[22:29:43] [Async Chat Thread - #25/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> am ready[m
-[22:29:49] [Server thread/INFO]: Kobeboy15 issued server command: /killall hostile
-[22:29:53] [Server thread/INFO]: Kobeboy15 issued server command: /vanish
-[22:29:54] [Async Chat Thread - #25/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> rewady[m
-[22:30:22] [Async Chat Thread - #25/INFO]: [m[0;33;1m[User] [0;33;1m[User] Kobeboy15[m [0;36;1m> 1 minute 30 seconds.....[m
-[22:30:31] [Async Chat Thread - #25/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> is boulderballs gonna join?[m
-[22:30:32] [Async Chat Thread - #25/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> oh shit its belle delphine[m
-[22:30:37] [Async Chat Thread - #25/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> nope[m
-[22:30:41] [Async Chat Thread - #25/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> oh ok[m
-[22:30:41] [Async Chat Thread - #25/INFO]: [m[0;33;1m[User] [0;33;1m[User] big_tasty[m [0;36;1m> back[m
-[22:31:03] [Server thread/INFO]: Kobeboy15 issued server command: /say 1 Minute!!!!
-[22:31:03] [Server thread/INFO]: [Kobeboy15] 1 Minute!!!!
-[22:31:12] [Async Chat Thread - #25/INFO]: [m[0;33;1m[User] [0;33;1m[User] big_tasty[m [0;36;1m> ur mom was so wet last night thats why im so hydrated[m
-[22:31:16] [Server thread/INFO]: Kobeboy15 issued server command: /killall hostile
-[22:31:24] [Async Chat Thread - #25/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> hannah thats disguisting[m
-[22:31:28] [Async Chat Thread - #25/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> jesus[m
-[22:31:34] [Async Chat Thread - #25/INFO]: [m[0;33;1m[User] [0;33;1m[User] big_tasty[m [0;36;1m> ur moms name is belle delphine[m
-[22:31:37] [Async Chat Thread - #25/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> wtf[m
-[22:31:38] [Server thread/INFO]: Kobeboy15 issued server command: /say 30 SECONDS GET RREADDYYYYYYYY
-[22:31:38] [Server thread/INFO]: [Kobeboy15] 30 SECONDS GET RREADDYYYYYYYY
-[22:31:42] [Async Chat Thread - #25/INFO]: [m[0;33;1m[User] [0;33;1m[User] big_tasty[m [0;36;1m> wax is ur mom[m
-[22:31:50] [Async Chat Thread - #25/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> i dont wanna be team with hannah anymore[m
-[22:31:56] [Async Chat Thread - #25/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> ahhahahahaha[m
-[22:32:05] [Async Chat Thread - #25/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> lmao[m
-[22:32:11] [Server thread/INFO]: Kobeboy15 issued server command: /say 10
-[22:32:11] [Server thread/INFO]: [Kobeboy15] 10
-[22:32:14] [Server thread/INFO]: Kobeboy15 issued server command: /say 9
-[22:32:14] [Server thread/INFO]: [Kobeboy15] 9
-[22:32:17] [Server thread/INFO]: Kobeboy15 issued server command: /say 8
-[22:32:17] [Server thread/INFO]: [Kobeboy15] 8
-[22:32:19] [Server thread/INFO]: Kobeboy15 issued server command: /say 7
-[22:32:19] [Server thread/INFO]: [Kobeboy15] 7
-[22:32:21] [Server thread/INFO]: Kobeboy15 issued server command: /say 6
-[22:32:21] [Server thread/INFO]: [Kobeboy15] 6
-[22:32:23] [Server thread/INFO]: Kobeboy15 issued server command: /say 5
-[22:32:23] [Server thread/INFO]: [Kobeboy15] 5
-[22:32:25] [Server thread/INFO]: Kobeboy15 issued server command: /say 4
-[22:32:25] [Server thread/INFO]: [Kobeboy15] 4
-[22:32:27] [Server thread/INFO]: Kobeboy15 issued server command: /say 3
-[22:32:27] [Server thread/INFO]: [Kobeboy15] 3
-[22:32:28] [Async Chat Thread - #25/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> no hitting[m
-[22:32:29] [Server thread/INFO]: Kobeboy15 issued server command: /say 2
-[22:32:29] [Server thread/INFO]: [Kobeboy15] 2
-[22:32:29] [Async Chat Thread - #25/INFO]: [m[0;33;1m[User] [0;33;1m[User] big_tasty[m [0;36;1m> shiiiid[m
-[22:32:32] [Server thread/INFO]: Kobeboy15 issued server command: /say 1
-[22:32:32] [Server thread/INFO]: [Kobeboy15] 1
-[22:32:36] [Async Chat Thread - #25/INFO]: [m[0;33;1m[User] [0;33;1m[User] Kobeboy15[m [0;36;1m> GOOO[m
-[22:32:48] [Server thread/INFO]: Kobeboy15 issued server command: /vanish
-[22:34:05] [Server thread/INFO]: FKritz issued server command: /tpa Giniguy
-[22:34:07] [Server thread/INFO]: Giniguy issued server command: /tpaccept
-[22:34:16] [Server thread/INFO]: big_tasty issued server command: /home
-[22:34:34] [Async Chat Thread - #26/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> is it cheating to use ur horsew[m
-[22:35:06] [Async Chat Thread - #26/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> i am confused[m
-[22:35:09] [Async Chat Thread - #26/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> with this riddle[m
-[22:35:19] [Async Chat Thread - #26/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> these are server events?[m
-[22:35:22] [Server thread/INFO]: lolo_lola_69 issued server command: /tpa Jhor
-[22:35:24] [Server thread/INFO]: Jhor issued server command: /tpaccept
-[22:35:59] [Async Chat Thread - #26/INFO]: [m[0;33;1m[User] [0;33;1m[User] Kobeboy15[m [0;36;1m> YOU GUYS CAN BREAK BLOCK[m
-[22:36:05] [Async Chat Thread - #26/INFO]: [m[0;33;1m[User] [0;33;1m[User] Kobeboy15[m [0;36;1m> BLOCKS*[m
-[22:36:07] [Server thread/INFO]: [GriefPrevention] Boulderballs placed suspicious WATER_BUCKET @ world: x289, z-1215
-[22:36:22] [Async Chat Thread - #26/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> kobe, need help[m
-[22:36:38] [Async Chat Thread - #26/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> discord pweese[m
-[22:36:53] [Server thread/WARN]: Kobeboy15 moved too quickly! -10.260085128653941,3.753847735314025,-37.78024090505876
-[22:36:53] [Server thread/WARN]: big_tasty moved too quickly! -1.932806827133163,0.0,11.275913176558106
-[22:36:54] [Server thread/INFO]: Jhor issued server command: /home
-[22:37:20] [Server thread/INFO]: lolo_lola_69 issued server command: /tpa Jhor
-[22:37:29] [Server thread/INFO]: Jhor issued server command: /tpaccept
-[22:37:29] [Server thread/INFO]: Kobeboy15 issued server command: /tphere Giniguy
-[22:37:32] [Server thread/INFO]: FKritz issued server command: /tpa Giniguy
-[22:37:35] [Server thread/INFO]: Giniguy issued server command: /tpaccept
-[22:37:52] [Server thread/INFO]: big_tasty tried to swim in lava
-[22:38:05] [Server thread/INFO]: Kobeboy15 issued server command: /tp Jhor
-[22:38:07] [Async Chat Thread - #27/INFO]: [m[0;33;1m[User] [0;33;1m[User] big_tasty[m [0;36;1m> dskksfms[m
-[22:38:12] [Server thread/INFO]: big_tasty issued server command: /home
-[22:38:14] [Async Chat Thread - #27/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> riiiiip[m
-[22:38:30] [Server thread/INFO]: big_tasty issued server command: /tpa a
-[22:38:52] [Server thread/INFO]: Kobeboy15 issued server command: /tp arcosanti
-[22:39:04] [Server thread/INFO]: arcosanti issued server command: /tpaccept
-[22:39:56] [Async Chat Thread - #28/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> sup[m
-[22:40:36] [Server thread/INFO]: arcosanti issued server command: /tpa big_tasty
-[22:40:40] [Server thread/INFO]: big_tasty issued server command: /tpaccept
-[22:40:43] [Server thread/INFO]: Giniguy tried to swim in lava
-[22:40:44] [Server thread/INFO]: lolo_lola_69 issued server command: /tpa Jhor
-[22:40:45] [Server thread/INFO]: FKritz tried to swim in lava
-[22:40:47] [Server thread/INFO]: Jhor issued server command: /tpaccept
-[22:40:49] [Async Chat Thread - #28/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> omg they died[m
-[22:40:55] [Async Chat Thread - #28/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> who the fuck[m
-[22:40:56] [Async Chat Thread - #28/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> why[m
-[22:40:59] [Server thread/INFO]: arcosanti tried to swim in lava
-[22:41:09] [Server thread/INFO]: arcosanti issued server command: /tpa big_tasty
-[22:41:09] [Async Chat Thread - #28/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> oh jeezus[m
-[22:41:11] [Async Chat Thread - #28/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> w[m
-[22:41:12] [Server thread/INFO]: big_tasty issued server command: /tpaccept
-[22:41:18] [Async Chat Thread - #28/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> casualties of war[m
-[22:41:28] [Server thread/INFO]: Kobeboy15 issued server command: /tp Jhor
-[22:41:35] [Async Chat Thread - #28/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> we had some diamond stuff :([m
-[22:41:43] [Server thread/INFO]: arcosanti issued server command: /home
-[22:41:44] [Server thread/INFO]: Giniguy issued server command: /home
-[22:41:46] [Server thread/INFO]: Giniguy issued server command: /home
-[22:41:47] [Server thread/INFO]: big_tasty issued server command: /home
-[22:41:53] [Server thread/INFO]: FKritz issued server command: /tpa G
-[22:41:59] [Server thread/INFO]: Giniguy issued server command: /tpaccept
-[22:42:43] [Server thread/INFO]: Boulderballs has made the advancement [Isn't It Iron Pick]
-[22:43:38] [Server thread/INFO]: Kobeboy15 issued server command: /tp arcosanti
-[22:44:15] [Server thread/INFO]: Kobeboy15 issued server command: /tp Jhor
-[22:45:08] [Server thread/INFO]: FKritz issued server command: /tpa Giniguy
-[22:45:11] [Server thread/INFO]: Giniguy issued server command: /tpaccept
-[22:45:24] [Server thread/INFO]: Kobeboy15 issued server command: /tphere Giniguy
-[22:45:29] [Server thread/INFO]: FKritz issued server command: /tpa Giniguy
-[22:45:30] [Server thread/INFO]: Giniguy issued server command: /tpaccept
-[22:45:41] [Server thread/INFO]: Kobeboy15 issued server command: /tp Jhor
-[22:45:43] [Server thread/INFO]: Jhor issued server command: /home
-[22:45:44] [Server thread/INFO]: Kobeboy15 issued server command: /home
-[22:45:48] [Server thread/INFO]: lolo_lola_69 issued server command: /home
-[22:46:02] [Server thread/INFO]: Kobeboy15 issued server command: /ignoreclaims
-[22:46:13] [Server thread/INFO]: FKritz issued server command: /tpa Giniguy
-[22:46:18] [Server thread/INFO]: Giniguy issued server command: /tpaccept
-[22:46:57] [Server thread/INFO]: arcosanti issued server command: /home
-[22:47:31] [Server thread/INFO]: Kobeboy15 issued server command: /tp arcosanti
-[22:47:31] [Async Chat Thread - #29/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> sup[m
-[22:47:38] [Server thread/INFO]: lolo_lola_69 issued server command: /trust arcosanti
-[22:47:43] [Server thread/INFO]: lolo_lola_69 issued server command: /trust big_tasty
-[22:47:47] [Server thread/INFO]: lolo_lola_69 issued server command: /trust Giniguy
-[22:47:51] [Server thread/INFO]: lolo_lola_69 issued server command: /trust FKritz
-[22:48:07] [Server thread/INFO]: Jhor issued server command: /home
-[22:48:24] [Server thread/INFO]: Giniguy issued server command: /tpa FKritz
-[22:49:15] [Server thread/INFO]: Kobeboy15 issued server command: /tp Jhor
-[22:49:23] [Server thread/INFO]: FKritz issued server command: /tpa Giniguy
-[22:50:28] [Server thread/INFO]: Kobeboy15 issued server command: /tp lolo_lola_69
-[22:50:45] [Server thread/INFO]: big_tasty issued server command: /home
-[22:50:49] [Server thread/INFO]: arcosanti issued server command: /home
-[22:50:55] [Server thread/INFO]: Giniguy issued server command: /spawn
-[22:50:57] [Server thread/INFO]: FKritz issued server command: /spawn
-[22:51:00] [Server thread/INFO]: lolo_lola_69 issued server command: /tpa Jhor
-[22:51:02] [Server thread/INFO]: Jhor issued server command: /tpaccept
-[22:51:13] [Server thread/INFO]: lolo_lola_69 issued server command: /tpa Jhor
-[22:51:15] [Server thread/INFO]: Jhor issued server command: /tpaccept
-[22:52:33] [Server thread/INFO]: Kobeboy15 issued server command: /tp Giniguy
-[22:53:23] [Server thread/INFO]: arcosanti issued server command: /home
-[22:53:27] [Server thread/INFO]: big_tasty issued server command: /home
-[22:53:35] [Server thread/INFO]: Kobeboy15 issued server command: /tp Jhor
-[22:54:10] [Async Chat Thread - #30/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> JHOR[m
-[22:54:12] [Async Chat Thread - #30/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> help[m
-[22:54:14] [Async Chat Thread - #30/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> giniguy[m
-[22:54:20] [Async Chat Thread - #30/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> im at this hut[m
-[22:54:33] [Async Chat Thread - #30/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> why does this refer to chinese culture[m
-[22:54:50] [Async Chat Thread - #30/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> basa lang[m
-[22:54:58] [Async Chat Thread - #30/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> naay church diri?[m
-[22:55:03] [Server thread/INFO]: Kobeboy15 issued server command: /tp big_tasty
-[22:55:05] [Server thread/INFO]: Kobeboy15 issued server command: /vanish
-[22:55:10] [Server thread/INFO]: Kobeboy15 issued server command: /vanish
-[22:55:15] [Server thread/INFO]: Kobeboy15 issued server command: /tp Jhor
-[22:56:03] [Server thread/INFO]: Kobeboy15 issued server command: /tp Giniguy
-[22:56:20] [Server thread/INFO]: Kobeboy15 issued server command: /invsee Giniguy
-[22:58:01] [Server thread/INFO]: Boulderballs issued server command: /spawn
-[22:58:41] [Server thread/INFO]: Boulderballs lost connection: Disconnected
-[22:58:41] [Server thread/INFO]: Boulderballs has left the game.
-[22:58:55] [Async Chat Thread - #31/INFO]: [m[0;33;1m[User] [0;33;1m[User] Kobeboy15[m [0;36;1m> CONGRATS TO JOEEEEEEEE[m
-[22:58:59] [Async Chat Thread - #31/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> ooooh[m
-[22:59:03] [Async Chat Thread - #31/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> oh no[m
-[22:59:08] [Async Chat Thread - #31/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> asa nakitan[m
-[22:59:20] [User Authenticator #37/INFO]: UUID of player Boulderballs is c5c05e4f-d28e-3be0-9222-fffe440eb955
-[22:59:20] [Server thread/INFO]: Boulderballs[/0:0:0:0:0:0:0:1:60655] logged in with entity id 90560 at ([world]85.46813233105865, 63.5, 258.3006769109057)
-[22:59:20] [Server thread/INFO]: [0;33;1mBoulderballs has joined the game.[m
-[22:59:23] [Async Chat Thread - #31/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> can we get a tutor of how to get the clues?[m
-[22:59:33] [Async Chat Thread - #31/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> here[m
-[22:59:40] [Async Chat Thread - #31/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> noice[m
-[22:59:45] [Server thread/INFO]: Kobeboy15 issued server command: /tp arcosanti
-[22:59:46] [Async Chat Thread - #31/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> check[m
-[22:59:56] [Async Chat Thread - #31/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> 10000[m
-[23:00:13] [Async Chat Thread - #31/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> what if pwede enchant mending[m
-[23:00:17] [Async Chat Thread - #31/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> hmmmmmmmm[m
-[23:00:21] [Async Chat Thread - #31/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> cant[m
-[23:00:26] [Async Chat Thread - #31/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> ur gonna need 100+ xp[m
-[23:00:29] [Server thread/INFO]: Kobeboy15 issued server command: /give arcosanti diamond 3
-[23:00:34] [Async Chat Thread - #31/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> oooh[m
-[23:00:36] [Server thread/INFO]: Kobeboy15 issued server command: /give big_tasty diamond 3
-[23:00:39] [Async Chat Thread - #31/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> cuz of the level of the fortune[m
-[23:00:47] [Server thread/INFO]: Jhor issued server command: /home
-[23:01:03] [Server thread/INFO]: lolo_lola_69 issued server command: /home
-[23:01:35] [Server thread/INFO]: lolo_lola_69 issued server command: /tpa Jhor
-[23:01:38] [Server thread/INFO]: Jhor issued server command: /tpaccept
-[23:01:42] [Async Chat Thread - #32/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> we need to find a diamond ore[m
-[23:01:43] [Async Chat Thread - #32/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> hahahaha[m
-[23:01:48] [Async Chat Thread - #32/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> le mao[m
-[23:02:04] [Async Chat Thread - #32/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> kobe, what's this blood trail?[m
-[23:02:09] [Async Chat Thread - #32/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> sup[m
-[23:02:12] [Server thread/INFO]: Kobeboy15 issued server command: /op lolo_lola_69
-[23:02:12] [Server thread/INFO]: [Kobeboy15: Made lolo_lola_69 a server operator]
-[23:02:15] [Server thread/INFO]: Kobeboy15 issued server command: /op Jhor
-[23:02:15] [Server thread/INFO]: [Kobeboy15: Made Jhor a server operator]
-[23:02:17] [Async Chat Thread - #32/INFO]: [m[0;33;1m[User] [0;33;1m[User] Boulderballs[m [0;36;1m> sup bruh[m
-[23:02:50] [Server thread/INFO]: arcosanti was shot by Skeleton
-[23:02:57] [Server thread/INFO]: lolo_lola_69 issued server command: /home
-[23:03:04] [Server thread/INFO]: Kobeboy15 issued server command: /vanish
-[23:04:01] [Async Chat Thread - #33/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> joe[m
-[23:04:04] [Async Chat Thread - #33/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> tp nako[m
-[23:04:12] [Server thread/INFO]: Jhor issued server command: /tpa lolo_lola_69
-[23:04:14] [Server thread/INFO]: Kobeboy15 issued server command: /give Giniguy diamond 2
-[23:04:15] [Server thread/INFO]: lolo_lola_69 issued server command: /tpaccept
-[23:04:20] [Server thread/INFO]: Kobeboy15 issued server command: /give FKritz diamond 2
-[23:04:20] [Async Chat Thread - #33/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> damn fast[m
-[23:04:39] [Async Chat Thread - #33/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> make sure to use super breaker[m
-[23:04:42] [Async Chat Thread - #33/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> kobe[m
-[23:04:55] [Server thread/INFO]: Kobeboy15 issued server command: /tp Jhor
-[23:04:58] [Async Chat Thread - #33/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> what[m
-[23:04:59] [Async Chat Thread - #33/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> aguba[m
-[23:05:01] [Server thread/INFO]: Giniguy issued server command: /home
-[23:05:03] [Server thread/INFO]: FKritz issued server command: /hoem
-[23:05:06] [Server thread/INFO]: FKritz issued server command: /home
-[23:05:11] [Async Chat Thread - #33/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> hahahaha[m
-[23:05:12] [Server thread/INFO]: Kobeboy15 issued server command: /home
-[23:05:12] [Async Chat Thread - #33/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> gg[m
-[23:05:16] [Server thread/INFO]: big_tasty issued server command: /home
-[23:05:19] [Async Chat Thread - #33/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> eta gege[m
-[23:05:36] [Server thread/INFO]: arcosanti issued server command: /home
-[23:05:37] [Server thread/INFO]: CommandBlock at 707,98,115 issued server command: /give Kobeboy15 diamond_pickaxe 1 {RepairCost:999999, Damage:30,display:{Name:'{"text":"Ye Ol Gold Digger","color":"gold"}'},Enchantments:[{id:"minecraft:fortune",lvl:1000s}]}
-[23:05:53] [Server thread/INFO]: CommandBlock at 707,98,115 issued server command: /give Kobeboy15 diamond_pickaxe 1 {RepairCost:999999, Damage:1555,display:{Name:'{"text":"Ye Ol Gold Digger","color":"gold"}'},Enchantments:[{id:"minecraft:fortune",lvl:1000s}]}
-[23:05:57] [Server thread/INFO]: Kobeboy15 issued server command: /invsee Jhor
-[23:06:13] [Server thread/INFO]: CommandBlock at 707,98,115 issued server command: /give Kobeboy15 diamond_pickaxe 1 {RepairCost:999999, Damage:1550,display:{Name:'{"text":"Ye Ol Gold Digger","color":"gold"}'},Enchantments:[{id:"minecraft:fortune",lvl:1000s}]}
-[23:06:17] [Server thread/INFO]: Kobeboy15 issued server command: /tp Jhor
-[23:06:53] [Server thread/WARN]: Berith (vehicle of arcosanti) moved too quickly! -11.602111787217495,2.0,16.341633075042544
-[23:06:53] [Server thread/WARN]: Berith (vehicle of arcosanti) moved too quickly! -11.76927079459199,2.0,16.75946970619846
-[23:06:53] [Server thread/WARN]: Berith (vehicle of arcosanti) moved too quickly! -11.935173175084742,1.9231679985046384,17.17890564943537
-[23:06:53] [Server thread/WARN]: Berith (vehicle of arcosanti) moved too quickly! -12.03159012412641,1.7725465413369932,17.42292344961792
-[23:06:53] [Server thread/WARN]: Berith (vehicle of arcosanti) moved too quickly! -12.125220654736268,1.5510576895623984,17.66012451969933
-[23:06:53] [Server thread/WARN]: Berith (vehicle of arcosanti) moved too quickly! -12.216215811238271,1.2615077906826428,17.891304496213237
-[23:06:53] [Server thread/WARN]: Berith (vehicle of arcosanti) moved too quickly! -12.304467540125074,1.0,18.117260417358793
-[23:06:53] [Server thread/WARN]: Berith (vehicle of arcosanti) moved too quickly! -12.445302778875885,1.0,18.51963263726148
-[23:06:53] [Server thread/WARN]: Berith (vehicle of arcosanti) moved too quickly! -12.576272117238318,1.0,18.93770099496723
-[23:06:53] [Server thread/WARN]: Berith (vehicle of arcosanti) moved too quickly! -12.69978196352622,1.0,19.364753482925956
-[23:06:53] [Server thread/WARN]: Berith (vehicle of arcosanti) moved too quickly! -12.817113773026904,1.0,19.797175192048954
-[23:06:54] [Async Chat Thread - #34/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> omg[m
-[23:06:58] [Async Chat Thread - #34/INFO]: [m[0;33;1m[User] [0;33;1m[User] Kobeboy15[m [0;36;1m> JESSUS CHRSIT[m
-[23:07:05] [Async Chat Thread - #34/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> return it to kobe[m
-[23:07:06] [Server thread/INFO]: Giniguy issued server command: /tpa Jhor
-[23:07:12] [Server thread/INFO]: Kobeboy15 issued server command: /invsee Jhor
-[23:07:14] [Async Chat Thread - #34/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> im happy with dis[m
-[23:07:25] [Server thread/INFO]: Jhor issued server command: /tpac
-[23:07:30] [Server thread/INFO]: Kobeboy15 issued server command: /invsee Jhor
-[23:07:31] [Server thread/INFO]: Jhor issued server command: /tpaccept
-[23:07:32] [Server thread/INFO]: big_tasty issued server command: /tpa arcosanti
-[23:07:37] [Server thread/INFO]: arcosanti issued server command: /tpaccept
-[23:07:41] [Async Chat Thread - #34/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> i weill fieed teh dog sa[m
-[23:07:47] [Server thread/INFO]: Boulderballs issued server command: /tpa jhor
-[23:08:01] [Server thread/INFO]: Jhor issued server command: /tpaccept
-[23:08:03] [Server thread/INFO]: Kobeboy15 issued server command: /home
-[23:08:17] [Async Chat Thread - #34/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> tp beh[m
-[23:08:20] [Server thread/INFO]: FKritz issued server command: /tpa Giniguy
-[23:08:22] [Server thread/INFO]: Giniguy issued server command: /tpaccept
-[23:08:31] [Server thread/INFO]: Kobeboy15 issued server command: /vanish
-[23:09:01] [Server thread/INFO]: big_tasty issued server command: /home
-[23:09:04] [Server thread/INFO]: Kobeboy15 issued server command: /give arcosanti horse_spawn_egg 1
-[23:09:53] [Server thread/INFO]: FKritz issued server command: /home
-[23:10:13] [Server thread/INFO]: FKritz issued server command: /tpa Giniguy
-[23:10:15] [Server thread/INFO]: Giniguy issued server command: /tpaccept
-[23:10:34] [Async Chat Thread - #35/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> kobe[m
-[23:10:40] [Async Chat Thread - #35/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> our armors and gears :([m
-[23:10:42] [Server thread/INFO]: Giniguy issued server command: /home
-[23:10:57] [Server thread/INFO]: FKritz issued server command: /hoem
-[23:10:59] [Server thread/INFO]: FKritz issued server command: /home
-[23:11:11] [Server thread/WARN]: Horse moved wrongly!
-[23:11:30] [Server thread/INFO]: Kobeboy15 issued server command: /invsee Giniguy
-[23:11:52] [Server thread/WARN]: Kobeboy15 moved too quickly! -7.7045333492885675,0.0,-6.4715748816572045
-[23:12:08] [Server thread/INFO]: Kobeboy15 issued server command: /vanish
-[23:12:14] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mYOU KNOW WHAT TIME IT IS :3 In 15 Minutes![m
-[23:12:29] [Server thread/INFO]: Kobeboy15 issued server command: /say I HOPE Y'ALL HAD AN AMAZINGGGGGG RACE! :0
-[23:12:29] [Server thread/INFO]: [Kobeboy15] I HOPE Y'ALL HAD AN AMAZINGGGGGG RACE! :0
-[23:12:38] [Async Chat Thread - #36/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> when will we prep for the next one?[m
-[23:12:43] [Async Chat Thread - #36/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> we did[m
-[23:12:53] [Server thread/INFO]: Boulderballs issued server command: /spawn
-[23:13:06] [Server thread/INFO]: arcosanti issued server command: /home village
-[23:13:42] [Server thread/INFO]: Jhor issued server command: /home
-[23:14:53] [Server thread/INFO]: [@: Applied effect Jump Boost to Kobeboy15]
-[23:14:53] [Server thread/INFO]: [@: Applied effect Slow Falling to Kobeboy15]
-[23:15:38] [Server thread/INFO]: Boulderballs issued server command: /sethome 1
-[23:15:44] [Server thread/INFO]: Jhor issued server command: /home reef
-[23:15:46] [Server thread/INFO]: Boulderballs issued server command: /tpa jhor
-[23:15:49] [Server thread/INFO]: Jhor issued server command: /tpaccept
-[23:16:10] [Server thread/INFO]: FKritz issued server command: /home
-[23:16:54] [Server thread/INFO]: Boulderballs issued server command: /home 1
-[23:16:55] [Server thread/WARN]: lolo_lola_69 moved wrongly!
-[23:17:00] [Server thread/INFO]: Jhor issued server command: /home
-[23:17:14] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mYOU KNOW WHAT TIME IT IS :3 In 10 Minutes![m
-[23:17:28] [Server thread/INFO]: lolo_lola_69 issued server command: /home
-[23:19:20] [Server thread/INFO]: Kobeboy15 issued server command: /invsee big_tasty
-[23:20:44] [Server thread/INFO]: Jhor issued server command: /home
-[23:20:50] [Server thread/INFO]: Boulderballs lost connection: Disconnected
-[23:20:50] [Server thread/INFO]: Boulderballs has left the game.
-[23:21:26] [User Authenticator #38/INFO]: UUID of player Boulderballs is c5c05e4f-d28e-3be0-9222-fffe440eb955
-[23:21:26] [Server thread/INFO]: Boulderballs[/0:0:0:0:0:0:0:1:64107] logged in with entity id 103934 at ([world]261.34167863477774, 62.07326521750937, 325.2340222238908)
-[23:21:26] [Server thread/INFO]: [0;33;1mBoulderballs has joined the game.[m
-[23:21:53] [Server thread/WARN]: arcosanti moved too quickly! -10.333667411955787,-0.7531999805212024,-7.643294539505746
-[23:21:53] [Server thread/WARN]: Boat (vehicle of Boulderballs) moved too quickly! -11.368622470562741,0.0,16.938168170801646
-[23:21:53] [Server thread/WARN]: Boat (vehicle of Boulderballs) moved too quickly! -11.591736584743387,0.0,17.27016199772993
-[23:21:53] [Server thread/WARN]: Boat (vehicle of Boulderballs) moved too quickly! -11.814851293756249,0.0,17.602155442604214
-[23:21:53] [Server thread/WARN]: Boat (vehicle of Boulderballs) moved too quickly! -12.037966538118098,0.0,17.934148543629988
-[23:21:53] [Server thread/WARN]: Boat (vehicle of Boulderballs) moved too quickly! -12.261082264293975,0.0,18.26614133519206
-[23:22:14] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mYOU KNOW WHAT TIME IT IS :3 In 5 Minutes![m
-[23:22:30] [Server thread/INFO]: Kobeboy15 issued server command: /invsee Giniguy
-[23:22:32] [Async Chat Thread - #37/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> i think i listed it all down kobe[m
-[23:22:58] [Server thread/INFO]: Kobeboy15 issued server command: /invsee big_tasty
-[23:23:13] [Server thread/INFO]: Jhor issued server command: /home mine
-[23:23:26] [Async Chat Thread - #37/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> kobe?[m
-[23:23:39] [Server thread/INFO]: Kobeboy15 issued server command: /invsee Giniguy
-[23:24:22] [Server thread/INFO]: Jhor issued server command: /home
-[23:25:08] [Server thread/INFO]: arcosanti issued server command: /tpa Kobeboy15
-[23:25:09] [Server thread/INFO]: lolo_lola_69 issued server command: /home
-[23:25:23] [Server thread/INFO]: Kobeboy15 issued server command: /invsee Giniguy
-[23:25:44] [Server thread/INFO]: Jhor issued server command: /home mine
-[23:25:49] [Server thread/INFO]: Kobeboy15 issued server command: /invsee arcosanti
-[23:25:57] [Server thread/INFO]: Jhor issued server command: /homelist
-[23:25:59] [Server thread/INFO]: Kobeboy15 issued server command: /invsee big_tasty
-[23:26:04] [Server thread/INFO]: Kobeboy15 issued server command: /invsee big_tasty
-[23:26:14] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mYOU KNOW WHAT TIME IT IS :3 In 1 Minutes![m
-[23:26:14] [Server thread/INFO]: Jhor issued server command: /home
-[23:26:55] [Server thread/WARN]: arcosanti moved too quickly! 0.2589019219385591,-0.7287758923075103,-20.042034177824803
-[23:26:55] [Server thread/WARN]: FKritz moved too quickly! 2.4989301172848855,-8.964159374955443,-3.766867948053573
-[23:27:09] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mGOODBYE in 5 Seconds![m
-[23:27:10] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mGOODBYE in 4 Seconds![m
-[23:27:11] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mGOODBYE in 3 Seconds![m
-[23:27:12] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mGOODBYE in 2 Seconds![m
-[23:27:13] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mGOODBYE in 1 Seconds![m
-[23:27:13] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1m[0;31;1mServer Restarting![m
-[23:27:13] [Server thread/INFO]: CONSOLE issued server command: /kickall §cServer Restarting! We will be back up any minute!
-[23:27:13] [Server thread/INFO]: big_tasty lost connection: §cServer Restarting! We will be back up any minute!
-[23:27:13] [Server thread/INFO]: big_tasty has left the game.
-[23:27:13] [Server thread/INFO]: Giniguy lost connection: §cServer Restarting! We will be back up any minute!
-[23:27:13] [Server thread/INFO]: Giniguy has left the game.
-[23:27:13] [Server thread/INFO]: FKritz lost connection: §cServer Restarting! We will be back up any minute!
-[23:27:13] [Server thread/INFO]: FKritz has left the game.
-[23:27:13] [Server thread/INFO]: arcosanti lost connection: §cServer Restarting! We will be back up any minute!
-[23:27:13] [Server thread/INFO]: arcosanti has left the game.
-[23:27:13] [Server thread/INFO]: Boulderballs lost connection: §cServer Restarting! We will be back up any minute!
-[23:27:13] [Server thread/INFO]: Boulderballs has left the game.
-[23:27:13] [Server thread/INFO]: [0;31;22mKicked all players from server.[m
-[23:27:13] [Server thread/INFO]: Attempting to restart with run.bat
-[23:27:13] [Server thread/INFO]: Jhor lost connection: OH SHIT, ITS RESTARTING!!!!
-[23:27:13] [Server thread/INFO]: Kobeboy15 lost connection: OH SHIT, ITS RESTARTING!!!!
-[23:27:13] [Server thread/INFO]: lolo_lola_69 lost connection: OH SHIT, ITS RESTARTING!!!!
-[23:27:13] [Server thread/INFO]: Stopping server
-[23:27:13] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.17.0.0
-[23:27:13] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.17.0.0
-[23:27:13] [Server thread/INFO]: [Essentials] Disabling Essentials v2.17.0.0
-[23:27:13] [Server thread/INFO]: [Vault] [Vault][Economy] Essentials Economy unhooked.
-[23:27:13] [Server thread/INFO]: [ChestShop] Disabling ChestShop v3.10-SNAPSHOT (build 137)
-[23:27:13] [Server thread/INFO]: [GriefPrevention] Disabling GriefPrevention v16.11.6
-[23:27:13] [Server thread/INFO]: [GriefPrevention] GriefPrevention disabled.
-[23:27:13] [Server thread/INFO]: [Stargate] Disabling Stargate v0.8.2
-[23:27:13] [Server thread/INFO]: Closing all stargates.
-[23:27:13] [Server thread/INFO]: [Vault] Disabling Vault v1.7.2-b107
-[23:27:13] [Server thread/INFO]: [AutoRestart] Disabling AutoRestart v3.3.3
-[23:27:13] [Server thread/INFO]: [mcMMO] Disabling mcMMO v2.1.100-SNAPSHOT
-[23:27:13] [Server thread/INFO]: [mcMMO] Saving mcMMOPlayers... (0)
-[23:27:13] [Server thread/INFO]: [mcMMO] Finished save operation for 0 players!
-[23:27:14] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v13.7.3
-[23:27:14] [Server thread/INFO]: [HomeSpawn] Disabling HomeSpawn v3.1.4
-[23:27:14] [Server thread/INFO]: [HomeSpawn] HomeSpawn has been disabled
-[23:27:14] [Server thread/INFO]: [PermissionsEx] Disabling PermissionsEx v1.23.4
-[23:27:14] [Server thread/INFO]: Saving players
-[23:27:14] [Server thread/INFO]: Saving worlds
-[23:27:14] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
-[23:27:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[23:27:15] [Server thread/INFO]: Saving chunks for level 'world_nether'/minecraft:the_nether
-[23:27:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[23:27:15] [Server thread/INFO]: Saving chunks for level 'world_the_end'/minecraft:the_end
-[23:27:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[23:27:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[23:27:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[23:27:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[00:00:25] [Server thread/WARN]: Jhor moved too quickly! 7.64550743035187,-1.9769118908984495,9.815197848007443
+[00:00:33] [Server thread/INFO]: arcosanti issued server command: /home
+[00:02:50] [Server thread/INFO]: Arrchiiee lost connection: Disconnected
+[00:02:50] [Server thread/INFO]: Arrchiiee has left the game.
+[00:04:14] [Server thread/INFO]: arcosanti issued server command: /home village
+[00:07:38] [Server thread/INFO]: arcosanti issued server command: /home
+[00:07:54] [Server thread/INFO]: Jhor issued server command: /home exp
+[00:09:00] [Server thread/INFO]: Jhor issued server command: /home
+[00:09:07] [Server thread/INFO]: Jhor issued server command: /home exp
+[00:09:12] [Server thread/INFO]: arcosanti issued server command: /home
+[00:10:34] [Server thread/INFO]: lolo_lola_69 issued server command: /home
+[00:13:03] [Server thread/INFO]: lolo_lola_69 issued server command: /home
+[00:13:08] [Server thread/INFO]: Jhor issued server command: /home
+[00:13:17] [Server thread/INFO]: lolo_lola_69 issued server command: /tpa big_tasty
+[00:13:33] [Server thread/INFO]: big_tasty issued server command: /tpaccept
+[00:14:40] [Server thread/INFO]: lolo_lola_69 issued server command: /home
+[00:15:19] [Server thread/INFO]: arcosanti issued server command: /home
+[00:15:42] [Server thread/INFO]: big_tasty issued server command: /home
+[00:16:10] [Server thread/INFO]: lolo_lola_69 issued server command: /weather sun
+[00:17:36] [Server thread/WARN]: Eligor moved wrongly!
+[00:17:36] [Server thread/WARN]: Eligor moved wrongly!
+[00:17:36] [Server thread/WARN]: Eligor moved wrongly!
+[00:19:35] [Server thread/INFO]: Jhor issued server command: /home
+[00:19:55] [Server thread/INFO]: lolo_lola_69 issued server command: /home market
+[00:20:53] [Server thread/INFO]: lolo_lola_69 issued server command: /home
+[00:23:05] [Server thread/WARN]: lolo_lola_69 moved wrongly!
+[00:23:06] [Server thread/WARN]: lolo_lola_69 moved wrongly!
+[00:24:33] [Server thread/WARN]: lolo_lola_69 moved wrongly!
+[00:24:35] [Server thread/INFO]: Jhor issued server command: /home
+[00:24:39] [Server thread/WARN]: lolo_lola_69 moved wrongly!
+[00:24:40] [Server thread/WARN]: lolo_lola_69 moved wrongly!
+[00:25:31] [Server thread/INFO]: Jhor issued server command: /home
+[00:26:46] [Server thread/INFO]: arcosanti issued server command: /home
+[00:29:00] [Server thread/INFO]: Jhor issued server command: /home
+[00:29:12] [Server thread/INFO]: big_tasty issued server command: /home
+[00:29:13] [Server thread/INFO]: arcosanti issued server command: /home
+[00:30:06] [Async Chat Thread - #4/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> in bed[m
+[00:34:28] [Server thread/INFO]: [GriefPrevention] lolo_lola_69 placed a sign @ world_nether: x76, z-23;639, -95
+[00:35:26] [Server thread/WARN]: Jhor moved too quickly! 0.17575578403204872,0.0,-10.938670373195919
+[00:35:26] [Server thread/WARN]: lolo_lola_69 moved too quickly! -0.22220292446145606,-0.3693736602695026,13.793461041790351
+[00:40:25] [Server thread/INFO]: arcosanti issued server command: /home
+[00:41:25] [Server thread/INFO]: arcosanti issued server command: /tpa lolo_lola_69
+[00:41:27] [Server thread/INFO]: lolo_lola_69 issued server command: /tap
+[00:41:28] [Server thread/INFO]: lolo_lola_69 issued server command: /tpaall
+[00:41:32] [Server thread/INFO]: big_tasty issued server command: /tpaccept
+[00:41:33] [Server thread/INFO]: Jhor issued server command: /tpa
+[00:41:33] [Server thread/INFO]: lolo_lola_69 issued server command: /tpaccept
+[00:41:37] [Server thread/INFO]: Jhor issued server command: /tpaccept
+[00:43:39] [Server thread/INFO]: Jhor issued server command: /home mine
+[00:46:08] [Server thread/INFO]: Jhor issued server command: /home
+[00:46:18] [Server thread/INFO]: Jhor issued server command: /tpa big_tasty
+[00:46:24] [Server thread/INFO]: big_tasty issued server command: /tpaccept
+[00:46:52] [Server thread/INFO]: Jhor issued server command: /home
+[00:47:03] [Server thread/INFO]: Jhor issued server command: /tpa big_tasty
+[00:47:08] [Server thread/INFO]: big_tasty issued server command: /tpaccept
+[00:49:30] [Server thread/INFO]: arcosanti issued server command: /tpa Jhor
+[00:49:34] [Server thread/INFO]: Jhor issued server command: /tpaccept
+[00:50:52] [Server thread/INFO]: lolo_lola_69 has completed the challenge [Subspace Bubble]
+[00:50:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9314ms or 186 ticks behind
+[00:52:31] [Server thread/INFO]: Jhor issued server command: /home
+[00:52:40] [Server thread/INFO]: Jhor issued server command: /tpa arcosanti
+[00:52:45] [Server thread/INFO]: arcosanti issued server command: /tpaccept
+[00:54:00] [Server thread/INFO]: lolo_lola_69 lost connection: Disconnected
+[00:54:00] [Server thread/INFO]: lolo_lola_69 has left the game.
+[00:56:34] [Server thread/INFO]: Jhor issued server command: /home
+[00:57:02] [Server thread/INFO]: Jhor issued server command: /tpa big_tasty
+[00:57:05] [Server thread/INFO]: big_tasty issued server command: /tpaccept
+[01:00:34] [Server thread/WARN]: arcosanti moved too quickly! 8.763900567063274,-5.1575672468913325,-1.789079581308215
+[01:11:25] [Server thread/INFO]: big_tasty issued server command: /mctop Archery
+[01:14:25] [Server thread/INFO]: Jhor issued server command: /tpa arcosanti
+[01:14:28] [Server thread/INFO]: arcosanti issued server command: /tpaccept
+[01:14:42] [Server thread/INFO]: Jhor issued server command: /home
+[01:14:53] [Server thread/INFO]: big_tasty issued server command: /tpa ar
+[01:15:04] [Server thread/INFO]: arcosanti issued server command: /tpaccept
+[01:15:14] [Server thread/INFO]: Jhor issued server command: /home
+[01:16:43] [Server thread/INFO]: arcosanti issued server command: /home
+[01:16:49] [Server thread/INFO]: big_tasty issued server command: /home
+[01:16:59] [Server thread/INFO]: arcosanti lost connection: Disconnected
+[01:16:59] [Server thread/INFO]: arcosanti has left the game.
+[01:24:07] [Server thread/INFO]: Jhor issued server command: /home mine
+[01:24:13] [Server thread/INFO]: Jhor issued server command: /home
+[01:26:12] [Server thread/INFO]: big_tasty issued server command: /home
+[01:27:20] [Server thread/INFO]: Jhor issued server command: /home
+[01:27:36] [Server thread/INFO]: Jhor issued server command: /home mine
+[01:27:42] [Server thread/INFO]: Jhor issued server command: /home
+[01:28:39] [Server thread/INFO]: big_tasty lost connection: Disconnected
+[01:28:39] [Server thread/INFO]: big_tasty has left the game.
+[01:32:44] [Server thread/WARN]: Jhor moved wrongly!
+[01:32:44] [Server thread/WARN]: Jhor moved wrongly!
+[01:33:02] [Server thread/WARN]: Jhor moved wrongly!
+[01:34:34] [Server thread/WARN]: Jhor moved wrongly!
+[01:34:36] [Server thread/WARN]: Jhor moved wrongly!
+[01:34:36] [Server thread/WARN]: Jhor moved wrongly!
+[01:36:03] [Server thread/WARN]: Jhor moved wrongly!
+[01:36:03] [Server thread/WARN]: Jhor moved wrongly!
+[01:36:08] [Server thread/WARN]: Jhor moved wrongly!
+[01:36:08] [Server thread/WARN]: Jhor moved wrongly!
+[01:36:13] [Server thread/WARN]: Jhor moved wrongly!
+[01:36:13] [Server thread/WARN]: Jhor moved wrongly!
+[01:38:18] [Server thread/WARN]: Jhor moved wrongly!
+[01:38:19] [Server thread/WARN]: Jhor moved wrongly!
+[01:38:19] [Server thread/WARN]: Jhor moved wrongly!
+[01:38:19] [Server thread/WARN]: Jhor moved wrongly!
+[01:38:20] [Server thread/WARN]: Jhor moved wrongly!
+[01:38:20] [Server thread/WARN]: Jhor moved wrongly!
+[01:38:21] [Server thread/WARN]: Jhor moved wrongly!
+[01:38:21] [Server thread/WARN]: Jhor moved wrongly!
+[01:38:22] [Server thread/WARN]: Jhor moved wrongly!
+[01:38:22] [Server thread/WARN]: Jhor moved wrongly!
+[01:38:22] [Server thread/WARN]: Jhor moved wrongly!
+[01:38:22] [Server thread/WARN]: Jhor moved wrongly!
+[01:38:23] [Server thread/WARN]: Jhor moved wrongly!
+[01:38:23] [Server thread/WARN]: Jhor moved wrongly!
+[01:38:24] [Server thread/WARN]: Jhor moved wrongly!
+[01:38:24] [Server thread/WARN]: Jhor moved wrongly!
+[01:38:24] [Server thread/WARN]: Jhor moved wrongly!
+[01:39:48] [Server thread/WARN]: Jhor moved wrongly!
+[01:39:49] [Server thread/WARN]: Jhor moved wrongly!
+[01:40:14] [Server thread/INFO]: Jhor issued server command: /delhome reef
+[01:40:21] [Server thread/INFO]: Jhor issued server command: /sethome nethertop
+[01:40:29] [Server thread/INFO]: Jhor issued server command: /home nethertop
+[01:40:34] [Server thread/INFO]: Jhor issued server command: /home
+[01:41:39] [Server thread/INFO]: Jhor lost connection: Disconnected
+[01:41:39] [Server thread/INFO]: Jhor has left the game.
+[01:43:16] [User Authenticator #10/INFO]: UUID of player Arrchiiee is 8ab37728-5dc4-3d56-b222-9dee547c605d
+[01:43:16] [Server thread/INFO]: Arrchiiee[/0:0:0:0:0:0:0:1:53236] logged in with entity id 44373 at ([world]482.69999998807907, 62.0, 372.1595916710028)
+[01:43:16] [Server thread/INFO]: [0;33;1mArrchiiee has joined the game.[m
+[02:55:13] [Server thread/INFO]: Arrchiiee lost connection: Disconnected
+[02:55:13] [Server thread/INFO]: Arrchiiee has left the game.
+[03:15:33] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mYOU KNOW WHAT TIME IT IS :3 In 15 Minutes![m
+[03:20:33] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mYOU KNOW WHAT TIME IT IS :3 In 10 Minutes![m
+[03:25:33] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mYOU KNOW WHAT TIME IT IS :3 In 5 Minutes![m
+[03:29:33] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mYOU KNOW WHAT TIME IT IS :3 In 1 Minutes![m
+[03:30:28] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mGOODBYE in 5 Seconds![m
+[03:30:29] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mGOODBYE in 4 Seconds![m
+[03:30:30] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mGOODBYE in 3 Seconds![m
+[03:30:31] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mGOODBYE in 2 Seconds![m
+[03:30:32] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mGOODBYE in 1 Seconds![m
+[03:30:32] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1m[0;31;1mServer Restarting![m
+[03:30:32] [Server thread/INFO]: CONSOLE issued server command: /kickall §cServer Restarting! We will be back up any minute!
+[03:30:32] [Server thread/INFO]: [0;31;22mKicked all players from server.[m
+[03:30:32] [Server thread/INFO]: Attempting to restart with run.bat
+[03:30:32] [Server thread/INFO]: Stopping server
+[03:30:32] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.17.0.0
+[03:30:32] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.17.0.0
+[03:30:32] [Server thread/INFO]: [Essentials] Disabling Essentials v2.17.0.0
+[03:30:32] [Server thread/INFO]: [Vault] [Vault][Economy] Essentials Economy unhooked.
+[03:30:32] [Server thread/INFO]: [ChestShop] Disabling ChestShop v3.10-SNAPSHOT (build 137)
+[03:30:32] [Server thread/INFO]: [GriefPrevention] Disabling GriefPrevention v16.11.6
+[03:30:32] [Server thread/INFO]: [GriefPrevention] GriefPrevention disabled.
+[03:30:32] [Server thread/INFO]: [Stargate] Disabling Stargate v0.8.2
+[03:30:32] [Server thread/INFO]: Closing all stargates.
+[03:30:32] [Server thread/INFO]: [Vault] Disabling Vault v1.7.2-b107
+[03:30:32] [Server thread/INFO]: [AutoRestart] Disabling AutoRestart v3.3.3
+[03:30:32] [Server thread/INFO]: [mcMMO] Disabling mcMMO v2.1.100-SNAPSHOT
+[03:30:32] [Server thread/INFO]: [mcMMO] Saving mcMMOPlayers... (0)
+[03:30:32] [Server thread/INFO]: [mcMMO] Finished save operation for 0 players!
+[03:30:32] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v13.7.3
+[03:30:32] [Server thread/INFO]: [HomeSpawn] Disabling HomeSpawn v3.1.4
+[03:30:32] [Server thread/INFO]: [HomeSpawn] HomeSpawn has been disabled
+[03:30:32] [Server thread/INFO]: [PermissionsEx] Disabling PermissionsEx v1.23.4
+[03:30:32] [Server thread/INFO]: Saving players
+[03:30:32] [Server thread/INFO]: Saving worlds
+[03:30:32] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
+[03:30:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[03:30:32] [Server thread/INFO]: Saving chunks for level 'world_nether'/minecraft:the_nether
+[03:30:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[03:30:32] [Server thread/INFO]: Saving chunks for level 'world_the_end'/minecraft:the_end
+[03:30:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[03:30:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[03:30:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[03:30:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
