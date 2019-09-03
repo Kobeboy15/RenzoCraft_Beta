@@ -889,6 +889,7 @@
       "minecraft:zombie_pigman": "2019-08-07 02:43:02 +0800",
       "minecraft:ravager": "2019-08-19 19:31:30 +0800",
       "minecraft:ghast": "2019-07-21 19:42:01 +0800",
+      "minecraft:guardian": "2019-09-03 22:46:36 +0800",
       "minecraft:vindicator": "2019-08-10 01:43:18 +0800",
       "minecraft:magma_cube": "2019-07-21 19:42:50 +0800",
       "minecraft:spider": "2019-07-21 02:01:35 +0800",
@@ -1618,6 +1619,12 @@
   "minecraft:recipes/combat/iron_chestplate": {
     "criteria": {
       "has_iron_ingot": "2019-07-21 00:37:30 +0800"
+    },
+    "done": true
+  },
+  "minecraft:adventure/totem_of_undying": {
+    "criteria": {
+      "used_totem": "2019-09-03 23:05:31 +0800"
     },
     "done": true
   },
@@ -2624,6 +2631,7 @@
       "beetroot": "2019-08-04 01:18:05 +0800",
       "golden_carrot": "2019-08-25 20:17:21 +0800",
       "cooked_chicken": "2019-07-30 11:10:56 +0800",
+      "cod": "2019-09-03 23:03:09 +0800",
       "cooked_salmon": "2019-07-26 21:11:27 +0800",
       "carrot": "2019-08-01 21:27:18 +0800"
     },
