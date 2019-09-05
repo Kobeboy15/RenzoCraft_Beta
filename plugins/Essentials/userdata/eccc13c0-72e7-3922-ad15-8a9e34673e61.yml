@@ -1,8 +1,8 @@
 lastAccountName: bojoluis
 timestamps:
-  login: 1567664996384
+  login: 1567680439153
   lastteleport: 1567523503274
-  logout: 1567665335760
+  logout: 1567682428085
 ipAddress: 0:0:0:0:0:0:0:1
 lastlocation:
   world: world
@@ -13,8 +13,8 @@ lastlocation:
   pitch: 2.855157
 logoutlocation:
   world: world
-  x: 795.1558070644243
-  y: 68.0
-  z: -50.4197823670834
-  yaw: -110.1861
-  pitch: -0.20777684
+  x: 826.5803817356817
+  y: 79.0
+  z: -55.13814239881209
+  yaw: -347.8833
+  pitch: -22.790373
