@@ -89,6 +89,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/pumpkin_seeds": {
+    "criteria": {
+      "has_pumpkin": "2019-09-06 15:42:13 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/crafting_table": {
     "criteria": {
       "has_planks": "2019-09-01 19:24:28 +0800"
@@ -104,6 +110,12 @@
   "minecraft:recipes/building_blocks/purple_stained_glass": {
     "criteria": {
       "has_glass": "2019-09-01 23:44:32 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blast_furnace": {
+    "criteria": {
+      "has_smooth_stone": "2019-09-06 12:25:08 +0800"
     },
     "done": true
   },
@@ -515,6 +527,7 @@
       "minecraft:skeleton": "2019-09-02 02:07:34 +0800",
       "minecraft:spider": "2019-09-01 20:16:29 +0800",
       "minecraft:creeper": "2019-09-01 20:24:19 +0800",
+      "minecraft:phantom": "2019-09-06 14:51:20 +0800",
       "minecraft:husk": "2019-09-01 19:50:09 +0800",
       "minecraft:zombie": "2019-09-01 19:09:39 +0800"
     },
@@ -604,6 +617,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/light_blue_dye_from_blue_white_dye": {
+    "criteria": {
+      "has_blue_dye": "2019-09-06 12:58:08 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/blue_dye": {
     "criteria": {
       "has_lapis_lazuli": "2019-09-02 10:48:12 +0800"
@@ -613,6 +632,12 @@
   "minecraft:recipes/decorations/oak_fence": {
     "criteria": {
       "has_planks": "2019-09-01 19:24:28 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_red_dye": "2019-09-06 12:58:08 +0800"
     },
     "done": true
   },
@@ -670,9 +695,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/pink_dye_from_red_white_dye": {
+    "criteria": {
+      "has_red_dye": "2019-09-06 12:58:08 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/granite_stairs": {
     "criteria": {
       "has_granite": "2019-09-01 21:07:59 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/cyan_dye": {
+    "criteria": {
+      "has_blue_dye": "2019-09-06 12:58:08 +0800"
     },
     "done": true
   },
@@ -793,6 +830,12 @@
   "minecraft:recipes/tools/iron_axe": {
     "criteria": {
       "has_iron_ingot": "2019-09-01 21:24:26 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/glowstone": {
+    "criteria": {
+      "has_glowstone_dust": "2019-09-06 13:45:03 +0800"
     },
     "done": true
   },
@@ -1060,6 +1103,13 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/purple_dye": {
+    "criteria": {
+      "has_red_dye": "2019-09-06 12:58:08 +0800",
+      "has_blue_dye": "2019-09-06 12:58:08 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/cobblestone_wall_from_cobblestone_stonecutting": {
     "criteria": {
       "has_cobblestone": "2019-09-01 20:01:54 +0800"
@@ -1189,6 +1239,12 @@
   "minecraft:recipes/building_blocks/white_terracotta": {
     "criteria": {
       "has_terracotta": "2019-09-01 19:58:18 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/orange_dye_from_red_yellow": {
+    "criteria": {
+      "has_red_dye": "2019-09-06 12:58:08 +0800"
     },
     "done": true
   },
@@ -1342,6 +1398,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/blue_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_blue_dye": "2019-09-06 12:58:08 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/cyan_stained_glass_pane": {
     "criteria": {
       "has_glass": "2019-09-01 23:44:32 +0800"
@@ -1363,6 +1425,12 @@
   "minecraft:recipes/misc/white_dye": {
     "criteria": {
       "has_bone_meal": "2019-09-01 19:32:32 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_carpet_from_white_carpet": {
+    "criteria": {
+      "has_red_dye": "2019-09-06 12:58:08 +0800"
     },
     "done": true
   },
@@ -1417,6 +1485,7 @@
       "apple": "2019-09-01 19:10:25 +0800",
       "potato": "2019-09-01 19:50:19 +0800",
       "bread": "2019-09-04 10:07:54 +0800",
+      "dried_kelp": "2019-09-06 12:56:53 +0800",
       "cod": "2019-09-01 19:32:37 +0800",
       "carrot": "2019-09-01 21:03:00 +0800"
     },
@@ -1566,6 +1635,13 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/magenta_dye_from_blue_red_white_dye": {
+    "criteria": {
+      "has_blue_dye": "2019-09-06 12:58:08 +0800",
+      "has_rose_red": "2019-09-06 12:58:08 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/tnt": {
     "criteria": {
       "has_gunpowder": "2019-09-01 19:13:30 +0800"
@@ -1611,6 +1687,12 @@
   "minecraft:recipes/building_blocks/cut_sandstone_slab_from_cut_sandstone_stonecutting": {
     "criteria": {
       "has_cut_sandstone": "2019-09-01 20:35:09 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_stone_slab": {
+    "criteria": {
+      "has_smooth_stone": "2019-09-06 12:25:08 +0800"
     },
     "done": true
   },
@@ -1815,6 +1897,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/spectral_arrow": {
+    "criteria": {
+      "has_glowstone_dust": "2019-09-06 13:45:03 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/white_stained_glass_pane": {
     "criteria": {
       "has_glass": "2019-09-01 23:44:32 +0800"
@@ -1932,6 +2020,12 @@
   "minecraft:recipes/combat/golden_boots": {
     "criteria": {
       "has_gold_ingot": "2019-09-02 11:11:02 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_stone_slab_from_smooth_stone_stonecutting": {
+    "criteria": {
+      "has_smooth_stone": "2019-09-06 12:25:08 +0800"
     },
     "done": true
   },
@@ -2229,6 +2323,19 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/magenta_dye_from_blue_red_pink": {
+    "criteria": {
+      "has_red_dye": "2019-09-06 12:58:08 +0800",
+      "has_blue_dye": "2019-09-06 12:58:08 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blue_carpet_from_white_carpet": {
+    "criteria": {
+      "has_blue_dye": "2019-09-06 12:58:08 +0800"
+    },
+    "done": true
+  },
   "minecraft:adventure/ol_betsy": {
     "criteria": {
       "shot_crossbow": "2019-09-02 10:30:24 +0800"
@@ -2304,6 +2411,12 @@
   "minecraft:recipes/transportation/carrot_on_a_stick": {
     "criteria": {
       "has_carrot": "2019-09-01 19:46:20 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/pumpkin_pie": {
+    "criteria": {
+      "has_pumpkin": "2019-09-06 15:42:13 +0800"
     },
     "done": true
   },
