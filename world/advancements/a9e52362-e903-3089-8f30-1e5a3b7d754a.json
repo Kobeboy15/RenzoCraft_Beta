@@ -1820,6 +1820,7 @@
       "minecraft:dark_forest": "2019-08-01 16:39:05 +0800",
       "minecraft:river": "2019-07-20 22:34:30 +0800",
       "minecraft:lukewarm_ocean": "2019-08-26 02:43:58 +0800",
+      "minecraft:birch_forest_hills": "2019-09-07 00:54:51 +0800",
       "minecraft:bamboo_jungle_hills": "2019-07-20 22:34:42 +0800",
       "minecraft:wooded_mountains": "2019-07-21 01:19:31 +0800",
       "minecraft:wooded_hills": "2019-07-21 00:21:53 +0800",
@@ -3870,6 +3871,12 @@
   "minecraft:recipes/misc/coal": {
     "criteria": {
       "has_at_least_9_coal": "2019-07-20 23:56:17 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/pink_glazed_terracotta": {
+    "criteria": {
+      "has_pink_terracotta": "2019-09-07 02:07:15 +0800"
     },
     "done": true
   },
