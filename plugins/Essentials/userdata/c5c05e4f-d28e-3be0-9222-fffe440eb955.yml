@@ -1,8 +1,8 @@
 lastAccountName: Boulderballs
 timestamps:
-  login: 1567604198073
+  login: 1567737394699
   lastteleport: 1567593700696
-  logout: 1567606472253
+  logout: 1567742702036
 ipAddress: 0:0:0:0:0:0:0:1
 lastlocation:
   world: world
@@ -13,8 +13,8 @@ lastlocation:
   pitch: 20.996162
 logoutlocation:
   world: world
-  x: 463.46621646486653
-  y: 63.0
-  z: 332.2061156315118
-  yaw: 23.612305
-  pitch: -42.2482
+  x: -1732.1746073435384
+  y: 31.0
+  z: 697.2866707130404
+  yaw: -208.10046
+  pitch: -6.1538134
