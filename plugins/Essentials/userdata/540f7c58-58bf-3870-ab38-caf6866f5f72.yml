@@ -1,20 +1,20 @@
 lastAccountName: Elytriem
 timestamps:
-  login: 1565553455202
-  lastteleport: 1564306025147
-  logout: 1565553789774
+  login: 1567958484186
+  lastteleport: 1567958545112
+  logout: 1567958937791
 ipAddress: 0:0:0:0:0:0:0:1
 lastlocation:
   world: world
-  x: 578.1525376722157
+  x: 580.9049631173318
   y: 82.0
-  z: 97.5299417739812
-  yaw: 301.29416
-  pitch: -24.42205
+  z: 96.69999998807907
+  yaw: 103.30643
+  pitch: 5.318863
 logoutlocation:
   world: world
-  x: 514.9506224461246
-  y: 79.0
-  z: 132.63615192536753
-  yaw: -180.83391
-  pitch: 9.874491
+  x: 576.5530553284502
+  y: 82.0
+  z: 101.16490961979524
+  yaw: 50.18933
+  pitch: 40.657654
