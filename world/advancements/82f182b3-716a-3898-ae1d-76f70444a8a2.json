@@ -3293,10 +3293,12 @@
       "textures/entity/cat/tabby.png": "2019-09-02 15:16:17 +0800",
       "textures/entity/cat/white.png": "2019-09-02 22:13:03 +0800",
       "textures/entity/cat/jellie.png": "2019-09-02 22:03:47 +0800",
+      "textures/entity/cat/siamese.png": "2019-09-11 14:03:34 +0800",
       "textures/entity/cat/ragdoll.png": "2019-09-02 20:36:48 +0800",
       "textures/entity/cat/british_shorthair.png": "2019-09-02 00:40:23 +0800",
       "textures/entity/cat/persian.png": "2019-08-23 18:48:10 +0800",
-      "textures/entity/cat/calico.png": "2019-09-03 00:55:50 +0800"
+      "textures/entity/cat/calico.png": "2019-09-03 00:55:50 +0800",
+      "textures/entity/cat/red.png": "2019-09-11 14:03:17 +0800"
     },
     "done": false
   },
