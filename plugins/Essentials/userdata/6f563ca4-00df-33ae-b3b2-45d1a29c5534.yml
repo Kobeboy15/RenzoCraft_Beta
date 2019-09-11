@@ -1,8 +1,8 @@
 lastAccountName: Arisu21
 timestamps:
-  login: 1568167305993
+  login: 1568195248936
   lastteleport: 1568173707763
-  logout: 1568178672848
+  logout: 1568200083741
 ipAddress: 0:0:0:0:0:0:0:1
 lastlocation:
   world: world
@@ -13,8 +13,8 @@ lastlocation:
   pitch: -0.27601367
 logoutlocation:
   world: world
-  x: 964.6999999880791
+  x: 963.9637871793997
   y: 79.0
-  z: -224.30000001192093
-  yaw: 104.31838
-  pitch: 58.350033
+  z: -224.96261778160607
+  yaw: 182.92993
+  pitch: 14.699741
