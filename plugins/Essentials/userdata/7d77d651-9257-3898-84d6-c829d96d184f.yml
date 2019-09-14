@@ -1,8 +1,8 @@
 lastAccountName: RimuroTempest
 timestamps:
-  login: 1568077164903
+  login: 1568449497190
   lastteleport: 1567936260655
-  logout: 1568077435641
+  logout: 1568452384454
 ipAddress: 0:0:0:0:0:0:0:1
 lastlocation:
   world: world
@@ -13,8 +13,8 @@ lastlocation:
   pitch: 9.75
 logoutlocation:
   world: world
-  x: -925.6143787163945
-  y: 68.0
-  z: -868.3000000119209
-  yaw: -105.07843
-  pitch: 18.149878
+  x: -885.2912437039566
+  y: 74.0
+  z: -523.4021547399036
+  yaw: -2.9334717
+  pitch: 66.00001
