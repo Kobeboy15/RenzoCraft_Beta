@@ -1695,6 +1695,7 @@
     "criteria": {
       "cooked_porkchop": "2019-09-01 21:52:51 +0800",
       "cooked_mutton": "2019-09-04 11:39:09 +0800",
+      "sweet_berries": "2019-09-15 02:43:58 +0800",
       "cooked_beef": "2019-09-04 13:06:23 +0800",
       "baked_potato": "2019-09-01 22:29:48 +0800",
       "apple": "2019-09-01 19:10:25 +0800",
@@ -2683,6 +2684,12 @@
   "minecraft:recipes/decorations/red_bed": {
     "criteria": {
       "has_red_wool": "2019-09-08 17:16:49 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_nuggets": {
+    "criteria": {
+      "has_at_least_9_iron_nugget": "2019-09-15 02:27:07 +0800"
     },
     "done": true
   },
