@@ -257,6 +257,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/dispenser": {
+    "criteria": {
+      "has_bow": "2019-09-15 20:54:42 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cake": {
     "criteria": {
       "has_egg": "2019-09-08 01:22:03 +0800"
@@ -413,6 +419,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/brewing/cauldron": {
+    "criteria": {
+      "has_water_bucket": "2019-09-15 21:20:49 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/gray_stained_glass_pane": {
     "criteria": {
       "has_glass": "2019-09-10 13:49:48 +0800"
@@ -544,6 +556,7 @@
       "minecraft:skeleton": "2019-09-08 21:03:16 +0800",
       "minecraft:spider": "2019-09-08 15:19:54 +0800",
       "minecraft:creeper": "2019-09-08 21:55:17 +0800",
+      "minecraft:husk": "2019-09-15 21:42:04 +0800",
       "minecraft:zombie": "2019-09-08 20:54:09 +0800",
       "minecraft:zombie_villager": "2019-09-09 22:07:46 +0800"
     },
@@ -1156,6 +1169,12 @@
     },
     "done": true
   },
+  "minecraft:husbandry/plant_seed": {
+    "criteria": {
+      "wheat": "2019-09-15 21:18:10 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/leather_boots": {
     "criteria": {
       "has_leather": "2019-09-08 01:07:39 +0800"
@@ -1554,6 +1573,7 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "cooked_porkchop": "2019-09-15 18:10:51 +0800",
       "cooked_mutton": "2019-09-08 21:16:00 +0800",
       "baked_potato": "2019-09-15 16:04:49 +0800",
       "apple": "2019-09-08 01:16:03 +0800",
