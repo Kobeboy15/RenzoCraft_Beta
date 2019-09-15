@@ -1,22 +1,22 @@
 lastAccountName: Arrchiiee
 timestamps:
-  login: 1567626476483
-  lastteleport: 1566921577876
-  logout: 1567626653496
+  login: 1568557480828
+  lastteleport: 1568557170474
+  logout: 1568561443874
 ipAddress: 0:0:0:0:0:0:0:1
 lastlocation:
   world: world
-  x: 456.69999998807907
+  x: 480.97503971036895
   y: 64.0
-  z: 347.4787773868236
-  yaw: -303.70605
-  pitch: 13.298537
+  z: 374.1792121160629
+  yaw: 77.54894
+  pitch: 24.755411
 logoutlocation:
-  world: world
-  x: 481.23838147445434
-  y: 64.0
-  z: 374.07733249036323
-  yaw: 334.31757
-  pitch: 25.840794
+  world: world_the_end
+  x: -2179.071189499224
+  y: 70.5
+  z: 432.69999998807907
+  yaw: -87.11572
+  pitch: -2.6189075
 money: '2051.45'
 afk: false
