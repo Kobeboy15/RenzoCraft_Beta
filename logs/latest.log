@@ -402,3 +402,1221 @@
 [13:35:22] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
 [13:35:22] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
 [13:35:22] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[13:35:32] [Server thread/INFO]: Starting minecraft server version 1.14.4
+[13:35:32] [Server thread/INFO]: Loading properties
+[13:35:33] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-065a373-9aa7430 (MC: 1.14.4) (Implementing API version 1.14.4-R0.1-SNAPSHOT)
+[13:35:33] [Server thread/INFO]: Debug logging is disabled
+[13:35:33] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[13:35:33] [Server thread/INFO]: Using 4 threads for Netty based IO
+[13:35:33] [Server thread/INFO]: Default game type: SURVIVAL
+[13:35:33] [Server thread/INFO]: Generating keypair
+[13:35:34] [Server thread/INFO]: Starting Minecraft server on *:25565
+[13:35:34] [Server thread/INFO]: Using default channel type
+[13:35:45] [Server thread/WARN]: Plugin PermissionsEx v1.23.4 does not specify an api-version.
+[13:35:46] [Server thread/WARN]: Plugin Stargate v0.8.2 does not specify an api-version.
+[13:35:46] [Server thread/INFO]: [PermissionsEx] Loading PermissionsEx v1.23.4
+[13:35:46] [Server thread/WARN]: [PermissionsEx] This server is in offline mode. Unless this server is configured to integrate with a supported proxy (see http://dft.ba/-8ous), UUIDs *may not be stable*!
+[13:35:46] [Server thread/INFO]: [HomeSpawn] Loading HomeSpawn v3.1.4
+[13:35:46] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v13.7.3
+[13:35:46] [Server thread/INFO]: [mcMMO] Loading mcMMO v2.1.100-SNAPSHOT
+[13:35:46] [Server thread/INFO]: [AutoRestart] Loading AutoRestart v3.3.3
+[13:35:46] [Server thread/INFO]: [Vault] Loading Vault v1.7.2-b107
+[13:35:46] [Server thread/INFO]: [Stargate] Loading Stargate v0.8.2
+[13:35:46] [Server thread/INFO]: [GriefPrevention] Loading GriefPrevention v16.11.6
+[13:35:46] [Server thread/INFO]: [ChestShop] Loading ChestShop v3.10-SNAPSHOT (build 137)
+[13:35:46] [Server thread/INFO]: [Essentials] Loading Essentials v2.17.0.0
+[13:35:46] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn v2.17.0.0
+[13:35:46] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat v2.17.0.0
+[13:35:46] [Server thread/INFO]: [mcMMO] Enabling mcMMO v2.1.100-SNAPSHOT
+[13:35:49] [Server thread/INFO]: [mcMMO] enabling Acrobatics Skills
+[13:35:49] [Server thread/INFO]: [mcMMO] registered subskill: Roll
+[13:35:49] [Server thread/INFO]: [mcMMO] 0 entries in mcMMO World Blacklist
+[13:35:49] [Server thread/INFO]: [Vault] Enabling Vault v1.7.2-b107
+[13:35:50] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[13:35:50] [Server thread/INFO]: [Vault] [Permission] PermissionsEx found: Waiting
+[13:35:50] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[13:35:50] [Server thread/INFO]: [Vault] [Chat] PermissionsEx found: Waiting
+[13:35:50] [Server thread/INFO]: [Vault] Enabled Version 1.7.2-b107
+[13:35:50] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[13:35:50] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[13:35:50] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[13:35:50] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[13:35:50] [Server thread/INFO]: Preparing level "world"
+[13:35:50] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
+[13:35:50] [Server thread/INFO]: Loaded 6 recipes
+[13:35:51] [Server thread/INFO]: -------- World Settings For [world] --------
+[13:35:51] [Server thread/INFO]: View Distance: 8
+[13:35:51] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[13:35:51] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[13:35:51] [Server thread/INFO]: Item Merge Radius: 2.5
+[13:35:51] [Server thread/INFO]: Item Despawn Rate: 6000
+[13:35:51] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[13:35:51] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[13:35:51] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[13:35:51] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[13:35:51] [Server thread/INFO]: Experience Merge Radius: 3.0
+[13:35:51] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[13:35:51] [Server thread/INFO]: Mob Spawn Range: 6
+[13:35:51] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[13:35:51] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[13:35:51] [Server thread/INFO]: Cane Growth Modifier: 100%
+[13:35:51] [Server thread/INFO]: Melon Growth Modifier: 100%
+[13:35:51] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[13:35:51] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[13:35:51] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[13:35:51] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[13:35:51] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[13:35:51] [Server thread/INFO]: Potato Growth Modifier: 100%
+[13:35:51] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[13:35:51] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[13:35:51] [Server thread/INFO]: Vine Growth Modifier: 100%
+[13:35:51] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[13:35:51] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[13:35:51] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[13:35:51] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[13:35:51] [Server thread/INFO]: Max TNT Explosions: 100
+[13:35:51] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[13:35:51] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[13:35:51] [Server thread/INFO]: View Distance: 8
+[13:35:51] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[13:35:51] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[13:35:51] [Server thread/INFO]: Item Merge Radius: 2.5
+[13:35:51] [Server thread/INFO]: Item Despawn Rate: 6000
+[13:35:51] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[13:35:51] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[13:35:51] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[13:35:51] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[13:35:51] [Server thread/INFO]: Experience Merge Radius: 3.0
+[13:35:51] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[13:35:51] [Server thread/INFO]: Mob Spawn Range: 6
+[13:35:51] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[13:35:51] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[13:35:51] [Server thread/INFO]: Cane Growth Modifier: 100%
+[13:35:51] [Server thread/INFO]: Melon Growth Modifier: 100%
+[13:35:51] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[13:35:51] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[13:35:51] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[13:35:51] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[13:35:51] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[13:35:51] [Server thread/INFO]: Potato Growth Modifier: 100%
+[13:35:51] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[13:35:51] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[13:35:51] [Server thread/INFO]: Vine Growth Modifier: 100%
+[13:35:51] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[13:35:51] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[13:35:51] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[13:35:51] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[13:35:51] [Server thread/INFO]: Max TNT Explosions: 100
+[13:35:51] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[13:35:51] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[13:35:51] [Server thread/INFO]: View Distance: 8
+[13:35:51] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[13:35:51] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[13:35:51] [Server thread/INFO]: Item Merge Radius: 2.5
+[13:35:51] [Server thread/INFO]: Item Despawn Rate: 6000
+[13:35:51] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[13:35:51] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[13:35:51] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[13:35:51] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[13:35:51] [Server thread/INFO]: Experience Merge Radius: 3.0
+[13:35:51] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[13:35:51] [Server thread/INFO]: Mob Spawn Range: 6
+[13:35:51] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[13:35:51] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[13:35:51] [Server thread/INFO]: Cane Growth Modifier: 100%
+[13:35:51] [Server thread/INFO]: Melon Growth Modifier: 100%
+[13:35:51] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[13:35:51] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[13:35:51] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[13:35:51] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[13:35:51] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[13:35:51] [Server thread/INFO]: Potato Growth Modifier: 100%
+[13:35:51] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[13:35:51] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[13:35:51] [Server thread/INFO]: Vine Growth Modifier: 100%
+[13:35:51] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[13:35:51] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[13:35:51] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[13:35:51] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[13:35:51] [Server thread/INFO]: Max TNT Explosions: 100
+[13:35:51] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[13:35:51] [Server thread/INFO]: Preparing start region for dimension 'world'/minecraft:overworld
+[13:35:53] [Server thread/INFO]: Preparing spawn area: 0%
+[13:35:53] [Server thread/INFO]: Preparing spawn area: 0%
+[13:35:53] [Server thread/INFO]: Preparing spawn area: 0%
+[13:35:53] [Server thread/INFO]: Preparing spawn area: 0%
+[13:35:53] [Server thread/INFO]: Preparing spawn area: 87%
+[13:35:53] [Server thread/INFO]: Time elapsed: 2157 ms
+[13:35:53] [Server thread/INFO]: Preparing start region for dimension 'world_nether'/minecraft:the_nether
+[13:35:55] [Server thread/INFO]: Preparing spawn area: 0%
+[13:35:55] [Server thread/INFO]: Preparing spawn area: 0%
+[13:35:55] [Server thread/INFO]: Preparing spawn area: 0%
+[13:35:55] [Server thread/INFO]: Preparing spawn area: 0%
+[13:35:55] [Server thread/INFO]: Time elapsed: 1880 ms
+[13:35:55] [Server thread/INFO]: Preparing start region for dimension 'world_the_end'/minecraft:the_end
+[13:35:56] [Server thread/INFO]: Preparing spawn area: 0%
+[13:35:56] [Server thread/INFO]: Preparing spawn area: 0%
+[13:35:56] [Server-Worker-2/INFO]: Preparing spawn area: 83%
+[13:35:57] [Server-Worker-3/INFO]: Preparing spawn area: 83%
+[13:35:57] [Server thread/INFO]: Time elapsed: 1973 ms
+[13:35:57] [Server thread/INFO]: [PermissionsEx] Enabling PermissionsEx v1.23.4
+[13:35:57] [Server thread/INFO]: [PermissionsEx] Initializing file backend
+[13:35:57] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
+[13:35:57] [Server thread/INFO]: [Vault][Permission] PermissionsEx hooked.
+[13:35:57] [Server thread/INFO]: [Vault] [Vault][Chat] PermissionsEx_Chat hooked.
+[13:35:57] [Server thread/INFO]: [HomeSpawn] Enabling HomeSpawn v3.1.4
+[13:35:58] [Server thread/INFO]: [HomeSpawn] HomeSpawn v3.1.4 has been enabled
+[13:35:58] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v13.7.3
+[13:35:58] [Server thread/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1mDetected Minecraft [0;33;1mv1_14_R1[0;32;1m, using [0;33;1mUniversalSkinFactory[0;32;1m.[m
+[13:35:58] [Server thread/INFO]: [SkinsRestorer] Verbose is missing in config.yml! Using default value.
+[13:35:58] [Server thread/INFO]: [AutoRestart] Enabling AutoRestart v3.3.3
+[13:35:59] [Server thread/INFO]: [0;32;1m[AutoRestart] Loaded![m
+[13:35:59] [Server thread/INFO]: [Stargate] Enabling Stargate v0.8.2
+[13:35:59] [Server thread/INFO]: Stargate v.0.8.2 is enabled.
+[13:35:59] [Server thread/INFO]: [Stargate] Loaded 1 gate layouts
+[13:35:59] [Server thread/INFO]: [Stargate] {world} No stargates for world 
+[13:35:59] [Server thread/INFO]: [Stargate] {world_nether} No stargates for world 
+[13:35:59] [Server thread/INFO]: [Stargate] {world_the_end} No stargates for world 
+[13:35:59] [Server thread/INFO]: [GriefPrevention] Enabling GriefPrevention v16.11.6
+[13:35:59] [Server thread/INFO]: [GriefPrevention] Finished loading configuration.
+[13:35:59] [Server thread/INFO]: [GriefPrevention] 68 total claims loaded.
+[13:36:02] [Server thread/INFO]: [GriefPrevention] Customizable messages loaded.
+[13:36:02] [Server thread/INFO]: [GriefPrevention] Finished loading data (File Mode).
+[13:36:02] [Server thread/INFO]: [GriefPrevention] Boot finished.
+[13:36:02] [Server thread/INFO]: [ChestShop] Enabling ChestShop v3.10-SNAPSHOT (build 137)
+[13:36:02] [Server thread/INFO]: [ChestShop] Using Essentials Economy as the Economy provider now.
+[13:36:02] [Server thread/INFO]: [ChestShop] Vault loaded!
+[13:36:03] [Server thread/INFO]: [Essentials] Enabling Essentials v2.17.0.0
+[13:36:03] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[13:36:03] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
+[13:36:03] [Server thread/INFO]: No kits found to migrate.
+[13:36:03] [Server thread/INFO]: [Essentials] Using 1.8.3+ BlockStateMeta provider as mob spawner provider.
+[13:36:03] [Server thread/INFO]: [Essentials] Using 1.13+ flat spawn egg provider as spawn egg provider.
+[13:36:03] [Server thread/INFO]: [Essentials] Using 1.9+ BasePotionData provider as potion meta provider.
+[13:36:03] [Server thread/INFO]: Loaded 20977 items from items.json.
+[13:36:03] [Server thread/INFO]: Using locale en_US
+[13:36:03] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[13:36:03] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[13:36:03] [Server thread/INFO]: [Vault] [Vault][Economy] Essentials Economy hooked.
+[13:36:03] [Server thread/INFO]: [Essentials] Using Vault based permissions (PermissionsEx)
+[13:36:04] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.17.0.0
+[13:36:04] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.17.0.0
+[13:36:04] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[13:36:04] [Server thread/INFO]: Done (14.443s)! For help, type "help"
+[13:36:04] [Craft Scheduler Thread - 2/INFO]: [HomeSpawn] HomeSpawn file watcher started!
+[13:36:04] [Craft Scheduler Thread - 0/INFO]: [mcMMO] Cleaned backup files. Deleted 1 of 22 files.
+[13:36:05] [Craft Scheduler Thread - 3/INFO]: [HomeSpawn] §fAn update for HomeSpawn is available and can be downloaded and installed by running /homespawn update
+[13:36:05] [Craft Scheduler Thread - 4/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m----------------------------------------------[m
+[13:36:05] [Craft Scheduler Thread - 4/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    +===============+[m
+[13:36:05] [Craft Scheduler Thread - 4/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    | SkinsRestorer |[m
+[13:36:05] [Craft Scheduler Thread - 4/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    +===============+[m
+[13:36:05] [Craft Scheduler Thread - 4/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m----------------------------------------------[m
+[13:36:05] [Craft Scheduler Thread - 4/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;36;1m    Current version: [0;32;1m13.7.3[m
+[13:36:05] [Craft Scheduler Thread - 4/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    This is the latest version![m
+[13:36:05] [Craft Scheduler Thread - 4/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m----------------------------------------------[m
+[13:36:05] [Server thread/INFO]: [0;32;1m[AutoRestart] Up to date![m
+[13:36:05] [Craft Scheduler Thread - 6/INFO]: [Vault] Checking for Updates ... 
+[13:36:06] [Craft Scheduler Thread - 6/INFO]: [Vault] No new version available
+[13:36:07] [User Authenticator #1/INFO]: UUID of player Jhor is 82f182b3-716a-3898-ae1d-76f70444a8a2
+[13:36:10] [Server thread/INFO]: Jhor[/0:0:0:0:0:0:0:1:51111] logged in with entity id 82 at ([world]435.12957071727647, 129.0, 87.93029104054668)
+[13:36:11] [Server thread/INFO]: [0;33;1mJhor has joined the game.[m
+[13:36:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5181ms or 103 ticks behind
+[13:36:25] [User Authenticator #2/INFO]: UUID of player arcosanti is a9e52362-e903-3089-8f30-1e5a3b7d754a
+[13:36:26] [Server thread/INFO]: arcosanti[/0:0:0:0:0:0:0:1:51115] logged in with entity id 544 at ([world]831.632040176019, 88.0, 75.60103674492085)
+[13:36:26] [Server thread/INFO]: [0;33;1marcosanti has joined the game.[m
+[13:36:28] [Server thread/INFO]: [mcMMO] WorldGuard was not detected.
+[13:36:37] [User Authenticator #3/INFO]: UUID of player lolo_lola_69 is 646085da-be96-308b-8634-fb8b260022a5
+[13:36:38] [Server thread/INFO]: lolo_lola_69[/0:0:0:0:0:0:0:1:51117] logged in with entity id 949 at ([world]761.5053907460307, 61.0, -452.9562896239884)
+[13:36:38] [Server thread/INFO]: [0;33;1mlolo_lola_69 has joined the game.[m
+[13:36:42] [Async Chat Thread - #0/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> test[m
+[13:38:26] [Server thread/INFO]: arcosanti issued server command: /home atlas
+[13:39:23] [Server thread/INFO]: lolo_lola_69 issued server command: /home
+[13:39:49] [Server thread/INFO]: lolo_lola_69 issued server command: /home market
+[13:40:18] [Server thread/INFO]: lolo_lola_69 issued server command: /home
+[13:41:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5078ms or 101 ticks behind
+[13:44:18] [Server thread/INFO]: arcosanti issued server command: /home atlas
+[13:44:59] [Server thread/INFO]: arcosanti issued server command: /home
+[13:45:55] [Async Chat Thread - #1/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> hola[m
+[13:46:26] [Async Chat Thread - #1/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> hello[m
+[13:46:47] [Server thread/INFO]: Jhor issued server command: /home
+[13:47:21] [Server thread/INFO]: arcosanti issued server command: /home spawner
+[13:47:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5019ms or 100 ticks behind
+[13:47:49] [Server thread/INFO]: arcosanti issued server command: /home
+[13:48:03] [Server thread/INFO]: arcosanti issued server command: /home atlas
+[13:50:52] [Server thread/INFO]: arcosanti issued server command: /home spawner
+[13:51:09] [Server thread/INFO]: arcosanti issued server command: /home
+[13:51:22] [Server thread/WARN]: arcosanti moved too quickly! -9.558939586785186,3.249187078744683,7.862399248757811
+[13:51:44] [User Authenticator #4/INFO]: UUID of player Giniguy is 47a4aaeb-feae-366a-bb50-3db390c239cb
+[13:51:45] [Server thread/INFO]: Giniguy[/0:0:0:0:0:0:0:1:51125] logged in with entity id 8654 at ([world]783.6999999880791, 90.5625, -489.75455663526645)
+[13:51:45] [Server thread/INFO]: [0;33;1mGiniguy has joined the game.[m
+[13:51:53] [Server thread/INFO]: lolo_lola_69 lost connection: Disconnected
+[13:51:53] [Server thread/INFO]: lolo_lola_69 has left the game.
+[13:52:41] [Server thread/INFO]: [GriefPrevention] Giniguy placed suspicious WATER_BUCKET @ world: x783, z-490
+[13:53:17] [Server thread/INFO]: arcosanti issued server command: /home
+[13:54:45] [Server thread/INFO]: Jhor issued server command: /home exp
+[13:54:56] [Server thread/INFO]: Jhor issued server command: /home
+[13:55:52] [Server thread/INFO]: arcosanti issued server command: /home spawner
+[13:56:25] [Async Chat Thread - #2/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> test[m
+[13:56:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5395ms or 107 ticks behind
+[13:56:53] [Server thread/INFO]: Giniguy lost connection: Disconnected
+[13:56:53] [Server thread/INFO]: Giniguy has left the game.
+[13:57:27] [User Authenticator #5/INFO]: UUID of player Giniguy is 47a4aaeb-feae-366a-bb50-3db390c239cb
+[13:57:27] [Server thread/INFO]: Giniguy[/0:0:0:0:0:0:0:1:51137] logged in with entity id 10035 at ([world]786.276597763737, 66.09835927353836, -478.47588767321054)
+[13:57:28] [Server thread/INFO]: [0;33;1mGiniguy has joined the game.[m
+[13:58:18] [Server thread/INFO]: Giniguy lost connection: Timed out
+[13:58:18] [Server thread/INFO]: Giniguy has left the game.
+[13:58:33] [User Authenticator #6/INFO]: UUID of player Giniguy is 47a4aaeb-feae-366a-bb50-3db390c239cb
+[13:58:33] [Server thread/INFO]: Giniguy[/0:0:0:0:0:0:0:1:51140] logged in with entity id 10546 at ([world]788.0473320221496, 83.0, -497.9567114331681)
+[13:58:33] [Server thread/INFO]: [0;33;1mGiniguy has joined the game.[m
+[13:59:01] [Server thread/WARN]: Giniguy moved too quickly! -1.3311483201709962,-12.930504511237174,3.325020162693761
+[13:59:28] [Server thread/INFO]: Jhor issued server command: /mctop
+[14:00:12] [Async Chat Thread - #3/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> ]aw[m
+[14:03:06] [Async Chat Thread - #4/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> test[m
+[14:03:43] [Server thread/INFO]: Giniguy issued server command: /home
+[14:05:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5027ms or 100 ticks behind
+[14:08:58] [Server thread/INFO]: Jhor issued server command: /mctop Acrobatics
+[14:11:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6023ms or 120 ticks behind
+[14:11:46] [Server thread/INFO]: Jhor issued server command: /home
+[14:14:45] [Server thread/INFO]: Jhor lost connection: Disconnected
+[14:14:45] [Server thread/INFO]: Jhor has left the game.
+[14:14:47] [User Authenticator #7/INFO]: UUID of player Jhor is 82f182b3-716a-3898-ae1d-76f70444a8a2
+[14:14:48] [Server thread/INFO]: Jhor[/0:0:0:0:0:0:0:1:51154] logged in with entity id 14085 at ([world]423.5997496866899, 74.0, -1.1002773276192939)
+[14:14:48] [Server thread/INFO]: [0;33;1mJhor has joined the game.[m
+[14:15:25] [Server thread/INFO]: [GriefPrevention] Giniguy placed suspicious WATER_BUCKET @ world: x769, z-490
+[14:15:38] [User Authenticator #8/INFO]: UUID of player RimuroTempest is 7d77d651-9257-3898-84d6-c829d96d184f
+[14:15:39] [Server thread/INFO]: RimuroTempest[/0:0:0:0:0:0:0:1:51156] logged in with entity id 14197 at ([world]-922.7121575314886, 70.0, -932.3705659656349)
+[14:15:39] [Server thread/INFO]: [0;33;1mRimuroTempest has joined the game.[m
+[14:15:55] [Server thread/INFO]: RimuroTempest lost connection: Disconnected
+[14:15:55] [Server thread/INFO]: RimuroTempest has left the game.
+[14:16:36] [Server thread/INFO]: [GriefPrevention] Giniguy placed suspicious WATER_BUCKET @ world: x769, z-490
+[14:16:43] [Server thread/INFO]: [GriefPrevention] Giniguy placed suspicious WATER_BUCKET @ world: x769, z-490
+[14:16:49] [Server thread/INFO]: [GriefPrevention] Giniguy placed suspicious WATER_BUCKET @ world: x769, z-490
+[14:17:40] [User Authenticator #9/INFO]: UUID of player RimuroTempest is 7d77d651-9257-3898-84d6-c829d96d184f
+[14:17:40] [Server thread/INFO]: RimuroTempest[/0:0:0:0:0:0:0:1:51158] logged in with entity id 15022 at ([world]-922.7121575314886, 70.0, -932.3705659656349)
+[14:17:40] [Server thread/INFO]: [0;33;1mRimuroTempest has joined the game.[m
+[14:17:55] [Server thread/INFO]: Jhor issued server command: /home
+[14:18:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5012ms or 100 ticks behind
+[14:18:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7676ms or 153 ticks behind
+[14:19:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5154ms or 103 ticks behind
+[14:19:28] [Server thread/INFO]: Jhor issued server command: /home
+[14:19:33] [Server thread/INFO]: Jhor issued server command: /home exp
+[14:19:40] [Server thread/INFO]: Jhor issued server command: /home
+[14:19:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8089ms or 161 ticks behind
+[14:20:12] [Server thread/INFO]: Giniguy lost connection: Disconnected
+[14:20:12] [Server thread/INFO]: Giniguy has left the game.
+[14:22:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5013ms or 100 ticks behind
+[14:23:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8611ms or 172 ticks behind
+[14:23:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7704ms or 154 ticks behind
+[14:27:42] [Server thread/INFO]: Jhor issued server command: /home
+[14:29:24] [Server thread/INFO]: Jhor issued server command: /home
+[14:30:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5002ms or 100 ticks behind
+[14:34:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5007ms or 100 ticks behind
+[14:35:09] [Server thread/WARN]: Skeleton Horse moved wrongly!
+[14:35:09] [Server thread/WARN]: Skeleton Horse moved wrongly!
+[14:35:09] [Server thread/WARN]: Skeleton Horse moved wrongly!
+[14:35:09] [Server thread/WARN]: Skeleton Horse moved wrongly!
+[14:35:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5084ms or 101 ticks behind
+[14:35:28] [Server thread/INFO]: Jhor issued server command: /home
+[14:35:30] [Server thread/WARN]: Skeleton Horse moved wrongly!
+[14:35:30] [Server thread/WARN]: Skeleton Horse moved wrongly!
+[14:36:02] [Server thread/INFO]: Jhor issued server command: /home exp
+[14:36:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5006ms or 100 ticks behind
+[14:37:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 24580ms or 491 ticks behind
+[14:37:37] [Server thread/INFO]: arcosanti issued server command: /home
+[14:37:56] [Async Chat Thread - #5/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> Wax, I have achieved highest mcmmo rank in this server now[m
+[14:37:59] [Async Chat Thread - #5/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> I am god[m
+[14:38:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 19456ms or 389 ticks behind
+[14:38:06] [Async Chat Thread - #5/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> HAHAHAHAHA you finally did it[m
+[14:38:07] [Server thread/INFO]: arcosanti issued server command: /mctop
+[14:38:11] [Async Chat Thread - #5/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> daaaamn[m
+[14:38:15] [Async Chat Thread - #5/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> 20 levelts[m
+[14:38:27] [Async Chat Thread - #5/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> and 50 levels higher than 3rd[m
+[14:38:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9940ms or 198 ticks behind
+[14:39:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6072ms or 121 ticks behind
+[14:39:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7442ms or 148 ticks behind
+[14:40:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7145ms or 142 ticks behind
+[14:40:52] [Server thread/INFO]: arcosanti issued server command: /home atlas
+[14:41:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8521ms or 170 ticks behind
+[14:41:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5221ms or 104 ticks behind
+[14:42:00] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> ye boi[m
+[14:42:06] [Server thread/INFO]: Jhor issued server command: /mctop
+[14:42:21] [Server thread/INFO]: arcosanti issued server command: /home atlas
+[14:42:24] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> so hard to grind other stuff tho[m
+[14:42:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8002ms or 160 ticks behind
+[14:42:27] [Server thread/INFO]: Jhor issued server command: /mcrank
+[14:43:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8150ms or 163 ticks behind
+[14:43:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9584ms or 191 ticks behind
+[14:44:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5017ms or 100 ticks behind
+[14:44:49] [Server thread/WARN]: RimuroTempest moved too quickly! -9.359332925134822,1.0,5.183379298060117
+[14:45:01] [Server thread/INFO]: arcosanti issued server command: /home atlas
+[14:45:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10648ms or 212 ticks behind
+[14:45:22] [Server thread/WARN]: Horse moved wrongly!
+[14:45:26] [Server thread/WARN]: Horse moved wrongly!
+[14:45:38] [Server thread/INFO]: RimuroTempest issued server command: /home
+[14:45:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5207ms or 104 ticks behind
+[14:46:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9646ms or 192 ticks behind
+[14:46:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5346ms or 106 ticks behind
+[14:47:19] [Server thread/WARN]: Horse moved wrongly!
+[14:47:19] [Server thread/WARN]: Horse moved wrongly!
+[14:47:43] [Server thread/WARN]: Horse moved wrongly!
+[14:47:43] [Server thread/WARN]: Horse moved wrongly!
+[14:47:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5004ms or 100 ticks behind
+[14:48:04] [Server thread/INFO]: RimuroTempest issued server command: /home
+[14:48:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9295ms or 185 ticks behind
+[14:49:09] [Server thread/WARN]: Donkey moved wrongly!
+[14:49:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6476ms or 129 ticks behind
+[14:49:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6394ms or 127 ticks behind
+[14:50:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5004ms or 100 ticks behind
+[14:50:47] [Server thread/WARN]: RimuroTempest moved too quickly! 3.3035792160876554,-1.0,-9.41710000314913
+[14:51:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6732ms or 134 ticks behind
+[14:51:40] [Server thread/INFO]: arcosanti issued server command: /home atlas
+[14:51:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5764ms or 115 ticks behind
+[14:52:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5004ms or 100 ticks behind
+[14:53:06] [Server thread/INFO]: arcosanti issued server command: /home atlas
+[14:53:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5352ms or 107 ticks behind
+[14:53:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5013ms or 100 ticks behind
+[14:54:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5017ms or 100 ticks behind
+[14:55:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5008ms or 100 ticks behind
+[14:56:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5007ms or 100 ticks behind
+[14:56:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5474ms or 109 ticks behind
+[14:57:45] [Server thread/INFO]: Jhor issued server command: /home
+[15:00:46] [Server thread/INFO]: arcosanti issued server command: /home atlas
+[15:01:09] [Server thread/INFO]: Jhor issued server command: /home
+[15:01:35] [Server thread/INFO]: Jhor issued server command: /home exp
+[15:01:49] [Server thread/INFO]: Jhor issued server command: /home
+[15:01:51] [Server thread/INFO]: arcosanti issued server command: /home
+[15:02:31] [Server thread/INFO]: arcosanti issued server command: /home atla
+[15:02:33] [Server thread/INFO]: arcosanti issued server command: /home atlas
+[15:03:51] [Server thread/INFO]: Jhor issued server command: /home exp
+[15:04:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5011ms or 100 ticks behind
+[15:05:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5007ms or 100 ticks behind
+[15:06:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5014ms or 100 ticks behind
+[15:06:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5003ms or 100 ticks behind
+[15:06:50] [Server thread/INFO]: arcosanti issued server command: /home atlas
+[15:07:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6099ms or 121 ticks behind
+[15:08:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5003ms or 100 ticks behind
+[15:08:13] [Server thread/INFO]: arcosanti issued server command: /home atlas
+[15:08:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5523ms or 110 ticks behind
+[15:09:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5913ms or 118 ticks behind
+[15:09:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5420ms or 108 ticks behind
+[15:10:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5652ms or 113 ticks behind
+[15:11:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5016ms or 100 ticks behind
+[15:11:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6499ms or 129 ticks behind
+[15:12:17] [Server thread/INFO]: arcosanti issued server command: /mctop Acrobatics
+[15:12:21] [Server thread/INFO]: arcosanti issued server command: /mctop Axes
+[15:12:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5023ms or 100 ticks behind
+[15:12:26] [Server thread/INFO]: arcosanti issued server command: /mctop Alchemy
+[15:12:30] [Server thread/INFO]: arcosanti issued server command: /mctop Excavation
+[15:12:35] [Server thread/INFO]: arcosanti issued server command: /mctop
+[15:12:43] [Server thread/INFO]: arcosanti issued server command: /mctop Fishing
+[15:12:47] [Server thread/INFO]: arcosanti issued server command: /mctop Herbalism
+[15:12:55] [Server thread/INFO]: RimuroTempest issued server command: /home
+[15:12:55] [Server thread/INFO]: arcosanti issued server command: /mctop Mining
+[15:13:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7482ms or 149 ticks behind
+[15:13:02] [Server thread/INFO]: arcosanti issued server command: /mctop Repair
+[15:13:07] [Server thread/INFO]: arcosanti issued server command: /mctop Salvage
+[15:13:13] [Server thread/INFO]: arcosanti issued server command: /mctop Smelting
+[15:13:19] [Server thread/INFO]: arcosanti issued server command: /mctop Swords
+[15:13:25] [Server thread/INFO]: arcosanti issued server command: /mctop Taming
+[15:13:31] [Server thread/INFO]: arcosanti issued server command: /mctop
+[15:13:35] [Server thread/INFO]: arcosanti issued server command: /mctop Unarmed
+[15:13:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6750ms or 135 ticks behind
+[15:13:41] [Server thread/INFO]: arcosanti issued server command: /mctop Woodcutting
+[15:14:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6221ms or 124 ticks behind
+[15:14:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7611ms or 152 ticks behind
+[15:15:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8693ms or 173 ticks behind
+[15:16:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7554ms or 151 ticks behind
+[15:16:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8502ms or 170 ticks behind
+[15:17:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6179ms or 123 ticks behind
+[15:17:59] [Server thread/INFO]: arcosanti issued server command: /home spawner
+[15:17:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6119ms or 122 ticks behind
+[15:18:04] [Server thread/INFO]: arcosanti issued server command: /home spawner
+[15:18:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 16418ms or 328 ticks behind
+[15:19:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 22597ms or 451 ticks behind
+[15:20:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 20368ms or 407 ticks behind
+[15:21:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 23004ms or 460 ticks behind
+[15:22:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 34300ms or 686 ticks behind
+[15:23:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 34680ms or 693 ticks behind
+[15:24:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 33125ms or 662 ticks behind
+[15:25:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 24259ms or 485 ticks behind
+[15:25:55] [Server thread/WARN]: Skeleton Horse moved wrongly!
+[15:25:55] [Server thread/WARN]: Skeleton Horse moved wrongly!
+[15:25:55] [Server thread/WARN]: Skeleton Horse moved wrongly!
+[15:25:55] [Server thread/WARN]: Skeleton Horse moved wrongly!
+[15:26:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 26125ms or 522 ticks behind
+[15:27:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 22941ms or 458 ticks behind
+[15:28:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 22450ms or 449 ticks behind
+[15:28:43] [Server thread/WARN]: RimuroTempest moved too quickly! -10.029953161192225,0.0,-0.9653104143214932
+[15:29:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 26022ms or 520 ticks behind
+[15:29:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 16159ms or 323 ticks behind
+[15:30:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 16421ms or 328 ticks behind
+[15:31:11] [User Authenticator #10/INFO]: UUID of player Boulderballs is c5c05e4f-d28e-3be0-9222-fffe440eb955
+[15:31:12] [Server thread/INFO]: Boulderballs[/0:0:0:0:0:0:0:1:51191] logged in with entity id 35707 at ([world]-1730.5706668264008, 31.0, 699.7030492384672)
+[15:31:12] [Server thread/INFO]: [0;33;1mBoulderballs has joined the game.[m
+[15:31:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 19431ms or 388 ticks behind
+[15:32:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 17332ms or 346 ticks behind
+[15:33:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 17115ms or 342 ticks behind
+[15:33:21] [Server thread/INFO]: [GriefPrevention] RimuroTempest placed suspicious WATER_BUCKET @ world: x-1387, z-799
+[15:33:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 16431ms or 328 ticks behind
+[15:33:55] [Server thread/INFO]: RimuroTempest has made the advancement [Tactical Fishing]
+[15:34:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 16289ms or 325 ticks behind
+[15:35:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 16355ms or 327 ticks behind
+[15:35:34] [Server thread/INFO]: Boulderballs issued server command: /home 1
+[15:35:36] [Server thread/INFO]: RimuroTempest issued server command: /home
+[15:35:49] [Async Chat Thread - #7/INFO]: [m[0;33;1m[User] [0;33;1m[User] Boulderballs[m [0;36;1m> t[m
+[15:35:59] [Server thread/INFO]: RimuroTempest issued server command: /home
+[15:36:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 17898ms or 357 ticks behind
+[15:37:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 22497ms or 449 ticks behind
+[15:37:19] [Server thread/INFO]: Jhor issued server command: /mctop
+[15:37:22] [Server thread/INFO]: Boulderballs issued server command: /home 2
+[15:37:24] [User Authenticator #11/INFO]: UUID of player Johann is f160dbef-552f-3b70-af9a-129d0ff0c675
+[15:37:24] [Server thread/INFO]: Johann[/0:0:0:0:0:0:0:1:51196] logged in with entity id 36986 at ([world]717.2622516145468, 68.0, -154.81469303572314)
+[15:37:24] [Server thread/INFO]: [0;33;1mJohann has joined the game.[m
+[15:37:38] [Server thread/INFO]: Jhor issued server command: /mcrank
+[15:37:47] [Server thread/INFO]: Jhor issued server command: /excavation
+[15:37:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 22814ms or 456 ticks behind
+[15:38:15] [User Authenticator #12/INFO]: UUID of player crystalgem is f321cff2-0750-3ba1-98af-66006fbafb2e
+[15:38:16] [Server thread/INFO]: crystalgem[/0:0:0:0:0:0:0:1:51200] logged in with entity id 37546 at ([world]665.6835472402915, 77.0, -180.78284570835874)
+[15:38:16] [Server thread/INFO]: [0;33;1mcrystalgem has joined the game.[m
+[15:38:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 32507ms or 650 ticks behind
+[15:39:39] [Server thread/INFO]: [GriefPrevention] RimuroTempest placed suspicious COD_BUCKET @ world: x-923, z-932
+[15:40:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 33361ms or 667 ticks behind
+[15:40:00] [Server thread/INFO]: Boulderballs lost connection: Disconnected
+[15:40:00] [Server thread/INFO]: Boulderballs has left the game.
+[15:40:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 22942ms or 458 ticks behind
+[15:40:55] [User Authenticator #13/INFO]: UUID of player Boulderballs is c5c05e4f-d28e-3be0-9222-fffe440eb955
+[15:40:55] [Server thread/INFO]: Boulderballs[/0:0:0:0:0:0:0:1:51205] logged in with entity id 37939 at ([world]472.01902673715665, 105.0, 80.48995493862166)
+[15:40:55] [Server thread/INFO]: [0;33;1mBoulderballs has joined the game.[m
+[15:41:05] [Server thread/INFO]: Boulderballs issued server command: /home 2
+[15:41:07] [Server thread/INFO]: Jhor issued server command: /home
+[15:41:14] [Server thread/INFO]: Boulderballs issued server command: /home 3
+[15:41:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11687ms or 233 ticks behind
+[15:42:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7522ms or 150 ticks behind
+[15:42:15] [Server thread/INFO]: Boulderballs issued server command: /home 5
+[15:42:26] [Server thread/INFO]: Boulderballs issued server command: /home mine
+[15:42:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8942ms or 178 ticks behind
+[15:43:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6811ms or 136 ticks behind
+[15:43:56] [Server thread/INFO]: Johann issued server command: /home
+[15:44:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 20083ms or 401 ticks behind
+[15:45:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14292ms or 285 ticks behind
+[15:45:18] [Server thread/INFO]: arcosanti issued server command: /home
+[15:47:10] [Server thread/INFO]: RimuroTempest issued server command: /home
+[15:49:20] [Server thread/INFO]: Boulderballs issued server command: /home
+[15:49:24] [Server thread/INFO]: Boulderballs issued server command: /home 3
+[15:49:53] [Server thread/INFO]: Boulderballs issued server command: /home mine
+[15:50:11] [User Authenticator #14/INFO]: UUID of player Boulderballs is c5c05e4f-d28e-3be0-9222-fffe440eb955
+[15:50:11] [Server thread/INFO]: Boulderballs lost connection: You logged in from another location
+[15:50:12] [Server thread/INFO]: Boulderballs has left the game.
+[15:50:12] [Server thread/INFO]: Boulderballs[/0:0:0:0:0:0:0:1:51208] logged in with entity id 40302 at ([world]-1648.1412082795898, 49.0, 750.5033610145042)
+[15:50:12] [Server thread/INFO]: [0;33;1mBoulderballs has joined the game.[m
+[15:50:27] [Server thread/INFO]: arcosanti lost connection: Disconnected
+[15:50:27] [Server thread/INFO]: arcosanti has left the game.
+[15:50:34] [User Authenticator #15/INFO]: UUID of player vlad's niece's is f0b96720-41b4-30f4-a6ab-786cd0d6c5c1
+[15:50:34] [Server thread/INFO]: vlad's niece's[/0:0:0:0:0:0:0:1:51211] logged in with entity id 40332 at ([world]-1.5, 69.0, 220.5)
+[15:50:34] [Craft Scheduler Thread - 115/INFO]: [SkinsRestorer] Not applying skin to vlad's niece's (invalid username).
+[15:50:34] [Craft Scheduler Thread - 113/WARN]: [ChestShop] Error while searching for latest account of vlad's niece's/f0b96720-41b4-30f4-a6ab-786cd0d6c5c1:
+org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (near "s": syntax error)
+	at org.sqlite.core.DB.newSQLException(DB.java:941) ~[spigot-1.14.4.jar:git-Spigot-065a373-9aa7430]
+	at org.sqlite.core.DB.newSQLException(DB.java:953) ~[spigot-1.14.4.jar:git-Spigot-065a373-9aa7430]
+	at org.sqlite.core.DB.throwex(DB.java:918) ~[spigot-1.14.4.jar:git-Spigot-065a373-9aa7430]
+	at org.sqlite.core.NativeDB.prepare_utf8(Native Method) ~[spigot-1.14.4.jar:git-Spigot-065a373-9aa7430]
+	at org.sqlite.core.NativeDB.prepare(NativeDB.java:134) ~[spigot-1.14.4.jar:git-Spigot-065a373-9aa7430]
+	at org.sqlite.core.DB.prepare(DB.java:257) ~[spigot-1.14.4.jar:git-Spigot-065a373-9aa7430]
+	at org.sqlite.core.CorePreparedStatement.<init>(CorePreparedStatement.java:47) ~[spigot-1.14.4.jar:git-Spigot-065a373-9aa7430]
+	at org.sqlite.jdbc3.JDBC3PreparedStatement.<init>(JDBC3PreparedStatement.java:30) ~[spigot-1.14.4.jar:git-Spigot-065a373-9aa7430]
+	at org.sqlite.jdbc4.JDBC4PreparedStatement.<init>(JDBC4PreparedStatement.java:19) ~[spigot-1.14.4.jar:git-Spigot-065a373-9aa7430]
+	at org.sqlite.jdbc4.JDBC4Connection.prepareStatement(JDBC4Connection.java:35) ~[spigot-1.14.4.jar:git-Spigot-065a373-9aa7430]
+	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:241) ~[spigot-1.14.4.jar:git-Spigot-065a373-9aa7430]
+	at com.Acrobot.ChestShop.ORMlite.jdbc.JdbcDatabaseConnection.compileStatement(JdbcDatabaseConnection.java:147) ~[ChestShop.jar:?]
+	at com.Acrobot.ChestShop.ORMlite.stmt.mapped.MappedPreparedStmt.compile(MappedPreparedStmt.java:56) ~[ChestShop.jar:?]
+	at com.Acrobot.ChestShop.ORMlite.stmt.mapped.MappedPreparedStmt.compile(MappedPreparedStmt.java:45) ~[ChestShop.jar:?]
+	at com.Acrobot.ChestShop.ORMlite.stmt.StatementExecutor.queryForFirst(StatementExecutor.java:102) ~[ChestShop.jar:?]
+	at com.Acrobot.ChestShop.ORMlite.dao.BaseDaoImpl.queryForFirst(BaseDaoImpl.java:240) ~[ChestShop.jar:?]
+	at com.Acrobot.ChestShop.ORMlite.stmt.QueryBuilder.queryForFirst(QueryBuilder.java:380) ~[ChestShop.jar:?]
+	at com.Acrobot.ChestShop.ORMlite.stmt.Where.queryForFirst(Where.java:494) ~[ChestShop.jar:?]
+	at com.Acrobot.ChestShop.UUIDs.NameManager.storeUsername(NameManager.java:253) [ChestShop.jar:?]
+	at com.Acrobot.ChestShop.Listeners.Player.PlayerConnect$1.run(PlayerConnect.java:32) [ChestShop.jar:?]
+	at org.bukkit.craftbukkit.v1_14_R1.scheduler.CraftTask.run(CraftTask.java:81) [spigot-1.14.4.jar:git-Spigot-065a373-9aa7430]
+	at org.bukkit.craftbukkit.v1_14_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54) [spigot-1.14.4.jar:git-Spigot-065a373-9aa7430]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_221]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_221]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_221]
+[15:50:34] [Craft Scheduler Thread - 113/WARN]: [ChestShop] Error while getting account for vlad's niece's:
+org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (near "s": syntax error)
+	at org.sqlite.core.DB.newSQLException(DB.java:941) ~[spigot-1.14.4.jar:git-Spigot-065a373-9aa7430]
+	at org.sqlite.core.DB.newSQLException(DB.java:953) ~[spigot-1.14.4.jar:git-Spigot-065a373-9aa7430]
+	at org.sqlite.core.DB.throwex(DB.java:918) ~[spigot-1.14.4.jar:git-Spigot-065a373-9aa7430]
+	at org.sqlite.core.NativeDB.prepare_utf8(Native Method) ~[spigot-1.14.4.jar:git-Spigot-065a373-9aa7430]
+	at org.sqlite.core.NativeDB.prepare(NativeDB.java:134) ~[spigot-1.14.4.jar:git-Spigot-065a373-9aa7430]
+	at org.sqlite.core.DB.prepare(DB.java:257) ~[spigot-1.14.4.jar:git-Spigot-065a373-9aa7430]
+	at org.sqlite.core.CorePreparedStatement.<init>(CorePreparedStatement.java:47) ~[spigot-1.14.4.jar:git-Spigot-065a373-9aa7430]
+	at org.sqlite.jdbc3.JDBC3PreparedStatement.<init>(JDBC3PreparedStatement.java:30) ~[spigot-1.14.4.jar:git-Spigot-065a373-9aa7430]
+	at org.sqlite.jdbc4.JDBC4PreparedStatement.<init>(JDBC4PreparedStatement.java:19) ~[spigot-1.14.4.jar:git-Spigot-065a373-9aa7430]
+	at org.sqlite.jdbc4.JDBC4Connection.prepareStatement(JDBC4Connection.java:35) ~[spigot-1.14.4.jar:git-Spigot-065a373-9aa7430]
+	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:241) ~[spigot-1.14.4.jar:git-Spigot-065a373-9aa7430]
+	at com.Acrobot.ChestShop.ORMlite.jdbc.JdbcDatabaseConnection.compileStatement(JdbcDatabaseConnection.java:147) ~[ChestShop.jar:?]
+	at com.Acrobot.ChestShop.ORMlite.stmt.mapped.MappedPreparedStmt.compile(MappedPreparedStmt.java:56) ~[ChestShop.jar:?]
+	at com.Acrobot.ChestShop.ORMlite.stmt.mapped.MappedPreparedStmt.compile(MappedPreparedStmt.java:45) ~[ChestShop.jar:?]
+	at com.Acrobot.ChestShop.ORMlite.stmt.StatementExecutor.queryForFirst(StatementExecutor.java:102) ~[ChestShop.jar:?]
+	at com.Acrobot.ChestShop.ORMlite.dao.BaseDaoImpl.queryForFirst(BaseDaoImpl.java:240) ~[ChestShop.jar:?]
+	at com.Acrobot.ChestShop.ORMlite.stmt.QueryBuilder.queryForFirst(QueryBuilder.java:380) ~[ChestShop.jar:?]
+	at com.Acrobot.ChestShop.ORMlite.stmt.Where.queryForFirst(Where.java:494) ~[ChestShop.jar:?]
+	at com.Acrobot.ChestShop.UUIDs.NameManager.lambda$getAccountFromShortName$2(NameManager.java:122) ~[ChestShop.jar:?]
+	at com.Acrobot.Breeze.Collection.SimpleCache.get(SimpleCache.java:33) [ChestShop.jar:?]
+	at com.Acrobot.ChestShop.UUIDs.NameManager.getAccountFromShortName(NameManager.java:120) [ChestShop.jar:?]
+	at com.Acrobot.ChestShop.UUIDs.NameManager.getNewShortenedName(NameManager.java:287) [ChestShop.jar:?]
+	at com.Acrobot.ChestShop.UUIDs.NameManager.storeUsername(NameManager.java:260) [ChestShop.jar:?]
+	at com.Acrobot.ChestShop.Listeners.Player.PlayerConnect$1.run(PlayerConnect.java:32) [ChestShop.jar:?]
+	at org.bukkit.craftbukkit.v1_14_R1.scheduler.CraftTask.run(CraftTask.java:81) [spigot-1.14.4.jar:git-Spigot-065a373-9aa7430]
+	at org.bukkit.craftbukkit.v1_14_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54) [spigot-1.14.4.jar:git-Spigot-065a373-9aa7430]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_221]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_221]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_221]
+[15:50:34] [Server thread/INFO]: [0;33;1mvlad's niece's has joined the game.[m
+[15:50:34] [pool-9-thread-1/INFO]: Creating empty config: C:\Users\Kobeboy\Desktop\RenzoServer\RenzoCraft_Beta\plugins\Essentials\userdata\f0b96720-41b4-30f4-a6ab-786cd0d6c5c1.yml
+[15:50:34] [Server thread/INFO]: vlad's niece's has made the advancement [Getting an Upgrade]
+[15:50:50] [Async Chat Thread - #8/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> lolwut hahhahaha[m
+[15:50:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5045ms or 100 ticks behind
+[15:51:05] [Async Chat Thread - #8/INFO]: [m[0;33;1m[User] [0;33;1m[User] vlad's niece's[m [0;36;1m> i made an acc for my visiting nieces[m
+[15:51:10] [Async Chat Thread - #8/INFO]: [m[0;33;1m[User] [0;33;1m[User] vlad's niece's[m [0;36;1m> can i tp to someone[m
+[15:51:16] [Server thread/INFO]: vlad's niece's issued server command: /tpa
+[15:51:17] [Async Chat Thread - #8/INFO]: [m[0;33;1m[User] [0;33;1m[User] crystalgem[m [0;36;1m> me[m
+[15:51:19] [Server thread/INFO]: vlad's niece's issued server command: /tpa crystalgem
+[15:51:24] [Async Chat Thread - #8/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> Uncle vlad[m
+[15:51:49] [Server thread/INFO]: crystalgem issued server command: /tpaccept
+[15:51:56] [Async Chat Thread - #8/INFO]: [m[0;33;1m[User] [0;33;1m[User] crystalgem[m [0;36;1m> sorry[m
+[15:51:59] [Server thread/INFO]: vlad's niece's issued server command: /tpa crystalgem
+[15:52:01] [Async Chat Thread - #8/INFO]: [m[0;33;1m[User] [0;33;1m[User] crystalgem[m [0;36;1m> again[m
+[15:52:01] [Async Chat Thread - #8/INFO]: [m[0;33;1m[User] [0;33;1m[User] vlad's niece's[m [0;36;1m> na cansecl[m
+[15:52:03] [User Authenticator #16/INFO]: UUID of player Giniguy is 47a4aaeb-feae-366a-bb50-3db390c239cb
+[15:52:03] [Server thread/INFO]: Giniguy[/0:0:0:0:0:0:0:1:51214] logged in with entity id 40771 at ([world]771.8732690743872, 92.0, -493.5297780995076)
+[15:52:04] [Server thread/INFO]: [0;33;1mGiniguy has joined the game.[m
+[15:52:04] [Server thread/INFO]: crystalgem issued server command: /tpaccept
+[15:52:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5007ms or 100 ticks behind
+[15:52:31] [Async Chat Thread - #8/INFO]: [m[0;33;1m[User] [0;33;1m[User] vlad's niece's[m [0;36;1m> joh'[m
+[15:52:36] [Async Chat Thread - #8/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> hello[m
+[15:52:36] [Async Chat Thread - #8/INFO]: [m[0;33;1m[User] [0;33;1m[User] vlad's niece's[m [0;36;1m> can u tour my niece[m
+[15:52:57] [Async Chat Thread - #8/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> ok son child[m
+[15:53:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5004ms or 100 ticks behind
+[15:53:05] [Async Chat Thread - #8/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> this is Kopicastle[m
+[15:53:13] [Async Chat Thread - #8/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> my house[m
+[15:53:16] [Async Chat Thread - #8/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> and Im the king[m
+[15:53:26] [Async Chat Thread - #8/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> LUL[m
+[15:53:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5016ms or 100 ticks behind
+[15:55:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6344ms or 126 ticks behind
+[15:55:29] [Server thread/INFO]: Jhor lost connection: Disconnected
+[15:55:29] [Server thread/INFO]: Jhor has left the game.
+[15:55:35] [Server thread/INFO]: Boulderballs issued server command: /home 2
+[15:55:41] [Async Chat Thread - #9/INFO]: [m[0;33;1m[User] [0;33;1m[User] vlad's niece's[m [0;36;1m> they stopped playing na[m
+[15:55:44] [Async Chat Thread - #9/INFO]: [m[0;33;1m[User] [0;33;1m[User] vlad's niece's[m [0;36;1m> gitawag na sila[m
+[15:55:45] [Server thread/INFO]: vlad's niece's lost connection: Disconnected
+[15:55:45] [Server thread/INFO]: vlad's niece's has left the game.
+[15:56:50] [Server thread/INFO]: Boulderballs issued server command: /mcrank
+[15:57:01] [Server thread/INFO]: crystalgem issued server command: /home
+[15:57:06] [User Authenticator #17/INFO]: UUID of player lolo_lola_69 is 646085da-be96-308b-8634-fb8b260022a5
+[15:57:07] [Server thread/INFO]: lolo_lola_69[/0:0:0:0:0:0:0:1:51224] logged in with entity id 43398 at ([world]745.5219081200923, 72.0, -64.60584506212837)
+[15:57:07] [Server thread/INFO]: [0;33;1mlolo_lola_69 has joined the game.[m
+[15:57:44] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> she didnt know how to control aswd and mouse at the same time[m
+[15:57:48] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> cute[m
+[15:58:09] [Server thread/INFO]: lolo_lola_69 issued server command: /home
+[15:58:14] [Server thread/INFO]: lolo_lola_69 issued server command: /home
+[15:58:21] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> ooff town road[m
+[15:58:46] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> tbf they dont know anything about mc as well[m
+[15:58:54] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> atay hahahahahh[m
+[15:59:33] [Server thread/WARN]: Horse moved wrongly!
+[15:59:33] [Server thread/WARN]: Horse moved wrongly!
+[15:59:33] [Server thread/WARN]: Horse moved wrongly!
+[15:59:33] [Server thread/WARN]: Horse moved wrongly!
+[15:59:41] [Server thread/WARN]: Horse moved wrongly!
+[15:59:41] [Server thread/WARN]: Horse moved wrongly!
+[15:59:41] [Server thread/WARN]: Horse moved wrongly!
+[15:59:42] [Server thread/WARN]: Horse moved wrongly!
+[16:00:35] [Server thread/INFO]: RimuroTempest issued server command: /home
+[16:01:50] [Server thread/INFO]: Boulderballs issued server command: /home mine
+[16:02:12] [Server thread/INFO]: Boulderballs issued server command: /sethome mone
+[16:02:24] [Server thread/INFO]: Boulderballs issued server command: /delhome mine
+[16:02:29] [Server thread/INFO]: Boulderballs issued server command: /sethome 4
+[16:05:31] [Server thread/INFO]: Boulderballs issued server command: /home 3\
+[16:05:33] [Server thread/INFO]: Boulderballs issued server command: /home 3
+[16:07:26] [Server thread/INFO]: RimuroTempest issued server command: /home
+[16:08:19] [Server thread/INFO]: Boulderballs issued server command: /home 4
+[16:09:40] [Server thread/WARN]: Johann moved wrongly!
+[16:15:20] [Server thread/WARN]: RimuroTempest moved too quickly! -11.205514408724184,-1.0,-5.074644235076789
+[16:15:57] [Server thread/WARN]: Horse moved wrongly!
+[16:15:57] [Server thread/WARN]: Horse moved wrongly!
+[16:15:57] [Server thread/WARN]: Horse moved wrongly!
+[16:15:57] [Server thread/WARN]: Horse moved wrongly!
+[16:15:57] [Server thread/WARN]: Horse moved wrongly!
+[16:15:57] [Server thread/WARN]: Horse moved wrongly!
+[16:15:57] [Server thread/INFO]: Boulderballs issued server command: /home 3
+[16:16:11] [Server thread/INFO]: Boulderballs issued server command: /home 4
+[16:18:49] [Server thread/INFO]: RimuroTempest lost connection: Disconnected
+[16:18:49] [Server thread/INFO]: RimuroTempest has left the game.
+[16:18:52] [User Authenticator #18/INFO]: UUID of player RimuroTempest is 7d77d651-9257-3898-84d6-c829d96d184f
+[16:18:52] [Server thread/INFO]: RimuroTempest[/0:0:0:0:0:0:0:1:51232] logged in with entity id 52553 at ([world]-902.1417847436986, 69.0, -853.9552619127383)
+[16:18:52] [Server thread/INFO]: [0;33;1mRimuroTempest has joined the game.[m
+[16:19:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5011ms or 100 ticks behind
+[16:19:45] [Server thread/INFO]: RimuroTempest issued server command: /home
+[16:20:25] [Server thread/WARN]: Johann moved too quickly! 11.555186639627209,0.7531999805212024,0.31762246895829094
+[16:20:25] [Server thread/WARN]: RimuroTempest moved too quickly! 4.106778091592787,-1.0,12.038397904523435
+[16:20:25] [Server thread/INFO]: Boulderballs issued server command: /
+[16:20:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5009ms or 100 ticks behind
+[16:20:59] [User Authenticator #19/INFO]: UUID of player arcosanti is a9e52362-e903-3089-8f30-1e5a3b7d754a
+[16:20:59] [Server thread/INFO]: arcosanti[/0:0:0:0:0:0:0:1:51236] logged in with entity id 53439 at ([world]498.3102397354377, 66.0, 162.64042794705824)
+[16:20:59] [Server thread/INFO]: [0;33;1marcosanti has joined the game.[m
+[16:21:07] [Async Chat Thread - #11/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> hey vlad[m
+[16:21:13] [Async Chat Thread - #11/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> what shader do you use[m
+[16:22:32] [Server thread/INFO]: arcosanti issued server command: /home village
+[16:23:27] [Async Chat Thread - #12/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> dude[m
+[16:23:30] [Async Chat Thread - #12/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> i wanna invade end na[m
+[16:23:40] [Async Chat Thread - #12/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> im free tonight[m
+[16:23:45] [Async Chat Thread - #12/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> :0[m
+[16:23:50] [Async Chat Thread - #12/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> bring everyone[m
+[16:24:02] [Async Chat Thread - #12/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> hmmm[m
+[16:24:04] [Async Chat Thread - #12/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> 9pm?[m
+[16:24:08] [Async Chat Thread - #12/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> sige[m
+[16:24:08] [Async Chat Thread - #12/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> batang pasaway[m
+[16:24:10] [Async Chat Thread - #12/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> pwede[m
+[16:24:27] [Async Chat Thread - #12/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> we should end crystals[m
+[16:24:28] [Async Chat Thread - #12/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> maybe make a discord message[m
+[16:24:34] [Server thread/INFO]: arcosanti issued server command: /home
+[16:24:35] [Server thread/INFO]: RimuroTempest issued server command: /home
+[16:24:40] [Async Chat Thread - #12/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> sure[m
+[16:25:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5001ms or 100 ticks behind
+[16:25:53] [Async Chat Thread - #13/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> testing[m
+[16:25:55] [Async Chat Thread - #13/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> wat[m
+[16:26:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10064ms or 201 ticks behind
+[16:26:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5985ms or 119 ticks behind
+[16:26:49] [Server thread/INFO]: arcosanti issued server command: /home
+[16:27:24] [Async Chat Thread - #14/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> @wax i use sildur's most of the time[m
+[16:27:36] [Async Chat Thread - #14/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> ah nice nice[m
+[16:27:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5001ms or 100 ticks behind
+[16:27:37] [Async Chat Thread - #14/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> tyty[m
+[16:27:49] [Async Chat Thread - #14/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> sidlur's vibrant the lowest spec one :)[m
+[16:28:01] [Async Chat Thread - #14/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> hahahaha[m
+[16:28:05] [Async Chat Thread - #14/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> ill probably use that[m
+[16:28:16] [Server thread/INFO]: Boulderballs lost connection: Disconnected
+[16:28:16] [Server thread/INFO]: Boulderballs has left the game.
+[16:28:17] [User Authenticator #20/INFO]: UUID of player Boulderballs is c5c05e4f-d28e-3be0-9222-fffe440eb955
+[16:28:17] [Server thread/INFO]: Boulderballs[/0:0:0:0:0:0:0:1:51245] logged in with entity id 58128 at ([world]-1662.7972983469172, 52.0, 744.403789929225)
+[16:28:17] [Server thread/INFO]: [0;33;1mBoulderballs has joined the game.[m
+[16:28:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11097ms or 221 ticks behind
+[16:28:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7979ms or 159 ticks behind
+[16:29:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5005ms or 100 ticks behind
+[16:29:37] [Server thread/INFO]: crystalgem issued server command: /HOME
+[16:29:38] [Server thread/INFO]: Johann issued server command: /home
+[16:30:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8784ms or 175 ticks behind
+[16:30:17] [Server thread/INFO]: lolo_lola_69 issued server command: /home
+[16:31:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5002ms or 100 ticks behind
+[16:32:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6492ms or 129 ticks behind
+[16:33:17] [Server thread/INFO]: Boulderballs lost connection: Disconnected
+[16:33:17] [Server thread/INFO]: Boulderballs has left the game.
+[16:33:19] [User Authenticator #21/INFO]: UUID of player Boulderballs is c5c05e4f-d28e-3be0-9222-fffe440eb955
+[16:33:19] [Server thread/INFO]: Boulderballs[/0:0:0:0:0:0:0:1:51247] logged in with entity id 60322 at ([world]-1664.699999988079, 52.0, 735.2232633633752)
+[16:33:19] [Server thread/INFO]: [0;33;1mBoulderballs has joined the game.[m
+[16:33:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5011ms or 100 ticks behind
+[16:34:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5002ms or 100 ticks behind
+[16:34:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5003ms or 100 ticks behind
+[16:36:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5001ms or 100 ticks behind
+[16:36:24] [Server thread/INFO]: Johann issued server command: /home
+[16:37:08] [Server thread/INFO]: arcosanti issued server command: /home village
+[16:37:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5002ms or 100 ticks behind
+[16:37:23] [Server thread/INFO]: Giniguy issued server command: /home
+[16:38:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5009ms or 100 ticks behind
+[16:38:29] [Server thread/INFO]: arcosanti issued server command: /home
+[16:39:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7489ms or 149 ticks behind
+[16:39:23] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> test[m
+[16:39:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5042ms or 100 ticks behind
+[16:40:01] [Server thread/WARN]: Horse moved wrongly!
+[16:40:21] [Server thread/INFO]: lolo_lola_69 issued server command: /tpa Johann
+[16:40:25] [Server thread/INFO]: Johann issued server command: /tpaccept
+[16:40:59] [Server thread/INFO]: arcosanti issued server command: /home village
+[16:41:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5158ms or 103 ticks behind
+[16:41:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11957ms or 239 ticks behind
+[16:42:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13754ms or 275 ticks behind
+[16:42:37] [Server thread/WARN]: Donkey moved wrongly!
+[16:43:00] [Server thread/WARN]: Horse (vehicle of arcosanti) moved too quickly! -3.9547235945103125,0.0,-19.610353925357003
+[16:43:00] [Server thread/WARN]: Horse (vehicle of arcosanti) moved too quickly! -3.950525804390537,0.0,-20.023344915495613
+[16:43:00] [Server thread/WARN]: Boat (vehicle of Johann) moved too quickly! -8.332849488103989,0.0,18.618045473460143
+[16:43:00] [Server thread/WARN]: Horse (vehicle of arcosanti) moved too quickly! -3.94750622531825,0.0,-20.436357167858432
+[16:43:00] [Server thread/WARN]: Boat (vehicle of lolo_lola_69) moved too quickly! -6.279813116895639,0.0,19.408287705430098
+[16:43:00] [Server thread/WARN]: Boat (vehicle of Johann) moved too quickly! -8.494988889077831,0.0,18.983709062115395
+[16:43:00] [Server thread/WARN]: Horse (vehicle of arcosanti) moved too quickly! -3.9450757970220707,0.0,-20.849389165142952
+[16:43:00] [Server thread/WARN]: Boat (vehicle of lolo_lola_69) moved too quickly! -6.402952792066458,0.0,19.78886117457762
+[16:43:00] [Server thread/WARN]: Boat (vehicle of Johann) moved too quickly! -8.65712399873587,0.0,19.349374675255262
+[16:43:00] [Server thread/WARN]: Horse (vehicle of arcosanti) moved too quickly! -3.9432345425753113,0.0,-21.26243827536041
+[16:43:00] [Server thread/WARN]: Boat (vehicle of lolo_lola_69) moved too quickly! -6.526092482050103,0.0,20.16943468951314
+[16:43:00] [Server thread/WARN]: Boat (vehicle of Johann) moved too quickly! -8.819255246209877,0.0,19.715042110431114
+[16:43:00] [Server thread/WARN]: Horse (vehicle of arcosanti) moved too quickly! -3.943179304094997,0.0,-21.675505356738654
+[16:43:00] [Server thread/WARN]: Boat (vehicle of lolo_lola_69) moved too quickly! -6.649232185365236,0.0,20.550008245657807
+[16:43:00] [Server thread/WARN]: Boat (vehicle of Johann) moved too quickly! -8.981383017718372,0.0,20.080711185439327
+[16:43:00] [Server thread/WARN]: Horse (vehicle of arcosanti) moved too quickly! -3.9443024801412605,0.0,-22.08857878021729
+[16:43:00] [Server thread/WARN]: Boat (vehicle of lolo_lola_69) moved too quickly! -6.772371900678763,0.0,20.93058183889076
+[16:43:00] [Server thread/WARN]: Boat (vehicle of Johann) moved too quickly! -9.14350766085795,0.0,20.446381736296644
+[16:43:00] [Server thread/WARN]: Horse (vehicle of arcosanti) moved too quickly! -3.946898609681142,0.0,-22.501641333971406
+[16:43:00] [Server thread/WARN]: Boat (vehicle of lolo_lola_69) moved too quickly! -6.895511626790949,0.0,21.311155465503134
+[16:43:00] [Server thread/WARN]: Boat (vehicle of Johann) moved too quickly! -9.30562948846557,0.0,20.812053615418108
+[16:43:00] [Server thread/WARN]: Horse (vehicle of arcosanti) moved too quickly! -3.9509675400550464,0.0,-22.914672509875004
+[16:43:00] [Server thread/WARN]: Boat (vehicle of lolo_lola_69) moved too quickly! -7.0186513626217675,0.0,21.691729122157028
+[16:43:00] [Server thread/WARN]: Boat (vehicle of Johann) moved too quickly! -9.467748782094532,0.0,21.17772668997725
+[16:43:00] [Server thread/WARN]: Horse (vehicle of arcosanti) moved too quickly! -3.9553310045890555,0.0,-23.32768042842804
+[16:43:00] [Server thread/WARN]: Boat (vehicle of lolo_lola_69) moved too quickly! -7.141791107199424,0.0,22.072302805848267
+[16:43:00] [Server thread/WARN]: Boat (vehicle of Johann) moved too quickly! -9.629865795142791,0.0,21.54340084043031
+[16:43:00] [Server thread/WARN]: Boat (vehicle of lolo_lola_69) moved too quickly! -7.264930859649212,0.0,22.452876513873093
+[16:43:00] [Server thread/WARN]: Horse (vehicle of arcosanti) moved too quickly! -3.959988992909132,0.0,-23.74066898830597
+[16:43:00] [Server thread/WARN]: Boat (vehicle of Johann) moved too quickly! -9.791980755668419,0.0,21.909075959187817
+[16:43:00] [Server thread/WARN]: Horse (vehicle of arcosanti) moved too quickly! -3.9646469812292082,0.0,-24.153647189742856
+[16:43:00] [Server thread/WARN]: Boat (vehicle of lolo_lola_69) moved too quickly! -7.388070619183964,0.0,22.833450243798154
+[16:43:00] [Server thread/WARN]: Boat (vehicle of Johann) moved too quickly! -9.954093868923792,0.0,22.274751949419397
+[16:43:00] [Server thread/WARN]: Horse (vehicle of arcosanti) moved too quickly! -3.9693049695492846,0.0,-24.566619848584537
+[16:43:00] [Server thread/WARN]: Boat (vehicle of lolo_lola_69) moved too quickly! -7.511210385095183,0.0,23.214023993433443
+[16:43:00] [Server thread/WARN]: Boat (vehicle of Johann) moved too quickly! -10.116205319635924,0.0,22.640428723977607
+[16:43:00] [Server thread/WARN]: Boat (vehicle of lolo_lola_69) moved too quickly! -7.6343501567451995,0.0,23.594597760807915
+[16:43:00] [Server thread/WARN]: Horse (vehicle of arcosanti) moved too quickly! -3.973962957869361,0.0,-24.97958954169394
+[16:43:00] [Server thread/WARN]: Boat (vehicle of Johann) moved too quickly! -10.278315274059082,0.0,23.00610620442967
+[16:43:00] [Server thread/WARN]: Boat (vehicle of lolo_lola_69) moved too quickly! -7.757489933560123,0.0,23.975171544147713
+[16:43:00] [Server thread/WARN]: Horse (vehicle of arcosanti) moved too quickly! -3.9786209461894373,0.0,-25.39255764789914
+[16:43:00] [Server thread/WARN]: Boat (vehicle of Johann) moved too quickly! -10.440423881822312,0.0,23.371784320186293
+[16:43:00] [Server thread/WARN]: Horse (vehicle of arcosanti) moved too quickly! -3.9832789345095136,0.0,-25.8055249049836
+[16:43:00] [Server thread/WARN]: Boat (vehicle of lolo_lola_69) moved too quickly! -7.880629715023474,0.0,24.35574534185622
+[16:43:00] [Server thread/WARN]: Boat (vehicle of Johann) moved too quickly! -10.602531277591652,0.0,23.737463007716883
+[16:43:00] [Server thread/WARN]: Horse (vehicle of arcosanti) moved too quickly! -3.98793692282959,0.0,-26.218491707720432
+[16:43:00] [Server thread/WARN]: Boat (vehicle of lolo_lola_69) moved too quickly! -8.003769500670387,0.0,24.736319152496606
+[16:43:00] [Server thread/WARN]: Donkey (vehicle of RimuroTempest) moved too quickly! 12.980287895233914,-1.0,-15.559262883076826
+[16:43:00] [Server thread/WARN]: Donkey (vehicle of RimuroTempest) moved too quickly! 13.340234757196527,-1.0,-15.639891835864432
+[16:43:00] [Server thread/WARN]: Boat (vehicle of Johann) moved too quickly! -10.764637582566479,0.0,24.103142209844123
+[16:43:00] [Server thread/WARN]: Horse (vehicle of arcosanti) moved too quickly! -3.9925949111496664,0.0,-26.631458267344897
+[16:43:00] [Server thread/WARN]: Boat (vehicle of lolo_lola_69) moved too quickly! -8.126909290082494,0.0,25.11689297477568
+[16:43:00] [Server thread/WARN]: Donkey (vehicle of RimuroTempest) moved too quickly! 13.700139190732784,-1.0,-15.720738974885194
+[16:43:00] [Server thread/WARN]: Boat (vehicle of Johann) moved too quickly! -10.926742905826245,0.0,24.468821875108347
+[16:43:00] [Server thread/WARN]: Horse (vehicle of arcosanti) moved too quickly! -3.9972528994697427,0.0,-27.04442469688479
+[16:43:00] [Server thread/WARN]: Boat (vehicle of lolo_lola_69) moved too quickly! -8.250049082883265,0.0,25.497466807529577
+[16:43:00] [Server thread/WARN]: Boat (vehicle of Johann) moved too quickly! -11.088847345542604,0.0,24.834501957195812
+[16:43:00] [Server thread/WARN]: Donkey (vehicle of RimuroTempest) moved too quickly! 14.06002092166409,-1.0,-15.801702861009176
+[16:43:00] [Server thread/WARN]: Horse (vehicle of arcosanti) moved too quickly! -4.001910887789819,0.0,-27.457391056819006
+[16:43:00] [Server thread/WARN]: Boat (vehicle of lolo_lola_69) moved too quickly! -8.373188878733913,0.0,25.87804064971084
+[16:43:00] [Server thread/WARN]: Donkey (vehicle of RimuroTempest) moved too quickly! 14.419890504884052,-1.0,-15.88272921618045
+[16:43:00] [Server thread/WARN]: Boat (vehicle of Johann) moved too quickly! -11.250950990069782,0.0,25.200182414424262
+[16:43:00] [Server thread/WARN]: Boat (vehicle of lolo_lola_69) moved too quickly! -8.496328677329416,0.0,26.258614500376666
+[16:43:00] [Server thread/WARN]: Horse (vehicle of arcosanti) moved too quickly! -4.0068633891641525,0.0,-27.87035000748881
+[16:43:00] [Server thread/WARN]: Boat (vehicle of Johann) moved too quickly! -11.413053918926835,0.0,25.565863209279428
+[16:43:00] [Server thread/WARN]: Boat (vehicle of lolo_lola_69) moved too quickly! -8.61946847839522,0.0,26.639188358678666
+[16:43:00] [Server thread/WARN]: Horse (vehicle of arcosanti) moved too quickly! -4.017427017931084,0.0,-28.283078120840628
+[16:43:00] [Server thread/WARN]: Donkey (vehicle of RimuroTempest) moved too quickly! 14.779753588105905,-1.0,-15.963788997293364
+[16:43:00] [Server thread/WARN]: Horse (vehicle of arcosanti) moved too quickly! -4.044522370213656,0.0,-28.694772628150417
+[16:43:00] [Server thread/WARN]: Boat (vehicle of lolo_lola_69) moved too quickly! -8.742608281684397,0.0,27.019762223853206
+[16:43:00] [Server thread/WARN]: Donkey (vehicle of RimuroTempest) moved too quickly! 15.139613193308378,-1.0,-16.044866663961216
+[16:43:00] [Server thread/WARN]: Donkey (vehicle of RimuroTempest) moved too quickly! 15.499470937491992,-1.0,-16.125953900832883
+[16:43:00] [Server thread/WARN]: Boat (vehicle of Johann) moved too quickly! -11.575156203680649,0.0,25.931544307998706
+[16:43:00] [Server thread/WARN]: Boat (vehicle of Johann) moved too quickly! -11.73725790874164,0.0,26.297225680195652
+[16:43:00] [Server thread/WARN]: Horse (vehicle of arcosanti) moved too quickly! -4.084264924824765,0.0,-29.10544854873274
+[16:43:00] [Server thread/WARN]: Boat (vehicle of lolo_lola_69) moved too quickly! -8.865748086974577,0.0,27.400336095212992
+[16:43:00] [Server thread/WARN]: Boat (vehicle of Johann) moved too quickly! -11.899359092079067,0.0,26.662907298522555
+[16:43:00] [Server thread/WARN]: Horse (vehicle of arcosanti) moved too quickly! -4.130774745243855,0.0,-29.515579443865704
+[16:43:00] [Server thread/WARN]: Boat (vehicle of lolo_lola_69) moved too quickly! -8.98888789406567,0.0,27.78090997213951
+[16:43:00] [Server thread/WARN]: Donkey (vehicle of RimuroTempest) moved too quickly! 15.859327685881567,-1.0,-16.207046258529886
+[16:43:00] [Server thread/WARN]: Donkey (vehicle of RimuroTempest) moved too quickly! 16.21918390144151,-1.0,-16.288141356278402
+[16:43:00] [Server thread/WARN]: Boat (vehicle of Johann) moved too quickly! -12.061459805865411,0.0,27.028589138366442
+[16:43:00] [Server thread/WARN]: Horse (vehicle of arcosanti) moved too quickly! -4.180905594672083,0.0,-29.92541870674711
+[16:43:00] [Server thread/WARN]: Boat (vehicle of lolo_lola_69) moved too quickly! -9.112027702777482,0.0,28.161483854076096
+[16:43:00] [Server thread/WARN]: Donkey (vehicle of RimuroTempest) moved too quickly! 16.57903983189499,-1.0,-16.369237920173873
+[16:43:00] [Server thread/WARN]: Boat (vehicle of Johann) moved too quickly! -12.223560097055724,0.0,27.394271177575547
+[16:43:00] [Server thread/WARN]: Boat (vehicle of lolo_lola_69) moved too quickly! -9.23516751294801,0.0,28.542057740521784
+[16:43:00] [Server thread/WARN]: Horse (vehicle of arcosanti) moved too quickly! -4.232973984527575,0.0,-30.33510192302549
+[16:43:00] [Server thread/WARN]: Donkey (vehicle of RimuroTempest) moved too quickly! 16.93889560979369,-1.0,-16.45033526857526
+[16:43:00] [Server thread/WARN]: Boat (vehicle of Johann) moved too quickly! -12.385656500548748,0.0,27.75995339621329
+[16:43:00] [Server thread/WARN]: Boat (vehicle of lolo_lola_69) moved too quickly! -9.358307324431394,0.0,28.922631631025638
+[16:43:00] [Server thread/WARN]: Horse (vehicle of arcosanti) moved too quickly! -4.28607911363531,0.0,-30.74470164187767
+[16:43:00] [Server thread/WARN]: Donkey (vehicle of RimuroTempest) moved too quickly! 17.298751306063423,-1.0,-16.531433036750173
+[16:43:00] [Server thread/WARN]: Boat (vehicle of Johann) moved too quickly! -12.54774940511436,0.0,28.1256373260577
+[16:43:00] [Server thread/WARN]: Horse (vehicle of arcosanti) moved too quickly! -4.333887035490562,0.0,-31.154941456573283
+[16:43:00] [Server thread/WARN]: Boat (vehicle of lolo_lola_69) moved too quickly! -9.481447137096438,0.0,29.303205525181795
+[16:43:00] [Server thread/WARN]: Donkey (vehicle of RimuroTempest) moved too quickly! 17.658606958655014,-1.0,-16.612531029537536
+[16:43:00] [Server thread/WARN]: Boat (vehicle of Johann) moved too quickly! -12.709839160645402,0.0,28.491322795987912
+[16:43:00] [Server thread/WARN]: Horse (vehicle of arcosanti) moved too quickly! -4.367070612016562,1.0,-31.56635482022432
+[16:43:00] [Server thread/WARN]: Boat (vehicle of lolo_lola_69) moved too quickly! -9.604586950824796,0.0,29.683779422625094
+[16:43:00] [Server thread/WARN]: Donkey (vehicle of RimuroTempest) moved too quickly! 18.018360774797202,-1.0,-16.69407812949646
+[16:43:00] [Server thread/WARN]: Boat (vehicle of Johann) moved too quickly! -12.87192608204532,0.0,28.85700965199544
+[16:43:00] [Server thread/WARN]: Horse (vehicle of arcosanti) moved too quickly! -4.380334162219327,1.0,-31.978494114862656
+[16:43:00] [Server thread/WARN]: Boat (vehicle of lolo_lola_69) moved too quickly! -9.727726765510283,0.0,30.06435332302675
+[16:43:00] [Server thread/WARN]: Boat (vehicle of Johann) moved too quickly! -13.034010452727443,0.0,29.222697755472495
+[16:43:00] [Server thread/WARN]: Horse (vehicle of arcosanti) moved too quickly! -4.375856574129273,1.0,-32.39072527715837
+[16:43:00] [Server thread/WARN]: Donkey (vehicle of RimuroTempest) moved too quickly! 18.378060100285666,-1.0,-16.775865537748587
+[16:43:00] [Server thread/WARN]: Boat (vehicle of lolo_lola_69) moved too quickly! -9.850866581057176,0.0,30.44492722609101
+[16:43:00] [Server thread/WARN]: Donkey (vehicle of RimuroTempest) moved too quickly! 18.737730268911832,-1.0,-16.85778153017725
+[16:43:00] [Server thread/WARN]: Boat (vehicle of Johann) moved too quickly! -13.196092527763426,0.0,29.5883869816721
+[16:43:00] [Server thread/WARN]: Horse (vehicle of arcosanti) moved too quickly! -4.35987433257489,1.0,-32.8026885419132
+[16:43:00] [Server thread/WARN]: Boat (vehicle of lolo_lola_69) moved too quickly! -9.974006397379185,0.0,30.82550113155156
+[16:43:00] [Server thread/WARN]: Donkey (vehicle of RimuroTempest) moved too quickly! 19.09738483628223,-1.0,-16.939766325435016
+[16:43:00] [Server thread/WARN]: Boat (vehicle of Johann) moved too quickly! -13.35817253671803,0.0,29.954077218321913
+[16:43:00] [Server thread/WARN]: Horse (vehicle of arcosanti) moved too quickly! -4.334753220690629,1.0,-33.21445852719228
+[16:43:00] [Server thread/WARN]: Boat (vehicle of lolo_lola_69) moved too quickly! -10.097146214399004,0.0,31.206075039168752
+[16:43:00] [Server thread/WARN]: Donkey (vehicle of RimuroTempest) moved too quickly! 19.457031055731704,-1.0,-17.021787935714883
+[16:43:00] [Server thread/WARN]: Boat (vehicle of Johann) moved too quickly! -13.52025068619946,0.0,30.31976836437684
+[16:43:00] [Server thread/WARN]: Horse (vehicle of arcosanti) moved too quickly! -4.304742081502241,1.0,-33.62612509247731
+[16:43:00] [Server thread/WARN]: Boat (vehicle of lolo_lola_69) moved too quickly! -10.220286032046715,0.0,31.586648948726975
+[16:43:00] [Server thread/WARN]: Donkey (vehicle of RimuroTempest) moved too quickly! 19.816672808375188,-1.0,-17.10382924497901
+[16:43:00] [Server thread/WARN]: Boat (vehicle of Johann) moved too quickly! -13.682327162155048,0.0,30.68546032889651
+[16:43:00] [Server thread/WARN]: Boat (vehicle of lolo_lola_69) moved too quickly! -10.343425850259564,0.0,31.96722286003211
+[16:43:00] [Server thread/WARN]: Horse (vehicle of arcosanti) moved too quickly! -4.272114386200059,1.0,-34.03773631978572
+[16:43:00] [Server thread/WARN]: Boat (vehicle of Johann) moved too quickly! -13.8444021319375,0.0,31.051153030034357
+[16:43:00] [Server thread/WARN]: Boat (vehicle of lolo_lola_69) moved too quickly! -10.466565668981048,0.0,32.34779677290942
+[16:43:00] [Server thread/WARN]: Horse (vehicle of arcosanti) moved too quickly! -4.2380866238898705,1.0,-34.449317936846114
+[16:43:00] [Server thread/WARN]: Boat (vehicle of Johann) moved too quickly! -14.006475746164028,0.0,31.416846394128584
+[16:43:00] [Server thread/WARN]: Donkey (vehicle of RimuroTempest) moved too quickly! 20.1763121709198,-1.0,-17.18588109477696
+[16:43:00] [Server thread/WARN]: Horse (vehicle of arcosanti) moved too quickly! -4.203309713638021,1.0,-34.860883710053145
+[16:43:00] [Server thread/WARN]: Boat (vehicle of lolo_lola_69) moved too quickly! -10.589705488160234,0.0,32.72837068720173
+[16:43:00] [Server thread/WARN]: Donkey (vehicle of RimuroTempest) moved too quickly! 20.535950254570253,-1.0,-17.26793858460428
+[16:43:00] [Server thread/WARN]: Boat (vehicle of Johann) moved too quickly! -14.168548140390385,0.0,31.782540354883395
+[16:43:00] [Server thread/WARN]: Donkey (vehicle of RimuroTempest) moved too quickly! 20.895587653909843,-1.0,-17.349999092298958
+[16:43:00] [Server thread/WARN]: Horse (vehicle of arcosanti) moved too quickly! -4.16519894706272,1.0,-35.272164337285744
+[16:43:00] [Server thread/WARN]: Boat (vehicle of lolo_lola_69) moved too quickly! -10.712845307751422,0.0,33.108944602767565
+[16:43:00] [Server thread/WARN]: Donkey (vehicle of RimuroTempest) moved too quickly! 21.255224687088344,-1.0,-17.432061214794317
+[16:43:00] [Server thread/WARN]: Boat (vehicle of Johann) moved too quickly! -14.33061943661653,0.0,32.14823485263287
+[16:43:00] [Server thread/WARN]: Horse (vehicle of arcosanti) moved too quickly! -4.12206504032406,1.0,-35.68293394129489
+[16:43:00] [Server thread/WARN]: Boat (vehicle of lolo_lola_69) moved too quickly! -10.835985127713457,0.0,33.48951851947953
+[16:43:00] [Server thread/WARN]: Boat (vehicle of Johann) moved too quickly! -14.492689744642576,0.0,32.51392983367748
+[16:43:00] [Server thread/WARN]: Horse (vehicle of arcosanti) moved too quickly! -4.071570150453482,1.0,-36.09281456619726
+[16:43:00] [Server thread/WARN]: Boat (vehicle of lolo_lola_69) moved too quickly! -10.959124948009162,0.0,33.870092437223036
+[16:43:00] [Server thread/WARN]: Donkey (vehicle of RimuroTempest) moved too quickly! 21.61486152434145,-1.0,-17.514124201337268
+[16:43:00] [Server thread/WARN]: Boat (vehicle of Johann) moved too quickly! -14.654759163288531,0.0,32.87962524968759
+[16:43:00] [Server thread/WARN]: Horse (vehicle of arcosanti) moved too quickly! -4.008692305693643,1.0,-36.50080887322417
+[16:43:00] [Server thread/WARN]: Boat (vehicle of lolo_lola_69) moved too quickly! -11.082264768605228,0.0,34.25066635589491
+[16:43:00] [Server thread/WARN]: Donkey (vehicle of RimuroTempest) moved too quickly! 21.975786202419727,-1.0,-17.590023701440373
+[16:43:00] [Server thread/WARN]: Boat (vehicle of Johann) moved too quickly! -14.816827781492407,0.0,33.24532105716685
+[16:43:00] [Server thread/WARN]: Boat (vehicle of lolo_lola_69) moved too quickly! -11.205404589471527,0.0,34.63124027540232
+[16:43:00] [Server thread/WARN]: Horse (vehicle of arcosanti) moved too quickly! -3.9236650120938066,1.0,-36.90417006638029
+[16:43:00] [Server thread/WARN]: Donkey (vehicle of RimuroTempest) moved too quickly! 22.33795747660531,-1.0,-17.65953467669283
+[16:43:00] [Server thread/WARN]: Donkey (vehicle of RimuroTempest) moved too quickly! 22.70122925176031,-1.0,-17.722965828563247
+[16:43:00] [Server thread/WARN]: Boat (vehicle of Johann) moved too quickly! -14.978895679298375,0.0,33.61101721696821
+[16:43:00] [Server thread/WARN]: Horse (vehicle of arcosanti) moved too quickly! -3.8116336845275214,1.0,-37.30015987589502
+[16:43:00] [Server thread/WARN]: Boat (vehicle of lolo_lola_69) moved too quickly! -11.328544410581117,0.0,35.011814195661714
+[16:43:00] [Server thread/WARN]: Boat (vehicle of Johann) moved too quickly! -15.140962928746376,0.0,33.97671369385944
+[16:43:00] [Server thread/WARN]: Horse (vehicle of arcosanti) moved too quickly! -3.6688431753423743,1.0,-37.68531182229901
+[16:43:00] [Server thread/WARN]: Boat (vehicle of lolo_lola_69) moved too quickly! -11.451684231909667,0.0,35.392388116597886
+[16:43:00] [Server thread/WARN]: Donkey (vehicle of RimuroTempest) moved too quickly! 23.066183392302037,-1.0,-17.77469802021585
+[16:43:00] [Server thread/WARN]: Boat (vehicle of Johann) moved too quickly! -15.303029594672125,0.0,34.342410456131574
+[16:43:00] [Server thread/WARN]: Horse (vehicle of arcosanti) moved too quickly! -3.498321576121242,1.0,-38.058809234260366
+[16:43:00] [Server thread/WARN]: Donkey (vehicle of RimuroTempest) moved too quickly! 23.26146307650538,-1.0,-17.80237888454053
+[16:43:00] [Server thread/WARN]: Boat (vehicle of lolo_lola_69) moved too quickly! -11.574824053435236,0.0,35.772962038143135
+[16:43:00] [Server thread/WARN]: Boat (vehicle of Johann) moved too quickly! -15.465095735427894,0.0,34.70810747524649
+[16:43:00] [Server thread/WARN]: Donkey (vehicle of RimuroTempest) moved too quickly! 23.365953342065723,-1.0,-17.817190363143823
+[16:43:00] [Server thread/WARN]: Horse (vehicle of arcosanti) moved too quickly! -3.3096421025419716,1.0,-38.42416050866211
+[16:43:00] [Server thread/WARN]: Boat (vehicle of lolo_lola_69) moved too quickly! -11.697963875138157,0.0,36.15353596023658
+[16:43:00] [Server thread/WARN]: Donkey (vehicle of RimuroTempest) moved too quickly! 23.592573252032707,-1.0,-17.841565602753917
+[16:43:00] [Server thread/WARN]: Boat (vehicle of Johann) moved too quickly! -15.627161403530636,0.0,35.07380472551995
+[16:43:00] [Server thread/WARN]: Horse (vehicle of arcosanti) moved too quickly! -3.110992950097227,1.0,-38.785003286110054
+[16:43:00] [Server thread/WARN]: Boat (vehicle of lolo_lola_69) moved too quickly! -11.821103697000694,0.0,36.53410988282343
+[16:43:00] [Server thread/WARN]: Boat moved wrongly!
+[16:43:00] [Server thread/WARN]: Boat moved wrongly!
+[16:43:00] [Server thread/WARN]: Boat moved wrongly!
+[16:43:00] [Server thread/WARN]: Boat moved wrongly!
+[16:43:00] [Server thread/WARN]: Boat moved wrongly!
+[16:43:00] [Server thread/WARN]: Boat moved wrongly!
+[16:43:00] [Server thread/WARN]: Boat moved wrongly!
+[16:43:00] [Server thread/WARN]: Boat moved wrongly!
+[16:43:00] [Server thread/WARN]: Boat moved wrongly!
+[16:43:00] [Server thread/WARN]: Boat (vehicle of lolo_lola_69) moved too quickly! -6.725492219210878,0.0,21.35434301173325
+[16:43:00] [Server thread/WARN]: Boat moved wrongly!
+[16:43:00] [Server thread/WARN]: Boat moved wrongly!
+[16:43:00] [Server thread/WARN]: Boat moved wrongly!
+[16:43:00] [Server thread/WARN]: Boat moved wrongly!
+[16:43:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11920ms or 238 ticks behind
+[16:43:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13806ms or 276 ticks behind
+[16:44:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6667ms or 133 ticks behind
+[16:44:44] [Server thread/WARN]: Boat moved wrongly!
+[16:44:44] [Server thread/WARN]: Boat moved wrongly!
+[16:44:44] [Server thread/WARN]: Boat moved wrongly!
+[16:44:52] [Server thread/WARN]: Horse moved wrongly!
+[16:45:00] [Server thread/WARN]: Boat moved wrongly!
+[16:45:00] [Server thread/WARN]: Boat moved wrongly!
+[16:45:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5003ms or 100 ticks behind
+[16:45:41] [Server thread/INFO]: arcosanti lost connection: Disconnected
+[16:45:41] [Server thread/INFO]: arcosanti has left the game.
+[16:45:43] [User Authenticator #22/INFO]: UUID of player arcosanti is a9e52362-e903-3089-8f30-1e5a3b7d754a
+[16:45:43] [Server thread/INFO]: arcosanti[/0:0:0:0:0:0:0:1:51255] logged in with entity id 67843 at ([world]127.46468539252636, 62.0, -463.5925309900463)
+[16:45:43] [Server thread/INFO]: [0;33;1marcosanti has joined the game.[m
+[16:45:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7407ms or 148 ticks behind
+[16:45:57] [Server thread/INFO]: RimuroTempest lost connection: Disconnected
+[16:45:57] [Server thread/INFO]: RimuroTempest has left the game.
+[16:45:57] [User Authenticator #23/INFO]: UUID of player RimuroTempest is 7d77d651-9257-3898-84d6-c829d96d184f
+[16:45:57] [Server thread/INFO]: RimuroTempest[/0:0:0:0:0:0:0:1:51256] logged in with entity id 67908 at ([world]-909.6586744585716, 68.875, -878.5788779854171)
+[16:45:58] [Server thread/INFO]: [0;33;1mRimuroTempest has joined the game.[m
+[16:46:18] [Server thread/INFO]: Johann lost connection: Disconnected
+[16:46:18] [Server thread/INFO]: Johann has left the game.
+[16:46:20] [User Authenticator #24/INFO]: UUID of player Johann is f160dbef-552f-3b70-af9a-129d0ff0c675
+[16:46:20] [Server thread/INFO]: Johann[/0:0:0:0:0:0:0:1:51258] logged in with entity id 67978 at ([world]774.3571035715048, 63.08576364370532, 1292.2134765589524)
+[16:46:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11104ms or 222 ticks behind
+[16:46:51] [Server thread/WARN]: arcosanti moved wrongly!
+[16:46:54] [Server thread/INFO]: arcosanti lost connection: Disconnected
+[16:46:54] [Server thread/INFO]: arcosanti has left the game.
+[16:46:54] [User Authenticator #25/INFO]: UUID of player arcosanti is a9e52362-e903-3089-8f30-1e5a3b7d754a
+[16:46:55] [Server thread/INFO]: arcosanti[/0:0:0:0:0:0:0:1:51260] logged in with entity id 68403 at ([world]311.8506735448848, 68.0, -326.5381292978086)
+[16:47:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12599ms or 251 ticks behind
+[16:48:25] [Server thread/WARN]: Horse moved wrongly!
+[16:48:36] [Server thread/INFO]: Johann has made the advancement [Eye Spy]
+[16:49:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5307ms or 106 ticks behind
+[16:50:06] [Server thread/WARN]: Horse moved wrongly!
+[16:50:06] [Server thread/WARN]: Horse moved wrongly!
+[16:50:06] [Server thread/WARN]: Horse moved wrongly!
+[16:50:06] [Server thread/WARN]: Horse moved wrongly!
+[16:50:11] [Server thread/INFO]: Boulderballs issued server command: /home 2
+[16:50:16] [Server thread/INFO]: lolo_lola_69 issued server command: /tpa Johann
+[16:50:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5001ms or 100 ticks behind
+[16:50:24] [Server thread/INFO]: Johann issued server command: /tpaccept
+[16:50:48] [Server thread/INFO]: Johann issued server command: /home
+[16:50:57] [Server thread/INFO]: lolo_lola_69 issued server command: /home
+[16:51:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10696ms or 213 ticks behind
+[16:51:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9115ms or 182 ticks behind
+[16:51:53] [Server thread/INFO]: Boulderballs issued server command: /home 4
+[16:52:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7394ms or 147 ticks behind
+[16:52:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7920ms or 158 ticks behind
+[16:53:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7769ms or 155 ticks behind
+[16:54:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9775ms or 195 ticks behind
+[16:54:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11276ms or 225 ticks behind
+[16:55:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13372ms or 267 ticks behind
+[16:56:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9892ms or 197 ticks behind
+[16:56:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11452ms or 229 ticks behind
+[16:57:33] [Async Chat Thread - #16/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> looking 4 sharpness book[m
+[16:57:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6334ms or 126 ticks behind
+[16:58:02] [Server thread/INFO]: lolo_lola_69 issued server command: /home market
+[16:58:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5001ms or 100 ticks behind
+[16:59:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5006ms or 100 ticks behind
+[17:00:13] [Server thread/INFO]: lolo_lola_69 lost connection: Disconnected
+[17:00:13] [Server thread/INFO]: lolo_lola_69 has left the game.
+[17:00:52] [Server thread/WARN]: Skeleton Horse moved wrongly!
+[17:00:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5043ms or 100 ticks behind
+[17:01:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7840ms or 156 ticks behind
+[17:02:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5008ms or 100 ticks behind
+[17:02:28] [Server thread/INFO]: CONSOLE issued server command: /list 
+[17:02:28] [Server thread/INFO]: [0;33;22mThere are [0;31;1m6[0;33;22m out of maximum [0;31;1m20[0;33;22m players online.[m
+[17:02:28] [Server thread/INFO]: [0;33;22muser[m: [0;33;1m[User] arcosanti[m[0;37;1m, [0;33;1m[User] Boulderballs[m[0;37;1m, [0;33;1m[User] crystalgem[m[0;37;1m, [0;33;1m[User] Giniguy[m[0;37;1m, [0;33;1m[User] Johann[m[0;37;1m, [0;33;1m[User] RimuroTempest[m[0;37;1m[m
+[17:02:36] [Server thread/INFO]: [0;33;22mTPS from last 1m, 5m, 15m: [0;32;1m18.26, [0;33;1m17.4, [0;33;1m17.49[m
+[17:02:39] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[17:04:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5013ms or 100 ticks behind
+[17:05:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5012ms or 100 ticks behind
+[17:05:44] [Server thread/INFO]: Boulderballs lost connection: Disconnected
+[17:05:44] [Server thread/INFO]: Boulderballs has left the game.
+[17:05:46] [User Authenticator #26/INFO]: UUID of player Boulderballs is c5c05e4f-d28e-3be0-9222-fffe440eb955
+[17:05:46] [Server thread/INFO]: Boulderballs[/0:0:0:0:0:0:0:1:51276] logged in with entity id 74860 at ([world]-1636.060524535084, 50.0, 758.4567613468187)
+[17:05:46] [Server thread/INFO]: [0;33;1mBoulderballs has joined the game.[m
+[17:05:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5887ms or 117 ticks behind
+[17:06:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5061ms or 101 ticks behind
+[17:07:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5004ms or 100 ticks behind
+[17:08:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5002ms or 100 ticks behind
+[17:09:33] [Async Chat Thread - #17/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> xie xie[m
+[17:10:33] [User Authenticator #27/INFO]: UUID of player Kobeboy15 is dc70f05a-14b3-350c-91b3-ecddbe830761
+[17:10:34] [Server thread/INFO]: Kobeboy15[/0:0:0:0:0:0:0:1:51288] logged in with entity id 76079 at ([world]698.5606552142037, 130.0, 121.10279565251409)
+[17:10:34] [Server thread/INFO]: [0;33;1mKobeboy15 has joined the game.[m
+[17:10:43] [Async Chat Thread - #18/INFO]: [m[0;33;1m[User] [0;33;1m[User] crystalgem[m [0;36;1m> thank you[m
+[17:10:44] [Async Chat Thread - #18/INFO]: [m[0;33;1m[User] [0;33;1m[User] Kobeboy15[m [0;36;1m> is the server still bad for you guys?[m
+[17:10:49] [Async Chat Thread - #18/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> its ayt[m
+[17:10:56] [Async Chat Thread - #18/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> its better rn[m
+[17:11:02] [Async Chat Thread - #18/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> ping's around 80[m
+[17:11:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5004ms or 100 ticks behind
+[17:11:54] [Server thread/INFO]: Kobeboy15 issued server command: /tps
+[17:11:56] [Server thread/INFO]: RimuroTempest has made the advancement [Voluntary Exile]
+[17:12:00] [Server thread/INFO]: Kobeboy15 issued server command: /lag
+[17:12:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11940ms or 238 ticks behind
+[17:12:27] [User Authenticator #28/INFO]: UUID of player Yuchipashe is c9032ef3-d7a8-3705-950c-f21ad7690523
+[17:12:27] [Server thread/INFO]: Yuchipashe[/0:0:0:0:0:0:0:1:51294] logged in with entity id 77155 at ([world]76.52940165770657, 73.0, 114.30000001192093)
+[17:12:27] [Server thread/INFO]: [0;33;1mYuchipashe has joined the game.[m
+[17:12:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7644ms or 152 ticks behind
+[17:13:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10604ms or 212 ticks behind
+[17:13:54] [Server thread/INFO]: Kobeboy15 issued server command: /vanish
+[17:14:01] [Server thread/INFO]: Kobeboy15 issued server command: /tp Yuchipashe
+[17:14:08] [Server thread/INFO]: Kobeboy15 issued server command: /vanish
+[17:14:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7677ms or 153 ticks behind
+[17:14:50] [Async Chat Thread - #19/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> hello Knight's wife[m
+[17:14:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6338ms or 126 ticks behind
+[17:14:55] [Async Chat Thread - #19/INFO]: [m[0;33;1m[User] [0;33;1m[User] crystalgem[m [0;36;1m> lol[m
+[17:14:58] [Async Chat Thread - #19/INFO]: [m[0;33;1m[User] [0;33;1m[User] crystalgem[m [0;36;1m> hi[m
+[17:15:00] [Server thread/INFO]: Kobeboy15 issued server command: /autore time
+[17:15:04] [Async Chat Thread - #19/INFO]: [m[0;33;1m[User] [0;33;1m[User] RimuroTempest[m [0;36;1m> kuya gi raid koo[m
+[17:15:10] [Async Chat Thread - #19/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> omg ahahha[m
+[17:15:11] [Async Chat Thread - #19/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> welcome to Gayaka Village[m
+[17:15:12] [Server thread/INFO]: Kobeboy15 lost connection: Disconnected
+[17:15:12] [Async Chat Thread - #19/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> i heard tht[m
+[17:15:12] [Server thread/INFO]: Kobeboy15 has left the game.
+[17:15:16] [Async Chat Thread - #19/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> oh[m
+[17:15:20] [Async Chat Thread - #19/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> we need to help rimuro[m
+[17:15:26] [Server thread/INFO]: Yuchipashe was slain by Phantom
+[17:15:30] [Async Chat Thread - #19/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> help rimuro guys[m
+[17:15:36] [Server thread/INFO]: Giniguy issued server command: /home desertvillage
+[17:15:40] [Async Chat Thread - #19/INFO]: [m[0;33;1m[User] [0;33;1m[User] Yuchipashe[m [0;36;1m> shut up johann[m
+[17:15:43] [Async Chat Thread - #19/INFO]: [m[0;33;1m[User] [0;33;1m[User] Yuchipashe[m [0;36;1m> jk[m
+[17:15:46] [Async Chat Thread - #19/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> tsk[m
+[17:15:51] [Async Chat Thread - #19/INFO]: [m[0;33;1m[User] [0;33;1m[User] RimuroTempest[m [0;36;1m> hehehe[m
+[17:15:57] [Async Chat Thread - #19/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> test[m
+[17:16:12] [Async Chat Thread - #19/INFO]: [m[0;33;1m[User] [0;33;1m[User] Yuchipashe[m [0;36;1m> the server is okay raman[m
+[17:16:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5017ms or 100 ticks behind
+[17:16:36] [Async Chat Thread - #19/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> oooh hey rash[m
+[17:17:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8441ms or 168 ticks behind
+[17:17:10] [Async Chat Thread - #19/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> asa ang raid?[m
+[17:17:11] [User Authenticator #29/INFO]: UUID of player lolo_lola_69 is 646085da-be96-308b-8634-fb8b260022a5
+[17:17:11] [Server thread/INFO]: lolo_lola_69[/0:0:0:0:0:0:0:1:51298] logged in with entity id 79143 at ([world]777.6525956839977, 57.0, -479.3745059323057)
+[17:17:11] [Server thread/INFO]: [0;33;1mlolo_lola_69 has joined the game.[m
+[17:17:30] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[17:17:37] [Server thread/INFO]: [Server] Hope non of you guys mind a new host of the server
+[17:17:37] [Async Chat Thread - #19/INFO]: [m[0;33;1m[User] [0;33;1m[User] RimuroTempest[m [0;36;1m> dri sa village nako kuya[m
+[17:17:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7391ms or 147 ticks behind
+[17:17:52] [Server thread/INFO]: [Server] this new host will have a better pc!
+[17:18:00] [Async Chat Thread - #19/INFO]: [m[0;33;1m[User] [0;33;1m[User] Yuchipashe[m [0;36;1m> wat[m
+[17:18:02] [Async Chat Thread - #19/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> joh[m
+[17:18:04] [Async Chat Thread - #19/INFO]: [m[0;33;1m[User] [0;33;1m[User] Yuchipashe[m [0;36;1m> no uy[m
+[17:18:08] [Async Chat Thread - #19/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> come to my discord[m
+[17:18:11] [Async Chat Thread - #19/INFO]: [m[0;33;1m[User] [0;33;1m[User] Yuchipashe[m [0;36;1m> ill just test the viability hahaha[m
+[17:18:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12196ms or 243 ticks behind
+[17:18:23] [Server thread/INFO]: [Server] Ahhh cge We'll see later rash, when ya not busy
+[17:18:26] [Server thread/INFO]: crystalgem issued server command: /tpa Johann
+[17:18:29] [Server thread/INFO]: Johann issued server command: /tpaccept
+[17:18:33] [Server thread/INFO]: Yuchipashe went up in flames
+[17:18:34] [Async Chat Thread - #19/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> kobeeeeee[m
+[17:18:37] [Server thread/INFO]: Yuchipashe lost connection: Disconnected
+[17:18:37] [Server thread/INFO]: Yuchipashe has left the game.
+[17:18:48] [Server thread/INFO]: Boulderballs lost connection: Disconnected
+[17:18:48] [Server thread/INFO]: Boulderballs has left the game.
+[17:18:49] [User Authenticator #30/INFO]: UUID of player Boulderballs is c5c05e4f-d28e-3be0-9222-fffe440eb955
+[17:18:49] [Server thread/INFO]: Boulderballs[/0:0:0:0:0:0:0:1:51301] logged in with entity id 80427 at ([world]-1638.990749121758, 50.0, 759.2903938090449)
+[17:18:49] [Server thread/INFO]: [0;33;1mBoulderballs has joined the game.[m
+[17:18:53] [Server thread/INFO]: lolo_lola_69 lost connection: Disconnected
+[17:18:53] [Server thread/INFO]: lolo_lola_69 has left the game.
+[17:19:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11216ms or 224 ticks behind
+[17:20:03] [Async Chat Thread - #20/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> naa kos village[m
+[17:20:27] [Server thread/INFO]: arcosanti issued server command: /home
+[17:20:49] [Async Chat Thread - #20/INFO]: [m[0;33;1m[User] [0;33;1m[User] RimuroTempest[m [0;36;1m> asa ka ya[m
+[17:22:01] [Async Chat Thread - #21/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> naa sa imo village[m
+[17:22:44] [Async Chat Thread - #21/INFO]: [m[0;33;1m[User] [0;33;1m[User] RimuroTempest[m [0;36;1m> isa nlng man nahibilin[m
+[17:24:21] [Server thread/INFO]: Boulderballs issued server command: /home 3
+[17:24:41] [Server thread/INFO]: Johann issued server command: /home
+[17:24:41] [Server thread/INFO]: Boulderballs issued server command: /home 4
+[17:25:34] [Server thread/INFO]: Johann issued server command: /tpa crystalgem
+[17:25:39] [Server thread/INFO]: crystalgem issued server command: /accept
+[17:25:49] [Server thread/INFO]: crystalgem issued server command: /accept
+[17:26:00] [Server thread/INFO]: Johann issued server command: /tpa crystalgem
+[17:26:06] [Server thread/INFO]: crystalgem issued server command: /tpaccept
+[17:26:11] [Server thread/INFO]: Johann issued server command: /tpa crystalgem
+[17:26:15] [Server thread/INFO]: crystalgem issued server command: /tpaccept
+[17:27:50] [Server thread/INFO]: arcosanti issued server command: /home
+[17:28:20] [Server thread/INFO]: RimuroTempest issued server command: /home
+[17:28:29] [Server thread/WARN]: RimuroTempest moved too quickly! -10.639065787301547,0.0,3.9770486431308427
+[17:31:03] [Server thread/INFO]: RimuroTempest issued server command: /home
+[17:32:28] [Async Chat Thread - #22/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> asa ang last[m
+[17:32:31] [Server thread/INFO]: RimuroTempest issued server command: /home
+[17:32:35] [Async Chat Thread - #22/INFO]: [m[0;33;1m[User] [0;33;1m[User] RimuroTempest[m [0;36;1m> lagii[m
+[17:33:41] [Async Chat Thread - #23/INFO]: [m[0;33;1m[User] [0;33;1m[User] RimuroTempest[m [0;36;1m> kuya naa dri[m
+[17:33:55] [Server thread/INFO]: RimuroTempest was slain by Vex
+[17:34:02] [Server thread/INFO]: RimuroTempest issued server command: /home
+[17:34:06] [Server thread/INFO]: Giniguy was slain by Vex
+[17:34:11] [Async Chat Thread - #23/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> yikes[m
+[17:34:14] [Server thread/INFO]: crystalgem issued server command: /home
+[17:34:17] [Server thread/INFO]: Giniguy issued server command: /home desert village
+[17:34:19] [Async Chat Thread - #23/INFO]: [m[0;33;1m[User] [0;33;1m[User] RimuroTempest[m [0;36;1m> hahhaha[m
+[17:34:21] [Server thread/INFO]: Giniguy issued server command: /home desertvillage
+[17:34:25] [Server thread/INFO]: Johann issued server command: /home
+[17:35:09] [Async Chat Thread - #23/INFO]: [m[0;33;1m[User] [0;33;1m[User] RimuroTempest[m [0;36;1m> kuya para asa ang totem[m
+[17:35:18] [Async Chat Thread - #23/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> if gunitan nimo kay di ka mamatay[m
+[17:35:22] [Async Chat Thread - #23/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> like[m
+[17:35:25] [Async Chat Thread - #23/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> if gamay kag hp[m
+[17:35:32] [Async Chat Thread - #23/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> mo gamit na ang totem[m
+[17:35:35] [Async Chat Thread - #23/INFO]: [m[0;33;1m[User] [0;33;1m[User] RimuroTempest[m [0;36;1m> aahhh[m
+[17:35:41] [Async Chat Thread - #23/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> then hatagan kag 2 hp ug regen[m
+[17:35:47] [Async Chat Thread - #23/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> testing[m
+[17:35:50] [Async Chat Thread - #23/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> guniti ang totem[m
+[17:36:05] [Async Chat Thread - #23/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> suwayon tikag patay ha[m
+[17:36:09] [Async Chat Thread - #23/INFO]: [m[0;33;1m[User] [0;33;1m[User] RimuroTempest[m [0;36;1m> aahh kong gunitan ra[m
+[17:36:13] [Server thread/INFO]: Johann lost connection: Disconnected
+[17:36:13] [Server thread/INFO]: Johann has left the game.
+[17:36:17] [Server thread/INFO]: RimuroTempest issued server command: /gege
+[17:36:20] [Async Chat Thread - #23/INFO]: [m[0;33;1m[User] [0;33;1m[User] RimuroTempest[m [0;36;1m> gege[m
+[17:36:24] [Server thread/INFO]: RimuroTempest has reached the goal [Postmortal]
+[17:36:28] [Server thread/INFO]: arcosanti issued server command: /home
+[17:36:32] [Async Chat Thread - #23/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> hahaha[m
+[17:36:39] [Async Chat Thread - #23/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> gamit if raid or if wala kay shield[m
+[17:36:47] [Async Chat Thread - #23/INFO]: [m[0;33;1m[User] [0;33;1m[User] RimuroTempest[m [0;36;1m> aahh ana radi ay[m
+[17:37:19] [Async Chat Thread - #23/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> wtf[m
+[17:38:35] [Server thread/INFO]: arcosanti issued server command: /home
+[17:39:06] [Server thread/INFO]: RimuroTempest issued server command: /kuyaa
+[17:39:16] [Async Chat Thread - #24/INFO]: [m[0;33;1m[User] [0;33;1m[User] RimuroTempest[m [0;36;1m> kuyaa maa sa atubanagn[m
+[17:40:56] [Server thread/INFO]: RimuroTempest was slain by Ravager
+[17:41:04] [Server thread/INFO]: RimuroTempest issued server command: /home
+[17:42:02] [User Authenticator #31/INFO]: UUID of player lolo_lola_69 is 646085da-be96-308b-8634-fb8b260022a5
+[17:42:03] [Server thread/INFO]: lolo_lola_69[/0:0:0:0:0:0:0:1:51315] logged in with entity id 88086 at ([world]768.8297956239442, 66.5625, -476.00051306613483)
+[17:42:03] [Server thread/INFO]: [0;33;1mlolo_lola_69 has joined the game.[m
+[17:42:11] [Server thread/INFO]: RimuroTempest issued server command: /home
+[17:42:25] [Server thread/INFO]: lolo_lola_69 issued server command: /home
+[17:43:07] [Server thread/INFO]: RimuroTempest has completed the challenge [Hero of the Village]
+[17:43:17] [Async Chat Thread - #25/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> imo na tanan[m
+[17:43:19] [Server thread/INFO]: Giniguy issued server command: /hom
+[17:43:20] [Server thread/INFO]: Giniguy issued server command: /home
+[17:43:24] [Async Chat Thread - #25/INFO]: [m[0;33;1m[User] [0;33;1m[User] RimuroTempest[m [0;36;1m> hahahah ty ya[m
+[17:43:31] [Async Chat Thread - #25/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> np[m
+[17:43:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5002ms or 100 ticks behind
+[17:43:56] [Server thread/INFO]: lolo_lola_69 issued server command: /home
+[17:45:21] [Server thread/INFO]: [GriefPrevention] lolo_lola_69 placed a sign @ world: x831, z64;**********************;hahahaa;vlad was here;**********************
+[17:45:49] [Server thread/INFO]: Boulderballs issued server command: /mcrank
+[17:45:50] [Server thread/INFO]: lolo_lola_69 issued server command: /home
+[17:45:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5013ms or 100 ticks behind
+[17:46:07] [Server thread/INFO]: RimuroTempest lost connection: Timed out
+[17:46:07] [Server thread/INFO]: RimuroTempest has left the game.
+[17:47:12] [Server thread/INFO]: arcosanti issued server command: /home
+[17:48:38] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mYOU KNOW WHAT TIME IT IS :3 In 15 Minutes![m
+[17:53:38] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mYOU KNOW WHAT TIME IT IS :3 In 10 Minutes![m
+[17:53:48] [Server thread/WARN]: Giniguy moved too quickly! 3.3667479777848257,-5.0,-8.021648049770135
+[17:55:16] [Server thread/INFO]: lolo_lola_69 lost connection: Disconnected
+[17:55:16] [Server thread/INFO]: lolo_lola_69 has left the game.
+[17:58:38] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mYOU KNOW WHAT TIME IT IS :3 In 5 Minutes![m
+[18:00:44] [User Authenticator #32/INFO]: UUID of player lolo_lola_69 is 646085da-be96-308b-8634-fb8b260022a5
+[18:00:44] [Server thread/INFO]: lolo_lola_69[/0:0:0:0:0:0:0:1:51325] logged in with entity id 93580 at ([world]744.4165560426117, 72.0, -56.98281560996126)
+[18:00:44] [Server thread/INFO]: [0;33;1mlolo_lola_69 has joined the game.[m
+[18:01:46] [Server thread/INFO]: arcosanti issued server command: /home village
+[18:02:35] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mYOU KNOW WHAT TIME IT IS :3 In 1 Minutes![m
+[18:03:30] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mGOODBYE in 5 Seconds![m
+[18:03:31] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mGOODBYE in 4 Seconds![m
+[18:03:32] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mGOODBYE in 3 Seconds![m
+[18:03:33] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mGOODBYE in 2 Seconds![m
+[18:03:34] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mGOODBYE in 1 Seconds![m
+[18:03:34] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1m[0;31;1mServer Restarting![m
+[18:03:34] [Server thread/INFO]: CONSOLE issued server command: /kickall §cServer Restarting! We will be back up any minute!
+[18:03:34] [Server thread/INFO]: crystalgem lost connection: §cServer Restarting! We will be back up any minute!
+[18:03:34] [Server thread/INFO]: crystalgem has left the game.
+[18:03:34] [Server thread/INFO]: arcosanti lost connection: §cServer Restarting! We will be back up any minute!
+[18:03:34] [Server thread/INFO]: arcosanti has left the game.
+[18:03:34] [Server thread/INFO]: Boulderballs lost connection: §cServer Restarting! We will be back up any minute!
+[18:03:34] [Server thread/INFO]: Boulderballs has left the game.
+[18:03:34] [Server thread/INFO]: Giniguy lost connection: §cServer Restarting! We will be back up any minute!
+[18:03:34] [Server thread/INFO]: Giniguy has left the game.
+[18:03:34] [Server thread/INFO]: lolo_lola_69 lost connection: §cServer Restarting! We will be back up any minute!
+[18:03:34] [Server thread/INFO]: lolo_lola_69 has left the game.
+[18:03:34] [Server thread/INFO]: [0;31;22mKicked all players from server.[m
+[18:03:34] [Server thread/INFO]: Attempting to restart with run.bat
+[18:03:34] [Server thread/INFO]: Stopping server
+[18:03:34] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.17.0.0
+[18:03:34] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.17.0.0
+[18:03:34] [Server thread/INFO]: [Essentials] Disabling Essentials v2.17.0.0
+[18:03:34] [Server thread/INFO]: [Vault] [Vault][Economy] Essentials Economy unhooked.
+[18:03:34] [Server thread/INFO]: [ChestShop] Disabling ChestShop v3.10-SNAPSHOT (build 137)
+[18:03:34] [Server thread/INFO]: [GriefPrevention] Disabling GriefPrevention v16.11.6
+[18:03:34] [Server thread/INFO]: [GriefPrevention] GriefPrevention disabled.
+[18:03:34] [Server thread/INFO]: [Stargate] Disabling Stargate v0.8.2
+[18:03:34] [Server thread/INFO]: Closing all stargates.
+[18:03:34] [Server thread/INFO]: [Vault] Disabling Vault v1.7.2-b107
+[18:03:34] [Server thread/INFO]: [AutoRestart] Disabling AutoRestart v3.3.3
+[18:03:34] [Server thread/INFO]: [mcMMO] Disabling mcMMO v2.1.100-SNAPSHOT
+[18:03:34] [Server thread/INFO]: [mcMMO] Saving mcMMOPlayers... (0)
+[18:03:34] [Server thread/INFO]: [mcMMO] Finished save operation for 0 players!
+[18:03:36] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v13.7.3
+[18:03:36] [Server thread/INFO]: [HomeSpawn] Disabling HomeSpawn v3.1.4
+[18:03:36] [Server thread/INFO]: [HomeSpawn] HomeSpawn has been disabled
+[18:03:36] [Server thread/INFO]: [PermissionsEx] Disabling PermissionsEx v1.23.4
+[18:03:36] [Server thread/INFO]: Saving players
+[18:03:36] [Server thread/INFO]: Saving worlds
+[18:03:36] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
+[18:03:39] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[18:03:39] [Server thread/INFO]: Saving chunks for level 'world_nether'/minecraft:the_nether
+[18:03:39] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[18:03:39] [Server thread/INFO]: Saving chunks for level 'world_the_end'/minecraft:the_end
+[18:03:39] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[18:03:39] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[18:03:39] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[18:03:39] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved

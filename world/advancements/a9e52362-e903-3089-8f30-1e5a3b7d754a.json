@@ -1923,6 +1923,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/redstone_from_smelting": {
+    "criteria": {
+      "has_redstone_ore": "2019-09-15 17:33:49 +0800"
+    },
+    "done": true
+  },
   "minecraft:husbandry/plant_seed": {
     "criteria": {
       "wheat": "2019-07-21 00:01:05 +0800"
@@ -2130,6 +2136,12 @@
   "minecraft:recipes/misc/gold_nugget_from_smelting": {
     "criteria": {
       "has_golden_shovel": "2019-07-21 18:20:07 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/diamond_from_blasting": {
+    "criteria": {
+      "has_diamond_ore": "2019-09-15 17:35:00 +0800"
     },
     "done": true
   },
@@ -3154,6 +3166,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/diamond_from_smelting": {
+    "criteria": {
+      "has_diamond_ore": "2019-09-15 17:35:00 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/item_frame": {
     "criteria": {
       "has_leather": "2019-07-30 11:47:11 +0800"
@@ -3457,6 +3475,12 @@
   "minecraft:recipes/misc/pink_dye_from_pink_tulip": {
     "criteria": {
       "has_red_flower": "2019-08-03 11:33:48 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_from_blasting": {
+    "criteria": {
+      "has_redstone_ore": "2019-09-15 17:33:49 +0800"
     },
     "done": true
   },
