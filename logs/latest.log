@@ -1,239 +1,550 @@
-[07:33:42] [Server thread/INFO]: Starting minecraft server version 1.14.4
-[07:33:42] [Server thread/INFO]: Loading properties
-[07:33:42] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-065a373-9aa7430 (MC: 1.14.4) (Implementing API version 1.14.4-R0.1-SNAPSHOT)
-[07:33:43] [Server thread/INFO]: Debug logging is disabled
-[07:33:43] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[07:33:43] [Server thread/INFO]: Using 4 threads for Netty based IO
-[07:33:43] [Server thread/INFO]: Default game type: SURVIVAL
-[07:33:43] [Server thread/INFO]: Generating keypair
-[07:33:43] [Server thread/INFO]: Starting Minecraft server on *:25565
-[07:33:43] [Server thread/INFO]: Using default channel type
-[07:33:50] [Server thread/WARN]: Plugin PermissionsEx v1.23.4 does not specify an api-version.
-[07:33:52] [Server thread/WARN]: Plugin Stargate v0.8.2 does not specify an api-version.
-[07:33:52] [Server thread/INFO]: [PermissionsEx] Loading PermissionsEx v1.23.4
-[07:33:52] [Server thread/WARN]: [PermissionsEx] This server is in offline mode. Unless this server is configured to integrate with a supported proxy (see http://dft.ba/-8ous), UUIDs *may not be stable*!
-[07:33:52] [Server thread/INFO]: [HomeSpawn] Loading HomeSpawn v3.1.4
-[07:33:52] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v13.7.3
-[07:33:52] [Server thread/INFO]: [mcMMO] Loading mcMMO v2.1.100-SNAPSHOT
-[07:33:52] [Server thread/INFO]: [AutoRestart] Loading AutoRestart v3.3.3
-[07:33:52] [Server thread/INFO]: [Vault] Loading Vault v1.7.2-b107
-[07:33:52] [Server thread/INFO]: [Stargate] Loading Stargate v0.8.2
-[07:33:52] [Server thread/INFO]: [GriefPrevention] Loading GriefPrevention v16.11.6
-[07:33:52] [Server thread/INFO]: [ChestShop] Loading ChestShop v3.10-SNAPSHOT (build 137)
-[07:33:52] [Server thread/INFO]: [Essentials] Loading Essentials v2.17.0.0
-[07:33:52] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn v2.17.0.0
-[07:33:52] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat v2.17.0.0
-[07:33:52] [Server thread/INFO]: [mcMMO] Enabling mcMMO v2.1.100-SNAPSHOT
-[07:33:53] [Server thread/INFO]: [mcMMO] enabling Acrobatics Skills
-[07:33:53] [Server thread/INFO]: [mcMMO] registered subskill: Roll
-[07:33:53] [Server thread/INFO]: [mcMMO] 0 entries in mcMMO World Blacklist
-[07:33:53] [Server thread/INFO]: [Vault] Enabling Vault v1.7.2-b107
-[07:33:53] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
-[07:33:53] [Server thread/INFO]: [Vault] [Permission] PermissionsEx found: Waiting
-[07:33:53] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[07:33:53] [Server thread/INFO]: [Vault] [Chat] PermissionsEx found: Waiting
-[07:33:53] [Server thread/INFO]: [Vault] Enabled Version 1.7.2-b107
-[07:33:53] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[07:33:53] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[07:33:53] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[07:33:53] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[07:33:53] [Server thread/INFO]: Preparing level "world"
-[07:33:53] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
-[07:33:53] [Server thread/INFO]: Loaded 6 recipes
-[07:33:54] [Server thread/INFO]: -------- World Settings For [world] --------
-[07:33:54] [Server thread/INFO]: View Distance: 8
-[07:33:54] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[07:33:54] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[07:33:54] [Server thread/INFO]: Item Merge Radius: 2.5
-[07:33:54] [Server thread/INFO]: Item Despawn Rate: 6000
-[07:33:54] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[07:33:54] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
-[07:33:54] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[07:33:54] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[07:33:54] [Server thread/INFO]: Cane Growth Modifier: 100%
-[07:33:54] [Server thread/INFO]: Melon Growth Modifier: 100%
-[07:33:54] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[07:33:54] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[07:33:54] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[07:33:54] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[07:33:54] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[07:33:54] [Server thread/INFO]: Potato Growth Modifier: 100%
-[07:33:54] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[07:33:54] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[07:33:54] [Server thread/INFO]: Vine Growth Modifier: 100%
-[07:33:54] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[07:33:54] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[07:33:54] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[07:33:54] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[07:33:54] [Server thread/INFO]: Experience Merge Radius: 3.0
-[07:33:54] [Server thread/INFO]: Mob Spawn Range: 6
-[07:33:54] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[07:33:54] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[07:33:54] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[07:33:54] [Server thread/INFO]: Max TNT Explosions: 100
-[07:33:54] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[07:33:54] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[07:33:54] [Server thread/INFO]: View Distance: 8
-[07:33:54] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[07:33:54] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[07:33:54] [Server thread/INFO]: Item Merge Radius: 2.5
-[07:33:54] [Server thread/INFO]: Item Despawn Rate: 6000
-[07:33:54] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[07:33:54] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
-[07:33:54] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[07:33:54] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[07:33:54] [Server thread/INFO]: Cane Growth Modifier: 100%
-[07:33:54] [Server thread/INFO]: Melon Growth Modifier: 100%
-[07:33:54] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[07:33:54] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[07:33:54] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[07:33:54] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[07:33:54] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[07:33:54] [Server thread/INFO]: Potato Growth Modifier: 100%
-[07:33:54] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[07:33:54] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[07:33:54] [Server thread/INFO]: Vine Growth Modifier: 100%
-[07:33:54] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[07:33:54] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[07:33:54] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[07:33:54] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[07:33:54] [Server thread/INFO]: Experience Merge Radius: 3.0
-[07:33:54] [Server thread/INFO]: Mob Spawn Range: 6
-[07:33:54] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[07:33:54] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[07:33:54] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[07:33:54] [Server thread/INFO]: Max TNT Explosions: 100
-[07:33:54] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[07:33:54] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[07:33:54] [Server thread/INFO]: View Distance: 8
-[07:33:54] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[07:33:54] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[07:33:54] [Server thread/INFO]: Item Merge Radius: 2.5
-[07:33:54] [Server thread/INFO]: Item Despawn Rate: 6000
-[07:33:54] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[07:33:54] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
-[07:33:54] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[07:33:54] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[07:33:54] [Server thread/INFO]: Cane Growth Modifier: 100%
-[07:33:54] [Server thread/INFO]: Melon Growth Modifier: 100%
-[07:33:54] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[07:33:54] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[07:33:54] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[07:33:54] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[07:33:54] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[07:33:54] [Server thread/INFO]: Potato Growth Modifier: 100%
-[07:33:54] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[07:33:54] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[07:33:54] [Server thread/INFO]: Vine Growth Modifier: 100%
-[07:33:54] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[07:33:54] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[07:33:54] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[07:33:54] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[07:33:54] [Server thread/INFO]: Experience Merge Radius: 3.0
-[07:33:54] [Server thread/INFO]: Mob Spawn Range: 6
-[07:33:54] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[07:33:54] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[07:33:54] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[07:33:54] [Server thread/INFO]: Max TNT Explosions: 100
-[07:33:54] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[07:33:54] [Server thread/INFO]: Preparing start region for dimension 'world'/minecraft:overworld
-[07:33:55] [Server thread/INFO]: Preparing spawn area: 0%
-[07:33:55] [Server thread/INFO]: Preparing spawn area: 0%
-[07:33:55] [Server thread/INFO]: Preparing spawn area: 0%
-[07:33:55] [Server thread/INFO]: Time elapsed: 1498 ms
-[07:33:55] [Server thread/INFO]: Preparing start region for dimension 'world_nether'/minecraft:the_nether
-[07:33:57] [Server thread/INFO]: Preparing spawn area: 0%
-[07:33:57] [Server thread/INFO]: Preparing spawn area: 0%
-[07:33:57] [Server thread/INFO]: Preparing spawn area: 0%
-[07:33:57] [Server thread/INFO]: Time elapsed: 1304 ms
-[07:33:57] [Server thread/INFO]: Preparing start region for dimension 'world_the_end'/minecraft:the_end
-[07:33:57] [Server thread/INFO]: Preparing spawn area: 0%
-[07:33:57] [Server thread/INFO]: Preparing spawn area: 0%
-[07:33:58] [Server-Worker-7/INFO]: Preparing spawn area: 97%
-[07:33:58] [Server thread/INFO]: Time elapsed: 1051 ms
-[07:33:58] [Server thread/INFO]: [PermissionsEx] Enabling PermissionsEx v1.23.4
-[07:33:58] [Server thread/INFO]: [PermissionsEx] Initializing file backend
-[07:33:58] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
-[07:33:58] [Server thread/INFO]: [Vault][Permission] PermissionsEx hooked.
-[07:33:58] [Server thread/INFO]: [Vault] [Vault][Chat] PermissionsEx_Chat hooked.
-[07:33:58] [Server thread/INFO]: [HomeSpawn] Enabling HomeSpawn v3.1.4
-[07:33:58] [Server thread/INFO]: [HomeSpawn] HomeSpawn v3.1.4 has been enabled
-[07:33:58] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v13.7.3
-[07:33:58] [Server thread/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1mDetected Minecraft [0;33;1mv1_14_R1[0;32;1m, using [0;33;1mUniversalSkinFactory[0;32;1m.[m
-[07:33:59] [Server thread/INFO]: [SkinsRestorer] Verbose is missing in config.yml! Using default value.
-[07:33:59] [Server thread/INFO]: [AutoRestart] Enabling AutoRestart v3.3.3
-[07:33:59] [Server thread/INFO]: [0;32;1m[AutoRestart] Loaded![m
-[07:33:59] [Server thread/INFO]: [Stargate] Enabling Stargate v0.8.2
-[07:33:59] [Server thread/INFO]: Stargate v.0.8.2 is enabled.
-[07:33:59] [Server thread/INFO]: [Stargate] Loaded 1 gate layouts
-[07:33:59] [Server thread/INFO]: [Stargate] {world} No stargates for world 
-[07:33:59] [Server thread/INFO]: [Stargate] {world_nether} No stargates for world 
-[07:33:59] [Server thread/INFO]: [Stargate] {world_the_end} No stargates for world 
-[07:33:59] [Server thread/INFO]: [GriefPrevention] Enabling GriefPrevention v16.11.6
-[07:33:59] [Server thread/INFO]: [GriefPrevention] Finished loading configuration.
-[07:33:59] [Server thread/INFO]: [GriefPrevention] 70 total claims loaded.
-[07:34:01] [Server thread/INFO]: [GriefPrevention] Customizable messages loaded.
-[07:34:01] [Server thread/INFO]: [GriefPrevention] Finished loading data (File Mode).
-[07:34:01] [Server thread/INFO]: [GriefPrevention] Boot finished.
-[07:34:01] [Server thread/INFO]: [ChestShop] Enabling ChestShop v3.10-SNAPSHOT (build 137)
-[07:34:01] [Server thread/INFO]: [ChestShop] Using Essentials Economy as the Economy provider now.
-[07:34:01] [Server thread/INFO]: [ChestShop] Vault loaded!
-[07:34:01] [Server thread/INFO]: [Essentials] Enabling Essentials v2.17.0.0
-[07:34:01] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
-[07:34:01] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
-[07:34:01] [Server thread/INFO]: No kits found to migrate.
-[07:34:02] [Server thread/INFO]: [Essentials] Using 1.8.3+ BlockStateMeta provider as mob spawner provider.
-[07:34:02] [Server thread/INFO]: [Essentials] Using 1.13+ flat spawn egg provider as spawn egg provider.
-[07:34:02] [Server thread/INFO]: [Essentials] Using 1.9+ BasePotionData provider as potion meta provider.
-[07:34:02] [Server thread/INFO]: Loaded 20977 items from items.json.
-[07:34:02] [Server thread/INFO]: Using locale en_US
-[07:34:02] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[07:34:02] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[07:34:02] [Server thread/INFO]: [Vault] [Vault][Economy] Essentials Economy hooked.
-[07:34:02] [Server thread/INFO]: [Essentials] Using Vault based permissions (PermissionsEx)
-[07:34:02] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.17.0.0
-[07:34:02] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.17.0.0
-[07:34:02] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[07:34:02] [Server thread/INFO]: Done (9.201s)! For help, type "help"
-[07:34:02] [Craft Scheduler Thread - 2/INFO]: [HomeSpawn] HomeSpawn file watcher started!
-[07:34:02] [Craft Scheduler Thread - 3/INFO]: [HomeSpawn] §fAn update for HomeSpawn is available and can be downloaded and installed by running /homespawn update
-[07:34:03] [Craft Scheduler Thread - 4/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m----------------------------------------------[m
-[07:34:03] [Craft Scheduler Thread - 4/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    +===============+[m
-[07:34:03] [Craft Scheduler Thread - 4/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    | SkinsRestorer |[m
-[07:34:03] [Craft Scheduler Thread - 4/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    +===============+[m
-[07:34:03] [Craft Scheduler Thread - 4/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m----------------------------------------------[m
-[07:34:03] [Craft Scheduler Thread - 4/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;36;1m    Current version: [0;32;1m13.7.3[m
-[07:34:03] [Craft Scheduler Thread - 4/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    This is the latest version![m
-[07:34:03] [Craft Scheduler Thread - 4/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m----------------------------------------------[m
-[07:34:03] [Server thread/INFO]: [0;32;1m[AutoRestart] Up to date![m
-[07:34:03] [Craft Scheduler Thread - 6/INFO]: [Vault] Checking for Updates ... 
-[07:34:04] [Craft Scheduler Thread - 6/INFO]: [Vault] No new version available
-[07:38:35] [Server thread/INFO]: Attempting to restart with run.bat
-[07:38:35] [Server thread/INFO]: Stopping server
-[07:38:35] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.17.0.0
-[07:38:35] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.17.0.0
-[07:38:35] [Server thread/INFO]: [Essentials] Disabling Essentials v2.17.0.0
-[07:38:35] [Server thread/INFO]: [Vault] [Vault][Economy] Essentials Economy unhooked.
-[07:38:35] [Server thread/INFO]: [ChestShop] Disabling ChestShop v3.10-SNAPSHOT (build 137)
-[07:38:35] [Server thread/INFO]: [GriefPrevention] Disabling GriefPrevention v16.11.6
-[07:38:35] [Server thread/INFO]: [GriefPrevention] GriefPrevention disabled.
-[07:38:35] [Server thread/INFO]: [Stargate] Disabling Stargate v0.8.2
-[07:38:35] [Server thread/INFO]: Closing all stargates.
-[07:38:35] [Server thread/INFO]: [Vault] Disabling Vault v1.7.2-b107
-[07:38:35] [Server thread/INFO]: [AutoRestart] Disabling AutoRestart v3.3.3
-[07:38:35] [Server thread/INFO]: [mcMMO] Disabling mcMMO v2.1.100-SNAPSHOT
-[07:38:35] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v13.7.3
-[07:38:35] [Server thread/INFO]: [HomeSpawn] Disabling HomeSpawn v3.1.4
-[07:38:35] [Server thread/INFO]: [HomeSpawn] HomeSpawn has been disabled
-[07:38:35] [Server thread/INFO]: [PermissionsEx] Disabling PermissionsEx v1.23.4
-[07:38:35] [Server thread/INFO]: Saving players
-[07:38:35] [Server thread/INFO]: Saving worlds
-[07:38:35] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
-[07:38:36] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[07:38:36] [Server thread/INFO]: Saving chunks for level 'world_nether'/minecraft:the_nether
-[07:38:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[07:38:37] [Server thread/INFO]: Saving chunks for level 'world_the_end'/minecraft:the_end
-[07:38:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[07:38:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[07:38:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[07:38:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[07:38:46] [Server thread/INFO]: Starting minecraft server version 1.14.4
+[07:38:46] [Server thread/INFO]: Loading properties
+[07:38:46] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-065a373-9aa7430 (MC: 1.14.4) (Implementing API version 1.14.4-R0.1-SNAPSHOT)
+[07:38:46] [Server thread/INFO]: Debug logging is disabled
+[07:38:46] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[07:38:46] [Server thread/INFO]: Using 4 threads for Netty based IO
+[07:38:47] [Server thread/INFO]: Default game type: SURVIVAL
+[07:38:47] [Server thread/INFO]: Generating keypair
+[07:38:47] [Server thread/INFO]: Starting Minecraft server on *:25565
+[07:38:47] [Server thread/INFO]: Using default channel type
+[07:38:55] [Server thread/WARN]: Plugin PermissionsEx v1.23.4 does not specify an api-version.
+[07:38:55] [Server thread/WARN]: Plugin Stargate v0.8.2 does not specify an api-version.
+[07:38:55] [Server thread/INFO]: [PermissionsEx] Loading PermissionsEx v1.23.4
+[07:38:55] [Server thread/WARN]: [PermissionsEx] This server is in offline mode. Unless this server is configured to integrate with a supported proxy (see http://dft.ba/-8ous), UUIDs *may not be stable*!
+[07:38:55] [Server thread/INFO]: [HomeSpawn] Loading HomeSpawn v3.1.4
+[07:38:55] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v13.7.3
+[07:38:55] [Server thread/INFO]: [mcMMO] Loading mcMMO v2.1.100-SNAPSHOT
+[07:38:55] [Server thread/INFO]: [AutoRestart] Loading AutoRestart v3.3.3
+[07:38:55] [Server thread/INFO]: [Vault] Loading Vault v1.7.2-b107
+[07:38:55] [Server thread/INFO]: [Stargate] Loading Stargate v0.8.2
+[07:38:55] [Server thread/INFO]: [GriefPrevention] Loading GriefPrevention v16.11.6
+[07:38:55] [Server thread/INFO]: [ChestShop] Loading ChestShop v3.10-SNAPSHOT (build 137)
+[07:38:55] [Server thread/INFO]: [Essentials] Loading Essentials v2.17.0.0
+[07:38:55] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn v2.17.0.0
+[07:38:55] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat v2.17.0.0
+[07:38:55] [Server thread/INFO]: [mcMMO] Enabling mcMMO v2.1.100-SNAPSHOT
+[07:38:56] [Server thread/INFO]: [mcMMO] enabling Acrobatics Skills
+[07:38:56] [Server thread/INFO]: [mcMMO] registered subskill: Roll
+[07:38:56] [Server thread/INFO]: [mcMMO] 0 entries in mcMMO World Blacklist
+[07:38:56] [Server thread/INFO]: [Vault] Enabling Vault v1.7.2-b107
+[07:38:56] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[07:38:56] [Server thread/INFO]: [Vault] [Permission] PermissionsEx found: Waiting
+[07:38:56] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[07:38:56] [Server thread/INFO]: [Vault] [Chat] PermissionsEx found: Waiting
+[07:38:56] [Server thread/INFO]: [Vault] Enabled Version 1.7.2-b107
+[07:38:56] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[07:38:56] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[07:38:56] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[07:38:56] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[07:38:56] [Server thread/INFO]: Preparing level "world"
+[07:38:56] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
+[07:38:57] [Server thread/INFO]: Loaded 6 recipes
+[07:38:57] [Server thread/INFO]: -------- World Settings For [world] --------
+[07:38:57] [Server thread/INFO]: Experience Merge Radius: 3.0
+[07:38:57] [Server thread/INFO]: Mob Spawn Range: 6
+[07:38:57] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[07:38:57] [Server thread/INFO]: Cane Growth Modifier: 100%
+[07:38:57] [Server thread/INFO]: Melon Growth Modifier: 100%
+[07:38:57] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[07:38:57] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[07:38:57] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[07:38:57] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[07:38:57] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[07:38:57] [Server thread/INFO]: Potato Growth Modifier: 100%
+[07:38:57] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[07:38:57] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[07:38:57] [Server thread/INFO]: Vine Growth Modifier: 100%
+[07:38:57] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[07:38:57] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[07:38:57] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[07:38:57] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[07:38:57] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[07:38:57] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[07:38:57] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[07:38:57] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[07:38:57] [Server thread/INFO]: Max TNT Explosions: 100
+[07:38:57] [Server thread/INFO]: View Distance: 8
+[07:38:57] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[07:38:57] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[07:38:57] [Server thread/INFO]: Item Merge Radius: 2.5
+[07:38:57] [Server thread/INFO]: Item Despawn Rate: 6000
+[07:38:57] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[07:38:57] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[07:38:57] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[07:38:57] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[07:38:57] [Server thread/INFO]: Experience Merge Radius: 3.0
+[07:38:57] [Server thread/INFO]: Mob Spawn Range: 6
+[07:38:57] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[07:38:57] [Server thread/INFO]: Cane Growth Modifier: 100%
+[07:38:57] [Server thread/INFO]: Melon Growth Modifier: 100%
+[07:38:57] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[07:38:57] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[07:38:57] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[07:38:57] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[07:38:57] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[07:38:57] [Server thread/INFO]: Potato Growth Modifier: 100%
+[07:38:57] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[07:38:57] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[07:38:57] [Server thread/INFO]: Vine Growth Modifier: 100%
+[07:38:57] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[07:38:57] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[07:38:57] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[07:38:57] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[07:38:57] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[07:38:57] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[07:38:57] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[07:38:57] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[07:38:57] [Server thread/INFO]: Max TNT Explosions: 100
+[07:38:57] [Server thread/INFO]: View Distance: 8
+[07:38:57] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[07:38:57] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[07:38:57] [Server thread/INFO]: Item Merge Radius: 2.5
+[07:38:57] [Server thread/INFO]: Item Despawn Rate: 6000
+[07:38:57] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[07:38:57] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[07:38:57] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[07:38:57] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[07:38:57] [Server thread/INFO]: Experience Merge Radius: 3.0
+[07:38:57] [Server thread/INFO]: Mob Spawn Range: 6
+[07:38:57] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[07:38:57] [Server thread/INFO]: Cane Growth Modifier: 100%
+[07:38:57] [Server thread/INFO]: Melon Growth Modifier: 100%
+[07:38:57] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[07:38:57] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[07:38:57] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[07:38:57] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[07:38:57] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[07:38:57] [Server thread/INFO]: Potato Growth Modifier: 100%
+[07:38:57] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[07:38:57] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[07:38:57] [Server thread/INFO]: Vine Growth Modifier: 100%
+[07:38:57] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[07:38:57] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[07:38:57] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[07:38:57] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[07:38:57] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[07:38:57] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[07:38:57] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[07:38:57] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[07:38:57] [Server thread/INFO]: Max TNT Explosions: 100
+[07:38:57] [Server thread/INFO]: View Distance: 8
+[07:38:57] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[07:38:57] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[07:38:57] [Server thread/INFO]: Item Merge Radius: 2.5
+[07:38:57] [Server thread/INFO]: Item Despawn Rate: 6000
+[07:38:57] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[07:38:57] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[07:38:57] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[07:38:57] [Server thread/INFO]: Preparing start region for dimension 'world'/minecraft:overworld
+[07:38:59] [Server thread/INFO]: Preparing spawn area: 0%
+[07:38:59] [Server thread/INFO]: Preparing spawn area: 0%
+[07:38:59] [Server thread/INFO]: Preparing spawn area: 0%
+[07:38:59] [Server thread/INFO]: Preparing spawn area: 23%
+[07:38:59] [Server thread/INFO]: Time elapsed: 1693 ms
+[07:38:59] [Server thread/INFO]: Preparing start region for dimension 'world_nether'/minecraft:the_nether
+[07:39:00] [Server thread/INFO]: Preparing spawn area: 0%
+[07:39:00] [Server thread/INFO]: Preparing spawn area: 0%
+[07:39:00] [Server thread/INFO]: Preparing spawn area: 0%
+[07:39:00] [Server thread/INFO]: Time elapsed: 1280 ms
+[07:39:00] [Server thread/INFO]: Preparing start region for dimension 'world_the_end'/minecraft:the_end
+[07:39:01] [Server thread/INFO]: Preparing spawn area: 0%
+[07:39:01] [Server thread/INFO]: Preparing spawn area: 0%
+[07:39:01] [Server-Worker-4/INFO]: Preparing spawn area: 99%
+[07:39:01] [Server thread/INFO]: Time elapsed: 1023 ms
+[07:39:01] [Server thread/INFO]: [PermissionsEx] Enabling PermissionsEx v1.23.4
+[07:39:01] [Server thread/INFO]: [PermissionsEx] Initializing file backend
+[07:39:01] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
+[07:39:01] [Server thread/INFO]: [Vault][Permission] PermissionsEx hooked.
+[07:39:01] [Server thread/INFO]: [Vault] [Vault][Chat] PermissionsEx_Chat hooked.
+[07:39:01] [Server thread/INFO]: [HomeSpawn] Enabling HomeSpawn v3.1.4
+[07:39:02] [Server thread/INFO]: [HomeSpawn] HomeSpawn v3.1.4 has been enabled
+[07:39:02] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v13.7.3
+[07:39:02] [Server thread/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1mDetected Minecraft [0;33;1mv1_14_R1[0;32;1m, using [0;33;1mUniversalSkinFactory[0;32;1m.[m
+[07:39:02] [Server thread/INFO]: [SkinsRestorer] Verbose is missing in config.yml! Using default value.
+[07:39:02] [Server thread/INFO]: [AutoRestart] Enabling AutoRestart v3.3.3
+[07:39:02] [Server thread/INFO]: [0;32;1m[AutoRestart] Loaded![m
+[07:39:02] [Server thread/INFO]: [Stargate] Enabling Stargate v0.8.2
+[07:39:02] [Server thread/INFO]: Stargate v.0.8.2 is enabled.
+[07:39:02] [Server thread/INFO]: [Stargate] Loaded 1 gate layouts
+[07:39:02] [Server thread/INFO]: [Stargate] {world} No stargates for world 
+[07:39:02] [Server thread/INFO]: [Stargate] {world_nether} No stargates for world 
+[07:39:02] [Server thread/INFO]: [Stargate] {world_the_end} No stargates for world 
+[07:39:02] [Server thread/INFO]: [GriefPrevention] Enabling GriefPrevention v16.11.6
+[07:39:02] [Server thread/INFO]: [GriefPrevention] Finished loading configuration.
+[07:39:02] [Server thread/INFO]: [GriefPrevention] 70 total claims loaded.
+[07:39:04] [Server thread/INFO]: [GriefPrevention] Customizable messages loaded.
+[07:39:04] [Server thread/INFO]: [GriefPrevention] Finished loading data (File Mode).
+[07:39:04] [Server thread/INFO]: [GriefPrevention] Boot finished.
+[07:39:04] [Server thread/INFO]: [ChestShop] Enabling ChestShop v3.10-SNAPSHOT (build 137)
+[07:39:05] [Server thread/INFO]: [ChestShop] Using Essentials Economy as the Economy provider now.
+[07:39:05] [Server thread/INFO]: [ChestShop] Vault loaded!
+[07:39:05] [Server thread/INFO]: [Essentials] Enabling Essentials v2.17.0.0
+[07:39:05] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[07:39:05] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
+[07:39:05] [Server thread/INFO]: No kits found to migrate.
+[07:39:05] [Server thread/INFO]: [Essentials] Using 1.8.3+ BlockStateMeta provider as mob spawner provider.
+[07:39:05] [Server thread/INFO]: [Essentials] Using 1.13+ flat spawn egg provider as spawn egg provider.
+[07:39:05] [Server thread/INFO]: [Essentials] Using 1.9+ BasePotionData provider as potion meta provider.
+[07:39:05] [Server thread/INFO]: Loaded 20977 items from items.json.
+[07:39:05] [Server thread/INFO]: Using locale en_US
+[07:39:05] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[07:39:05] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[07:39:05] [Server thread/INFO]: [Vault] [Vault][Economy] Essentials Economy hooked.
+[07:39:05] [Server thread/INFO]: [Essentials] Using Vault based permissions (PermissionsEx)
+[07:39:05] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.17.0.0
+[07:39:05] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.17.0.0
+[07:39:06] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[07:39:06] [Server thread/INFO]: Done (9.637s)! For help, type "help"
+[07:39:06] [Craft Scheduler Thread - 2/INFO]: [HomeSpawn] HomeSpawn file watcher started!
+[07:39:06] [Craft Scheduler Thread - 3/INFO]: [HomeSpawn] §fAn update for HomeSpawn is available and can be downloaded and installed by running /homespawn update
+[07:39:07] [Craft Scheduler Thread - 4/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m----------------------------------------------[m
+[07:39:07] [Craft Scheduler Thread - 4/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    +===============+[m
+[07:39:07] [Craft Scheduler Thread - 4/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    | SkinsRestorer |[m
+[07:39:07] [Craft Scheduler Thread - 4/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    +===============+[m
+[07:39:07] [Craft Scheduler Thread - 4/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m----------------------------------------------[m
+[07:39:07] [Craft Scheduler Thread - 4/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;36;1m    Current version: [0;32;1m13.7.3[m
+[07:39:07] [Craft Scheduler Thread - 4/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    This is the latest version![m
+[07:39:07] [Craft Scheduler Thread - 4/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m----------------------------------------------[m
+[07:39:07] [Server thread/INFO]: [0;32;1m[AutoRestart] Up to date![m
+[07:39:07] [Craft Scheduler Thread - 6/INFO]: [Vault] Checking for Updates ... 
+[07:39:07] [Craft Scheduler Thread - 6/INFO]: [Vault] No new version available
+[08:17:20] [User Authenticator #1/INFO]: UUID of player arcosanti is a9e52362-e903-3089-8f30-1e5a3b7d754a
+[08:17:21] [Server thread/INFO]: arcosanti[/0:0:0:0:0:0:0:1:53766] logged in with entity id 75 at ([world]500.10931520636944, 60.0, 162.04565077576163)
+[08:17:22] [Server thread/INFO]: [0;33;1marcosanti has joined the game.[m
+[08:18:05] [Server thread/INFO]: [mcMMO] WorldGuard was not detected.
+[08:18:37] [Server thread/INFO]: arcosanti issued server command: /spawn
+[08:20:01] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[08:20:02] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[08:20:02] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[08:20:02] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[08:20:03] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[08:20:03] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[08:20:03] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[08:20:04] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[08:20:04] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[08:20:04] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[08:20:05] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[08:20:05] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[08:20:06] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[08:20:06] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[08:20:06] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[08:20:07] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[08:20:07] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[08:20:07] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[08:20:08] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[08:20:08] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[08:20:09] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[08:20:09] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[08:20:09] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[08:20:10] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[08:20:10] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[08:20:10] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[08:20:11] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[08:20:11] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[08:20:11] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[08:20:12] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[08:20:12] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[08:20:13] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[08:20:13] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[08:20:13] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[08:20:14] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[08:20:14] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[08:20:15] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[08:20:15] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[08:20:15] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[08:20:16] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[08:20:16] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[08:20:16] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[08:20:17] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[08:20:17] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[08:20:18] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[08:20:18] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[08:20:18] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[08:20:19] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[08:20:19] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[08:20:20] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[08:20:20] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[08:20:20] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[08:20:21] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[08:20:21] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[08:20:22] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[08:20:22] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[08:20:22] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[08:20:23] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[08:20:23] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[08:20:24] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[08:20:24] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[08:20:24] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[08:20:25] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[08:20:25] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[08:20:25] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[08:20:26] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[08:20:27] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[08:20:27] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[08:20:28] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[08:20:28] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[08:20:28] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[08:20:29] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[08:20:29] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[08:20:30] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[08:20:30] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[08:20:30] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[08:20:31] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[08:20:31] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[08:20:32] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[08:20:32] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[08:20:32] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[08:20:33] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[08:20:33] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[08:20:33] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[08:20:34] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[08:20:34] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[08:20:35] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[08:20:35] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[08:20:35] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[08:20:36] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[08:20:36] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[08:20:38] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[08:20:38] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[08:20:38] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[08:20:39] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[08:20:39] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[08:20:42] [Server thread/INFO]: arcosanti issued server command: /balance
+[08:20:55] [Server thread/INFO]: arcosanti issued server command: /home
+[08:26:19] [Server thread/INFO]: arcosanti lost connection: Disconnected
+[08:26:19] [Server thread/INFO]: arcosanti has left the game.
+[08:31:44] [User Authenticator #2/INFO]: UUID of player arcosanti is a9e52362-e903-3089-8f30-1e5a3b7d754a
+[08:31:44] [Server thread/INFO]: arcosanti[/0:0:0:0:0:0:0:1:53780] logged in with entity id 2544 at ([world]442.6234834794936, 11.0, 105.82669479700346)
+[08:31:44] [Server thread/INFO]: [0;33;1marcosanti has joined the game.[m
+[08:33:23] [Server thread/INFO]: arcosanti issued server command: /homelist
+[08:33:31] [Server thread/INFO]: arcosanti issued server command: /delhome village
+[08:33:39] [Server thread/INFO]: arcosanti issued server command: /sethome current
+[08:33:40] [Server thread/INFO]: arcosanti issued server command: /home
+[08:43:53] [Server thread/INFO]: arcosanti issued server command: /home
+[08:45:29] [Server thread/INFO]: arcosanti issued server command: /home
+[08:49:11] [Server thread/INFO]: arcosanti issued server command: /home current
+[08:49:34] [Server thread/INFO]: arcosanti issued server command: /home
+[08:50:52] [Server thread/INFO]: arcosanti issued server command: /home current
+[09:04:52] [User Authenticator #3/INFO]: UUID of player Johann is f160dbef-552f-3b70-af9a-129d0ff0c675
+[09:04:52] [Server thread/INFO]: Johann[/0:0:0:0:0:0:0:1:53800] logged in with entity id 5873 at ([world]740.5078826131087, 84.0, -182.55929290264464)
+[09:04:53] [Server thread/INFO]: [0;33;1mJohann has joined the game.[m
+[09:07:53] [Server thread/INFO]: arcosanti issued server command: /home
+[09:12:31] [User Authenticator #4/INFO]: UUID of player Boulderballs is c5c05e4f-d28e-3be0-9222-fffe440eb955
+[09:12:32] [Server thread/INFO]: Boulderballs[/0:0:0:0:0:0:0:1:53808] logged in with entity id 7416 at ([world]-1664.645590978894, 52.0, 739.1124993482822)
+[09:12:32] [Server thread/INFO]: [0;33;1mBoulderballs has joined the game.[m
+[09:15:06] [Server thread/INFO]: arcosanti issued server command: /delhome current
+[09:18:04] [Server thread/INFO]: Boulderballs issued server command: /warp shop
+[09:19:22] [Server thread/INFO]: Boulderballs issued server command: /home 3
+[09:19:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5018ms or 100 ticks behind
+[09:20:09] [Server thread/INFO]: Boulderballs lost connection: Disconnected
+[09:20:10] [Server thread/INFO]: Boulderballs has left the game.
+[09:20:10] [User Authenticator #5/INFO]: UUID of player Boulderballs is c5c05e4f-d28e-3be0-9222-fffe440eb955
+[09:20:11] [Server thread/INFO]: Boulderballs[/0:0:0:0:0:0:0:1:53815] logged in with entity id 10033 at ([world]-1714.5566555164073, 10.0, 700.3675784287872)
+[09:20:11] [Server thread/INFO]: [0;33;1mBoulderballs has joined the game.[m
+[09:21:28] [Server thread/INFO]: Boulderballs issued server command: /home 4
+[09:24:24] [Server thread/INFO]: Johann issued server command: /warp shop
+[09:25:17] [Server thread/INFO]: [ChestShop] Johann sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[09:26:12] [Server thread/INFO]: Johann issued server command: /warp
+[09:26:21] [Server thread/INFO]: Johann issued server command: /warp oldshop
+[09:26:45] [Server thread/INFO]: Johann issued server command: /home
+[09:27:07] [Server thread/INFO]: Boulderballs issued server command: /warp shop
+[09:27:20] [Server thread/INFO]: [ChestShop] Boulderballs sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[09:27:22] [Server thread/INFO]: [ChestShop] Boulderballs sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[09:27:22] [Server thread/INFO]: [ChestShop] Boulderballs sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[09:27:23] [Server thread/INFO]: [ChestShop] Boulderballs sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[09:27:23] [Server thread/INFO]: [ChestShop] Boulderballs sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[09:27:23] [Server thread/INFO]: [ChestShop] Boulderballs sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[09:27:24] [Server thread/INFO]: [ChestShop] Boulderballs sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[09:27:24] [Server thread/INFO]: [ChestShop] Boulderballs sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[09:27:24] [Server thread/INFO]: [ChestShop] Boulderballs sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[09:27:25] [Server thread/INFO]: [ChestShop] Boulderballs sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[09:27:25] [Server thread/INFO]: [ChestShop] Boulderballs sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[09:27:26] [Server thread/INFO]: [ChestShop] Boulderballs sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[09:27:26] [Server thread/INFO]: [ChestShop] Boulderballs sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[09:27:26] [Server thread/INFO]: [ChestShop] Boulderballs sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[09:27:27] [Server thread/INFO]: [ChestShop] Boulderballs sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[09:27:27] [Server thread/INFO]: [ChestShop] Boulderballs sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[09:27:27] [Server thread/INFO]: [ChestShop] Boulderballs sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[09:27:28] [Server thread/INFO]: [ChestShop] Boulderballs sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[09:27:28] [Server thread/INFO]: [ChestShop] Boulderballs sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[09:27:28] [Server thread/INFO]: [ChestShop] Boulderballs sold 2 Smooth Stone for 18.00 to Admin Shop at [world] 282, 48, 305
+[09:27:41] [Server thread/INFO]: Boulderballs issued server command: /bal
+[09:27:53] [Server thread/INFO]: Boulderballs issued server command: /home 4
+[09:28:06] [Server thread/INFO]: Boulderballs issued server command: /home 3
+[09:29:14] [Server thread/WARN]: arcosanti moved too quickly! -0.06162029392862678,2.081595184082026,9.955820112282087
+[09:29:25] [Server thread/INFO]: Johann lost connection: Disconnected
+[09:29:25] [Server thread/INFO]: Johann has left the game.
+[09:30:09] [Server thread/INFO]: arcosanti lost connection: Disconnected
+[09:30:09] [Server thread/INFO]: arcosanti has left the game.
+[09:33:09] [Server thread/INFO]: Boulderballs issued server command: /home 4
+[09:35:03] [Server thread/INFO]: Boulderballs issued server command: /warp shop
+[09:35:17] [Server thread/INFO]: [ChestShop] Boulderballs bought 10 Smooth Stone for 200.00 from Admin Shop at [world] 282, 48, 305
+[09:35:18] [Server thread/INFO]: [ChestShop] Boulderballs sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[09:35:18] [Server thread/INFO]: [ChestShop] Boulderballs sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[09:35:18] [Server thread/INFO]: [ChestShop] Boulderballs sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[09:35:19] [Server thread/INFO]: [ChestShop] Boulderballs sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[09:35:19] [Server thread/INFO]: [ChestShop] Boulderballs sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[09:35:19] [Server thread/INFO]: [ChestShop] Boulderballs sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[09:35:20] [Server thread/INFO]: [ChestShop] Boulderballs sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[09:35:20] [Server thread/INFO]: [ChestShop] Boulderballs sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[09:35:20] [Server thread/INFO]: [ChestShop] Boulderballs sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[09:35:21] [Server thread/INFO]: [ChestShop] Boulderballs sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[09:35:21] [Server thread/INFO]: [ChestShop] Boulderballs sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[09:35:21] [Server thread/INFO]: [ChestShop] Boulderballs sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[09:35:21] [Server thread/INFO]: [ChestShop] Boulderballs sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[09:35:22] [Server thread/INFO]: [ChestShop] Boulderballs sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[09:35:22] [Server thread/INFO]: [ChestShop] Boulderballs sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[09:35:22] [Server thread/INFO]: [ChestShop] Boulderballs sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[09:35:23] [Server thread/INFO]: [ChestShop] Boulderballs sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[09:35:23] [Server thread/INFO]: [ChestShop] Boulderballs sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[09:35:24] [Server thread/INFO]: [ChestShop] Boulderballs sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[09:35:24] [Server thread/INFO]: [ChestShop] Boulderballs sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[09:35:24] [Server thread/INFO]: [ChestShop] Boulderballs sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[09:35:25] [Server thread/INFO]: [ChestShop] Boulderballs sold 5 Smooth Stone for 45.00 to Admin Shop at [world] 282, 48, 305
+[09:35:30] [Server thread/INFO]: Boulderballs issued server command: /bal
+[09:35:33] [Server thread/INFO]: [ChestShop] Boulderballs bought 1 Villager Spawn Egg for 2500.00 from Admin Shop at [world] 284, 48, 314
+[09:35:39] [Server thread/INFO]: Boulderballs issued server command: /home 4
+[09:47:50] [Server thread/INFO]: Boulderballs lost connection: Disconnected
+[09:47:50] [Server thread/INFO]: Boulderballs has left the game.
+[09:47:51] [User Authenticator #6/INFO]: UUID of player Boulderballs is c5c05e4f-d28e-3be0-9222-fffe440eb955
+[09:47:51] [Server thread/INFO]: Boulderballs[/0:0:0:0:0:0:0:1:53830] logged in with entity id 18125 at ([world]-1677.1004924123918, 57.0, 740.1961059568963)
+[09:47:51] [Server thread/INFO]: [0;33;1mBoulderballs has joined the game.[m
+[10:01:51] [Server thread/INFO]: Boulderballs issued server command: /warp shop
+[10:02:01] [Server thread/INFO]: [ChestShop] Boulderballs sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[10:02:02] [Server thread/INFO]: [ChestShop] Boulderballs sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[10:02:02] [Server thread/INFO]: [ChestShop] Boulderballs sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[10:02:02] [Server thread/INFO]: [ChestShop] Boulderballs sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[10:02:03] [Server thread/INFO]: [ChestShop] Boulderballs sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[10:02:03] [Server thread/INFO]: [ChestShop] Boulderballs sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[10:02:03] [Server thread/INFO]: [ChestShop] Boulderballs sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[10:02:04] [Server thread/INFO]: [ChestShop] Boulderballs sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[10:02:04] [Server thread/INFO]: [ChestShop] Boulderballs sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[10:02:04] [Server thread/INFO]: [ChestShop] Boulderballs sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[10:02:05] [Server thread/INFO]: [ChestShop] Boulderballs sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[10:02:05] [Server thread/INFO]: [ChestShop] Boulderballs sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[10:02:05] [Server thread/INFO]: [ChestShop] Boulderballs sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[10:02:06] [Server thread/INFO]: [ChestShop] Boulderballs sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[10:02:06] [Server thread/INFO]: [ChestShop] Boulderballs sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[10:02:06] [Server thread/INFO]: [ChestShop] Boulderballs sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[10:02:07] [Server thread/INFO]: [ChestShop] Boulderballs sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[10:02:07] [Server thread/INFO]: [ChestShop] Boulderballs sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[10:02:08] [Server thread/INFO]: [ChestShop] Boulderballs sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[10:02:08] [Server thread/INFO]: [ChestShop] Boulderballs sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[10:02:08] [Server thread/INFO]: [ChestShop] Boulderballs sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[10:02:09] [Server thread/INFO]: [ChestShop] Boulderballs sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[10:02:09] [Server thread/INFO]: [ChestShop] Boulderballs sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[10:02:09] [Server thread/INFO]: [ChestShop] Boulderballs sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[10:02:10] [Server thread/INFO]: [ChestShop] Boulderballs sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[10:02:10] [Server thread/INFO]: [ChestShop] Boulderballs sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[10:02:10] [Server thread/INFO]: [ChestShop] Boulderballs sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[10:02:11] [Server thread/INFO]: [ChestShop] Boulderballs sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[10:02:11] [Server thread/INFO]: [ChestShop] Boulderballs sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[10:02:12] [Server thread/INFO]: [ChestShop] Boulderballs sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[10:02:12] [Server thread/INFO]: [ChestShop] Boulderballs sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[10:02:12] [Server thread/INFO]: [ChestShop] Boulderballs sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[10:02:13] [Server thread/INFO]: [ChestShop] Boulderballs sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[10:02:13] [Server thread/INFO]: [ChestShop] Boulderballs sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[10:02:13] [Server thread/INFO]: [ChestShop] Boulderballs sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[10:02:14] [Server thread/INFO]: [ChestShop] Boulderballs sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[10:02:14] [Server thread/INFO]: [ChestShop] Boulderballs sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[10:02:14] [Server thread/INFO]: [ChestShop] Boulderballs sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[10:02:15] [Server thread/INFO]: [ChestShop] Boulderballs sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[10:02:15] [Server thread/INFO]: [ChestShop] Boulderballs sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[10:02:15] [Server thread/INFO]: [ChestShop] Boulderballs sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[10:02:16] [Server thread/INFO]: [ChestShop] Boulderballs sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[10:02:16] [Server thread/INFO]: [ChestShop] Boulderballs sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[10:02:16] [Server thread/INFO]: [ChestShop] Boulderballs sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[10:02:17] [Server thread/INFO]: [ChestShop] Boulderballs sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[10:02:17] [Server thread/INFO]: [ChestShop] Boulderballs sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[10:02:17] [Server thread/INFO]: [ChestShop] Boulderballs sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[10:02:18] [Server thread/INFO]: [ChestShop] Boulderballs sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[10:02:18] [Server thread/INFO]: [ChestShop] Boulderballs sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[10:02:19] [Server thread/INFO]: [ChestShop] Boulderballs sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[10:02:19] [Server thread/INFO]: [ChestShop] Boulderballs sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[10:02:19] [Server thread/INFO]: [ChestShop] Boulderballs sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[10:02:20] [Server thread/INFO]: [ChestShop] Boulderballs sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[10:02:20] [Server thread/INFO]: [ChestShop] Boulderballs sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[10:02:20] [Server thread/INFO]: [ChestShop] Boulderballs sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[10:02:21] [Server thread/INFO]: [ChestShop] Boulderballs sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[10:02:21] [Server thread/INFO]: [ChestShop] Boulderballs sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[10:02:21] [Server thread/INFO]: [ChestShop] Boulderballs sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[10:02:22] [Server thread/INFO]: [ChestShop] Boulderballs sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[10:02:22] [Server thread/INFO]: [ChestShop] Boulderballs sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[10:02:23] [Server thread/INFO]: [ChestShop] Boulderballs sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[10:02:23] [Server thread/INFO]: [ChestShop] Boulderballs sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[10:02:23] [Server thread/INFO]: [ChestShop] Boulderballs sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[10:02:24] [Server thread/INFO]: [ChestShop] Boulderballs sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[10:02:25] [Server thread/INFO]: [ChestShop] Boulderballs sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[10:02:25] [Server thread/INFO]: [ChestShop] Boulderballs sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[10:02:26] [Server thread/INFO]: [ChestShop] Boulderballs sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[10:02:26] [Server thread/INFO]: [ChestShop] Boulderballs sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[10:02:26] [Server thread/INFO]: [ChestShop] Boulderballs sold 4 Smooth Stone for 36.00 to Admin Shop at [world] 282, 48, 305
+[10:02:29] [Server thread/INFO]: Boulderballs issued server command: /bal
+[10:02:32] [Server thread/INFO]: [ChestShop] Boulderballs bought 1 Villager Spawn Egg for 2500.00 from Admin Shop at [world] 284, 48, 314
+[10:02:35] [Server thread/INFO]: [ChestShop] Boulderballs bought 1 Villager Spawn Egg for 2500.00 from Admin Shop at [world] 284, 48, 314
+[10:02:44] [Server thread/INFO]: Boulderballs issued server command: /bal
+[10:02:51] [Server thread/INFO]: Boulderballs issued server command: /home 4
+[10:04:21] [Server thread/INFO]: Boulderballs lost connection: Disconnected
+[10:04:21] [Server thread/INFO]: Boulderballs has left the game.
+[10:21:23] [User Authenticator #7/INFO]: UUID of player lolo_lola_69 is 646085da-be96-308b-8634-fb8b260022a5
+[10:21:23] [Server thread/INFO]: lolo_lola_69[/0:0:0:0:0:0:0:1:53849] logged in with entity id 21540 at ([world_the_end]12914.084007300258, 114.0, -7543.244621896983)
+[10:21:24] [Server thread/INFO]: [0;33;1mlolo_lola_69 has joined the game.[m
+[10:21:50] [Server thread/INFO]: lolo_lola_69 lost connection: Disconnected
+[10:21:50] [Server thread/INFO]: lolo_lola_69 has left the game.
+[11:20:19] [User Authenticator #8/INFO]: UUID of player Jhor is 82f182b3-716a-3898-ae1d-76f70444a8a2
+[11:20:20] [Server thread/INFO]: Jhor[/0:0:0:0:0:0:0:1:53887] logged in with entity id 21683 at ([world]408.66068926783186, 82.0, 2.7421234724458468)
+[11:20:20] [Server thread/INFO]: [0;33;1mJhor has joined the game.[m
+[11:22:18] [Server thread/INFO]: Jhor issued server command: /woodcutting
+[11:22:26] [Server thread/INFO]: Jhor issued server command: /mcrank
+[11:23:24] [User Authenticator #9/INFO]: UUID of player Johann is f160dbef-552f-3b70-af9a-129d0ff0c675
+[11:23:24] [Server thread/INFO]: Johann[/0:0:0:0:0:0:0:1:53890] logged in with entity id 22393 at ([world]726.9136224215655, 78.0, -182.88616257675082)
+[11:23:24] [Server thread/INFO]: [0;33;1mJohann has joined the game.[m
+[11:24:13] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mYOU KNOW WHAT TIME IT IS :3 In 15 Minutes![m
+[11:25:21] [Server thread/INFO]: Jhor issued server command: /woodcutting
+[11:29:12] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mYOU KNOW WHAT TIME IT IS :3 In 10 Minutes![m
+[11:34:12] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mYOU KNOW WHAT TIME IT IS :3 In 5 Minutes![m
+[11:38:11] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mYOU KNOW WHAT TIME IT IS :3 In 1 Minutes![m
+[11:39:06] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mGOODBYE in 5 Seconds![m
+[11:39:07] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mGOODBYE in 4 Seconds![m
+[11:39:08] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mGOODBYE in 3 Seconds![m
+[11:39:09] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mGOODBYE in 2 Seconds![m
+[11:39:10] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mGOODBYE in 1 Seconds![m
+[11:39:10] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1m[0;31;1mServer Restarting![m
+[11:39:10] [Server thread/INFO]: CONSOLE issued server command: /kickall §cServer Restarting! We will be back up any minute!
+[11:39:10] [Server thread/INFO]: Johann lost connection: §cServer Restarting! We will be back up any minute!
+[11:39:10] [Server thread/INFO]: Johann has left the game.
+[11:39:10] [Server thread/INFO]: [0;31;22mKicked all players from server.[m
+[11:39:10] [Server thread/INFO]: Attempting to restart with run.bat
+[11:39:10] [Server thread/INFO]: Jhor lost connection: OH SHIT, ITS RESTARTING!!!!
+[11:39:10] [Server thread/INFO]: Jhor has left the game.
+[11:39:10] [Server thread/INFO]: Stopping server
+[11:39:10] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.17.0.0
+[11:39:10] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.17.0.0
+[11:39:10] [Server thread/INFO]: [Essentials] Disabling Essentials v2.17.0.0
+[11:39:10] [Server thread/INFO]: [Vault] [Vault][Economy] Essentials Economy unhooked.
+[11:39:10] [Server thread/INFO]: [ChestShop] Disabling ChestShop v3.10-SNAPSHOT (build 137)
+[11:39:10] [Server thread/INFO]: [GriefPrevention] Disabling GriefPrevention v16.11.6
+[11:39:10] [Server thread/INFO]: [GriefPrevention] GriefPrevention disabled.
+[11:39:10] [Server thread/INFO]: [Stargate] Disabling Stargate v0.8.2
+[11:39:10] [Server thread/INFO]: Closing all stargates.
+[11:39:10] [Server thread/INFO]: [Vault] Disabling Vault v1.7.2-b107
+[11:39:10] [Server thread/INFO]: [AutoRestart] Disabling AutoRestart v3.3.3
+[11:39:10] [Server thread/INFO]: [mcMMO] Disabling mcMMO v2.1.100-SNAPSHOT
+[11:39:10] [Server thread/INFO]: [mcMMO] Saving mcMMOPlayers... (0)
+[11:39:10] [Server thread/INFO]: [mcMMO] Finished save operation for 0 players!
+[11:39:11] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v13.7.3
+[11:39:11] [Server thread/INFO]: [HomeSpawn] Disabling HomeSpawn v3.1.4
+[11:39:11] [Server thread/INFO]: [HomeSpawn] HomeSpawn has been disabled
+[11:39:11] [Server thread/INFO]: [PermissionsEx] Disabling PermissionsEx v1.23.4
+[11:39:11] [Server thread/INFO]: Saving players
+[11:39:11] [Server thread/INFO]: Saving worlds
+[11:39:11] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
+[11:39:12] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[11:39:12] [Server thread/INFO]: Saving chunks for level 'world_nether'/minecraft:the_nether
+[11:39:12] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[11:39:12] [Server thread/INFO]: Saving chunks for level 'world_the_end'/minecraft:the_end
+[11:39:12] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[11:39:12] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[11:39:12] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[11:39:12] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
