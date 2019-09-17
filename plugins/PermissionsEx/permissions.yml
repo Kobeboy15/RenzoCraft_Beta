@@ -16,6 +16,7 @@ groups:
     - essentials.warp
     - essentials.warp.list
     - essentials.tphere
+    - stargate.use
   trusted:
     build: true
     permissions:

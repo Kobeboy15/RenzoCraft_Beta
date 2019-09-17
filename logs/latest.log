@@ -1022,3 +1022,1689 @@
 [15:39:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
 [15:39:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
 [15:39:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[15:40:03] [Server thread/INFO]: Starting minecraft server version 1.14.4
+[15:40:03] [Server thread/INFO]: Loading properties
+[15:40:04] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-065a373-9aa7430 (MC: 1.14.4) (Implementing API version 1.14.4-R0.1-SNAPSHOT)
+[15:40:04] [Server thread/INFO]: Debug logging is disabled
+[15:40:04] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[15:40:04] [Server thread/INFO]: Using 4 threads for Netty based IO
+[15:40:04] [Server thread/INFO]: Default game type: SURVIVAL
+[15:40:04] [Server thread/INFO]: Generating keypair
+[15:40:05] [Server thread/INFO]: Starting Minecraft server on *:25565
+[15:40:05] [Server thread/INFO]: Using default channel type
+[15:40:12] [Server thread/WARN]: Plugin PermissionsEx v1.23.4 does not specify an api-version.
+[15:40:13] [Server thread/WARN]: Plugin Stargate v0.8.2 does not specify an api-version.
+[15:40:13] [Server thread/INFO]: [PermissionsEx] Loading PermissionsEx v1.23.4
+[15:40:13] [Server thread/WARN]: [PermissionsEx] This server is in offline mode. Unless this server is configured to integrate with a supported proxy (see http://dft.ba/-8ous), UUIDs *may not be stable*!
+[15:40:13] [Server thread/INFO]: [HomeSpawn] Loading HomeSpawn v3.1.4
+[15:40:13] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v13.7.3
+[15:40:13] [Server thread/INFO]: [mcMMO] Loading mcMMO v2.1.100-SNAPSHOT
+[15:40:13] [Server thread/INFO]: [AutoRestart] Loading AutoRestart v3.3.3
+[15:40:13] [Server thread/INFO]: [Vault] Loading Vault v1.7.2-b107
+[15:40:13] [Server thread/INFO]: [Stargate] Loading Stargate v0.8.2
+[15:40:13] [Server thread/INFO]: [GriefPrevention] Loading GriefPrevention v16.11.6
+[15:40:13] [Server thread/INFO]: [ChestShop] Loading ChestShop v3.10-SNAPSHOT (build 137)
+[15:40:13] [Server thread/INFO]: [Essentials] Loading Essentials v2.17.0.0
+[15:40:13] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn v2.17.0.0
+[15:40:13] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat v2.17.0.0
+[15:40:13] [Server thread/INFO]: [mcMMO] Enabling mcMMO v2.1.100-SNAPSHOT
+[15:40:14] [Server thread/INFO]: [mcMMO] enabling Acrobatics Skills
+[15:40:14] [Server thread/INFO]: [mcMMO] registered subskill: Roll
+[15:40:14] [Server thread/INFO]: [mcMMO] 0 entries in mcMMO World Blacklist
+[15:40:14] [Server thread/INFO]: [Vault] Enabling Vault v1.7.2-b107
+[15:40:14] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[15:40:14] [Server thread/INFO]: [Vault] [Permission] PermissionsEx found: Waiting
+[15:40:15] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[15:40:15] [Server thread/INFO]: [Vault] [Chat] PermissionsEx found: Waiting
+[15:40:15] [Server thread/INFO]: [Vault] Enabled Version 1.7.2-b107
+[15:40:15] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[15:40:15] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[15:40:15] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[15:40:15] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[15:40:15] [Server thread/INFO]: Preparing level "world"
+[15:40:15] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
+[15:40:15] [Server thread/INFO]: Loaded 6 recipes
+[15:40:15] [Server thread/INFO]: -------- World Settings For [world] --------
+[15:40:15] [Server thread/INFO]: View Distance: 8
+[15:40:15] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[15:40:15] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[15:40:15] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[15:40:15] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[15:40:15] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[15:40:15] [Server thread/INFO]: Item Despawn Rate: 6000
+[15:40:15] [Server thread/INFO]: Item Merge Radius: 2.5
+[15:40:15] [Server thread/INFO]: Experience Merge Radius: 3.0
+[15:40:15] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[15:40:15] [Server thread/INFO]: Cane Growth Modifier: 100%
+[15:40:15] [Server thread/INFO]: Melon Growth Modifier: 100%
+[15:40:15] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[15:40:15] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[15:40:15] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[15:40:15] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[15:40:15] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[15:40:15] [Server thread/INFO]: Potato Growth Modifier: 100%
+[15:40:15] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[15:40:15] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[15:40:15] [Server thread/INFO]: Vine Growth Modifier: 100%
+[15:40:15] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[15:40:15] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[15:40:15] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[15:40:15] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[15:40:15] [Server thread/INFO]: Mob Spawn Range: 6
+[15:40:15] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[15:40:15] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[15:40:15] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[15:40:15] [Server thread/INFO]: Max TNT Explosions: 100
+[15:40:15] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[15:40:16] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[15:40:16] [Server thread/INFO]: View Distance: 8
+[15:40:16] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[15:40:16] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[15:40:16] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[15:40:16] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[15:40:16] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[15:40:16] [Server thread/INFO]: Item Despawn Rate: 6000
+[15:40:16] [Server thread/INFO]: Item Merge Radius: 2.5
+[15:40:16] [Server thread/INFO]: Experience Merge Radius: 3.0
+[15:40:16] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[15:40:16] [Server thread/INFO]: Cane Growth Modifier: 100%
+[15:40:16] [Server thread/INFO]: Melon Growth Modifier: 100%
+[15:40:16] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[15:40:16] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[15:40:16] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[15:40:16] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[15:40:16] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[15:40:16] [Server thread/INFO]: Potato Growth Modifier: 100%
+[15:40:16] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[15:40:16] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[15:40:16] [Server thread/INFO]: Vine Growth Modifier: 100%
+[15:40:16] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[15:40:16] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[15:40:16] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[15:40:16] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[15:40:16] [Server thread/INFO]: Mob Spawn Range: 6
+[15:40:16] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[15:40:16] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[15:40:16] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[15:40:16] [Server thread/INFO]: Max TNT Explosions: 100
+[15:40:16] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[15:40:16] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[15:40:16] [Server thread/INFO]: View Distance: 8
+[15:40:16] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[15:40:16] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[15:40:16] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[15:40:16] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[15:40:16] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[15:40:16] [Server thread/INFO]: Item Despawn Rate: 6000
+[15:40:16] [Server thread/INFO]: Item Merge Radius: 2.5
+[15:40:16] [Server thread/INFO]: Experience Merge Radius: 3.0
+[15:40:16] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[15:40:16] [Server thread/INFO]: Cane Growth Modifier: 100%
+[15:40:16] [Server thread/INFO]: Melon Growth Modifier: 100%
+[15:40:16] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[15:40:16] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[15:40:16] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[15:40:16] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[15:40:16] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[15:40:16] [Server thread/INFO]: Potato Growth Modifier: 100%
+[15:40:16] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[15:40:16] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[15:40:16] [Server thread/INFO]: Vine Growth Modifier: 100%
+[15:40:16] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[15:40:16] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[15:40:16] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[15:40:16] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[15:40:16] [Server thread/INFO]: Mob Spawn Range: 6
+[15:40:16] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[15:40:16] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[15:40:16] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[15:40:16] [Server thread/INFO]: Max TNT Explosions: 100
+[15:40:16] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[15:40:16] [Server thread/INFO]: Preparing start region for dimension 'world'/minecraft:overworld
+[15:40:17] [Server thread/INFO]: Preparing spawn area: 0%
+[15:40:17] [Server thread/INFO]: Preparing spawn area: 0%
+[15:40:17] [Server thread/INFO]: Preparing spawn area: 0%
+[15:40:17] [Server thread/INFO]: Preparing spawn area: 44%
+[15:40:17] [Server thread/INFO]: Time elapsed: 1730 ms
+[15:40:17] [Server thread/INFO]: Preparing start region for dimension 'world_nether'/minecraft:the_nether
+[15:40:19] [Server thread/INFO]: Preparing spawn area: 0%
+[15:40:19] [Server thread/INFO]: Preparing spawn area: 0%
+[15:40:19] [Server thread/INFO]: Preparing spawn area: 0%
+[15:40:19] [Server thread/INFO]: Time elapsed: 1380 ms
+[15:40:19] [Server thread/INFO]: Preparing start region for dimension 'world_the_end'/minecraft:the_end
+[15:40:19] [Server thread/INFO]: Preparing spawn area: 0%
+[15:40:19] [Server thread/INFO]: Preparing spawn area: 0%
+[15:40:20] [Server-Worker-3/INFO]: Preparing spawn area: 96%
+[15:40:20] [Server thread/INFO]: Time elapsed: 1093 ms
+[15:40:20] [Server thread/INFO]: [PermissionsEx] Enabling PermissionsEx v1.23.4
+[15:40:20] [Server thread/INFO]: [PermissionsEx] Initializing file backend
+[15:40:20] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
+[15:40:20] [Server thread/INFO]: [Vault][Permission] PermissionsEx hooked.
+[15:40:20] [Server thread/INFO]: [Vault] [Vault][Chat] PermissionsEx_Chat hooked.
+[15:40:20] [Server thread/INFO]: [HomeSpawn] Enabling HomeSpawn v3.1.4
+[15:40:20] [Server thread/INFO]: [HomeSpawn] HomeSpawn v3.1.4 has been enabled
+[15:40:20] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v13.7.3
+[15:40:21] [Server thread/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1mDetected Minecraft [0;33;1mv1_14_R1[0;32;1m, using [0;33;1mUniversalSkinFactory[0;32;1m.[m
+[15:40:21] [Server thread/INFO]: [SkinsRestorer] Verbose is missing in config.yml! Using default value.
+[15:40:21] [Server thread/INFO]: [AutoRestart] Enabling AutoRestart v3.3.3
+[15:40:21] [Server thread/INFO]: [0;32;1m[AutoRestart] Loaded![m
+[15:40:21] [Server thread/INFO]: [Stargate] Enabling Stargate v0.8.2
+[15:40:21] [Server thread/INFO]: Stargate v.0.8.2 is enabled.
+[15:40:21] [Server thread/INFO]: [Stargate] Loaded 1 gate layouts
+[15:40:21] [Server thread/INFO]: [Stargate] {world} No stargates for world 
+[15:40:21] [Server thread/INFO]: [Stargate] {world_nether} No stargates for world 
+[15:40:21] [Server thread/INFO]: [Stargate] {world_the_end} No stargates for world 
+[15:40:21] [Server thread/INFO]: [GriefPrevention] Enabling GriefPrevention v16.11.6
+[15:40:21] [Server thread/INFO]: [GriefPrevention] Finished loading configuration.
+[15:40:21] [Server thread/INFO]: [GriefPrevention] 70 total claims loaded.
+[15:40:23] [Server thread/INFO]: [GriefPrevention] Customizable messages loaded.
+[15:40:23] [Server thread/INFO]: [GriefPrevention] Finished loading data (File Mode).
+[15:40:23] [Server thread/INFO]: [GriefPrevention] Boot finished.
+[15:40:23] [Server thread/INFO]: [ChestShop] Enabling ChestShop v3.10-SNAPSHOT (build 137)
+[15:40:24] [Server thread/INFO]: [ChestShop] Using Essentials Economy as the Economy provider now.
+[15:40:24] [Server thread/INFO]: [ChestShop] Vault loaded!
+[15:40:24] [Server thread/INFO]: [Essentials] Enabling Essentials v2.17.0.0
+[15:40:24] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[15:40:24] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
+[15:40:24] [Server thread/INFO]: No kits found to migrate.
+[15:40:24] [Server thread/INFO]: [Essentials] Using 1.8.3+ BlockStateMeta provider as mob spawner provider.
+[15:40:24] [Server thread/INFO]: [Essentials] Using 1.13+ flat spawn egg provider as spawn egg provider.
+[15:40:24] [Server thread/INFO]: [Essentials] Using 1.9+ BasePotionData provider as potion meta provider.
+[15:40:25] [Server thread/INFO]: Loaded 20977 items from items.json.
+[15:40:25] [Server thread/INFO]: Using locale en_US
+[15:40:25] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[15:40:25] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[15:40:25] [Server thread/INFO]: [Vault] [Vault][Economy] Essentials Economy hooked.
+[15:40:25] [Server thread/INFO]: [Essentials] Using Vault based permissions (PermissionsEx)
+[15:40:25] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.17.0.0
+[15:40:25] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.17.0.0
+[15:40:25] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[15:40:25] [Server thread/INFO]: Done (10.523s)! For help, type "help"
+[15:40:25] [Craft Scheduler Thread - 2/INFO]: [HomeSpawn] HomeSpawn file watcher started!
+[15:40:25] [Craft Scheduler Thread - 0/INFO]: [mcMMO] Cleaned backup files. Deleted 1 of 26 files.
+[15:40:25] [User Authenticator #1/INFO]: UUID of player crystalgem is f321cff2-0750-3ba1-98af-66006fbafb2e
+[15:40:26] [Craft Scheduler Thread - 3/INFO]: [HomeSpawn] §fAn update for HomeSpawn is available and can be downloaded and installed by running /homespawn update
+[15:40:26] [Craft Scheduler Thread - 4/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m----------------------------------------------[m
+[15:40:26] [Craft Scheduler Thread - 4/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    +===============+[m
+[15:40:26] [Craft Scheduler Thread - 4/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    | SkinsRestorer |[m
+[15:40:26] [Craft Scheduler Thread - 4/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    +===============+[m
+[15:40:26] [Craft Scheduler Thread - 4/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m----------------------------------------------[m
+[15:40:26] [Craft Scheduler Thread - 4/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;36;1m    Current version: [0;32;1m13.7.3[m
+[15:40:26] [Craft Scheduler Thread - 4/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    This is the latest version![m
+[15:40:26] [Craft Scheduler Thread - 4/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m----------------------------------------------[m
+[15:40:27] [Server thread/INFO]: [0;32;1m[AutoRestart] Up to date![m
+[15:40:27] [Craft Scheduler Thread - 6/INFO]: [Vault] Checking for Updates ... 
+[15:40:27] [Craft Scheduler Thread - 6/INFO]: [Vault] No new version available
+[15:40:28] [Server thread/INFO]: crystalgem[/0:0:0:0:0:0:0:1:54131] logged in with entity id 106 at ([world]672.1542021118846, 78.0, -173.40291597789357)
+[15:40:28] [Server thread/INFO]: [0;33;1mcrystalgem has joined the game.[m
+[15:40:52] [Server thread/INFO]: [mcMMO] WorldGuard was not detected.
+[15:40:54] [User Authenticator #2/INFO]: UUID of player Boulderballs is c5c05e4f-d28e-3be0-9222-fffe440eb955
+[15:40:54] [Server thread/INFO]: Boulderballs[/0:0:0:0:0:0:0:1:54146] logged in with entity id 611 at ([world]-1662.0802013866576, 52.0, 736.5713537839799)
+[15:40:54] [Server thread/INFO]: [0;33;1mBoulderballs has joined the game.[m
+[15:48:47] [User Authenticator #3/INFO]: UUID of player lolo_lola_69 is 646085da-be96-308b-8634-fb8b260022a5
+[15:48:47] [Server thread/INFO]: lolo_lola_69[/0:0:0:0:0:0:0:1:54200] logged in with entity id 1465 at ([world]734.6999999880791, 68.0, -65.69999998807907)
+[15:48:47] [Server thread/INFO]: [0;33;1mlolo_lola_69 has joined the game.[m
+[15:48:56] [Server thread/INFO]: lolo_lola_69 issued server command: /home
+[15:48:59] [Async Chat Thread - #0/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> wtf[m
+[15:49:37] [Async Chat Thread - #0/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> wwwttf[m
+[15:49:54] [Async Chat Thread - #0/INFO]: [m[0;33;1m[User] [0;33;1m[User] crystalgem[m [0;36;1m> whyy[m
+[15:50:02] [Async Chat Thread - #0/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> when i logged in i dieeded[m
+[15:50:06] [Async Chat Thread - #0/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> ::::((((((([m
+[15:50:08] [Async Chat Thread - #0/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> _t_t_t_t_t[m
+[15:50:24] [Async Chat Thread - #0/INFO]: [m[0;33;1m[User] [0;33;1m[User] crystalgem[m [0;36;1m> sadt :(([m
+[15:50:33] [Async Chat Thread - #0/INFO]: [m[0;33;1m[User] [0;33;1m[User] crystalgem[m [0;36;1m> can u get your stuff back tho?[m
+[15:50:42] [Async Chat Thread - #0/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> that's it[m
+[15:50:42] [Async Chat Thread - #0/INFO]: [m[0;33;1m[User] [0;33;1m[User] crystalgem[m [0;36;1m> how does that even happen :(([m
+[15:50:48] [Async Chat Thread - #0/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> im wondering where thay are[m
+[15:50:50] [Async Chat Thread - #0/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> or wher ei died[m
+[15:51:02] [Async Chat Thread - #0/INFO]: [m[0;33;1m[User] [0;33;1m[User] crystalgem[m [0;36;1m> gg[m
+[15:51:05] [Async Chat Thread - #0/INFO]: [m[0;33;1m[User] [0;33;1m[User] crystalgem[m [0;36;1m> hmmm[m
+[15:51:23] [Async Chat Thread - #0/INFO]: [m[0;33;1m[User] [0;33;1m[User] crystalgem[m [0;36;1m> how did you end up somewhere else when you logged in?[m
+[15:53:20] [Server thread/INFO]: crystalgem issued server command: /home
+[16:00:10] [Server thread/INFO]: lolo_lola_69 lost connection: Disconnected
+[16:00:10] [Server thread/INFO]: lolo_lola_69 has left the game.
+[16:03:22] [Server thread/INFO]: crystalgem lost connection: Disconnected
+[16:03:22] [Server thread/INFO]: crystalgem has left the game.
+[16:05:01] [User Authenticator #4/INFO]: UUID of player lolo_lola_69 is 646085da-be96-308b-8634-fb8b260022a5
+[16:05:01] [Server thread/INFO]: lolo_lola_69[/0:0:0:0:0:0:0:1:54215] logged in with entity id 5350 at ([world]744.9291490431963, 72.0, -57.65158069951947)
+[16:05:01] [Server thread/INFO]: [0;33;1mlolo_lola_69 has joined the game.[m
+[16:11:28] [Server thread/INFO]: lolo_lola_69 lost connection: Disconnected
+[16:11:28] [Server thread/INFO]: lolo_lola_69 has left the game.
+[16:14:34] [Server thread/INFO]: Boulderballs issued server command: /abandonallclaims
+[16:18:48] [Server thread/INFO]: Boulderballs lost connection: Disconnected
+[16:18:48] [Server thread/INFO]: Boulderballs has left the game.
+[16:42:12] [User Authenticator #5/INFO]: UUID of player arcosanti is a9e52362-e903-3089-8f30-1e5a3b7d754a
+[16:42:13] [Server thread/INFO]: arcosanti[/0:0:0:0:0:0:0:1:54241] logged in with entity id 7895 at ([world]831.8916431087475, 64.0, 63.75104665400438)
+[16:42:13] [Server thread/INFO]: [0;33;1marcosanti has joined the game.[m
+[16:42:58] [Server thread/INFO]: arcosanti lost connection: Disconnected
+[16:42:58] [Server thread/INFO]: arcosanti has left the game.
+[16:47:24] [User Authenticator #6/INFO]: UUID of player Johann is f160dbef-552f-3b70-af9a-129d0ff0c675
+[16:47:24] [Server thread/INFO]: Johann[/0:0:0:0:0:0:0:1:54247] logged in with entity id 8251 at ([world]749.6999999880791, 86.0, -181.89042537322214)
+[16:47:24] [Server thread/INFO]: [0;33;1mJohann has joined the game.[m
+[16:48:38] [User Authenticator #7/INFO]: UUID of player crystalgem is f321cff2-0750-3ba1-98af-66006fbafb2e
+[16:48:38] [Server thread/INFO]: crystalgem[/0:0:0:0:0:0:0:1:54250] logged in with entity id 8769 at ([world]663.0327478986816, 85.0, -179.1833628202186)
+[16:48:38] [Server thread/INFO]: [0;33;1mcrystalgem has joined the game.[m
+[16:50:27] [Server thread/WARN]: Johann moved too quickly! -8.244590565591693,-0.756759288177264,-6.1044732202749685
+[16:54:22] [Server thread/WARN]: Stribog moved wrongly!
+[16:54:22] [Server thread/WARN]: Stribog moved wrongly!
+[16:54:22] [Server thread/WARN]: Stribog moved wrongly!
+[16:54:42] [Server thread/WARN]: Stribog moved wrongly!
+[16:54:42] [Server thread/WARN]: Stribog moved wrongly!
+[16:54:42] [Server thread/WARN]: Stribog moved wrongly!
+[16:54:43] [Server thread/WARN]: Stribog moved wrongly!
+[16:54:43] [Server thread/WARN]: Stribog moved wrongly!
+[16:54:43] [Server thread/WARN]: Stribog moved wrongly!
+[16:54:43] [Server thread/WARN]: Stribog moved wrongly!
+[16:54:43] [Server thread/WARN]: Stribog moved wrongly!
+[16:54:43] [Server thread/WARN]: Stribog moved wrongly!
+[17:05:10] [User Authenticator #8/INFO]: UUID of player arcosanti is a9e52362-e903-3089-8f30-1e5a3b7d754a
+[17:05:10] [Server thread/INFO]: arcosanti[/0:0:0:0:0:0:0:1:54265] logged in with entity id 10599 at ([world]833.1962182773485, 74.0, 67.89241584059559)
+[17:05:10] [Server thread/INFO]: [0;33;1marcosanti has joined the game.[m
+[17:05:37] [Server thread/INFO]: arcosanti issued server command: /home
+[17:05:41] [Server thread/INFO]: arcosanti issued server command: /homelist
+[17:08:42] [User Authenticator #9/INFO]: UUID of player Jhor is 82f182b3-716a-3898-ae1d-76f70444a8a2
+[17:08:43] [Server thread/INFO]: Jhor[/0:0:0:0:0:0:0:1:54267] logged in with entity id 12248 at ([world]555.8780931763889, 15.0, -105.69625027570511)
+[17:08:43] [Server thread/INFO]: [0;33;1mJhor has joined the game.[m
+[17:09:01] [Async Chat Thread - #1/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> test[m
+[17:09:05] [Async Chat Thread - #1/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> hola[m
+[17:09:13] [Async Chat Thread - #1/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> hallo[m
+[17:10:07] [Async Chat Thread - #1/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> ayyy[m
+[17:10:09] [Server thread/WARN]: Eligor moved wrongly!
+[17:10:09] [Server thread/WARN]: Eligor moved wrongly!
+[17:10:09] [Server thread/WARN]: Eligor moved wrongly!
+[17:10:09] [Server thread/WARN]: Eligor moved wrongly!
+[17:10:14] [Async Chat Thread - #1/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> wjere u off to wax[m
+[17:10:15] [Async Chat Thread - #1/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> eyoo[m
+[17:10:25] [Async Chat Thread - #1/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> gonna complete the map[m
+[17:10:29] [Async Chat Thread - #1/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> ohhhhhh[m
+[17:10:32] [Async Chat Thread - #1/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> glhf man[m
+[17:10:38] [Async Chat Thread - #1/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> #scout[m
+[17:11:32] [Server thread/INFO]: Johann issued server command: /warp shop
+[17:12:17] [Server thread/INFO]: [ChestShop] Johann sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[17:12:18] [Server thread/INFO]: [ChestShop] Johann sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[17:12:18] [Server thread/INFO]: [ChestShop] Johann sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[17:12:18] [Server thread/INFO]: [ChestShop] Johann sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[17:12:19] [Server thread/INFO]: [ChestShop] Johann sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[17:12:19] [Server thread/INFO]: [ChestShop] Johann sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[17:12:19] [Server thread/INFO]: [ChestShop] Johann sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[17:12:20] [Server thread/INFO]: [ChestShop] Johann sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[17:12:20] [Server thread/INFO]: [ChestShop] Johann sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[17:12:21] [Server thread/INFO]: [ChestShop] Johann sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[17:12:21] [Server thread/INFO]: [ChestShop] Johann sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[17:12:22] [Server thread/INFO]: [ChestShop] Johann sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[17:12:22] [Server thread/INFO]: [ChestShop] Johann sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[17:12:22] [Server thread/INFO]: [ChestShop] Johann sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[17:12:23] [Server thread/INFO]: [ChestShop] Johann sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[17:12:23] [Server thread/INFO]: [ChestShop] Johann sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[17:12:24] [Server thread/INFO]: [ChestShop] Johann sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[17:12:24] [Server thread/INFO]: [ChestShop] Johann sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[17:12:24] [Server thread/INFO]: [ChestShop] Johann sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[17:12:25] [Server thread/INFO]: [ChestShop] Johann sold 2 Smooth Stone for 18.00 to Admin Shop at [world] 282, 48, 305
+[17:12:31] [Server thread/INFO]: Johann issued server command: /bal
+[17:13:07] [Async Chat Thread - #2/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> hahaha ty[m
+[17:13:08] [Server thread/INFO]: Johann issued server command: /home
+[17:14:41] [Server thread/INFO]: Johann issued server command: /warp shop
+[17:14:53] [Server thread/INFO]: [ChestShop] Johann sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[17:14:54] [Server thread/INFO]: [ChestShop] Johann sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[17:14:54] [Server thread/INFO]: [ChestShop] Johann sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[17:14:55] [Server thread/INFO]: [ChestShop] Johann sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[17:14:55] [Server thread/INFO]: [ChestShop] Johann sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[17:14:55] [Server thread/INFO]: [ChestShop] Johann sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[17:14:56] [Server thread/INFO]: [ChestShop] Johann sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[17:14:56] [Server thread/INFO]: [ChestShop] Johann sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[17:14:57] [Server thread/INFO]: [ChestShop] Johann sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[17:15:08] [Server thread/INFO]: Johann issued server command: /home
+[17:15:16] [Server thread/WARN]: Eligor moved wrongly!
+[17:16:32] [Server thread/WARN]: Stribog moved wrongly!
+[17:16:32] [Server thread/WARN]: Stribog moved wrongly!
+[17:16:32] [Server thread/WARN]: Stribog moved wrongly!
+[17:16:36] [Server thread/WARN]: Stribog moved wrongly!
+[17:16:36] [Server thread/WARN]: Stribog moved wrongly!
+[17:16:36] [Server thread/WARN]: Stribog moved wrongly!
+[17:16:47] [Server thread/WARN]: Stribog moved wrongly!
+[17:16:55] [Server thread/WARN]: Stribog moved wrongly!
+[17:16:55] [Server thread/WARN]: Stribog moved wrongly!
+[17:16:55] [Server thread/WARN]: Stribog moved wrongly!
+[17:16:55] [Server thread/WARN]: Stribog moved wrongly!
+[17:16:55] [Server thread/WARN]: Stribog moved wrongly!
+[17:16:55] [Server thread/WARN]: Stribog moved wrongly!
+[17:16:55] [Server thread/WARN]: Stribog moved wrongly!
+[17:16:56] [Server thread/WARN]: Stribog moved wrongly!
+[17:16:56] [Server thread/WARN]: Stribog moved wrongly!
+[17:16:56] [Server thread/WARN]: Stribog moved wrongly!
+[17:16:56] [Server thread/WARN]: Stribog moved wrongly!
+[17:16:56] [Server thread/WARN]: Stribog moved wrongly!
+[17:16:56] [Server thread/WARN]: Stribog moved wrongly!
+[17:17:17] [Server thread/INFO]: arcosanti lost connection: Disconnected
+[17:17:17] [Server thread/INFO]: arcosanti has left the game.
+[17:17:19] [User Authenticator #10/INFO]: UUID of player arcosanti is a9e52362-e903-3089-8f30-1e5a3b7d754a
+[17:17:20] [Server thread/INFO]: arcosanti[/0:0:0:0:0:0:0:1:54274] logged in with entity id 15153 at ([world]231.15019946575774, 66.0, -777.3042494412562)
+[17:17:20] [Server thread/INFO]: [0;33;1marcosanti has joined the game.[m
+[17:17:29] [Server thread/WARN]: Stribog moved wrongly!
+[17:17:30] [Server thread/WARN]: Stribog moved wrongly!
+[17:17:30] [Server thread/WARN]: Stribog moved wrongly!
+[17:17:38] [Server thread/INFO]: arcosanti issued server command: /sethome Village
+[17:17:57] [Server thread/WARN]: Stribog moved wrongly!
+[17:17:57] [Server thread/WARN]: Stribog moved wrongly!
+[17:17:57] [Server thread/WARN]: Stribog moved wrongly!
+[17:17:57] [Server thread/WARN]: Stribog moved wrongly!
+[17:17:57] [Server thread/WARN]: Stribog moved wrongly!
+[17:17:57] [Server thread/WARN]: Stribog moved wrongly!
+[17:17:57] [Server thread/WARN]: Stribog moved wrongly!
+[17:17:58] [Server thread/WARN]: Stribog moved wrongly!
+[17:17:58] [Server thread/WARN]: Stribog moved wrongly!
+[17:17:58] [Server thread/WARN]: Stribog moved wrongly!
+[17:17:58] [Server thread/WARN]: Stribog moved wrongly!
+[17:17:58] [Server thread/WARN]: Stribog moved wrongly!
+[17:17:58] [Server thread/WARN]: Stribog moved wrongly!
+[17:17:58] [Server thread/WARN]: Stribog moved wrongly!
+[17:17:58] [Server thread/WARN]: Stribog moved wrongly!
+[17:17:58] [Server thread/WARN]: Stribog moved wrongly!
+[17:17:59] [Server thread/WARN]: Stribog moved wrongly!
+[17:17:59] [Server thread/WARN]: Stribog moved wrongly!
+[17:17:59] [Server thread/WARN]: Stribog moved wrongly!
+[17:17:59] [Server thread/WARN]: Stribog moved wrongly!
+[17:17:59] [Server thread/WARN]: Stribog moved wrongly!
+[17:17:59] [Server thread/WARN]: Stribog moved wrongly!
+[17:20:11] [Server thread/INFO]: Johann issued server command: /warp shop
+[17:20:17] [Server thread/INFO]: Johann lost connection: Disconnected
+[17:20:17] [Server thread/INFO]: Johann has left the game.
+[17:20:20] [User Authenticator #11/INFO]: UUID of player Johann is f160dbef-552f-3b70-af9a-129d0ff0c675
+[17:20:20] [Server thread/INFO]: Johann[/0:0:0:0:0:0:0:1:54278] logged in with entity id 15796 at ([world]731.2002350777238, 78.0, -181.3600992891479)
+[17:20:20] [Server thread/INFO]: [0;33;1mJohann has joined the game.[m
+[17:20:28] [Server thread/INFO]: Johann issued server command: /warp shop
+[17:20:28] [Server thread/WARN]: Eligor (vehicle of arcosanti) moved too quickly! 10.653170728983923,1.0,-17.195295836479318
+[17:20:28] [Server thread/WARN]: Eligor (vehicle of arcosanti) moved too quickly! 11.006218934771027,1.0,-17.384997919426837
+[17:20:33] [Server thread/INFO]: Johann issued server command: /warp shop
+[17:20:43] [Server thread/INFO]: [ChestShop] Johann sold 10 Polished Andesite for 90.00 to Admin Shop at [world] 284, 48, 305
+[17:20:44] [Server thread/INFO]: [ChestShop] Johann sold 10 Polished Andesite for 90.00 to Admin Shop at [world] 284, 48, 305
+[17:20:45] [Server thread/INFO]: [ChestShop] Johann sold 10 Polished Andesite for 90.00 to Admin Shop at [world] 284, 48, 305
+[17:20:45] [Server thread/INFO]: [ChestShop] Johann sold 10 Polished Andesite for 90.00 to Admin Shop at [world] 284, 48, 305
+[17:20:45] [Server thread/INFO]: [ChestShop] Johann sold 10 Polished Andesite for 90.00 to Admin Shop at [world] 284, 48, 305
+[17:20:46] [Server thread/INFO]: [ChestShop] Johann sold 10 Polished Andesite for 90.00 to Admin Shop at [world] 284, 48, 305
+[17:20:46] [Server thread/INFO]: [ChestShop] Johann sold 10 Polished Andesite for 90.00 to Admin Shop at [world] 284, 48, 305
+[17:20:46] [Server thread/INFO]: [ChestShop] Johann sold 10 Polished Andesite for 90.00 to Admin Shop at [world] 284, 48, 305
+[17:20:47] [Server thread/INFO]: [ChestShop] Johann sold 10 Polished Andesite for 90.00 to Admin Shop at [world] 284, 48, 305
+[17:20:47] [Server thread/INFO]: [ChestShop] Johann sold 10 Polished Andesite for 90.00 to Admin Shop at [world] 284, 48, 305
+[17:20:48] [Server thread/INFO]: [ChestShop] Johann sold 10 Polished Andesite for 90.00 to Admin Shop at [world] 284, 48, 305
+[17:20:48] [Server thread/INFO]: [ChestShop] Johann sold 10 Polished Andesite for 90.00 to Admin Shop at [world] 284, 48, 305
+[17:20:49] [Server thread/INFO]: [ChestShop] Johann sold 10 Polished Andesite for 90.00 to Admin Shop at [world] 284, 48, 305
+[17:20:49] [Server thread/INFO]: [ChestShop] Johann sold 10 Polished Andesite for 90.00 to Admin Shop at [world] 284, 48, 305
+[17:20:50] [Server thread/INFO]: [ChestShop] Johann sold 10 Polished Andesite for 90.00 to Admin Shop at [world] 284, 48, 305
+[17:20:50] [Server thread/INFO]: [ChestShop] Johann sold 10 Polished Andesite for 90.00 to Admin Shop at [world] 284, 48, 305
+[17:20:51] [Server thread/INFO]: [ChestShop] Johann sold 10 Polished Andesite for 90.00 to Admin Shop at [world] 284, 48, 305
+[17:20:53] [Server thread/INFO]: [ChestShop] Johann sold 10 Polished Andesite for 90.00 to Admin Shop at [world] 284, 48, 305
+[17:20:53] [Server thread/INFO]: [ChestShop] Johann sold 10 Polished Andesite for 90.00 to Admin Shop at [world] 284, 48, 305
+[17:20:53] [Server thread/INFO]: [ChestShop] Johann sold 10 Polished Andesite for 90.00 to Admin Shop at [world] 284, 48, 305
+[17:20:54] [Server thread/INFO]: [ChestShop] Johann sold 10 Polished Andesite for 90.00 to Admin Shop at [world] 284, 48, 305
+[17:20:54] [Server thread/INFO]: [ChestShop] Johann sold 10 Polished Andesite for 90.00 to Admin Shop at [world] 284, 48, 305
+[17:20:54] [Server thread/INFO]: [ChestShop] Johann sold 10 Polished Andesite for 90.00 to Admin Shop at [world] 284, 48, 305
+[17:20:55] [Server thread/INFO]: [ChestShop] Johann sold 10 Polished Andesite for 90.00 to Admin Shop at [world] 284, 48, 305
+[17:20:55] [Server thread/INFO]: [ChestShop] Johann sold 10 Polished Andesite for 90.00 to Admin Shop at [world] 284, 48, 305
+[17:20:56] [Server thread/INFO]: [ChestShop] Johann sold 10 Polished Andesite for 90.00 to Admin Shop at [world] 284, 48, 305
+[17:20:56] [Server thread/INFO]: [ChestShop] Johann sold 10 Polished Andesite for 90.00 to Admin Shop at [world] 284, 48, 305
+[17:20:56] [Server thread/INFO]: [ChestShop] Johann sold 10 Polished Andesite for 90.00 to Admin Shop at [world] 284, 48, 305
+[17:20:57] [Server thread/INFO]: [ChestShop] Johann sold 10 Polished Andesite for 90.00 to Admin Shop at [world] 284, 48, 305
+[17:20:57] [Server thread/INFO]: [ChestShop] Johann sold 10 Polished Andesite for 90.00 to Admin Shop at [world] 284, 48, 305
+[17:20:58] [Server thread/INFO]: [ChestShop] Johann sold 10 Polished Andesite for 90.00 to Admin Shop at [world] 284, 48, 305
+[17:20:58] [Server thread/INFO]: [ChestShop] Johann sold 10 Polished Andesite for 90.00 to Admin Shop at [world] 284, 48, 305
+[17:20:58] [Server thread/INFO]: [ChestShop] Johann sold 10 Polished Andesite for 90.00 to Admin Shop at [world] 284, 48, 305
+[17:20:59] [Server thread/INFO]: [ChestShop] Johann sold 6 Polished Andesite for 54.00 to Admin Shop at [world] 284, 48, 305
+[17:21:02] [Server thread/INFO]: Johann issued server command: /home
+[17:24:52] [Server thread/INFO]: arcosanti lost connection: Disconnected
+[17:24:52] [Server thread/INFO]: arcosanti has left the game.
+[17:24:53] [User Authenticator #12/INFO]: UUID of player arcosanti is a9e52362-e903-3089-8f30-1e5a3b7d754a
+[17:24:54] [Server thread/INFO]: arcosanti[/0:0:0:0:0:0:0:1:54284] logged in with entity id 17675 at ([world]1473.6076480174142, 64.0, -970.4343846139874)
+[17:24:54] [Server thread/INFO]: [0;33;1marcosanti has joined the game.[m
+[17:27:13] [Server thread/INFO]: Johann lost connection: Disconnected
+[17:27:13] [Server thread/INFO]: Johann has left the game.
+[17:33:19] [Server thread/INFO]: arcosanti lost connection: Disconnected
+[17:33:19] [Server thread/INFO]: arcosanti has left the game.
+[17:33:20] [User Authenticator #13/INFO]: UUID of player arcosanti is a9e52362-e903-3089-8f30-1e5a3b7d754a
+[17:33:20] [Server thread/INFO]: arcosanti[/0:0:0:0:0:0:0:1:54295] logged in with entity id 19219 at ([world]1932.0823857800035, 63.085765473645665, -521.6875)
+[17:33:20] [Server thread/INFO]: [0;33;1marcosanti has joined the game.[m
+[17:37:06] [Server thread/INFO]: arcosanti lost connection: Disconnected
+[17:37:06] [Server thread/INFO]: arcosanti has left the game.
+[17:41:50] [User Authenticator #14/INFO]: UUID of player arcosanti is a9e52362-e903-3089-8f30-1e5a3b7d754a
+[17:41:50] [Server thread/INFO]: arcosanti[/0:0:0:0:0:0:0:1:54302] logged in with entity id 20463 at ([world]1914.6162405268828, 62.0732641964482, -553.2917310167651)
+[17:41:50] [Server thread/INFO]: [0;33;1marcosanti has joined the game.[m
+[17:44:19] [Server thread/INFO]: arcosanti lost connection: Disconnected
+[17:44:19] [Server thread/INFO]: arcosanti has left the game.
+[17:44:20] [User Authenticator #15/INFO]: UUID of player arcosanti is a9e52362-e903-3089-8f30-1e5a3b7d754a
+[17:44:20] [Server thread/INFO]: arcosanti[/0:0:0:0:0:0:0:1:54304] logged in with entity id 21247 at ([world]1631.79959169627, 63.0, -950.3281046500688)
+[17:44:20] [Server thread/INFO]: [0;33;1marcosanti has joined the game.[m
+[17:46:58] [Server thread/INFO]: arcosanti lost connection: Disconnected
+[17:46:58] [Server thread/INFO]: arcosanti has left the game.
+[17:46:59] [User Authenticator #16/INFO]: UUID of player arcosanti is a9e52362-e903-3089-8f30-1e5a3b7d754a
+[17:47:00] [Server thread/INFO]: arcosanti[/0:0:0:0:0:0:0:1:54307] logged in with entity id 21941 at ([world]1321.8551093198753, 60.99155291700557, -702.4254328318101)
+[17:47:00] [Server thread/INFO]: [0;33;1marcosanti has joined the game.[m
+[17:50:15] [Server thread/INFO]: arcosanti lost connection: Disconnected
+[17:50:15] [Server thread/INFO]: arcosanti has left the game.
+[17:50:16] [User Authenticator #17/INFO]: UUID of player arcosanti is a9e52362-e903-3089-8f30-1e5a3b7d754a
+[17:50:16] [Server thread/INFO]: arcosanti[/0:0:0:0:0:0:0:1:54310] logged in with entity id 22770 at ([world]739.3000000119209, 60.0, -565.8374395781628)
+[17:50:17] [Server thread/INFO]: [0;33;1marcosanti has joined the game.[m
+[17:50:28] [Async Chat Thread - #3/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> joe[m
+[17:50:32] [Async Chat Thread - #3/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> yes sir[m
+[17:50:37] [Async Chat Thread - #3/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> did you set it to day hahahaha[m
+[17:50:44] [Async Chat Thread - #3/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> no[m
+[17:50:48] [Async Chat Thread - #3/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> why?[m
+[17:50:50] [Async Chat Thread - #3/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> oh wut[m
+[17:50:55] [Async Chat Thread - #3/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> i couldve sworn it was just night[m
+[17:51:04] [Async Chat Thread - #3/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> like literal sunset[m
+[17:51:06] [Async Chat Thread - #3/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> uhh did you sleep?[m
+[17:51:06] [Async Chat Thread - #3/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> and now its sunris[m
+[17:51:12] [Async Chat Thread - #3/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> nope[m
+[17:51:13] [Async Chat Thread - #3/INFO]: [m[0;33;1m[User] [0;33;1m[User] crystalgem[m [0;36;1m> i was in bed[m
+[17:51:18] [Async Chat Thread - #3/INFO]: [m[0;33;1m[User] [0;33;1m[User] crystalgem[m [0;36;1m> oops[m
+[17:51:21] [Async Chat Thread - #3/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> were you in bed joe?[m
+[17:51:22] [Async Chat Thread - #3/INFO]: [m[0;33;1m[User] [0;33;1m[User] crystalgem[m [0;36;1m> sorry[m
+[17:51:23] [Async Chat Thread - #3/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> oh no its okay hahaha[m
+[17:51:31] [Async Chat Thread - #3/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> we all have to be in bed for it to change[m
+[17:51:56] [Async Chat Thread - #3/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> thats why im curious hahaha[m
+[17:51:58] [Async Chat Thread - #3/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> nah, as an admin yall can sleep without me[m
+[17:52:02] [Async Chat Thread - #3/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> ooooh[m
+[17:52:07] [Async Chat Thread - #3/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> then it automatically changes[m
+[17:52:09] [Async Chat Thread - #3/INFO]: [m[0;33;1m[User] [0;33;1m[User] crystalgem[m [0;36;1m> ohhh[m
+[17:52:13] [Async Chat Thread - #3/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> yeah i dc'd for a bit[m
+[17:52:18] [Async Chat Thread - #3/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> that explains it[m
+[17:52:26] [Async Chat Thread - #3/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> yeah haha[m
+[17:52:28] [Async Chat Thread - #3/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> magic[m
+[17:53:05] [Server thread/INFO]: Jhor issued server command: /afk
+[17:56:58] [Server thread/INFO]: arcosanti issued server command: /home
+[18:00:28] [Server thread/WARN]: arcosanti moved too quickly! 44.385519396492555,-9.911752380860293,-53.99104738815356
+[18:01:41] [Server thread/INFO]: arcosanti issued server command: /home
+[18:01:48] [Async Chat Thread - #4/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> lets sleep?[m
+[18:02:02] [Async Chat Thread - #4/INFO]: [m[0;33;1m[User] [0;33;1m[User] crystalgem[m [0;36;1m> sure[m
+[18:02:28] [Server thread/INFO]: crystalgem lost connection: Timed out
+[18:02:28] [Server thread/INFO]: crystalgem has left the game.
+[18:02:43] [User Authenticator #18/INFO]: UUID of player crystalgem is f321cff2-0750-3ba1-98af-66006fbafb2e
+[18:02:44] [Server thread/INFO]: crystalgem[/0:0:0:0:0:0:0:1:54318] logged in with entity id 26029 at ([world]657.5438808337583, 82.87320005774502, -174.51249998807907)
+[18:02:44] [Server thread/INFO]: [0;33;1mcrystalgem has joined the game.[m
+[18:03:20] [Server thread/INFO]: Jhor issued server command: /home
+[18:03:59] [Server thread/INFO]: Jhor issued server command: /home exp
+[18:05:24] [Server thread/WARN]: arcosanti moved too quickly! 61.79483900182322,-5.489931131353714,11.700982180228038
+[18:05:33] [Server thread/WARN]: arcosanti moved too quickly! 88.32125509473065,-7.229071401797796,-8.925955400064367
+[18:05:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7889ms or 157 ticks behind
+[18:05:34] [Server thread/WARN]: arcosanti moved too quickly! 34.135412091605076,1.920318933370254,-10.96758539858638
+[18:08:07] [Async Chat Thread - #5/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> Watchu doing Wax?[m
+[18:08:16] [Async Chat Thread - #5/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> fillin up the ma[[m
+[18:08:22] [Async Chat Thread - #5/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> map[m
+[18:08:26] [Async Chat Thread - #5/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> Watchu gonna do after that? hahah[m
+[18:08:31] [Server thread/INFO]: Jhor issued server command: /mctop
+[18:08:42] [Async Chat Thread - #5/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> hahaha maybe complete atlus[m
+[18:09:24] [Async Chat Thread - #5/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> I see I see[m
+[18:09:38] [Async Chat Thread - #5/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> unless you wanna do something[m
+[18:09:38] [Server thread/INFO]: Jhor issued server command: /mcrank
+[18:09:50] [Async Chat Thread - #5/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> nah I got no plans[m
+[18:10:02] [Async Chat Thread - #5/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> at this point, I'm just leveling mcranks[m
+[18:10:46] [Async Chat Thread - #5/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> damn son[m
+[18:10:50] [Async Chat Thread - #5/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> the grind never stops hahaha[m
+[18:10:57] [Async Chat Thread - #5/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> hell yeah brother[m
+[18:12:04] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> the goal is to get level 100 for all skills haha[m
+[18:12:22] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> hahahaha good luck for taming[m
+[18:12:47] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> gonna have to bring the doggos into combat haha[m
+[18:12:56] [Server thread/INFO]: arcosanti issued server command: /taming ?
+[18:13:07] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> unless I just breed billions of horses[m
+[18:13:15] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> thats a lot of leather[m
+[18:13:33] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> yeah, leather I don't need haha[m
+[18:14:18] [Server thread/INFO]: arcosanti issued server command: /home
+[18:14:26] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> hell yeah[m
+[18:14:29] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> top maps done[m
+[18:14:36] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> nice hahah[m
+[18:18:34] [Async Chat Thread - #7/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> joe[m
+[18:18:37] [Async Chat Thread - #7/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> ye[m
+[18:18:44] [Async Chat Thread - #7/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> ur refugees are coming to our cows[m
+[18:18:54] [Async Chat Thread - #7/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> watchu mean[m
+[18:19:02] [Async Chat Thread - #7/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> theres a villager in our cow pen[m
+[18:19:12] [Async Chat Thread - #7/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> hahahahaha[m
+[18:19:18] [Async Chat Thread - #7/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> hahaha[m
+[18:19:31] [Async Chat Thread - #7/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> looks like I'll have to breed more villagers then[m
+[18:20:12] [Async Chat Thread - #7/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> hahahaha[m
+[18:36:56] [Server thread/INFO]: arcosanti lost connection: Disconnected
+[18:36:56] [Server thread/INFO]: arcosanti has left the game.
+[18:46:56] [Server thread/INFO]: crystalgem lost connection: Timed out
+[18:46:57] [Server thread/INFO]: crystalgem has left the game.
+[18:47:40] [User Authenticator #19/INFO]: UUID of player crystalgem is f321cff2-0750-3ba1-98af-66006fbafb2e
+[18:47:40] [Server thread/INFO]: crystalgem[/0:0:0:0:0:0:0:1:54344] logged in with entity id 44607 at ([world]663.3905552658865, 85.0, -173.3269240060963)
+[18:47:40] [Server thread/INFO]: [0;33;1mcrystalgem has joined the game.[m
+[18:49:31] [Server thread/INFO]: crystalgem lost connection: Timed out
+[18:49:31] [Server thread/INFO]: crystalgem has left the game.
+[18:52:05] [User Authenticator #20/INFO]: UUID of player arcosanti is a9e52362-e903-3089-8f30-1e5a3b7d754a
+[18:52:05] [Server thread/INFO]: arcosanti[/0:0:0:0:0:0:0:1:54347] logged in with entity id 44908 at ([world]498.1791384535462, 66.0, 163.02348955369533)
+[18:52:05] [Server thread/INFO]: [0;33;1marcosanti has joined the game.[m
+[18:52:43] [Async Chat Thread - #8/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> test[m
+[18:52:51] [Async Chat Thread - #8/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> test[m
+[18:52:59] [Server thread/INFO]: arcosanti lost connection: Disconnected
+[18:52:59] [Server thread/INFO]: arcosanti has left the game.
+[18:53:29] [User Authenticator #21/INFO]: UUID of player arcosanti is a9e52362-e903-3089-8f30-1e5a3b7d754a
+[18:53:29] [Server thread/INFO]: arcosanti[/0:0:0:0:0:0:0:1:54355] logged in with entity id 45450 at ([world]494.299999974668, 66.0000002, 160.29999997466803)
+[18:53:29] [Server thread/INFO]: [0;33;1marcosanti has joined the game.[m
+[18:53:49] [Async Chat Thread - #8/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> oof[m
+[18:54:06] [Async Chat Thread - #8/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> test[m
+[18:54:17] [Async Chat Thread - #8/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> damn this lag is insane[m
+[18:54:37] [Async Chat Thread - #8/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> yeah[m
+[18:55:48] [Async Chat Thread - #9/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> oh there we go[m
+[18:56:13] [User Authenticator #22/INFO]: UUID of player crystalgem is f321cff2-0750-3ba1-98af-66006fbafb2e
+[18:56:13] [Server thread/INFO]: crystalgem[/0:0:0:0:0:0:0:1:54360] logged in with entity id 46378 at ([world]657.5196403133651, 79.0, -178.62790992229662)
+[18:56:13] [Server thread/INFO]: [0;33;1mcrystalgem has joined the game.[m
+[18:57:22] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> ah here we go again[m
+[18:57:39] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] crystalgem[m [0;36;1m> the lag? hahaha[m
+[18:57:49] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> yeah hahahaha[m
+[18:57:55] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] crystalgem[m [0;36;1m> yuuuuup[m
+[18:58:04] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> test[m
+[18:59:03] [Server thread/INFO]: arcosanti issued server command: /home
+[19:02:45] [Server thread/INFO]: Jhor issued server command: /home
+[19:03:24] [User Authenticator #23/INFO]: UUID of player Kobeboy15 is dc70f05a-14b3-350c-91b3-ecddbe830761
+[19:03:25] [Server thread/INFO]: Kobeboy15[/0:0:0:0:0:0:0:1:54370] logged in with entity id 49592 at ([world]698.6353371507516, 67.0, 93.43804668239927)
+[19:03:25] [Server thread/INFO]: [0;33;1mKobeboy15 has joined the game.[m
+[19:03:47] [Server thread/INFO]: Kobeboy15 issued server command: /tps
+[19:03:51] [Server thread/INFO]: Kobeboy15 lost connection: Disconnected
+[19:03:51] [Server thread/INFO]: Kobeboy15 has left the game.
+[19:03:57] [User Authenticator #24/INFO]: UUID of player Kobeboy15 is dc70f05a-14b3-350c-91b3-ecddbe830761
+[19:03:58] [Server thread/INFO]: Kobeboy15[/0:0:0:0:0:0:0:1:54375] logged in with entity id 49861 at ([world]699.3418603692609, 67.0, 94.22357556123586)
+[19:03:58] [Server thread/INFO]: [0;33;1mKobeboy15 has joined the game.[m
+[19:04:04] [Server thread/INFO]: Kobeboy15 issued server command: /tps
+[19:04:11] [Server thread/INFO]: Kobeboy15 issued server command: /lag
+[19:04:14] [Server thread/INFO]: Kobeboy15 issued server command: /tps
+[19:04:16] [Server thread/INFO]: Kobeboy15 issued server command: /tps
+[19:04:17] [Server thread/INFO]: Kobeboy15 issued server command: /lag
+[19:04:19] [Server thread/INFO]: Kobeboy15 issued server command: /lag
+[19:04:20] [Server thread/INFO]: Kobeboy15 issued server command: /lag
+[19:04:21] [Server thread/INFO]: Kobeboy15 issued server command: /alg
+[19:04:23] [Server thread/INFO]: Kobeboy15 issued server command: /lag
+[19:04:24] [Server thread/INFO]: Kobeboy15 issued server command: /lag
+[19:04:26] [Server thread/INFO]: Kobeboy15 issued server command: /tps
+[19:05:03] [Server thread/INFO]: Kobeboy15 issued server command: /TPS
+[19:05:04] [Server thread/INFO]: Kobeboy15 issued server command: /tps
+[19:05:05] [Server thread/INFO]: Kobeboy15 issued server command: /lag
+[19:05:06] [Server thread/INFO]: Kobeboy15 issued server command: /lag
+[19:05:08] [Server thread/INFO]: Kobeboy15 issued server command: /lag
+[19:05:18] [Server thread/INFO]: arcosanti issued server command: /home
+[19:06:06] [Server thread/INFO]: Kobeboy15 issued server command: /lag
+[19:07:10] [Server thread/INFO]: CONSOLE issued server command: /lag 
+[19:07:10] [Server thread/INFO]: [0;33;22mUptime:[0;31;1m 3 hours 27 minutes 16 seconds[m
+[19:07:10] [Server thread/INFO]: [0;33;22mCurrent TPS = [0;32;1m20[m
+[19:07:10] [Server thread/INFO]: [0;33;22mMaximum memory:[0;31;1m 9,102 MB.[m
+[19:07:10] [Server thread/INFO]: [0;33;22mAllocated memory:[0;31;1m 3,504 MB.[m
+[19:07:10] [Server thread/INFO]: [0;33;22mFree memory:[0;31;1m 1,910 MB.[m
+[19:07:10] [Server thread/INFO]: [0;33;22mWorld "[0;31;1mworld[0;33;22m": [0;31;1m1,612[0;33;22m chunks, [0;31;1m1,218[0;33;22m entities, [0;31;1m1,633[0;33;22m tiles.[m
+[19:07:10] [Server thread/INFO]: [0;33;22mNether "[0;31;1mworld_nether[0;33;22m": [0;31;1m529[0;33;22m chunks, [0;31;1m75[0;33;22m entities, [0;31;1m24[0;33;22m tiles.[m
+[19:07:10] [Server thread/INFO]: [0;33;22mThe End "[0;31;1mworld_the_end[0;33;22m": [0;31;1m529[0;33;22m chunks, [0;31;1m3[0;33;22m entities, [0;31;1m22[0;33;22m tiles.[m
+[19:07:35] [Server thread/INFO]: Kobeboy15 issued server command: /lag
+[19:07:38] [Server thread/INFO]: Kobeboy15 lost connection: Disconnected
+[19:07:38] [Server thread/INFO]: Kobeboy15 has left the game.
+[19:09:16] [User Authenticator #25/INFO]: UUID of player Kobeboy15 is dc70f05a-14b3-350c-91b3-ecddbe830761
+[19:09:17] [Server thread/INFO]: Kobeboy15[/0:0:0:0:0:0:0:1:54475] logged in with entity id 51425 at ([world]700.0691420479221, 67.0, 94.36149657624044)
+[19:09:17] [Server thread/INFO]: [0;33;1mKobeboy15 has joined the game.[m
+[19:09:33] [Server thread/INFO]: Kobeboy15 issued server command: /lag
+[19:09:36] [Server thread/INFO]: Kobeboy15 issued server command: /lag
+[19:09:39] [Server thread/INFO]: Kobeboy15 issued server command: /tps
+[19:09:51] [Server thread/INFO]: Kobeboy15 issued server command: /reload
+[19:09:51] [Server thread/INFO]: Kobeboy15: [0;31;1mPlease note that this command is not supported and may cause issues when using some plugins.[m
+[19:09:51] [Server thread/INFO]: Kobeboy15: [0;31;1mIf you encounter any issues please use the /stop command to restart your server.[m
+[19:09:51] [Server thread/INFO]: Debug logging is disabled
+[19:09:51] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[19:09:51] [Server thread/INFO]: Using 4 threads for Netty based IO
+[19:09:51] [Server thread/INFO]: -------- World Settings For [world] --------
+[19:09:51] [Server thread/INFO]: View Distance: 8
+[19:09:51] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[19:09:51] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[19:09:51] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[19:09:51] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[19:09:51] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[19:09:51] [Server thread/INFO]: Item Despawn Rate: 6000
+[19:09:51] [Server thread/INFO]: Item Merge Radius: 2.5
+[19:09:51] [Server thread/INFO]: Experience Merge Radius: 3.0
+[19:09:51] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[19:09:51] [Server thread/INFO]: Cane Growth Modifier: 100%
+[19:09:51] [Server thread/INFO]: Melon Growth Modifier: 100%
+[19:09:51] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[19:09:51] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[19:09:51] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[19:09:51] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[19:09:51] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[19:09:51] [Server thread/INFO]: Potato Growth Modifier: 100%
+[19:09:51] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[19:09:51] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[19:09:51] [Server thread/INFO]: Vine Growth Modifier: 100%
+[19:09:51] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[19:09:51] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[19:09:51] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[19:09:51] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[19:09:51] [Server thread/INFO]: Mob Spawn Range: 6
+[19:09:51] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[19:09:51] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[19:09:51] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[19:09:51] [Server thread/INFO]: Max TNT Explosions: 100
+[19:09:51] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[19:09:51] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[19:09:51] [Server thread/INFO]: View Distance: 8
+[19:09:51] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[19:09:51] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[19:09:51] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[19:09:51] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[19:09:51] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[19:09:51] [Server thread/INFO]: Item Despawn Rate: 6000
+[19:09:51] [Server thread/INFO]: Item Merge Radius: 2.5
+[19:09:51] [Server thread/INFO]: Experience Merge Radius: 3.0
+[19:09:51] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[19:09:51] [Server thread/INFO]: Cane Growth Modifier: 100%
+[19:09:51] [Server thread/INFO]: Melon Growth Modifier: 100%
+[19:09:51] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[19:09:51] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[19:09:51] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[19:09:51] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[19:09:51] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[19:09:51] [Server thread/INFO]: Potato Growth Modifier: 100%
+[19:09:51] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[19:09:51] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[19:09:51] [Server thread/INFO]: Vine Growth Modifier: 100%
+[19:09:51] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[19:09:51] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[19:09:51] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[19:09:51] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[19:09:51] [Server thread/INFO]: Mob Spawn Range: 6
+[19:09:51] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[19:09:51] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[19:09:51] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[19:09:51] [Server thread/INFO]: Max TNT Explosions: 100
+[19:09:51] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[19:09:51] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[19:09:51] [Server thread/INFO]: View Distance: 8
+[19:09:51] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[19:09:51] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[19:09:51] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[19:09:51] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[19:09:51] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[19:09:51] [Server thread/INFO]: Item Despawn Rate: 6000
+[19:09:51] [Server thread/INFO]: Item Merge Radius: 2.5
+[19:09:51] [Server thread/INFO]: Experience Merge Radius: 3.0
+[19:09:51] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[19:09:51] [Server thread/INFO]: Cane Growth Modifier: 100%
+[19:09:51] [Server thread/INFO]: Melon Growth Modifier: 100%
+[19:09:51] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[19:09:51] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[19:09:51] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[19:09:51] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[19:09:51] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[19:09:51] [Server thread/INFO]: Potato Growth Modifier: 100%
+[19:09:51] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[19:09:51] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[19:09:51] [Server thread/INFO]: Vine Growth Modifier: 100%
+[19:09:51] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[19:09:51] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[19:09:51] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[19:09:51] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[19:09:51] [Server thread/INFO]: Mob Spawn Range: 6
+[19:09:51] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[19:09:51] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[19:09:51] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[19:09:51] [Server thread/INFO]: Max TNT Explosions: 100
+[19:09:51] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[19:09:51] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.17.0.0
+[19:09:51] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.17.0.0
+[19:09:51] [Server thread/INFO]: [Essentials] Disabling Essentials v2.17.0.0
+[19:09:51] [Server thread/INFO]: [Vault] [Vault][Economy] Essentials Economy unhooked.
+[19:09:51] [Server thread/INFO]: [ChestShop] Disabling ChestShop v3.10-SNAPSHOT (build 137)
+[19:09:51] [Server thread/INFO]: [GriefPrevention] Disabling GriefPrevention v16.11.6
+[19:09:51] [Server thread/INFO]: [GriefPrevention] GriefPrevention disabled.
+[19:09:51] [Server thread/INFO]: [Stargate] Disabling Stargate v0.8.2
+[19:09:51] [Server thread/INFO]: Closing all stargates.
+[19:09:51] [Server thread/INFO]: [Vault] Disabling Vault v1.7.2-b107
+[19:09:51] [Server thread/INFO]: [AutoRestart] Disabling AutoRestart v3.3.3
+[19:09:51] [Server thread/INFO]: [mcMMO] Disabling mcMMO v2.1.100-SNAPSHOT
+[19:09:51] [Server thread/INFO]: [mcMMO] Saving mcMMOPlayers... (4)
+[19:09:51] [Server thread/INFO]: [mcMMO] Saving data for player: Kobeboy15
+[19:09:51] [Server thread/INFO]: [mcMMO] Saving data for player: Jhor
+[19:09:51] [Server thread/INFO]: [mcMMO] Saving data for player: arcosanti
+[19:09:51] [Server thread/INFO]: [mcMMO] Saving data for player: crystalgem
+[19:09:51] [Server thread/INFO]: [mcMMO] Finished save operation for 4 players!
+[19:09:53] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v13.7.3
+[19:09:53] [Server thread/INFO]: [HomeSpawn] Disabling HomeSpawn v3.1.4
+[19:09:53] [Server thread/INFO]: [HomeSpawn] HomeSpawn has been disabled
+[19:09:53] [Server thread/INFO]: [PermissionsEx] Disabling PermissionsEx v1.23.4
+[19:09:54] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
+[19:09:54] [Server thread/INFO]: Loaded 6 recipes
+[19:09:55] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
+[19:09:55] [Server thread/WARN]: arcosanti moved too quickly! 84.31644856046705,-13.946977323852238,73.50547020044456
+[19:09:55] [Server thread/WARN]: arcosanti moved too quickly! 83.1808919367761,-14.677341358659405,72.53900832408152
+[19:09:55] [Server thread/INFO]: Loaded 6 recipes
+[19:09:58] [Server thread/ERROR]: Nag author: 'Dart2112' of 'HomeSpawn' about the following: This plugin is not properly shutting down its async tasks when it is being reloaded.  This may cause conflicts with the newly loaded version of the plugin
+[19:09:58] [Server thread/WARN]: Plugin PermissionsEx v1.23.4 does not specify an api-version.
+[19:09:58] [Server thread/WARN]: Plugin Stargate v0.8.2 does not specify an api-version.
+[19:09:58] [Server thread/INFO]: [PermissionsEx] Loading PermissionsEx v1.23.4
+[19:09:58] [Server thread/WARN]: [PermissionsEx] This server is in offline mode. Unless this server is configured to integrate with a supported proxy (see http://dft.ba/-8ous), UUIDs *may not be stable*!
+[19:09:58] [Server thread/INFO]: [HomeSpawn] Loading HomeSpawn v3.1.4
+[19:09:58] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v13.7.3
+[19:09:58] [Server thread/INFO]: [mcMMO] Loading mcMMO v2.1.100-SNAPSHOT
+[19:09:58] [Server thread/INFO]: [AutoRestart] Loading AutoRestart v3.3.3
+[19:09:58] [Server thread/INFO]: [Vault] Loading Vault v1.7.2-b107
+[19:09:58] [Server thread/INFO]: [Stargate] Loading Stargate v0.8.2
+[19:09:58] [Server thread/INFO]: [GriefPrevention] Loading GriefPrevention v16.11.6
+[19:09:58] [Server thread/INFO]: [ChestShop] Loading ChestShop v3.10-SNAPSHOT (build 137)
+[19:09:58] [Server thread/INFO]: [Essentials] Loading Essentials v2.17.0.0
+[19:09:58] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn v2.17.0.0
+[19:09:58] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat v2.17.0.0
+[19:09:58] [Server thread/INFO]: [mcMMO] Enabling mcMMO v2.1.100-SNAPSHOT
+[19:09:58] [Server thread/INFO]: [mcMMO] enabling Acrobatics Skills
+[19:09:58] [Server thread/INFO]: [mcMMO] registered subskill: Roll
+[19:09:58] [Server thread/INFO]: [mcMMO] 0 entries in mcMMO World Blacklist
+[19:09:58] [Server thread/INFO]: [Vault] Enabling Vault v1.7.2-b107
+[19:09:58] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[19:09:58] [Server thread/INFO]: [Vault] [Permission] PermissionsEx found: Waiting
+[19:09:58] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[19:09:58] [Server thread/INFO]: [Vault] [Chat] PermissionsEx found: Waiting
+[19:09:59] [Server thread/INFO]: [Vault] Enabled Version 1.7.2-b107
+[19:09:59] [Server thread/INFO]: [PermissionsEx] Enabling PermissionsEx v1.23.4
+[19:09:59] [Server thread/INFO]: [PermissionsEx] Initializing file backend
+[19:09:59] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
+[19:09:59] [Server thread/INFO]: [Vault][Permission] PermissionsEx hooked.
+[19:09:59] [Server thread/INFO]: [Vault] [Vault][Chat] PermissionsEx_Chat hooked.
+[19:09:59] [Server thread/INFO]: [HomeSpawn] Enabling HomeSpawn v3.1.4
+[19:09:59] [Server thread/INFO]: [HomeSpawn] HomeSpawn v3.1.4 has been enabled
+[19:09:59] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v13.7.3
+[19:09:59] [Server thread/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1mDetected Minecraft [0;33;1mv1_14_R1[0;32;1m, using [0;33;1mUniversalSkinFactory[0;32;1m.[m
+[19:09:59] [Server thread/INFO]: [SkinsRestorer] Verbose is missing in config.yml! Using default value.
+[19:09:59] [Server thread/INFO]: [AutoRestart] Enabling AutoRestart v3.3.3
+[19:09:59] [Server thread/INFO]: [0;32;1m[AutoRestart] Loaded![m
+[19:09:59] [Server thread/INFO]: [Stargate] Enabling Stargate v0.8.2
+[19:09:59] [Server thread/INFO]: Stargate v.0.8.2 is enabled.
+[19:09:59] [Server thread/INFO]: [Stargate] Loaded 1 gate layouts
+[19:09:59] [Server thread/INFO]: [Stargate] {world} No stargates for world 
+[19:09:59] [Server thread/INFO]: [Stargate] {world_nether} No stargates for world 
+[19:09:59] [Server thread/INFO]: [Stargate] {world_the_end} No stargates for world 
+[19:09:59] [Server thread/INFO]: [GriefPrevention] Enabling GriefPrevention v16.11.6
+[19:09:59] [Server thread/INFO]: [GriefPrevention] Finished loading configuration.
+[19:09:59] [Server thread/INFO]: [GriefPrevention] 71 total claims loaded.
+[19:10:01] [Server thread/INFO]: [GriefPrevention] Customizable messages loaded.
+[19:10:01] [Server thread/INFO]: [GriefPrevention] Finished loading data (File Mode).
+[19:10:01] [Server thread/INFO]: [GriefPrevention] Boot finished.
+[19:10:01] [Server thread/INFO]: [ChestShop] Enabling ChestShop v3.10-SNAPSHOT (build 137)
+[19:10:01] [Server thread/INFO]: [ChestShop] Using Essentials Economy as the Economy provider now.
+[19:10:01] [Server thread/INFO]: [ChestShop] Vault loaded!
+[19:10:02] [Server thread/INFO]: [Essentials] Enabling Essentials v2.17.0.0
+[19:10:02] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[19:10:02] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
+[19:10:02] [Server thread/INFO]: No kits found to migrate.
+[19:10:02] [Server thread/INFO]: [Essentials] Using 1.8.3+ BlockStateMeta provider as mob spawner provider.
+[19:10:02] [Server thread/INFO]: [Essentials] Using 1.13+ flat spawn egg provider as spawn egg provider.
+[19:10:02] [Server thread/INFO]: [Essentials] Using 1.9+ BasePotionData provider as potion meta provider.
+[19:10:02] [Server thread/INFO]: Loaded 20977 items from items.json.
+[19:10:02] [Server thread/INFO]: Using locale en_US
+[19:10:02] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[19:10:02] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[19:10:02] [Server thread/INFO]: [Vault] [Vault][Economy] Essentials Economy hooked.
+[19:10:02] [Server thread/INFO]: [Essentials] Using Vault based permissions (PermissionsEx)
+[19:10:02] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.17.0.0
+[19:10:02] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.17.0.0
+[19:10:03] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[19:10:04] [Server thread/INFO]: Kobeboy15: [0;32;1mReload complete.[m
+[19:10:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13186ms or 263 ticks behind
+[19:10:04] [Craft Scheduler Thread - 2/INFO]: [mcMMO] Cleaned backup files. Deleted 1 of 26 files.
+[19:10:05] [Craft Scheduler Thread - 169/INFO]: [HomeSpawn] HomeSpawn file watcher started!
+[19:10:05] [Craft Scheduler Thread - 168/INFO]: [HomeSpawn] §fAn update for HomeSpawn is available and can be downloaded and installed by running /homespawn update
+[19:10:05] [Craft Scheduler Thread - 167/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m----------------------------------------------[m
+[19:10:05] [Craft Scheduler Thread - 167/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    +===============+[m
+[19:10:05] [Craft Scheduler Thread - 167/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    | SkinsRestorer |[m
+[19:10:05] [Craft Scheduler Thread - 167/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    +===============+[m
+[19:10:05] [Craft Scheduler Thread - 167/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m----------------------------------------------[m
+[19:10:05] [Craft Scheduler Thread - 167/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;36;1m    Current version: [0;32;1m13.7.3[m
+[19:10:05] [Craft Scheduler Thread - 167/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    This is the latest version![m
+[19:10:05] [Craft Scheduler Thread - 167/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m----------------------------------------------[m
+[19:10:06] [Server thread/INFO]: [0;32;1m[AutoRestart] Up to date![m
+[19:10:06] [Craft Scheduler Thread - 173/INFO]: [Vault] Checking for Updates ... 
+[19:10:06] [Server thread/INFO]: [mcMMO] WorldGuard was not detected.
+[19:10:06] [Server thread/WARN]: arcosanti moved too quickly! 30.51636239301081,-9.205358636598191,51.28518229217161
+[19:10:06] [Craft Scheduler Thread - 173/INFO]: [Vault] No new version available
+[19:10:09] [Server thread/INFO]: Kobeboy15 issued server command: /tps
+[19:10:14] [Server thread/INFO]: Kobeboy15 issued server command: /lag
+[19:10:23] [Server thread/INFO]: Kobeboy15 issued server command: /lag
+[19:10:24] [Server thread/INFO]: Kobeboy15 issued server command: /tps
+[19:10:34] [Server thread/INFO]: Kobeboy15 lost connection: Disconnected
+[19:10:34] [Server thread/INFO]: Kobeboy15 has left the game.
+[19:10:43] [User Authenticator #26/INFO]: UUID of player Kobeboy15 is dc70f05a-14b3-350c-91b3-ecddbe830761
+[19:10:44] [Server thread/INFO]: Kobeboy15[/0:0:0:0:0:0:0:1:54493] logged in with entity id 51955 at ([world]698.714347170329, 67.0, 93.94241943053423)
+[19:10:44] [Server thread/INFO]: [0;33;1mKobeboy15 has joined the game.[m
+[19:11:07] [Server thread/INFO]: Kobeboy15 issued server command: /tps
+[19:11:17] [Server thread/INFO]: arcosanti lost connection: Disconnected
+[19:11:17] [Server thread/INFO]: arcosanti has left the game.
+[19:12:24] [Server thread/INFO]: Kobeboy15 issued server command: /tps
+[19:12:27] [Server thread/INFO]: Kobeboy15 issued server command: /plugins
+[19:12:34] [Server thread/INFO]: Kobeboy15 issued server command: /stargate:sg
+[19:12:48] [Server thread/INFO]: Kobeboy15 issued server command: /stargate:sg reload
+[19:12:48] [Server thread/INFO]: [Stargate] Loaded 1 gate layouts
+[19:12:48] [Server thread/INFO]: [Stargate] {world} No stargates for world 
+[19:12:48] [Server thread/INFO]: [Stargate] {world_nether} No stargates for world 
+[19:12:48] [Server thread/INFO]: [Stargate] {world_the_end} No stargates for world 
+[19:12:52] [Server thread/INFO]: Kobeboy15 issued server command: /stargate:sg
+[19:15:07] [Server thread/INFO]: Kobeboy15 issued server command: /gamemode creative
+[19:15:23] [Server thread/INFO]: crystalgem lost connection: Disconnected
+[19:15:23] [Server thread/INFO]: crystalgem has left the game.
+[19:19:35] [Server thread/INFO]: [GriefPrevention] Kobeboy15 placed a sign @ world: x714, z126;AC Gate;Test Gate
+[19:20:09] [Server thread/INFO]: Jhor issued server command: /mining
+[19:20:21] [Server thread/INFO]: [GriefPrevention] Kobeboy15 placed a sign @ world: x706, z156;Test Gate;AC Gate
+[19:22:11] [Server thread/INFO]: [GriefPrevention] Kobeboy15 placed a sign @ world: x706, z156;Test Gate
+[19:22:19] [Server thread/INFO]: [GriefPrevention] Kobeboy15 placed a sign @ world: x714, z126;AC Gate
+[19:22:29] [Server thread/INFO]: Kobeboy15 issued server command: /gamemode survival
+[19:22:36] [Server thread/INFO]: Kobeboy15 issued server command: /gamemode creative
+[19:22:45] [Server thread/INFO]: Kobeboy15 issued server command: /vanish
+[19:23:30] [Server thread/INFO]: Jhor issued server command: /home mine
+[19:31:52] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[19:31:55] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[19:31:57] [Server thread/INFO]: CONSOLE issued server command: /help 
+[19:31:57] [Server thread/INFO]: To view help from the console, type '?'.[m
+[19:31:59] [Server thread/INFO]: [0;33;1m--------- [0;37;1mHelp: Index [0;33;1m---------------------------[m
+[19:31:59] [Server thread/INFO]: [0;37;22mUse /help [n] to get page n of help.[m
+[19:31:59] [Server thread/INFO]: [0;33;22mAliases: [0;37;1mLists command aliases[m
+[19:31:59] [Server thread/INFO]: [0;33;22mAutoRestart: [0;37;1mAll commands for AutoRestart[m
+[19:31:59] [Server thread/INFO]: [0;33;22mBukkit: [0;37;1mAll commands for Bukkit[m
+[19:31:59] [Server thread/INFO]: [0;33;22mChestShop: [0;37;1mAll commands for ChestShop[m
+[19:31:59] [Server thread/INFO]: [0;33;22mEssentials: [0;37;1mAll commands for Essentials[m
+[19:31:59] [Server thread/INFO]: [0;33;22mEssentialsSpawn: [0;37;1mAll commands for EssentialsSpawn[m
+[19:31:59] [Server thread/INFO]: [0;33;22mGriefPrevention: [0;37;1mAll commands for GriefPrevention[m
+[19:31:59] [Server thread/INFO]: [0;33;22mmcMMO: [0;37;1mAll commands for mcMMO[m
+[19:31:59] [Server thread/INFO]: [0;33;22mMinecraft: [0;37;1mAll commands for Minecraft[m
+[19:31:59] [Server thread/INFO]: [0;33;22mPermissionsEx: [0;37;1mAll commands for PermissionsEx[m
+[19:31:59] [Server thread/INFO]: [0;33;22mStargate: [0;37;1mAll commands for Stargate[m
+[19:31:59] [Server thread/INFO]: [0;33;22mVault: [0;37;1mAll commands for Vault[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/abandonallclaims: [0;37;1mDeletes ALL your claims.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/abandonclaim: [0;37;1mDeletes a claim.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/abandontoplevelclaim: [0;37;1mDeletes a claim and all its subdivisions.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/accesstrust: [0;37;1mGrants a player entry to your claim(s) and use of your bed.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/acrobatics: [0;37;1mDisplay detailed mcMMO skill info for Acrobatics[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/addlevels: [0;37;1mAdd mcMMO levels to a user[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/addxp: [0;37;1mAdd mcMMO XP to a user[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/adjustbonusclaimblocks: [0;37;1mAdds or subtracts bonus claim blocks for a player.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/adjustbonusclaimblocksall: [0;37;1mAdds or subtracts bonus claim blocks for all online players.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/adminchat: [0;37;1mToggle mcMMO admin chat on/off or send admin chat messages[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/adminclaims: [0;37;1mSwitches the shovel tool to administrative claims mode.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/adminclaimslist: [0;37;1mLists all administrative claims.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/advancement: [0;37;1mA Mojang provided command.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/afk: [0;37;1mMarks you as away-from-keyboard.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/alchemy: [0;37;1mDisplay detailed mcMMO skill info for Alchemy[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/antioch: [0;37;1mA little surprise for operators.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/archery: [0;37;1mDisplay detailed mcMMO skill info for Archery[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/autore: [0;37;1mMain AutoRestart command.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/axes: [0;37;1mDisplay detailed mcMMO skill info for Axes[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/back: [0;37;1mTeleports you to your location prior to tp/spawn/warp.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/backup: [0;37;1mRuns the backup if configured.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/balance: [0;37;1mStates the current balance of a player.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/balancetop: [0;37;1mGets the top balance values.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/ban: [0;37;1mBans a player.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/ban-ip: [0;37;1mA Mojang provided command.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/banip: [0;37;1mBans an IP address.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/banlist: [0;37;1mA Mojang provided command.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/basicclaims: [0;37;1mSwitches the shovel tool back to basic claims mode.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/bigtree: [0;37;1mSpawn a big tree where you are looking.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/book: [0;37;1mAllows reopening and editing of sealed books.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/bossbar: [0;37;1mA Mojang provided command.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/break: [0;37;1mBreaks the block you are looking at.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/broadcast: [0;37;1mBroadcasts a message to the entire server.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/broadcastworld: [0;37;1mBroadcasts a message to a world.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/bukkit:help: [0;37;1mShows the help menu[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/burn: [0;37;1mSet a player on fire.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/buyclaimblocks: [0;37;1mPurchases additional claim blocks with server money.  Doesn't work on servers without a Vault-compatible economy plugin.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/claim: [0;37;1mCreates a land claim centered at your current location.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/claimbook: [0;37;1mGives a player a manual about claiming land.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/claimexplosions: [0;37;1mToggles whether explosives may be used in a specific land claim.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/claimslist: [0;37;1mLists information about a player's claim blocks and claims.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/clearinventory: [0;37;1mClear all items in your inventory.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/clearinventoryconfirmtoggle: [0;37;1mToggles whether you are prompted to confirm inventory clears.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/clone: [0;37;1mA Mojang provided command.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/compass: [0;37;1mDescribes your current bearing.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/condense: [0;37;1mCondenses items into a more compact blocks.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/containertrust: [0;37;1mGrants a player access to your claim's containers, crops, animals, bed, buttons, and levers.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/createkit: [0;37;1mCreate a kit in game![m
+[19:31:59] [Server thread/INFO]: [0;33;22m/csgive: [0;37;1mGives an item to the appropriate player[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/cstoggle: [0;37;1mToggle messages to the owner of a shop[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/csversion: [0;37;1mShows the ChestShop's version[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/customtext: [0;37;1mAllows you to create custom text commands.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/data: [0;37;1mA Mojang provided command.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/datapack: [0;37;1mA Mojang provided command.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/debug: [0;37;1mA Mojang provided command.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/defaultgamemode: [0;37;1mA Mojang provided command.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/deletealladminclaims: [0;37;1mDeletes all administrative claims.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/deleteallclaims: [0;37;1mDeletes all of another player's claims.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/deleteclaim: [0;37;1mDeletes the claim you're standing in, even if it's not your claim.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/deleteclaimsinworld: [0;37;1mDeletes all the claims in a world.  Only usable at the server console.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/deleteuserclaimsinworld: [0;37;1mDeletes all the non-admin claims in a world.  Only usable at the server console.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/delhome: [0;37;1mDelete a home[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/deljail: [0;37;1mRemoves a jail.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/delspawn: [0;37;1mDeletes a spawn point[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/delwarp: [0;37;1mDeletes the specified warp.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/demote: [0;37;1mPermission ladder demotion command.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/deop: [0;37;1mA Mojang provided command.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/depth: [0;37;1mStates current depth, relative to sea level.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/difficulty: [0;37;1mA Mojang provided command.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/disposal: [0;37;1mOpens a portable disposal menu.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/eco: [0;37;1mManages the server economy.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/effect: [0;37;1mA Mojang provided command.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/enchant: [0;37;1mEnchants the item the user is holding.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/enderchest: [0;37;1mLets you see inside an enderchest.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/essentials: [0;37;1mReloads essentials.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/essentials:delhome: [0;37;1mRemoves a home.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/essentials:home: [0;37;1mTeleport to your home.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/essentials:repair: [0;37;1mRepairs the durability of one or all items.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/essentials:sethome: [0;37;1mSet your home to your current location.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/essentialsspawn:setspawn: [0;37;1mSets the spawn point to your current position.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/essentialsspawn:spawn: [0;37;1mTeleports to the spawn point.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/excavation: [0;37;1mDisplay detailed mcMMO skill info for Excavation[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/execute: [0;37;1mA Mojang provided command.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/exp: [0;37;1mGive, set or look at a players exp.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/experience: [0;37;1mA Mojang provided command.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/ext: [0;37;1mExtinguish players.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/extendclaim: [0;37;1mResizes the land claim you're standing in by pushing or pulling its boundary in the direction you're facing.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/feed: [0;37;1mSatisfy the hunger.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/fill: [0;37;1mA Mojang provided command.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/fireball: [0;37;1mThrow a fireball.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/firework: [0;37;1mAllows you to modify a stack of fireworks.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/fishing: [0;37;1mDisplay detailed mcMMO skill info for Fishing[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/fly: [0;37;1mTake off, and soar![m
+[19:31:59] [Server thread/INFO]: [0;33;22m/forceload: [0;37;1mA Mojang provided command.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/function: [0;37;1mA Mojang provided command.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/gamemode: [0;37;1mChange player gamemode.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/gamerule: [0;37;1mA Mojang provided command.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/gc: [0;37;1mReports memory, uptime and tick info.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/getpos: [0;37;1mGet your current coordinates or those of a player.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/give: [0;37;1mGive a player an item.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/givepet: [0;37;1mAllows a player to give away a pet he or she tamed.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/god: [0;37;1mEnables your godly powers.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/gpblockinfo: [0;37;1mAllows an administrator to get technical information about blocks in the world and items in hand.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/gpreload: [0;37;1mReloads Grief Prevention's configuration settings.  Does NOT totally reload the entire plugin.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/hardcore: [0;37;1mModify the mcMMO hardcore percentage or toggle hardcore mode on/off[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/hat: [0;37;1mGet some cool new headgear.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/heal: [0;37;1mHeals you or the given player.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/help: [0;37;1mViews a list of available commands.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/helpop: [0;37;1mMessage online admins.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/herbalism: [0;37;1mDisplay detailed mcMMO skill info for Herbalism[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/home: [0;37;1mTeleport to one of your homes[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/homelist: [0;37;1mShows the players current homes[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/homespawn: [0;37;1mPlugin information, help and player information[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/ignore: [0;37;1mIgnore or unignore other players.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/ignoreclaims: [0;37;1mToggles ignore claims mode.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/ignoredplayerlist: [0;37;1mLists the players you're ignoring in chat.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/ignoreplayer: [0;37;1mIgnores another player's chat messages.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/info: [0;37;1mShows information set by the server owner.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/inspect: [0;37;1mView detailed mcMMO info on another player[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/invsee: [0;37;1mSee the inventory of other players.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/item: [0;37;1mSpawn an item.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/itemdb: [0;37;1mSearches for an item.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/iteminfo: [0;37;1mLists item id and names[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/itemname: [0;37;1mNames an item.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/jails: [0;37;1mList all jails.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/jump: [0;37;1mJumps to the nearest block in the line of sight.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/kick: [0;37;1mKicks a specified player with a reason.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/kickall: [0;37;1mKicks all players off the server except the issuer.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/kill: [0;37;1mKills specified player.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/kit: [0;37;1mObtains the specified kit or views all available kits.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/kittycannon: [0;37;1mThrow an exploding kitten at your opponent.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/lightning: [0;37;1mThe power of Thor. Strike at cursor or player.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/list: [0;37;1mList all online players.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/locate: [0;37;1mA Mojang provided command.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/loot: [0;37;1mA Mojang provided command.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/mail: [0;37;1mManages inter-player, intra-server mail.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/mcability: [0;37;1mToggle mcMMO abilities being readied on right-click on/off[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/mcchatspy: [0;37;1mToggle mcMMO party chat spying on or off[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/mcconvert: [0;37;1mConverts database types or experience formula types[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/mccooldown: [0;37;1mView all of the mcMMO ability cooldowns[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/mcfools: [0;37;1mDeploy jokes[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/mcgod: [0;37;1mToggle mcMMO god-mode on/off[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/mcimport: [0;37;1mImport mod config files[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/mcmmo: [0;37;1mShow a brief description of mcMMO[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/mcmmoreloadlocale: [0;37;1mReloads locale[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/mcnotify: [0;37;1mToggle mcMMO abilities chat display notifications on/off[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/mcpurge: [0;37;1mPurge users with no mcMMO levels and users who have not connected in over 6 months from the mcMMO database.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/mcrank: [0;37;1mShow mcMMO ranking for a player[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/mcrefresh: [0;37;1mRefresh all cooldowns for mcMMO[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/mcremove: [0;37;1mRemove a user from the mcMMO database[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/mcscoreboard: [0;37;1mChange the current mcMMO scoreboard being displayed[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/mcstats: [0;37;1mShow your mcMMO levels and XP[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/mctop: [0;37;1mShow mcMMO leader boards[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/me: [0;37;1mDescribes an action in the context of the player.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/mhd: [0;37;1mResets all mob health bar settings for all players to the default[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/minecraft:ban: [0;37;1mA Mojang provided command.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/minecraft:clear: [0;37;1mA Mojang provided command.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/minecraft:enchant: [0;37;1mA Mojang provided command.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/minecraft:gamemode: [0;37;1mA Mojang provided command.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/minecraft:give: [0;37;1mA Mojang provided command.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/minecraft:help: [0;37;1mA Mojang provided command.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/minecraft:kick: [0;37;1mA Mojang provided command.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/minecraft:kill: [0;37;1mA Mojang provided command.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/minecraft:list: [0;37;1mA Mojang provided command.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/minecraft:me: [0;37;1mA Mojang provided command.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/minecraft:msg: [0;37;1mA Mojang provided command.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/minecraft:pardon: [0;37;1mA Mojang provided command.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/minecraft:recipe: [0;37;1mA Mojang provided command.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/minecraft:reload: [0;37;1mA Mojang provided command.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/minecraft:teleport: [0;37;1mA Mojang provided command.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/minecraft:tell: [0;37;1mA Mojang provided command.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/minecraft:time: [0;37;1mA Mojang provided command.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/minecraft:tp: [0;37;1mA Mojang provided command.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/minecraft:w: [0;37;1mA Mojang provided command.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/minecraft:weather: [0;37;1mA Mojang provided command.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/minecraft:xp: [0;37;1mA Mojang provided command.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/mining: [0;37;1mDisplay detailed mcMMO skill info for Mining[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/mmodebug: [0;37;1mToggle a debug mode which prints useful information when you hit blocks[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/mmoedit: [0;37;1mEdit mcMMO levels for a user[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/mmoinfo: [0;37;1mRead details about a skill or mechanic.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/mmoshowdb: [0;37;1mShow the name of the current database type (for later use with /mmoupdate)[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/more: [0;37;1mFills the item stack in hand to maximum size.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/motd: [0;37;1mViews the Message Of The Day.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/msg: [0;37;1mSends a private message to the specified player.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/msgtoggle: [0;37;1mBlocks receiving all private messages.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/mute: [0;37;1mMutes or unmutes a player.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/near: [0;37;1mLists the players near by or around a player.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/nick: [0;37;1mChange your nickname or that of another player.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/nuke: [0;37;1mMay death rain upon them.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/op: [0;37;1mA Mojang provided command.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/pardon-ip: [0;37;1mA Mojang provided command.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/particle: [0;37;1mA Mojang provided command.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/party: [0;37;1mControl various mcMMO party settings[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/partychat: [0;37;1mToggle mcMMO party chat on/off or send party chat messages[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/pay: [0;37;1mPays another player from your balance.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/payconfirmtoggle: [0;37;1mToggles whether you are prompted to confirm payments.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/paytoggle: [0;37;1mToggles whether you are accepting payments.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/permissiontrust: [0;37;1mGrants a player permission to grant his level of permission to others.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/pex: [0;37;1mProvides access to Permissions commands and information.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/ping: [0;37;1mPong![m
+[19:31:59] [Server thread/INFO]: [0;33;22m/playsound: [0;37;1mA Mojang provided command.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/plugins: [0;37;1mGets a list of plugins running on the server[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/potion: [0;37;1mAdds custom potion effects to a potion.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/powertool: [0;37;1mAssigns a command to the item in hand.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/powertooltoggle: [0;37;1mEnables or disables all current powertools.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/promote: [0;37;1mPermission ladder promotion command.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/ptime: [0;37;1mAdjust player's client time. Add @ prefix to fix.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/ptp: [0;37;1mTeleport to an mcMMO party member[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/publish: [0;37;1mA Mojang provided command.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/pweather: [0;37;1mAdjust a player's weather[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/r: [0;37;1mQuickly reply to the last player to message you.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/realname: [0;37;1mDisplays the username of a user based on nick.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/recipe: [0;37;1mDisplays how to craft items.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/reload: [0;37;1mReloads the server configuration and plugins[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/remove: [0;37;1mRemoves entities in your world.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/renamehome: [0;37;1mRename a home[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/repair: [0;37;1mDisplay detailed mcMMO skill info for Repair[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/replaceitem: [0;37;1mA Mojang provided command.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/restart: [0;37;1mRestarts the server[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/restorenature: [0;37;1mSwitches the shovel tool to restoration mode.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/restorenatureaggressive: [0;37;1mSwitches the shovel tool to aggressive restoration mode.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/restorenaturefill: [0;37;1mSwitches the shovel tool to fill mode.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/restrictsubclaim: [0;37;1mRestricts a subclaim, so that it inherits no permissions from the parent claim[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/rtoggle: [0;37;1mChange whether the recipient of the reply is last recipient or last sender[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/rules: [0;37;1mViews the server rules.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/salvage: [0;37;1mDisplay detailed mcMMO skill info for Salvage[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/save-all: [0;37;1mA Mojang provided command.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/save-off: [0;37;1mA Mojang provided command.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/save-on: [0;37;1mA Mojang provided command.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/say: [0;37;1mA Mojang provided command.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/schedule: [0;37;1mA Mojang provided command.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/scoreboard: [0;37;1mA Mojang provided command.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/seed: [0;37;1mA Mojang provided command.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/seen: [0;37;1mShows the last logout time of a player.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/sell: [0;37;1mSells the item currently in your hand.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/sellclaimblocks: [0;37;1mSells your claim blocks for server money.  Doesn't work on servers without a Vault-compatible economy plugin.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/separate: [0;37;1mForces two players to ignore each other in chat.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/setaccruedclaimblocks: [0;37;1mUpdates a player's accrued claim block total.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/setblock: [0;37;1mA Mojang provided command.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/sethome: [0;37;1mSets a home at your current location[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/setidletimeout: [0;37;1mA Mojang provided command.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/setjail: [0;37;1mCreates a jail where you specified named [jailname].[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/setspawn: [0;37;1mSet the location for /spawn[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/setwarp: [0;37;1mCreates a new warp.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/setworldspawn: [0;37;1mA Mojang provided command.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/setworth: [0;37;1mSet the sell value of an item.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/sg: [0;37;1mUsed to reload the plugin. Console use only.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/showkit: [0;37;1mShow contents of a kit.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/siege: [0;37;1mInitiates a siege versus another player.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/skillreset: [0;37;1mReset mcMMO levels for a user[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/skin: [0;37;1m[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/skins: [0;37;1m[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/skinsrestorer: [0;37;1m[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/skull: [0;37;1mSet the owner of a player skull[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/smelting: [0;37;1mDisplay detailed mcMMO skill info for Smelting[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/socialspy: [0;37;1mToggles if you can see msg/mail commands in chat.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/softmute: [0;37;1mToggles whether a player's messages will only reach other soft-muted players.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/spawn: [0;37;1mTeleport to the preset spawn location[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/spawner: [0;37;1mChange the mob type of a spawner.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/spawnmob: [0;37;1mSpawns a mob.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/spawnpoint: [0;37;1mA Mojang provided command.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/speed: [0;37;1mChange your speed limits.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/spigot: [0;37;1mSpigot related commands[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/spreadplayers: [0;37;1mA Mojang provided command.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/sr: [0;37;1m[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/stop: [0;37;1mA Mojang provided command.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/stopsound: [0;37;1mA Mojang provided command.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/subdivideclaims: [0;37;1mSwitches the shovel tool to subdivision mode, used to subdivide your claims.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/sudo: [0;37;1mMake another user perform a command.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/suicide: [0;37;1mCauses you to perish.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/summon: [0;37;1mA Mojang provided command.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/swords: [0;37;1mDisplay detailed mcMMO skill info for Swords[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/tag: [0;37;1mA Mojang provided command.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/taming: [0;37;1mDisplay detailed mcMMO skill info for Taming[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/team: [0;37;1mA Mojang provided command.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/teammsg: [0;37;1mA Mojang provided command.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/tellraw: [0;37;1mA Mojang provided command.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/tempban: [0;37;1mTemporary ban a user.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/thunder: [0;37;1mEnable/disable thunder.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/time: [0;37;1mDisplay/Change the world time. Defaults to current world.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/timings: [0;37;1mManages Spigot Timings data to see performance of the server.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/title: [0;37;1mA Mojang provided command.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/tm: [0;37;1mA Mojang provided command.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/togglejail: [0;37;1mJails/Unjails a player, TPs them to the jail specified.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/top: [0;37;1mTeleport to the highest block at your current position.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/tp: [0;37;1mTeleport to a player.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/tpa: [0;37;1mRequest to teleport to the specified player.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/tpaall: [0;37;1mRequests all players online to teleport to you.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/tpacancel: [0;37;1mCancel all outstanding teleport requests. Specify [player] to cancel requests with them.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/tpaccept: [0;37;1mAccepts a teleport request.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/tpahere: [0;37;1mRequest that the specified player teleport to you.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/tpall: [0;37;1mTeleport all online players to another player.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/tpauto: [0;37;1mAutomatically accept teleportation requests.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/tpdeny: [0;37;1mReject a teleport request.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/tphere: [0;37;1mTeleport a player to you.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/tpo: [0;37;1mTeleport override for tptoggle.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/tpohere: [0;37;1mTeleport here override for tptoggle.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/tppos: [0;37;1mTeleport to coordinates.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/tps: [0;37;1mGets the current ticks per second for the server[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/tptoggle: [0;37;1mBlocks all forms of teleportation.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/transferclaim: [0;37;1mConverts an administrative claim to a private claim.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/trapped: [0;37;1mEjects you to nearby unclaimed land.  Has a substantial cooldown period.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/tree: [0;37;1mSpawn a tree where you are looking.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/trigger: [0;37;1mA Mojang provided command.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/trust: [0;37;1mGrants a player full access to your claim(s).[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/trustlist: [0;37;1mLists permissions for the claim you're standing in.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/unarmed: [0;37;1mDisplay detailed mcMMO skill info for Unarmed[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/unban: [0;37;1mUnbans the specified player.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/unbanip: [0;37;1mUnbans the specified IP address.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/unignoreplayer: [0;37;1mUnignores another player's chat messages.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/unlimited: [0;37;1mAllows the unlimited placing of items.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/unlockdrops: [0;37;1mAllows other players to pick up the items you dropped when you died.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/unseparate: [0;37;1mReverses /separate.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/untrust: [0;37;1mRevokes a player's access to your claim(s).[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/vampirism: [0;37;1mModify the mcMMO vampirism percentage or toggle vampirism mode on/off[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/vanish: [0;37;1mHide yourself from other players.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/vault-convert: [0;37;1mConverts all data in economy1 and dumps it into economy2[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/vault-info: [0;37;1mDisplays information about Vault[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/version: [0;37;1mGets the version of this server including any plugins in use[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/warp: [0;37;1mList all warps or warp to the specified location.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/weather: [0;37;1mSets the weather.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/whitelist: [0;37;1mA Mojang provided command.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/whois: [0;37;1mDetermine the username behind a nickname.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/woodcutting: [0;37;1mDisplay detailed mcMMO skill info for Woodcutting[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/workbench: [0;37;1mOpens up a workbench.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/world: [0;37;1mSwitch between worlds.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/worldborder: [0;37;1mA Mojang provided command.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/worth: [0;37;1mCalculates the worth of items in hand or as specified.[m
+[19:31:59] [Server thread/INFO]: [0;33;22m/xprate: [0;37;1mModify the mcMMO XP rate or start an mcMMO XP event[m
+[19:32:20] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[19:32:31] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[19:32:34] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[19:32:44] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[19:32:52] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[19:32:54] [Server thread/INFO]: [PermissionsEx] version [1.23.4][m
+[19:32:54] [Server thread/INFO]: Usage:[m
+[19:32:54] [Server thread/INFO]: /pex - Display help[m
+[19:32:54] [Server thread/INFO]: /pex reload - Reload environment[m
+[19:32:54] [Server thread/INFO]: /pex report - Report an issue with PEX[m
+[19:32:54] [Server thread/INFO]: /pex config <node> [value] - Print or set <node> [value][m
+[19:32:54] [Server thread/INFO]: /pex backend - Print currently used backend[m
+[19:32:54] [Server thread/INFO]: /pex backend <backend> - Change permission backend on the fly (Use with caution!)[m
+[19:32:54] [Server thread/INFO]: /pex hierarchy [world] - Print complete user/group hierarchy[m
+[19:32:54] [Server thread/INFO]: /pex import <backend> - Import data from <backend> into currently selected backend[m
+[19:32:54] [Server thread/INFO]: /pex convert uuid - Bulk convert user data to UUID-based storage[m
+[19:32:54] [Server thread/INFO]: /pex toggle debug - Enable/disable debug mode[m
+[19:32:54] [Server thread/INFO]: /pex help [page] [count] - PermissionsEx commands help[m
+[19:32:54] [Server thread/INFO]: /pex users list - List all registered users[m
+[19:32:54] [Server thread/INFO]: /pex users - List all registered users (alias)[m
+[19:32:54] [Server thread/INFO]: /pex user - List all registered users (alias)[m
+[19:32:54] [Server thread/INFO]: /pex user <user> - List user permissions (list alias)[m
+[19:32:54] [Server thread/INFO]: /pex user <user> list [world] - List user permissions[m
+[19:32:54] [Server thread/INFO]: /pex user <user> superperms - List user actual superperms[m
+[19:32:54] [Server thread/INFO]: /pex user <user> prefix [newprefix] [world] - Get or set <user> prefix[m
+[19:32:54] [Server thread/INFO]: /pex user <user> suffix [newsuffix] [world] - Get or set <user> suffix[m
+[19:32:54] [Server thread/INFO]: /pex user <user> toggle debug - Toggle debug only for <user>[m
+[19:32:54] [Server thread/INFO]: /pex user <user> check <permission> [world] - Checks player for <permission>[m
+[19:32:54] [Server thread/INFO]: /pex user <user> get <option> [world] - Toggle debug only for <user>[m
+[19:32:54] [Server thread/INFO]: /pex user <user> delete - Remove <user>[m
+[19:32:54] [Server thread/INFO]: /pex user <user> add <permission> [world] - Add <permission> to <user> in [world][m
+[19:32:54] [Server thread/INFO]: /pex user <user> remove <permission> [world] - Remove permission from <user> in [world][m
+[19:32:54] [Server thread/INFO]: /pex user <user> swap <permission> <targetPermission> [world] - Swap <permission> and <targetPermission> in permission list. Could be number or permission itself[m
+[19:32:54] [Server thread/INFO]: /pex user <user> timed add <permission> [lifetime] [world] - Add timed <permissions> to <user> for [lifetime] seconds in [world][m
+[19:32:54] [Server thread/INFO]: /pex user <user> timed remove <permission> [world] - Remove timed <permission> from <user> in [world][m
+[19:32:54] [Server thread/INFO]: /pex user <user> set <option> <value> [world] - Set <option> to <value> in [world][m
+[19:32:54] [Server thread/INFO]: /pex user <user> group list [world] - List all <user> groups[m
+[19:32:54] [Server thread/INFO]: /pex user <user> group add <group> [world] [lifetime] - Add <user> to <group>[m
+[19:32:54] [Server thread/INFO]: /pex user <user> group set <group> [world] - Set <group> for <user>[m
+[19:32:54] [Server thread/INFO]: /pex user <user> group remove <group> [world] - Remove <user> from <group>[m
+[19:32:54] [Server thread/INFO]: /pex users cleanup <group> [threshold] - Clean users of specified group, which last login was before threshold (in days). By default threshold is 30 days.[m
+[19:32:54] [Server thread/INFO]: /pex group <group> swap <permission> <targetPermission> [world] - Swap <permission> and <targetPermission> in permission list. Could be number or permission itself[m
+[19:32:54] [Server thread/INFO]: /pex groups list [world] - List all registered groups[m
+[19:32:54] [Server thread/INFO]: /pex groups - List all registered groups (alias)[m
+[19:32:54] [Server thread/INFO]: /pex group - List all registered groups (alias)[m
+[19:32:54] [Server thread/INFO]: /pex group <group> weight [weight] - Print or set group weight[m
+[19:32:54] [Server thread/INFO]: /pex group <group> toggle debug - Toggle debug mode for group[m
+[19:32:54] [Server thread/INFO]: /pex group <group> prefix [newprefix] [world] - Get or set <group> prefix.[m
+[19:32:54] [Server thread/INFO]: /pex group <group> suffix [newsuffix] [world] - Get or set <group> suffix[m
+[19:32:54] [Server thread/INFO]: /pex group <group> create [parents] - Create <group> and/or set [parents][m
+[19:32:54] [Server thread/INFO]: /pex group <group> delete - Remove <group>[m
+[19:32:54] [Server thread/INFO]: /pex group <group> parents [world] - List parents for <group> (alias)[m
+[19:32:54] [Server thread/INFO]: /pex group <group> parents list [world] - List parents for <group>[m
+[19:32:54] [Server thread/INFO]: /pex group <group> parents set <parents> [world] - Set parent(s) for <group> (single or comma-separated list)[m
+[19:32:54] [Server thread/INFO]: /pex group <group> parents add <parents> [world] - Set parent(s) for <group> (single or comma-separated list)[m
+[19:32:54] [Server thread/INFO]: /pex group <group> parents remove <parents> [world] - Set parent(s) for <group> (single or comma-separated list)[m
+[19:32:54] [Server thread/INFO]: /pex group <group> - List all <group> permissions (alias)[m
+[19:32:54] [Server thread/INFO]: /pex group <group> list [world] - List all <group> permissions in [world][m
+[19:32:54] [Server thread/INFO]: /pex group <group> add <permission> [world] - Add <permission> to <group> in [world][m
+[19:32:54] [Server thread/INFO]: /pex group <group> set <option> <value> [world] - Set <option> <value> for <group> in [world][m
+[19:32:54] [Server thread/INFO]: /pex group <group> remove <permission> [world] - Remove <permission> from <group> in [world][m
+[19:32:54] [Server thread/INFO]: /pex group <group> timed add <permission> [lifetime] [world] - Add timed <permission> to <group> with [lifetime] in [world][m
+[19:32:54] [Server thread/INFO]: /pex group <group> timed remove <permission> [world] - Remove timed <permissions> for <group> in [world][m
+[19:32:54] [Server thread/INFO]: /pex group <group> users - List all users in <group>[m
+[19:32:54] [Server thread/INFO]: /pex group <group> user add <user> [world] - Add <user> (single or comma-separated list) to <group>[m
+[19:32:54] [Server thread/INFO]: /pex group <group> user remove <user> [world] - Add <user> (single or comma-separated list) to <group>[m
+[19:32:54] [Server thread/INFO]: /pex default group [world] - Print default groups for specified world[m
+[19:32:54] [Server thread/INFO]: /pex set default group <group> <value> [world] - Set whether a group is default for specified worlds[m
+[19:32:54] [Server thread/INFO]: /pex group <group> rank [rank] [ladder] - Get or set <group> [rank] [ladder][m
+[19:32:54] [Server thread/INFO]: /pex promote <user> [ladder] - Promotes <user> to next group on [ladder][m
+[19:32:54] [Server thread/INFO]: /pex demote <user> [ladder] - Demotes <user> to previous group or [ladder][m
+[19:32:54] [Server thread/INFO]: /pex worlds - Print loaded worlds[m
+[19:32:54] [Server thread/INFO]: /pex world <world> - Print <world> inheritance info[m
+[19:32:54] [Server thread/INFO]: /pex world <world> inherit <parentWorlds> - Set <parentWorlds> for <world>[m
+[19:33:04] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
+[19:33:04] [Server thread/INFO]: [0;37;1mPermissions reloaded[m
+[19:33:17] [Server thread/INFO]: Kobeboy15 issued server command: /stargate:sg
+[19:33:33] [Server thread/INFO]: Kobeboy15 issued server command: /sg reload
+[19:33:33] [Server thread/INFO]: [Stargate] Loaded 1 gate layouts
+[19:33:33] [Server thread/INFO]: [Stargate] {world} No stargates for world 
+[19:33:33] [Server thread/INFO]: [Stargate] {world_nether} No stargates for world 
+[19:33:33] [Server thread/INFO]: [Stargate] {world_the_end} No stargates for world 
+[19:34:27] [Server thread/INFO]: [GriefPrevention] Kobeboy15 placed a sign @ world: x714, z126;--Spawn--
+[19:35:04] [Server thread/INFO]: Kobeboy15 issued server command: /pex reload
+[19:35:04] [Server thread/WARN]: [PermissionsEx] User Kobeboy15 tried to access chat command "pex reload", but doesn't have permission to do this.
+[19:35:31] [Server thread/INFO]: Kobeboy15 issued server command: /permissionsex:promote Kobeboy15
+[19:35:31] [Server thread/WARN]: [PermissionsEx] User Kobeboy15 tried to access chat command "promote Kobeboy15", but doesn't have permission to do this.
+[19:39:35] [Server thread/INFO]: [GriefPrevention] Kobeboy15 placed a sign @ world: x714, z126;::DHD::;TEST GATE;testnet
+[19:39:59] [Server thread/INFO]: [GriefPrevention] Kobeboy15 placed a sign @ world: x706, z156;::DHD::;TEST GATE 2;testnet
+[19:41:10] [Server thread/INFO]: Kobeboy15 issued server command: /plugins reload
+[19:41:21] [Server thread/INFO]: Kobeboy15 issued server command: /sg
+[19:41:26] [Server thread/INFO]: Kobeboy15 issued server command: /sg reload
+[19:41:26] [Server thread/INFO]: [Stargate] Loaded 1 gate layouts
+[19:41:26] [Server thread/INFO]: [Stargate] {world} No stargates for world 
+[19:41:26] [Server thread/INFO]: [Stargate] {world_nether} No stargates for world 
+[19:41:26] [Server thread/INFO]: [Stargate] {world_the_end} No stargates for world 
+[19:41:29] [Server thread/INFO]: Kobeboy15 issued server command: /sg create
+[19:41:42] [Server thread/INFO]: [Stargate] Loaded 1 gate layouts
+[19:41:42] [Server thread/INFO]: [Stargate] {world} No stargates for world 
+[19:41:42] [Server thread/INFO]: [Stargate] {world_nether} No stargates for world 
+[19:41:42] [Server thread/INFO]: [Stargate] {world_the_end} No stargates for world 
+[19:41:42] [Server thread/INFO]: [0;31;1m[Stargate] [0;37;1mStargate reloaded[m
+[19:42:07] [Server thread/INFO]: Kobeboy15 issued server command: /sg
+[19:42:30] [Server thread/INFO]: [GriefPrevention] Kobeboy15 placed a sign @ world: x714, z126;::DHD::;TEST 1;network1
+[19:42:45] [Server thread/INFO]: [GriefPrevention] Kobeboy15 placed a sign @ world: x706, z156;::DHD::;TEST 2;network1
+[19:43:07] [Server thread/INFO]: [Stargate] Loaded 1 gate layouts
+[19:43:07] [Server thread/INFO]: [Stargate] {world} No stargates for world 
+[19:43:07] [Server thread/INFO]: [Stargate] {world_nether} No stargates for world 
+[19:43:07] [Server thread/INFO]: [Stargate] {world_the_end} No stargates for world 
+[19:43:07] [Server thread/INFO]: [0;31;1m[Stargate] [0;37;1mStargate reloaded[m
+[19:43:16] [Server thread/INFO]: /sg reload - Used to reload the plugin. Console use only.[m
+[19:43:19] [Server thread/INFO]: /sg reload - Used to reload the plugin. Console use only.[m
+[19:43:27] [Server thread/INFO]: /stargate:sg reload - Used to reload the plugin. Console use only.[m
+[19:44:14] [User Authenticator #27/INFO]: UUID of player Johann is f160dbef-552f-3b70-af9a-129d0ff0c675
+[19:44:14] [Server thread/INFO]: Johann[/0:0:0:0:0:0:0:1:54521] logged in with entity id 60502 at ([world]695.5579822999334, 70.0, -180.33885616329795)
+[19:44:14] [Server thread/INFO]: [0;33;1mJohann has joined the game.[m
+[19:44:39] [Server thread/INFO]: Johann lost connection: Timed out
+[19:44:39] [Server thread/INFO]: Johann has left the game.
+[19:45:26] [User Authenticator #28/INFO]: UUID of player Johann is f160dbef-552f-3b70-af9a-129d0ff0c675
+[19:45:26] [Server thread/INFO]: Johann[/0:0:0:0:0:0:0:1:54526] logged in with entity id 61358 at ([world]695.5579822999334, 70.0, -180.33885616329795)
+[19:45:26] [Server thread/INFO]: [0;33;1mJohann has joined the game.[m
+[19:45:35] [Server thread/WARN]: Jhor moved wrongly!
+[19:46:36] [Server thread/INFO]: Jhor issued server command: /home
+[19:46:45] [Server thread/INFO]: Jhor issued server command: /home exp
+[19:46:48] [Server thread/INFO]: Jhor issued server command: /home
+[19:47:28] [Server thread/INFO]: Kobeboy15 lost connection: Disconnected
+[19:47:28] [Server thread/INFO]: Kobeboy15 has left the game.
+[19:48:44] [Server thread/INFO]: Jhor issued server command: /mcrank
+[19:50:43] [User Authenticator #29/INFO]: UUID of player arcosanti is a9e52362-e903-3089-8f30-1e5a3b7d754a
+[19:50:44] [Server thread/INFO]: arcosanti[/0:0:0:0:0:0:0:1:54532] logged in with entity id 63452 at ([world]792.7362437253595, 70.0, -0.4774553585044438)
+[19:50:44] [Server thread/INFO]: [0;33;1marcosanti has joined the game.[m
+[19:51:15] [Server thread/WARN]: arcosanti moved wrongly!
+[19:51:44] [Async Chat Thread - #11/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> kobe pls stop[m
+[19:51:52] [Async Chat Thread - #11/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> ?[m
+[19:52:02] [Async Chat Thread - #11/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> things glitching[m
+[19:52:10] [Async Chat Thread - #11/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> i think kobes doing some stuff hahahah[m
+[19:52:17] [Async Chat Thread - #11/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> last time this happened it was kobe[m
+[19:52:24] [Async Chat Thread - #11/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> aah hahaha[m
+[19:52:25] [Server thread/INFO]: arcosanti issued server command: /home
+[19:56:59] [Server thread/INFO]: Jhor issued server command: /home
+[19:57:44] [Server thread/INFO]: arcosanti issued server command: /home
+[20:00:15] [User Authenticator #30/INFO]: UUID of player crystalgem is f321cff2-0750-3ba1-98af-66006fbafb2e
+[20:00:15] [Server thread/INFO]: crystalgem[/0:0:0:0:0:0:0:1:54540] logged in with entity id 67242 at ([world]663.4899817964629, 85.0, -178.7723050455634)
+[20:00:15] [Server thread/INFO]: [0;33;1mcrystalgem has joined the game.[m
+[20:02:35] [Server thread/INFO]: Jhor issued server command: /home
+[20:02:47] [Server thread/INFO]: Jhor issued server command: /home
+[20:03:52] [Server thread/INFO]: Jhor issued server command: /home
+[20:05:12] [Server thread/INFO]: arcosanti issued server command: /home
+[20:06:54] [Server thread/INFO]: Jhor issued server command: /alchemy
+[20:09:04] [Async Chat Thread - #12/INFO]: [m[0;33;1m[User] [0;33;1m[User] crystalgem[m [0;36;1m> tpa Johann[m
+[20:09:10] [Server thread/INFO]: crystalgem issued server command: /tpa Johann
+[20:09:13] [Server thread/INFO]: Johann issued server command: /tpaccept
+[20:09:28] [Server thread/INFO]: Jhor issued server command: /mctop Alchemy
+[20:09:38] [Server thread/INFO]: Jhor issued server command: /home
+[20:10:49] [Server thread/WARN]: Jhor moved too quickly! 12.127053651244069,-16.4651558036295,5.813653905823415
+[20:11:42] [Server thread/INFO]: Jhor issued server command: /home
+[20:12:47] [Server thread/INFO]: Jhor issued server command: /home
+[20:12:52] [Server thread/INFO]: Johann issued server command: /warp sop
+[20:12:55] [Server thread/INFO]: Johann issued server command: /warp shop
+[20:13:05] [Server thread/INFO]: [ChestShop] Johann sold 10 Polished Andesite for 90.00 to Admin Shop at [world] 284, 48, 305
+[20:13:05] [Server thread/INFO]: [ChestShop] Johann sold 10 Polished Andesite for 90.00 to Admin Shop at [world] 284, 48, 305
+[20:13:06] [Server thread/INFO]: [ChestShop] Johann sold 10 Polished Andesite for 90.00 to Admin Shop at [world] 284, 48, 305
+[20:13:06] [Server thread/INFO]: [ChestShop] Johann sold 2 Polished Andesite for 18.00 to Admin Shop at [world] 284, 48, 305
+[20:13:16] [Server thread/INFO]: Johann issued server command: /ba;
+[20:13:19] [Server thread/INFO]: Johann issued server command: /bal
+[20:13:46] [Server thread/INFO]: Johann issued server command: /home
+[20:13:53] [Server thread/INFO]: arcosanti issued server command: /home
+[20:13:54] [Server thread/INFO]: Jhor issued server command: /home
+[20:15:21] [Server thread/INFO]: Jhor lost connection: Disconnected
+[20:15:21] [Server thread/INFO]: Jhor has left the game.
+[20:15:22] [User Authenticator #31/INFO]: UUID of player Jhor is 82f182b3-716a-3898-ae1d-76f70444a8a2
+[20:15:23] [Server thread/INFO]: Jhor[/0:0:0:0:0:0:0:1:54548] logged in with entity id 72414 at ([world]385.61700249855795, 62.82090879970819, 67.26420680829014)
+[20:15:23] [Server thread/INFO]: [0;33;1mJhor has joined the game.[m
+[20:15:51] [Server thread/INFO]: Jhor issued server command: /home
+[20:16:35] [Server thread/INFO]: Jhor issued server command: /home
+[20:17:11] [Server thread/INFO]: Johann issued server command: /
+[20:17:13] [Server thread/INFO]: Johann lost connection: Disconnected
+[20:17:13] [Server thread/INFO]: Johann has left the game.
+[20:17:19] [Server thread/INFO]: Jhor issued server command: /home
+[20:17:51] [Server thread/INFO]: Jhor issued server command: /home
+[20:18:18] [Server thread/INFO]: Jhor issued server command: /mcrank
+[20:18:36] [Server thread/INFO]: Jhor issued server command: /mctop Unarmed
+[20:25:28] [Server thread/INFO]: arcosanti lost connection: Disconnected
+[20:25:28] [Server thread/INFO]: arcosanti has left the game.
+[20:27:32] [Server thread/INFO]: Jhor issued server command: /mcrank
+[20:27:45] [Server thread/INFO]: Jhor issued server command: /mctop Alchemy
+[20:27:52] [Server thread/INFO]: Jhor issued server command: /alchemy
+[20:27:59] [Server thread/INFO]: Jhor lost connection: Disconnected
+[20:27:59] [Server thread/INFO]: Jhor has left the game.
+[20:28:01] [User Authenticator #32/INFO]: UUID of player Jhor is 82f182b3-716a-3898-ae1d-76f70444a8a2
+[20:28:02] [Server thread/INFO]: Jhor[/0:0:0:0:0:0:0:1:54562] logged in with entity id 73895 at ([world]448.0848309593224, 79.0, 89.83251430199114)
+[20:28:02] [Server thread/INFO]: [0;33;1mJhor has joined the game.[m
+[20:28:06] [Server thread/INFO]: Jhor issued server command: /mcrank
+[20:28:29] [Server thread/INFO]: Jhor lost connection: Disconnected
+[20:28:29] [Server thread/INFO]: Jhor has left the game.
+[20:43:00] [User Authenticator #33/INFO]: UUID of player arcosanti is a9e52362-e903-3089-8f30-1e5a3b7d754a
+[20:43:00] [Server thread/INFO]: arcosanti[/0:0:0:0:0:0:0:1:54572] logged in with entity id 74527 at ([world]498.3102397354377, 66.0, 162.64042794705824)
+[20:43:00] [Server thread/INFO]: [0;33;1marcosanti has joined the game.[m
+[20:44:58] [Server thread/INFO]: arcosanti issued server command: /home
+[20:45:48] [Server thread/WARN]: arcosanti moved too quickly! -5.918367156388513,2.024424088213692,-8.036912222846155
+[20:46:44] [Async Chat Thread - #13/INFO]: [m[0;33;1m[User] [0;33;1m[User] crystalgem[m [0;36;1m> is it possible to make something like a flower pot?[m
+[20:46:55] [Async Chat Thread - #13/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> yeah[m
+[20:47:03] [Async Chat Thread - #13/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> a literal flower pot hahaha[m
+[20:47:09] [Async Chat Thread - #13/INFO]: [m[0;33;1m[User] [0;33;1m[User] crystalgem[m [0;36;1m> oh cool[m
+[20:47:13] [Async Chat Thread - #13/INFO]: [m[0;33;1m[User] [0;33;1m[User] crystalgem[m [0;36;1m> how do you make one?[m
+[20:47:16] [Async Chat Thread - #13/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> get clay and smelt it to get bricks[m
+[20:47:27] [Async Chat Thread - #13/INFO]: [m[0;33;1m[User] [0;33;1m[User] crystalgem[m [0;36;1m> i have bricks na :)[m
+[20:47:30] [Async Chat Thread - #13/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> oooh[m
+[20:47:33] [Async Chat Thread - #13/INFO]: [m[0;33;1m[User] [0;33;1m[User] crystalgem[m [0;36;1m> what next?[m
+[20:47:38] [Async Chat Thread - #13/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> you know how to make a bucket?[m
+[20:47:46] [Async Chat Thread - #13/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> do that with bricks[m
+[20:47:47] [Async Chat Thread - #13/INFO]: [m[0;33;1m[User] [0;33;1m[User] crystalgem[m [0;36;1m> yup[m
+[20:47:59] [Async Chat Thread - #13/INFO]: [m[0;33;1m[User] [0;33;1m[User] crystalgem[m [0;36;1m> okayyy thank you joaquin! :)[m
+[20:48:11] [Async Chat Thread - #13/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> hahaha np np[m
+[20:49:36] [Async Chat Thread - #14/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> brb[m
+[20:49:37] [Server thread/INFO]: arcosanti lost connection: Disconnected
+[20:49:37] [Server thread/INFO]: arcosanti has left the game.
+[21:15:09] [Server thread/INFO]: crystalgem lost connection: Disconnected
+[21:15:09] [Server thread/INFO]: crystalgem has left the game.
+[21:23:20] [User Authenticator #34/INFO]: UUID of player crystalgem is f321cff2-0750-3ba1-98af-66006fbafb2e
+[21:23:20] [Server thread/INFO]: crystalgem[/0:0:0:0:0:0:0:1:54599] logged in with entity id 77365 at ([world]663.3060289106187, 85.0, -178.7101910367181)
+[21:23:20] [Server thread/INFO]: [0;33;1mcrystalgem has joined the game.[m
+[21:24:13] [Server thread/INFO]: crystalgem lost connection: Disconnected
+[21:24:13] [Server thread/INFO]: crystalgem has left the game.
+[21:26:38] [User Authenticator #35/INFO]: UUID of player crystalgem is f321cff2-0750-3ba1-98af-66006fbafb2e
+[21:26:38] [Server thread/INFO]: crystalgem[/0:0:0:0:0:0:0:1:54604] logged in with entity id 77871 at ([world]662.5933215465004, 85.0, -177.97965671492423)
+[21:26:38] [Server thread/INFO]: [0;33;1mcrystalgem has joined the game.[m
+[21:30:19] [User Authenticator #36/INFO]: UUID of player Johann is f160dbef-552f-3b70-af9a-129d0ff0c675
+[21:30:20] [Server thread/INFO]: Johann[/0:0:0:0:0:0:0:1:54610] logged in with entity id 78483 at ([world]749.6999999880791, 86.0, -181.79604832606125)
+[21:30:20] [Server thread/INFO]: [0;33;1mJohann has joined the game.[m
+[21:30:40] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] crystalgem[m [0;36;1m> han[m
+[21:30:44] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> lets kill em[m
+[21:30:44] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] crystalgem[m [0;36;1m> im in ur house[m
+[21:30:50] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] crystalgem[m [0;36;1m> okay[m
+[21:31:44] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] crystalgem[m [0;36;1m> yay[m
+[21:31:44] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> i believe the bandit threat is over[m
+[21:31:47] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] crystalgem[m [0;36;1m> thank you[m
+[21:31:56] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] crystalgem[m [0;36;1m> my shoot rank is lvl 1 now[m
+[21:31:56] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> ill go study now[m
+[21:31:59] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] crystalgem[m [0;36;1m> hahahaha[m
+[21:31:59] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> hahahhah[m
+[21:32:02] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> "shoot rank"[m
+[21:32:29] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] crystalgem[m [0;36;1m> thank you Han[m
+[21:32:35] [Async Chat Thread - #15/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> np :)[m
+[21:32:40] [Server thread/INFO]: Johann lost connection: Disconnected
+[21:32:40] [Server thread/INFO]: Johann has left the game.
+[21:33:35] [User Authenticator #37/INFO]: UUID of player lolo_lola_69 is 646085da-be96-308b-8634-fb8b260022a5
+[21:33:36] [Server thread/INFO]: lolo_lola_69[/0:0:0:0:0:0:0:1:54613] logged in with entity id 78806 at ([world]743.1264341918973, 72.0, -57.38694272454515)
+[21:33:36] [Server thread/INFO]: [0;33;1mlolo_lola_69 has joined the game.[m
+[21:38:19] [Server thread/INFO]: crystalgem issued server command: /home
+[21:38:23] [Server thread/INFO]: lolo_lola_69 lost connection: Disconnected
+[21:38:23] [Server thread/INFO]: lolo_lola_69 has left the game.
+[21:38:31] [Server thread/INFO]: crystalgem lost connection: Disconnected
+[21:38:31] [Server thread/INFO]: crystalgem has left the game.
+[21:38:41] [User Authenticator #38/INFO]: UUID of player crystalgem is f321cff2-0750-3ba1-98af-66006fbafb2e
+[21:38:42] [Server thread/INFO]: crystalgem[/0:0:0:0:0:0:0:1:54618] logged in with entity id 79836 at ([world]666.2816371257134, 78.0, -177.33106646193409)
+[21:38:42] [Server thread/INFO]: [0;33;1mcrystalgem has joined the game.[m
+[21:45:27] [User Authenticator #39/INFO]: UUID of player arcosanti is a9e52362-e903-3089-8f30-1e5a3b7d754a
+[21:45:27] [Server thread/INFO]: arcosanti[/0:0:0:0:0:0:0:1:54627] logged in with entity id 80521 at ([world]832.1167706968157, 98.0, 73.91302584396841)
+[21:45:27] [Server thread/INFO]: [0;33;1marcosanti has joined the game.[m
+[22:05:02] [Server thread/WARN]: arcosanti moved too quickly! 15.235681965716708,-4.682102637598035,22.319146443364232
+[22:09:56] [Server thread/INFO]: arcosanti lost connection: Disconnected
+[22:09:56] [Server thread/INFO]: arcosanti has left the game.
+[22:13:57] [User Authenticator #40/INFO]: UUID of player lolo_lola_69 is 646085da-be96-308b-8634-fb8b260022a5
+[22:13:57] [Server thread/INFO]: lolo_lola_69[/0:0:0:0:0:0:0:1:54646] logged in with entity id 87313 at ([world]773.9574791803927, 64.9375, -461.9670686392084)
+[22:13:57] [Server thread/INFO]: [0;33;1mlolo_lola_69 has joined the game.[m
+[22:14:26] [Server thread/INFO]: crystalgem lost connection: Disconnected
+[22:14:26] [Server thread/INFO]: crystalgem has left the game.
+[22:17:13] [Server thread/INFO]: lolo_lola_69 issued server command: /home
+[22:17:59] [Server thread/INFO]: lolo_lola_69 issued server command: /home travel
+[22:21:10] [Server thread/INFO]: lolo_lola_69 issued server command: /sethome travel
+[22:21:54] [User Authenticator #41/INFO]: UUID of player Boulderballs is c5c05e4f-d28e-3be0-9222-fffe440eb955
+[22:21:55] [Server thread/INFO]: Boulderballs[/0:0:0:0:0:0:0:1:54658] logged in with entity id 90108 at ([world]-1643.3350046254923, 50.0, 736.5911708266857)
+[22:21:55] [Server thread/INFO]: [0;33;1mBoulderballs has joined the game.[m
+[22:22:01] [Server thread/INFO]: lolo_lola_69 issued server command: /home
+[22:22:15] [Server thread/INFO]: lolo_lola_69 issued server command: /home travel
+[22:22:36] [Server thread/INFO]: [GriefPrevention] lolo_lola_69 placed a sign @ world_the_end: x16028, z-7734;Vlad waaaaaaaaa;aaaaaaaaaaaaaaa;aaaaaaaaaaaaaaa;aaaaaaaas here
+[22:22:50] [Server thread/INFO]: lolo_lola_69 issued server command: /home
+[22:23:43] [Server thread/INFO]: lolo_lola_69 issued server command: /home
+[22:24:58] [Server thread/INFO]: Boulderballs issued server command: /home 2
+[22:26:02] [Server thread/INFO]: Boulderballs issued server command: /home 4
+[22:28:03] [Server thread/INFO]: lolo_lola_69 issued server command: /home travel
+[22:28:25] [User Authenticator #42/INFO]: UUID of player crystalgem is f321cff2-0750-3ba1-98af-66006fbafb2e
+[22:28:26] [Server thread/INFO]: crystalgem[/0:0:0:0:0:0:0:1:54664] logged in with entity id 94267 at ([world]661.1707220400135, 85.0, -177.96676105288037)
+[22:28:26] [Server thread/INFO]: [0;33;1mcrystalgem has joined the game.[m
+[22:31:07] [User Authenticator #43/INFO]: UUID of player Jhor is 82f182b3-716a-3898-ae1d-76f70444a8a2
+[22:31:08] [Server thread/INFO]: Jhor[/0:0:0:0:0:0:0:1:54669] logged in with entity id 95303 at ([world]448.1302300797415, 79.0, 88.45675694161359)
+[22:31:08] [Server thread/INFO]: [0;33;1mJhor has joined the game.[m
+[22:31:58] [Async Chat Thread - #16/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> test[m
+[22:32:06] [Async Chat Thread - #16/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> sup[m
+[22:32:12] [Async Chat Thread - #16/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> hallo[m
+[22:32:23] [Server thread/INFO]: Jhor issued server command: /mcrank
+[22:33:53] [Server thread/INFO]: lolo_lola_69 issued server command: /home
+[22:34:23] [Server thread/INFO]: Jhor issued server command: /mctop Fishing
+[22:35:15] [Async Chat Thread - #17/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> Vlad, nganong taas kaayo ang fishing level ni archie haha, nag auto fishing na siya?[m
+[22:35:22] [Async Chat Thread - #17/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> yep[m
+[22:36:01] [Async Chat Thread - #17/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> hahah damn[m
+[22:36:31] [Async Chat Thread - #17/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> sometimes dli man mu work ang autofishing[m
+[22:36:42] [Async Chat Thread - #17/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> oh, idk about that i dont do that[m
+[22:36:48] [Server thread/INFO]: lolo_lola_69 issued server command: /home travel
+[22:37:03] [Async Chat Thread - #17/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> wowz, all natural fishing boi haha[m
+[22:37:22] [Async Chat Thread - #17/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> yeep, mostly mga brain dead stuff, i dont want do[m
+[22:37:31] [Async Chat Thread - #17/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> i stopped mining na gani[m
+[22:37:34] [Async Chat Thread - #17/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> haha[m
+[22:37:51] [Async Chat Thread - #17/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> I just newly reached mining 100 so I will prolly stop mining na[m
+[22:38:00] [Async Chat Thread - #17/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> idk how kim got mining 116[m
+[22:38:14] [Async Chat Thread - #17/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> Would it even make a difference above 100?[m
+[22:39:10] [User Authenticator #44/INFO]: UUID of player FKritz is 76f1a2ac-693e-3061-aa4f-5b80da853173
+[22:39:11] [Server thread/INFO]: FKritz[/0:0:0:0:0:0:0:1:54674] logged in with entity id 97868 at ([world_the_end]10667.234214301565, 62.0, -7664.811413381709)
+[22:39:11] [Server thread/INFO]: [0;33;1mFKritz has joined the game.[m
+[22:39:22] [Server thread/INFO]: FKritz issued server command: /tpa G
+[22:40:09] [Async Chat Thread - #18/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> I'm just gonna auto fish lmao, kapoy grind[m
+[22:40:26] [Async Chat Thread - #18/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> grind 4 wat>[m
+[22:40:26] [User Authenticator #45/INFO]: UUID of player Giniguy is 47a4aaeb-feae-366a-bb50-3db390c239cb
+[22:40:27] [Server thread/INFO]: Giniguy[/0:0:0:0:0:0:0:1:54681] logged in with entity id 98274 at ([world]-5.875465855124322, 69.0, 211.1930198032865)
+[22:40:27] [Server thread/INFO]: [0;33;1mGiniguy has joined the game.[m
+[22:40:34] [Server thread/INFO]: Giniguy issued server command: /home
+[22:40:39] [Async Chat Thread - #18/INFO]: [m[0;33;1m[User] [0;33;1m[User] Jhor[m [0;36;1m> grind for lvl 100 haha[m
+[22:40:49] [Server thread/WARN]: Boulderballs moved too quickly! 6.884435693286605,-0.5948954023649407,-9.455024258351614
+[22:41:33] [Server thread/INFO]: Boulderballs lost connection: Disconnected
+[22:41:33] [Server thread/INFO]: Boulderballs has left the game.
+[22:42:04] [User Authenticator #46/INFO]: UUID of player Johann is f160dbef-552f-3b70-af9a-129d0ff0c675
+[22:42:04] [Server thread/INFO]: Johann[/0:0:0:0:0:0:0:1:54685] logged in with entity id 98942 at ([world]749.6999999880791, 86.0, -182.22922930199994)
+[22:42:04] [Server thread/INFO]: [0;33;1mJohann has joined the game.[m
+[22:42:40] [Server thread/INFO]: FKritz issued server command: /tpa Giniguy
+[22:42:45] [Server thread/INFO]: Giniguy issued server command: /tpaccept
+[22:45:48] [Server thread/WARN]: Johann moved too quickly! -9.087525941540889,-0.380023674395531,7.418171820971281
+[22:45:48] [Server thread/WARN]: FKritz moved too quickly! -8.019912364512265,-8.0504232959521,6.35430300857189
+[22:45:53] [Server thread/INFO]: Johann issued server command: /help
+[22:45:57] [Server thread/INFO]: lolo_lola_69 issued server command: /home
+[22:45:58] [Server thread/INFO]: Johann issued server command: /herbalism
+[22:46:02] [Server thread/INFO]: lolo_lola_69 issued server command: /sethome travel
+[22:46:06] [Server thread/INFO]: lolo_lola_69 issued server command: /home
+[22:46:38] [Server thread/INFO]: lolo_lola_69 issued server command: /home travel
+[22:47:31] [Server thread/INFO]: [GriefPrevention] lolo_lola_69 placed a sign @ world_the_end: x16030, z-7732;Sry ma dude
+[22:47:43] [Server thread/INFO]: lolo_lola_69 issued server command: /home
+[22:48:27] [Server thread/INFO]: crystalgem lost connection: Timed out
+[22:48:27] [Server thread/INFO]: crystalgem has left the game.
+[22:48:52] [User Authenticator #47/INFO]: UUID of player crystalgem is f321cff2-0750-3ba1-98af-66006fbafb2e
+[22:48:52] [Server thread/INFO]: crystalgem[/0:0:0:0:0:0:0:1:54691] logged in with entity id 100547 at ([world]720.1936911929715, 68.0, -127.5944599884594)
+[22:48:52] [Server thread/INFO]: [0;33;1mcrystalgem has joined the game.[m
+[22:49:02] [Async Chat Thread - #19/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> laag[m
+[22:49:17] [Server thread/INFO]: crystalgem lost connection: Timed out
+[22:49:17] [Server thread/INFO]: crystalgem has left the game.
+[22:49:22] [Async Chat Thread - #19/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> gio[m
+[22:49:27] [User Authenticator #48/INFO]: UUID of player crystalgem is f321cff2-0750-3ba1-98af-66006fbafb2e
+[22:49:27] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@1fa439f5[id=f321cff2-0750-3ba1-98af-66006fbafb2e,name=crystalgem,properties={},legacy=false] (/0:0:0:0:0:0:0:1:54693): You must wait 26 seconds before logging-in again.
+[22:49:27] [Server thread/INFO]: com.mojang.authlib.GameProfile@1fa439f5[id=f321cff2-0750-3ba1-98af-66006fbafb2e,name=crystalgem,properties={},legacy=false] (/0:0:0:0:0:0:0:1:54693) lost connection: You must wait 26 seconds before logging-in again.
+[22:49:30] [Async Chat Thread - #19/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> yo[m
+[22:49:31] [User Authenticator #49/INFO]: UUID of player crystalgem is f321cff2-0750-3ba1-98af-66006fbafb2e
+[22:49:31] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@296cbbbb[id=f321cff2-0750-3ba1-98af-66006fbafb2e,name=crystalgem,properties={},legacy=false] (/0:0:0:0:0:0:0:1:54694): You must wait 21 seconds before logging-in again.
+[22:49:31] [Server thread/INFO]: com.mojang.authlib.GameProfile@296cbbbb[id=f321cff2-0750-3ba1-98af-66006fbafb2e,name=crystalgem,properties={},legacy=false] (/0:0:0:0:0:0:0:1:54694) lost connection: You must wait 21 seconds before logging-in again.
+[22:49:35] [Async Chat Thread - #19/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> nakuha na nimo elytra[m
+[22:49:43] [Async Chat Thread - #19/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> oo giduwaan ni fkritz[m
+[22:49:46] [User Authenticator #50/INFO]: UUID of player crystalgem is f321cff2-0750-3ba1-98af-66006fbafb2e
+[22:49:46] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@52758119[id=f321cff2-0750-3ba1-98af-66006fbafb2e,name=crystalgem,properties={},legacy=false] (/0:0:0:0:0:0:0:1:54698): You must wait 6 seconds before logging-in again.
+[22:49:46] [Server thread/INFO]: com.mojang.authlib.GameProfile@52758119[id=f321cff2-0750-3ba1-98af-66006fbafb2e,name=crystalgem,properties={},legacy=false] (/0:0:0:0:0:0:0:1:54698) lost connection: You must wait 6 seconds before logging-in again.
+[22:49:52] [Async Chat Thread - #19/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> mag hunting ta kos end ug balik[m
+[22:49:53] [User Authenticator #51/INFO]: UUID of player crystalgem is f321cff2-0750-3ba1-98af-66006fbafb2e
+[22:49:53] [Server thread/INFO]: crystalgem[/0:0:0:0:0:0:0:1:54699] logged in with entity id 100970 at ([world]720.1936911929715, 68.0, -127.5944599884594)
+[22:49:53] [Server thread/INFO]: [0;33;1mcrystalgem has joined the game.[m
+[22:50:03] [Async Chat Thread - #19/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> scary mulupad2 kay lag[m
+[22:50:27] [Server thread/INFO]: Giniguy lost connection: Timed out
+[22:50:27] [Server thread/INFO]: Giniguy has left the game.
+[22:50:33] [User Authenticator #52/INFO]: UUID of player Giniguy is 47a4aaeb-feae-366a-bb50-3db390c239cb
+[22:50:34] [Server thread/INFO]: Giniguy[/0:0:0:0:0:0:0:1:54709] logged in with entity id 101427 at ([world]780.4656710231905, 55.021527270547644, -478.9387374156966)
+[22:50:34] [Server thread/INFO]: [0;33;1mGiniguy has joined the game.[m
+[22:50:37] [Async Chat Thread - #19/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> test[m
+[22:50:41] [Async Chat Thread - #19/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> ka ataaaaaaaaaay[m
+[22:50:50] [Server thread/WARN]: crystalgem moved too quickly! 9.161535190943027,-1.0,-4.285349445295751
+[22:51:49] [Server thread/INFO]: lolo_lola_69 issued server command: /home
+[22:52:23] [Async Chat Thread - #20/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> test[m
+[22:52:51] [Async Chat Thread - #20/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> feel nako[m
+[22:52:54] [Async Chat Thread - #20/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> naay mo upload[m
+[22:52:56] [Async Chat Thread - #20/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> sa family ni kobe[m
+[22:53:07] [Async Chat Thread - #20/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> hmmm[m
+[22:55:04] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mYOU KNOW WHAT TIME IT IS :3 In 15 Minutes![m
+[22:59:13] [Server thread/INFO]: lolo_lola_69 issued server command: /tpa Johann
+[22:59:18] [Server thread/INFO]: Johann issued server command: /tpaccept
+[22:59:30] [Async Chat Thread - #21/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> nihao[m
+[22:59:30] [Async Chat Thread - #21/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> joh, imoha na ni i hab extra[m
+[22:59:37] [Async Chat Thread - #21/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> ayyy[m
+[22:59:39] [Async Chat Thread - #21/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> ty[m
+[22:59:42] [Async Chat Thread - #21/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> woo flower biome[m
+[22:59:45] [Server thread/INFO]: lolo_lola_69 issued server command: /home
+[22:59:50] [Async Chat Thread - #21/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> ga adventure mo?[m
+[22:59:53] [Async Chat Thread - #21/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> yes[m
+[22:59:58] [Async Chat Thread - #21/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> can i join?[m
+[23:00:04] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mYOU KNOW WHAT TIME IT IS :3 In 10 Minutes![m
+[23:01:25] [Server thread/INFO]: Giniguy issued server command: /warp shop
+[23:02:11] [Server thread/INFO]: Giniguy issued server command: /home
+[23:02:19] [Server thread/INFO]: lolo_lola_69 issued server command: /home
+[23:02:35] [Server thread/INFO]: lolo_lola_69 issued server command: /home
+[23:02:45] [Server thread/INFO]: crystalgem has made the advancement [Hot Stuff]
+[23:02:52] [Server thread/INFO]: crystalgem tried to swim in lava
+[23:03:05] [Async Chat Thread - #22/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> hala joh[m
+[23:03:06] [Server thread/INFO]: crystalgem issued server command: /tpa Johann
+[23:03:10] [Server thread/INFO]: Johann issued server command: /tpaccept
+[23:03:14] [Async Chat Thread - #22/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> oof town road[m
+[23:03:38] [Async Chat Thread - #22/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> my lord and savior[m
+[23:03:42] [Async Chat Thread - #22/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> it's lag town road[m
+[23:03:57] [Server thread/INFO]: FKritz burned to death
+[23:04:04] [Server thread/INFO]: FKritz issued server command: /home
+[23:05:04] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mYOU KNOW WHAT TIME IT IS :3 In 5 Minutes![m
+[23:05:15] [Server thread/INFO]: crystalgem issued server command: /home
+[23:05:27] [Async Chat Thread - #23/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> lag bad[m
+[23:05:37] [Async Chat Thread - #23/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> daaamn[m
+[23:05:43] [Async Chat Thread - #23/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> the signals so low[m
+[23:06:03] [Server thread/INFO]: Johann issued server command: /home
+[23:06:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5035ms or 100 ticks behind
+[23:08:44] [Async Chat Thread - #24/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> asa inyo coordinates?[m
+[23:08:51] [Async Chat Thread - #24/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> naa ko haus[m
+[23:08:52] [Async Chat Thread - #24/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> we stopped hahaha[m
+[23:08:58] [Async Chat Thread - #24/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> aw[m
+[23:08:59] [Async Chat Thread - #24/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> oh shit haha[m
+[23:09:09] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mYOU KNOW WHAT TIME IT IS :3 In 1 Minutes![m
+[23:09:17] [Server thread/INFO]: Giniguy fell from a high place
+[23:09:21] [Async Chat Thread - #24/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> rip[m
+[23:09:21] [Async Chat Thread - #24/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> OWO[m
+[23:09:22] [Async Chat Thread - #24/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> the fuck?[m
+[23:09:24] [Server thread/INFO]: Giniguy issued server command: /home
+[23:09:26] [Async Chat Thread - #24/INFO]: [m[0;33;1m[User] [0;33;1m[User] crystalgem[m [0;36;1m> sad lyf[m
+[23:10:04] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mGOODBYE in 5 Seconds![m
+[23:10:06] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mGOODBYE in 4 Seconds![m
+[23:10:07] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mGOODBYE in 3 Seconds![m
+[23:10:07] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mGOODBYE in 2 Seconds![m
+[23:10:08] [Server thread/INFO]: crystalgem lost connection: Disconnected
+[23:10:08] [Server thread/INFO]: crystalgem has left the game.
+[23:10:08] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mGOODBYE in 1 Seconds![m
+[23:10:08] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1m[0;31;1mServer Restarting![m
+[23:10:08] [Server thread/INFO]: CONSOLE issued server command: /kickall §cServer Restarting! We will be back up any minute!
+[23:10:08] [Server thread/INFO]: Johann lost connection: §cServer Restarting! We will be back up any minute!
+[23:10:09] [Server thread/INFO]: Johann has left the game.
+[23:10:09] [Server thread/INFO]: lolo_lola_69 lost connection: §cServer Restarting! We will be back up any minute!
+[23:10:09] [Server thread/INFO]: lolo_lola_69 has left the game.
+[23:10:09] [Server thread/INFO]: FKritz lost connection: §cServer Restarting! We will be back up any minute!
+[23:10:09] [Server thread/INFO]: FKritz has left the game.
+[23:10:09] [Server thread/INFO]: Giniguy lost connection: §cServer Restarting! We will be back up any minute!
+[23:10:09] [Server thread/INFO]: Giniguy has left the game.
+[23:10:09] [Server thread/INFO]: [0;31;22mKicked all players from server.[m
+[23:10:09] [Server thread/INFO]: Attempting to restart with run.bat
+[23:10:09] [Server thread/INFO]: Jhor lost connection: OH SHIT, ITS RESTARTING!!!!
+[23:10:09] [Server thread/INFO]: Stopping server
+[23:10:09] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.17.0.0
+[23:10:09] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.17.0.0
+[23:10:09] [Server thread/INFO]: [Essentials] Disabling Essentials v2.17.0.0
+[23:10:09] [Server thread/INFO]: [Vault] [Vault][Economy] Essentials Economy unhooked.
+[23:10:09] [Server thread/INFO]: [ChestShop] Disabling ChestShop v3.10-SNAPSHOT (build 137)
+[23:10:09] [Server thread/INFO]: [GriefPrevention] Disabling GriefPrevention v16.11.6
+[23:10:09] [Server thread/INFO]: [GriefPrevention] GriefPrevention disabled.
+[23:10:09] [Server thread/INFO]: [Stargate] Disabling Stargate v0.8.2
+[23:10:09] [Server thread/INFO]: Closing all stargates.
+[23:10:09] [Server thread/INFO]: [Vault] Disabling Vault v1.7.2-b107
+[23:10:09] [Server thread/INFO]: [AutoRestart] Disabling AutoRestart v3.3.3
+[23:10:09] [Server thread/INFO]: [mcMMO] Disabling mcMMO v2.1.100-SNAPSHOT
+[23:10:09] [Server thread/INFO]: [mcMMO] Saving mcMMOPlayers... (0)
+[23:10:09] [Server thread/INFO]: [mcMMO] Finished save operation for 0 players!
+[23:10:11] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v13.7.3
+[23:10:11] [Server thread/INFO]: [HomeSpawn] Disabling HomeSpawn v3.1.4
+[23:10:11] [Server thread/INFO]: [HomeSpawn] HomeSpawn has been disabled
+[23:10:11] [Server thread/INFO]: [PermissionsEx] Disabling PermissionsEx v1.23.4
+[23:10:11] [Server thread/INFO]: Saving players
+[23:10:11] [Server thread/INFO]: Saving worlds
+[23:10:11] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
+[23:10:13] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[23:10:13] [Server thread/INFO]: Saving chunks for level 'world_nether'/minecraft:the_nether
+[23:10:13] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[23:10:13] [Server thread/INFO]: Saving chunks for level 'world_the_end'/minecraft:the_end
+[23:10:13] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[23:10:13] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[23:10:13] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[23:10:13] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
