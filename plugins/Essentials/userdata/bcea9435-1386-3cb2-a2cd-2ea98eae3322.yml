@@ -1,21 +1,21 @@
 lastAccountName: big_tasty
 timestamps:
-  login: 1568887206081
-  lastteleport: 1568818783673
-  logout: 1568891833567
+  login: 1568903721101
+  lastteleport: 1568905897986
+  logout: 1568906514748
 ipAddress: 0:0:0:0:0:0:0:1
 lastlocation:
   world: world
-  x: 455.5624059010323
-  y: 64.0
-  z: 251.97787398653907
-  yaw: 324.69287
-  pitch: 1.8709775
+  x: -21312.58434077149
+  y: 9.0
+  z: 2002.7261751516842
+  yaw: -305.73248
+  pitch: 7.421465
 logoutlocation:
   world: world
-  x: 529.4513216535697
-  y: 64.0
-  z: 208.17008880269
-  yaw: 185.87305
-  pitch: 9.686756
+  x: 239.84403403846704
+  y: 63.0
+  z: 679.4233937553621
+  yaw: 217.02977
+  pitch: 18.065596
 nickname: big_tasty

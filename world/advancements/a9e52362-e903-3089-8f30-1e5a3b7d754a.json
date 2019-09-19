@@ -1880,6 +1880,7 @@
       "minecraft:birch_forest": "2019-08-29 01:11:09 +0800",
       "minecraft:jungle_hills": "2019-07-21 00:14:57 +0800",
       "minecraft:bamboo_jungle": "2019-07-20 22:34:32 +0800",
+      "minecraft:warm_ocean": "2019-09-19 20:21:39 +0800",
       "minecraft:deep_lukewarm_ocean": "2019-08-29 01:31:03 +0800",
       "minecraft:badlands": "2019-08-10 00:03:24 +0800",
       "minecraft:savanna_plateau": "2019-08-28 01:19:41 +0800",
@@ -2107,6 +2108,12 @@
   "minecraft:recipes/building_blocks/end_stone_brick_slab_from_end_stone_brick_stonecutting": {
     "criteria": {
       "has_end_stone_brick": "2019-09-16 12:32:18 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dried_kelp_block": {
+    "criteria": {
+      "has_at_least_9_dried_kelp": "2019-09-19 20:51:39 +0800"
     },
     "done": true
   },
@@ -3318,6 +3325,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/dried_kelp": {
+    "criteria": {
+      "has_at_least_9_dried_kelp": "2019-09-19 20:51:39 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/spectral_arrow": {
     "criteria": {
       "has_glowstone_dust": "2019-07-21 19:30:38 +0800"
@@ -3837,6 +3850,12 @@
   "minecraft:recipes/decorations/yellow_stained_glass_pane": {
     "criteria": {
       "has_glass": "2019-07-25 01:32:38 +0800"
+    },
+    "done": true
+  },
+  "minecraft:adventure/throw_trident": {
+    "criteria": {
+      "shot_trident": "2019-09-19 23:17:17 +0800"
     },
     "done": true
   },
