@@ -1174,3 +1174,327 @@
 [11:23:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
 [11:23:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
 [11:23:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[11:23:37] [Server thread/INFO]: Starting minecraft server version 1.14.4
+[11:23:37] [Server thread/INFO]: Loading properties
+[11:23:38] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-065a373-9aa7430 (MC: 1.14.4) (Implementing API version 1.14.4-R0.1-SNAPSHOT)
+[11:23:38] [Server thread/INFO]: Debug logging is disabled
+[11:23:38] [Server thread/INFO]: Using 4 threads for Netty based IO
+[11:23:38] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[11:23:38] [Server thread/INFO]: Default game type: SURVIVAL
+[11:23:38] [Server thread/INFO]: Generating keypair
+[11:23:39] [Server thread/INFO]: Starting Minecraft server on *:25565
+[11:23:39] [Server thread/INFO]: Using default channel type
+[11:23:46] [Server thread/WARN]: Plugin PermissionsEx v1.23.4 does not specify an api-version.
+[11:23:47] [Server thread/WARN]: Plugin Stargate v0.8.2 does not specify an api-version.
+[11:23:47] [Server thread/INFO]: [PermissionsEx] Loading PermissionsEx v1.23.4
+[11:23:47] [Server thread/WARN]: [PermissionsEx] This server is in offline mode. Unless this server is configured to integrate with a supported proxy (see http://dft.ba/-8ous), UUIDs *may not be stable*!
+[11:23:47] [Server thread/INFO]: [HomeSpawn] Loading HomeSpawn v3.1.4
+[11:23:47] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v13.7.3
+[11:23:47] [Server thread/INFO]: [mcMMO] Loading mcMMO v2.1.100-SNAPSHOT
+[11:23:47] [Server thread/INFO]: [AutoRestart] Loading AutoRestart v3.3.3
+[11:23:47] [Server thread/INFO]: [Vault] Loading Vault v1.7.2-b107
+[11:23:47] [Server thread/INFO]: [Stargate] Loading Stargate v0.8.2
+[11:23:47] [Server thread/INFO]: [GriefPrevention] Loading GriefPrevention v16.11.6
+[11:23:47] [Server thread/INFO]: [ChestShop] Loading ChestShop v3.10-SNAPSHOT (build 137)
+[11:23:47] [Server thread/INFO]: [Essentials] Loading Essentials v2.17.0.0
+[11:23:47] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn v2.17.0.0
+[11:23:47] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat v2.17.0.0
+[11:23:47] [Server thread/INFO]: [mcMMO] Enabling mcMMO v2.1.100-SNAPSHOT
+[11:23:48] [Server thread/INFO]: [mcMMO] enabling Acrobatics Skills
+[11:23:48] [Server thread/INFO]: [mcMMO] registered subskill: Roll
+[11:23:48] [Server thread/INFO]: [mcMMO] 0 entries in mcMMO World Blacklist
+[11:23:48] [Server thread/INFO]: [Vault] Enabling Vault v1.7.2-b107
+[11:23:48] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[11:23:48] [Server thread/INFO]: [Vault] [Permission] PermissionsEx found: Waiting
+[11:23:48] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[11:23:48] [Server thread/INFO]: [Vault] [Chat] PermissionsEx found: Waiting
+[11:23:48] [Server thread/INFO]: [Vault] Enabled Version 1.7.2-b107
+[11:23:48] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[11:23:48] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[11:23:48] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[11:23:48] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[11:23:48] [Server thread/INFO]: Preparing level "world"
+[11:23:48] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
+[11:23:49] [Server thread/INFO]: Loaded 6 recipes
+[11:23:49] [Server thread/INFO]: -------- World Settings For [world] --------
+[11:23:49] [Server thread/INFO]: View Distance: 8
+[11:23:49] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[11:23:49] [Server thread/INFO]: Item Despawn Rate: 6000
+[11:23:49] [Server thread/INFO]: Item Merge Radius: 2.5
+[11:23:49] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[11:23:49] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[11:23:49] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[11:23:49] [Server thread/INFO]: Max TNT Explosions: 100
+[11:23:49] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[11:23:49] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[11:23:49] [Server thread/INFO]: Experience Merge Radius: 3.0
+[11:23:49] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[11:23:49] [Server thread/INFO]: Cane Growth Modifier: 100%
+[11:23:49] [Server thread/INFO]: Melon Growth Modifier: 100%
+[11:23:49] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[11:23:49] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[11:23:49] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[11:23:49] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[11:23:49] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[11:23:49] [Server thread/INFO]: Potato Growth Modifier: 100%
+[11:23:49] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[11:23:49] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[11:23:49] [Server thread/INFO]: Vine Growth Modifier: 100%
+[11:23:49] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[11:23:49] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[11:23:49] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[11:23:49] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[11:23:49] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[11:23:49] [Server thread/INFO]: Mob Spawn Range: 6
+[11:23:49] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[11:23:49] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[11:23:49] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[11:23:49] [Server thread/INFO]: View Distance: 8
+[11:23:49] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[11:23:49] [Server thread/INFO]: Item Despawn Rate: 6000
+[11:23:49] [Server thread/INFO]: Item Merge Radius: 2.5
+[11:23:49] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[11:23:49] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[11:23:49] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[11:23:49] [Server thread/INFO]: Max TNT Explosions: 100
+[11:23:49] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[11:23:49] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[11:23:49] [Server thread/INFO]: Experience Merge Radius: 3.0
+[11:23:49] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[11:23:49] [Server thread/INFO]: Cane Growth Modifier: 100%
+[11:23:49] [Server thread/INFO]: Melon Growth Modifier: 100%
+[11:23:49] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[11:23:49] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[11:23:49] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[11:23:49] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[11:23:49] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[11:23:49] [Server thread/INFO]: Potato Growth Modifier: 100%
+[11:23:49] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[11:23:49] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[11:23:49] [Server thread/INFO]: Vine Growth Modifier: 100%
+[11:23:49] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[11:23:49] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[11:23:49] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[11:23:49] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[11:23:49] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[11:23:49] [Server thread/INFO]: Mob Spawn Range: 6
+[11:23:49] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[11:23:49] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[11:23:49] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[11:23:49] [Server thread/INFO]: View Distance: 8
+[11:23:49] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[11:23:49] [Server thread/INFO]: Item Despawn Rate: 6000
+[11:23:49] [Server thread/INFO]: Item Merge Radius: 2.5
+[11:23:49] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[11:23:49] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[11:23:49] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[11:23:49] [Server thread/INFO]: Max TNT Explosions: 100
+[11:23:49] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[11:23:49] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[11:23:49] [Server thread/INFO]: Experience Merge Radius: 3.0
+[11:23:49] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[11:23:49] [Server thread/INFO]: Cane Growth Modifier: 100%
+[11:23:49] [Server thread/INFO]: Melon Growth Modifier: 100%
+[11:23:49] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[11:23:49] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[11:23:49] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[11:23:49] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[11:23:49] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[11:23:49] [Server thread/INFO]: Potato Growth Modifier: 100%
+[11:23:49] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[11:23:49] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[11:23:49] [Server thread/INFO]: Vine Growth Modifier: 100%
+[11:23:49] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[11:23:49] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[11:23:49] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[11:23:49] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[11:23:49] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[11:23:49] [Server thread/INFO]: Mob Spawn Range: 6
+[11:23:49] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[11:23:49] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[11:23:49] [Server thread/INFO]: Preparing start region for dimension 'world'/minecraft:overworld
+[11:23:51] [Server thread/INFO]: Preparing spawn area: 0%
+[11:23:51] [Server thread/INFO]: Preparing spawn area: 0%
+[11:23:51] [Server thread/INFO]: Preparing spawn area: 0%
+[11:23:51] [Server thread/INFO]: Preparing spawn area: 27%
+[11:23:51] [Server thread/INFO]: Time elapsed: 1854 ms
+[11:23:51] [Server thread/INFO]: Preparing start region for dimension 'world_nether'/minecraft:the_nether
+[11:23:53] [Server thread/INFO]: Preparing spawn area: 0%
+[11:23:53] [Server thread/INFO]: Preparing spawn area: 0%
+[11:23:53] [Server thread/INFO]: Preparing spawn area: 0%
+[11:23:53] [Server thread/INFO]: Time elapsed: 1494 ms
+[11:23:53] [Server thread/INFO]: Preparing start region for dimension 'world_the_end'/minecraft:the_end
+[11:23:53] [Server thread/INFO]: Preparing spawn area: 0%
+[11:23:53] [Server thread/INFO]: Preparing spawn area: 0%
+[11:23:54] [Server-Worker-2/INFO]: Preparing spawn area: 95%
+[11:23:54] [Server thread/INFO]: Time elapsed: 1118 ms
+[11:23:54] [Server thread/INFO]: [PermissionsEx] Enabling PermissionsEx v1.23.4
+[11:23:54] [Server thread/INFO]: [PermissionsEx] Initializing file backend
+[11:23:54] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
+[11:23:54] [Server thread/INFO]: [Vault][Permission] PermissionsEx hooked.
+[11:23:54] [Server thread/INFO]: [Vault] [Vault][Chat] PermissionsEx_Chat hooked.
+[11:23:54] [Thread-9/ERROR]: [PermissionsEx] The updater could not contact dev.bukkit.org for updating.
+[11:23:54] [Thread-9/ERROR]: [PermissionsEx] If you have not recently modified your configuration and this is the first time you are seeing this message, the site may be experiencing temporary downtime.
+[11:23:54] [Server thread/INFO]: [HomeSpawn] Enabling HomeSpawn v3.1.4
+[11:23:54] [Thread-9/ERROR]: [PermissionsEx] null
+java.net.UnknownHostException: api.curseforge.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[?:1.8.0_221]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[?:1.8.0_221]
+	at java.net.SocksSocketImpl.connect(Unknown Source) ~[?:1.8.0_221]
+	at java.net.Socket.connect(Unknown Source) ~[?:1.8.0_221]
+	at sun.security.ssl.SSLSocketImpl.connect(Unknown Source) ~[?:1.8.0_221]
+	at sun.net.NetworkClient.doConnect(Unknown Source) ~[?:1.8.0_221]
+	at sun.net.www.http.HttpClient.openServer(Unknown Source) ~[?:1.8.0_221]
+	at sun.net.www.http.HttpClient.openServer(Unknown Source) ~[?:1.8.0_221]
+	at sun.net.www.protocol.https.HttpsClient.<init>(Unknown Source) ~[?:1.8.0_221]
+	at sun.net.www.protocol.https.HttpsClient.New(Unknown Source) ~[?:1.8.0_221]
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(Unknown Source) ~[?:1.8.0_221]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source) ~[?:1.8.0_221]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source) ~[?:1.8.0_221]
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(Unknown Source) ~[?:1.8.0_221]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source) ~[?:1.8.0_221]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source) ~[?:1.8.0_221]
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(Unknown Source) ~[?:1.8.0_221]
+	at ru.tehkode.libs.net.gravitydevelopment.updater.Updater.read(Updater.java:643) [PermissionsEx-1.23.4.jar:?]
+	at ru.tehkode.libs.net.gravitydevelopment.updater.Updater.runUpdater(Updater.java:718) [PermissionsEx-1.23.4.jar:?]
+	at ru.tehkode.libs.net.gravitydevelopment.updater.Updater.access$100(Updater.java:36) [PermissionsEx-1.23.4.jar:?]
+	at ru.tehkode.libs.net.gravitydevelopment.updater.Updater$UpdateRunnable.run(Updater.java:713) [PermissionsEx-1.23.4.jar:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_221]
+[11:23:54] [Server thread/INFO]: [HomeSpawn] HomeSpawn v3.1.4 has been enabled
+[11:23:54] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v13.7.3
+[11:23:55] [Server thread/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1mDetected Minecraft [0;33;1mv1_14_R1[0;32;1m, using [0;33;1mUniversalSkinFactory[0;32;1m.[m
+[11:23:55] [Server thread/INFO]: [SkinsRestorer] Verbose is missing in config.yml! Using default value.
+[11:23:55] [Server thread/INFO]: [AutoRestart] Enabling AutoRestart v3.3.3
+[11:23:55] [Server thread/INFO]: [0;32;1m[AutoRestart] Loaded![m
+[11:23:55] [Server thread/INFO]: [Stargate] Enabling Stargate v0.8.2
+[11:23:55] [Server thread/INFO]: Stargate v.0.8.2 is enabled.
+[11:23:55] [Thread-10/ERROR]: [Stargate] The updater could not contact dev.bukkit.org for updating.
+[11:23:55] [Thread-10/ERROR]: [Stargate] If you have not recently modified your configuration and this is the first time you are seeing this message, the site may be experiencing temporary downtime.
+[11:23:55] [Thread-10/ERROR]: [Stargate] null
+java.net.UnknownHostException: api.curseforge.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[?:1.8.0_221]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[?:1.8.0_221]
+	at java.net.SocksSocketImpl.connect(Unknown Source) ~[?:1.8.0_221]
+	at java.net.Socket.connect(Unknown Source) ~[?:1.8.0_221]
+	at sun.security.ssl.SSLSocketImpl.connect(Unknown Source) ~[?:1.8.0_221]
+	at sun.net.NetworkClient.doConnect(Unknown Source) ~[?:1.8.0_221]
+	at sun.net.www.http.HttpClient.openServer(Unknown Source) ~[?:1.8.0_221]
+	at sun.net.www.http.HttpClient.openServer(Unknown Source) ~[?:1.8.0_221]
+	at sun.net.www.protocol.https.HttpsClient.<init>(Unknown Source) ~[?:1.8.0_221]
+	at sun.net.www.protocol.https.HttpsClient.New(Unknown Source) ~[?:1.8.0_221]
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(Unknown Source) ~[?:1.8.0_221]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source) ~[?:1.8.0_221]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source) ~[?:1.8.0_221]
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(Unknown Source) ~[?:1.8.0_221]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source) ~[?:1.8.0_221]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source) ~[?:1.8.0_221]
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(Unknown Source) ~[?:1.8.0_221]
+	at com.RkCraft.Stargate.Updater.read(Updater.java:643) [Stargate.jar:?]
+	at com.RkCraft.Stargate.Updater.runUpdater(Updater.java:718) [Stargate.jar:?]
+	at com.RkCraft.Stargate.Updater.access$100(Updater.java:36) [Stargate.jar:?]
+	at com.RkCraft.Stargate.Updater$UpdateRunnable.run(Updater.java:713) [Stargate.jar:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_221]
+[11:23:55] [Server thread/INFO]: [Stargate] Loaded 1 gate layouts
+[11:23:55] [Server thread/INFO]: [Stargate] {world} No stargates for world 
+[11:23:55] [Server thread/INFO]: [Stargate] {world_nether} No stargates for world 
+[11:23:55] [Server thread/INFO]: [Stargate] {world_the_end} No stargates for world 
+[11:23:55] [Server thread/INFO]: [GriefPrevention] Enabling GriefPrevention v16.11.6
+[11:23:55] [Server thread/INFO]: [GriefPrevention] Finished loading configuration.
+[11:23:55] [Server thread/INFO]: [GriefPrevention] 64 total claims loaded.
+[11:23:57] [Server thread/INFO]: [GriefPrevention] Customizable messages loaded.
+[11:23:57] [Server thread/INFO]: [GriefPrevention] Finished loading data (File Mode).
+[11:23:57] [Server thread/INFO]: [GriefPrevention] Boot finished.
+[11:23:57] [Server thread/INFO]: [ChestShop] Enabling ChestShop v3.10-SNAPSHOT (build 137)
+[11:23:57] [Server thread/INFO]: [ChestShop] Using Essentials Economy as the Economy provider now.
+[11:23:57] [Server thread/INFO]: [ChestShop] Vault loaded!
+[11:23:57] [Thread-12/ERROR]: [ChestShop] The updater could not contact dev.bukkit.org for updating.
+[11:23:57] [Thread-12/ERROR]: [ChestShop] If you have not recently modified your configuration and this is the first time you are seeing this message, the site may be experiencing temporary downtime.
+[11:23:57] [Thread-12/ERROR]: [ChestShop] null
+java.net.UnknownHostException: api.curseforge.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[?:1.8.0_221]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[?:1.8.0_221]
+	at java.net.SocksSocketImpl.connect(Unknown Source) ~[?:1.8.0_221]
+	at java.net.Socket.connect(Unknown Source) ~[?:1.8.0_221]
+	at sun.security.ssl.SSLSocketImpl.connect(Unknown Source) ~[?:1.8.0_221]
+	at sun.net.NetworkClient.doConnect(Unknown Source) ~[?:1.8.0_221]
+	at sun.net.www.http.HttpClient.openServer(Unknown Source) ~[?:1.8.0_221]
+	at sun.net.www.http.HttpClient.openServer(Unknown Source) ~[?:1.8.0_221]
+	at sun.net.www.protocol.https.HttpsClient.<init>(Unknown Source) ~[?:1.8.0_221]
+	at sun.net.www.protocol.https.HttpsClient.New(Unknown Source) ~[?:1.8.0_221]
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(Unknown Source) ~[?:1.8.0_221]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source) ~[?:1.8.0_221]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source) ~[?:1.8.0_221]
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(Unknown Source) ~[?:1.8.0_221]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source) ~[?:1.8.0_221]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source) ~[?:1.8.0_221]
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(Unknown Source) ~[?:1.8.0_221]
+	at com.Acrobot.ChestShop.Updater.Updater.read(Updater.java:547) [ChestShop.jar:?]
+	at com.Acrobot.ChestShop.Updater.Updater.access$200(Updater.java:41) [ChestShop.jar:?]
+	at com.Acrobot.ChestShop.Updater.Updater$UpdateRunnable.run(Updater.java:585) [ChestShop.jar:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_221]
+[11:23:57] [Server thread/INFO]: [Essentials] Enabling Essentials v2.17.0.0
+[11:23:57] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[11:23:57] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
+[11:23:57] [Server thread/INFO]: No kits found to migrate.
+[11:23:58] [Server thread/INFO]: [Essentials] Using 1.8.3+ BlockStateMeta provider as mob spawner provider.
+[11:23:58] [Server thread/INFO]: [Essentials] Using 1.13+ flat spawn egg provider as spawn egg provider.
+[11:23:58] [Server thread/INFO]: [Essentials] Using 1.9+ BasePotionData provider as potion meta provider.
+[11:23:58] [Server thread/INFO]: Loaded 20977 items from items.json.
+[11:23:58] [Server thread/INFO]: Using locale en_US
+[11:23:58] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[11:23:58] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[11:23:58] [Server thread/INFO]: [Vault] [Vault][Economy] Essentials Economy hooked.
+[11:23:58] [Server thread/INFO]: [Essentials] Using Vault based permissions (PermissionsEx)
+[11:23:58] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.17.0.0
+[11:23:58] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.17.0.0
+[11:23:58] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[11:23:58] [Server thread/INFO]: Done (9.948s)! For help, type "help"
+[11:23:58] [Server thread/INFO]: [0;32;1m[AutoRestart] Up to date![m
+[11:23:58] [Craft Scheduler Thread - 3/ERROR]: Failed to check for updates!
+[11:23:58] [Craft Scheduler Thread - 3/ERROR]: Please check your internet and firewall settings and try again later!
+[11:23:58] [Craft Scheduler Thread - 3/INFO]: [Vault] Checking for Updates ... 
+[11:23:58] [Craft Scheduler Thread - 3/INFO]: [Vault] There was an issue attempting to check for the latest version.
+[11:23:58] [Craft Scheduler Thread - 3/INFO]: [Vault] No new version available
+[11:23:58] [Craft Scheduler Thread - 2/INFO]: [HomeSpawn] HomeSpawn file watcher started!
+[11:23:58] [Craft Scheduler Thread - 0/INFO]: [mcMMO] Cleaned backup files. Deleted 1 of 23 files.
+[15:08:58] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mYOU KNOW WHAT TIME IT IS :3 In 15 Minutes![m
+[15:13:58] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mYOU KNOW WHAT TIME IT IS :3 In 10 Minutes![m
+[15:18:58] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mYOU KNOW WHAT TIME IT IS :3 In 5 Minutes![m
+[15:22:58] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mYOU KNOW WHAT TIME IT IS :3 In 1 Minutes![m
+[15:23:53] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mGOODBYE in 5 Seconds![m
+[15:23:54] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mGOODBYE in 4 Seconds![m
+[15:23:55] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mGOODBYE in 3 Seconds![m
+[15:23:56] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mGOODBYE in 2 Seconds![m
+[15:23:57] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mGOODBYE in 1 Seconds![m
+[15:23:57] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1m[0;31;1mServer Restarting![m
+[15:23:57] [Server thread/INFO]: CONSOLE issued server command: /kickall §cServer Restarting! We will be back up any minute!
+[15:23:57] [Server thread/INFO]: [0;31;22mKicked all players from server.[m
+[15:23:57] [Server thread/INFO]: Attempting to restart with run.bat
+[15:23:58] [Server thread/INFO]: Stopping server
+[15:23:58] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.17.0.0
+[15:23:58] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.17.0.0
+[15:23:58] [Server thread/INFO]: [Essentials] Disabling Essentials v2.17.0.0
+[15:23:58] [Server thread/INFO]: [Vault] [Vault][Economy] Essentials Economy unhooked.
+[15:23:58] [Server thread/INFO]: [ChestShop] Disabling ChestShop v3.10-SNAPSHOT (build 137)
+[15:23:58] [Server thread/INFO]: [GriefPrevention] Disabling GriefPrevention v16.11.6
+[15:23:58] [Server thread/INFO]: [GriefPrevention] GriefPrevention disabled.
+[15:23:58] [Server thread/INFO]: [Stargate] Disabling Stargate v0.8.2
+[15:23:58] [Server thread/INFO]: Closing all stargates.
+[15:23:58] [Server thread/INFO]: [Vault] Disabling Vault v1.7.2-b107
+[15:23:58] [Server thread/INFO]: [AutoRestart] Disabling AutoRestart v3.3.3
+[15:23:58] [Server thread/INFO]: [mcMMO] Disabling mcMMO v2.1.100-SNAPSHOT
+[15:23:58] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v13.7.3
+[15:23:58] [Server thread/INFO]: [HomeSpawn] Disabling HomeSpawn v3.1.4
+[15:23:58] [Server thread/INFO]: [HomeSpawn] HomeSpawn has been disabled
+[15:23:58] [Server thread/INFO]: [PermissionsEx] Disabling PermissionsEx v1.23.4
+[15:23:58] [Server thread/INFO]: Saving players
+[15:23:58] [Server thread/INFO]: Saving worlds
+[15:23:58] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
+[15:23:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[15:23:58] [Server thread/INFO]: Saving chunks for level 'world_nether'/minecraft:the_nether
+[15:23:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[15:23:58] [Server thread/INFO]: Saving chunks for level 'world_the_end'/minecraft:the_end
+[15:23:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[15:23:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[15:23:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[15:23:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
