@@ -668,6 +668,7 @@
       "minecraft:creeper": "2019-09-08 21:55:17 +0800",
       "minecraft:husk": "2019-09-15 21:42:04 +0800",
       "minecraft:zombie": "2019-09-08 20:54:09 +0800",
+      "minecraft:drowned": "2019-09-20 22:10:53 +0800",
       "minecraft:zombie_villager": "2019-09-09 22:07:46 +0800"
     },
     "done": false
@@ -1299,6 +1300,7 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:cold_ocean": "2019-09-11 22:45:51 +0800",
+      "minecraft:jungle_edge": "2019-09-20 21:51:19 +0800",
       "minecraft:forest": "2019-09-08 00:58:56 +0800",
       "minecraft:mountains": "2019-09-08 01:00:27 +0800",
       "minecraft:taiga": "2019-09-08 01:08:31 +0800",
@@ -1306,10 +1308,12 @@
       "minecraft:deep_cold_ocean": "2019-09-16 17:31:37 +0800",
       "minecraft:taiga_hills": "2019-09-09 22:17:09 +0800",
       "minecraft:desert": "2019-09-12 15:56:33 +0800",
+      "minecraft:deep_lukewarm_ocean": "2019-09-20 22:28:48 +0800",
       "minecraft:savanna_plateau": "2019-09-16 11:33:32 +0800",
       "minecraft:beach": "2019-09-08 00:54:57 +0800",
       "minecraft:dark_forest": "2019-09-09 22:10:17 +0800",
       "minecraft:river": "2019-09-08 00:54:58 +0800",
+      "minecraft:lukewarm_ocean": "2019-09-20 22:28:46 +0800",
       "minecraft:wooded_mountains": "2019-09-08 01:00:19 +0800",
       "minecraft:wooded_hills": "2019-09-09 21:57:50 +0800",
       "minecraft:stone_shore": "2019-09-10 12:01:54 +0800",
@@ -1871,6 +1875,7 @@
       "sweet_berries": "2019-09-16 21:57:49 +0800",
       "cooked_beef": "2019-09-18 17:28:11 +0800",
       "baked_potato": "2019-09-15 16:04:49 +0800",
+      "tropical_fish": "2019-09-20 22:44:22 +0800",
       "apple": "2019-09-08 01:16:03 +0800",
       "bread": "2019-09-08 22:32:42 +0800",
       "rotten_flesh": "2019-09-15 15:54:26 +0800",
@@ -2645,6 +2650,12 @@
   "minecraft:recipes/building_blocks/cyan_stained_glass": {
     "criteria": {
       "has_glass": "2019-09-10 13:49:48 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/conduit": {
+    "criteria": {
+      "has_nautilus_core": "2019-09-20 22:26:29 +0800"
     },
     "done": true
   },
