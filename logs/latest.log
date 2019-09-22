@@ -375,3 +375,752 @@
 [12:34:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
 [12:34:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
 [12:34:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[12:34:17] [Server thread/INFO]: Starting minecraft server version 1.14.4
+[12:34:17] [Server thread/INFO]: Loading properties
+[12:34:18] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-065a373-9aa7430 (MC: 1.14.4) (Implementing API version 1.14.4-R0.1-SNAPSHOT)
+[12:34:19] [Server thread/INFO]: Debug logging is disabled
+[12:34:19] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[12:34:19] [Server thread/INFO]: Using 4 threads for Netty based IO
+[12:34:19] [Server thread/INFO]: Default game type: SURVIVAL
+[12:34:19] [Server thread/INFO]: Generating keypair
+[12:34:19] [Server thread/INFO]: Starting Minecraft server on *:25565
+[12:34:19] [Server thread/INFO]: Using default channel type
+[12:34:27] [Server thread/WARN]: Plugin PermissionsEx v1.23.4 does not specify an api-version.
+[12:34:27] [Server thread/WARN]: Plugin Stargate v0.8.2 does not specify an api-version.
+[12:34:27] [Server thread/INFO]: [PermissionsEx] Loading PermissionsEx v1.23.4
+[12:34:27] [Server thread/WARN]: [PermissionsEx] This server is in offline mode. Unless this server is configured to integrate with a supported proxy (see http://dft.ba/-8ous), UUIDs *may not be stable*!
+[12:34:27] [Server thread/INFO]: [HomeSpawn] Loading HomeSpawn v3.1.4
+[12:34:27] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v13.7.3
+[12:34:27] [Server thread/INFO]: [mcMMO] Loading mcMMO v2.1.100-SNAPSHOT
+[12:34:27] [Server thread/INFO]: [AutoRestart] Loading AutoRestart v3.3.3
+[12:34:27] [Server thread/INFO]: [Vault] Loading Vault v1.7.2-b107
+[12:34:27] [Server thread/INFO]: [Stargate] Loading Stargate v0.8.2
+[12:34:27] [Server thread/INFO]: [GriefPrevention] Loading GriefPrevention v16.11.6
+[12:34:27] [Server thread/INFO]: [ChestShop] Loading ChestShop v3.10-SNAPSHOT (build 137)
+[12:34:27] [Server thread/INFO]: [Essentials] Loading Essentials v2.17.0.0
+[12:34:27] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn v2.17.0.0
+[12:34:27] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat v2.17.0.0
+[12:34:27] [Server thread/INFO]: [mcMMO] Enabling mcMMO v2.1.100-SNAPSHOT
+[12:34:29] [Server thread/INFO]: [mcMMO] enabling Acrobatics Skills
+[12:34:29] [Server thread/INFO]: [mcMMO] registered subskill: Roll
+[12:34:29] [Server thread/INFO]: [mcMMO] 0 entries in mcMMO World Blacklist
+[12:34:29] [Server thread/INFO]: [Vault] Enabling Vault v1.7.2-b107
+[12:34:29] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[12:34:29] [Server thread/INFO]: [Vault] [Permission] PermissionsEx found: Waiting
+[12:34:29] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[12:34:29] [Server thread/INFO]: [Vault] [Chat] PermissionsEx found: Waiting
+[12:34:29] [Server thread/INFO]: [Vault] Enabled Version 1.7.2-b107
+[12:34:29] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[12:34:29] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[12:34:29] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[12:34:29] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[12:34:29] [Server thread/INFO]: Preparing level "world"
+[12:34:29] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
+[12:34:30] [Server thread/INFO]: Loaded 6 recipes
+[12:34:30] [Server thread/INFO]: -------- World Settings For [world] --------
+[12:34:30] [Server thread/INFO]: View Distance: 8
+[12:34:30] [Server thread/INFO]: Item Despawn Rate: 6000
+[12:34:30] [Server thread/INFO]: Item Merge Radius: 2.5
+[12:34:30] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[12:34:30] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[12:34:30] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[12:34:30] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[12:34:30] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[12:34:30] [Server thread/INFO]: Experience Merge Radius: 3.0
+[12:34:30] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[12:34:30] [Server thread/INFO]: Cane Growth Modifier: 100%
+[12:34:30] [Server thread/INFO]: Melon Growth Modifier: 100%
+[12:34:30] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[12:34:30] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[12:34:30] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[12:34:30] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[12:34:30] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[12:34:30] [Server thread/INFO]: Potato Growth Modifier: 100%
+[12:34:30] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[12:34:30] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[12:34:30] [Server thread/INFO]: Vine Growth Modifier: 100%
+[12:34:30] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[12:34:30] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[12:34:30] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[12:34:30] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[12:34:30] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[12:34:30] [Server thread/INFO]: Mob Spawn Range: 6
+[12:34:30] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[12:34:30] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[12:34:30] [Server thread/INFO]: Max TNT Explosions: 100
+[12:34:30] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[12:34:30] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[12:34:30] [Server thread/INFO]: View Distance: 8
+[12:34:30] [Server thread/INFO]: Item Despawn Rate: 6000
+[12:34:30] [Server thread/INFO]: Item Merge Radius: 2.5
+[12:34:30] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[12:34:30] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[12:34:30] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[12:34:30] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[12:34:30] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[12:34:30] [Server thread/INFO]: Experience Merge Radius: 3.0
+[12:34:30] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[12:34:30] [Server thread/INFO]: Cane Growth Modifier: 100%
+[12:34:30] [Server thread/INFO]: Melon Growth Modifier: 100%
+[12:34:30] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[12:34:30] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[12:34:30] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[12:34:30] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[12:34:30] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[12:34:30] [Server thread/INFO]: Potato Growth Modifier: 100%
+[12:34:30] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[12:34:30] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[12:34:30] [Server thread/INFO]: Vine Growth Modifier: 100%
+[12:34:30] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[12:34:30] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[12:34:30] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[12:34:30] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[12:34:30] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[12:34:30] [Server thread/INFO]: Mob Spawn Range: 6
+[12:34:30] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[12:34:30] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[12:34:30] [Server thread/INFO]: Max TNT Explosions: 100
+[12:34:30] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[12:34:30] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[12:34:30] [Server thread/INFO]: View Distance: 8
+[12:34:30] [Server thread/INFO]: Item Despawn Rate: 6000
+[12:34:30] [Server thread/INFO]: Item Merge Radius: 2.5
+[12:34:30] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[12:34:30] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[12:34:30] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[12:34:30] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[12:34:30] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[12:34:30] [Server thread/INFO]: Experience Merge Radius: 3.0
+[12:34:30] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[12:34:30] [Server thread/INFO]: Cane Growth Modifier: 100%
+[12:34:30] [Server thread/INFO]: Melon Growth Modifier: 100%
+[12:34:30] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[12:34:30] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[12:34:30] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[12:34:30] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[12:34:30] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[12:34:30] [Server thread/INFO]: Potato Growth Modifier: 100%
+[12:34:30] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[12:34:30] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[12:34:30] [Server thread/INFO]: Vine Growth Modifier: 100%
+[12:34:30] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[12:34:30] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[12:34:30] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[12:34:30] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[12:34:30] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[12:34:30] [Server thread/INFO]: Mob Spawn Range: 6
+[12:34:30] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[12:34:30] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[12:34:30] [Server thread/INFO]: Max TNT Explosions: 100
+[12:34:30] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[12:34:30] [Server thread/INFO]: Preparing start region for dimension 'world'/minecraft:overworld
+[12:34:31] [Server thread/INFO]: Preparing spawn area: 0%
+[12:34:31] [Server thread/INFO]: Preparing spawn area: 0%
+[12:34:31] [Server thread/INFO]: Preparing spawn area: 0%
+[12:34:32] [Server thread/INFO]: Preparing spawn area: 84%
+[12:34:32] [Server thread/INFO]: Time elapsed: 1668 ms
+[12:34:32] [Server thread/INFO]: Preparing start region for dimension 'world_nether'/minecraft:the_nether
+[12:34:33] [Server thread/INFO]: Preparing spawn area: 0%
+[12:34:33] [Server thread/INFO]: Preparing spawn area: 0%
+[12:34:33] [Server thread/INFO]: Preparing spawn area: 0%
+[12:34:33] [Server thread/INFO]: Time elapsed: 1489 ms
+[12:34:33] [Server thread/INFO]: Preparing start region for dimension 'world_the_end'/minecraft:the_end
+[12:34:34] [Server thread/INFO]: Preparing spawn area: 0%
+[12:34:34] [Server thread/INFO]: Preparing spawn area: 0%
+[12:34:34] [Server-Worker-2/INFO]: Preparing spawn area: 95%
+[12:34:34] [Server thread/INFO]: Time elapsed: 1165 ms
+[12:34:34] [Server thread/INFO]: [PermissionsEx] Enabling PermissionsEx v1.23.4
+[12:34:35] [Server thread/INFO]: [PermissionsEx] Initializing file backend
+[12:34:35] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
+[12:34:35] [Server thread/INFO]: [Vault][Permission] PermissionsEx hooked.
+[12:34:35] [Server thread/INFO]: [Vault] [Vault][Chat] PermissionsEx_Chat hooked.
+[12:34:35] [Server thread/INFO]: [HomeSpawn] Enabling HomeSpawn v3.1.4
+[12:34:35] [Server thread/INFO]: [HomeSpawn] HomeSpawn v3.1.4 has been enabled
+[12:34:35] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v13.7.3
+[12:34:35] [Server thread/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1mDetected Minecraft [0;33;1mv1_14_R1[0;32;1m, using [0;33;1mUniversalSkinFactory[0;32;1m.[m
+[12:34:35] [Server thread/INFO]: [SkinsRestorer] Verbose is missing in config.yml! Using default value.
+[12:34:36] [Server thread/INFO]: [AutoRestart] Enabling AutoRestart v3.3.3
+[12:34:36] [Server thread/INFO]: [0;32;1m[AutoRestart] Loaded![m
+[12:34:36] [Server thread/INFO]: [Stargate] Enabling Stargate v0.8.2
+[12:34:36] [Server thread/INFO]: Stargate v.0.8.2 is enabled.
+[12:34:36] [Server thread/INFO]: [Stargate] Loaded 1 gate layouts
+[12:34:36] [Server thread/INFO]: [Stargate] {world} No stargates for world 
+[12:34:36] [Server thread/INFO]: [Stargate] {world_nether} No stargates for world 
+[12:34:36] [Server thread/INFO]: [Stargate] {world_the_end} No stargates for world 
+[12:34:36] [Server thread/INFO]: [GriefPrevention] Enabling GriefPrevention v16.11.6
+[12:34:36] [Server thread/INFO]: [GriefPrevention] Finished loading configuration.
+[12:34:36] [Server thread/INFO]: [GriefPrevention] 64 total claims loaded.
+[12:34:38] [Server thread/INFO]: [GriefPrevention] Customizable messages loaded.
+[12:34:38] [Server thread/INFO]: [GriefPrevention] Finished loading data (File Mode).
+[12:34:38] [Server thread/INFO]: [GriefPrevention] Boot finished.
+[12:34:38] [Server thread/INFO]: [ChestShop] Enabling ChestShop v3.10-SNAPSHOT (build 137)
+[12:34:38] [Server thread/INFO]: [ChestShop] Using Essentials Economy as the Economy provider now.
+[12:34:38] [Server thread/INFO]: [ChestShop] Vault loaded!
+[12:34:38] [Server thread/INFO]: [Essentials] Enabling Essentials v2.17.0.0
+[12:34:38] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[12:34:38] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
+[12:34:38] [Server thread/INFO]: No kits found to migrate.
+[12:34:39] [Server thread/INFO]: [Essentials] Using 1.8.3+ BlockStateMeta provider as mob spawner provider.
+[12:34:39] [Server thread/INFO]: [Essentials] Using 1.13+ flat spawn egg provider as spawn egg provider.
+[12:34:39] [Server thread/INFO]: [Essentials] Using 1.9+ BasePotionData provider as potion meta provider.
+[12:34:39] [Server thread/INFO]: Loaded 20977 items from items.json.
+[12:34:39] [Server thread/INFO]: Using locale en_US
+[12:34:39] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[12:34:39] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[12:34:39] [Server thread/INFO]: [Vault] [Vault][Economy] Essentials Economy hooked.
+[12:34:39] [Server thread/INFO]: [Essentials] Using Vault based permissions (PermissionsEx)
+[12:34:39] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.17.0.0
+[12:34:39] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.17.0.0
+[12:34:39] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[12:34:40] [Server thread/INFO]: Done (10.347s)! For help, type "help"
+[12:34:40] [Craft Scheduler Thread - 2/INFO]: [HomeSpawn] HomeSpawn file watcher started!
+[12:34:40] [Craft Scheduler Thread - 0/INFO]: [mcMMO] Cleaned backup files. Deleted 2 of 25 files.
+[12:34:40] [Craft Scheduler Thread - 3/INFO]: [HomeSpawn] §fAn update for HomeSpawn is available and can be downloaded and installed by running /homespawn update
+[12:34:40] [Craft Scheduler Thread - 4/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m----------------------------------------------[m
+[12:34:40] [Craft Scheduler Thread - 4/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    +===============+[m
+[12:34:40] [Craft Scheduler Thread - 4/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    | SkinsRestorer |[m
+[12:34:40] [Craft Scheduler Thread - 4/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    +===============+[m
+[12:34:40] [Craft Scheduler Thread - 4/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m----------------------------------------------[m
+[12:34:40] [Craft Scheduler Thread - 4/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;36;1m    Current version: [0;32;1m13.7.3[m
+[12:34:40] [Craft Scheduler Thread - 4/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    This is the latest version![m
+[12:34:40] [Craft Scheduler Thread - 4/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m----------------------------------------------[m
+[12:34:41] [Server thread/INFO]: [0;32;1m[AutoRestart] Up to date![m
+[12:34:41] [Craft Scheduler Thread - 6/INFO]: [Vault] Checking for Updates ... 
+[12:34:41] [Craft Scheduler Thread - 6/INFO]: [Vault] No new version available
+[12:35:31] [User Authenticator #1/INFO]: UUID of player lolo_lola_69 is 646085da-be96-308b-8634-fb8b260022a5
+[12:35:32] [Server thread/INFO]: lolo_lola_69[/0:0:0:0:0:0:0:1:51954] logged in with entity id 122 at ([world]743.1585789582974, 69.0, -48.26146891736349)
+[12:35:34] [Server thread/INFO]: [0;33;1mlolo_lola_69 has joined the game.[m
+[12:35:44] [Server thread/INFO]: [mcMMO] WorldGuard was not detected.
+[12:44:44] [User Authenticator #2/INFO]: UUID of player arcosanti is a9e52362-e903-3089-8f30-1e5a3b7d754a
+[12:44:44] [Server thread/INFO]: arcosanti[/0:0:0:0:0:0:0:1:51965] logged in with entity id 2199 at ([world]498.3102397354377, 66.0, 162.64042794705824)
+[12:44:45] [Server thread/INFO]: [0;33;1marcosanti has joined the game.[m
+[12:44:55] [Async Chat Thread - #0/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> top of the morning laddy[m
+[12:45:58] [Server thread/INFO]: arcosanti issued server command: /home spawner
+[12:49:50] [Async Chat Thread - #1/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> tahhello[m
+[12:49:53] [Async Chat Thread - #1/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> was afk[m
+[12:50:10] [Async Chat Thread - #1/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> afking again[m
+[12:50:14] [Async Chat Thread - #1/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> hahaha np[m
+[12:52:52] [Async Chat Thread - #2/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> bakc[m
+[12:58:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5030ms or 100 ticks behind
+[13:00:15] [Server thread/INFO]: [0;33;22mTPS from last 1m, 5m, 15m: [0;32;1m19.96, [0;32;1m19.87, [0;32;1m19.95[m
+[13:00:16] [Server thread/INFO]: CONSOLE issued server command: /lag 
+[13:00:16] [Server thread/INFO]: [0;33;22mUptime:[0;31;1m 26 minutes 7 seconds[m
+[13:00:16] [Server thread/INFO]: [0;33;22mCurrent TPS = [0;32;1m19.73[m
+[13:00:16] [Server thread/INFO]: [0;33;22mMaximum memory:[0;31;1m 9,102 MB.[m
+[13:00:16] [Server thread/INFO]: [0;33;22mAllocated memory:[0;31;1m 2,342 MB.[m
+[13:00:16] [Server thread/INFO]: [0;33;22mFree memory:[0;31;1m 282 MB.[m
+[13:00:17] [Server thread/INFO]: [0;33;22mWorld "[0;31;1mworld[0;33;22m": [0;31;1m1,251[0;33;22m chunks, [0;31;1m476[0;33;22m entities, [0;31;1m551[0;33;22m tiles.[m
+[13:00:17] [Server thread/INFO]: [0;33;22mNether "[0;31;1mworld_nether[0;33;22m": [0;31;1m529[0;33;22m chunks, [0;31;1m71[0;33;22m entities, [0;31;1m24[0;33;22m tiles.[m
+[13:00:17] [Server thread/INFO]: [0;33;22mThe End "[0;31;1mworld_the_end[0;33;22m": [0;31;1m529[0;33;22m chunks, [0;31;1m3[0;33;22m entities, [0;31;1m22[0;33;22m tiles.[m
+[13:00:19] [Server thread/INFO]: CONSOLE issued server command: /list 
+[13:00:19] [Server thread/INFO]: [0;33;22mThere are [0;31;1m2[0;33;22m out of maximum [0;31;1m20[0;33;22m players online.[m
+[13:00:19] [Server thread/INFO]: [0;33;22muser[m: [0;33;1m[User] arcosanti[m[0;37;1m, [0;33;1m[User] ~aBSOlUte_mADLad[m[0;37;1m[m
+[13:01:26] [Server thread/INFO]: arcosanti issued server command: /home
+[13:02:32] [User Authenticator #3/INFO]: UUID of player Kobeboy15 is dc70f05a-14b3-350c-91b3-ecddbe830761
+[13:02:33] [Server thread/INFO]: Kobeboy15[/0:0:0:0:0:0:0:1:51988] logged in with entity id 8300 at ([world]777.3466160907361, 67.0, -5.91992372704652)
+[13:02:33] [Server thread/INFO]: [0;33;1mKobeboy15 has joined the game.[m
+[13:02:35] [Server thread/INFO]: Kobeboy15 issued server command: /lag
+[13:02:37] [Server thread/INFO]: Kobeboy15 issued server command: /tps
+[13:02:38] [Async Chat Thread - #3/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> nibba[m
+[13:03:04] [Server thread/INFO]: Kobeboy15 issued server command: /broadcastworld BANNING VLAD FOR SAYING NI**A
+[13:05:17] [Server thread/INFO]: Kobeboy15 issued server command: /SUNW
+[13:05:19] [Server thread/INFO]: Kobeboy15 issued server command: /SUN
+[13:06:01] [Async Chat Thread - #4/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> HAHA[m
+[13:06:03] [Server thread/INFO]: [GriefPrevention] Kobeboy15 placed a sign @ world: x792, z-13; HANNAH's;HORSE PLEASE;DO NOT HURT;HER
+[13:06:04] [Async Chat Thread - #4/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> brb[m
+[13:06:05] [Server thread/INFO]: arcosanti lost connection: Disconnected
+[13:06:05] [Server thread/INFO]: arcosanti has left the game.
+[13:08:40] [Server thread/INFO]: [GriefPrevention] lolo_lola_69 placed a sign @ world: x817, z-2;Sandfly Nood;Beach;No Armors pls
+[13:09:25] [Server thread/INFO]: lolo_lola_69 issued server command: /tpa Kobeboy15
+[13:09:28] [Server thread/INFO]: Kobeboy15 issued server command: /TPACCPE
+[13:09:31] [Server thread/INFO]: Kobeboy15 issued server command: /TPACCEPT
+[13:11:13] [Server thread/INFO]: [@: Killed 2 entities]
+[13:11:39] [Server thread/INFO]: lolo_lola_69 issued server command: /home
+[13:11:42] [Server thread/INFO]: Kobeboy15 issued server command: /summon minecraft:iron_golem
+[13:11:42] [Server thread/INFO]: [Kobeboy15: Summoned new Iron Golem]
+[13:11:54] [Server thread/INFO]: Kobeboy15 issued server command: /summon minecraft:iron_golem
+[13:11:54] [Server thread/INFO]: [Kobeboy15: Summoned new Iron Golem]
+[13:12:36] [Server thread/INFO]: Kobeboy15 issued server command: /summon minecraft:iron_golem
+[13:12:36] [Server thread/INFO]: [Kobeboy15: Summoned new Iron Golem]
+[13:12:45] [Server thread/INFO]: Kobeboy15 issued server command: /summon minecraft:iron_golem
+[13:12:45] [Server thread/INFO]: [Kobeboy15: Summoned new Iron Golem]
+[13:12:51] [Server thread/INFO]: Kobeboy15 issued server command: /summon minecraft:iron_golem
+[13:12:51] [Server thread/INFO]: [Kobeboy15: Summoned new Iron Golem]
+[13:13:17] [Server thread/INFO]: Kobeboy15 issued server command: /summon minecraft:iron_golem
+[13:13:17] [Server thread/INFO]: [Kobeboy15: Summoned new Iron Golem]
+[13:13:18] [Server thread/INFO]: Kobeboy15 issued server command: /summon minecraft:iron_golem
+[13:13:18] [Server thread/INFO]: [Kobeboy15: Summoned new Iron Golem]
+[13:13:21] [Server thread/INFO]: Kobeboy15 issued server command: /summon minecraft:iron_golem
+[13:13:21] [Server thread/INFO]: [Kobeboy15: Summoned new Iron Golem]
+[13:14:58] [User Authenticator #4/INFO]: UUID of player arcosanti is a9e52362-e903-3089-8f30-1e5a3b7d754a
+[13:14:58] [Server thread/INFO]: arcosanti[/0:0:0:0:0:0:0:1:52000] logged in with entity id 11681 at ([world]525.6999999880791, 60.0, 196.44929934863188)
+[13:14:58] [Server thread/INFO]: [0;33;1marcosanti has joined the game.[m
+[13:15:21] [Server thread/INFO]: lolo_lola_69 issued server command: /home
+[13:15:33] [Server thread/INFO]: Kobeboy15 issued server command: /broadcastworld Banning Santi v.Alpha01
+[13:15:46] [Async Chat Thread - #5/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> OI[m
+[13:15:49] [Async Chat Thread - #5/INFO]: [m[0;33;1m[User] [0;33;1m[User] Kobeboy15[m [0;36;1m> <3[m
+[13:15:53] [Async Chat Thread - #5/INFO]: [m[0;33;1m[User] [0;33;1m[User] Kobeboy15[m [0;36;1m> i love u[m
+[13:16:00] [Server thread/INFO]: Kobeboy15 issued server command: /tp arcosanti
+[13:16:08] [Async Chat Thread - #5/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> hahahaaha i know <3[m
+[13:16:16] [Async Chat Thread - #5/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> oh shit[m
+[13:16:22] [Async Chat Thread - #5/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> whats that edgy skin[m
+[13:16:29] [Async Chat Thread - #5/INFO]: [m[0;33;1m[User] [0;33;1m[User] Kobeboy15[m [0;36;1m> its samara[m
+[13:18:35] [Server thread/INFO]: lolo_lola_69 issued server command: /home
+[13:22:46] [Server thread/WARN]: lolo_lola_69 moved wrongly!
+[13:23:00] [Server thread/INFO]: Kobeboy15 issued server command: /tp lolo_lola_69
+[13:23:22] [Server thread/INFO]: Kobeboy15 issued server command: /home
+[13:23:48] [Server thread/INFO]: lolo_lola_69 issued server command: /homelist
+[13:23:52] [Server thread/INFO]: lolo_lola_69 issued server command: /sethome mt
+[13:23:55] [Server thread/INFO]: lolo_lola_69 issued server command: /home
+[13:24:18] [Server thread/INFO]: lolo_lola_69 issued server command: /hoem mt
+[13:24:20] [Server thread/INFO]: lolo_lola_69 issued server command: /home mt
+[13:25:08] [Server thread/INFO]: [GriefPrevention] lolo_lola_69 placed a sign @ world: x163, z-3668;Mt. JohnSon;9.22.2019;The Throat of;this World
+[13:27:19] [Server thread/INFO]: Kobeboy15 issued server command: /lag
+[13:28:48] [Server thread/INFO]: lolo_lola_69 issued server command: /sethome mt
+[13:28:49] [Server thread/INFO]: lolo_lola_69 issued server command: /home
+[13:29:34] [Server thread/INFO]: arcosanti issued server command: /home village
+[13:29:39] [Server thread/INFO]: [@: Killed 3 entities]
+[13:29:48] [Server thread/WARN]: Kobeboy15 moved too quickly! -8.022285905825015,0.0,10.486069244536296
+[13:29:56] [Server thread/INFO]: lolo_lola_69 issued server command: /home
+[13:30:25] [Server thread/INFO]: lolo_lola_69 issued server command: /home
+[13:30:28] [Server thread/INFO]: lolo_lola_69 issued server command: /home mt
+[13:30:59] [Server thread/INFO]: lolo_lola_69 issued server command: /home
+[13:31:22] [Server thread/INFO]: lolo_lola_69 issued server command: /home mt
+[13:34:31] [Server thread/INFO]: arcosanti issued server command: /home
+[13:34:48] [Server thread/WARN]: lolo_lola_69 moved too quickly! -3.493166563571691,-15.641377396289244,4.765476026910619
+[13:35:08] [Server thread/INFO]: lolo_lola_69 issued server command: /home
+[13:36:03] [Server thread/INFO]: Kobeboy15 issued server command: /home
+[13:36:59] [Server thread/INFO]: lolo_lola_69 lost connection: Disconnected
+[13:36:59] [Server thread/INFO]: lolo_lola_69 has left the game.
+[13:37:53] [Server thread/INFO]: Kobeboy15 issued server command: /home
+[13:39:04] [User Authenticator #5/INFO]: UUID of player lolo_lola_69 is 646085da-be96-308b-8634-fb8b260022a5
+[13:39:04] [Server thread/INFO]: lolo_lola_69[/0:0:0:0:0:0:0:1:52015] logged in with entity id 28693 at ([world]747.7608425395862, 69.0, -49.161651928143655)
+[13:39:04] [Server thread/INFO]: [0;33;1mlolo_lola_69 has joined the game.[m
+[13:39:47] [Server thread/WARN]: lolo_lola_69 moved too quickly! 3.958348938918789,1.7531999805212024,9.083961682342448
+[13:41:50] [Server thread/INFO]: lolo_lola_69 issued server command: /tpa Kobeboy15
+[13:41:52] [Server thread/INFO]: Kobeboy15 issued server command: /tpaccept
+[13:42:37] [Server thread/INFO]: lolo_lola_69 lost connection: Disconnected
+[13:42:37] [Server thread/INFO]: lolo_lola_69 has left the game.
+[13:43:29] [User Authenticator #6/INFO]: UUID of player lolo_lola_69 is 646085da-be96-308b-8634-fb8b260022a5
+[13:43:29] [Server thread/INFO]: lolo_lola_69[/0:0:0:0:0:0:0:1:52019] logged in with entity id 29730 at ([world]508.30000001192093, 82.0, 93.74202534625105)
+[13:43:29] [Server thread/INFO]: [0;33;1mlolo_lola_69 has joined the game.[m
+[13:44:11] [Server thread/INFO]: lolo_lola_69 issued server command: /home
+[13:45:33] [Server thread/INFO]: arcosanti fell from a high place
+[13:45:40] [Server thread/INFO]: arcosanti issued server command: /home
+[13:45:50] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> whats this thing beside the acrobatics farm[m
+[13:46:22] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] Kobeboy15[m [0;36;1m> your momo[m
+[13:46:24] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] Kobeboy15[m [0;36;1m> fuck[m
+[13:46:37] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> hahahahaha what[m
+[13:46:41] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> oh[m
+[13:46:42] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> mom[m
+[13:46:45] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> HAHA[m
+[13:46:57] [Server thread/INFO]: arcosanti issued server command: /mctop Acrobatics
+[13:48:02] [Async Chat Thread - #7/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> is this urs vlad[m
+[13:48:05] [Async Chat Thread - #7/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> nope[m
+[13:48:08] [Async Chat Thread - #7/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> cuz thers also this small tunnel[m
+[13:48:11] [Async Chat Thread - #7/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> hannah namde that[m
+[13:48:17] [Async Chat Thread - #7/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> ==oh[m
+[13:48:23] [Async Chat Thread - #7/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> hahaha do you know why?[m
+[13:48:33] [Async Chat Thread - #7/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> she was farming acrobatics[m
+[13:48:48] [Server thread/INFO]: lolo_lola_69 issued server command: /home
+[13:49:07] [Async Chat Thread - #7/INFO]: [m[0;33;1m[User] [0;33;1m[User] Kobeboy15[m [0;36;1m> *whispering to vlad* he's an idiot, he'll never know...[m
+[13:49:07] [Server thread/INFO]: arcosanti fell from a high place
+[13:49:12] [Server thread/INFO]: arcosanti issued server command: /home
+[13:49:20] [Async Chat Thread - #7/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> hahahahaha[m
+[13:50:48] [Server thread/INFO]: arcosanti issued server command: /home
+[13:50:51] [Server thread/INFO]: Kobeboy15 issued server command: /home
+[13:51:51] [Server thread/INFO]: arcosanti issued server command: /home
+[13:52:06] [Server thread/INFO]: Kobeboy15 issued server command: /home
+[13:54:41] [Server thread/INFO]: Kobeboy15 issued server command: /home
+[13:56:40] [Server thread/INFO]: Kobeboy15 issued server command: /home
+[13:57:12] [Server thread/INFO]: Kobeboy15 lost connection: Disconnected
+[13:57:12] [Server thread/INFO]: Kobeboy15 has left the game.
+[13:57:36] [Server thread/INFO]: lolo_lola_69 issued server command: /home
+[13:58:07] [Server thread/INFO]: lolo_lola_69 lost connection: Disconnected
+[13:58:07] [Server thread/INFO]: lolo_lola_69 has left the game.
+[13:59:46] [Server thread/WARN]: arcosanti moved too quickly! -10.312836077000611,-1.2579991035152744,4.463290788113312
+[14:03:33] [Server thread/INFO]: arcosanti issued server command: /home
+[14:08:37] [Server thread/INFO]: arcosanti issued server command: /spawn
+[14:09:50] [Server thread/INFO]: [ChestShop] arcosanti bought 10 Smooth Stone for 200.00 from Admin Shop at [world] 282, 48, 305
+[14:09:51] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[14:09:51] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[14:09:52] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[14:09:53] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[14:09:53] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[14:09:54] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[14:09:54] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[14:09:54] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[14:09:55] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[14:09:55] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[14:09:56] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[14:09:56] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[14:09:56] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[14:09:57] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[14:09:57] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[14:09:58] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[14:09:58] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[14:09:58] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[14:09:58] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[14:09:59] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[14:09:59] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[14:09:59] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[14:10:00] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[14:10:00] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[14:10:00] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[14:10:01] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[14:10:01] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[14:10:02] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[14:10:02] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[14:10:02] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[14:10:03] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[14:10:03] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[14:10:03] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[14:10:04] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[14:10:04] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[14:10:04] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[14:10:05] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[14:10:05] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[14:10:05] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[14:10:05] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[14:10:06] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[14:10:06] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[14:10:06] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[14:10:07] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[14:10:07] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[14:10:07] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[14:10:08] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[14:10:08] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[14:10:08] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[14:10:09] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[14:10:09] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[14:10:09] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[14:10:09] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[14:10:10] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[14:10:10] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[14:10:10] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[14:10:11] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[14:10:11] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[14:10:11] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[14:10:12] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[14:10:12] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[14:10:12] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[14:10:13] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[14:10:13] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[14:10:13] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[14:10:14] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[14:10:14] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[14:10:14] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[14:10:15] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[14:10:15] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[14:10:15] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[14:10:16] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[14:10:16] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[14:10:16] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[14:10:17] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[14:10:17] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[14:10:17] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[14:10:18] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[14:10:18] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[14:10:18] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[14:10:19] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[14:10:19] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[14:10:19] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[14:10:20] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[14:10:20] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[14:10:20] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[14:10:21] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[14:10:21] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[14:10:22] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[14:10:22] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[14:10:22] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[14:10:23] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[14:10:23] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[14:10:23] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[14:10:24] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[14:10:24] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[14:10:24] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[14:10:25] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[14:10:25] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[14:10:25] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[14:10:27] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[14:10:27] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[14:10:28] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[14:10:28] [Server thread/INFO]: [ChestShop] arcosanti sold 4 Smooth Stone for 36.00 to Admin Shop at [world] 282, 48, 305
+[14:10:38] [Server thread/INFO]: arcosanti issued server command: /balance
+[14:11:29] [Server thread/INFO]: [ChestShop] arcosanti bought 1 Beacon for 25000.00 from Admin Shop at [world] 290, 48, 312
+[14:11:32] [Server thread/INFO]: arcosanti issued server command: /home
+[14:17:10] [User Authenticator #7/INFO]: UUID of player Kobeboy15 is dc70f05a-14b3-350c-91b3-ecddbe830761
+[14:17:11] [Server thread/INFO]: Kobeboy15[/0:0:0:0:0:0:0:1:52042] logged in with entity id 38302 at ([world]701.5951248268952, 58.0, 91.81467473536735)
+[14:17:11] [Server thread/INFO]: [0;33;1mKobeboy15 has joined the game.[m
+[14:17:14] [Server thread/INFO]: Kobeboy15 issued server command: /list
+[14:17:56] [Server thread/INFO]: Kobeboy15 lost connection: Disconnected
+[14:17:56] [Server thread/INFO]: Kobeboy15 has left the game.
+[14:28:49] [User Authenticator #8/INFO]: UUID of player crystalgem is f321cff2-0750-3ba1-98af-66006fbafb2e
+[14:28:49] [Server thread/INFO]: crystalgem[/0:0:0:0:0:0:0:1:52051] logged in with entity id 39261 at ([world]657.9111215258645, 86.0, -179.01249998807907)
+[14:28:49] [Server thread/INFO]: [0;33;1mcrystalgem has joined the game.[m
+[14:28:59] [Server thread/WARN]: crystalgem moved wrongly!
+[14:30:22] [Async Chat Thread - #8/INFO]: [m[0;33;1m[User] [0;33;1m[User] crystalgem[m [0;36;1m> joaquin?[m
+[14:30:25] [Async Chat Thread - #8/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> hola[m
+[14:30:29] [Async Chat Thread - #8/INFO]: [m[0;33;1m[User] [0;33;1m[User] crystalgem[m [0;36;1m> u busy?[m
+[14:30:34] [Async Chat Thread - #8/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> nope[m
+[14:30:37] [Async Chat Thread - #8/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> whats up?[m
+[14:30:38] [Async Chat Thread - #8/INFO]: [m[0;33;1m[User] [0;33;1m[User] crystalgem[m [0;36;1m> sleep?[m
+[14:30:49] [Async Chat Thread - #8/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> oh haha sure[m
+[14:30:54] [Async Chat Thread - #8/INFO]: [m[0;33;1m[User] [0;33;1m[User] crystalgem[m [0;36;1m> ty[m
+[14:30:58] [Async Chat Thread - #8/INFO]: [m[0;33;1m[User] [0;33;1m[User] crystalgem[m [0;36;1m> :)[m
+[14:30:59] [Async Chat Thread - #8/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> npnp[m
+[14:41:16] [Server thread/INFO]: arcosanti fell from a high place
+[14:41:22] [Server thread/INFO]: arcosanti issued server command: /home
+[14:54:17] [Server thread/INFO]: arcosanti issued server command: /home
+[14:58:24] [Server thread/INFO]: crystalgem lost connection: Disconnected
+[14:58:24] [Server thread/INFO]: crystalgem has left the game.
+[15:02:09] [Server thread/INFO]: arcosanti issued server command: /spawn
+[15:03:35] [Server thread/INFO]: [ChestShop] arcosanti bought 10 Smooth Stone for 200.00 from Admin Shop at [world] 282, 48, 305
+[15:03:36] [Server thread/INFO]: [ChestShop] arcosanti bought 10 Smooth Stone for 200.00 from Admin Shop at [world] 282, 48, 305
+[15:03:36] [Server thread/INFO]: [ChestShop] arcosanti bought 10 Smooth Stone for 200.00 from Admin Shop at [world] 282, 48, 305
+[15:03:37] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[15:03:38] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[15:03:38] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[15:03:39] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[15:03:39] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[15:03:39] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[15:03:40] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[15:03:40] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[15:03:41] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[15:03:41] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[15:03:41] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[15:03:42] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[15:03:42] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[15:03:43] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[15:03:43] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[15:03:43] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[15:03:44] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[15:03:44] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[15:03:44] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[15:03:45] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[15:03:45] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[15:03:46] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[15:03:46] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[15:03:46] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[15:03:47] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[15:03:47] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[15:03:48] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[15:03:48] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[15:03:48] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[15:03:49] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[15:03:49] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[15:03:50] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[15:03:50] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[15:03:50] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[15:03:51] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[15:03:51] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[15:03:52] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[15:03:52] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[15:03:53] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[15:03:53] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[15:03:53] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[15:03:54] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[15:03:54] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[15:03:54] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[15:03:55] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[15:03:55] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[15:03:56] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[15:03:56] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[15:03:57] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[15:03:57] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[15:03:57] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[15:03:58] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[15:03:58] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[15:03:58] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[15:03:59] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[15:03:59] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[15:04:00] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[15:04:00] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[15:04:01] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[15:04:01] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[15:04:01] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[15:04:02] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[15:04:02] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[15:04:03] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[15:04:03] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[15:04:03] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[15:04:04] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[15:04:04] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[15:04:05] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[15:04:06] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[15:04:06] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[15:04:06] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[15:04:07] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[15:04:07] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[15:04:08] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[15:04:08] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[15:04:09] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[15:04:09] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[15:04:10] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[15:04:11] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[15:04:11] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[15:04:12] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[15:04:13] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[15:04:13] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[15:04:14] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[15:04:15] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[15:04:15] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[15:04:16] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[15:04:17] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[15:04:17] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[15:04:18] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[15:04:19] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[15:04:19] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[15:04:20] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[15:04:22] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[15:04:24] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[15:04:24] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[15:04:25] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[15:04:26] [Server thread/INFO]: [ChestShop] arcosanti sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[15:04:34] [Server thread/INFO]: arcosanti issued server command: /balance
+[15:04:41] [Server thread/INFO]: arcosanti issued server command: /home
+[15:09:24] [Server thread/INFO]: arcosanti issued server command: /home
+[15:16:53] [Server thread/WARN]: arcosanti moved wrongly!
+[15:17:41] [Server thread/INFO]: arcosanti lost connection: Disconnected
+[15:17:41] [Server thread/INFO]: arcosanti has left the game.
+[15:18:40] [User Authenticator #9/INFO]: UUID of player lolo_lola_69 is 646085da-be96-308b-8634-fb8b260022a5
+[15:18:41] [Server thread/INFO]: lolo_lola_69[/0:0:0:0:0:0:0:1:52096] logged in with entity id 48220 at ([world]745.9379403988275, 72.0, -59.66189596040265)
+[15:18:41] [Server thread/INFO]: [0;33;1mlolo_lola_69 has joined the game.[m
+[15:33:07] [Server thread/INFO]: lolo_lola_69 issued server command: /home
+[15:33:35] [Server thread/INFO]: lolo_lola_69 issued server command: /warp shop
+[15:33:58] [Server thread/INFO]: [ChestShop] lolo_lola_69 bought 1 Name Tag for 1000.00 from Admin Shop at [world] 297, 48, 305
+[15:34:02] [Server thread/INFO]: lolo_lola_69 issued server command: /home
+[15:36:44] [Server thread/INFO]: lolo_lola_69 lost connection: Disconnected
+[15:36:44] [Server thread/INFO]: lolo_lola_69 has left the game.
+[16:17:21] [User Authenticator #10/INFO]: UUID of player lolo_lola_69 is 646085da-be96-308b-8634-fb8b260022a5
+[16:17:21] [Server thread/INFO]: lolo_lola_69[/0:0:0:0:0:0:0:1:52128] logged in with entity id 53177 at ([world]743.3890906688745, 72.0, -56.932639483191366)
+[16:17:21] [Server thread/INFO]: [0;33;1mlolo_lola_69 has joined the game.[m
+[16:19:43] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mYOU KNOW WHAT TIME IT IS :3 In 15 Minutes![m
+[16:21:18] [Server thread/INFO]: lolo_lola_69 issued server command: /home market
+[16:21:24] [User Authenticator #11/INFO]: UUID of player arcosanti is a9e52362-e903-3089-8f30-1e5a3b7d754a
+[16:21:24] [Server thread/INFO]: arcosanti[/0:0:0:0:0:0:0:1:52135] logged in with entity id 54937 at ([world]524.5134787341096, 52.0, 189.44368645767133)
+[16:21:24] [Server thread/INFO]: [0;33;1marcosanti has joined the game.[m
+[16:21:54] [Server thread/INFO]: lolo_lola_69 issued server command: /home
+[16:21:56] [Async Chat Thread - #9/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> sup[m
+[16:22:05] [Async Chat Thread - #9/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> making our beacon rn[m
+[16:22:17] [Async Chat Thread - #9/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> oooh where[m
+[16:22:34] [Async Chat Thread - #9/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> in front of the acrobatics farm[m
+[16:22:59] [Async Chat Thread - #9/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> hey panini[m
+[16:23:05] [Async Chat Thread - #9/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> dont dhu be a meanie[m
+[16:23:08] [Async Chat Thread - #9/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> HAHA[m
+[16:23:26] [Async Chat Thread - #9/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> wax i found a really tall mountain[m
+[16:23:29] [Async Chat Thread - #9/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> it was natural[m
+[16:23:36] [Async Chat Thread - #9/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> oh nice[m
+[16:23:38] [Server thread/INFO]: lolo_lola_69 issued server command: /home mt
+[16:23:38] [Async Chat Thread - #9/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> near?[m
+[16:23:44] [Async Chat Thread - #9/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> nope, tp[m
+[16:23:52] [Async Chat Thread - #9/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> ah nbvm[m
+[16:23:52] [Server thread/INFO]: arcosanti issued server command: /tpa lolo_lola_69
+[16:23:59] [Async Chat Thread - #9/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> doshte[m
+[16:24:02] [Async Chat Thread - #9/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> i reset the home[m
+[16:24:03] [Async Chat Thread - #9/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> fuck[m
+[16:24:06] [Async Chat Thread - #9/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> ah shit[m
+[16:24:08] [Async Chat Thread - #9/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> hahaha[m
+[16:24:44] [Server thread/WARN]: lolo_lola_69 moved too quickly! -0.454716477835035,-5.28563542995704,55.07890726785445
+[16:24:44] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mYOU KNOW WHAT TIME IT IS :3 In 10 Minutes![m
+[16:25:12] [Server thread/INFO]: arcosanti issued server command: /home
+[16:27:09] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> wax[m
+[16:27:10] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> tp[m
+[16:27:12] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> i founfit[m
+[16:27:14] [Server thread/INFO]: arcosanti issued server command: /tpa lolo_lola_69
+[16:27:17] [Server thread/INFO]: lolo_lola_69 issued server command: /tpaccept
+[16:27:30] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> what the fuck[m
+[16:27:33] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> im gonna make a elytra base here[m
+[16:27:39] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> go to the top[m
+[16:27:48] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> oooh[m
+[16:27:53] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> hahaha[m
+[16:27:55] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> dude this is[m
+[16:27:58] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> way too tall[m
+[16:28:14] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> the biome says shattered savana[m
+[16:28:21] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> its overlooking 2 villages[m
+[16:28:22] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> this is so cool[m
+[16:28:26] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> oooh shit[m
+[16:28:26] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> waaaaat[m
+[16:28:27] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> where[m
+[16:28:28] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> shattered[m
+[16:28:30] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> ah[m
+[16:28:31] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> thatts sssoooo cool[m
+[16:28:32] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> one there[m
+[16:28:35] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> 1 there[m
+[16:28:39] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> 1 over there[m
+[16:28:55] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> hre[m
+[16:28:58] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> ooooh[m
+[16:29:20] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> how did u know the biome name[m
+[16:29:27] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> its in the f3 screen[m
+[16:29:27] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> oooohduude[m
+[16:29:29] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> the sun[m
+[16:29:36] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> ooh shit[m
+[16:29:40] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> thanks, i didnt know that[m
+[16:29:44] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> praise the sun[m
+[16:29:44] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mYOU KNOW WHAT TIME IT IS :3 In 5 Minutes![m
+[16:29:46] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> hahaha np[m
+[16:29:53] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> how far is this[m
+[16:30:16] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> not that far na sisnce we have elytras[m
+[16:30:22] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> can u bring an empty mamp[m
+[16:30:27] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> sure[m
+[16:30:29] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> one sec[m
+[16:30:31] [Server thread/INFO]: arcosanti issued server command: /home
+[16:30:34] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> okie[m
+[16:32:18] [Server thread/INFO]: arcosanti issued server command: /tpa lolo_lola_69
+[16:32:35] [Async Chat Thread - #11/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> sent a request[m
+[16:33:23] [Server thread/INFO]: lolo_lola_69 issued server command: /tpaccept
+[16:33:27] [Async Chat Thread - #11/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> oh sry[m
+[16:33:32] [Async Chat Thread - #11/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> i was watching webms[m
+[16:33:42] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mYOU KNOW WHAT TIME IT IS :3 In 1 Minutes![m
+[16:34:05] [Async Chat Thread - #11/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> i have paper to make it bigger[m
+[16:34:15] [Async Chat Thread - #11/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> nah i like it smol[m
+[16:34:17] [Async Chat Thread - #11/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> hehehe[m
+[16:34:20] [Async Chat Thread - #11/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> hahahaha[m
+[16:34:22] [Async Chat Thread - #11/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> ty[m
+[16:34:27] [Async Chat Thread - #11/INFO]: [m[0;33;1m[User] [0;33;1m[User] arcosanti[m [0;36;1m> np np[m
+[16:34:29] [Server thread/INFO]: lolo_lola_69 issued server command: /sethoem mt
+[16:34:31] [Server thread/INFO]: lolo_lola_69 issued server command: /sethome mt
+[16:34:37] [Async Chat Thread - #11/INFO]: [m[0;33;1m[User] [0;33;1m[User] ~aBSOlUte_mADLad[m [0;36;1m> did u sethome na[m
+[16:34:37] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mGOODBYE in 5 Seconds![m
+[16:34:38] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mGOODBYE in 4 Seconds![m
+[16:34:39] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mGOODBYE in 3 Seconds![m
+[16:34:40] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mGOODBYE in 2 Seconds![m
+[16:34:41] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mGOODBYE in 1 Seconds![m
+[16:34:41] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1m[0;31;1mServer Restarting![m
+[16:34:41] [Server thread/INFO]: CONSOLE issued server command: /kickall §cServer Restarting! We will be back up any minute!
+[16:34:41] [Server thread/INFO]: lolo_lola_69 lost connection: §cServer Restarting! We will be back up any minute!
+[16:34:41] [Server thread/INFO]: lolo_lola_69 has left the game.
+[16:34:41] [Server thread/INFO]: arcosanti lost connection: §cServer Restarting! We will be back up any minute!
+[16:34:41] [Server thread/INFO]: arcosanti has left the game.
+[16:34:41] [Server thread/INFO]: [0;31;22mKicked all players from server.[m
+[16:34:41] [Server thread/INFO]: Attempting to restart with run.bat
+[16:34:41] [Server thread/INFO]: Stopping server
+[16:34:41] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.17.0.0
+[16:34:41] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.17.0.0
+[16:34:41] [Server thread/INFO]: [Essentials] Disabling Essentials v2.17.0.0
+[16:34:41] [Server thread/INFO]: [Vault] [Vault][Economy] Essentials Economy unhooked.
+[16:34:41] [Server thread/INFO]: [ChestShop] Disabling ChestShop v3.10-SNAPSHOT (build 137)
+[16:34:41] [Server thread/INFO]: [GriefPrevention] Disabling GriefPrevention v16.11.6
+[16:34:41] [Server thread/INFO]: [GriefPrevention] GriefPrevention disabled.
+[16:34:41] [Server thread/INFO]: [Stargate] Disabling Stargate v0.8.2
+[16:34:41] [Server thread/INFO]: Closing all stargates.
+[16:34:41] [Server thread/INFO]: [Vault] Disabling Vault v1.7.2-b107
+[16:34:41] [Server thread/INFO]: [AutoRestart] Disabling AutoRestart v3.3.3
+[16:34:41] [Server thread/INFO]: [mcMMO] Disabling mcMMO v2.1.100-SNAPSHOT
+[16:34:41] [Server thread/INFO]: [mcMMO] Saving mcMMOPlayers... (0)
+[16:34:41] [Server thread/INFO]: [mcMMO] Finished save operation for 0 players!
+[16:34:41] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v13.7.3
+[16:34:41] [Server thread/INFO]: [HomeSpawn] Disabling HomeSpawn v3.1.4
+[16:34:41] [Server thread/INFO]: [HomeSpawn] HomeSpawn has been disabled
+[16:34:41] [Server thread/INFO]: [PermissionsEx] Disabling PermissionsEx v1.23.4
+[16:34:41] [Server thread/INFO]: Saving players
+[16:34:42] [Server thread/INFO]: Saving worlds
+[16:34:42] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
+[16:34:43] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[16:34:43] [Server thread/INFO]: Saving chunks for level 'world_nether'/minecraft:the_nether
+[16:34:43] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[16:34:43] [Server thread/INFO]: Saving chunks for level 'world_the_end'/minecraft:the_end
+[16:34:43] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[16:34:43] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[16:34:43] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[16:34:43] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
