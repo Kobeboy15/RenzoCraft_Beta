@@ -1,20 +1,20 @@
 lastAccountName: FKritz
 timestamps:
-  login: 1569333565086
-  logout: 1569339377459
-  lastteleport: 1569338798230
+  login: 1569420928698
+  logout: 1569425720376
+  lastteleport: 1569425611999
 ipAddress: 0:0:0:0:0:0:0:1
 lastlocation:
-  world: world_nether
-  x: -203.80834855365254
-  y: 51.0
-  z: 143.30000001192093
-  yaw: 11.019653
-  pitch: -22.679506
+  world: world
+  x: 730.3171015176359
+  y: 76.0
+  z: -193.92500001192093
+  yaw: 238.82718
+  pitch: 25.522585
 logoutlocation:
   world: world
-  x: 787.546006142611
+  x: 788.2497761668276
   y: 54.0
-  z: -479.58697520669733
-  yaw: 53.41992
-  pitch: -13.798988
+  z: -481.90803264136383
+  yaw: 271.56866
+  pitch: 2.6353688
