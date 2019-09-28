@@ -1,276 +1,584 @@
-[18:10:48] [Server thread/INFO]: Starting minecraft server version 1.14.4
-[18:10:48] [Server thread/INFO]: Loading properties
-[18:10:48] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-065a373-9aa7430 (MC: 1.14.4) (Implementing API version 1.14.4-R0.1-SNAPSHOT)
-[18:10:49] [Server thread/INFO]: Debug logging is disabled
-[18:10:49] [Server thread/INFO]: Using 4 threads for Netty based IO
-[18:10:49] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[18:10:49] [Server thread/INFO]: Default game type: SURVIVAL
-[18:10:49] [Server thread/INFO]: Generating keypair
-[18:10:49] [Server thread/INFO]: Starting Minecraft server on *:25565
-[18:10:49] [Server thread/INFO]: Using default channel type
-[18:10:56] [Server thread/WARN]: Plugin PermissionsEx v1.23.4 does not specify an api-version.
-[18:10:57] [Server thread/WARN]: Plugin Stargate v0.8.2 does not specify an api-version.
-[18:10:57] [Server thread/INFO]: [PermissionsEx] Loading PermissionsEx v1.23.4
-[18:10:57] [Server thread/WARN]: [PermissionsEx] This server is in offline mode. Unless this server is configured to integrate with a supported proxy (see http://dft.ba/-8ous), UUIDs *may not be stable*!
-[18:10:57] [Server thread/INFO]: [HomeSpawn] Loading HomeSpawn v3.1.4
-[18:10:57] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v13.7.3
-[18:10:57] [Server thread/INFO]: [mcMMO] Loading mcMMO v2.1.100-SNAPSHOT
-[18:10:57] [Server thread/INFO]: [AutoRestart] Loading AutoRestart v3.3.3
-[18:10:57] [Server thread/INFO]: [Vault] Loading Vault v1.7.2-b107
-[18:10:57] [Server thread/INFO]: [Stargate] Loading Stargate v0.8.2
-[18:10:57] [Server thread/INFO]: [GriefPrevention] Loading GriefPrevention v16.11.6
-[18:10:57] [Server thread/INFO]: [ChestShop] Loading ChestShop v3.10-SNAPSHOT (build 137)
-[18:10:57] [Server thread/INFO]: [Essentials] Loading Essentials v2.17.0.0
-[18:10:57] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn v2.17.0.0
-[18:10:57] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat v2.17.0.0
-[18:10:57] [Server thread/INFO]: [mcMMO] Enabling mcMMO v2.1.100-SNAPSHOT
-[18:10:59] [Server thread/INFO]: [mcMMO] enabling Acrobatics Skills
-[18:10:59] [Server thread/INFO]: [mcMMO] registered subskill: Roll
-[18:10:59] [Server thread/INFO]: [mcMMO] 0 entries in mcMMO World Blacklist
-[18:10:59] [Server thread/INFO]: [Vault] Enabling Vault v1.7.2-b107
-[18:10:59] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
-[18:10:59] [Server thread/INFO]: [Vault] [Permission] PermissionsEx found: Waiting
-[18:10:59] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[18:10:59] [Server thread/INFO]: [Vault] [Chat] PermissionsEx found: Waiting
-[18:10:59] [Server thread/INFO]: [Vault] Enabled Version 1.7.2-b107
-[18:10:59] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[18:10:59] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[18:10:59] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[18:10:59] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[18:10:59] [Server thread/INFO]: Preparing level "world"
-[18:10:59] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
-[18:10:59] [Server thread/INFO]: Loaded 6 recipes
-[18:11:00] [Server thread/INFO]: -------- World Settings For [world] --------
-[18:11:00] [Server thread/INFO]: View Distance: 8
-[18:11:00] [Server thread/INFO]: Item Despawn Rate: 6000
-[18:11:00] [Server thread/INFO]: Item Merge Radius: 2.5
-[18:11:00] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[18:11:00] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[18:11:00] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[18:11:00] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
-[18:11:00] [Server thread/INFO]: Mob Spawn Range: 6
-[18:11:00] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[18:11:00] [Server thread/INFO]: Cane Growth Modifier: 100%
-[18:11:00] [Server thread/INFO]: Melon Growth Modifier: 100%
-[18:11:00] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[18:11:00] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[18:11:00] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[18:11:00] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[18:11:00] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[18:11:00] [Server thread/INFO]: Potato Growth Modifier: 100%
-[18:11:00] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[18:11:00] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[18:11:00] [Server thread/INFO]: Vine Growth Modifier: 100%
-[18:11:00] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[18:11:00] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[18:11:00] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[18:11:00] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[18:11:00] [Server thread/INFO]: Experience Merge Radius: 3.0
-[18:11:00] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[18:11:00] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[18:11:00] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[18:11:00] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[18:11:00] [Server thread/INFO]: Max TNT Explosions: 100
-[18:11:00] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[18:11:00] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[18:11:00] [Server thread/INFO]: View Distance: 8
-[18:11:00] [Server thread/INFO]: Item Despawn Rate: 6000
-[18:11:00] [Server thread/INFO]: Item Merge Radius: 2.5
-[18:11:00] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[18:11:00] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[18:11:00] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[18:11:00] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
-[18:11:00] [Server thread/INFO]: Mob Spawn Range: 6
-[18:11:00] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[18:11:00] [Server thread/INFO]: Cane Growth Modifier: 100%
-[18:11:00] [Server thread/INFO]: Melon Growth Modifier: 100%
-[18:11:00] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[18:11:00] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[18:11:00] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[18:11:00] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[18:11:00] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[18:11:00] [Server thread/INFO]: Potato Growth Modifier: 100%
-[18:11:00] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[18:11:00] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[18:11:00] [Server thread/INFO]: Vine Growth Modifier: 100%
-[18:11:00] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[18:11:00] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[18:11:00] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[18:11:00] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[18:11:00] [Server thread/INFO]: Experience Merge Radius: 3.0
-[18:11:00] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[18:11:00] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[18:11:00] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[18:11:00] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[18:11:00] [Server thread/INFO]: Max TNT Explosions: 100
-[18:11:00] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[18:11:00] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[18:11:00] [Server thread/INFO]: View Distance: 8
-[18:11:00] [Server thread/INFO]: Item Despawn Rate: 6000
-[18:11:00] [Server thread/INFO]: Item Merge Radius: 2.5
-[18:11:00] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[18:11:00] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[18:11:00] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[18:11:00] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
-[18:11:00] [Server thread/INFO]: Mob Spawn Range: 6
-[18:11:00] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[18:11:00] [Server thread/INFO]: Cane Growth Modifier: 100%
-[18:11:00] [Server thread/INFO]: Melon Growth Modifier: 100%
-[18:11:00] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[18:11:00] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[18:11:00] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[18:11:00] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[18:11:00] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[18:11:00] [Server thread/INFO]: Potato Growth Modifier: 100%
-[18:11:00] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[18:11:00] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[18:11:00] [Server thread/INFO]: Vine Growth Modifier: 100%
-[18:11:00] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[18:11:00] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[18:11:00] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[18:11:00] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[18:11:00] [Server thread/INFO]: Experience Merge Radius: 3.0
-[18:11:00] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[18:11:00] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[18:11:00] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[18:11:00] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[18:11:00] [Server thread/INFO]: Max TNT Explosions: 100
-[18:11:00] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[18:11:00] [Server thread/INFO]: Preparing start region for dimension 'world'/minecraft:overworld
-[18:11:01] [Server thread/INFO]: Preparing spawn area: 0%
-[18:11:01] [Server thread/INFO]: Preparing spawn area: 0%
-[18:11:01] [Server thread/INFO]: Preparing spawn area: 0%
-[18:11:01] [Server thread/INFO]: Time elapsed: 1543 ms
-[18:11:01] [Server thread/INFO]: Preparing start region for dimension 'world_nether'/minecraft:the_nether
-[18:11:03] [Server thread/INFO]: Preparing spawn area: 0%
-[18:11:03] [Server thread/INFO]: Preparing spawn area: 0%
-[18:11:03] [Server thread/INFO]: Preparing spawn area: 0%
-[18:11:03] [Server thread/INFO]: Time elapsed: 1342 ms
-[18:11:03] [Server thread/INFO]: Preparing start region for dimension 'world_the_end'/minecraft:the_end
-[18:11:03] [Server thread/INFO]: Preparing spawn area: 0%
-[18:11:03] [Server thread/INFO]: Preparing spawn area: 0%
-[18:11:04] [Server-Worker-1/INFO]: Preparing spawn area: 95%
-[18:11:04] [Server thread/INFO]: Time elapsed: 1091 ms
-[18:11:04] [Server thread/INFO]: [PermissionsEx] Enabling PermissionsEx v1.23.4
-[18:11:04] [Server thread/INFO]: [PermissionsEx] Initializing file backend
-[18:11:04] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
-[18:11:04] [Server thread/INFO]: [Vault][Permission] PermissionsEx hooked.
-[18:11:04] [Server thread/INFO]: [Vault] [Vault][Chat] PermissionsEx_Chat hooked.
-[18:11:04] [Server thread/INFO]: [HomeSpawn] Enabling HomeSpawn v3.1.4
-[18:11:04] [Server thread/INFO]: [HomeSpawn] HomeSpawn v3.1.4 has been enabled
-[18:11:04] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v13.7.3
-[18:11:05] [Server thread/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1mDetected Minecraft [0;33;1mv1_14_R1[0;32;1m, using [0;33;1mUniversalSkinFactory[0;32;1m.[m
-[18:11:05] [Server thread/INFO]: [SkinsRestorer] Verbose is missing in config.yml! Using default value.
-[18:11:05] [Server thread/INFO]: [AutoRestart] Enabling AutoRestart v3.3.3
-[18:11:05] [Server thread/INFO]: [0;32;1m[AutoRestart] Loaded![m
-[18:11:05] [Server thread/INFO]: [Stargate] Enabling Stargate v0.8.2
-[18:11:05] [Server thread/INFO]: Stargate v.0.8.2 is enabled.
-[18:11:05] [Server thread/INFO]: [Stargate] Loaded 1 gate layouts
-[18:11:05] [Server thread/INFO]: [Stargate] {world} No stargates for world 
-[18:11:05] [Server thread/INFO]: [Stargate] {world_nether} No stargates for world 
-[18:11:05] [Server thread/INFO]: [Stargate] {world_the_end} No stargates for world 
-[18:11:05] [Server thread/INFO]: [GriefPrevention] Enabling GriefPrevention v16.11.6
-[18:11:05] [Server thread/INFO]: [GriefPrevention] Finished loading configuration.
-[18:11:05] [Server thread/INFO]: [GriefPrevention] 66 total claims loaded.
-[18:11:07] [Server thread/INFO]: [GriefPrevention] Customizable messages loaded.
-[18:11:07] [Server thread/INFO]: [GriefPrevention] Finished loading data (File Mode).
-[18:11:07] [Server thread/INFO]: [GriefPrevention] Boot finished.
-[18:11:07] [Server thread/INFO]: [ChestShop] Enabling ChestShop v3.10-SNAPSHOT (build 137)
-[18:11:07] [Server thread/INFO]: [ChestShop] Using Essentials Economy as the Economy provider now.
-[18:11:07] [Server thread/INFO]: [ChestShop] Vault loaded!
-[18:11:07] [Server thread/INFO]: [Essentials] Enabling Essentials v2.17.0.0
-[18:11:07] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
-[18:11:07] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
-[18:11:07] [Server thread/INFO]: No kits found to migrate.
-[18:11:08] [Server thread/INFO]: [Essentials] Using 1.8.3+ BlockStateMeta provider as mob spawner provider.
-[18:11:08] [Server thread/INFO]: [Essentials] Using 1.13+ flat spawn egg provider as spawn egg provider.
-[18:11:08] [Server thread/INFO]: [Essentials] Using 1.9+ BasePotionData provider as potion meta provider.
-[18:11:08] [Server thread/INFO]: Loaded 20977 items from items.json.
-[18:11:08] [Server thread/INFO]: Using locale en_US
-[18:11:08] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[18:11:08] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[18:11:08] [Server thread/INFO]: [Vault] [Vault][Economy] Essentials Economy hooked.
-[18:11:08] [Server thread/INFO]: [Essentials] Using Vault based permissions (PermissionsEx)
-[18:11:08] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.17.0.0
-[18:11:08] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.17.0.0
-[18:11:08] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[18:11:08] [Server thread/INFO]: Done (9.456s)! For help, type "help"
-[18:11:08] [Craft Scheduler Thread - 2/INFO]: [HomeSpawn] HomeSpawn file watcher started!
-[18:11:08] [Craft Scheduler Thread - 0/INFO]: [mcMMO] Cleaned backup files. Deleted 1 of 24 files.
-[18:11:09] [Craft Scheduler Thread - 3/INFO]: [HomeSpawn] §fAn update for HomeSpawn is available and can be downloaded and installed by running /homespawn update
-[18:11:09] [Craft Scheduler Thread - 4/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m----------------------------------------------[m
-[18:11:09] [Craft Scheduler Thread - 4/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    +===============+[m
-[18:11:09] [Craft Scheduler Thread - 4/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    | SkinsRestorer |[m
-[18:11:09] [Craft Scheduler Thread - 4/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    +===============+[m
-[18:11:09] [Craft Scheduler Thread - 4/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m----------------------------------------------[m
-[18:11:09] [Craft Scheduler Thread - 4/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;36;1m    Current version: [0;32;1m13.7.3[m
-[18:11:09] [Craft Scheduler Thread - 4/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    This is the latest version![m
-[18:11:09] [Craft Scheduler Thread - 4/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m----------------------------------------------[m
-[18:11:10] [Server thread/INFO]: [0;32;1m[AutoRestart] Up to date![m
-[18:11:10] [Craft Scheduler Thread - 6/INFO]: [Vault] Checking for Updates ... 
-[18:11:10] [Craft Scheduler Thread - 6/INFO]: [Vault] No new version available
-[19:33:39] [User Authenticator #1/INFO]: UUID of player Johann is f160dbef-552f-3b70-af9a-129d0ff0c675
-[19:33:40] [Server thread/INFO]: Johann[/0:0:0:0:0:0:0:1:56714] logged in with entity id 95 at ([world]749.6999999880791, 86.0, -182.2456064335063)
-[19:33:41] [Server thread/INFO]: [0;33;1mJohann has joined the game.[m
-[19:33:58] [Server thread/INFO]: [mcMMO] WorldGuard was not detected.
-[19:42:58] [Server thread/INFO]: Johann issued server command: /home
-[19:43:02] [Server thread/INFO]: Johann lost connection: Disconnected
-[19:43:02] [Server thread/INFO]: Johann has left the game.
-[20:09:29] [User Authenticator #2/INFO]: UUID of player Giniguy is 47a4aaeb-feae-366a-bb50-3db390c239cb
-[20:09:30] [Server thread/INFO]: Giniguy[/0:0:0:0:0:0:0:1:56755] logged in with entity id 1309 at ([world]768.3452002709091, 66.5625, -475.83728801160527)
-[20:09:30] [Server thread/INFO]: [0;33;1mGiniguy has joined the game.[m
-[20:20:37] [Async Chat Thread - #0/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> Giniguy[m
-[20:20:47] [Async Chat Thread - #0/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> tet[m
-[20:22:49] [Server thread/INFO]: Giniguy lost connection: Disconnected
-[20:22:49] [Server thread/INFO]: Giniguy has left the game.
-[21:50:32] [User Authenticator #3/INFO]: UUID of player Johann is f160dbef-552f-3b70-af9a-129d0ff0c675
-[21:50:32] [Server thread/INFO]: Johann[/0:0:0:0:0:0:0:1:56856] logged in with entity id 2471 at ([world]749.6999999880791, 86.0, -182.2456064335063)
-[21:50:32] [Server thread/INFO]: [0;33;1mJohann has joined the game.[m
-[21:54:29] [Server thread/INFO]: Johann issued server command: /bal
-[21:56:09] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mYOU KNOW WHAT TIME IT IS :3 In 15 Minutes![m
-[22:01:10] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mYOU KNOW WHAT TIME IT IS :3 In 10 Minutes![m
-[22:01:52] [Server thread/INFO]: Johann issued server command: /home
-[22:06:11] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mYOU KNOW WHAT TIME IT IS :3 In 5 Minutes![m
-[22:06:39] [Server thread/INFO]: Johann issued server command: /home
-[22:07:23] [Server thread/INFO]: Johann lost connection: Disconnected
-[22:07:23] [Server thread/INFO]: Johann has left the game.
-[22:10:08] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mYOU KNOW WHAT TIME IT IS :3 In 1 Minutes![m
-[22:11:03] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mGOODBYE in 5 Seconds![m
-[22:11:04] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mGOODBYE in 4 Seconds![m
-[22:11:05] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mGOODBYE in 3 Seconds![m
-[22:11:06] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mGOODBYE in 2 Seconds![m
-[22:11:07] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mGOODBYE in 1 Seconds![m
-[22:11:07] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1m[0;31;1mServer Restarting![m
-[22:11:07] [Server thread/INFO]: CONSOLE issued server command: /kickall §cServer Restarting! We will be back up any minute!
-[22:11:07] [Server thread/INFO]: [0;31;22mKicked all players from server.[m
-[22:11:07] [Server thread/INFO]: Attempting to restart with run.bat
-[22:11:08] [Server thread/INFO]: Stopping server
-[22:11:08] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.17.0.0
-[22:11:08] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.17.0.0
-[22:11:08] [Server thread/INFO]: [Essentials] Disabling Essentials v2.17.0.0
-[22:11:08] [Server thread/INFO]: [Vault] [Vault][Economy] Essentials Economy unhooked.
-[22:11:08] [Server thread/INFO]: [ChestShop] Disabling ChestShop v3.10-SNAPSHOT (build 137)
-[22:11:08] [Server thread/INFO]: [GriefPrevention] Disabling GriefPrevention v16.11.6
-[22:11:08] [Server thread/INFO]: [GriefPrevention] GriefPrevention disabled.
-[22:11:08] [Server thread/INFO]: [Stargate] Disabling Stargate v0.8.2
-[22:11:08] [Server thread/INFO]: Closing all stargates.
-[22:11:08] [Server thread/INFO]: [Vault] Disabling Vault v1.7.2-b107
-[22:11:08] [Server thread/INFO]: [AutoRestart] Disabling AutoRestart v3.3.3
-[22:11:08] [Server thread/INFO]: [mcMMO] Disabling mcMMO v2.1.100-SNAPSHOT
-[22:11:08] [Server thread/INFO]: [mcMMO] Saving mcMMOPlayers... (0)
-[22:11:08] [Server thread/INFO]: [mcMMO] Finished save operation for 0 players!
-[22:11:08] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v13.7.3
-[22:11:08] [Server thread/INFO]: [HomeSpawn] Disabling HomeSpawn v3.1.4
-[22:11:08] [Server thread/INFO]: [HomeSpawn] HomeSpawn has been disabled
-[22:11:08] [Server thread/INFO]: [PermissionsEx] Disabling PermissionsEx v1.23.4
-[22:11:08] [Server thread/INFO]: Saving players
-[22:11:08] [Server thread/INFO]: Saving worlds
-[22:11:08] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
-[22:11:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[22:11:08] [Server thread/INFO]: Saving chunks for level 'world_nether'/minecraft:the_nether
-[22:11:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[22:11:08] [Server thread/INFO]: Saving chunks for level 'world_the_end'/minecraft:the_end
-[22:11:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[22:11:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[22:11:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[22:11:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[00:01:19] [Server thread/INFO]: Johann lost connection: Disconnected
+[00:01:19] [Server thread/INFO]: Johann has left the game.
+[00:01:21] [User Authenticator #11/INFO]: UUID of player Johann is f160dbef-552f-3b70-af9a-129d0ff0c675
+[00:01:21] [Server thread/INFO]: Johann[/0:0:0:0:0:0:0:1:57019] logged in with entity id 24043 at ([world]607.040287071658, 78.55000001192093, -128.67537945180982)
+[00:01:21] [Server thread/INFO]: [0;33;1mJohann has joined the game.[m
+[00:02:05] [Async Chat Thread - #5/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> test[m
+[00:02:09] [Async Chat Thread - #5/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> server lag af[m
+[00:02:10] [Server thread/INFO]: crystalgem lost connection: Disconnected
+[00:02:10] [Server thread/INFO]: crystalgem has left the game.
+[00:02:11] [Async Chat Thread - #5/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> damn[m
+[00:02:12] [User Authenticator #12/INFO]: UUID of player crystalgem is f321cff2-0750-3ba1-98af-66006fbafb2e
+[00:02:12] [Server thread/INFO]: crystalgem[/0:0:0:0:0:0:0:1:57023] logged in with entity id 24113 at ([world]659.1594002394968, 78.0, -180.245686505716)
+[00:02:12] [Server thread/INFO]: [0;33;1mcrystalgem has joined the game.[m
+[00:02:16] [Server thread/INFO]: Johann lost connection: Disconnected
+[00:02:16] [Server thread/INFO]: Johann has left the game.
+[00:02:19] [User Authenticator #13/INFO]: UUID of player Johann is f160dbef-552f-3b70-af9a-129d0ff0c675
+[00:02:19] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@70393ba1[id=f160dbef-552f-3b70-af9a-129d0ff0c675,name=Johann,properties={},legacy=false] (/0:0:0:0:0:0:0:1:57025): You must wait 3 seconds before logging-in again.
+[00:02:19] [Server thread/INFO]: com.mojang.authlib.GameProfile@70393ba1[id=f160dbef-552f-3b70-af9a-129d0ff0c675,name=Johann,properties={},legacy=false] (/0:0:0:0:0:0:0:1:57025) lost connection: You must wait 3 seconds before logging-in again.
+[00:02:32] [User Authenticator #14/INFO]: UUID of player Johann is f160dbef-552f-3b70-af9a-129d0ff0c675
+[00:02:32] [Server thread/INFO]: Johann[/0:0:0:0:0:0:0:1:57032] logged in with entity id 24156 at ([world]607.040287071658, 78.55000001192093, -128.67537945180982)
+[00:02:32] [Server thread/INFO]: [0;33;1mJohann has joined the game.[m
+[00:03:46] [Server thread/INFO]: [GriefPrevention] crystalgem placed a sign @ world: x662, z-174;For Han;<3
+[00:10:46] [Server thread/INFO]: crystalgem issued server command: /trust Johann
+[00:13:01] [Server thread/WARN]: Stribog moved wrongly!
+[00:13:01] [Server thread/WARN]: Stribog moved wrongly!
+[00:13:01] [Server thread/WARN]: Stribog moved wrongly!
+[00:13:02] [Server thread/WARN]: Stribog moved wrongly!
+[00:13:41] [Server thread/WARN]: Stribog moved wrongly!
+[00:13:41] [Server thread/WARN]: Stribog moved wrongly!
+[00:13:41] [Server thread/WARN]: Stribog moved wrongly!
+[00:13:41] [Server thread/WARN]: Stribog moved wrongly!
+[00:13:41] [Server thread/WARN]: Stribog moved wrongly!
+[00:13:41] [Server thread/WARN]: Stribog moved wrongly!
+[00:13:42] [Server thread/WARN]: Stribog moved wrongly!
+[00:13:42] [Server thread/WARN]: Stribog moved wrongly!
+[00:13:42] [Server thread/WARN]: Stribog moved wrongly!
+[00:13:42] [Server thread/WARN]: Stribog moved wrongly!
+[00:13:42] [Server thread/WARN]: Stribog moved wrongly!
+[00:13:42] [Server thread/WARN]: Stribog moved wrongly!
+[00:13:42] [Server thread/WARN]: Stribog moved wrongly!
+[00:13:43] [Server thread/WARN]: Stribog moved wrongly!
+[00:14:26] [Server thread/INFO]: Johann issued server command: /bal
+[00:16:24] [Server thread/INFO]: crystalgem issued server command: /warp shop
+[00:16:30] [Server thread/INFO]: Johann issued server command: /warp shop
+[00:16:59] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:17:02] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:17:02] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:17:03] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:17:03] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:17:04] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:17:04] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:17:04] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:17:04] [Server thread/INFO]: [ChestShop] Johann sold 10 Polished Andesite for 90.00 to Admin Shop at [world] 284, 48, 305
+[00:17:05] [Server thread/INFO]: [ChestShop] Johann sold 10 Polished Andesite for 90.00 to Admin Shop at [world] 284, 48, 305
+[00:17:05] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:17:05] [Server thread/INFO]: [ChestShop] Johann sold 10 Polished Andesite for 90.00 to Admin Shop at [world] 284, 48, 305
+[00:17:05] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:17:05] [Server thread/INFO]: [ChestShop] Johann sold 10 Polished Andesite for 90.00 to Admin Shop at [world] 284, 48, 305
+[00:17:06] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:17:06] [Server thread/INFO]: [ChestShop] Johann sold 10 Polished Andesite for 90.00 to Admin Shop at [world] 284, 48, 305
+[00:17:06] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:17:06] [Server thread/INFO]: [ChestShop] Johann sold 10 Polished Andesite for 90.00 to Admin Shop at [world] 284, 48, 305
+[00:17:06] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:17:07] [Server thread/INFO]: [ChestShop] Johann sold 4 Polished Andesite for 36.00 to Admin Shop at [world] 284, 48, 305
+[00:17:07] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:17:07] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:17:07] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:17:08] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:17:08] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:17:09] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:17:09] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:17:09] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:17:10] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:17:10] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:17:10] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:17:11] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:17:11] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:17:13] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:17:15] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:17:15] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:17:16] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:17:16] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:17:17] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:17:17] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:17:17] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:17:18] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:17:18] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:17:18] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:17:19] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:17:19] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:17:20] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:17:20] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:17:20] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:17:21] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:17:21] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:17:21] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:17:22] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:17:23] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:17:23] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:17:23] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:17:24] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:17:24] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:17:24] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:17:25] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:17:25] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:17:26] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:17:26] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:17:27] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:17:27] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:17:27] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:17:28] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:17:28] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:17:29] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:17:29] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:17:29] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:17:30] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:17:30] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:17:45] [Server thread/INFO]: Johann issued server command: /bal
+[00:17:51] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:17:51] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:17:52] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:17:52] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:17:53] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:17:53] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:17:53] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:17:54] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:17:54] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:17:55] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:17:55] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:17:55] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:17:56] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:17:56] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:17:56] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:17:57] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:17:57] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:17:58] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:17:58] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:17:59] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:17:59] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:18:00] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:18:00] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:18:00] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:18:01] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:18:01] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:18:01] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:18:02] [Server thread/INFO]: [ChestShop] crystalgem sold 6 Smooth Stone for 54.00 to Admin Shop at [world] 282, 48, 305
+[00:18:05] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Polished Andesite for 90.00 to Admin Shop at [world] 284, 48, 305
+[00:18:06] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Polished Andesite for 90.00 to Admin Shop at [world] 284, 48, 305
+[00:18:06] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Polished Andesite for 90.00 to Admin Shop at [world] 284, 48, 305
+[00:18:06] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Polished Andesite for 90.00 to Admin Shop at [world] 284, 48, 305
+[00:18:07] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Polished Andesite for 90.00 to Admin Shop at [world] 284, 48, 305
+[00:18:07] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Polished Andesite for 90.00 to Admin Shop at [world] 284, 48, 305
+[00:18:08] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Polished Andesite for 90.00 to Admin Shop at [world] 284, 48, 305
+[00:18:08] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Polished Andesite for 90.00 to Admin Shop at [world] 284, 48, 305
+[00:18:08] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Polished Andesite for 90.00 to Admin Shop at [world] 284, 48, 305
+[00:18:09] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Polished Andesite for 90.00 to Admin Shop at [world] 284, 48, 305
+[00:18:09] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Polished Andesite for 90.00 to Admin Shop at [world] 284, 48, 305
+[00:18:09] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Polished Andesite for 90.00 to Admin Shop at [world] 284, 48, 305
+[00:18:10] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Polished Andesite for 90.00 to Admin Shop at [world] 284, 48, 305
+[00:18:28] [Server thread/INFO]: crystalgem issued server command: /bal
+[00:19:31] [Server thread/INFO]: [ChestShop] crystalgem bought 1 Name Tag for 1000.00 from Admin Shop at [world] 297, 48, 305
+[00:19:33] [Server thread/INFO]: [ChestShop] crystalgem bought 1 Name Tag for 1000.00 from Admin Shop at [world] 297, 48, 305
+[00:21:03] [Server thread/INFO]: Johann issued server command: /warp oldshop
+[00:21:08] [Server thread/INFO]: crystalgem issued server command: /warp oldshop
+[00:21:41] [Server thread/INFO]: [ChestShop] crystalgem bought 10 Diamond for 5000.00 from Admin Shop at [world] -6, 69, 240
+[00:21:45] [Server thread/INFO]: crystalgem issued server command: /bal
+[00:21:58] [Server thread/INFO]: Johann issued server command: /home
+[00:22:04] [Server thread/INFO]: crystalgem issued server command: /home
+[00:22:10] [Server thread/INFO]: Johann issued server command: /bal
+[00:23:42] [Server thread/INFO]: Johann issued server command: /warp shop
+[00:23:50] [Server thread/INFO]: [ChestShop] Johann bought 10 Smooth Stone for 200.00 from Admin Shop at [world] 282, 48, 305
+[00:23:51] [Server thread/INFO]: [ChestShop] Johann bought 10 Smooth Stone for 200.00 from Admin Shop at [world] 282, 48, 305
+[00:23:51] [Server thread/INFO]: [ChestShop] Johann bought 10 Smooth Stone for 200.00 from Admin Shop at [world] 282, 48, 305
+[00:23:52] [Server thread/INFO]: [ChestShop] Johann bought 10 Smooth Stone for 200.00 from Admin Shop at [world] 282, 48, 305
+[00:23:58] [Server thread/INFO]: [ChestShop] Johann sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:23:58] [Server thread/INFO]: [ChestShop] Johann sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:23:59] [Server thread/INFO]: [ChestShop] Johann sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:23:59] [Server thread/INFO]: [ChestShop] Johann sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:23:59] [Server thread/INFO]: [ChestShop] Johann sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:24:00] [Server thread/INFO]: [ChestShop] Johann sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:24:00] [Server thread/INFO]: [ChestShop] Johann sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:24:00] [Server thread/INFO]: [ChestShop] Johann sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:24:01] [Server thread/INFO]: crystalgem issued server command: /warp shop
+[00:24:01] [Server thread/INFO]: [ChestShop] Johann sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:24:01] [Server thread/INFO]: [ChestShop] Johann sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:24:02] [Server thread/INFO]: [ChestShop] Johann sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:24:02] [Server thread/INFO]: [ChestShop] Johann sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:24:02] [Server thread/INFO]: [ChestShop] Johann sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:24:03] [Server thread/INFO]: [ChestShop] Johann sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:24:03] [Server thread/INFO]: [ChestShop] Johann sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:24:04] [Server thread/INFO]: [ChestShop] Johann sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:24:04] [Server thread/INFO]: [ChestShop] Johann sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:24:04] [Server thread/INFO]: [ChestShop] Johann sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:24:05] [Server thread/INFO]: [ChestShop] Johann sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:24:05] [Server thread/INFO]: [ChestShop] Johann sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:24:05] [Server thread/INFO]: [ChestShop] Johann sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:24:06] [Server thread/INFO]: [ChestShop] Johann sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:24:06] [Server thread/INFO]: [ChestShop] Johann sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:24:07] [Server thread/INFO]: [ChestShop] Johann sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:24:07] [Server thread/INFO]: [ChestShop] Johann sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:24:08] [Server thread/INFO]: [ChestShop] Johann sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:24:08] [Server thread/INFO]: [ChestShop] Johann sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:24:08] [Server thread/INFO]: [ChestShop] Johann sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:24:09] [Server thread/INFO]: [ChestShop] Johann sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:24:09] [Server thread/INFO]: [ChestShop] Johann sold 6 Smooth Stone for 54.00 to Admin Shop at [world] 282, 48, 305
+[00:24:12] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Polished Andesite for 90.00 to Admin Shop at [world] 284, 48, 305
+[00:24:12] [Server thread/INFO]: Johann issued server command: /bal
+[00:24:13] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Polished Andesite for 90.00 to Admin Shop at [world] 284, 48, 305
+[00:24:13] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Polished Andesite for 90.00 to Admin Shop at [world] 284, 48, 305
+[00:24:14] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Polished Andesite for 90.00 to Admin Shop at [world] 284, 48, 305
+[00:24:15] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Polished Andesite for 90.00 to Admin Shop at [world] 284, 48, 305
+[00:24:15] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Polished Andesite for 90.00 to Admin Shop at [world] 284, 48, 305
+[00:24:16] [Server thread/INFO]: [ChestShop] crystalgem sold 4 Polished Andesite for 36.00 to Admin Shop at [world] 284, 48, 305
+[00:24:16] [Server thread/INFO]: [ChestShop] Johann bought 1 Name Tag for 1000.00 from Admin Shop at [world] 297, 48, 305
+[00:24:18] [Server thread/INFO]: [ChestShop] Johann bought 1 Name Tag for 1000.00 from Admin Shop at [world] 297, 48, 305
+[00:24:19] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:24:19] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:24:19] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:24:20] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:24:20] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:24:21] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:24:21] [Server thread/INFO]: Johann issued server command: /home
+[00:24:21] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:24:21] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:24:22] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:24:22] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:24:22] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:24:23] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:24:23] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:24:23] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:24:24] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:24:24] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:24:25] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:24:25] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:24:25] [Server thread/INFO]: [ChestShop] crystalgem sold 10 Smooth Stone for 90.00 to Admin Shop at [world] 282, 48, 305
+[00:24:26] [Server thread/INFO]: [ChestShop] crystalgem sold 2 Smooth Stone for 18.00 to Admin Shop at [world] 282, 48, 305
+[00:24:38] [Server thread/INFO]: crystalgem issued server command: /bal
+[00:24:50] [Server thread/INFO]: crystalgem issued server command: /home
+[00:27:10] [Server thread/INFO]: Giniguy issued server command: /home
+[00:33:47] [Server thread/INFO]: Johann issued server command: /home
+[00:40:00] [Server thread/INFO]: Johann issued server command: /home
+[00:50:33] [Server thread/WARN]: Horse moved wrongly!
+[00:50:33] [Server thread/WARN]: Horse moved wrongly!
+[00:50:33] [Server thread/WARN]: Horse moved wrongly!
+[00:50:35] [Server thread/WARN]: Horse moved wrongly!
+[00:50:35] [Server thread/WARN]: Horse moved wrongly!
+[00:50:35] [Server thread/WARN]: Horse moved wrongly!
+[00:50:36] [Server thread/WARN]: Horse moved wrongly!
+[00:50:36] [Server thread/WARN]: Horse moved wrongly!
+[00:50:36] [Server thread/WARN]: Horse moved wrongly!
+[00:50:36] [Server thread/WARN]: Horse moved wrongly!
+[00:51:57] [Server thread/WARN]: FKritz moved wrongly!
+[00:54:05] [Server thread/WARN]: Horse moved wrongly!
+[00:54:05] [Server thread/WARN]: Horse moved wrongly!
+[00:54:05] [Server thread/WARN]: Horse moved wrongly!
+[00:58:24] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> is it ok if we sleep hehe[m
+[00:58:32] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> sure[m
+[00:58:34] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> hodl on[m
+[00:58:51] [Async Chat Thread - #6/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> holding[m
+[00:59:07] [Server thread/WARN]: Stribog moved wrongly!
+[00:59:07] [Server thread/WARN]: Stribog moved wrongly!
+[00:59:07] [Server thread/WARN]: Stribog moved wrongly!
+[00:59:07] [Server thread/WARN]: Stribog moved wrongly!
+[00:59:07] [Server thread/WARN]: Stribog moved wrongly!
+[00:59:08] [Server thread/WARN]: Stribog moved wrongly!
+[00:59:08] [Server thread/WARN]: Stribog moved wrongly!
+[00:59:42] [Server thread/WARN]: Stribog moved wrongly!
+[00:59:42] [Server thread/WARN]: Stribog moved wrongly!
+[00:59:42] [Server thread/WARN]: Stribog moved wrongly!
+[00:59:44] [Server thread/WARN]: Stribog moved wrongly!
+[00:59:45] [Server thread/WARN]: Stribog moved wrongly!
+[00:59:45] [Server thread/WARN]: Stribog moved wrongly!
+[00:59:45] [Server thread/WARN]: Stribog moved wrongly!
+[00:59:45] [Server thread/WARN]: Stribog moved wrongly!
+[00:59:45] [Server thread/WARN]: Stribog moved wrongly!
+[00:59:46] [Server thread/WARN]: Stribog moved wrongly!
+[00:59:46] [Server thread/WARN]: Stribog moved wrongly!
+[00:59:46] [Server thread/WARN]: Stribog moved wrongly!
+[00:59:46] [Server thread/WARN]: Stribog moved wrongly!
+[00:59:47] [Server thread/WARN]: Stribog moved wrongly!
+[00:59:47] [Server thread/WARN]: Stribog moved wrongly!
+[00:59:49] [Server thread/WARN]: Stribog moved wrongly!
+[00:59:49] [Server thread/WARN]: Stribog moved wrongly!
+[00:59:49] [Server thread/WARN]: Stribog moved wrongly!
+[00:59:49] [Server thread/WARN]: Stribog moved wrongly!
+[00:59:49] [Server thread/WARN]: Stribog moved wrongly!
+[00:59:49] [Server thread/WARN]: Stribog moved wrongly!
+[00:59:49] [Server thread/WARN]: Stribog moved wrongly!
+[00:59:50] [Server thread/WARN]: Stribog moved wrongly!
+[00:59:50] [Server thread/WARN]: Stribog moved wrongly!
+[00:59:50] [Server thread/WARN]: Stribog moved wrongly!
+[01:00:08] [Server thread/WARN]: Horse moved wrongly!
+[01:00:08] [Server thread/WARN]: Horse moved wrongly!
+[01:00:08] [Server thread/WARN]: Horse moved wrongly!
+[01:00:08] [Server thread/WARN]: Horse moved wrongly!
+[01:00:09] [Server thread/WARN]: Horse moved wrongly!
+[01:00:09] [Server thread/WARN]: Horse moved wrongly!
+[01:00:09] [Server thread/WARN]: Horse moved wrongly!
+[01:00:09] [Server thread/WARN]: Horse moved wrongly!
+[01:00:09] [Server thread/WARN]: Horse moved wrongly!
+[01:00:09] [Server thread/WARN]: Horse moved wrongly!
+[01:00:09] [Server thread/WARN]: Horse moved wrongly!
+[01:00:09] [Server thread/WARN]: Horse moved wrongly!
+[01:00:09] [Server thread/WARN]: Horse moved wrongly!
+[01:00:09] [Server thread/WARN]: Horse moved wrongly!
+[01:00:09] [Server thread/WARN]: Horse moved wrongly!
+[01:00:10] [Server thread/WARN]: Horse moved wrongly!
+[01:00:10] [Server thread/WARN]: Horse moved wrongly!
+[01:00:10] [Server thread/WARN]: Horse moved wrongly!
+[01:00:10] [Server thread/WARN]: Horse moved wrongly!
+[01:00:37] [Async Chat Thread - #7/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> sleeping[m
+[01:00:50] [Async Chat Thread - #7/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> ty[m
+[01:00:55] [Server thread/INFO]: Giniguy issued server command: /home adventure
+[01:01:00] [Server thread/INFO]: FKritz issued server command: /tpa G
+[01:01:03] [Server thread/INFO]: Giniguy issued server command: /tpaccept
+[01:01:41] [Server thread/WARN]: Johann moved too quickly! 12.948278833811514,-1.0,-5.309062388096237
+[01:01:41] [Server thread/WARN]: Giniguy moved too quickly! -9.86441844438923,0.848102406629863,1.410968276130916
+[01:02:37] [Server thread/INFO]: crystalgem issued server command: /HOME
+[01:08:46] [Server thread/INFO]: FKritz issued server command: /home fox
+[01:09:05] [Async Chat Thread - #8/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> get bcak inside[m
+[01:11:43] [Server thread/WARN]: FKritz moved too quickly! -18.211657022491636,0.0,-11.46738475939219
+[01:11:43] [Server thread/WARN]: Giniguy moved too quickly! -50.2729999717576,-6.155188353368146,-10.878135236305297
+[01:11:52] [Server thread/INFO]: FKritz issued server command: /tpa Giniguy
+[01:11:55] [Server thread/INFO]: Giniguy issued server command: /tpaccept
+[01:13:26] [Server thread/INFO]: crystalgem was slain by Ravager
+[01:13:40] [Async Chat Thread - #9/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> should we help?[m
+[01:13:45] [Server thread/INFO]: crystalgem issued server command: /tpa Johann
+[01:13:49] [Server thread/INFO]: Johann issued server command: /tpaccept
+[01:13:53] [Async Chat Thread - #9/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> up to you lol[m
+[01:14:09] [Async Chat Thread - #9/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> pwede ra shd hahha[m
+[01:15:09] [Server thread/INFO]: FKritz issued server command: /tpa Giniguy
+[01:15:12] [Server thread/INFO]: Giniguy issued server command: /tpaccept
+[01:17:08] [Server thread/INFO]: Johann was blown up by Creeper
+[01:17:13] [Server thread/INFO]: Johann issued server command: /home
+[01:17:27] [Server thread/INFO]: crystalgem issued server command: /tpaccept
+[01:18:04] [Server thread/INFO]: FKritz issued server command: /tpa Giniguy
+[01:18:20] [Server thread/INFO]: FKritz issued server command: /home
+[01:18:25] [Server thread/INFO]: Giniguy issued server command: /sethome adventure
+[01:18:26] [Server thread/INFO]: Giniguy issued server command: /home
+[01:18:52] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> asa mo joh?[m
+[01:18:56] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> spruce village?[m
+[01:18:58] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> yeop[m
+[01:19:01] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> comginw[m
+[01:19:04] [Async Chat Thread - #10/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> :D[m
+[01:19:23] [Server thread/INFO]: FKritz issued server command: /tpa Giniguy
+[01:19:30] [Server thread/INFO]: Giniguy issued server command: /tpaccept
+[01:21:22] [Async Chat Thread - #11/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> layoa na abtan[m
+[01:21:24] [Async Chat Thread - #11/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> hjahahahah[m
+[01:23:06] [Server thread/INFO]: crystalgem was slain by Vex
+[01:23:12] [Server thread/INFO]: crystalgem issued server command: /tpa Johann
+[01:23:32] [Server thread/INFO]: Johann issued server command: /tpaccept
+[01:24:23] [Async Chat Thread - #12/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> xie xie gio man[m
+[01:24:27] [Async Chat Thread - #12/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> :D[m
+[01:24:36] [Async Chat Thread - #12/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> discount time sa ako black market :3[m
+[01:24:43] [Async Chat Thread - #12/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> hahahhah[m
+[01:26:29] [Server thread/INFO]: crystalgem issued server command: /home
+[01:26:41] [Server thread/INFO]: Giniguy issued server command: /home adventure
+[01:27:12] [Server thread/INFO]: FKritz issued server command: /tpa Giniguy
+[01:27:15] [Server thread/INFO]: Giniguy issued server command: /tpaccept
+[01:27:43] [Server thread/INFO]: crystalgem issued server command: /tpa Johann
+[01:27:47] [Server thread/INFO]: Johann issued server command: /tpaccept
+[01:28:36] [Server thread/INFO]: crystalgem has made the advancement [What a Deal!]
+[01:30:31] [Server thread/INFO]: crystalgem issued server command: /home
+[01:31:01] [Server thread/INFO]: crystalgem issued server command: /tpa Johann
+[01:31:05] [Server thread/INFO]: Johann issued server command: /tpaccept
+[01:31:41] [Async Chat Thread - #13/INFO]: [m[0;33;1m[User] [0;33;1m[User] crystalgem[m [0;36;1m> sleep?[m
+[01:31:42] [Server thread/WARN]: Johann moved too quickly! 17.86373365143811,2.024424088213692,-10.3751073767516
+[01:31:42] [Server thread/WARN]: FKritz moved too quickly! -9.682486903608151,-2.0,8.940792121100458
+[01:31:42] [Server thread/WARN]: Giniguy moved too quickly! -20.456317546853825,-6.306989660228837,4.973225788276977
+[01:31:46] [Async Chat Thread - #13/INFO]: [m[0;33;1m[User] [0;33;1m[User] Giniguy[m [0;36;1m> ayt2[m
+[01:31:50] [Async Chat Thread - #13/INFO]: [m[0;33;1m[User] [0;33;1m[User] crystalgem[m [0;36;1m> thank youuu[m
+[01:31:53] [Server thread/INFO]: Giniguy issued server command: /sethome adventure
+[01:31:54] [Server thread/INFO]: FKritz issued server command: /tpa G
+[01:31:55] [Server thread/INFO]: Giniguy issued server command: /home
+[01:32:00] [Server thread/INFO]: Giniguy issued server command: /tpaccept
+[01:32:25] [Async Chat Thread - #13/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> xie[m
+[01:32:27] [Async Chat Thread - #13/INFO]: [GriefPrevention] Muted repeat message.
+[01:32:27] [Async Chat Thread - #13/INFO]: [m[0;33;1m[User] [0;33;1m[User] Johann[m [0;36;1m> xie[m
+[01:33:56] [Server thread/INFO]: FKritz lost connection: Disconnected
+[01:33:57] [Server thread/INFO]: FKritz has left the game.
+[01:33:57] [Server thread/INFO]: Giniguy lost connection: Disconnected
+[01:33:57] [Server thread/INFO]: Giniguy has left the game.
+[01:36:24] [Server thread/INFO]: crystalgem issued server command: /home
+[01:40:18] [Server thread/INFO]: Johann issued server command: /home
+[01:41:07] [Server thread/WARN]: Stribog moved wrongly!
+[01:41:07] [Server thread/WARN]: Stribog moved wrongly!
+[01:41:07] [Server thread/WARN]: Stribog moved wrongly!
+[01:41:08] [Server thread/WARN]: Stribog moved wrongly!
+[01:41:08] [Server thread/WARN]: Stribog moved wrongly!
+[01:41:08] [Server thread/WARN]: Stribog moved wrongly!
+[01:41:08] [Server thread/WARN]: Stribog moved wrongly!
+[01:41:08] [Server thread/WARN]: Stribog moved wrongly!
+[01:41:14] [Server thread/WARN]: Stribog moved wrongly!
+[01:41:14] [Server thread/WARN]: Stribog moved wrongly!
+[01:41:14] [Server thread/WARN]: Stribog moved wrongly!
+[01:41:47] [Server thread/WARN]: Stribog moved wrongly!
+[01:41:47] [Server thread/WARN]: Stribog moved wrongly!
+[01:41:47] [Server thread/WARN]: Stribog moved wrongly!
+[01:41:47] [Server thread/WARN]: Stribog moved wrongly!
+[01:41:50] [Server thread/WARN]: Stribog moved wrongly!
+[01:41:50] [Server thread/WARN]: Stribog moved wrongly!
+[01:41:50] [Server thread/WARN]: Stribog moved wrongly!
+[01:41:51] [Server thread/WARN]: Stribog moved wrongly!
+[01:41:51] [Server thread/WARN]: Stribog moved wrongly!
+[01:41:51] [Server thread/WARN]: Stribog moved wrongly!
+[01:41:52] [Server thread/WARN]: Stribog moved wrongly!
+[01:41:52] [Server thread/WARN]: Stribog moved wrongly!
+[01:41:52] [Server thread/WARN]: Stribog moved wrongly!
+[01:41:52] [Server thread/WARN]: Stribog moved wrongly!
+[01:41:52] [Server thread/WARN]: Stribog moved wrongly!
+[01:42:37] [Server thread/WARN]: Horse moved wrongly!
+[01:42:37] [Server thread/WARN]: Horse moved wrongly!
+[01:42:38] [Server thread/WARN]: Horse moved wrongly!
+[01:43:49] [Server thread/INFO]: crystalgem issued server command: /home
+[01:44:06] [Server thread/INFO]: crystalgem issued server command: /tpa Johann
+[01:44:09] [Server thread/INFO]: Johann issued server command: /tpaccept
+[01:44:16] [Server thread/INFO]: Johann lost connection: Disconnected
+[01:44:16] [Server thread/INFO]: Johann has left the game.
+[01:44:17] [User Authenticator #15/INFO]: UUID of player Johann is f160dbef-552f-3b70-af9a-129d0ff0c675
+[01:44:17] [Server thread/INFO]: Johann[/0:0:0:0:0:0:0:1:57130] logged in with entity id 45827 at ([world]773.7400465512401, 65.0, -461.2556896976515)
+[01:44:17] [Server thread/INFO]: [0;33;1mJohann has joined the game.[m
+[01:44:19] [Craft Scheduler Thread - 103/INFO]: [SkinsRestorer] [SkinsRestorer] Trying Mojang API to get UUID for player rodrigue_.
+[01:44:28] [Server thread/WARN]: Stribog moved wrongly!
+[01:44:28] [Server thread/WARN]: Stribog moved wrongly!
+[01:44:48] [Server thread/WARN]: Stribog moved wrongly!
+[01:45:46] [Server thread/WARN]: Stribog moved wrongly!
+[01:45:46] [Server thread/WARN]: Stribog moved wrongly!
+[01:45:46] [Server thread/WARN]: Stribog moved wrongly!
+[01:45:48] [Server thread/WARN]: Horse moved wrongly!
+[01:45:48] [Server thread/WARN]: Horse moved wrongly!
+[01:45:48] [Server thread/WARN]: Horse moved wrongly!
+[01:45:48] [Server thread/WARN]: Horse moved wrongly!
+[01:45:49] [Server thread/WARN]: Horse moved wrongly!
+[01:45:49] [Server thread/WARN]: Horse moved wrongly!
+[01:45:49] [Server thread/WARN]: Horse moved wrongly!
+[01:45:58] [Server thread/WARN]: Horse moved wrongly!
+[01:45:58] [Server thread/WARN]: Horse moved wrongly!
+[01:45:58] [Server thread/WARN]: Horse moved wrongly!
+[01:45:58] [Server thread/WARN]: Horse moved wrongly!
+[01:45:58] [Server thread/WARN]: Horse moved wrongly!
+[01:45:58] [Server thread/WARN]: Horse moved wrongly!
+[01:45:58] [Server thread/WARN]: Horse moved wrongly!
+[01:49:37] [Server thread/INFO]: crystalgem has made the advancement [Cover Me With Diamonds]
+[01:52:06] [Server thread/WARN]: Stribog moved wrongly!
+[01:52:06] [Server thread/WARN]: Horse moved wrongly!
+[01:52:06] [Server thread/WARN]: Stribog moved wrongly!
+[01:52:06] [Server thread/WARN]: Horse moved wrongly!
+[01:52:06] [Server thread/WARN]: Stribog moved wrongly!
+[01:52:06] [Server thread/WARN]: Horse moved wrongly!
+[01:52:11] [Server thread/WARN]: Stribog moved wrongly!
+[01:52:11] [Server thread/WARN]: Stribog moved wrongly!
+[01:52:11] [Server thread/WARN]: Stribog moved wrongly!
+[01:52:12] [Server thread/WARN]: Stribog moved wrongly!
+[01:52:12] [Server thread/WARN]: Stribog moved wrongly!
+[01:52:12] [Server thread/WARN]: Stribog moved wrongly!
+[01:52:12] [Server thread/WARN]: Stribog moved wrongly!
+[01:52:12] [Server thread/WARN]: Stribog moved wrongly!
+[01:52:12] [Server thread/WARN]: Stribog moved wrongly!
+[01:52:24] [Server thread/WARN]: Stribog moved wrongly!
+[01:52:24] [Server thread/WARN]: Stribog moved wrongly!
+[01:52:24] [Server thread/WARN]: Stribog moved wrongly!
+[01:52:25] [Server thread/WARN]: Horse moved wrongly!
+[01:52:25] [Server thread/WARN]: Horse moved wrongly!
+[01:52:25] [Server thread/WARN]: Horse moved wrongly!
+[01:52:32] [Server thread/WARN]: Horse moved wrongly!
+[01:52:32] [Server thread/WARN]: Horse moved wrongly!
+[01:52:32] [Server thread/WARN]: Horse moved wrongly!
+[01:53:31] [Server thread/WARN]: Stribog moved wrongly!
+[01:53:31] [Server thread/WARN]: Stribog moved wrongly!
+[01:53:31] [Server thread/WARN]: Stribog moved wrongly!
+[01:53:42] [Server thread/WARN]: Stribog moved wrongly!
+[01:53:42] [Server thread/WARN]: Stribog moved wrongly!
+[01:53:42] [Server thread/WARN]: Stribog moved wrongly!
+[01:53:42] [Server thread/WARN]: Stribog moved wrongly!
+[01:53:42] [Server thread/WARN]: Stribog moved wrongly!
+[01:53:42] [Server thread/WARN]: Stribog moved wrongly!
+[01:53:47] [Server thread/WARN]: Stribog moved wrongly!
+[01:53:47] [Server thread/WARN]: Stribog moved wrongly!
+[01:53:50] [Server thread/INFO]: Johann lost connection: Disconnected
+[01:53:51] [Server thread/INFO]: Johann has left the game.
+[01:53:52] [User Authenticator #16/INFO]: UUID of player Johann is f160dbef-552f-3b70-af9a-129d0ff0c675
+[01:53:52] [Server thread/INFO]: Johann[/0:0:0:0:0:0:0:1:57145] logged in with entity id 48114 at ([world]711.5927680839853, 76.0, -177.7643358804138)
+[01:53:52] [Server thread/INFO]: [0;33;1mJohann has joined the game.[m
+[01:54:06] [Server thread/INFO]: crystalgem lost connection: Disconnected
+[01:54:06] [Server thread/INFO]: crystalgem has left the game.
+[01:54:08] [User Authenticator #17/INFO]: UUID of player crystalgem is f321cff2-0750-3ba1-98af-66006fbafb2e
+[01:54:09] [Server thread/INFO]: crystalgem[/0:0:0:0:0:0:0:1:57147] logged in with entity id 48130 at ([world]781.7731906510662, 65.0, -165.4777075685715)
+[01:54:09] [Server thread/INFO]: [0;33;1mcrystalgem has joined the game.[m
+[01:56:01] [Server thread/WARN]: Horse moved wrongly!
+[01:56:01] [Server thread/WARN]: Horse moved wrongly!
+[01:56:01] [Server thread/WARN]: Horse moved wrongly!
+[01:56:01] [Server thread/WARN]: Horse moved wrongly!
+[01:56:01] [Server thread/WARN]: Horse moved wrongly!
+[01:56:01] [Server thread/WARN]: Horse moved wrongly!
+[01:56:05] [Server thread/WARN]: Horse moved wrongly!
+[01:56:05] [Server thread/WARN]: Horse moved wrongly!
+[01:56:05] [Server thread/WARN]: Horse moved wrongly!
+[01:56:05] [Server thread/WARN]: Horse moved wrongly!
+[01:56:06] [Server thread/WARN]: Horse moved wrongly!
+[01:56:06] [Server thread/WARN]: Horse moved wrongly!
+[01:56:06] [Server thread/WARN]: Horse moved wrongly!
+[01:56:06] [Server thread/WARN]: Horse moved wrongly!
+[01:56:06] [Server thread/WARN]: Horse moved wrongly!
+[01:56:06] [Server thread/WARN]: Horse moved wrongly!
+[01:56:06] [Server thread/WARN]: Horse moved wrongly!
+[01:56:06] [Server thread/WARN]: Horse moved wrongly!
+[01:56:06] [Server thread/WARN]: Horse moved wrongly!
+[01:56:07] [Server thread/WARN]: Horse moved wrongly!
+[01:56:07] [Server thread/WARN]: Horse moved wrongly!
+[01:56:07] [Server thread/WARN]: Horse moved wrongly!
+[01:56:07] [Server thread/WARN]: Horse moved wrongly!
+[01:56:40] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mYOU KNOW WHAT TIME IT IS :3 In 15 Minutes![m
+[02:01:40] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mYOU KNOW WHAT TIME IT IS :3 In 10 Minutes![m
+[02:01:56] [Server thread/WARN]: Horse moved wrongly!
+[02:01:56] [Server thread/WARN]: Horse moved wrongly!
+[02:01:58] [Server thread/WARN]: Horse moved wrongly!
+[02:01:58] [Server thread/WARN]: Horse moved wrongly!
+[02:01:59] [Server thread/WARN]: Horse moved wrongly!
+[02:01:59] [Server thread/WARN]: Horse moved wrongly!
+[02:01:59] [Server thread/WARN]: Horse moved wrongly!
+[02:01:59] [Server thread/WARN]: Horse moved wrongly!
+[02:01:59] [Server thread/WARN]: Horse moved wrongly!
+[02:01:59] [Server thread/WARN]: Horse moved wrongly!
+[02:01:59] [Server thread/WARN]: Horse moved wrongly!
+[02:01:59] [Server thread/WARN]: Horse moved wrongly!
+[02:01:59] [Server thread/WARN]: Horse moved wrongly!
+[02:01:59] [Server thread/WARN]: Horse moved wrongly!
+[02:02:00] [Server thread/WARN]: Horse moved wrongly!
+[02:02:00] [Server thread/WARN]: Horse moved wrongly!
+[02:02:00] [Server thread/WARN]: Horse moved wrongly!
+[02:02:10] [Server thread/WARN]: Horse moved wrongly!
+[02:02:10] [Server thread/WARN]: Horse moved wrongly!
+[02:02:10] [Server thread/WARN]: Horse moved wrongly!
+[02:02:10] [Server thread/WARN]: Horse moved wrongly!
+[02:02:11] [Server thread/WARN]: Horse moved wrongly!
+[02:02:11] [Server thread/WARN]: Horse moved wrongly!
+[02:02:11] [Server thread/WARN]: Horse moved wrongly!
+[02:02:11] [Server thread/WARN]: Horse moved wrongly!
+[02:03:39] [Server thread/INFO]: Johann issued server command: /home
+[02:03:50] [Server thread/INFO]: Johann lost connection: Disconnected
+[02:03:50] [Server thread/INFO]: Johann has left the game.
+[02:04:49] [Server thread/INFO]: crystalgem lost connection: Disconnected
+[02:04:49] [Server thread/INFO]: crystalgem has left the game.
+[02:06:38] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mYOU KNOW WHAT TIME IT IS :3 In 5 Minutes![m
+[02:10:38] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mYOU KNOW WHAT TIME IT IS :3 In 1 Minutes![m
+[02:11:33] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mGOODBYE in 5 Seconds![m
+[02:11:34] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mGOODBYE in 4 Seconds![m
+[02:11:35] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mGOODBYE in 3 Seconds![m
+[02:11:36] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mGOODBYE in 2 Seconds![m
+[02:11:37] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1mGOODBYE in 1 Seconds![m
+[02:11:37] [Server thread/INFO]: [0;37;1m[[0;37;22mAutoRestart[0;37;1m] [0;33;1m[0;31;1mServer Restarting![m
+[02:11:37] [Server thread/INFO]: CONSOLE issued server command: /kickall §cServer Restarting! We will be back up any minute!
+[02:11:37] [Server thread/INFO]: [0;31;22mKicked all players from server.[m
+[02:11:37] [Server thread/INFO]: Attempting to restart with run.bat
+[02:11:37] [Server thread/INFO]: Stopping server
+[02:11:37] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.17.0.0
+[02:11:37] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.17.0.0
+[02:11:37] [Server thread/INFO]: [Essentials] Disabling Essentials v2.17.0.0
+[02:11:37] [Server thread/INFO]: [Vault] [Vault][Economy] Essentials Economy unhooked.
+[02:11:37] [Server thread/INFO]: [ChestShop] Disabling ChestShop v3.10-SNAPSHOT (build 137)
+[02:11:37] [Server thread/INFO]: [GriefPrevention] Disabling GriefPrevention v16.11.6
+[02:11:37] [Server thread/INFO]: [GriefPrevention] GriefPrevention disabled.
+[02:11:37] [Server thread/INFO]: [Stargate] Disabling Stargate v0.8.2
+[02:11:37] [Server thread/INFO]: Closing all stargates.
+[02:11:37] [Server thread/INFO]: [Vault] Disabling Vault v1.7.2-b107
+[02:11:37] [Server thread/INFO]: [AutoRestart] Disabling AutoRestart v3.3.3
+[02:11:37] [Server thread/INFO]: [mcMMO] Disabling mcMMO v2.1.100-SNAPSHOT
+[02:11:37] [Server thread/INFO]: [mcMMO] Saving mcMMOPlayers... (0)
+[02:11:37] [Server thread/INFO]: [mcMMO] Finished save operation for 0 players!
+[02:11:37] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v13.7.3
+[02:11:37] [Server thread/INFO]: [HomeSpawn] Disabling HomeSpawn v3.1.4
+[02:11:37] [Server thread/INFO]: [HomeSpawn] HomeSpawn has been disabled
+[02:11:37] [Server thread/INFO]: [PermissionsEx] Disabling PermissionsEx v1.23.4
+[02:11:37] [Server thread/INFO]: Saving players
+[02:11:38] [Server thread/INFO]: Saving worlds
+[02:11:38] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
+[02:11:38] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[02:11:38] [Server thread/INFO]: Saving chunks for level 'world_nether'/minecraft:the_nether
+[02:11:38] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[02:11:38] [Server thread/INFO]: Saving chunks for level 'world_the_end'/minecraft:the_end
+[02:11:38] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[02:11:38] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[02:11:38] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[02:11:38] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
