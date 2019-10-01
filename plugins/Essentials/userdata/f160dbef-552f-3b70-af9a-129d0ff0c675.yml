@@ -1,7 +1,7 @@
 lastAccountName: Johann
 timestamps:
-  login: 1569849588762
-  logout: 1569849732285
+  login: 1569907908772
+  logout: 1569908033352
   lastteleport: 1569825424834
 ipAddress: 0:0:0:0:0:0:0:1
 lastlocation:
@@ -13,9 +13,9 @@ lastlocation:
   pitch: 25.4999
 logoutlocation:
   world: world
-  x: 749.6999999880791
-  y: 86.0
-  z: -181.802662612513
-  yaw: 87.59589
-  pitch: 23.999886
+  x: 743.0434884706887
+  y: 70.9375
+  z: -201.71226578854194
+  yaw: 9.748413
+  pitch: 2.5502455
 money: '3282.0'
