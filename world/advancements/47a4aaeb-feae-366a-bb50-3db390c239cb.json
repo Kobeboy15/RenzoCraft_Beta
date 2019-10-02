@@ -3892,6 +3892,7 @@
   "minecraft:husbandry/complete_catalogue": {
     "criteria": {
       "textures/entity/cat/white.png": "2019-08-07 23:26:48 +0800",
+      "textures/entity/cat/tabby.png": "2019-10-02 22:15:44 +0800",
       "textures/entity/cat/jellie.png": "2019-08-16 22:48:19 +0800",
       "textures/entity/cat/black.png": "2019-08-21 11:28:23 +0800",
       "textures/entity/cat/british_shorthair.png": "2019-09-15 20:18:45 +0800",
