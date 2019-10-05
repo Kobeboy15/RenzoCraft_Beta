@@ -1,21 +1,21 @@
 lastAccountName: crystalgem
 timestamps:
-  login: 1570276083522
-  logout: 1570281457556
-  lastteleport: 1570279399041
+  login: 1570291181343
+  logout: 1570293739077
+  lastteleport: 1570292647450
 ipAddress: 0:0:0:0:0:0:0:1
 lastlocation:
   world: world
-  x: 827.0474299960237
-  y: 63.0
-  z: 860.5680780610219
-  yaw: -228.55678
-  pitch: -2.3999395
+  x: 557.1818394052868
+  y: 72.0
+  z: 2591.992646864322
+  yaw: -231.80287
+  pitch: 1.1999233
 logoutlocation:
   world: world
-  x: 659.1858866257656
+  x: 657.3810315492105
   y: 85.5625
-  z: -176.03777669923372
-  yaw: -221.98538
-  pitch: 27.450027
+  z: -177.57617793354638
+  yaw: -93.74011
+  pitch: 10.649856
 money: '9585.0'
