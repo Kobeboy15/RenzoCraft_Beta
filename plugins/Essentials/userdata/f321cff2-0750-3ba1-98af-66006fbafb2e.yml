@@ -1,21 +1,21 @@
 lastAccountName: crystalgem
 timestamps:
-  login: 1570621505054
-  logout: 1570624299106
-  lastteleport: 1570368812298
+  login: 1570625587752
+  logout: 1570630413405
+  lastteleport: 1570626055437
 ipAddress: 0:0:0:0:0:0:0:1
 lastlocation:
-  world: world_nether
-  x: 169.32684783604648
-  y: 93.0
-  z: 76.1071946520107
-  yaw: -203.09436
-  pitch: 5.250004
+  world: world
+  x: 660.8865179916714
+  y: 78.0
+  z: -171.69999998807907
+  yaw: -37.77246
+  pitch: 24.749987
 logoutlocation:
   world: world
-  x: 660.2443806754088
-  y: 85.5
-  z: -178.50024836169644
-  yaw: -203.38916
-  pitch: 26.549994
+  x: 657.9850651645676
+  y: 85.5625
+  z: -178.36714402646282
+  yaw: -72.568115
+  pitch: 11.699901
 money: '9585.0'
