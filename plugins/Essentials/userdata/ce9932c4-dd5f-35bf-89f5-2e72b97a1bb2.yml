@@ -1,8 +1,8 @@
 lastAccountName: kdremeds
 timestamps:
-  login: 1570106907850
+  login: 1570863990256
   lastteleport: 1568995593766
-  logout: 1570107307295
+  logout: 1570864540693
 ipAddress: 0:0:0:0:0:0:0:1
 lastlocation:
   world: world
@@ -13,9 +13,9 @@ lastlocation:
   pitch: 18.484571
 logoutlocation:
   world: world
-  x: 840.2512628006548
-  y: 63.0
-  z: 84.13964025515943
-  yaw: 187.00562
-  pitch: 14.796545
+  x: 817.4509325354556
+  y: 66.0
+  z: -454.1816426707047
+  yaw: 334.19543
+  pitch: 4.584689
 money: '2880.0'
