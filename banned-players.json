@@ -1,10 +1,34 @@
 [
   {
+    "uuid": "30790225-afaa-3b28-b817-5f482c611d21",
+    "name": "kimremeds",
+    "created": "2019-10-13 15:38:41 +0800",
+    "source": "GriefPrevention Anti-Spam",
+    "expires": "forever",
+    "reason": "Banned for spam."
+  },
+  {
     "uuid": "1d97bf19-27a2-392c-8bd5-290d6f7d40ea",
     "name": "ImCrack_PvPYT",
     "created": "2019-09-07 09:29:47 +0800",
     "source": "GriefPrevention Anti-Spam",
     "expires": "forever",
     "reason": "Banned for spam."
+  },
+  {
+    "uuid": "da40a074-9c6b-353d-ab4c-640bd2c878a4",
+    "name": "kimremedsss",
+    "created": "2019-10-13 15:43:02 +0800",
+    "source": "GriefPrevention Smart Ban - Shared Login:kimremeds",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  },
+  {
+    "uuid": "91983456-4937-31d7-b375-e0668dedf598",
+    "name": "kimremedio2",
+    "created": "2019-10-13 15:41:15 +0800",
+    "source": "GriefPrevention Smart Ban - Shared Login:kimremeds",
+    "expires": "forever",
+    "reason": "Banned by an operator."
   }
 ]
