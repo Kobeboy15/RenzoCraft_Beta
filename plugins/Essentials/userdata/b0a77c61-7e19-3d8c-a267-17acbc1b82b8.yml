@@ -1,8 +1,8 @@
 lastAccountName: lanzkiez123
 timestamps:
-  login: 1571145712450
+  login: 1571163770590
   lastteleport: 1571151432500
-  logout: 1571151719661
+  logout: 1571164037503
 ipAddress: 0:0:0:0:0:0:0:1
 lastlocation:
   world: world
@@ -13,8 +13,8 @@ lastlocation:
   pitch: 14.656747
 logoutlocation:
   world: world
-  x: 844.9840533128088
+  x: 843.6584797455221
   y: 65.0
-  z: -1220.7739776071107
-  yaw: -157.40186
-  pitch: 26.446062
+  z: -1228.1790616949804
+  yaw: -0.6809082
+  pitch: 21.352629
