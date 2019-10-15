@@ -1,7 +1,7 @@
 lastAccountName: bjrhoy
 timestamps:
-  login: 1571142522472
-  logout: 1571144455572
+  login: 1571146848502
+  logout: 1571151718110
 ipAddress: 0:0:0:0:0:0:0:1
 lastlocation:
   world: world
@@ -12,8 +12,8 @@ lastlocation:
   pitch: 16.164602
 logoutlocation:
   world: world
-  x: 846.2954270668611
+  x: 845.7963468511359
   y: 65.0
-  z: -1223.9864658375002
-  yaw: 214.20758
-  pitch: 18.652233
+  z: -1221.916454567671
+  yaw: 59.796204
+  pitch: 10.496608
