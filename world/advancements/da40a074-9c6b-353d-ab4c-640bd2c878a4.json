@@ -53,6 +53,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/magenta_dye_from_lilac": {
+    "criteria": {
+      "has_double_plant": "2019-10-23 23:02:15 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/stone_bricks": {
     "criteria": {
       "has_stone": "2019-10-20 20:42:49 +0800"
@@ -119,6 +125,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/pumpkin_seeds": {
+    "criteria": {
+      "has_pumpkin": "2019-10-23 23:16:42 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/birch_pressure_plate": {
     "criteria": {
       "has_planks": "2019-10-20 20:39:02 +0800"
@@ -176,6 +188,12 @@
   "minecraft:recipes/building_blocks/smooth_stone": {
     "criteria": {
       "has_stone": "2019-10-20 20:42:49 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/melon_seeds": {
+    "criteria": {
+      "has_melon": "2019-10-23 23:16:40 +0800"
     },
     "done": true
   },
@@ -326,6 +344,12 @@
   "minecraft:recipes/food/mushroom_stew": {
     "criteria": {
       "has_red_mushroom": "2019-10-20 21:38:55 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/emerald_block": {
+    "criteria": {
+      "has_at_least_9_emerald": "2019-10-23 23:05:23 +0800"
     },
     "done": true
   },
@@ -484,6 +508,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/brick": {
+    "criteria": {
+      "has_clay_ball": "2019-10-23 22:59:40 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/hay_block": {
     "criteria": {
       "has_at_least_9_wheat": "2019-10-20 20:38:36 +0800"
@@ -547,6 +577,12 @@
   "minecraft:recipes/redstone/lectern": {
     "criteria": {
       "has_book": "2019-10-20 22:07:38 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/emerald": {
+    "criteria": {
+      "has_at_least_9_emerald": "2019-10-23 23:05:23 +0800"
     },
     "done": true
   },
@@ -619,6 +655,12 @@
   "minecraft:recipes/decorations/orange_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2019-10-20 21:14:31 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_rose_bush": {
+    "criteria": {
+      "has_double_plant": "2019-10-23 23:02:36 +0800"
     },
     "done": true
   },
@@ -1007,6 +1049,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/brewing/glistering_melon_slice": {
+    "criteria": {
+      "has_melon": "2019-10-23 23:16:40 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/light_gray_dye_from_azure_bluet": {
     "criteria": {
       "has_red_flower": "2019-10-20 21:11:25 +0800"
@@ -1219,6 +1267,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/pink_dye_from_peony": {
+    "criteria": {
+      "has_double_plant": "2019-10-23 23:03:20 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/golden_chestplate": {
     "criteria": {
       "has_gold_ingot": "2019-10-20 20:39:56 +0800"
@@ -1264,6 +1318,12 @@
   "minecraft:recipes/building_blocks/chiseled_stone_bricks_from_stone_bricks_stonecutting": {
     "criteria": {
       "has_stone_bricks": "2019-10-20 22:01:27 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/leather": {
+    "criteria": {
+      "has_rabbit_hide": "2019-10-23 23:13:00 +0800"
     },
     "done": true
   },
@@ -1324,6 +1384,12 @@
   "minecraft:recipes/misc/yellow_dye_from_dandelion": {
     "criteria": {
       "has_yellow_flower": "2019-10-20 20:51:04 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/clay": {
+    "criteria": {
+      "has_clay_ball": "2019-10-23 22:59:40 +0800"
     },
     "done": true
   },
@@ -1674,7 +1740,9 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:jungle_edge": "2019-10-20 19:59:41 +0800",
+      "minecraft:cold_ocean": "2019-10-23 23:05:11 +0800",
       "minecraft:forest": "2019-10-20 20:00:26 +0800",
+      "minecraft:mountains": "2019-10-23 23:09:32 +0800",
       "minecraft:beach": "2019-10-20 20:00:03 +0800",
       "minecraft:river": "2019-10-20 19:59:38 +0800",
       "minecraft:wooded_hills": "2019-10-20 21:20:26 +0800",
@@ -1725,6 +1793,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/brewing/fermented_spider_eye": {
+    "criteria": {
+      "has_spider_eye": "2019-10-23 23:12:17 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/stone_pickaxe": {
     "criteria": {
       "has_cobblestone": "2019-10-20 20:39:12 +0800"
@@ -1734,6 +1808,12 @@
   "minecraft:recipes/decorations/smithing_table": {
     "criteria": {
       "has_iron_ingot": "2019-10-20 20:35:13 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_nuggets": {
+    "criteria": {
+      "has_at_least_9_iron_nugget": "2019-10-23 23:05:23 +0800"
     },
     "done": true
   },
@@ -1812,6 +1892,12 @@
   "minecraft:recipes/transportation/dark_oak_boat": {
     "criteria": {
       "in_water": "2019-10-20 20:00:12 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/pumpkin_pie": {
+    "criteria": {
+      "has_pumpkin": "2019-10-23 23:16:42 +0800"
     },
     "done": true
   },
@@ -1944,6 +2030,18 @@
   "minecraft:recipes/tools/stone_axe": {
     "criteria": {
       "has_cobblestone": "2019-10-20 20:39:12 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/melon": {
+    "criteria": {
+      "has_melon": "2019-10-23 23:16:40 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/white_dye_from_lily_of_the_valley": {
+    "criteria": {
+      "has_white_flower": "2019-10-23 23:07:22 +0800"
     },
     "done": true
   },
