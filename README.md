@@ -1,5 +1,5 @@
 # RenzoCraft_Beta
-A mini-server running SpigotMC for Minecraft
+A mini-server running SpigotMC for Minecraft and hosted using Ngrok.
 
 ## Instructions on Running the Server
 1. You need to create an account in [Ngrok](https://ngrok.com/)
