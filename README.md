@@ -1,8 +1,8 @@
 # RenzoCraft_Beta
 A mini-server running SpigotMC for Minecraft
 
-#Instructions on Running the Server
-1.) You need to create an account in Ngrok
+## Instructions on Running the Server
+1.) You need to create an account in [Ngrok](https://ngrok.com/)
 2.) Right Click on run.bat and adjust the amount of ram allocated
     (Change only the number, the number is the amount of ram in gigabytes)(ex. -Xmx3G -> 3 gigabytes)
 3.) Save
